@@ -1,0 +1,55 @@
+CUTTLEFLOW COMMONS — ATTRIBUTION AND TRADE MARK NOTICE
+======================================================
+
+1. What this collection is
+--------------------------
+This package contains Australian insurance policy wordings from the
+Meridian series, published by Cuttleflow Systems Pty Ltd as part of the
+Cuttleflow Commons — an open library of policy wordings made available for
+insurers, coverholders, and brokers to use and adapt.
+
+2. Licence
+----------
+The wording text in each document is licensed under the Creative Commons
+Attribution 4.0 International Licence (CC BY 4.0). The full licence text is
+in the file LICENSE.txt in this package, and the canonical version is at
+https://creativecommons.org/licenses/by/4.0/. You may copy, adapt, and
+redistribute the wordings, including for commercial use, provided you give
+attribution as set out in section 3.
+
+3. Required attribution
+-----------------------
+If you use or adapt a wording from this collection, you must credit the
+source. The following attribution satisfies the licence:
+
+    "Based on the Meridian [wording name] wording, published by Cuttleflow
+    Systems Pty Ltd under CC BY 4.0. Source: the Cuttleflow Commons.
+    Changes were made." (Omit the final sentence if you have not changed the text.)
+
+You must not suggest that Cuttleflow Systems endorses you or your use of
+the wording. Where you have adapted a wording, the attribution must make
+clear that changes were made, so that the adapted version is not mistaken
+for the published version.
+
+4. Trade marks and brand assets are not licensed
+------------------------------------------------
+The CC BY 4.0 licence applies to the wording text only. It does not grant
+any right to use:
+
+    - the name "Cuttleflow" or "Cuttleflow Systems";
+    - the name "Meridian" as applied to these wordings;
+    - the Cuttleflow bearing mark, logos, colours, or typography.
+
+These remain the property of Cuttleflow Systems Pty Ltd. If you adapt a
+wording, remove the Cuttleflow and Meridian branding from your version and
+apply your own, keeping only the attribution text required by section 3.
+
+5. No advice and no warranty
+----------------------------
+These wordings are provided as source material, not as legal or insurance
+advice, and without warranty of any kind. Each adopter is responsible for
+its own legal review, regulatory compliance, capacity-provider approval,
+and reinsurance alignment before use. See README.txt for the current draft
+and review status of each wording.
+
+© 2026 Cuttleflow Systems Pty Ltd. Wording text licensed under CC BY 4.0.

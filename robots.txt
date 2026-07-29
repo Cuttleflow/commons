@@ -1,0 +1,4 @@
+# Pre-launch. The Commons opens 2 September 2026.
+# On launch day, replace this file with robots.LAUNCH.txt.
+User-agent: *
+Disallow: /
