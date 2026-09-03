@@ -4,7 +4,7 @@ CUTTLEFLOW COMMONS — ATTRIBUTION AND TRADE MARK NOTICE
 1. What this collection is
 --------------------------
 This package contains Australian insurance policy wordings from the
-Meridian series, published by Cuttleflow Systems Pty Ltd as part of the
+Meridian series, published by Cuttleflow Pty Ltd t/a Cuttleflow Systems as part of the
 Cuttleflow Commons — an open library of policy wordings made available for
 insurers, coverholders, and brokers to use and adapt.
 
@@ -40,7 +40,7 @@ any right to use:
     - the name "Meridian" as applied to these wordings;
     - the Cuttleflow bearing mark, logos, colours, or typography.
 
-These remain the property of Cuttleflow Systems Pty Ltd. If you adapt a
+These remain the property of Cuttleflow Pty Ltd t/a Cuttleflow Systems. If you adapt a
 wording, remove the Cuttleflow and Meridian branding from your version and
 apply your own, keeping only the attribution text required by section 3.
 
@@ -52,4 +52,4 @@ its own legal review, regulatory compliance, capacity-provider approval,
 and reinsurance alignment before use. See README.txt for the current draft
 and review status of each wording.
 
-© 2026 Cuttleflow Systems Pty Ltd. Wording text licensed under CC BY 4.0.
+© 2026 Cuttleflow Pty Ltd t/a Cuttleflow Systems. Wording text licensed under CC BY 4.0.
