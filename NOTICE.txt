@@ -23,7 +23,7 @@ If you use or adapt a wording from this collection, you must credit the
 source. The following attribution satisfies the licence:
 
     "Based on the Meridian [wording name] wording, published by Cuttleflow
-    Systems Pty Ltd under CC BY 4.0. Source: the Cuttleflow Commons.
+    Pty Ltd t/a Cuttleflow Systems under CC BY 4.0. Source: the Cuttleflow Commons.
     Changes were made." (Omit the final sentence if you have not changed the text.)
 
 You must not suggest that Cuttleflow Systems endorses you or your use of

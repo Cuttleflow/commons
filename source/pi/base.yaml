@@ -1,0 +1,122 @@
+id: pi-base
+title: Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE
+kicker: Meridian Commons · Professional Indemnity
+slug: professional-indemnity
+file_stem: Meridian_Professional_Indemnity
+doc_ref: 2026/PI/0001
+version: 1.3.0-DRAFT
+date: October 2026
+draft: true
+summary: Civil-liability cover for professional services, written on a claims-made
+  basis.
+structure:
+- section: preamble
+  clauses:
+  - pi.about
+  - pi.version-history
+  - pi.schedule
+- section: pi.section.definitions
+  clauses:
+  - pi.def.business-activity
+  - pi.def.claim
+  - pi.def.company
+  - pi.def.computer-system
+  - pi.def.confidential-information
+  - pi.def.defence-costs
+  - pi.def.employee
+  - pi.def.endorsement
+  - pi.def.excess
+  - pi.def.final-adjudication
+  - pi.def.geographical-limits
+  - pi.def.insured-person
+  - pi.def.joint-venture
+  - pi.def.limit-of-liability
+  - pi.def.loss
+  - pi.def.named-insured
+  - pi.def.policy-period
+  - pi.def.pollution
+  - pi.def.predecessor-practice
+  - pi.def.professional-services
+  - pi.def.retroactive-date
+  - pi.def.schedule
+  - pi.def.subsidiary
+  - pi.def.we-us-our
+  - pi.def.you-your
+- section: pi.section.cover
+  clauses:
+  - pi.cover.claims-against-you
+  - pi.cover.notification-of-circumstances
+  - pi.ext.avoiding-a-potential-claim
+- section: pi.section.extensions
+  clauses:
+  - pi.ext.loss-of-documents-and-data
+  - pi.ext.first-party-dishonesty
+  - pi.ext.statutory-liability
+  - pi.ext.inquiry-costs
+  - pi.ext.continuous-cover
+  - pi.ext.mitigation-costs
+  - pi.ext.public-relations-costs
+  - pi.ext.court-attendance
+  - pi.ext.newly-acquired-subsidiaries
+  - pi.ext.joint-ventures
+  - pi.ext.predecessor-practices
+  - pi.ext.run-off-cover
+  - pi.ext.subcontractors-and-outsourcers
+- section: pi.section.exclusions
+  clauses:
+  - pi.excl.bodily-injury-and-property-damage
+  - pi.excl.employers-liability
+  - pi.excl.directors-and-officers-liability
+  - pi.excl.cyber-event
+  - pi.excl.financial-services
+  - pi.excl.products
+  - pi.excl.contractual-liability
+  - pi.excl.deliberate-and-dishonest-acts
+  - pi.excl.prior-known-circumstances
+  - pi.excl.war-terrorism-and-sanctions
+  - pi.excl.nuclear
+  - pi.excl.asbestos
+  - pi.excl.pollution
+  - pi.excl.trading-debts-and-business-losses
+  - pi.excl.related-party-claims
+  - pi.excl.non-compensatory-payments
+- section: pi.section.payment
+  clauses:
+  - pi.pay.limit-of-liability
+  - pi.pay.sub-limits
+  - pi.pay.defence-costs
+  - pi.pay.excess
+  - pi.pay.other-insurance
+  - pi.pay.paying-out-the-limit
+  - pi.pay.allocation
+- section: pi.section.obligations
+  clauses:
+  - pi.obl.tell-us-about-claims
+  - pi.obl.tell-us-about-circumstances
+  - pi.obl.do-not-admit-liability
+  - pi.obl.cooperate-with-us
+  - pi.obl.mitigate-your-loss
+  - pi.obl.preserve-our-recovery-rights
+  - pi.obl.tell-us-about-other-insurance
+  - pi.obl.tell-us-about-changes
+  - pi.obl.individual-treatment-of-insured-persons
+- section: pi.section.conditions
+  clauses:
+  - pi.cond.insurance-contracts-act
+  - pi.cond.your-duty-of-disclosure
+  - pi.cond.cancellation
+  - pi.cond.governing-law
+  - pi.cond.jurisdiction
+  - pi.cond.gst
+  - pi.cond.several-liability
+  - pi.cond.assignment
+  - pi.cond.entire-agreement
+  - pi.cond.disputes-and-complaints
+  - pi.cond.privacy
+  - pi.cond.headings-and-references
+- section: end
+  clauses:
+  - pi.claims.how-to-make-a-claim
+  - pi.endorsement-library
+  - pi.licence-notice
