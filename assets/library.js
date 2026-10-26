@@ -4,6 +4,7 @@
    better silent than a false "no comments yet".                                     */
 var COMMONS_WORDINGS = [
   {slug:"professional-indemnity",       cls:"Professional Indemnity", t:"Professional Indemnity"},
+  {slug:"architects-engineers",         cls:"Professional Indemnity", t:"Architects and Engineers PI"},
   {slug:"directors-and-officers",       cls:"Directors & Officers",   t:"Directors & Officers"},
   {slug:"side-a-do",                    cls:"Side A D&O",             t:"Side A D&O"},
   {slug:"management-liability",         cls:"Management Liability",    t:"Management Liability"},

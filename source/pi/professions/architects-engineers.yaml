@@ -1,0 +1,51 @@
+id: pi-architects-engineers
+title: Architects and Engineers Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · ARCHITECTS AND ENGINEERS
+kicker: Meridian Commons · Professional Indemnity · Architects and Engineers
+slug: architects-engineers
+file_stem: Meridian_PI_Architects_Engineers
+doc_ref: 2026/PI/0002
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for architects, engineers, surveyors and related design professions, built on the Meridian PI base wording.
+base: pi-base@1.3.0-DRAFT
+supersedes: MERIDIAN-PI-ARCH-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+
+overrides:
+  - op: replace
+    target: pi.def.professional-services
+    with: pi.arch.def.professional-services
+  - op: add
+    clause: pi.arch.ext.registered-designs-and-plagiarism
+    after: pi.ext.subcontractors-and-outsourcers
+  - op: add
+    clause: pi.arch.excl.construction
+    after: pi.excl.products
+  - op: add
+    clause: pi.arch.excl.patent-infringement
+    after: pi.arch.excl.construction
+  - op: add
+    clause: pi.arch.excl.project-management
+    after: pi.arch.excl.patent-infringement
+  - op: add
+    clause: pi.arch.excl.warranties-and-liquidated-damages
+    after: pi.excl.contractual-liability
+  - op: add
+    clause: pi.arch.excl.excluded-activities
+    after: pi.excl.non-compensatory-payments
+
+# Regulatory points this wording depends on. Each has a review-by date.
+regulatory_basis:
+  - topic: Victoria — insurance required for endorsed building engineers (Building Act 1993 s.135; Building Practitioners' and Endorsed Building Engineers' Insurance Ministerial Order, in force 1 August 2021)
+    status: Wording must not contain an exclusion the Order prohibits; position on combustible cladding exclusion for engineers to be confirmed from the Order text
+    review_by: 2027-01-31
+  - topic: Victoria — Architects Insurance Ministerial Order (2020)
+    status: Minimum limits and at least one automatic reinstatement are required; reinstatement is available only through endorsement E08 of the base wording
+    review_by: 2027-01-31
+  - topic: NSW — Design and Building Practitioners Act 2020 and Regulation 2021
+    status: Design practitioners and professional engineers must hold insurance covering liability for regulated work from first registration (retroactive date is a schedule matter); building practitioner exemption extended to 30 June 2027
+    review_by: 2027-06-30
+  - topic: Queensland — RPEQ Code of Practice; Board of Architects of Queensland Code
+    status: Appropriate PI and disclosure to clients; no statutory minimum found
+    review_by: 2027-06-30
