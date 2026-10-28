@@ -26,7 +26,7 @@ KIND = {  # how a reference to each clause type reads
     "definition": "definition", "cover": "clause", "extension": "extension",
     "exclusion": "exclusion", "payment": "provision", "obligation": "obligation",
     "condition": "condition", "section": "section", "preamble": "section",
-    "claims": "section", "library": "", "notice": "",
+    "claims": "section", "library": "", "notice": "", "endorsement": "endorsement",
 }
 REF = re.compile(r"\[\[ref:([a-z0-9.\-]+)(\|heading)?\]\]")
 LITERAL_NUMBER = re.compile(r"\b(?:Sections?|[Cc]lauses?|[Pp]aragraph|[Ss]ub-?clause)\s+\d+(?:\.\d+)*\b")
@@ -416,6 +416,9 @@ def endorsement(manifest, base_manifest, cmap):
             old, new = cmap[op["target"]], cmap[op["with"]]
             intro = f"{ref_text(old)[0].upper() + ref_text(old)[1:]} in the base wording is deleted and replaced with the following."
             add(f"end.{i}", f"Replaced: {old['heading']}", intro + f"\n\n**{new['heading']}**\n\n" + new["body"])
+        elif kind == "add" and cmap[op["clause"]]["type"] in ("library", "endorsement"):
+            new = cmap[op["clause"]]  # optional endorsements are reproduced as they appear in the integrated wording
+            add(f"end.{i}", new["heading"], new["body"])
         elif kind == "add":
             new = cmap[op["clause"]]
             after = cmap.get(op["after"])

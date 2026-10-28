@@ -5,27 +5,23 @@ heading: Excluded Engineering Activities
 profession: architects-engineers
 since: 1.0.0
 status: draft
-note: Carried over unchanged in scope from "4.6 Excluded Activities" in MERIDIAN-PI-ARCH-v1.0.0. Limbs (a) and (b) are open coverage questions.
+note: From "4.6 Excluded Activities" in MERIDIAN-PI-ARCH-v1.0.0. Bridges and tunnels moved to an optional endorsement and environmental engineering removed (the base Pollution exclusion applies), on underwriter direction 29 October 2026.
 ---
 
 Arising from:
 
-(a) environmental engineering or pollution control;
+(a) the design or construction of dams more than 6 metres in height;
 
-(b) the design or construction of bridges or tunnels;
+(b) geological estimates prepared for a prospectus or other disclosure document;
 
-(c) the design or construction of dams more than 6 metres in height;
+(c) mineral extraction;
 
-(d) geological estimates prepared for a prospectus or other disclosure document;
+(d) oil and gas services;
 
-(e) mineral extraction;
+(e) marine surveys;
 
-(f) oil and gas services;
+(f) nuclear engineering;
 
-(g) marine surveys;
+(g) chemical engineering; or
 
-(h) nuclear engineering;
-
-(i) chemical engineering; or
-
-(j) pre-purchase building inspections.
+(h) pre-purchase building inspections.

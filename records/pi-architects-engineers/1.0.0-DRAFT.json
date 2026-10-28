@@ -122,7 +122,7 @@
   {
    "id": "pi.arch.def.professional-services",
    "heading": "Professional services",
-   "sha256": "b8073da240f9c36e015d63ce5c9aa15ec81926df8ca04251d9d6f3c1238f11d9"
+   "sha256": "5fb72bbd2d899ee49e10ee2f572c6f6252929e20921f80ed24ecc4c1d1a5abbe"
   },
   {
    "id": "pi.def.retroactive-date",
@@ -245,6 +245,11 @@
    "sha256": "18cd02e3f4e4dc760e40f9ae892968fbde463b6459de6491230beff6acdd9bf1"
   },
   {
+   "id": "pi.arch.ext.nsw-registered-practitioners",
+   "heading": "NSW Registered Practitioners",
+   "sha256": "97e87227b7222718f7b4b29af59d2d13a8e655cf7d0caddc6ec82439d3bf3240"
+  },
+  {
    "id": "pi.section.exclusions",
    "heading": "What Is Not Covered",
    "sha256": "7d863eb787645d56328bf658ab97a34dec07c3e44abdc0aa86e6aaee06893917"
@@ -300,9 +305,9 @@
    "sha256": "bfec24bd7ece3bbef1bb573c7ff170f0bf2aab8ecd25f308203a176856d8b827"
   },
   {
-   "id": "pi.arch.excl.warranties-and-liquidated-damages",
-   "heading": "Warranties and Liquidated Damages",
-   "sha256": "7ba6460c982f9ea41c1624dfb15f9f21969d118a306739d8d0ea87e8c768acd4"
+   "id": "pi.arch.excl.liquidated-damages",
+   "heading": "Liquidated Damages and Contractual Penalties",
+   "sha256": "dacab5d304824ce374d1820e6b876a783f693a92850999a38ff8335fc486f2a8"
   },
   {
    "id": "pi.excl.deliberate-and-dishonest-acts",
@@ -352,7 +357,7 @@
   {
    "id": "pi.arch.excl.excluded-activities",
    "heading": "Excluded Engineering Activities",
-   "sha256": "eb622f7f7afac5e22eaaf8e49bf5c7167169ba83e46e82bf7346178ca0426f91"
+   "sha256": "1eac5af5ba16c79991fa9067c9d9299e4bf73e09de7e3ab7229324c7196615e3"
   },
   {
    "id": "pi.section.payment",
@@ -363,6 +368,11 @@
    "id": "pi.pay.limit-of-liability",
    "heading": "Limit of Liability",
    "sha256": "d18887351399244f6df19145a1de54c226949fb4dfcaee74ecaf889661f5fd2a"
+  },
+  {
+   "id": "pi.arch.pay.automatic-reinstatement",
+   "heading": "Automatic Reinstatement",
+   "sha256": "02c3a03a1142696aadcb0d858145efbf175bd89cf71fc289db65da0c03a366cc"
   },
   {
    "id": "pi.pay.sub-limits",
@@ -520,10 +530,30 @@
    "sha256": "b157bf9771c525a5ef6b1c1cb2c16f62563ba2f33496f5c5b00683d701e189f0"
   },
   {
+   "id": "pi.arch.library.optional-endorsements",
+   "heading": "Architects and Engineers Endorsements",
+   "sha256": "05877802a165415d89da57291fc2ef09847df1e934b0a47ac5e4b57bd9afdbb1"
+  },
+  {
+   "id": "pi.arch.end.bridges-and-tunnels",
+   "heading": "Bridges and Tunnels Exclusion",
+   "sha256": "17c9455a4e2e46e9a031c1b205675073b0c63e7dee13ff4e596d42ae490bfb6e"
+  },
+  {
+   "id": "pi.arch.end.combustible-cladding",
+   "heading": "Combustible Cladding Exclusion",
+   "sha256": "ab7df25c1096fd67ab5543b3a0d6919806559312175744b129503105d74e6a4c"
+  },
+  {
+   "id": "pi.arch.end.mining-equipment-warranties",
+   "heading": "Mining Equipment Warranties Exclusion",
+   "sha256": "52222d239dcbd8bab0f4ff104b11379df986acb6ed7a7cb0313c26d0bb14cf44"
+  },
+  {
    "id": "pi.licence-notice",
    "heading": "Licence and Trademark Notice",
    "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
   }
  ],
- "sha256": "f775ab0c445b5d33d8d4a57092a8adc8ffbd17ca9fd199eb43a7e4c615bd0b02"
+ "sha256": "ea3254cb44bb0cd8afcb35a489633a85078e8c63e058107c2f69eaa18a77a66e"
 }
