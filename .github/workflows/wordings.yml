@@ -1,0 +1,27 @@
+name: Wordings
+
+on:
+  pull_request:
+    paths: ["source/**", "tools/wordings/**", "wordings/**", "records/**"]
+  push:
+    branches: [main]
+    paths: ["source/**", "tools/wordings/**"]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml python-docx
+      - name: Run wording checks
+        run: python3 tools/wordings/build.py check
+      - name: Confirm published pages and build records match the source
+        run: |
+          python3 tools/wordings/build.py build --no-docx
+          git diff --exit-code -- wordings/*.html records/ || {
+            echo "::error::The pages or build records are out of date. Run 'python3 tools/wordings/build.py build' and commit the result."
+            exit 1
+          }

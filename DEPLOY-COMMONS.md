@@ -127,6 +127,13 @@ When a wording changes: update the `.docx` in `wordings/downloads/`,
 regenerate `wordings/<slug>.html`, bump the version, tag a release. One
 authoritative file per version.
 
+For wordings built from `source/` (Professional Indemnity and its profession
+wordings): edit the clause or profession files, bump the version in the
+manifest, add a note in `source/<class>/changes/`, then run
+`python3 tools/wordings/build.py build` and commit the generated page, Word
+file and build record together. The pull-request check fails if they are out
+of step with the source. See `source/README.md`.
+
 Between now and 2 September this will happen several times. Because the site
 is `noindex`, none of those intermediate drafts will be picked up by search
 engines — only the state on launch day matters.
