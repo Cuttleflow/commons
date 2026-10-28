@@ -1,0 +1,19 @@
+# Platform questions that endorsement triggers depend on.
+# The platform question set uses these IDs. Wording text here is the question as asked;
+# the platform may add help text. Agency thresholds are set in the platform, not here.
+questions:
+  - id: pi.q.practice-states
+    text: In which states and territories do you provide professional services?
+    type: multi-select (state or territory)
+  - id: pi.q.registrations
+    text: For each principal, which registrations, licences or endorsements are held, and in which state or territory?
+    type: repeating (principal, registration type, state, number)
+  - id: pi.q.fees.bridges-tunnels
+    text: What percentage of your fees in the last 12 months came from the design or construction of bridges or tunnels?
+    type: percentage
+  - id: pi.q.cladding-work
+    text: Do you design, specify, select, certify or inspect external wall cladding, or advise on it?
+    type: yes/no, with details
+  - id: pi.q.fees.mining
+    text: What percentage of your fees in the last 12 months came from services to the mining industry, including the design, specification or inspection of mining equipment?
+    type: percentage

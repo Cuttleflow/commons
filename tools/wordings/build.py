@@ -36,7 +36,15 @@ class BuildError(Exception):
     pass
 
 
-LINK = {"ids": None, "page": ""}  # set while rendering a document: ids present in it, page for other clauses
+LINK = {"ids": None, "page": ""}
+QUESTIONS = {}  # platform question id -> question record, for the class being built
+ACTIONS = {
+    "apply": "Apply automatically",
+    "refer": "Refer to the underwriter, with the endorsement pre-selected",
+    "suggest": "Suggest to the underwriter (quote not held)",
+    "broker_option": "Offer as a priced option",
+}
+QREF = re.compile(r"\bpi\.q\.[a-z0-9.\-]+")  # set while rendering a document: ids present in it, page for other clauses
 
 
 # ---------------------------------------------------------------- loading
@@ -62,6 +70,46 @@ def load_class(cls):
             raise BuildError(f"{p}: file name must equal id {c['id']}")
         clauses[c["id"]] = c
     return clauses
+
+
+def load_questions(cls):
+    p = SOURCE / cls / "questions.yaml"
+    if not p.exists():
+        return {}
+    return {q["id"]: q for q in yaml.safe_load(p.read_text(encoding="utf-8"))["questions"]}
+
+
+def check_trigger(c, errors):
+    """An endorsement must say when it is used: platform questions, rules, default actions and reason text."""
+    t = c.get("trigger")
+    if c["type"] != "endorsement":
+        if t:
+            errors.append(f"{c['path']}: only endorsements carry a trigger")
+        return
+    if not t:
+        errors.append(f"{c['path']}: endorsement has no trigger (questions, rules, reason)")
+        return
+    qs = t.get("questions") or []
+    if not qs:
+        errors.append(f"{c['path']}: trigger lists no questions")
+    for q in qs:
+        if q not in QUESTIONS:
+            errors.append(f"{c['path']}: trigger question {q} is not in questions.yaml")
+    if not t.get("rules"):
+        errors.append(f"{c['path']}: trigger has no rules")
+    for r in (t.get("rules") or []) + (t.get("restrictions") or []):
+        if r.get("action") not in ACTIONS:
+            errors.append(f"{c['path']}: trigger action '{r.get('action')}' is not one of {', '.join(ACTIONS)}")
+        for q in QREF.findall(str(r.get("when", ""))):
+            if q not in qs:
+                errors.append(f"{c['path']}: rule uses {q}, which is not in the trigger's questions")
+    for r in t.get("restrictions") or []:
+        if r.get("action") != "refer":
+            errors.append(f"{c['path']}: a restriction must refer to the underwriter")
+        if not r.get("note"):
+            errors.append(f"{c['path']}: a restriction needs a note explaining it")
+    if not t.get("reason"):
+        errors.append(f"{c['path']}: trigger has no reason text")
 
 
 def load_manifest(path):
@@ -144,6 +192,7 @@ def check(manifest, structure, cmap, errors):
                 errors.append(f"{c['path']}: reference to {m.group(1)}, which is not in {manifest['id']}")
         for m in LITERAL_NUMBER.finditer(c["body"]):
             errors.append(f"{c['path']}: literal clause number '{m.group(0)}' — use [[ref:...]]")
+        check_trigger(c, errors)
         if c.get("status") == "draft" and not manifest.get("draft"):
             errors.append(f"{c['path']}: draft clause in a wording that is not marked draft")
     return ids
@@ -189,6 +238,23 @@ def blocks(body):
         else:
             out.append(("p", " ".join(lines)))
     return out
+
+
+def note_html(c):
+    """Wording note for an endorsement: when the platform uses it. Shown on web pages only, not in the policy document."""
+    t = c.get("trigger")
+    if not t:
+        return ""
+    qs = "".join(f"<li>{html.escape(QUESTIONS[q]['text'])} <code>{html.escape(q)}</code></li>" for q in t["questions"])
+    rules = "".join(f"<li>When <code>{html.escape(str(r['when']))}</code>: {html.escape(ACTIONS[r['action']])}</li>"
+                    for r in t["rules"])
+    restr = "".join(f"<li>When <code>{html.escape(str(r['when']))}</code>: {html.escape(ACTIONS[r['action']])}. "
+                    f"{html.escape(r['note'])}</li>" for r in t.get("restrictions") or [])
+    return ('<div class="wnote"><div class="mono nlabel">Wording note — platform rule (not part of the policy)</div>'
+            f'<p><strong>Questions</strong></p><ul>{qs}</ul>'
+            f'<p><strong>Default rules</strong> (the first rule that matches applies; agencies may set their own actions and thresholds)</p><ul>{rules}</ul>'
+            + (f'<p><strong>Restrictions</strong> (always apply)</p><ul>{restr}</ul>' if restr else "")
+            + f'<p><strong>Reason shown on the quote and schedule:</strong> {html.escape(t["reason"])}</p></div>')
 
 
 def body_html(c, cmap):
@@ -249,6 +315,8 @@ def render_html(manifest, structure, cmap, slug, docx_name):
             tag = "h2" if c["type"] in ("preamble", "claims", "library", "notice") else "h3"
             out.append(f'<{tag} id="{cid}">{html.escape(c["heading"])}</{tag}>')
             out.append(body_html(c, cmap))
+            if c.get("trigger"):
+                out.append(note_html(c))
     draft = f'<span class="draft-flag">Draft v{html.escape(v)}</span>' if manifest.get("draft") else f'<span>v{html.escape(v)}</span>'
     banner = ('<div class="banner"><strong>DRAFT — subject to legal review — not for use.</strong> This wording is not settled and '
               'must not be issued, quoted from, or bound until Wording Partner sign-off. It is provided as source material under '
@@ -412,8 +480,8 @@ def endorsement(manifest, base_manifest, cmap):
     gen = {}
     order = []
 
-    def add(cid, heading, body):
-        gen[cid] = dict(id=cid, type="preamble", heading=heading, body=body, path="(generated)")
+    def add(cid, heading, body, trigger=None):
+        gen[cid] = dict(id=cid, type="preamble", heading=heading, body=body, path="(generated)", trigger=trigger)
         order.append(cid)
 
     add("end.application", "Application",
@@ -432,7 +500,7 @@ def endorsement(manifest, base_manifest, cmap):
             add(f"end.{i}", f"Replaced: {old['heading']}", intro + f"\n\n**{new['heading']}**\n\n" + new["body"])
         elif kind == "add" and cmap[op["clause"]]["type"] in ("library", "endorsement"):
             new = cmap[op["clause"]]  # optional endorsements are reproduced as they appear in the integrated wording
-            add(f"end.{i}", new["heading"], new["body"])
+            add(f"end.{i}", new["heading"], new["body"], new.get("trigger"))
         elif kind == "add":
             new = cmap[op["clause"]]
             after = cmap.get(op["after"])
@@ -461,6 +529,10 @@ def build_record(manifest, structure, cmap):
             c = cmap[cid]
             text = c["heading"] + "\n" + plain(c["body"], cmap)
             rec["clauses"].append({"id": cid, "heading": c["heading"], "sha256": hashlib.sha256(text.encode()).hexdigest()})
+    rec["endorsements"] = [
+        {"id": c["id"], "heading": c["heading"], "trigger": c["trigger"],
+         "questions": [QUESTIONS[q] for q in c["trigger"]["questions"]]}
+        for s in structure for c in (cmap[x] for x in s["clauses"]) if c.get("trigger")]
     rec["sha256"] = hashlib.sha256(json.dumps(rec["clauses"], sort_keys=True).encode()).hexdigest()
     return rec
 
@@ -479,6 +551,7 @@ def main(argv):
     mode = argv[1] if len(argv) > 1 else "check"
     errors, built = [], []
     for cls, mpath in wordings():
+        QUESTIONS.clear(); QUESTIONS.update(load_questions(cls))
         clauses = load_class(cls)
         manifest = load_manifest(mpath)
         structure, cmap = resolve(cls, manifest, clauses, errors)
@@ -496,6 +569,7 @@ def main(argv):
                 (dict(slug=m["slug"], title=m["title"], version=m["version"], doc_ref=m["doc_ref"])
                  for c, m, _s, _m in built if c == cls and "base" in m), key=lambda p: p["title"])
     for cls, manifest, structure, cmap in built:
+        QUESTIONS.clear(); QUESTIONS.update(load_questions(cls))
         slug = manifest["slug"]
         if "base" in manifest:
             bslug = load_manifest(SOURCE / cls / "base.yaml")["slug"]
