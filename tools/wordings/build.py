@@ -26,7 +26,7 @@ KIND = {  # how a reference to each clause type reads
     "definition": "definition", "cover": "clause", "extension": "extension",
     "exclusion": "exclusion", "payment": "provision", "obligation": "obligation",
     "condition": "condition", "section": "section", "preamble": "section",
-    "claims": "section", "library": "", "notice": "",
+    "claims": "section", "library": "", "notice": "", "endorsement": "endorsement",
 }
 REF = re.compile(r"\[\[ref:([a-z0-9.\-]+)(\|heading)?\]\]")
 LITERAL_NUMBER = re.compile(r"\b(?:Sections?|[Cc]lauses?|[Pp]aragraph|[Ss]ub-?clause)\s+\d+(?:\.\d+)*\b")
@@ -34,6 +34,9 @@ LITERAL_NUMBER = re.compile(r"\b(?:Sections?|[Cc]lauses?|[Pp]aragraph|[Ss]ub-?cl
 
 class BuildError(Exception):
     pass
+
+
+LINK = {"ids": None, "page": ""}  # set while rendering a document: ids present in it, page for other clauses
 
 
 # ---------------------------------------------------------------- loading
@@ -151,7 +154,8 @@ def check(manifest, structure, cmap, errors):
 def inline_html(text, cmap):
     def ref(m):
         c = cmap[m.group(1)]
-        return f'<a href="#{c["id"]}">{html.escape(ref_text(c, bool(m.group(2))))}</a>'
+        href = f'#{c["id"]}' if LINK["ids"] is None or c["id"] in LINK["ids"] else f'{LINK["page"]}#{c["id"]}'
+        return f'<a href="{href}">{html.escape(ref_text(c, bool(m.group(2))))}</a>'
     parts, last = [], 0
     for m in REF.finditer(text):
         parts.append(html.escape(text[last:m.start()], quote=False)); parts.append(ref(m)); last = m.end()
@@ -204,6 +208,25 @@ def body_html(c, cmap):
 
 # ---------------------------------------------------------------- HTML
 
+def professions_html(manifest):
+    """On a base wording page: the profession wordings built on it."""
+    profs = manifest.get("professions") or []
+    if not profs:
+        return ""
+    rows = "".join(
+        f'<li><a href="{html.escape(p["slug"])}.html">{html.escape(p["title"])}</a>'
+        f' <span class="pmeta">v{html.escape(str(p["version"]))} · {html.escape(p["doc_ref"])}'
+        f' · <a href="{html.escape(p["slug"])}-endorsement.html">endorsement form</a></span></li>'
+        for p in profs)
+    return ('<div class="professions"><div class="mono plabel">Profession wordings built on this wording</div>'
+            f'<ul>{rows}</ul></div>')
+
+
+def extra_links(manifest):
+    links = manifest.get("links", [])
+    return "".join(f'<a class="btn" href="{html.escape(u)}">{html.escape(t)}</a>' for t, u in links)
+
+
 def render_html(manifest, structure, cmap, slug, docx_name):
     v = manifest["version"]
     out = []
@@ -233,9 +256,9 @@ def render_html(manifest, structure, cmap, slug, docx_name):
     kicker = manifest.get("kicker", "Cuttleflow Commons · " + manifest["title"].replace(" Insurance", ""))
     main = (f'<main class="wrap"><div class="wtitle"><div class="kick">{html.escape(kicker)}</div>'
             f'<h1 class="serif">{html.escape(manifest["title"])}</h1><div class="sub">{html.escape(manifest["summary"])}</div>'
-            f'<div class="actions">{draft}<a class="btn" href="downloads/{docx_name}">Download .docx</a>'
+            f'<div class="actions">{draft}<a class="btn" href="downloads/{docx_name}">Download .docx</a>{extra_links(manifest)}'
             f'<a class="btn" href="https://github.com/cuttleflow/commons/issues/new?template=propose-change.md&amp;title=%5B{manifest["doc_ref"]}%5D+">Suggest a change</a></div>'
-            f'{banner}</div><article class="article">\n' + "\n".join(out) + "\n</article>")
+            f'{banner}{professions_html(manifest)}</div><article class="article">\n' + "\n".join(out) + "\n</article>")
     desc = (f"{manifest['title']} — an open Australian policy wording from the Cuttleflow Commons. "
             "Working draft, subject to legal review; read it, adapt it under CC BY 4.0, and suggest changes.")
     page = TEMPLATE.read_text(encoding="utf-8")
@@ -317,12 +340,14 @@ def render_docx(manifest, structure, cmap, path, changes_md):
     p = doc.add_paragraph(); run(p, "cuttleflow ", font="Consolas", size=12); run(p, "SYSTEMS", font="Consolas", size=12, bold=True)
     p = doc.add_paragraph(); run(p, manifest["class"], font="Consolas", size=9, color=ORANGE)
     p = doc.add_paragraph(); run(p, "Policy Wording" if "base" not in manifest else manifest["title"], font="Georgia", size=30, bold=True)
-    if "base" in manifest:
+    if manifest.get("form") == "endorsement":
+        p = doc.add_paragraph(); run(p, "Policy endorsement", font="Georgia", size=14, italic=True, color=GREEN)
+    elif "base" in manifest:
         p = doc.add_paragraph(); run(p, "Integrated profession wording", font="Georgia", size=14, italic=True, color=GREEN)
     p = doc.add_paragraph(); run(p, "Cuttleflow Systems — Open Source Insurance Wording", font="Georgia", size=13, italic=True, color=GREEN)
     p = doc.add_paragraph(); run(p, f"Version {v} · {manifest['date']} · CC BY 4.0 (wording text only)", font="Consolas", size=9, color=GREEN)
     if "base" in manifest:
-        p = doc.add_paragraph(); run(p, f"Built on base wording {manifest['base']}", font="Consolas", size=9, color=GREEN)
+        p = doc.add_paragraph(); run(p, f"{'Attaches to' if manifest.get('form') == 'endorsement' else 'Built on'} base wording {manifest['base']}", font="Consolas", size=9, color=GREEN)
     p = doc.add_paragraph(); run(p, f"Document ref {ref} · CUTTLEFLOW PTY LTD T/A CUTTLEFLOW SYSTEMS", font="Consolas", size=9)
     if manifest.get("draft"):
         p = doc.add_paragraph(); run(p, "DRAFT — SUBJECT TO LEGAL REVIEW — NOT FOR USE", bold=True, color=ORANGE)
@@ -379,6 +404,53 @@ def render_docx(manifest, structure, cmap, path, changes_md):
     doc.save(path)
 
 
+# ---------------------------------------------------------------- endorsement form
+
+def endorsement(manifest, base_manifest, cmap):
+    """Build the base-plus-endorsement form of a profession wording from the same overrides."""
+    base_title = base_manifest["title"]
+    gen = {}
+    order = []
+
+    def add(cid, heading, body):
+        gen[cid] = dict(id=cid, type="preamble", heading=heading, body=body, path="(generated)")
+        order.append(cid)
+
+    add("end.application", "Application",
+        f"This endorsement attaches to and forms part of the Meridian {base_title} wording, version {base_manifest['version']} "
+        f"(document reference {base_manifest['doc_ref']}), referred to here as the base wording. It changes the base wording only "
+        "as set out below. All other terms, conditions, exclusions and limits of the base wording continue to apply.\n\n"
+        "Words defined in the base wording have the same meaning in this endorsement. Where this endorsement and the base "
+        "wording conflict, this endorsement applies to the extent of the conflict.\n\n"
+        f"The same terms are published as a single integrated wording, {manifest['title']}, version {manifest['version']}. "
+        "Both documents are generated from the same source and have the same effect.")
+    for i, op in enumerate(manifest.get("overrides", []) or []):
+        kind = op["op"]
+        if kind == "replace":
+            old, new = cmap[op["target"]], cmap[op["with"]]
+            intro = f"{ref_text(old)[0].upper() + ref_text(old)[1:]} in the base wording is deleted and replaced with the following."
+            add(f"end.{i}", f"Replaced: {old['heading']}", intro + f"\n\n**{new['heading']}**\n\n" + new["body"])
+        elif kind == "add" and cmap[op["clause"]]["type"] in ("library", "endorsement"):
+            new = cmap[op["clause"]]  # optional endorsements are reproduced as they appear in the integrated wording
+            add(f"end.{i}", new["heading"], new["body"])
+        elif kind == "add":
+            new = cmap[op["clause"]]
+            after = cmap.get(op["after"])
+            where = f", after {ref_text(after)}" if after else ""
+            noun = KIND.get(new["type"], "clause") or "clause"
+            add(f"end.{i}", f"Added: {new['heading']}", f"The following {noun} is added to the base wording{where}."
+                + f"\n\n**{new['heading']}**\n\n" + new["body"])
+        elif kind == "delete":
+            old = cmap[op["target"]]
+            add(f"end.{i}", f"Removed: {old['heading']}", f"{ref_text(old)[0].upper() + ref_text(old)[1:]} in the base wording does not apply.")
+    em = dict(manifest)
+    em.update({"id": manifest["id"] + "-endorsement", "form": "endorsement",
+               "title": manifest.get("endorsement_title", manifest["title"] + " — Endorsement"),
+               "summary": f"The {manifest['title']} terms, in the form of an endorsement to the base {base_title} wording."})
+    allmap = dict(cmap); allmap.update(gen)
+    return em, [dict(section="endorsement", clauses=order)], allmap
+
+
 # ---------------------------------------------------------------- record
 
 def build_record(manifest, structure, cmap):
@@ -419,7 +491,15 @@ def main(argv):
     if mode != "build":
         return 0
     for cls, manifest, structure, cmap in built:
+        if "base" not in manifest:
+            manifest["professions"] = sorted(
+                (dict(slug=m["slug"], title=m["title"], version=m["version"], doc_ref=m["doc_ref"])
+                 for c, m, _s, _m in built if c == cls and "base" in m), key=lambda p: p["title"])
+    for cls, manifest, structure, cmap in built:
         slug = manifest["slug"]
+        if "base" in manifest:
+            bslug = load_manifest(SOURCE / cls / "base.yaml")["slug"]
+            manifest["links"] = [("Endorsement form", f"{slug}-endorsement.html"), ("Base wording", f"{bslug}.html")]
         stem = manifest["file_stem"]
         docx_name = f"{stem}_v{manifest['version']}.docx"
         (ROOT / "wordings" / f"{slug}.html").write_text(render_html(manifest, structure, cmap, slug, docx_name), encoding="utf-8")
@@ -430,6 +510,17 @@ def main(argv):
             render_docx(manifest, structure, cmap, ROOT / "wordings" / "downloads" / docx_name,
                         ch.read_text(encoding="utf-8") if ch.exists() else "")
         print(f"Built {manifest['id']} {manifest['version']} -> wordings/{slug}.html")
+        if "base" in manifest:
+            base_manifest = load_manifest(SOURCE / cls / "base.yaml")
+            em, es, emap = endorsement(manifest, base_manifest, cmap)
+            eslug, edocx = f"{slug}-endorsement", f"{stem}_Endorsement_v{manifest['version']}.docx"
+            em["links"] = [("Integrated wording", f"{slug}.html"), ("Base wording", f"{base_manifest['slug']}.html")]
+            LINK.update(ids=set(es[0]["clauses"]), page=f"{base_manifest['slug']}.html")
+            (ROOT / "wordings" / f"{eslug}.html").write_text(render_html(em, es, emap, eslug, edocx), encoding="utf-8")
+            if "--no-docx" not in argv:
+                render_docx(em, es, emap, ROOT / "wordings" / "downloads" / edocx, "")
+            LINK.update(ids=None, page="")
+            print(f"Built {em['id']} {manifest['version']} -> wordings/{eslug}.html")
     return 0
 
 
