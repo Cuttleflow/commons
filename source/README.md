@@ -79,17 +79,17 @@ Every endorsement (a clause of type `endorsement`) states when the platform uses
 
 ```yaml
 trigger:
-  questions: [pi.q.fees.mining]          # platform questions, defined in source/<class>/questions.yaml
+  questions: [qs.pi.activities.mining_pct]          # platform questions, defined in source/<class>/questions.yaml
   rules:                                  # default rules; the first rule that matches applies
-    - when: pi.q.fees.mining > 10
+    - when: qs.pi.activities.mining_pct > 10
       action: refer
-    - when: pi.q.fees.mining > 0
+    - when: qs.pi.activities.mining_pct > 0
       action: suggest
   restrictions:                           # optional; legal limits that always apply and always refer
-    - when: "'VIC' in pi.q.practice-states"
+    - when: "'VIC' in qs.pi.practice_states"
       action: refer
       note: Why the restriction exists.
-  reason: Applies because {pi.q.fees.mining}% of your fees come from services to the mining industry.
+  reason: Applies because {qs.pi.activities.mining_pct}% of your fees come from services to the mining industry.
 ```
 
 Actions:

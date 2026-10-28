@@ -7,11 +7,11 @@ since: 1.0.0
 status: draft
 note: Moved from the Excluded Activities exclusion of MERIDIAN-PI-ARCH-v1.0.0 to an optional endorsement on underwriter direction 29 October 2026.
 trigger:
-  questions: [pi.q.fees.bridges-tunnels]
+  questions: [qs.pi.activities.bridges_tunnels_pct]
   rules:
-    - when: pi.q.fees.bridges-tunnels > 0
+    - when: qs.pi.activities.bridges_tunnels_pct > 0
       action: refer
-  reason: Applies because {pi.q.fees.bridges-tunnels}% of your fees come from bridge or tunnel work.
+  reason: Applies because {qs.pi.activities.bridges_tunnels_pct}% of your fees come from bridge or tunnel work.
 ---
 
 We do not cover any claim, loss or liability arising from the design or construction of a bridge or tunnel, or any part of one.

@@ -44,7 +44,7 @@ ACTIONS = {
     "suggest": "Suggest to the underwriter (quote not held)",
     "broker_option": "Offer as a priced option",
 }
-QREF = re.compile(r"\bpi\.q\.[a-z0-9.\-]+")  # set while rendering a document: ids present in it, page for other clauses
+QREF = re.compile(r"\bqs\.[a-z0-9_.]+[a-z0-9_]")  # set while rendering a document: ids present in it, page for other clauses
 
 
 # ---------------------------------------------------------------- loading

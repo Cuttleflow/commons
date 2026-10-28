@@ -7,12 +7,12 @@ since: 1.0.0
 status: draft
 note: New optional endorsement on underwriter direction 29 October 2026. Draft text for counsel; terms to be aligned with the Victorian Ministerial Orders and current market wordings.
 trigger:
-  questions: [pi.q.cladding-work, pi.q.practice-states, pi.q.registrations]
+  questions: [qs.pi.activities.cladding_work, qs.pi.practice_states, qs.pi.registrations]
   rules:
-    - when: pi.q.cladding-work = yes
+    - when: qs.pi.activities.cladding_work = yes
       action: apply
   restrictions:
-    - when: "'VIC' in pi.q.practice-states and pi.q.registrations includes endorsed building engineer (Victoria)"
+    - when: "'VIC' in qs.pi.practice_states and qs.pi.registrations includes endorsed building engineer (Victoria)"
       action: refer
       note: The Victorian Ministerial Order for endorsed building engineers may not permit this exclusion. An underwriter must confirm before it is applied.
   reason: Applies because you design, specify, certify or inspect external wall cladding, or advise on it.
