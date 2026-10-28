@@ -208,6 +208,20 @@ def body_html(c, cmap):
 
 # ---------------------------------------------------------------- HTML
 
+def professions_html(manifest):
+    """On a base wording page: the profession wordings built on it."""
+    profs = manifest.get("professions") or []
+    if not profs:
+        return ""
+    rows = "".join(
+        f'<li><a href="{html.escape(p["slug"])}.html">{html.escape(p["title"])}</a>'
+        f' <span class="pmeta">v{html.escape(str(p["version"]))} · {html.escape(p["doc_ref"])}'
+        f' · <a href="{html.escape(p["slug"])}-endorsement.html">endorsement form</a></span></li>'
+        for p in profs)
+    return ('<div class="professions"><div class="mono plabel">Profession wordings built on this wording</div>'
+            f'<ul>{rows}</ul></div>')
+
+
 def extra_links(manifest):
     links = manifest.get("links", [])
     return "".join(f'<a class="btn" href="{html.escape(u)}">{html.escape(t)}</a>' for t, u in links)
@@ -244,7 +258,7 @@ def render_html(manifest, structure, cmap, slug, docx_name):
             f'<h1 class="serif">{html.escape(manifest["title"])}</h1><div class="sub">{html.escape(manifest["summary"])}</div>'
             f'<div class="actions">{draft}<a class="btn" href="downloads/{docx_name}">Download .docx</a>{extra_links(manifest)}'
             f'<a class="btn" href="https://github.com/cuttleflow/commons/issues/new?template=propose-change.md&amp;title=%5B{manifest["doc_ref"]}%5D+">Suggest a change</a></div>'
-            f'{banner}</div><article class="article">\n' + "\n".join(out) + "\n</article>")
+            f'{banner}{professions_html(manifest)}</div><article class="article">\n' + "\n".join(out) + "\n</article>")
     desc = (f"{manifest['title']} — an open Australian policy wording from the Cuttleflow Commons. "
             "Working draft, subject to legal review; read it, adapt it under CC BY 4.0, and suggest changes.")
     page = TEMPLATE.read_text(encoding="utf-8")
@@ -476,6 +490,11 @@ def main(argv):
     print(f"Checks passed for {len(built)} wording(s).")
     if mode != "build":
         return 0
+    for cls, manifest, structure, cmap in built:
+        if "base" not in manifest:
+            manifest["professions"] = sorted(
+                (dict(slug=m["slug"], title=m["title"], version=m["version"], doc_ref=m["doc_ref"])
+                 for c, m, _s, _m in built if c == cls and "base" in m), key=lambda p: p["title"])
     for cls, manifest, structure, cmap in built:
         slug = manifest["slug"]
         if "base" in manifest:
