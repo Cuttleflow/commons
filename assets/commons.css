@@ -85,3 +85,9 @@
 .professions li:first-child{border-top:0}
 .professions li>a{font-family:var(--serif);font-size:17px}
 .professions .pmeta{font-family:var(--mono);font-size:11px;color:var(--ink-55)}
+
+/* Wording note under an endorsement: platform rule, not policy text */
+.article .wnote{border:1px dashed var(--rule);background:#fff;padding:10px 14px;margin:6px 0 18px;font-size:13.5px}
+.article .wnote .nlabel{font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--green);margin-bottom:4px}
+.article .wnote p,.article .wnote li{font-size:13.5px;margin-bottom:4px}
+.article .wnote code{font-family:var(--mono);font-size:11.5px;color:var(--ink-55)}
