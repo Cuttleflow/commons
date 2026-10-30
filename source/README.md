@@ -90,7 +90,13 @@ trigger:
       action: refer
       note: Why the restriction exists.
   reason: Applies because {qs.pi.activities.mining_pct}% of your fees come from services to the mining industry.
+  responses: [Attach, Attach with amended sub-limit, Do not attach]   # optional; what the underwriter may do on a referral or suggestion
 ```
+
+`responses` lists what an underwriter may do when the endorsement is referred or suggested.
+Each must be one of: Attach; Attach with amended sub-limit; Attach with special excess;
+Attach with premium loading; Do not attach; Decline risk. If it is left out, the platform
+offers all six.
 
 Actions:
 
@@ -119,7 +125,8 @@ not include it, because the Word file is the policy document.
 - a profession wording pins a base version other than the current one;
 - a clause marked draft appears in a wording not marked draft;
 - an endorsement has no trigger, a trigger names a question that is not in `questions.yaml`,
-  a rule uses an action other than the four above, or a restriction does not refer.
+  a rule uses an action other than the four above, a restriction does not refer, or an
+  underwriter response is not one of the six above.
 
 The same checks run on every pull request (`.github/workflows/wordings.yml`), which also
 fails if the committed pages or build records do not match the source.

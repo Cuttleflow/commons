@@ -44,6 +44,10 @@ ACTIONS = {
     "suggest": "Suggest to the underwriter (quote not held)",
     "broker_option": "Offer as a priced option",
 }
+RESPONSES = (  # what an underwriter may do with a referred or suggested endorsement (SPEC-URE-001 Addendum B)
+    "Attach", "Attach with amended sub-limit", "Attach with special excess",
+    "Attach with premium loading", "Do not attach", "Decline risk",
+)
 QREF = re.compile(r"\bqs\.[a-z0-9_.]+[a-z0-9_]")  # set while rendering a document: ids present in it, page for other clauses
 
 
@@ -110,6 +114,9 @@ def check_trigger(c, errors):
             errors.append(f"{c['path']}: a restriction needs a note explaining it")
     if not t.get("reason"):
         errors.append(f"{c['path']}: trigger has no reason text")
+    for r in t.get("responses") or []:
+        if r not in RESPONSES:
+            errors.append(f"{c['path']}: underwriter response '{r}' is not one of {', '.join(RESPONSES)}")
 
 
 def load_manifest(path):
@@ -254,6 +261,8 @@ def note_html(c):
             f'<p><strong>Questions</strong></p><ul>{qs}</ul>'
             f'<p><strong>Default rules</strong> (the first rule that matches applies; agencies may set their own actions and thresholds)</p><ul>{rules}</ul>'
             + (f'<p><strong>Restrictions</strong> (always apply)</p><ul>{restr}</ul>' if restr else "")
+            + (f'<p><strong>Underwriter responses</strong> (on a referral or suggestion): {html.escape("; ".join(t["responses"]))}</p>'
+               if t.get("responses") else "")
             + f'<p><strong>Reason shown on the quote and schedule:</strong> {html.escape(t["reason"])}</p></div>')
 
 
