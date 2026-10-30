@@ -184,6 +184,10 @@ questions:
     type: multi-select
     options: ['manufacturer', 'importer', 'distributor', 'retailer', 'installer', 'own_brand']
     used_by: R, E17
+  - id: qs.ppl.products.share_of_turnover_pct
+    text: What percentage of your turnover comes from goods you make, import, sell or supply?
+    type: percentage
+    used_by: R
   - id: qs.ppl.products.import_pct
     text: What percentage of your products turnover comes from goods imported from manufacturers with no Australian presence?
     type: percentage
