@@ -1,0 +1,845 @@
+{
+ "wording": "gtr-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/CT/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "gtr.about",
+   "heading": "About This Policy",
+   "sha256": "2c4e7e54505ba49088c8a50edfb3ac3ce6b15714ba22724122dd42d761d3281e"
+  },
+  {
+   "id": "gtr.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "gtr.important-information",
+   "heading": "Important Information",
+   "sha256": "39c36a3affec0d525095ebe66f505262f4f501df641826983bdd731e3c228e2f"
+  },
+  {
+   "id": "gtr.schedule",
+   "heading": "Schedule",
+   "sha256": "01dde052b410cc1a2aac03aad5105b4b8f7c9489b8e633d5281094e55e1f8272"
+  },
+  {
+   "id": "gtr.section.definitions",
+   "heading": "Definitions",
+   "sha256": "7da4c64cfde7cf7b25a86e5900c317c43db843c5ee8e7dda1c733e628e173a14"
+  },
+  {
+   "id": "gtr.def.accident",
+   "heading": "Accident",
+   "sha256": "41819a152a7c8ae91af35b88c8febe9b3c57f725b2521a058e410ebf83de0048"
+  },
+  {
+   "id": "gtr.def.accompanying-family-member",
+   "heading": "Accompanying Family Member",
+   "sha256": "c2e870e9e9153508e1566dd88770ec6c7aaf813b0c2ab0d88b4fadcfab725d1a"
+  },
+  {
+   "id": "gtr.def.business-equipment",
+   "heading": "Business Equipment",
+   "sha256": "4747538f58218cd25905bce9cd8e46890c85dcb8c123a99ecd7eec11aedddcb4"
+  },
+  {
+   "id": "gtr.def.business-trip",
+   "heading": "Business Trip",
+   "sha256": "10380d33f243cad40d4041d8efd7320a7cdb5dc0a8f754b32339d31357809ada"
+  },
+  {
+   "id": "gtr.def.dfat-advice",
+   "heading": "DFAT Advice",
+   "sha256": "744a4e2d781aa95340a5b0880c50f04733c60a6ed911291279e8bc237f8a9c61"
+  },
+  {
+   "id": "gtr.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "gtr.def.epidemic-or-pandemic",
+   "heading": "Epidemic or Pandemic",
+   "sha256": "48dbe0085586fe2a8e986258077bca6a73f66569501877ab3ad8ed099c91ebf1"
+  },
+  {
+   "id": "gtr.def.excess",
+   "heading": "Excess",
+   "sha256": "a38237abb5920b07044faf4a2849aa534711fdf733df86d296d741f665d3a837"
+  },
+  {
+   "id": "gtr.def.home",
+   "heading": "Home",
+   "sha256": "0054aecc224728a0e771c42e02cabfd8064de181deb511b2faa6754080356ae6"
+  },
+  {
+   "id": "gtr.def.immediate-family",
+   "heading": "Immediate Family",
+   "sha256": "d7b543a6108f698ad75d8a59263c29224744c6c66a4f942164cec1885dd066e1"
+  },
+  {
+   "id": "gtr.def.injury",
+   "heading": "Injury",
+   "sha256": "5a5b915911dfe04874d7c83cf9ea88ea130e3bd20ada1dc700dbd9641d28837a"
+  },
+  {
+   "id": "gtr.def.insured-person",
+   "heading": "Insured Person",
+   "sha256": "e19f72a065ad7a5b7315eb8494f7ca6cae7285e4304b0f390d8bc3c32319abdf"
+  },
+  {
+   "id": "gtr.def.kidnap",
+   "heading": "Kidnap",
+   "sha256": "88438d8b841ebc2faaa0351e1b95ebb656be2a255091518c48029de1c32698da"
+  },
+  {
+   "id": "gtr.def.known-event",
+   "heading": "Known Event",
+   "sha256": "88c39ddce1bedd70df25188deda1e0c5f5f0cfa2c3f39c64585cc048ce5c84a9"
+  },
+  {
+   "id": "gtr.def.luggage-and-personal-effects",
+   "heading": "Luggage and Personal Effects",
+   "sha256": "2663fa6a1d90a5e38b81c3124e2cd181ad9cbc2835be5e463887e5f987c27405"
+  },
+  {
+   "id": "gtr.def.medical-practitioner",
+   "heading": "Medical Practitioner",
+   "sha256": "958c71e9d0a72d63020e639512050d0788e9ef268b5651845de5a54c3831df90"
+  },
+  {
+   "id": "gtr.def.medicare-eligible",
+   "heading": "Medicare-Eligible",
+   "sha256": "d050f70fa85dad4591f08bed432da44e4f76496bb80a1e28bc7a7d942ea026ac"
+  },
+  {
+   "id": "gtr.def.money",
+   "heading": "Money",
+   "sha256": "5e93f219cd3d6cb9f8155355d3eb188c3dabc344d67573051ec3726679f4f4ec"
+  },
+  {
+   "id": "gtr.def.permanent-total-disablement",
+   "heading": "Permanent Total Disablement",
+   "sha256": "c4558069df0edd8025bd5dd2908bbc8e16e8510b04808be0efba33fdfabd2ae1"
+  },
+  {
+   "id": "gtr.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "deb5dcf3421c8334f07667a748a78a789069ca452095d2d3423afa1288b8ed64"
+  },
+  {
+   "id": "gtr.def.pre-existing-condition",
+   "heading": "Pre-existing Condition",
+   "sha256": "67759bcfbd0230b96545105d305651d7c5da3f0405f49050cd96e78f072dd8fd"
+  },
+  {
+   "id": "gtr.def.rental-vehicle",
+   "heading": "Rental Vehicle",
+   "sha256": "f3bcb23268593c8d1fbc674aa34a27fbf0abde34ae3f5ed6bc1bad451fb067a9"
+  },
+  {
+   "id": "gtr.def.sickness",
+   "heading": "Sickness",
+   "sha256": "10411b4374f8336385875517c5bae6247c6250bb2fea7f3d001a09314fe25cf4"
+  },
+  {
+   "id": "gtr.def.temporary-total-disablement",
+   "heading": "Temporary Total Disablement",
+   "sha256": "5111a25c7825bbf61c8a50da88f264006edb88a877abe2f7d77c040cebbd8b32"
+  },
+  {
+   "id": "gtr.def.terrorism",
+   "heading": "Terrorism",
+   "sha256": "02979283dffcc2a59be7e692982ee6f3c0a4f77b2e90e6eed6c68ff03499519b"
+  },
+  {
+   "id": "gtr.def.trip",
+   "heading": "Trip",
+   "sha256": "c18865b1501141aeb8f985448ddce3f4096cc03b9de9bc6cb6a657c150c06588"
+  },
+  {
+   "id": "gtr.def.unattended",
+   "heading": "Unattended",
+   "sha256": "df211eed3a4f4cd70e39bba3290622dd0742465c41796f459d8afdfe58bfa3ff"
+  },
+  {
+   "id": "gtr.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "gtr.def.you-your",
+   "heading": "You, Your",
+   "sha256": "1444102391a56bf0f3d375fe538283eca3bb4206ad6e26b08c4c5ce4ded21f88"
+  },
+  {
+   "id": "gtr.section.cover-basis",
+   "heading": "Who and What Is Covered",
+   "sha256": "a91861832ae8b48250b9ed830036a880df06f8cd41ed5e13b37b627c021a2436"
+  },
+  {
+   "id": "gtr.cover.who-is-covered",
+   "heading": "Who Is Covered",
+   "sha256": "0912c46d7c59a0326ad00e1dc8cd608892655deac8f223519d2f8c6b6f054abf"
+  },
+  {
+   "id": "gtr.cover.trip",
+   "heading": "When They Are Covered",
+   "sha256": "6766bd71a8757b9605c35bfbeeef3270c869542bc9b1a88302e49816be9563c2"
+  },
+  {
+   "id": "gtr.section.medical",
+   "heading": "Medical and Evacuation",
+   "sha256": "2fd4cfbcf5a8037c53e88db30940b9aa1530ffa560878d0a4d8d209092282dd4"
+  },
+  {
+   "id": "gtr.cover.medical",
+   "heading": "Medical and Evacuation Expenses",
+   "sha256": "7b8c7572c1ce9a0b8d09a032efa1db702eb173b993fe243ac361011a84efd899"
+  },
+  {
+   "id": "gtr.section.personal-accident",
+   "heading": "Personal Accident",
+   "sha256": "1a2d4dda55a8d81b7f30aacd6ace83d9bca4c3d934b09620efc718cd595dc3d2"
+  },
+  {
+   "id": "gtr.cover.personal-accident",
+   "heading": "Personal Accident Benefits",
+   "sha256": "ea4bbbb6759f90751a5640d04f0539889925e51a14dbb2fb85a09efd96a99a69"
+  },
+  {
+   "id": "gtr.section.disruption",
+   "heading": "Travel Disruption",
+   "sha256": "cc2ba8e700267b2a9c16417ba116535def2edf337ca5734d9ab32d6a35ed2884"
+  },
+  {
+   "id": "gtr.cover.disruption",
+   "heading": "Cancellation, Curtailment and Delay",
+   "sha256": "2502bba6ec42112b38ec6cf7f86c1eaecd6e24c4cf2d6a18474ce9dce1dcd1c5"
+  },
+  {
+   "id": "gtr.section.luggage",
+   "heading": "Luggage and Personal Effects",
+   "sha256": "9bc1387d5fc2936057994f9900c81deae9ae61b758c01a3630e39bc8877705f8"
+  },
+  {
+   "id": "gtr.cover.luggage",
+   "heading": "Luggage, Business Equipment and Documents",
+   "sha256": "b7387692232dc8073b06300ce84c63fbae3a51207f3f3abec4c3e9d45425d85d"
+  },
+  {
+   "id": "gtr.section.business-expenses",
+   "heading": "Business Expenses",
+   "sha256": "ad7c9ac932f7a57dce22512da6ed856bcfedff96f95aa5db8d0a2cd0ec25de26"
+  },
+  {
+   "id": "gtr.cover.business-expenses",
+   "heading": "Money and Business Expenses",
+   "sha256": "e89e22bfce5b7c12b2596c89f65dcb1c5f57c0a49516543488d165b26d05bb54"
+  },
+  {
+   "id": "gtr.section.liability",
+   "heading": "Personal Liability",
+   "sha256": "ad4cbc5b4e55fa38ff0415c17f700e0fd8af513f523c8cdf63e09a00dc2f451d"
+  },
+  {
+   "id": "gtr.cover.liability",
+   "heading": "Personal Liability",
+   "sha256": "442dcd7095dfc67f76ff405e81b0f20af4fd9ba6da753b7f1a20fbf79b7a8198"
+  },
+  {
+   "id": "gtr.section.kidnap-crisis",
+   "heading": "Kidnap, Extortion and Crisis Response",
+   "sha256": "807824e5838292655cb3f07a9842e86f467d3f86bb51254943abae7db6b755d0"
+  },
+  {
+   "id": "gtr.cover.kidnap-crisis",
+   "heading": "Kidnap, Extortion and Crisis Response",
+   "sha256": "9cac592938c04e796fc66a2101d810b89a7990a667b8b6c3199283ee6191b255"
+  },
+  {
+   "id": "gtr.section.rental-vehicle",
+   "heading": "Rental Vehicle Excess",
+   "sha256": "f383cde2237f8d0c4a797aee2f9432209fb0a5b5845fb85df2562db4a075f085"
+  },
+  {
+   "id": "gtr.cover.rental-vehicle",
+   "heading": "Rental Vehicle Excess",
+   "sha256": "c15a03f20d07b069e20a8ceab51e11370d3401c052cab3f55ce519fee65e558c"
+  },
+  {
+   "id": "gtr.section.payment",
+   "heading": "How We Pay",
+   "sha256": "25ea51188284e7f7220078334c4aaa54e060d47c3b3be383c4855726a5833305"
+  },
+  {
+   "id": "gtr.pay.limits-and-excess",
+   "heading": "Limits and Excess",
+   "sha256": "d4f23126bcc585cc8bd59e534e9cf4bc0d0ac4b45c0df55226355e4d4f9a971d"
+  },
+  {
+   "id": "gtr.pay.one-section",
+   "heading": "One Benefit for One Loss",
+   "sha256": "9e7606122ec99e25f4edcbcb9c4645503453bdc99477c9e35ccf0e80c4266759"
+  },
+  {
+   "id": "gtr.pay.accumulation",
+   "heading": "Accumulation Limit",
+   "sha256": "d6f0860859f212e4677c3565392b41a4509bdfda085b76796400fb953f485665"
+  },
+  {
+   "id": "gtr.pay.medicare",
+   "heading": "Medicare and Health Insurance Laws",
+   "sha256": "fb95b9551f53bc6aa9fedd4eb9ff06a933ee4f91e18e351007df59cfd53367ce"
+  },
+  {
+   "id": "gtr.pay.other-insurance",
+   "heading": "Other Insurance and Recovery",
+   "sha256": "537868bfbf984b7a438431f04aea14b1e1e78275d9f6a44c4dfbab6cafb0a825"
+  },
+  {
+   "id": "gtr.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "60da90341062b57f7cc1ef5d96d8dd3f67d7d12e2c61893e2aafbe7ba7082d4f"
+  },
+  {
+   "id": "gtr.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "4ccb92daeafce4afef50d0925312b7561e34b4ee35fe78dc7c29c94fdaaee864"
+  },
+  {
+   "id": "gtr.excl.pre-existing-conditions",
+   "heading": "Pre-existing Conditions",
+   "sha256": "2b8c724d1d4d5a1d045638cb783fe4cd38dce861ed15f0df9db20da7f29c22ca"
+  },
+  {
+   "id": "gtr.excl.government-advice",
+   "heading": "Travel Against Government Advice",
+   "sha256": "cf800dfbaf911e44a1fb269f727b6e5bb64d8944131ebbede6830e55e1469bb4"
+  },
+  {
+   "id": "gtr.excl.war",
+   "heading": "War",
+   "sha256": "bc2f4083ddc98c7aaeb553f2d9ddd184656d6c31fb3ecdd5b82d60fe2df98833"
+  },
+  {
+   "id": "gtr.excl.nuclear-biological-chemical",
+   "heading": "Nuclear, Biological and Chemical",
+   "sha256": "54c7754678e2b10c88e096f5b8b924129debeb151348c6d062d4f770a0392b30"
+  },
+  {
+   "id": "gtr.excl.epidemic-pandemic",
+   "heading": "Epidemic or Pandemic",
+   "sha256": "616c6bd6f29cb63b3d2dea9bef05fa8c85c349ddf52bb4c93482db050b4c3215"
+  },
+  {
+   "id": "gtr.excl.known-events",
+   "heading": "Known Events",
+   "sha256": "0dbba40d2ce152864d7a9412979ade1e57348bb1afcc379a4d318fa000134c84"
+  },
+  {
+   "id": "gtr.excl.self-injury-intoxication",
+   "heading": "Self-Injury and Intoxication",
+   "sha256": "17f903c2cd70249a733dbff01b575d1554dc9ef6823f7abb764ffb7c8b665a69"
+  },
+  {
+   "id": "gtr.excl.illegal-acts",
+   "heading": "Illegal Acts",
+   "sha256": "30eec662a26ac0034e1d2bb51c2873ef9b1a2c69ecbfb428a5ec20bb3a09dec2"
+  },
+  {
+   "id": "gtr.excl.hazardous-activities",
+   "heading": "Hazardous Activities",
+   "sha256": "1df00fa19fdb7ad9676df35a7273ea581df24a83d47ea1ed3894044099c2ab10"
+  },
+  {
+   "id": "gtr.excl.manual-work",
+   "heading": "Manual Work",
+   "sha256": "09e7293a621166f5c57701c84a352729347b3506dd313465c0413fff100e2d56"
+  },
+  {
+   "id": "gtr.excl.pregnancy",
+   "heading": "Pregnancy",
+   "sha256": "6b58c81ad36fa1f173f6e81b9306ec7754995e376d8305730155795896b6f0a0"
+  },
+  {
+   "id": "gtr.excl.elective-treatment",
+   "heading": "Elective and Deferrable Treatment",
+   "sha256": "ad9421ae3760e0ae2375d6e5d7a198ef0ab25aebb0b7fab284c4dfcc9475f184"
+  },
+  {
+   "id": "gtr.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "gtr.obl.emergencies",
+   "heading": "Emergencies",
+   "sha256": "47bb9f9f604c77dd6c1df7dc481c3bf5b7f2acfdbfe241adf74f24ba5bb3c686"
+  },
+  {
+   "id": "gtr.obl.claims",
+   "heading": "Making a Claim",
+   "sha256": "4dbd3d35bf76bbecb408e1da8e35f3bc4d2e123e7e5a9d72ade7ea5162efde9d"
+  },
+  {
+   "id": "gtr.obl.declarations",
+   "heading": "Declarations and Adjustment",
+   "sha256": "c76d6723a11b845b477232deff3b5a76955619ce76ea1deb60ba459fd3bd72da"
+  },
+  {
+   "id": "gtr.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "gtr.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "f0be930c9c2b9df1ec9e6fe39b7c7c9038f71f865e0f495cad4d64c6dc236c6c"
+  },
+  {
+   "id": "gtr.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "b597392f45890cbebafcd339983f0437566e772c87117d65c50dcd81a1143e7a"
+  },
+  {
+   "id": "gtr.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "c86ca1a7e228dcda5eea5b6490637d8131c390871051330bc1e8caccca7570ca"
+  },
+  {
+   "id": "gtr.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "5ba52d19ab90443ea6b2198a22945a8def05fcb16abf4bdcae943f6728c7bdb5"
+  },
+  {
+   "id": "gtr.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "852d92cc4b6d23f827e431fe7b94b47eaf719a9435e1625ee5ca7b4a74ededfe"
+  },
+  {
+   "id": "gtr.cond.gst",
+   "heading": "GST",
+   "sha256": "08f98554bd0e20fd554ed39b83b7992ca3900cd0678c38e96acb4f8ccd0f24e7"
+  },
+  {
+   "id": "gtr.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "7f5bda1363cf320dd395d78be13fe0a444e94aa337cac3fbfddac2d97d67b995"
+  },
+  {
+   "id": "gtr.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "2548959203abad2bb444523707421dac096f6405b509b34f08b092fb7f70a9d8"
+  },
+  {
+   "id": "gtr.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "99806d00541a763110c52e2d2436c54ed98afbde768dbdd47e96dd627a155e3e"
+  },
+  {
+   "id": "gtr.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "gtr.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "09da6dcb88d28d9028a0994fcdf54b8b5806ac3672176b0a131db7595b9385d7"
+  },
+  {
+   "id": "gtr.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "e797added7b06753250c183a67962e4afacfb9298d3e3a6927393833b6032ee4"
+  },
+  {
+   "id": "gtr.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "bbf537a119207d6c580e611181e92022591d074f24b589c76d5e4662986ccd7e"
+  },
+  {
+   "id": "gtr.end.e01",
+   "heading": "E01 Pre-existing Medical Conditions",
+   "sha256": "8e2d70dbfd83a8bb5c5fd65bca43417b95469eadfbade0a4db585f87bb339baf"
+  },
+  {
+   "id": "gtr.end.e02",
+   "heading": "E02 Leisure Extension",
+   "sha256": "a9966c77dd56ae88c70bab290d8ba0a2649103c0f2837e3842e2cf4bb662f96a"
+  },
+  {
+   "id": "gtr.end.e03",
+   "heading": "E03 Hazardous Activities",
+   "sha256": "e5314651f008375dc744da308fd1f12e06ccf67277200103dd581b7bc0f8d396"
+  },
+  {
+   "id": "gtr.end.e04",
+   "heading": "E04 Epidemic and Pandemic Disruption",
+   "sha256": "2b6465d18bab9537b9ab9b903f2a3ca61925b744e18a57b506620d8a75045a80"
+  },
+  {
+   "id": "gtr.end.e05",
+   "heading": "E05 Manual Work Overseas",
+   "sha256": "0787b686d21de8f7f0179d5e2370cbbc91f36924517f4ca25ce1b3c41c1b8425"
+  },
+  {
+   "id": "gtr.end.e06",
+   "heading": "E06 Long-Term Assignment",
+   "sha256": "0e503225ec38b5c97f198be397b1ae5e6b476d5544e3e7c500673de60d406a1f"
+  },
+  {
+   "id": "gtr.end.e07",
+   "heading": "E07 Increased Personal Accident Benefits",
+   "sha256": "db1456f3c2abceabb5aa62c058d10cfe10661a3389c66b26a69ebe21576e0af2"
+  },
+  {
+   "id": "gtr.end.e08",
+   "heading": "E08 Non-Employee Travellers",
+   "sha256": "9e8f78315a2a83b8db4d30145ede22d6f2972cfac333e536b2a8e9d2aea5b3ce"
+  },
+  {
+   "id": "gtr.end.e09",
+   "heading": "E09 Domestic Travel Only",
+   "sha256": "6b4db640ba037de7f1bc7352db443698c0583f4cd2b12aa128ff45a1acf8c834"
+  },
+  {
+   "id": "gtr.end.e10",
+   "heading": "E10 Employees Based Outside Australia",
+   "sha256": "473480420133d64a68fad2b1674a139948fa0e219171a5be16ea9bbe39ba6496"
+  },
+  {
+   "id": "gtr.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "gtr.end.e01",
+   "heading": "E01 Pre-existing Medical Conditions",
+   "trigger": {
+    "questions": [
+     "qs.gtr.medical.preexisting_declared"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.medical.preexisting_declared == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because the policyholder declared a traveller's pre-existing condition; acceptance needs medical underwriting.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.medical.preexisting_declared",
+     "text": "Does any insured person want cover for a pre-existing medical condition?",
+     "type": "yes/no",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e02",
+   "heading": "E02 Leisure Extension",
+   "trigger": {
+    "questions": [
+     "qs.gtr.cover.leisure_days",
+     "qs.gtr.cover.directors_leisure"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.cover.directors_leisure == yes",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.gtr.cover.leisure_days > 7",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because the policyholder asked for more leisure travel than the base wording allows.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.cover.leisure_days",
+     "text": "How many days of leisure travel before or after a business trip should be covered?",
+     "type": "select",
+     "options": [
+      "7",
+      "14",
+      "21"
+     ],
+     "used_by": "R, S, E02"
+    },
+    {
+     "id": "qs.gtr.cover.directors_leisure",
+     "text": "Should directors and officers also be covered on leisure trips with no business purpose?",
+     "type": "yes/no",
+     "used_by": "R, S, E02"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e03",
+   "heading": "E03 Hazardous Activities",
+   "trigger": {
+    "questions": [
+     "qs.gtr.activities.hazardous"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.activities.hazardous == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because insured persons will take part in an activity the base wording excludes.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.activities.hazardous",
+     "text": "Will any insured person take part in an activity listed in the hazardous activities exclusion?",
+     "type": "yes/no",
+     "used_by": "E03"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e04",
+   "heading": "E04 Epidemic and Pandemic Disruption",
+   "trigger": {
+    "questions": [
+     "qs.gtr.cover.pandemic"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.cover.pandemic == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because the policyholder asked for epidemic and pandemic disruption cover.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.cover.pandemic",
+     "text": "Do you want cover for disruption caused by an insured person's own diagnosis or quarantine in an epidemic or pandemic?",
+     "type": "yes/no",
+     "used_by": "E04"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e05",
+   "heading": "E05 Manual Work Overseas",
+   "trigger": {
+    "questions": [
+     "qs.gtr.activities.manual_work"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.activities.manual_work == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because insured persons will do manual work on a site the base wording excludes.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.activities.manual_work",
+     "text": "Will any insured person do manual work on a construction, mining, oil and gas or engineering site, or work underground or offshore?",
+     "type": "yes/no",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e06",
+   "heading": "E06 Long-Term Assignment",
+   "trigger": {
+    "questions": [
+     "qs.gtr.trips.max_duration"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.trips.max_duration == over_90",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because a trip will be longer than the maximum trip duration.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.trips.max_duration",
+     "text": "How long will the longest trip be?",
+     "type": "select",
+     "options": [
+      "up_to_31",
+      "32_to_90",
+      "over_90"
+     ],
+     "used_by": "A, E06"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e07",
+   "heading": "E07 Increased Personal Accident Benefits",
+   "trigger": {
+    "questions": [
+     "qs.gtr.limit.pa_capital"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.limit.pa_capital > 500000",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because a capital sum above the standard amount was chosen.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.limit.pa_capital",
+     "text": "What personal accident capital sum do you want for each insured person?",
+     "type": "select (AUD)",
+     "options": [
+      "250000",
+      "500000",
+      "1000000",
+      "2000000"
+     ],
+     "used_by": "R, S, E07"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e08",
+   "heading": "E08 Non-Employee Travellers",
+   "trigger": {
+    "questions": [
+     "qs.gtr.persons.non_employees"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.persons.non_employees == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because people other than employees and named contractors will travel at the policyholder's cost.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.persons.non_employees",
+     "text": "Will consultants, board advisers or guests travel on the policyholder's business at its cost?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e09",
+   "heading": "E09 Domestic Travel Only",
+   "trigger": {
+    "questions": [
+     "qs.gtr.cover.territory"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.cover.territory == australia_only",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policyholder chose cover for trips within Australia only.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.cover.territory",
+     "text": "Where will insured persons travel?",
+     "type": "select",
+     "options": [
+      "worldwide",
+      "australia_only"
+     ],
+     "used_by": "A, S, E09"
+    }
+   ]
+  },
+  {
+   "id": "gtr.end.e10",
+   "heading": "E10 Employees Based Outside Australia",
+   "trigger": {
+    "questions": [
+     "qs.gtr.persons.based_overseas"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.persons.based_overseas == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because some travellers live outside Australia.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.persons.based_overseas",
+     "text": "Do any directors, officers or employees who travel live outside Australia?",
+     "type": "yes/no",
+     "used_by": "A, E10"
+    }
+   ]
+  }
+ ],
+ "sha256": "dd0799e5f1e093de3cca2d05873e64a862a997375c9c2bb159c99c408000adfc"
+}
