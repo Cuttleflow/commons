@@ -17,12 +17,12 @@
   {
    "id": "bpk.claims-made-notice",
    "heading": "Notice Under s 40 of the Insurance Contracts Act",
-   "sha256": "581e1118283d44dc8e7bd4204c83c24eb4904c24aaeb7c0e1e03b3e72db05a69"
+   "sha256": "ceb86d371b61d0195264f1e927fccc661c329edc0737b59c0324652f2d8eab16"
   },
   {
    "id": "bpk.version-history",
    "heading": "Version and Document History",
-   "sha256": "1715c1806ca99208176d47630e6dd7b68900e5ae75fe248a69045b1334293934"
+   "sha256": "6e541ed541f9e91b26db01fc44936a427193be085db0fb65060cb9f7b4c4c31a"
   },
   {
    "id": "bpk.schedule",
@@ -257,7 +257,7 @@
   {
    "id": "bpk.section.general-exclusions",
    "heading": "General Exclusions",
-   "sha256": "5d8c7ca5f343777994cbab8a29230c549f03ba39cc7d665d93f1f3a9017e0d63"
+   "sha256": "a0f5ec42cd2ed68c241c1ecb3f9e295d8ad4a70ab02e34222ae14bad9f8c79b8"
   },
   {
    "id": "bpk.excl.war",
@@ -287,7 +287,7 @@
   {
    "id": "bpk.excl.pollution",
    "heading": "Pollution",
-   "sha256": "0366ac037cc1b59d92f0b7a6ec16a9a8bb7cf0b0e88a735a711e825acc6ae8ec"
+   "sha256": "e8506e4f2aa2666ab8f3632a01a9044a7305d842a62f71a1551a7b6510d7f380"
   },
   {
    "id": "bpk.excl.electronic-data",
@@ -357,7 +357,7 @@
   {
    "id": "bpk.cond.making-a-claim",
    "heading": "Making a Claim",
-   "sha256": "088b57899d580b01ed8e69bb71822ddec5e752566adab7fa7d16b01d4784e52f"
+   "sha256": "cb89c2cac02f692f821eaf377904bf5233be743bcc5db9983a4f764080e10e4c"
   },
   {
    "id": "bpk.cond.excess",
@@ -532,12 +532,12 @@
   {
    "id": "bpk.crime.discovery",
    "heading": "Discovery and Extended Discovery",
-   "sha256": "e3ba16655d614f8c00a36dba694a7e3454bde832a43036de8049942a87f16ea9"
+   "sha256": "cbf0ea51fcea5f229e763815f13521cefd4f81071beff8a4ef731179ba8d7a59"
   },
   {
    "id": "bpk.crime.social-engineering-verification",
    "heading": "Social Engineering Verification",
-   "sha256": "f249fefcb8fdf2c6d2f135d3529d7d6c0c646465926fb620c442502539e06304"
+   "sha256": "68ff89a5c526daace61004fc65befc5c110f473bdfb53e2cd0da7cb21d1d8065"
   },
   {
    "id": "bpk.crime.valuation-and-recoveries",
@@ -592,7 +592,7 @@
   {
    "id": "bpk.liability.exclusions",
    "heading": "How the Liability Exclusions Apply",
-   "sha256": "d0dc5cb5504eed543af7c21a6b35b9390078f750006a544ffa2326604f6a04a3"
+   "sha256": "a642baca3577886d2ddbc3c65dd310bbd562da75ab6abb8764ba53371a0f256d"
   },
   {
    "id": "bpk.liability.excl.injury-to-employees",
@@ -667,7 +667,7 @@
   {
    "id": "bpk.equipment.underinsurance",
    "heading": "Underinsurance (Equipment)",
-   "sha256": "419ccf8bb142595b2d479b11e30a7295cdcae62cd6c847accfcf8f199a4031e1"
+   "sha256": "a0b41660cc1912ef5bbe0052a18d0cab33da070b24708550b19849fb22375144"
   },
   {
    "id": "bpk.equipment.additional-benefits",
@@ -782,7 +782,7 @@
   {
    "id": "bpk.cyber.claims-made",
    "heading": "Cyber Claims-made Conditions",
-   "sha256": "a5cbe28fbe6feb0f1d8e5e46218641e313e70aace751ec8f9699dae0765f4e41"
+   "sha256": "885e44de983e2066e7caa40d3a7f903358736242d6cff6028232cbeb0df55575"
   },
   {
    "id": "bpk.cyber.exclusions",
@@ -882,7 +882,7 @@
   {
    "id": "bpk.ml.claims-made",
    "heading": "Management Liability Claims-made Conditions",
-   "sha256": "02f895ba46bcbce7acadad6711a30a242276531c22e83bd8465089bc1711263f"
+   "sha256": "0da0551551c4acad9fdf421fc68928546c17dff14c383d5922d1a3041995c5ab"
   },
   {
    "id": "bpk.ml.additional-benefits",
@@ -902,7 +902,7 @@
   {
    "id": "bpk.end.e01",
    "heading": "E01 Accidental Damage",
-   "sha256": "fd7735c9bf87abc1d0ea2d2921cbfb3d421e1b172e11c3b866e081628b6dfb52"
+   "sha256": "ce1624924ec3a21af516e0c47e1c9e1e553e760c2bedcdd2d881eabfc1b6b080"
   },
   {
    "id": "bpk.end.e02",
@@ -917,7 +917,7 @@
   {
    "id": "bpk.end.e04",
    "heading": "E04 Equipment Damage Consequential Loss",
-   "sha256": "4ef662876211321e58e7c32ea26f6f4417dc9314d2721da98f29c60181c523ac"
+   "sha256": "d2cb138e8df9848732f9a330f304b5181f02ddd740eb676f6a82973801389d48"
   },
   {
    "id": "bpk.end.e05",
@@ -932,12 +932,12 @@
   {
    "id": "bpk.end.e07",
    "heading": "E07 Product Recall Costs",
-   "sha256": "ab952c5bd30a8ba6fb89ac0bb2102e1e7970a202b1438db55e4577dc2067c363"
+   "sha256": "969cf6333b50bfadc93022f19900f6c08c0ef871226a6fe62a63c09520095d53"
   },
   {
    "id": "bpk.end.e08",
    "heading": "E08 Minor Contract Works",
-   "sha256": "d217b968fab9750537c2c263be533cd39df689bb07eb4cc20f8e5228d2445a7c"
+   "sha256": "86a924358dc4705e3c17136883a84447064ae467466faf799d4b49e2d5fbdc14"
   },
   {
    "id": "bpk.end.e09",
@@ -947,7 +947,7 @@
   {
    "id": "bpk.end.e10",
    "heading": "E10 Hot Works",
-   "sha256": "40f7f6d2db160052a5267e10758b6101076689e2e51ff16973867d43be64f12d"
+   "sha256": "eb3bfca5efcb8dc04bdd50a888296222d793ebdde2ea585c36df52d83744118d"
   },
   {
    "id": "bpk.end.e11",
@@ -957,7 +957,7 @@
   {
    "id": "bpk.end.e12",
    "heading": "E12 Specified Occupations",
-   "sha256": "b7168098851b0ffded464d3fd377562fcf3e077fed7efc60455056e2d83ec872"
+   "sha256": "971300adda9e6833a7cc978a774af01939c7f1864146c3acd00911613740480a"
   },
   {
    "id": "bpk.appendix.default-schedule-values",
@@ -1370,5 +1370,5 @@
    ]
   }
  ],
- "sha256": "e59f513262d540bce4466755f933afe7781b4fff37d400c7e2452b5932693ee0"
+ "sha256": "29bb047f838d49c2fd0164dc9aeafb335bad36ea70d80f8b38a8be754a6163cc"
 }
