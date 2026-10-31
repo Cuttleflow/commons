@@ -12,4 +12,4 @@ You may purchase an Extended Reporting Period of up to 36 months for an addition
 
 This clause does not extend the policy period or reinstate the limit of liability — it extends only the time to notify a claim arising from a wrongful act that occurred before the end of the policy period.
 
-This Extended Reporting Period applies to claims under the liability sections. For the Crime section, see the Extended Discovery Period clause, which is a separate, equivalent mechanism keyed to discovery rather than to a claim.
+This Extended Reporting Period applies to claims under the liability sections. For the Crime section, see [[ref:ml.cond.extended-discovery-period]], which is a separate, equivalent mechanism keyed to discovery rather than to a claim.

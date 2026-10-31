@@ -6,7 +6,7 @@ since: 1.4.0
 status: draft
 ---
 
-An act committed by an employee with the clear intention of:
+means an act committed by an employee with the clear intention of:
 
 (a) causing the company direct financial loss; and
 

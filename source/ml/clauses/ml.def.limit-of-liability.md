@@ -6,4 +6,4 @@ since: 1.4.0
 status: draft
 ---
 
-The amount shown in the schedule for each section, and the overall aggregate limit of liability shown in the schedule, which is the most we will pay across all sections combined during the policy period.
+means the amount shown in the schedule for each section, and the overall aggregate limit of liability shown in the schedule, which is the most we will pay across all sections combined during the policy period.

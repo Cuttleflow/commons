@@ -1,7 +1,7 @@
 ---
 id: ml.obl.section-54
 type: obligation
-heading: Section 54 — Your Statutory Protection
+heading: Your Statutory Protection (s.54)
 since: 1.4.0
 status: draft
 ---

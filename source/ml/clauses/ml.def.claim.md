@@ -6,6 +6,8 @@ since: 1.4.0
 status: draft
 ---
 
+means:
+
 (a) any written demand for compensation made against an insured;
 
 (b) any writ, summons, cross-claim, or other legal proceeding issued against an insured;

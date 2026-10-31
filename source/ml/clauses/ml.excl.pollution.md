@@ -10,4 +10,4 @@ We do not cover any claim, loss, or liability arising from pollution or contamin
 
 (a) defence costs in statutory proceedings relating to pollution (covered under the Statutory Liability section if operative); and
 
-(b) environmental clean-up costs (covered under the Environmental Clean-Up Costs extension if the Statutory Liability section is operative).
+(b) environmental clean-up costs (covered under [[ref:ml.ext.environmental-clean-up]] if the Statutory Liability section is operative).

@@ -8,4 +8,4 @@ status: draft
 
 We will advance defence costs for WHS prosecutions immediately upon notification, without requiring a formal coverage determination first. WHS prosecutions move quickly and the consequences are severe — we will not delay your defence.
 
-An increased sub-limit for WHS defence costs is available by endorsement — see the Increased WHS defence costs sub-limit endorsement in the Endorsement Library.
+The most we will pay for defence costs for all WHS prosecutions during the policy period is the WHS defence costs sub-limit shown in the schedule. The sub-limit is part of the Statutory Liability section limit of liability. [[ref:ml.end.e04]] increases it.

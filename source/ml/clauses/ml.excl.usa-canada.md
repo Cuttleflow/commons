@@ -6,4 +6,4 @@ since: 1.4.0
 status: draft
 ---
 
-We do not cover any claim brought or maintained in a court in the United States of America or Canada, or any claim to enforce a judgment of such a court — unless the US/Canada jurisdiction endorsement has been purchased and is shown in the schedule.
+We do not cover any claim brought or maintained in a court in the United States of America or Canada, or any claim to enforce a judgment of such a court — unless [[ref:ml.end.e03]] is shown in the schedule.

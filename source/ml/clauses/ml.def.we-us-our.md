@@ -6,4 +6,4 @@ since: 1.4.0
 status: draft
 ---
 
-The insurer named in the schedule.
+means the insurer named in the schedule.

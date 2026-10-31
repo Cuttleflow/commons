@@ -6,7 +6,7 @@ since: 1.4.0
 status: draft
 ---
 
-Any actual or alleged:
+means any actual or alleged:
 
 (a) wrongful dismissal, wrongful termination, or constructive dismissal;
 

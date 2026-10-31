@@ -6,4 +6,4 @@ since: 1.4.0
 status: draft
 ---
 
-The period shown in the schedule.
+means the period shown in the schedule.

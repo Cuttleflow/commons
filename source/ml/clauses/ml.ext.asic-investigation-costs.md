@@ -8,4 +8,4 @@ status: draft
 
 We will pay an insured person's defence costs in responding to a formal investigation or examination by ASIC into their conduct as a director or officer, even if no claim has yet been made.
 
-An increased sub-limit for ASIC investigation costs is available by endorsement — see the Increased ASIC investigation costs sub-limit endorsement in the Endorsement Library.
+The most we will pay under this extension during the policy period is the ASIC investigation costs sub-limit shown in the schedule. The sub-limit is part of the Directors' and Officers' Liability section limit of liability. [[ref:ml.end.e05]] increases it.

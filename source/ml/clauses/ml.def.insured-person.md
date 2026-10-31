@@ -6,7 +6,7 @@ since: 1.4.0
 status: draft
 ---
 
-Any natural person who is, was, or during the policy period becomes:
+means any natural person who is, was, or during the policy period becomes:
 
 (a) a director (including a shadow director or de facto director) of the company;
 

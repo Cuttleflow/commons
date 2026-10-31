@@ -6,4 +6,4 @@ since: 1.4.0
 status: draft
 ---
 
-The document titled "Schedule" issued with this policy, as amended by any endorsement.
+means the document titled "Schedule" issued with this policy, as amended by any endorsement.

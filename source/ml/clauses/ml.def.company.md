@@ -6,4 +6,4 @@ since: 1.4.0
 status: draft
 ---
 
-The entity named as the named insured in the schedule, and any subsidiary.
+means the entity named as the named insured in the schedule, and any subsidiary.

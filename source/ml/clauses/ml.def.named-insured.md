@@ -6,4 +6,4 @@ since: 1.4.0
 status: draft
 ---
 
-The entity shown as the named insured in the schedule.
+means the entity shown as the named insured in the schedule.
