@@ -95,6 +95,10 @@ questions:
     text: Does the body corporate know of any defect in the building, including waterproofing, structural, fire safety or cladding defects?
     type: yes/no
     used_by: A, E02
+  - id: qs.str.risk.defect_details
+    text: Describe each known defect, the part of the building it affects, any expert report, and what is being done to fix it.
+    type: text
+    used_by: S
   - id: qs.str.risk.defect_orders
     text: Has a council, building regulator or fire authority issued any order or notice about the building that has not been complied with?
     type: yes/no
