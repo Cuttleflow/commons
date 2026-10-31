@@ -1,0 +1,151 @@
+id: cy-base
+title: Cyber Insurance
+class: CYBER INSURANCE
+kicker: Meridian Commons · Cyber
+slug: cyber
+file_stem: Meridian_Cyber
+doc_ref: 2026/CY/0002
+version: 1.4.0-DRAFT
+date: November 2026
+draft: true
+summary: First- and third-party cover for cyber events and data breaches, for Australian businesses.
+supersedes: Meridian Cyber v1.3.0-DRAFT (July 2026), published as a page without clause source, and the Cyber Endorsement Library v1.0.0 (2026/CY/0003, July 2026)
+structure:
+- section: preamble
+  clauses:
+  - cy.about
+  - cy.version-history
+  - cy.schedule
+- section: cy.section.definitions
+  clauses:
+  - cy.def.claim
+  - cy.def.company
+  - cy.def.computer-system
+  - cy.def.cyber-event
+  - cy.def.cyber-extortion-threat
+  - cy.def.data
+  - cy.def.defence-costs
+  - cy.def.dependent-event
+  - cy.def.digital-media-content
+  - cy.def.employee
+  - cy.def.endorsement
+  - cy.def.excess
+  - cy.def.extended-reporting-period
+  - cy.def.extra-expense
+  - cy.def.funds
+  - cy.def.indemnity-period
+  - cy.def.insured-loss
+  - cy.def.insured-person
+  - cy.def.limit-of-liability
+  - cy.def.named-insured
+  - cy.def.net-income-loss
+  - cy.def.personal-information
+  - cy.def.policy-period
+  - cy.def.privacy-breach
+  - cy.def.ransomware
+  - cy.def.retroactive-date
+  - cy.def.schedule
+  - cy.def.service-provider
+  - cy.def.subsidiary
+  - cy.def.system-failure
+  - cy.def.unauthorised
+  - cy.def.waiting-period
+  - cy.def.we-us-our
+  - cy.def.widespread-event
+  - cy.def.you-your
+- section: cy.section.first-party
+  clauses:
+  - cy.cover.incident-response
+  - cy.cover.business-interruption
+  - cy.cover.data-restoration
+  - cy.cover.cyber-extortion
+  - cy.cover.funds-transfer-fraud
+  - cy.cover.social-engineering
+  - cy.cover.regulatory-fines
+- section: cy.section.first-party-extensions
+  clauses:
+  - cy.ext.betterment
+  - cy.ext.dependent-business-interruption
+  - cy.ext.bricking
+  - cy.ext.reputational-harm
+  - cy.ext.telecommunications-fraud
+  - cy.ext.voluntary-notification
+  - cy.ext.pci-dss
+  - cy.ext.reward
+- section: cy.section.third-party
+  clauses:
+  - cy.cover.privacy-liability
+  - cy.cover.network-security-liability
+  - cy.cover.media-liability
+  - cy.cover.regulatory-defence
+  - cy.ext.court-attendance
+- section: cy.section.exclusions
+  clauses:
+  - cy.excl.war
+  - cy.excl.infrastructure
+  - cy.excl.bodily-injury-property-damage
+  - cy.excl.professional-services
+  - cy.excl.contractual-liability
+  - cy.excl.deliberate-acts
+  - cy.excl.prior-known-events
+  - cy.excl.unsupported-software
+  - cy.excl.patent-trade-secrets
+  - cy.excl.nuclear
+  - cy.excl.sanctions
+  - cy.excl.unfair-collection
+  - cy.excl.trading-losses
+  - cy.excl.improvement-costs
+- section: cy.section.payment
+  clauses:
+  - cy.pay.limit-of-liability
+  - cy.pay.sub-limits
+  - cy.pay.defence-costs
+  - cy.pay.excess
+  - cy.pay.other-insurance
+  - cy.pay.paying-out-the-limit
+  - cy.pay.widespread-events
+- section: cy.section.obligations
+  clauses:
+  - cy.obl.act-fast
+  - cy.obl.notify-claims
+  - cy.obl.notify-circumstances
+  - cy.obl.do-not-admit-liability
+  - cy.obl.cooperate
+  - cy.obl.mitigate
+  - cy.obl.preserve-recovery-rights
+  - cy.obl.security
+- section: cy.section.conditions
+  clauses:
+  - cy.cond.insurance-contracts-act
+  - cy.cond.duty-of-disclosure
+  - cy.cond.cancellation
+  - cy.cond.governing-law
+  - cy.cond.territory-and-jurisdiction
+  - cy.cond.gst
+  - cy.cond.several-liability
+  - cy.cond.assignment
+  - cy.cond.entire-agreement
+  - cy.cond.disputes-and-complaints
+  - cy.cond.privacy
+  - cy.cond.retroactive-date
+- section: end
+  clauses:
+  - cy.claims.incident-guide
+  - cy.endorsement-library
+  - cy.end.e01
+  - cy.end.e02
+  - cy.end.e03
+  - cy.end.e04
+  - cy.end.e05
+  - cy.end.e06
+  - cy.end.e07
+  - cy.end.e08
+  - cy.end.e09
+  - cy.end.e10
+  - cy.end.e11
+  - cy.end.e12
+  - cy.end.e13
+  - cy.end.e14
+  - cy.end.e15
+  - cy.end.e16
+  - cy.licence-notice
