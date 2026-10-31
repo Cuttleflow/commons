@@ -1,0 +1,200 @@
+# Platform questions for the Individual Personal Accident and Sickness wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.pa namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.pa.insured.name
+    text: What is the insured person's full name?
+    type: text
+    used_by: S
+  - id: qs.pa.insured.date_of_birth
+    text: What is the insured person's date of birth?
+    type: date
+    used_by: S
+  - id: qs.pa.insured.age
+    text: How old will the insured person be on the start date of the policy?
+    type: number (years)
+    used_by: R, A, E09
+  - id: qs.pa.insured.state
+    text: In which state or territory does the insured person live?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S
+  - id: qs.pa.insured.australian_resident
+    text: Is the insured person an Australian citizen or permanent resident who lives in Australia?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.occupation.title
+    text: What is the insured person's occupation, in their own words?
+    type: text
+    used_by: S
+  - id: qs.pa.occupation.code
+    text: Which occupation in the list best describes the insured person's work?
+    type: select (ANZSCO-based occupation list)
+    used_by: A, S
+  - id: qs.pa.occupation.class
+    text: Which occupation class applies to the insured person's work?
+    type: select
+    options: ['1', '2', '3', '4', '5']
+    used_by: R, A, S
+  - id: qs.pa.occupation.manual_pct
+    text: What percentage of the insured person's working time is spent on manual work?
+    type: percentage
+    used_by: A
+  - id: qs.pa.occupation.heights_over_10m
+    text: Does the insured person work at heights above 10 metres?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.occupation.underground_or_offshore
+    text: Does the insured person work underground, offshore or on a remote mine site?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.occupation.special_hazards
+    text: Does the insured person's work involve explosives, armed security, police, firefighting, emergency rescue or flying as aircrew?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.employment.status
+    text: Is the insured person an employee, self-employed, or a working director of their own company?
+    type: select
+    options: ['employee', 'self_employed', 'director']
+    used_by: A, S
+  - id: qs.pa.income.annual
+    text: What was the insured person's income from personal exertion over the last 12 months, before tax? For a self-employed person, this is after business expenses.
+    type: currency (AUD)
+    used_by: A, S
+  - id: qs.pa.cover.capital_sum
+    text: What capital sum does the insured person want?
+    type: currency (AUD)
+    used_by: R, A, S
+  - id: qs.pa.cover.weekly_cover
+    text: Does the insured person want weekly benefits as well as capital benefits?
+    type: yes/no
+    used_by: R, E11
+  - id: qs.pa.cover.weekly_benefit
+    text: What weekly benefit does the insured person want?
+    type: select (AUD per week)
+    options: ['250', '500', '750', '1000', '1250', '1500', '1750', '2000', '2250', '2500', '2750', '3000']
+    used_by: R, A, S
+  - id: qs.pa.cover.sickness
+    text: Does the insured person want weekly benefits for sickness as well as injury?
+    type: yes/no
+    used_by: R, S
+  - id: qs.pa.cover.waiting_period
+    text: Which waiting period does the insured person want?
+    type: select (days)
+    options: ['7', '14', '30']
+    used_by: R, S
+  - id: qs.pa.cover.benefit_period
+    text: Which benefit period does the insured person want?
+    type: select (weeks)
+    options: ['52', '104', '260']
+    used_by: R, A, S
+  - id: qs.pa.cover.scope
+    text: When should the cover apply?
+    type: select
+    options: ['24_7', 'occupational', 'non_occupational']
+    used_by: R, S, E03, E04
+  - id: qs.pa.cover.agreed_value
+    text: Does the insured person want an agreed weekly benefit that is not tested against income at claim time?
+    type: yes/no
+    used_by: R, E01
+  - id: qs.pa.cover.business_expenses
+    text: What weekly amount of fixed business expenses does the insured person want covered while disabled? Enter 0 for none.
+    type: currency (AUD per week)
+    used_by: E02
+  - id: qs.pa.cover.weekly_to_age_70
+    text: Does the insured person want weekly benefits to continue after age 65, up to age 70?
+    type: yes/no
+    used_by: E09
+  - id: qs.pa.cover.increased_additional
+    text: Does the insured person want higher limits for the funeral and rehabilitation benefits?
+    type: yes/no
+    used_by: E12
+  - id: qs.pa.cover.site_confirmation
+    text: Does a contract or site require the insured person to provide a confirmation of personal accident cover to a principal?
+    type: yes/no
+    used_by: E14
+  - id: qs.pa.other.weekly_cover
+    text: What is the total weekly benefit of any other personal accident, sickness or income protection insurance the insured person holds? Enter 0 for none.
+    type: currency (AUD per week)
+    used_by: A
+  - id: qs.pa.hazard.motorcycle_road
+    text: Does the insured person ride a motorcycle on public roads?
+    type: yes/no
+    used_by: R
+  - id: qs.pa.hazard.motorcycle_offroad
+    text: Does the insured person ride a motorcycle off-road, other than in races or speed trials?
+    type: yes/no
+    used_by: R, E06
+  - id: qs.pa.hazard.climbing
+    text: Does the insured person go rock climbing, abseiling or canyoning?
+    type: yes/no
+    used_by: R, E06
+  - id: qs.pa.hazard.contact_sports
+    text: Does the insured person play amateur rugby, rugby league, Australian rules football, ice hockey, or compete in boxing or martial arts?
+    type: yes/no
+    used_by: R, E06
+  - id: qs.pa.hazard.equestrian
+    text: Does the insured person ride horses, other than in races, rodeos or polo?
+    type: yes/no
+    used_by: R, E06
+  - id: qs.pa.hazard.scuba_over_30m
+    text: Does the insured person scuba dive below 30 metres?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.pa.hazard.air_sports
+    text: Does the insured person take part in parachuting, skydiving, hang-gliding, paragliding, BASE jumping or ballooning?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.pa.hazard.motor_racing
+    text: Does the insured person take part in races, rallies or speed trials in any motor vehicle or on a motorcycle?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.pa.hazard.private_pilot
+    text: Does the insured person fly an aircraft as a pilot or crew member, other than as their paid occupation?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.pa.hazard.mountaineering
+    text: Does the insured person climb mountains above 4,000 metres, or take part in rodeo, bull riding or horse racing?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.pa.hazard.professional_sport
+    text: Does the insured person receive income from playing, coaching or officiating in sport?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.medical.conditions_5yr
+    text: In the last 5 years, has the insured person had any injury, illness or condition that needed treatment, advice or time off work for more than 2 weeks, including any back, neck, joint, heart, mental health, cancer or diabetic condition?
+    type: yes/no
+    used_by: A, E07, E08
+  - id: qs.pa.medical.condition_details
+    text: Give details of each condition, the treatment and the dates.
+    type: text
+    used_by: S, E07, E08
+  - id: qs.pa.medical.current_medication
+    text: Is the insured person taking any prescribed medication, other than for contraception or a minor condition?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.medical.pending_investigation
+    text: Is the insured person waiting for any medical test, investigation, referral or treatment?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.history.claims_5yr
+    text: In the last 5 years, has the insured person claimed under any personal accident, sickness, income protection or workers compensation cover?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.history.declined
+    text: Has any insurer ever declined, cancelled or refused to renew personal accident, sickness or income protection cover for the insured person, or offered it only on special terms?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.history.convictions
+    text: In the last 5 years, has the insured person been convicted of any criminal offence, other than a minor traffic offence?
+    type: yes/no
+    used_by: A
+  - id: qs.pa.overseas.days_abroad
+    text: How many consecutive days does the insured person expect to spend outside Australia on any one trip during the policy period?
+    type: number (days)
+    used_by: A, E10
+  - id: qs.pa.issuer.lloyds
+    text: Is the policy issued under a Lloyd's binding authority? (Set by the issuer, not asked of the proposer.)
+    type: yes/no
+    used_by: E13
