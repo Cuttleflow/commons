@@ -1,0 +1,100 @@
+# Platform questions for the Management Liability wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.ml namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.ml.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.ml.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.ml.insured.principal_state
+    text: In which state or territory is your principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S
+  - id: qs.ml.insured.entity_type
+    text: What kind of entity is the named insured?
+    type: select
+    options: ['private_company', 'not_for_profit', 'association', 'listed', 'financial_services']
+    used_by: R, A, E09
+  - id: qs.ml.insured.anzsic_primary
+    text: What is your main business activity?
+    type: select (ANZSIC 2006 class)
+    used_by: R, A
+  - id: qs.ml.insured.years_trading
+    text: How many years has the business traded under its current ownership?
+    type: number
+    used_by: R
+  - id: qs.ml.exposure.turnover
+    text: What was your turnover (or total income, for a not-for-profit) in the last financial year?
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.ml.exposure.employees
+    text: How many employees do you have, including casual and part-time employees?
+    type: number
+    used_by: R
+  - id: qs.ml.exposure.us_subsidiary
+    text: Does the company have a subsidiary, office or employees in the United States or Canada?
+    type: yes/no
+    used_by: A, E03
+  - id: qs.ml.exposure.us_revenue_pct
+    text: What percentage of your revenue comes from customers in the United States or Canada?
+    type: percentage
+    used_by: R, A, E03
+  - id: qs.ml.finance.condition
+    text: Which best describes the company's result in its last financial year?
+    type: select
+    options: ['profit', 'breakeven', 'loss']
+    used_by: R
+  - id: qs.ml.finance.going_concern_note
+    text: Do the company's latest financial statements, or its auditor's report, contain a going-concern note or qualification?
+    type: yes/no
+    used_by: A
+  - id: qs.ml.finance.insolvency_history
+    text: In the last five years has the company, or any director in another company, been insolvent, or had an administrator, liquidator or receiver appointed?
+    type: yes/no
+    used_by: A
+  - id: qs.ml.claims.count_5y
+    text: How many management liability claims, regulatory investigations or employee complaints to a tribunal has the company had in the last five years?
+    type: number
+    used_by: R, A
+  - id: qs.ml.claims.known_circumstances
+    text: Is any director or officer aware of a circumstance that might give rise to a claim?
+    type: yes/no
+    used_by: A
+  - id: qs.ml.ops.high_risk_workplace
+    text: Do your workers carry out construction, manufacturing, transport, agricultural, mining or other work with a high risk of serious injury?
+    type: yes/no
+    used_by: E04
+  - id: qs.ml.crime.social_engineering_requested
+    text: Do you want cover for payments made after a fraudulent instruction (social engineering fraud)?
+    type: yes/no
+    used_by: E07
+  - id: qs.ml.crime.payment_verification
+    text: Before paying to new or changed bank details, does the company confirm them by calling a number it already holds?
+    type: yes/no
+    used_by: E07
+  - id: qs.ml.cover.limit
+    text: What limit of liability do you need for the liability sections?
+    type: select (AUD)
+    options: ['500000', '1000000', '2000000', '3000000', '5000000']
+    used_by: R, S
+  - id: qs.ml.cover.excess
+    text: What excess do you want for the liability sections?
+    type: select (AUD)
+    options: ['2500', '5000', '10000', '25000']
+    used_by: R, S
+  - id: qs.ml.cover.layer
+    text: Is this policy primary, or in excess of other management liability insurance?
+    type: select
+    options: ['primary', 'excess']
+    used_by: A, E10
+  - id: qs.ml.cover.options_requested
+    text: Which optional endorsements would you like a price for?
+    type: multi-select
+    options: ['E01', 'E02', 'E04', 'E05', 'E06', 'E08', 'E11']
+    used_by: E01, E02, E04, E05, E06, E08, E11

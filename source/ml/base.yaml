@@ -1,0 +1,206 @@
+id: ml-base
+title: Management Liability Insurance
+class: MANAGEMENT LIABILITY INSURANCE
+kicker: Meridian Commons · Management Liability
+slug: management-liability
+file_stem: Meridian_Management_Liability
+doc_ref: 2026/ML/0001
+version: 1.4.0-DRAFT
+date: November 2026
+draft: true
+summary: Combined cover for private companies, not-for-profits and associations — directors' and officers' liability, company liability, employment practices, statutory liability and crime.
+supersedes: Meridian Management Liability v1.3.0-DRAFT (October 2026), published as a page without clause source
+structure:
+- section: preamble
+  clauses:
+  - ml.about
+  - ml.version-history
+  - ml.distribution-note
+  - ml.schedule
+- section: ml.section.definitions
+  clauses:
+  - ml.def.claim
+  - ml.def.company
+  - ml.def.cyber-event
+  - ml.def.defence-costs
+  - ml.def.employee
+  - ml.def.endorsement
+  - ml.def.excess
+  - ml.def.extended-discovery-period
+  - ml.def.extended-reporting-period
+  - ml.def.final-adjudication
+  - ml.def.insured
+  - ml.def.insured-person
+  - ml.def.limit-of-liability
+  - ml.def.loss
+  - ml.def.named-insured
+  - ml.def.policy-period
+  - ml.def.regulator
+  - ml.def.retroactive-date
+  - ml.def.schedule
+  - ml.def.subsidiary
+  - ml.def.we-us-our
+  - ml.def.wrongful-act
+  - ml.def.you-your
+- section: ml.section.do
+  clauses: []
+- section: ml.section.do-cover
+  clauses:
+  - ml.cover.personal-liability
+  - ml.cover.company-reimbursement
+  - ml.cover.direct-payment
+  - ml.cover.non-indemnifiable-loss
+- section: ml.section.do-extensions
+  clauses:
+  - ml.ext.retired-directors
+  - ml.ext.spouse-estate
+  - ml.ext.asic-investigation-costs
+  - ml.ext.extradition-costs
+  - ml.ext.loss-of-earnings
+  - ml.ext.public-relations-do
+- section: ml.section.do-exclusions
+  clauses:
+  - ml.excl.deliberate-acts
+  - ml.excl.personal-profit
+  - ml.excl.prior-known-matters
+  - ml.excl.insured-versus-insured
+  - ml.excl.related-party-claims
+  - ml.excl.major-transactions
+  - ml.excl.professional-services
+  - ml.excl.bodily-injury-property-damage
+  - ml.excl.war-terrorism-sanctions-nuclear
+- section: ml.section.company
+  clauses: []
+- section: ml.section.company-cover
+  clauses:
+  - ml.cover.entity
+- section: ml.section.company-extensions
+  clauses:
+  - ml.ext.tax-audit-costs
+  - ml.ext.public-relations-company
+- section: ml.section.company-exclusions
+  clauses:
+  - ml.excl.professional-services-company
+  - ml.excl.product-liability
+  - ml.excl.contractual-liability
+  - ml.excl.cyber-event
+- section: ml.section.epl
+  clauses: []
+- section: ml.section.epl-definitions
+  clauses:
+  - ml.def.employment-practices-wrongful-act
+- section: ml.section.epl-cover
+  clauses:
+  - ml.cover.employment-practices
+- section: ml.section.epl-extensions
+  clauses:
+  - ml.ext.fair-work-proceedings
+  - ml.ext.workplace-mediation
+  - ml.ext.employee-counselling
+- section: ml.section.epl-exclusions
+  clauses:
+  - ml.excl.workers-compensation
+  - ml.excl.employment-entitlements
+  - ml.excl.industrial-action
+  - ml.excl.deliberate-unlawful-employment-practices
+- section: ml.section.statutory
+  clauses: []
+- section: ml.section.statutory-cover
+  clauses:
+  - ml.cover.statutory-proceedings
+  - ml.cover.whs-defence-costs
+- section: ml.section.statutory-extensions
+  clauses:
+  - ml.ext.environmental-clean-up
+  - ml.ext.extradition-costs-regulatory
+- section: ml.section.statutory-exclusions
+  clauses:
+  - ml.excl.criminal-conduct
+  - ml.excl.uninsurable-penalties
+  - ml.excl.tax-and-revenue
+  - ml.excl.workers-compensation-premiums
+  - ml.cond.corporations-act-199a-199b
+- section: ml.section.crime
+  clauses: []
+- section: ml.section.crime-definitions
+  clauses:
+  - ml.def.dishonest-act
+  - ml.def.crime-loss
+- section: ml.section.crime-cover
+  clauses:
+  - ml.cover.employee-dishonesty
+  - ml.pay.crime-loss-calculation
+- section: ml.section.crime-extensions
+  clauses:
+  - ml.ext.forensic-accounting
+  - ml.ext.reconstitution-of-records
+- section: ml.section.crime-exclusions
+  clauses:
+  - ml.excl.indirect-loss
+  - ml.excl.directors-dishonesty
+  - ml.excl.discovered-before
+  - ml.excl.trading-losses
+- section: ml.section.crime-other
+  clauses:
+  - ml.cond.extended-discovery-period
+- section: ml.section.general-exclusions
+  clauses:
+  - ml.excl.war-and-terrorism
+  - ml.excl.sanctions
+  - ml.excl.nuclear
+  - ml.excl.asbestos
+  - ml.excl.pollution
+  - ml.excl.usa-canada
+  - ml.excl.prior-and-pending
+- section: ml.section.payment
+  clauses:
+  - ml.pay.section-limits
+  - ml.pay.overall-aggregate
+  - ml.pay.sub-limits
+  - ml.pay.defence-costs
+  - ml.pay.priority-of-payment
+  - ml.pay.allocation
+  - ml.pay.excess
+  - ml.pay.other-insurance
+  - ml.pay.reinstatement-after-recovery
+  - ml.pay.excess-waivers
+- section: ml.section.obligations
+  clauses:
+  - ml.obl.notify-claims
+  - ml.obl.notify-circumstances
+  - ml.obl.do-not-admit-liability
+  - ml.obl.cooperate
+  - ml.obl.mitigate
+  - ml.obl.preserve-recovery-rights
+  - ml.obl.section-54
+- section: ml.section.conditions
+  clauses:
+  - ml.cond.insurance-contracts-act
+  - ml.cond.duty-of-disclosure
+  - ml.cond.severability
+  - ml.cond.cancellation
+  - ml.cond.newly-acquired-subsidiaries
+  - ml.cond.continuous-cover
+  - ml.cond.extended-reporting-period
+  - ml.cond.governing-law
+  - ml.cond.gst
+  - ml.cond.several-liability
+  - ml.cond.assignment
+  - ml.cond.entire-agreement
+  - ml.cond.disputes-and-complaints
+  - ml.cond.privacy
+- section: end
+  clauses:
+  - ml.endorsement-library
+  - ml.end.e01
+  - ml.end.e02
+  - ml.end.e03
+  - ml.end.e04
+  - ml.end.e05
+  - ml.end.e06
+  - ml.end.e07
+  - ml.end.e08
+  - ml.end.e09
+  - ml.end.e10
+  - ml.end.e11
+  - ml.licence-notice
