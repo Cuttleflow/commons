@@ -1,0 +1,226 @@
+id: bpk-base
+title: Business Package Insurance
+class: BUSINESS PACKAGE INSURANCE
+kicker: Meridian Commons · Business Package
+slug: business-package
+file_stem: Meridian_Business_Package
+doc_ref: 2026/PK/0001
+version: 2.1.0-DRAFT
+date: October 2026
+draft: true
+summary: 'A modular package for Australian small and medium businesses: property, business interruption,
+  crime, glass, liability, equipment, general property, transit, tax audit, cyber and management liability.'
+supersedes: Meridian Business Package Policy Wording v2.0.0 (October 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - bpk.about
+  - bpk.who-this-is-for
+  - bpk.claims-made-notice
+  - bpk.version-history
+  - bpk.schedule
+- section: bpk.section.definitions
+  clauses:
+  - bpk.def.audit-notice
+  - bpk.def.breakdown
+  - bpk.def.building
+  - bpk.def.business
+  - bpk.def.claim
+  - bpk.def.computer-system
+  - bpk.def.contents
+  - bpk.def.cyber-event
+  - bpk.def.damage
+  - bpk.def.data
+  - bpk.def.discovery
+  - bpk.def.dishonest-act
+  - bpk.def.employee
+  - bpk.def.employment-claim
+  - bpk.def.endorsement
+  - bpk.def.excess
+  - bpk.def.extended-reporting-period
+  - bpk.def.extortion-threat
+  - bpk.def.final-adjudication
+  - bpk.def.insured-event
+  - bpk.def.insured-person
+  - bpk.def.interested-party
+  - bpk.def.loss
+  - bpk.def.money
+  - bpk.def.occurrence
+  - bpk.def.period-of-insurance
+  - bpk.def.personal-injury
+  - bpk.def.premises
+  - bpk.def.property-damage
+  - bpk.def.responsible-person
+  - bpk.def.retroactive-date
+  - bpk.def.schedule
+  - bpk.def.single-loss
+  - bpk.def.situation
+  - bpk.def.stock
+  - bpk.def.sum-insured
+  - bpk.def.theft
+  - bpk.def.third-party
+  - bpk.def.unauthorised-access
+  - bpk.def.unoccupied
+  - bpk.def.we-us-our
+  - bpk.def.wrongful-act
+  - bpk.def.you-your
+  - bpk.def.your-products
+- section: bpk.section.general-exclusions
+  clauses:
+  - bpk.excl.war
+  - bpk.excl.terrorism
+  - bpk.excl.nuclear
+  - bpk.excl.asbestos
+  - bpk.excl.mould
+  - bpk.excl.pollution
+  - bpk.excl.electronic-data
+  - bpk.excl.cyber
+  - bpk.excl.gradual-causes
+  - bpk.excl.deliberate-acts
+  - bpk.excl.unoccupied-premises
+  - bpk.excl.known-defects
+  - bpk.excl.confiscation
+  - bpk.excl.consequential-loss
+- section: bpk.section.general-conditions
+  clauses:
+  - bpk.cond.insurance-contracts-act
+  - bpk.cond.duty-of-disclosure
+  - bpk.cond.premium
+  - bpk.cond.cancellation
+  - bpk.cond.making-a-claim
+  - bpk.cond.excess
+  - bpk.cond.limits-and-more-than-one-section
+  - bpk.cond.other-insurance
+  - bpk.cond.subrogation-and-interested-parties
+  - bpk.cond.notice-of-circumstances
+  - bpk.cond.reinstatement
+  - bpk.cond.gst
+  - bpk.cond.sanctions
+  - bpk.cond.fraudulent-claims
+  - bpk.cond.governing-law-and-jurisdiction
+  - bpk.cond.complaints
+  - bpk.cond.version-of-this-wording
+  - bpk.cond.currency-and-short-periods
+- section: bpk.section.property-damage
+  clauses:
+  - bpk.pd.cover
+  - bpk.pd.insured-events
+  - bpk.pd.basis-of-settlement
+  - bpk.pd.underinsurance
+  - bpk.pd.additional-benefits
+  - bpk.pd.exclusions
+- section: bpk.section.business-interruption
+  clauses:
+  - bpk.bi.cover
+  - bpk.bi.waiting-period
+  - bpk.bi.underinsurance
+  - bpk.bi.additional-benefits
+  - bpk.bi.exclusions
+- section: bpk.section.crime
+  clauses:
+  - bpk.crime.cover.theft
+  - bpk.crime.cover.money
+  - bpk.crime.cover.employee-dishonesty
+  - bpk.crime.cover.forgery
+  - bpk.crime.cover.computer-fraud
+  - bpk.crime.cover.social-engineering-fraud
+  - bpk.crime.limits-and-aggregation
+  - bpk.crime.discovery
+  - bpk.crime.social-engineering-verification
+  - bpk.crime.valuation-and-recoveries
+  - bpk.crime.exclusions
+- section: bpk.section.glass
+  clauses:
+  - bpk.glass.cover
+  - bpk.glass.additional-benefits
+  - bpk.glass.exclusions
+- section: bpk.section.liability
+  clauses:
+  - bpk.liability.cover
+  - bpk.liability.limits
+  - bpk.liability.additional-benefits
+  - bpk.liability.exclusions
+  - bpk.liability.excl.injury-to-employees
+  - bpk.liability.excl.professional-services
+  - bpk.liability.excl.vehicles-aircraft-watercraft
+  - bpk.liability.excl.your-own-property
+  - bpk.liability.excl.product-recall
+  - bpk.liability.excl.fines-and-punitive-damages
+  - bpk.liability.excl.contractual-liability
+  - bpk.liability.excl.pollution
+  - bpk.liability.excl.usa-canada
+  - bpk.liability.excl.hot-works
+  - bpk.liability.excl.vibration-and-support
+- section: bpk.section.equipment
+  clauses:
+  - bpk.equipment.cover
+  - bpk.equipment.basis-of-settlement
+  - bpk.equipment.underinsurance
+  - bpk.equipment.additional-benefits
+  - bpk.equipment.exclusions
+- section: bpk.section.general-property
+  clauses:
+  - bpk.gp.cover
+  - bpk.gp.basis-of-settlement
+  - bpk.gp.exclusions
+- section: bpk.section.transit
+  clauses:
+  - bpk.transit.cover
+  - bpk.transit.declarations
+  - bpk.transit.exclusions
+- section: bpk.section.tax-audit
+  clauses:
+  - bpk.tax.cover
+  - bpk.tax.exclusions
+- section: bpk.section.cyber
+  clauses:
+  - bpk.cyber.cover.incident-response
+  - bpk.cyber.cover.business-interruption
+  - bpk.cyber.cover.data-restoration
+  - bpk.cyber.cover.extortion
+  - bpk.cyber.cover.privacy-liability
+  - bpk.cyber.cover.regulatory
+  - bpk.cyber.limits-and-aggregation
+  - bpk.cyber.relationship-with-crime
+  - bpk.cyber.claims-made
+  - bpk.cyber.exclusions
+  - bpk.cyber.excl.war-and-state-cyber-operations
+  - bpk.cyber.excl.infrastructure-failure
+  - bpk.cyber.excl.prior-matters
+  - bpk.cyber.excl.bodily-injury-and-property-damage
+  - bpk.cyber.excl.betterment
+  - bpk.cyber.excl.cryptocurrency
+  - bpk.cyber.excl.card-industry
+  - bpk.cyber.excl.spam
+  - bpk.cyber.excl.intellectual-property
+- section: bpk.section.management-liability
+  clauses:
+  - bpk.ml.cover.directors-and-officers
+  - bpk.ml.cover.company-reimbursement
+  - bpk.ml.cover.company-liability
+  - bpk.ml.cover.employment-practices
+  - bpk.ml.cover.statutory-liability
+  - bpk.ml.limits
+  - bpk.ml.statutory-insurability
+  - bpk.ml.conduct
+  - bpk.ml.claims-made
+  - bpk.ml.additional-benefits
+  - bpk.ml.exclusions
+- section: end
+  clauses:
+  - bpk.endorsement-library
+  - bpk.end.e01
+  - bpk.end.e02
+  - bpk.end.e03
+  - bpk.end.e04
+  - bpk.end.e05
+  - bpk.end.e06
+  - bpk.end.e07
+  - bpk.end.e08
+  - bpk.end.e09
+  - bpk.end.e10
+  - bpk.end.e11
+  - bpk.end.e12
+  - bpk.appendix.default-schedule-values
+  - bpk.appendix.exclusion-applicability
+  - bpk.licence-notice
