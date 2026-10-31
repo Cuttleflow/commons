@@ -1,0 +1,127 @@
+id: pa-base
+title: Personal Accident and Sickness Insurance
+class: PERSONAL ACCIDENT AND SICKNESS INSURANCE
+kicker: Meridian Commons · Personal Accident and Sickness
+slug: personal-accident-and-sickness
+file_stem: Meridian_Personal_Accident_and_Sickness
+doc_ref: 2026/PA/0001
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Capital and weekly benefits for one named person, for injury and, if chosen, sickness, sold through brokers in Australia.
+supersedes: New wording. Derived from Meridian Group Personal Accident and Sickness Policy Wording v1.0.0 (July 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - pa.about
+  - pa.version-history
+  - pa.important-information
+  - pa.schedule
+- section: pa.section.definitions
+  clauses:
+  - pa.def.accident
+  - pa.def.benefit-period
+  - pa.def.capital-sum
+  - pa.def.endorsement
+  - pa.def.hazardous-pursuit
+  - pa.def.income
+  - pa.def.injury
+  - pa.def.insured-person
+  - pa.def.medical-practitioner
+  - pa.def.mental-illness
+  - pa.def.occupation-class
+  - pa.def.permanent
+  - pa.def.permanent-total-disablement
+  - pa.def.policy-period
+  - pa.def.pre-existing-condition
+  - pa.def.scope-of-cover
+  - pa.def.sickness
+  - pa.def.temporary-partial-disablement
+  - pa.def.temporary-total-disablement
+  - pa.def.waiting-period
+  - pa.def.we-us-our
+  - pa.def.weekly-benefit
+  - pa.def.you-your
+- section: pa.section.cover
+  clauses:
+  - pa.cover.capital-benefits
+  - pa.cover.weekly-injury
+  - pa.cover.weekly-sickness
+- section: pa.section.additional-benefits
+  clauses:
+  - pa.ext.exposure-and-disappearance
+  - pa.ext.funeral-expenses
+  - pa.ext.dependent-children
+  - pa.ext.spouse-retraining
+  - pa.ext.coma
+  - pa.ext.broken-bones
+  - pa.ext.non-medicare-medical
+  - pa.ext.rehabilitation
+  - pa.ext.home-and-vehicle-modification
+  - pa.ext.transport-to-work
+  - pa.ext.escalation
+- section: pa.section.payment
+  clauses:
+  - pa.pay.weekly-benefit-amount
+  - pa.pay.recurrence
+  - pa.pay.one-capital-event
+  - pa.pay.weekly-and-capital
+  - pa.pay.offsets
+  - pa.pay.mental-illness
+  - pa.pay.age-limits
+  - pa.pay.accumulation
+  - pa.pay.medicare
+  - pa.pay.who-we-pay
+- section: pa.section.exclusions
+  clauses:
+  - pa.excl.intentional-self-injury
+  - pa.excl.war
+  - pa.excl.nuclear
+  - pa.excl.intoxication
+  - pa.excl.criminal-acts
+  - pa.excl.professional-sport
+  - pa.excl.flying
+  - pa.excl.hazardous-pursuits
+  - pa.excl.military-service
+  - pa.excl.pre-existing-conditions
+  - pa.excl.initial-sickness-period
+  - pa.excl.pregnancy
+  - pa.excl.elective-treatment
+- section: pa.section.obligations
+  clauses:
+  - pa.obl.tell-us-about-claims
+  - pa.obl.medical-care-and-examination
+  - pa.obl.tell-us-about-changes
+  - pa.obl.residence-and-travel
+- section: pa.section.conditions
+  clauses:
+  - pa.cond.insurance-contracts-act
+  - pa.cond.cancellation
+  - pa.cond.renewal
+  - pa.cond.fraud
+  - pa.cond.sanctions
+  - pa.cond.gst
+  - pa.cond.privacy
+  - pa.cond.disputes-and-complaints
+  - pa.cond.governing-law
+  - pa.cond.jurisdiction
+  - pa.cond.headings-and-references
+- section: end
+  clauses:
+  - pa.claims.how-to-make-a-claim
+  - pa.endorsement-library
+  - pa.end.e01
+  - pa.end.e02
+  - pa.end.e03
+  - pa.end.e04
+  - pa.end.e05
+  - pa.end.e06
+  - pa.end.e07
+  - pa.end.e08
+  - pa.end.e09
+  - pa.end.e10
+  - pa.end.e11
+  - pa.end.e12
+  - pa.end.e13
+  - pa.end.e14
+  - pa.licence-notice
