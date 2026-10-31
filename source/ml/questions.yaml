@@ -70,6 +70,10 @@ questions:
     text: Do your workers carry out construction, manufacturing, transport, agricultural, mining or other work with a high risk of serious injury?
     type: yes/no
     used_by: E04
+  - id: qs.ml.crime.social_engineering_requested
+    text: Do you want cover for payments made after a fraudulent instruction (social engineering fraud)?
+    type: yes/no
+    used_by: E07
   - id: qs.ml.crime.payment_verification
     text: Before paying to new or changed bank details, does the company confirm them by calling a number it already holds?
     type: yes/no
@@ -92,5 +96,5 @@ questions:
   - id: qs.ml.cover.options_requested
     text: Which optional endorsements would you like a price for?
     type: multi-select
-    options: ['E01', 'E02', 'E04', 'E05', 'E06', 'E07', 'E08', 'E11']
-    used_by: E01, E02, E04, E05, E06, E07, E08, E11
+    options: ['E01', 'E02', 'E04', 'E05', 'E06', 'E08', 'E11']
+    used_by: E01, E02, E04, E05, E06, E08, E11

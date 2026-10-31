@@ -6,12 +6,12 @@ since: 1.4.0
 status: draft
 trigger:
   questions:
-  - qs.ml.cover.options_requested
+  - qs.ml.crime.social_engineering_requested
   - qs.ml.crime.payment_verification
   rules:
-  - when: '''E07'' in qs.ml.cover.options_requested and qs.ml.crime.payment_verification == no'
+  - when: qs.ml.crime.social_engineering_requested == yes and qs.ml.crime.payment_verification == no
     action: refer
-  - when: '''E07'' in qs.ml.cover.options_requested'
+  - when: qs.ml.crime.social_engineering_requested == yes
     action: broker_option
   reason: Offered because you asked for cover for payments made after a fraudulent instruction; referred where new or changed payment details are not verified independently.
   responses:

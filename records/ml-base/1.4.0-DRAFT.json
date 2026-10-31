@@ -842,11 +842,10 @@
       "E04",
       "E05",
       "E06",
-      "E07",
       "E08",
       "E11"
      ],
-     "used_by": "E01, E02, E04, E05, E06, E07, E08, E11"
+     "used_by": "E01, E02, E04, E05, E06, E08, E11"
     }
    ]
   },
@@ -881,11 +880,10 @@
       "E04",
       "E05",
       "E06",
-      "E07",
       "E08",
       "E11"
      ],
-     "used_by": "E01, E02, E04, E05, E06, E07, E08, E11"
+     "used_by": "E01, E02, E04, E05, E06, E08, E11"
     }
    ]
   },
@@ -969,11 +967,10 @@
       "E04",
       "E05",
       "E06",
-      "E07",
       "E08",
       "E11"
      ],
-     "used_by": "E01, E02, E04, E05, E06, E07, E08, E11"
+     "used_by": "E01, E02, E04, E05, E06, E08, E11"
     },
     {
      "id": "qs.ml.ops.high_risk_workplace",
@@ -1015,11 +1012,10 @@
       "E04",
       "E05",
       "E06",
-      "E07",
       "E08",
       "E11"
      ],
-     "used_by": "E01, E02, E04, E05, E06, E07, E08, E11"
+     "used_by": "E01, E02, E04, E05, E06, E08, E11"
     }
    ]
   },
@@ -1054,11 +1050,10 @@
       "E04",
       "E05",
       "E06",
-      "E07",
       "E08",
       "E11"
      ],
-     "used_by": "E01, E02, E04, E05, E06, E07, E08, E11"
+     "used_by": "E01, E02, E04, E05, E06, E08, E11"
     }
    ]
   },
@@ -1067,16 +1062,16 @@
    "heading": "E07 Social Engineering Fraud",
    "trigger": {
     "questions": [
-     "qs.ml.cover.options_requested",
+     "qs.ml.crime.social_engineering_requested",
      "qs.ml.crime.payment_verification"
     ],
     "rules": [
      {
-      "when": "'E07' in qs.ml.cover.options_requested and qs.ml.crime.payment_verification == no",
+      "when": "qs.ml.crime.social_engineering_requested == yes and qs.ml.crime.payment_verification == no",
       "action": "refer"
      },
      {
-      "when": "'E07' in qs.ml.cover.options_requested",
+      "when": "qs.ml.crime.social_engineering_requested == yes",
       "action": "broker_option"
      }
     ],
@@ -1090,20 +1085,10 @@
    },
    "questions": [
     {
-     "id": "qs.ml.cover.options_requested",
-     "text": "Which optional endorsements would you like a price for?",
-     "type": "multi-select",
-     "options": [
-      "E01",
-      "E02",
-      "E04",
-      "E05",
-      "E06",
-      "E07",
-      "E08",
-      "E11"
-     ],
-     "used_by": "E01, E02, E04, E05, E06, E07, E08, E11"
+     "id": "qs.ml.crime.social_engineering_requested",
+     "text": "Do you want cover for payments made after a fraudulent instruction (social engineering fraud)?",
+     "type": "yes/no",
+     "used_by": "E07"
     },
     {
      "id": "qs.ml.crime.payment_verification",
@@ -1145,11 +1130,10 @@
       "E04",
       "E05",
       "E06",
-      "E07",
       "E08",
       "E11"
      ],
-     "used_by": "E01, E02, E04, E05, E06, E07, E08, E11"
+     "used_by": "E01, E02, E04, E05, E06, E08, E11"
     }
    ]
   },
@@ -1251,11 +1235,10 @@
       "E04",
       "E05",
       "E06",
-      "E07",
       "E08",
       "E11"
      ],
-     "used_by": "E01, E02, E04, E05, E06, E07, E08, E11"
+     "used_by": "E01, E02, E04, E05, E06, E08, E11"
     }
    ]
   }
