@@ -17,3 +17,19 @@ questions:
   - id: qs.pi.activities.mining_pct
     text: What percentage of your fees in the last 12 months came from services to the mining industry, including the design, specification or inspection of mining equipment?
     type: percentage
+  - id: qs.pi.ae.cadastral_pct
+    text: What percentage of your fees in the last 12 months came from cadastral or boundary surveys?
+    type: percentage
+    used_by: R, E (Run-off for Cadastral Surveys)
+  - id: qs.pi.ae.depreciation_schedules
+    text: Do you prepare tax depreciation schedules?
+    type: yes/no
+    used_by: E (Tax Depreciation Schedules)
+  - id: qs.pi.ae.tpb_number
+    text: If you prepare tax depreciation schedules, what is the Tax Practitioners Board registration number of the person or entity that signs them?
+    type: text
+    used_by: S, E (Tax Depreciation Schedules)
+  - id: qs.pi.ae.hydrographic_pct
+    text: What percentage of your fees in the last 12 months came from hydrographic surveys?
+    type: percentage
+    used_by: R, E (Hydrographic Surveys Exclusion)

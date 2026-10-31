@@ -4,8 +4,9 @@ type: payment
 heading: Automatic Reinstatement
 profession: architects-engineers
 since: 1.0.0
-status: draft
+status: withdrawn
 note: Added on underwriter direction 29 October 2026 so that every A&E policy meets the reinstatement requirement of the Victorian Architects Insurance Ministerial Order. Counsel to confirm against the Order text.
+withdrawn_in: pi-architects-engineers 1.1.0-DRAFT (moved to the base as pi.pay.automatic-reinstatement)
 ---
 
 Despite [[ref:pi.pay.limit-of-liability]], if payments under this policy reduce or exhaust the limit of liability, it is reinstated once during the policy period, in full and without additional premium.
