@@ -30,6 +30,11 @@
    "sha256": "9c21c72dbd747347bf1b9b9e8e157863927c10953f0a02ea14faecc4398500c1"
   },
   {
+   "id": "fs.fa.def.approved-product",
+   "heading": "Approved product",
+   "sha256": "f6c36554ca5f11522bb1eceb016d0f4657a1f42337254e80a3ae0e65f75a6970"
+  },
+  {
    "id": "fs.def.business-activity",
    "heading": "Business activity",
    "sha256": "469dd9a93a12c388336af6067cc51465091bc8d95b6838c2c76d130f78ef76e8"
@@ -127,7 +132,7 @@
   {
    "id": "fs.fa.def.professional-services",
    "heading": "Professional services",
-   "sha256": "0018da7e370f893f1f14e59282725bdddff9cf07675496b11d75ffb38333170e"
+   "sha256": "cb6f2743d1b42425056c4a111b315cde647b73933daf4f0203281473ebbe698a"
   },
   {
    "id": "fs.def.representative",
@@ -540,11 +545,6 @@
    "sha256": "0a53cf9a301cbdd5cd2737a94a102d0c9926229a74f13061c4f889bd2c1f4584"
   },
   {
-   "id": "fs.fa.end.approved-products",
-   "heading": "Approved Product List Condition",
-   "sha256": "e65cf9bc54f601067e345ed5987ee500e433eecc69327e447c71de33facb8cbd"
-  },
-  {
    "id": "fs.fa.end.managed-discretionary-accounts",
    "heading": "Managed Discretionary Accounts Exclusion",
    "sha256": "574c87cd6c8e14bb8892897e1d25a8c5a0758c469c9524320c7c3dcb88b8e018"
@@ -571,41 +571,6 @@
   }
  ],
  "endorsements": [
-  {
-   "id": "fs.fa.end.approved-products",
-   "heading": "Approved Product List Condition",
-   "trigger": {
-    "questions": [
-     "qs.fs.fa.approved_product_list",
-     "qs.fs.fa.off_apl_pct"
-    ],
-    "rules": [
-     {
-      "when": "qs.fs.fa.approved_product_list = no",
-      "action": "refer"
-     },
-     {
-      "when": "qs.fs.fa.off_apl_pct > 10",
-      "action": "suggest"
-     }
-    ],
-    "reason": "Applies because {qs.fs.fa.off_apl_pct}% of your advice recommends products outside your approved product list."
-   },
-   "questions": [
-    {
-     "id": "qs.fs.fa.approved_product_list",
-     "text": "Do you maintain an approved product list with a documented research process?",
-     "type": "yes/no",
-     "used_by": "E (Approved Product List Condition)"
-    },
-    {
-     "id": "qs.fs.fa.off_apl_pct",
-     "text": "What percentage of new product recommendations in the last 12 months were for products not on your approved product list?",
-     "type": "percentage",
-     "used_by": "E (Approved Product List Condition)"
-    }
-   ]
-  },
   {
    "id": "fs.fa.end.managed-discretionary-accounts",
    "heading": "Managed Discretionary Accounts Exclusion",
@@ -721,5 +686,5 @@
    ]
   }
  ],
- "sha256": "05984b43f432c8f19a7d8cc3093b1ef12ba682b160a3aee44d78d397551b3179"
+ "sha256": "f5a3b0f3e372b63b6ea8c2cff03f1971406b6d1fc714890b66c71213a0396a74"
 }

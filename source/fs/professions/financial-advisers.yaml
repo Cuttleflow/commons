@@ -18,6 +18,9 @@ overrides:
   target: fs.def.professional-services
   with: fs.fa.def.professional-services
 - op: add
+  clause: fs.fa.def.approved-product
+  after: fs.def.afca
+- op: add
   clause: fs.fa.excl.product-issuer-failure
   after: fs.excl.investment-performance
 - op: add
@@ -27,11 +30,8 @@ overrides:
   clause: fs.fa.library.optional-endorsements
   after: fs.endorsement-library
 - op: add
-  clause: fs.fa.end.approved-products
-  after: fs.fa.library.optional-endorsements
-- op: add
   clause: fs.fa.end.managed-discretionary-accounts
-  after: fs.fa.end.approved-products
+  after: fs.fa.library.optional-endorsements
 - op: add
   clause: fs.fa.end.geared-investments
   after: fs.fa.end.managed-discretionary-accounts
@@ -72,3 +72,6 @@ decisions:
 - '2026-10-31: Financial Advisers drafted from first principles on the Financial Services PI base at the underwriter''s
   request (31 October 2026). The AGCS Financial Planners wording POL732AGCS (May 2014) was reviewed as a market
   benchmark only; no text was taken from it.'
+- '2026-10-31: The approved product list is written into the definition of professional services, as in the better
+  market wordings, and is not an exclusion or endorsement. Switching to an approved product and holding advice are
+  always included. A licensee without an approved product list is scheduled as such.'

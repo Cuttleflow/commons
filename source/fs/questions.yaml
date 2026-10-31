@@ -101,11 +101,11 @@ questions:
   - id: qs.fs.fa.approved_product_list
     text: Do you maintain an approved product list with a documented research process?
     type: yes/no
-    used_by: E (Approved Product List Condition)
+    used_by: S (definition of Approved product; refer if no list)
   - id: qs.fs.fa.off_apl_pct
     text: What percentage of new product recommendations in the last 12 months were for products not on your approved product list?
     type: percentage
-    used_by: E (Approved Product List Condition)
+    used_by: R (refer if high)
   - id: qs.fs.fa.mda
     text: Do you operate a managed discretionary account service?
     type: yes/no
