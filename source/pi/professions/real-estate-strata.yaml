@@ -1,0 +1,82 @@
+id: pi-real-estate-strata
+title: Real Estate and Strata Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · REAL ESTATE AND STRATA
+kicker: Meridian Commons · Professional Indemnity · Real Estate and Strata
+slug: real-estate-strata
+file_stem: Meridian_PI_Real_Estate_Strata
+doc_ref: 2026/PI/0007
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for real estate agents, property and strata managers, stock and
+  station agents and auctioneers, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-REAL-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.re.def.professional-services
+- op: add
+  clause: pi.re.ext.dishonesty-of-employees-and-agents
+  after: pi.ext.first-party-dishonesty
+- op: add
+  clause: pi.re.ext.franchisors
+  after: pi.ext.predecessor-practices
+- op: add
+  clause: pi.re.ext.rent-roll-acquisitions
+  after: pi.re.ext.franchisors
+- op: add
+  clause: pi.re.ext.tribunal-proceedings
+  after: pi.re.ext.rent-roll-acquisitions
+- op: add
+  clause: pi.re.excl.formal-valuations
+  after: pi.excl.contractual-liability
+- op: add
+  clause: pi.re.excl.trust-money-taken-by-principals
+  after: pi.excl.deliberate-and-dishonest-acts
+- op: add
+  clause: pi.re.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.re.end.payment-redirection
+  after: pi.re.library.optional-endorsements
+- op: add
+  clause: pi.re.end.commercial-property-over-10m
+  after: pi.re.end.payment-redirection
+- op: add
+  clause: pi.re.end.strata-defects-advice
+  after: pi.re.end.commercial-property-over-10m
+- op: add
+  clause: pi.re.end.business-broking
+  after: pi.re.end.strata-defects-advice
+- op: add
+  clause: pi.re.end.off-the-plan-sales
+  after: pi.re.end.business-broking
+- op: add
+  clause: pi.re.end.livestock-sales
+  after: pi.re.end.off-the-plan-sales
+regulatory_basis:
+- topic: NSW — Property and Stock Agents Regulation 2022, s.12 (PI as a licence condition)
+  status: 'Minimum $1,000,000 any one claim and $3,000,000 aggregate, including claimant costs. Required heads (negligence,
+    misleading or deceptive conduct, breach of duty, unintentional defamation and IP infringement): base insuring
+    clause. Vicarious fraud of employees and agents: Dishonesty of Employees and Agents extension. Permitted exclusion
+    of commercial property over $10 million: endorsement. Platform restriction: a limit below the minimum refers.
+    Counsel to confirm against the regulation text.'
+  review_by: '2027-03-31'
+- topic: Other states and territories
+  status: Not yet researched. Base Compulsory Insurance Requirements condition applies.
+  review_by: '2027-03-31'
+- topic: Corporations Act 2001 — insurance distribution as an authorised representative
+  status: Covered when shown in the schedule, through the base Financial Services exclusion carve-back.
+  review_by: '2027-03-31'
+proposal_questions:
+- Licences and certificates by state, with numbers (state minimum limits are platform restrictions).
+- Fees and commissions by activity; number of properties and strata lots managed.
+- Trust money held and payment verification controls.
+- Franchise agreement and franchisor name; rent rolls acquired.
+- Underquoting complaints, penalties or actions in the last five years.
+decisions:
+- '2026-10-31: Conflict and financial-interest exclusions deleted (profession review approved 31 October 2026).'
+- '2026-10-31: Payment redirection as a sub-limited broker option with a call-back condition.'
+- '2026-10-31: Strata managers included.'
+- '2026-10-31: Valuation exclusion narrowed to formal valuations; appraisals covered without a disclaimer condition.'

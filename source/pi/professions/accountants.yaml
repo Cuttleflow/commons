@@ -1,0 +1,83 @@
+id: pi-accountants
+title: Accountants Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · ACCOUNTANTS
+kicker: Meridian Commons · Professional Indemnity · Accountants
+slug: accountants
+file_stem: Meridian_PI_Accountants
+doc_ref: 2026/PI/0006
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for accountants, auditors, tax and BAS agents, bookkeepers and
+  insolvency practitioners, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-ACCT-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.acct.def.professional-services
+- op: add
+  clause: pi.acct.ext.tax-practitioners-board-investigations
+  after: pi.ext.inquiry-costs
+- op: add
+  clause: pi.acct.excl.tax-exploitation-schemes
+  after: pi.excl.deliberate-and-dishonest-acts
+- op: add
+  clause: pi.acct.excl.investment-performance
+  after: pi.excl.financial-services
+- op: add
+  clause: pi.acct.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.acct.end.registered-liquidators
+  after: pi.acct.library.optional-endorsements
+- op: add
+  clause: pi.acct.end.listed-entity-audits
+  after: pi.acct.end.registered-liquidators
+- op: add
+  clause: pi.acct.end.smsf-audits
+  after: pi.acct.end.listed-entity-audits
+- op: add
+  clause: pi.acct.end.licensed-financial-advice
+  after: pi.acct.end.smsf-audits
+- op: add
+  clause: pi.acct.end.valuations
+  after: pi.acct.end.licensed-financial-advice
+- op: add
+  clause: pi.acct.end.crypto-assets
+  after: pi.acct.end.valuations
+regulatory_basis:
+- topic: 'Tax Agent Services Act 2009 and TPB(EP) 03/2010 (revised 27 November 2025): PI for registered tax and
+    BAS agents'
+  status: 'Minimum aggregate limit by tax-service turnover: $250,000 (up to $75,000), $500,000 ($75,001 to $500,000),
+    $1,000,000 (above $500,000), inclusive of defence costs; higher for tax (financial) advisers. Platform restriction:
+    a limit below the tier refers. Contractors'' work: base Subcontractors and Outsourcers extension. Counsel to
+    confirm against the current TPB guidance.'
+  review_by: '2027-03-31'
+- topic: 'Registered liquidators: Insolvency Practice Schedule (Corporations) and ASIC RG 258'
+  status: 'Adequate and appropriate PI and fidelity cover: Registered Liquidators endorsement (restriction refers
+    if not attached).'
+  review_by: '2027-03-31'
+- topic: 'Approved SMSF auditors: ASIC registration conditions'
+  status: 'At least $500,000, or the professional standards scheme level: SMSF Audits Sub-limit restriction.'
+  review_by: '2027-03-31'
+- topic: Professional standards schemes (CPA Australia, CA ANZ, IPA)
+  status: Base Professional Standards Schemes condition. Current scheme insurance standards and caps to be confirmed
+    by counsel.
+  review_by: '2027-03-31'
+- topic: ASIC RG 126 (limited AFS licensees giving tax (financial) or financial product advice)
+  status: Licensed Financial Advice endorsement; restriction refers if the limit is below the RG 126 minimum.
+  review_by: '2027-03-31'
+proposal_questions:
+- TPB registrations and numbers; turnover from tax agent and BAS services (drives the minimum limit).
+- ASIC registrations (registered company auditor, approved SMSF auditor, registered liquidator).
+- Professional standards scheme membership and cap.
+- Largest amount of client or appointment money held.
+- Fees by service, including audit of listed or APRA-regulated entities, SMSF audits, valuations and financial product
+  advice.
+decisions:
+- '2026-10-31: Audit fraud-detection exclusion deleted (profession review approved 31 October 2026).'
+- '2026-10-31: Registered liquidators covered in this product through an endorsement.'
+- '2026-10-31: Advice under a limited AFS licence by endorsement, at the higher RG 126 minimum.'
+- '2026-10-31: June Predecessor Firm extension deleted; the base Predecessor Practices extension applies and is
+  wider.'
