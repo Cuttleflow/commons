@@ -1,0 +1,5 @@
+First release as an integrated wording, built on the Financial Services PI base 1.0.0-DRAFT and written to meet ASIC RG 126 (November 2024, updated December 2025). It replaces MERIDIAN-PI-FINP-v1.0.0 (June 2026), which was withdrawn because it was derived from a third-party wording. This wording was drafted from first principles.
+
+- Professional services cover advice on, and arranging or dealing in, approved products; strategy advice; tax (financial) advice; advice to switch to an approved product; and advice to continue holding any product, as your licence authorises. An approved product is one on the licensee's approved product list, or approved in writing for the client under the same process. A licensee without a list is scheduled as such.
+- New exclusions: Product Issuer Failure (losses caused solely by an issuer's failure, with advice claims carved back) and Market Participants.
+- Optional endorsements: Managed Discretionary Accounts Exclusion, Geared Investment Advice Sub-limit, Related Products Exclusion and Named Products Exclusion. No endorsement may remove cover that RG 126 requires.
