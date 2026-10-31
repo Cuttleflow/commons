@@ -11,6 +11,11 @@ Usage:
   python3 tools/wordings/build.py build            # checks, then write HTML, .docx and build records
   python3 tools/wordings/build.py build --no-docx  # as above without .docx (used by CI)
 
+A disclosure companion (a Product Disclosure Statement template, Part A) may sit beside a
+wording: source/<class>/disclosure/<slug>.md, a YAML header naming the wording it describes,
+then "## " sections. It is built to wordings/<slug>.html and a .docx, and its [[ref:...]]
+links resolve against the wording it names, so it cannot cite a clause the wording lacks.
+
 Cross-references are written [[ref:<clause id>]] and printed as "the <heading> <kind>",
 for example "the Financial Services exclusion". [[ref:<id>|heading]] prints the heading only.
 Clause numbers are never written in clause text; the checks reject them.
@@ -149,6 +154,7 @@ def resolve(cls, manifest, clauses, errors):
                 continue
             for s in structure:
                 s["clauses"] = [op["with"] if c == target else c for c in s["clauses"]]
+            cmap["ref:" + target] = new  # a cross-reference to the replaced clause now points at its replacement
         elif kind == "delete" and any(s["section"] == target for s in structure):
             # A variant may remove a whole section (heading and every clause in it),
             # for example the fleet provisions of a commercial base in a private wording.
@@ -174,13 +180,29 @@ def resolve(cls, manifest, clauses, errors):
     return structure, cmap
 
 
-def ref_text(c, heading_only=False):
+def refc(cmap, cid):
+    """The clause a [[ref:...]] resolves to: the replacement, where a variant replaced the clause."""
+    return cmap.get("ref:" + cid) or cmap.get(cid)
+
+
+def ref_text(c, heading_only=False, start=False):
+    """A cross-reference as words. start: the reference opens a sentence, so it is capitalised."""
     if heading_only:
         return c["heading"]
     if c["type"] == "definition":
-        return f"the definition of {c['heading']}"
-    kind = KIND.get(c["type"], "")
-    return f"the {c['heading']} {kind}".strip()
+        t = f"the definition of {c['heading']}"
+    else:
+        heading = c["heading"]
+        article = "" if heading.lower().startswith("the ") else "the "
+        t = f"{article}{heading} {KIND.get(c['type'], '')}".strip()
+    return t[0].upper() + t[1:] if start else t
+
+
+def opens_sentence(before, lead=True):
+    """True when text before a reference ends a sentence. At the very start of a block it is lead:
+    True for a paragraph or table cell, False for a list item (items continue the sentence that introduces the list)."""
+    b = re.sub(r"[*\s]+$", "", before)
+    return lead if not b else b[-1] in ".!?"
 
 
 # ---------------------------------------------------------------- checks
@@ -199,7 +221,8 @@ def check(manifest, structure, cmap, errors):
             errors.append(f"{manifest['id']}: duplicate {c['type']} heading '{c['heading']}' ({seen[key]}, {cid})")
         seen[key] = cid
         for m in REF.finditer(c["body"]):
-            if m.group(1) not in ids:
+            target = refc(cmap, m.group(1))
+            if target is None or target["id"] not in ids:
                 errors.append(f"{c['path']}: reference to {m.group(1)}, which is not in {manifest['id']}")
         for m in LITERAL_NUMBER.finditer(c["body"]):
             errors.append(f"{c['path']}: literal clause number '{m.group(0)}' — use [[ref:...]]")
@@ -211,11 +234,11 @@ def check(manifest, structure, cmap, errors):
 
 # ---------------------------------------------------------------- rendering helpers
 
-def inline_html(text, cmap):
+def inline_html(text, cmap, lead=True):
     def ref(m):
-        c = cmap[m.group(1)]
+        c = refc(cmap, m.group(1))
         href = f'#{c["id"]}' if LINK["ids"] is None or c["id"] in LINK["ids"] else f'{LINK["page"]}#{c["id"]}'
-        return f'<a href="{href}">{html.escape(ref_text(c, bool(m.group(2))))}</a>'
+        return f'<a href="{href}">{html.escape(ref_text(c, bool(m.group(2)), opens_sentence(text[:m.start()], lead)))}</a>'
     parts, last = [], 0
     for m in REF.finditer(text):
         parts.append(html.escape(text[last:m.start()], quote=False)); parts.append(ref(m)); last = m.end()
@@ -227,7 +250,7 @@ def inline_html(text, cmap):
 
 
 def plain(text, cmap):
-    t = REF.sub(lambda m: ref_text(cmap[m.group(1)], bool(m.group(2))), text)
+    t = REF.sub(lambda m: ref_text(refc(cmap, m.group(1)), bool(m.group(2)), opens_sentence(text[:m.start()])), text)
     return t
 
 
@@ -276,7 +299,7 @@ def body_html(c, cmap):
         if kind == "p":
             h.append(f"<p>{inline_html(val, cmap)}</p>")
         elif kind in ("ul", "ol"):
-            h.append(f"<{kind}>" + "".join(f"<li>{inline_html(i, cmap)}</li>" for i in val) + f"</{kind}>")
+            h.append(f"<{kind}>" + "".join(f"<li>{inline_html(i, cmap, lead=False)}</li>" for i in val) + f"</{kind}>")
         else:
             head, *rows = val
             h.append("<table><thead><tr>" + "".join(f"<th>{inline_html(x, cmap)}</th>" for x in head) + "</tr></thead><tbody>"
@@ -333,7 +356,8 @@ def render_html(manifest, structure, cmap, slug, docx_name):
             if c.get("trigger"):
                 out.append(note_html(c))
     draft = f'<span class="draft-flag">Draft v{html.escape(v)}</span>' if manifest.get("draft") else f'<span>v{html.escape(v)}</span>'
-    banner = ('<div class="banner"><strong>DRAFT — subject to legal review — not for use.</strong> This wording is not settled and '
+    noun = "template" if manifest.get("form") == "pds" else "wording"
+    banner = (f'<div class="banner"><strong>DRAFT — subject to legal review — not for use.</strong> This {noun} is not settled and '
               'must not be issued, quoted from, or bound until Wording Partner sign-off. It is provided as source material under '
               'CC BY 4.0, without warranty.</div>') if manifest.get("draft") else ""
     kicker = manifest.get("kicker", "Cuttleflow Commons · " + manifest["title"].replace(" Insurance", ""))
@@ -385,12 +409,12 @@ def render_docx(manifest, structure, cmap, path, changes_md):
         t = OxmlElement("w:t"); t.text = text; t.set(qn("xml:space"), "preserve"); r.append(t); h.append(r)
         p._p.append(h)
 
-    def inline(p, text):
+    def inline(p, text, lead=True):
         pos = 0
         for m in REF.finditer(text):
             styled(p, text[pos:m.start()])
-            c = cmap[m.group(1)]
-            link(p, bm(c["id"]), ref_text(c, bool(m.group(2))))
+            c = refc(cmap, m.group(1))
+            link(p, bm(c["id"]), ref_text(c, bool(m.group(2)), opens_sentence(text[:m.start()], lead)))
             pos = m.end()
         styled(p, text[pos:])
 
@@ -410,7 +434,7 @@ def render_docx(manifest, structure, cmap, path, changes_md):
                 inline(doc.add_paragraph(), val)
             elif kind in ("ul", "ol"):
                 for i in val:
-                    inline(doc.add_paragraph(style="List Bullet" if kind == "ul" else "List Number"), i)
+                    inline(doc.add_paragraph(style="List Bullet" if kind == "ul" else "List Number"), i, lead=False)
             else:
                 t = doc.add_table(rows=0, cols=len(val[0])); t.style = "Table Grid"
                 for r_ in val:
@@ -430,7 +454,7 @@ def render_docx(manifest, structure, cmap, path, changes_md):
     p = doc.add_paragraph(); run(p, "Cuttleflow Systems — Open Source Insurance Wording", font="Georgia", size=13, italic=True, color=GREEN)
     p = doc.add_paragraph(); run(p, f"Version {v} · {manifest['date']} · CC BY 4.0 (wording text only)", font="Consolas", size=9, color=GREEN)
     if "base" in manifest:
-        p = doc.add_paragraph(); run(p, f"{'Attaches to' if manifest.get('form') == 'endorsement' else 'Built on'} base wording {manifest['base']}", font="Consolas", size=9, color=GREEN)
+        p = doc.add_paragraph(); run(p, f"{dict(endorsement='Attaches to', pds='Describes').get(manifest.get('form'), 'Built on')} {'wording' if manifest.get('form') == 'pds' else 'base wording'} {manifest['base']}", font="Consolas", size=9, color=GREEN)
     p = doc.add_paragraph(); run(p, f"Document ref {ref} · CUTTLEFLOW PTY LTD T/A CUTTLEFLOW SYSTEMS", font="Consolas", size=9)
     if manifest.get("draft"):
         p = doc.add_paragraph(); run(p, "DRAFT — SUBJECT TO LEGAL REVIEW — NOT FOR USE", bold=True, color=ORANGE)
@@ -511,7 +535,7 @@ def endorsement(manifest, base_manifest, cmap):
         kind = op["op"]
         if kind == "replace":
             old, new = cmap[op["target"]], cmap[op["with"]]
-            intro = f"{ref_text(old)[0].upper() + ref_text(old)[1:]} in the base wording is deleted and replaced with the following."
+            intro = f"{ref_text(old, start=True)} in the base wording is deleted and replaced with the following."
             add(f"end.{i}", f"Replaced: {old['heading']}", intro + f"\n\n**{new['heading']}**\n\n" + new["body"])
         elif kind == "add" and cmap[op["clause"]]["type"] in ("library", "endorsement"):
             new = cmap[op["clause"]]  # optional endorsements are reproduced as they appear in the integrated wording
@@ -525,7 +549,7 @@ def endorsement(manifest, base_manifest, cmap):
                 + f"\n\n**{new['heading']}**\n\n" + new["body"])
         elif kind == "delete":
             old = cmap[op["target"]]
-            add(f"end.{i}", f"Removed: {old['heading']}", f"{ref_text(old)[0].upper() + ref_text(old)[1:]} in the base wording does not apply.")
+            add(f"end.{i}", f"Removed: {old['heading']}", f"{ref_text(old, start=True)} in the base wording does not apply.")
     em = dict(manifest)
     em.update({"id": manifest["id"] + "-endorsement", "form": "endorsement",
                "title": manifest.get("endorsement_title", manifest["title"] + " — Endorsement"),
@@ -554,6 +578,39 @@ def build_record(manifest, structure, cmap):
 
 # ---------------------------------------------------------------- main
 
+# ---------------------------------------------------------------- disclosure companions (PDS templates)
+
+def disclosures(built):
+    """Yield (class, pds manifest, structure, clause map) for every PDS template, checked against its wording."""
+    by_id = {m["id"]: (c, m, st, cm) for c, m, st, cm in built}
+    for cls_dir in sorted(p for p in SOURCE.iterdir() if p.is_dir()):
+        for path in sorted((cls_dir / "disclosure").glob("*.md")) if (cls_dir / "disclosure").exists() else []:
+            d = load_clause(path)
+            wid, _, wver = str(d["describes"]).partition("@")
+            if wid not in by_id:
+                raise BuildError(f"{d['path']}: describes {wid}, which is not a wording")
+            _c, wm, wst, wcm = by_id[wid]
+            if wver != str(wm["version"]):
+                raise BuildError(f"{d['path']}: describes {wid}@{wver} but the wording is {wm['version']} (stale pin)")
+            ids = {c for s in wst for c in s["clauses"]} | {s["section"] for s in wst}
+            cmap = dict(wcm)
+            clauses = []
+            for i, chunk in enumerate(re.split(r"^## ", d["body"], flags=re.M)):
+                if not chunk.strip():
+                    continue
+                heading, _, body = chunk.partition("\n")
+                cid = f"pds.{i:02d}"
+                cmap[cid] = dict(id=cid, type="preamble", heading=heading.strip(), body=body.strip(), path=d["path"])
+                clauses.append(cid)
+                for m in REF.finditer(body):
+                    t = refc(wcm, m.group(1))
+                    if t is None or t["id"] not in ids:
+                        raise BuildError(f"{d['path']}: section '{heading.strip()}' cites {m.group(1)}, which is not in {wid}")
+            manifest = dict(d, form="pds", base=f"{wid}@{wm['version']}", draft=wm.get("draft") or d.get("draft"),
+                            links=[("Policy wording", f"{wm['slug']}.html")], wording_slug=wm["slug"])
+            yield cls_dir.name, manifest, [dict(section=f"pds.{d['slug']}", clauses=clauses)], cmap
+
+
 def wordings():
     """Yield (class, manifest path) for every wording in source/."""
     for cls_dir in sorted(p for p in SOURCE.iterdir() if p.is_dir()):
@@ -575,7 +632,8 @@ def main(argv):
     if errors:
         print("Checks failed:\n" + "\n".join(f"  - {e}" for e in errors))
         return 1
-    print(f"Checks passed for {len(built)} wording(s).")
+    n_pds = len(list(disclosures(built)))
+    print(f"Checks passed for {len(built)} wording(s) and {n_pds} PDS template(s).")
     if mode != "build":
         return 0
     for cls, manifest, structure, cmap in built:
@@ -584,6 +642,7 @@ def main(argv):
                 (dict(slug=m["slug"], title=m["title"], version=m["version"], doc_ref=m["doc_ref"],
                       endorsement_form=m.get("endorsement_form", True))
                  for c, m, _s, _m in built if c == cls and "base" in m), key=lambda p: p["title"])
+    pds = list(disclosures(built))
     for cls, manifest, structure, cmap in built:
         QUESTIONS.clear(); QUESTIONS.update(load_questions(cls))
         slug = manifest["slug"]
@@ -591,6 +650,8 @@ def main(argv):
             bslug = load_manifest(SOURCE / cls / "base.yaml")["slug"]
             manifest["links"] = ([("Endorsement form", f"{slug}-endorsement.html")] if manifest.get("endorsement_form", True) else []) \
                 + [("Base wording", f"{bslug}.html")]
+        manifest["links"] = manifest.get("links", []) + [("PDS template", f"{p['slug']}.html") for _c, p, _s, _m in pds
+                                                         if p["wording_slug"] == slug]
         stem = manifest["file_stem"]
         docx_name = f"{stem}_v{manifest['version']}.docx"
         (ROOT / "wordings" / f"{slug}.html").write_text(render_html(manifest, structure, cmap, slug, docx_name), encoding="utf-8")
@@ -614,6 +675,14 @@ def main(argv):
                 render_docx(em, es, emap, ROOT / "wordings" / "downloads" / edocx, "")
             LINK.update(ids=None, page="")
             print(f"Built {em['id']} {manifest['version']} -> wordings/{eslug}.html")
+    for cls, manifest, structure, cmap in pds:
+        slug, docx_name = manifest["slug"], f"{manifest['file_stem']}_v{manifest['version']}.docx"
+        LINK.update(ids=set(structure[0]["clauses"]), page=f"{manifest['wording_slug']}.html")
+        (ROOT / "wordings" / f"{slug}.html").write_text(render_html(manifest, structure, cmap, slug, docx_name), encoding="utf-8")
+        if "--no-docx" not in argv:
+            render_docx(manifest, structure, cmap, ROOT / "wordings" / "downloads" / docx_name, "")
+        LINK.update(ids=None, page="")
+        print(f"Built {manifest['id']} {manifest['version']} -> wordings/{slug}.html")
     return 0
 
 

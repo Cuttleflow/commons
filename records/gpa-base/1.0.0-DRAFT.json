@@ -492,7 +492,7 @@
   {
    "id": "gpa.end.e02",
    "heading": "E02 Journey Cover",
-   "sha256": "2c88120d5cd11bcf30ec55937e46baa24a9baa13098815ab7b55a51e7a141712"
+   "sha256": "3100f4dee4dbef0e31920cce980f8c220308593c0399078e8ac053fd245f4bf5"
   },
   {
    "id": "gpa.end.e03",
@@ -507,7 +507,7 @@
   {
    "id": "gpa.end.e05",
    "heading": "E05 Named Hazardous Pursuit",
-   "sha256": "05dcfac9b000b72decf6f77f56439a1c0b5c582e49bce1fd7dcefb5793c55134"
+   "sha256": "b8116a26f6d95d9048c940c57b7afb196b66f8cbdef0b5dc372789a7179f7fcd"
   },
   {
    "id": "gpa.end.e06",
@@ -532,7 +532,7 @@
   {
    "id": "gpa.end.e10",
    "heading": "E10 Passive War and Political Risk Zones",
-   "sha256": "c30e6dd3de83a0eef04b60bfcc64a4028082182764de3d44c6ab8e643c7c8bbe"
+   "sha256": "85c8a4a289b13787654ef8c61186dd5320ed6924d82c74d1b0f5a20565e4e50f"
   },
   {
    "id": "gpa.end.e11",
@@ -1032,5 +1032,5 @@
    ]
   }
  ],
- "sha256": "ecfffe43657e4d6d4c89187039b791e36ad64abb92dd9173f7087c437aa68c95"
+ "sha256": "1bcf6c21362349f7e4c043edfd1150b217c369c58408c0226d2c92b44345e583"
 }

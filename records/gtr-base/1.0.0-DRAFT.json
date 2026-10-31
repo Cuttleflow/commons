@@ -257,7 +257,7 @@
   {
    "id": "gtr.cover.kidnap-crisis",
    "heading": "Kidnap, Extortion and Crisis Response",
-   "sha256": "9cac592938c04e796fc66a2101d810b89a7990a667b8b6c3199283ee6191b255"
+   "sha256": "c9a095aeeabd43ba7fb78b6c666126e0fa5168f8548f7b42190890231df7f6c9"
   },
   {
    "id": "gtr.section.rental-vehicle",
@@ -462,7 +462,7 @@
   {
    "id": "gtr.end.e01",
    "heading": "E01 Pre-existing Medical Conditions",
-   "sha256": "8e2d70dbfd83a8bb5c5fd65bca43417b95469eadfbade0a4db585f87bb339baf"
+   "sha256": "4f06ffca9ca64f6d7dbbf5cb6df6d89ce99c119684913145684739d53fc9f602"
   },
   {
    "id": "gtr.end.e02",
@@ -472,17 +472,17 @@
   {
    "id": "gtr.end.e03",
    "heading": "E03 Hazardous Activities",
-   "sha256": "e5314651f008375dc744da308fd1f12e06ccf67277200103dd581b7bc0f8d396"
+   "sha256": "9f964d99dd10cf94717cfcae619f134204216c8cdef496c7fb69621a43e74bdb"
   },
   {
    "id": "gtr.end.e04",
    "heading": "E04 Epidemic and Pandemic Disruption",
-   "sha256": "2b6465d18bab9537b9ab9b903f2a3ca61925b744e18a57b506620d8a75045a80"
+   "sha256": "4cf80300a32417c235cb7c0462bdf67cfa151b78a01a8f24b71d009b070525ca"
   },
   {
    "id": "gtr.end.e05",
    "heading": "E05 Manual Work Overseas",
-   "sha256": "0787b686d21de8f7f0179d5e2370cbbc91f36924517f4ca25ce1b3c41c1b8425"
+   "sha256": "9cc8c68994ccfdfb9d85a9f1a990b502d3e5b345ef9161df46a25ef6df9fa70c"
   },
   {
    "id": "gtr.end.e06",
@@ -841,5 +841,5 @@
    ]
   }
  ],
- "sha256": "dd0799e5f1e093de3cca2d05873e64a862a997375c9c2bb159c99c408000adfc"
+ "sha256": "fadaebf254c26197beec5f40ae4a9cfa0d5052579f2268d27c92a056395fab7c"
 }

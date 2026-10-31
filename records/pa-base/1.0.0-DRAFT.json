@@ -457,17 +457,17 @@
   {
    "id": "pa.end.e03",
    "heading": "E03 Occupational Cover Only",
-   "sha256": "ad75c8c7c5332fdceac7f9db0a11790b0867ccce34ffd58e775f20b23b59dca4"
+   "sha256": "aecd699a25d9610425334086bc828578ff3f26f84d6d12363ecda48cb5bcd1a7"
   },
   {
    "id": "pa.end.e04",
    "heading": "E04 Non-Occupational Cover Only",
-   "sha256": "63d7440abff93e69d8337070af3c6af78f214a7d3814d03c1509e95cb4c7785a"
+   "sha256": "843db52723789906171eeddcaca3e3240aedecfe3016af2534ae235389ea6d76"
   },
   {
    "id": "pa.end.e05",
    "heading": "E05 Named Hazardous Pursuit",
-   "sha256": "c34395f1e3fc71c265e6fbe0c0b2c8824d307b9738bad2b39e0d3fb350f985b2"
+   "sha256": "222535001d6dd4d9b1ebb2a998d8f210cb23e00aaf0042fc18de864156017d5e"
   },
   {
    "id": "pa.end.e06",
@@ -482,7 +482,7 @@
   {
    "id": "pa.end.e08",
    "heading": "E08 Accepted Pre-existing Condition",
-   "sha256": "609257a2985856e10cd06344a59606a62afee5d1c8194695280396a0cd5a5265"
+   "sha256": "3ca64422d2b1ff28696c62263e5609368ca58e7b1de5ef92fd02ff78405b6f11"
   },
   {
    "id": "pa.end.e09",
@@ -497,7 +497,7 @@
   {
    "id": "pa.end.e11",
    "heading": "E11 Capital Benefits Only",
-   "sha256": "ce3d5b777eda85025d2a79517f18174b3acc484a880bac6763a905452b3d41ef"
+   "sha256": "cb7196d3a18efeae1ed6a0575d6637ee76e9c52f3ddda71d9bdde59690152a8d"
   },
   {
    "id": "pa.end.e12",
@@ -1004,5 +1004,5 @@
    ]
   }
  ],
- "sha256": "2650e8b2687df2551aa9a690b8207037055d88498cbd63d523ee44670adef097"
+ "sha256": "89b23748d3d91e2b458bf4c1c2ca4c5aa9fc6d9e25f8282115e42e9729df9b98"
 }

@@ -12,6 +12,8 @@ source/<class>/
   clauses/<id>.md           one file per clause (base clauses and profession clauses)
   professions/<slug>.yaml   one file per profession wording (added in later releases)
   changes/<wording>-<version>.md   the "Changes From" note for a release
+  disclosure/<slug>.md      a Product Disclosure Statement template (Part A) for a retail wording;
+                            its header pins the wording it describes, and its [[ref:...]] links must resolve in it
 records/<wording>/<version>.json   build record: every clause ID with a content hash
 tools/wordings/build.py     checks and build
 ```
