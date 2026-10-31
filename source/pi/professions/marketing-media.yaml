@@ -1,0 +1,75 @@
+id: pi-marketing-media
+title: Marketing, Media and Communications Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · MARKETING, MEDIA AND COMMUNICATIONS
+kicker: Meridian Commons · Professional Indemnity · Marketing, Media and Communications
+slug: marketing-media
+file_stem: Meridian_PI_Marketing_Media
+doc_ref: 2026/PI/0009
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity and media liability wording for marketing, advertising, PR, design, content,
+  publishing and media businesses, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-MKTG-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.mm.def.professional-services
+- op: add
+  clause: pi.mm.ext.media-liability
+  after: pi.ext.subcontractors-and-outsourcers
+- op: add
+  clause: pi.mm.ext.withdrawal-costs
+  after: pi.mm.ext.media-liability
+- op: add
+  clause: pi.mm.excl.promotions
+  after: pi.excl.contractual-liability
+- op: add
+  clause: pi.mm.excl.event-cancellation
+  after: pi.mm.excl.promotions
+- op: add
+  clause: pi.mm.excl.patents
+  after: pi.mm.excl.event-cancellation
+- op: add
+  clause: pi.mm.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.mm.end.live-broadcast
+  after: pi.mm.library.optional-endorsements
+- op: add
+  clause: pi.mm.end.user-content
+  after: pi.mm.end.live-broadcast
+- op: add
+  clause: pi.mm.end.investigative-content
+  after: pi.mm.end.user-content
+- op: add
+  clause: pi.mm.end.printing-errors
+  after: pi.mm.end.investigative-content
+- op: add
+  clause: pi.mm.end.generated-content
+  after: pi.mm.end.printing-errors
+- op: add
+  clause: pi.mm.end.usa-audience
+  after: pi.mm.end.generated-content
+regulatory_basis:
+- topic: Uniform defamation laws (Stage 1 serious harm threshold; Stage 2 digital intermediary reforms vary by state)
+  status: Media Liability extension covers intentional publication without malice.
+  review_by: '2027-03-31'
+- topic: Privacy Act 1988 — statutory tort for serious invasions of privacy (from 10 June 2025)
+  status: Media Liability extension, subject to the base Deliberate and Dishonest Acts exclusion.
+  review_by: '2027-03-31'
+- topic: Spam Act 2003; state trade promotion permits
+  status: Penalties not insured where the law prohibits it (base Statutory Liability). Permit failures covered as
+    negligence (Prizes and Over-Redemption exclusion carve-back).
+  review_by: '2027-03-31'
+proposal_questions:
+- Fees by activity; largest audience.
+- Pre-publication legal review; prior complaints and takedown demands.
+- Live broadcasting and delay systems; user content and moderation.
+- Investigative content, printing and proof sign-off, AI-generated content, United States audience.
+decisions:
+- '2026-10-31: Own product rather than cyber media cover; publication without malice covered (profession review
+  approved 31 October 2026).'
+- '2026-10-31: The June broadcast-delay, investigative-review and proof sign-off conditions became questions and
+  endorsements.'

@@ -317,3 +317,87 @@ questions:
     text: Do you prepare expert reports for legal proceedings or give expert evidence?
     type: yes/no
     used_by: E (Expert Witness)
+  - id: qs.pi.mm.fee_split
+    text: What percentage of your fees in the last 12 months came from advertising and marketing, public relations, design, content production, publishing or broadcasting, research, media buying, trade promotions and influencer management?
+    type: repeating (activity, percentage)
+    used_by: R
+  - id: qs.pi.mm.reach
+    text: What is the largest audience reached by material you published or broadcast in the last 12 months?
+    type: number
+    used_by: R
+  - id: qs.pi.mm.legal_review
+    text: Is material that names or identifies people, or makes claims about competitors, reviewed by a lawyer before publication?
+    type: yes/no
+    used_by: R
+  - id: qs.pi.mm.prior_complaints
+    text: In the last five years, have you received a concerns notice, takedown demand or complaint alleging defamation, privacy invasion or infringement?
+    type: yes/no, with details
+    used_by: R
+  - id: qs.pi.mm.live_broadcast
+    text: Do you broadcast or stream material live?
+    type: yes/no
+    used_by: E (Live Broadcast Exclusion)
+  - id: qs.pi.mm.delay_system
+    text: If so, do you use a delay system that allows live material to be stopped before it reaches the audience?
+    type: yes/no
+    used_by: E (Live Broadcast Exclusion)
+  - id: qs.pi.mm.ugc_platforms
+    text: Do you operate or moderate a website, platform or channel on which other people can post material?
+    type: yes/no
+    used_by: E (User Content Exclusion)
+  - id: qs.pi.mm.moderation
+    text: If so, is posted material moderated, and is there a documented takedown process?
+    type: yes/no
+    used_by: E (User Content Exclusion)
+  - id: qs.pi.mm.investigative_pct
+    text: What percentage of your output in the last 12 months was investigative journalism or investigative content?
+    type: percentage
+    used_by: E (Investigative Content Sub-limit)
+  - id: qs.pi.mm.printing
+    text: Do you arrange printing for clients?
+    type: yes/no
+    used_by: E (Printing Errors)
+  - id: qs.pi.mm.proof_signoff
+    text: Do clients sign off a final proof before printing?
+    type: yes/no
+    used_by: E (Printing Errors)
+  - id: qs.pi.mm.ai_content_pct
+    text: What percentage of the content you deliver is generated wholly or mainly by artificial intelligence?
+    type: percentage
+    used_by: E (AI-Generated Content Exclusion)
+  - id: qs.pi.mm.us_audience_pct
+    text: What percentage of your audience, or your clients' audience for your material, is in the United States?
+    type: percentage
+    used_by: E (United States Audience Exclusion)
+  - id: qs.pi.et.provider_type
+    text: Which kinds of education do you provide (school, higher education, VET/RTO, tutoring, education agent), and what registration does each require?
+    type: repeating (kind, regulator, registration number)
+    used_by: S (definition of professional services)
+  - id: qs.pi.et.audit_outcomes
+    text: In the last three years, have you had a regulator audit finding of non-compliance, a registration condition, suspension or cancellation?
+    type: yes/no, with details
+    used_by: R
+  - id: qs.pi.et.child_safe
+    text: Do you teach or supervise children, and do you comply with the child safe standards in your state?
+    type: yes/no, with details
+    used_by: R (refer to an abuse liability product)
+  - id: qs.pi.et.third_party_delivery_pct
+    text: What percentage of your training or assessment is delivered by third parties under auspicing, partnership or licensing arrangements?
+    type: percentage
+    used_by: E (Third-Party Delivery Exclusion)
+  - id: qs.pi.et.international_pct
+    text: What percentage of your students are international students?
+    type: percentage
+    used_by: E (International Students Sub-limit)
+  - id: qs.pi.et.vsl_approved
+    text: Are you an approved VET Student Loans provider?
+    type: yes/no
+    used_by: E (VET Student Loans Exclusion)
+  - id: qs.pi.et.high_risk_training
+    text: Do you deliver practical training in high-risk work, such as high-risk work licences, working at heights, confined spaces, driving, aviation, maritime or firearms?
+    type: yes/no
+    used_by: E (High-Risk Practical Training Exclusion)
+  - id: qs.pi.et.enrolments
+    text: How many students were enrolled with you in the last 12 months?
+    type: number
+    used_by: R, E (Increased Re-assessment Sub-limit)
