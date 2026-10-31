@@ -555,5 +555,99 @@
    "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
   }
  ],
+ "endorsements": [
+  {
+   "id": "pi.arch.end.bridges-and-tunnels",
+   "heading": "Bridges and Tunnels Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.pi.activities.bridges_tunnels_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.pi.activities.bridges_tunnels_pct > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because {qs.pi.activities.bridges_tunnels_pct}% of your fees come from bridge or tunnel work."
+   },
+   "questions": [
+    {
+     "id": "qs.pi.activities.bridges_tunnels_pct",
+     "text": "What percentage of your fees in the last 12 months came from the design or construction of bridges or tunnels?",
+     "type": "percentage"
+    }
+   ]
+  },
+  {
+   "id": "pi.arch.end.combustible-cladding",
+   "heading": "Combustible Cladding Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.pi.activities.cladding_work",
+     "qs.pi.practice_states",
+     "qs.pi.registrations"
+    ],
+    "rules": [
+     {
+      "when": "qs.pi.activities.cladding_work = yes",
+      "action": "apply"
+     }
+    ],
+    "restrictions": [
+     {
+      "when": "'VIC' in qs.pi.practice_states and qs.pi.registrations includes endorsed building engineer (Victoria)",
+      "action": "refer",
+      "note": "The Victorian Ministerial Order for endorsed building engineers may not permit this exclusion. An underwriter must confirm before it is applied."
+     }
+    ],
+    "reason": "Applies because you design, specify, certify or inspect external wall cladding, or advise on it."
+   },
+   "questions": [
+    {
+     "id": "qs.pi.activities.cladding_work",
+     "text": "Do you design, specify, select, certify or inspect external wall cladding, or advise on it?",
+     "type": "yes/no, with details"
+    },
+    {
+     "id": "qs.pi.practice_states",
+     "text": "In which states and territories do you provide professional services?",
+     "type": "multi-select (state or territory)"
+    },
+    {
+     "id": "qs.pi.registrations",
+     "text": "For each principal, which registrations, licences or endorsements are held, and in which state or territory?",
+     "type": "repeating (principal, registration type, state, number)"
+    }
+   ]
+  },
+  {
+   "id": "pi.arch.end.mining-equipment-warranties",
+   "heading": "Mining Equipment Warranties Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.pi.activities.mining_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.pi.activities.mining_pct > 10",
+      "action": "refer"
+     },
+     {
+      "when": "qs.pi.activities.mining_pct > 0",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Applies because {qs.pi.activities.mining_pct}% of your fees come from services to the mining industry."
+   },
+   "questions": [
+    {
+     "id": "qs.pi.activities.mining_pct",
+     "text": "What percentage of your fees in the last 12 months came from services to the mining industry, including the design, specification or inspection of mining equipment?",
+     "type": "percentage"
+    }
+   ]
+  }
+ ],
  "sha256": "9f03a74c8912e8580c5abb8be8c901a84e2f781f8620c49bc3cd578539b641ef"
 }

@@ -72,6 +72,48 @@ The build produces the integrated profession wording from this file. Every claus
 profession does not override comes from the base, so a base change reaches every
 profession wording on the next build.
 
+## Endorsement triggers
+
+Every endorsement (a clause of type `endorsement`) states when the platform uses it, in a
+`trigger` block in its header. The platform imports these rules from the build record.
+
+```yaml
+trigger:
+  questions: [qs.pi.activities.mining_pct]          # platform questions, defined in source/<class>/questions.yaml
+  rules:                                  # default rules; the first rule that matches applies
+    - when: qs.pi.activities.mining_pct > 10
+      action: refer
+    - when: qs.pi.activities.mining_pct > 0
+      action: suggest
+  restrictions:                           # optional; legal limits that always apply and always refer
+    - when: "'VIC' in qs.pi.practice_states"
+      action: refer
+      note: Why the restriction exists.
+  reason: Applies because {qs.pi.activities.mining_pct}% of your fees come from services to the mining industry.
+  responses: [Attach, Attach with amended sub-limit, Do not attach]   # optional; what the underwriter may do on a referral or suggestion
+```
+
+`responses` lists what an underwriter may do when the endorsement is referred or suggested.
+Each must be one of: Attach; Attach with amended sub-limit; Attach with special excess;
+Attach with premium loading; Do not attach; Decline risk. If it is left out, the platform
+offers all six.
+
+Actions:
+
+| Action | Platform behaviour when the rule matches |
+|---|---|
+| `apply` | The endorsement is attached automatically and the reason is shown to the broker before binding |
+| `refer` | The quote is held for an underwriter, with the endorsement pre-selected |
+| `suggest` | The underwriter sees the endorsement recommended; the quote is not held |
+| `broker_option` | For endorsements that add cover: offered to the broker as a priced option |
+
+The rules here are Cuttleflow's defaults. Each agency sets its own actions and thresholds in
+its platform configuration and may choose any action. Restrictions are legal limits and are
+not configurable: when one matches, the quote is referred.
+
+The web page shows the trigger as a wording note under the endorsement. The Word file does
+not include it, because the Word file is the policy document.
+
 ## Checks
 
 `python3 tools/wordings/build.py check` stops the build when:
@@ -81,7 +123,10 @@ profession wording on the next build.
 - a clause body contains a clause number ("Section 3.5", "clause 4");
 - an override targets a clause that is not in the pinned base, or adds a clause that does not exist;
 - a profession wording pins a base version other than the current one;
-- a clause marked draft appears in a wording not marked draft.
+- a clause marked draft appears in a wording not marked draft;
+- an endorsement has no trigger, a trigger names a question that is not in `questions.yaml`,
+  a rule uses an action other than the four above, a restriction does not refer, or an
+  underwriter response is not one of the six above.
 
 The same checks run on every pull request (`.github/workflows/wordings.yml`), which also
 fails if the committed pages or build records do not match the source.

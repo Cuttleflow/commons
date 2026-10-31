@@ -1,0 +1,266 @@
+# Platform questions for the Public and Products Liability wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.ppl namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.ppl.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.ppl.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.ppl.insured.principal_state
+    text: In which state or territory is your principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, S
+  - id: qs.ppl.insured.years_trading
+    text: How many years has the business traded under its current ownership?
+    type: number
+    used_by: A
+  - id: qs.ppl.insured.anzsic_primary
+    text: What is your main business activity?
+    type: select (ANZSIC 2006 class)
+    used_by: R, A
+  - id: qs.ppl.insured.activities
+    text: What other activities do you carry on, and what percentage of turnover comes from each?
+    type: repeating (ANZSIC class, percentage; total 100)
+    used_by: R, A
+  - id: qs.ppl.insured.licence_requires_pl
+    text: Does a trade licence or registration require you to hold public liability cover? If yes, at what minimum limit?
+    type: yes/no, with amount
+    used_by: A
+  - id: qs.ppl.exposure.turnover
+    text: What is your estimated turnover for the next 12 months?
+    type: currency (AUD)
+    used_by: R
+  - id: qs.ppl.exposure.turnover_by_state
+    text: What percentage of your turnover comes from each state or territory?
+    type: repeating (state, percentage; total 100)
+    used_by: R
+  - id: qs.ppl.exposure.wages
+    text: What are your estimated wages for the next 12 months?
+    type: currency (AUD)
+    used_by: R
+  - id: qs.ppl.exposure.employees
+    text: How many employees do you have, including working principals?
+    type: number
+    used_by: A
+  - id: qs.ppl.exposure.subcontractor_pct
+    text: What percentage of your turnover do you pay to subcontractors?
+    type: percentage
+    used_by: R, E21
+  - id: qs.ppl.exposure.labour_hire_pct
+    text: What percentage of your total workforce hours are worked by labour hire workers?
+    type: percentage
+    used_by: R, E21
+  - id: qs.ppl.exposure.nz_turnover_pct
+    text: What percentage of your turnover comes from work or sales in New Zealand?
+    type: percentage
+    used_by: E18
+  - id: qs.ppl.ops.offsite_pct
+    text: What percentage of your turnover comes from work away from your own premises?
+    type: percentage
+    used_by: R
+  - id: qs.ppl.ops.public_visitors
+    text: How many members of the public visit your premises each year?
+    type: select
+    options: ['none', 'under_1000', '1000_to_10000', 'over_10000']
+    used_by: R
+  - id: qs.ppl.ops.max_height_m
+    text: What is the greatest height at which you work, in metres?
+    type: number (metres)
+    used_by: R, A
+  - id: qs.ppl.ops.hot_works_offsite
+    text: Do you do welding, cutting, grinding or other hot works away from your premises?
+    type: yes/no
+    used_by: E15
+  - id: qs.ppl.ops.hot_works_permit
+    text: Do you use a hot works permit system with a fire watch?
+    type: yes/no
+    used_by: E15
+  - id: qs.ppl.ops.excavation_depth_m
+    text: What is the greatest depth you excavate, in metres? Enter 0 if none.
+    type: number (metres)
+    used_by: E13, A
+  - id: qs.ppl.ops.demolition
+    text: Do you do demolition work?
+    type: yes/no
+    used_by: E13, A
+  - id: qs.ppl.ops.underpinning
+    text: Do you do shoring or underpinning work?
+    type: yes/no
+    used_by: E14
+  - id: qs.ppl.ops.engineer_design
+    text: Is your shoring and underpinning work done to an engineer's design?
+    type: yes/no
+    used_by: E14
+  - id: qs.ppl.ops.ccc_max_value
+    text: What is the highest value of other people's property in your care at any one time?
+    type: currency (AUD)
+    used_by: E02
+  - id: qs.ppl.ops.tenant_liability_required
+    text: What liability limit does your lease require for damage to the leased premises? Enter 0 if none.
+    type: currency (AUD)
+    used_by: E01
+  - id: qs.ppl.ops.liquor_supplied
+    text: Do you sell or supply alcohol?
+    type: select
+    options: ['no', 'incidental', 'licensed_venue']
+    used_by: E07, R
+  - id: qs.ppl.ops.trading_after_midnight
+    text: Does your licensed venue trade after midnight?
+    type: yes/no
+    used_by: E07
+  - id: qs.ppl.ops.advice_for_fee
+    text: Do you give advice, designs or inspections for a separate fee?
+    type: yes/no
+    used_by: E08
+  - id: qs.ppl.ops.advice_fee_pct
+    text: What percentage of your turnover comes from fees for advice, design or inspection?
+    type: percentage
+    used_by: E08
+  - id: qs.ppl.ops.drones
+    text: Do you operate drones? If yes, list each device and its CASA registration.
+    type: yes/no, with list
+    used_by: E09
+  - id: qs.ppl.ops.watercraft_max_m
+    text: What is the length of the longest watercraft you use, in metres? Enter 0 if none.
+    type: number (metres)
+    used_by: A, S
+  - id: qs.ppl.ops.overseas_work
+    text: Do you do physical work outside Australia and New Zealand? If yes, in which countries and for what percentage of turnover?
+    type: yes/no, with list
+    used_by: E04
+  - id: qs.ppl.ops.hazardous_substances
+    text: Do you store or use hazardous substances in more than household quantities?
+    type: yes/no, with description
+    used_by: E05
+  - id: qs.ppl.ops.gradual_pollution_requested
+    text: Do you want cover for gradual pollution?
+    type: yes/no
+    used_by: E05
+  - id: qs.ppl.ops.vulnerable_persons
+    text: Do you provide services to children or other vulnerable people?
+    type: yes/no
+    used_by: E19
+  - id: qs.ppl.ops.child_safe_accreditation
+    text: Do you hold child-safe accreditation, or follow the National Principles for Child Safe Organisations?
+    type: yes/no
+    used_by: E19
+  - id: qs.ppl.ops.silica_materials
+    text: Do you cut, grind or polish stone, concrete, brick or other materials containing silica?
+    type: select
+    options: ['no', 'occasionally', 'regularly']
+    used_by: E20
+  - id: qs.ppl.ops.asbestos_work
+    text: Do you remove, disturb or handle asbestos?
+    type: yes/no
+    used_by: A
+  - id: qs.ppl.ops.pfas_handling
+    text: Do you store, use, supply or dispose of PFAS or products containing PFAS, such as firefighting foam?
+    type: yes/no, with description
+    used_by: E22
+  - id: qs.ppl.ops.public_contact_premises
+    text: Do members of the public gather in close contact at your premises (for example gyms, childcare, aged care, hospitality or events)?
+    type: yes/no
+    used_by: E23
+  - id: qs.ppl.ops.infection_control_plan
+    text: Do you have a written infection control plan that you follow?
+    type: yes/no, with description
+    used_by: E23
+  - id: qs.ppl.products.supplies_products
+    text: Do you make, import, sell, supply, install or repair goods?
+    type: yes/no
+    used_by: Products cover shown
+  - id: qs.ppl.products.categories
+    text: What product categories do you supply, and what is the products turnover for each?
+    type: repeating (category, AUD)
+    used_by: R
+  - id: qs.ppl.products.role
+    text: What is your role for each product category?
+    type: multi-select
+    options: ['manufacturer', 'importer', 'distributor', 'retailer', 'installer', 'own_brand']
+    used_by: R, E17
+  - id: qs.ppl.products.share_of_turnover_pct
+    text: What percentage of your turnover comes from goods you make, import, sell or supply?
+    type: percentage
+    used_by: R
+  - id: qs.ppl.products.import_pct
+    text: What percentage of your products turnover comes from goods imported from manufacturers with no Australian presence?
+    type: percentage
+    used_by: R, A
+  - id: qs.ppl.products.territory_split
+    text: 'What percentage of your products turnover goes to each destination: Australia, New Zealand, rest of world, USA and Canada directly, USA and Canada indirectly?'
+    type: repeating (destination, percentage; total 100)
+    used_by: R
+  - id: qs.ppl.products.usa_canada_pct
+    text: What percentage of your products turnover goes to the USA and Canada, directly or indirectly?
+    type: percentage
+    used_by: R, E10
+  - id: qs.ppl.products.nz_pct
+    text: What percentage of your products turnover goes to New Zealand?
+    type: percentage
+    used_by: E18
+  - id: qs.ppl.products.tga_regulated
+    text: Do you supply medicines, therapeutic goods or medical devices? If yes, list them with their ARTG numbers.
+    type: yes/no, with list
+    used_by: E06
+  - id: qs.ppl.products.aircraft
+    text: Are any of your products installed in or used in aircraft?
+    type: yes/no
+    used_by: A
+  - id: qs.ppl.products.food_beverage
+    text: Do you make or supply food, beverages or other products that are eaten or drunk?
+    type: yes/no
+    used_by: E16, R
+  - id: qs.ppl.products.recall_plan
+    text: Do you have a written product recall plan?
+    type: yes/no
+    used_by: E16, R
+  - id: qs.ppl.products.recalls_5yrs
+    text: How many product recalls or withdrawals have you made in the last 5 years?
+    type: number, with details
+    used_by: E16, A
+  - id: qs.ppl.products.qa_certification
+    text: Which quality certifications do you hold?
+    type: select
+    options: ['none', 'iso_9001', 'haccp', 'other']
+    used_by: R
+  - id: qs.ppl.products.components_pct
+    text: What percentage of your products turnover is goods supplied as components to other manufacturers?
+    type: percentage
+    used_by: E17
+  - id: qs.ppl.history.claims_5yrs
+    text: List all liability claims in the last 5 years, insured or not.
+    type: repeating (date, BI or PD, amount, status)
+    used_by: R, A
+  - id: qs.ppl.history.circumstances
+    text: Do you know of any incident that could lead to a claim against you?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.ppl.history.declined
+    text: Has any insurer declined, cancelled or imposed special terms on your liability insurance?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.ppl.cover.limit
+    text: What limit of liability do you want?
+    type: select (AUD)
+    options: [5000000, 10000000, 20000000, 30000000, 50000000]
+    used_by: R, E03, S
+  - id: qs.ppl.cover.deductible
+    text: What excess do you want?
+    type: select (AUD)
+    options: [500, 1000, 2500, 5000, 10000]
+    used_by: R, S
+  - id: qs.ppl.cover.layer
+    text: Do you want primary or excess cover? If excess, name the underlying insurer and limit.
+    type: select, with details
+    options: ['primary', 'excess']
+    used_by: E11
+  - id: qs.ppl.contracts.named_principals
+    text: Which principals do your contracts require to be named on this policy? Give the contract references.
+    type: repeating (principal, contract reference)
+    used_by: E12

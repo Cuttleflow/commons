@@ -1,0 +1,169 @@
+id: ppl-base
+title: Public and Products Liability Insurance
+class: PUBLIC AND PRODUCTS LIABILITY INSURANCE
+kicker: Meridian Commons · Public and Products Liability
+slug: public-and-products-liability
+file_stem: Meridian_Public_and_Products_Liability
+doc_ref: 2026/LI/0001
+version: 2.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Broadform public and products liability cover for Australian businesses, written on an occurrence basis.
+supersedes: Meridian Broadform Liability Policy Wording v1.0.0 (July 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - ppl.about
+  - ppl.version-history
+  - ppl.schedule
+- section: ppl.section.definitions
+  clauses:
+  - ppl.def.abuse
+  - ppl.def.advertising-injury
+  - ppl.def.business
+  - ppl.def.claim
+  - ppl.def.communicable-disease
+  - ppl.def.compensation
+  - ppl.def.defence-costs
+  - ppl.def.employee
+  - ppl.def.endorsement
+  - ppl.def.excess
+  - ppl.def.geographical-limits
+  - ppl.def.labour-hire-worker
+  - ppl.def.limit-of-liability
+  - ppl.def.named-insured
+  - ppl.def.occurrence
+  - ppl.def.personal-injury
+  - ppl.def.policy-period
+  - ppl.def.pollutant
+  - ppl.def.premises
+  - ppl.def.products
+  - ppl.def.property-damage
+  - ppl.def.retroactive-date
+  - ppl.def.subsidiary
+  - ppl.def.usa-canada
+  - ppl.def.voluntary-worker
+  - ppl.def.we-us-our
+  - ppl.def.worker-to-worker-claim
+  - ppl.def.you-your
+- section: ppl.section.cover
+  clauses:
+  - ppl.cover.public-liability
+  - ppl.cover.products-liability
+  - ppl.cover.defence-costs
+  - ppl.cover.supplementary-payments
+- section: ppl.section.extensions
+  clauses:
+  - ppl.ext.tenants-liability
+  - ppl.ext.property-in-your-care
+  - ppl.ext.vehicle-loading
+  - ppl.ext.tool-of-trade
+  - ppl.ext.completed-operations
+  - ppl.ext.advertising-injury
+  - ppl.ext.statutory-defence-costs
+  - ppl.ext.cross-liabilities
+  - ppl.ext.newly-acquired-subsidiaries
+  - ppl.ext.voluntary-workers
+  - ppl.ext.first-aid
+  - ppl.ext.underground-services
+  - ppl.ext.contractors
+  - ppl.ext.business-visits
+  - ppl.ext.wrongful-arrest
+  - ppl.ext.employees-property
+  - ppl.ext.incidental-liquor
+  - ppl.ext.labour-hire
+- section: ppl.section.exclusions
+  clauses:
+  - ppl.excl.employers-liability
+  - ppl.excl.professional-services
+  - ppl.excl.cyber-event
+  - ppl.excl.directors-and-officers
+  - ppl.excl.property-in-your-control
+  - ppl.excl.your-products-and-work
+  - ppl.excl.product-performance
+  - ppl.excl.contractual-liability
+  - ppl.excl.deliberate-acts
+  - ppl.excl.motor-vehicles
+  - ppl.excl.aircraft-and-watercraft
+  - ppl.excl.aircraft-products
+  - ppl.excl.pollution
+  - ppl.excl.asbestos
+  - ppl.excl.silica
+  - ppl.excl.pfas
+  - ppl.excl.mould
+  - ppl.excl.communicable-disease
+  - ppl.excl.abuse
+  - ppl.excl.licensed-venues
+  - ppl.excl.vibration-and-support
+  - ppl.excl.shoring-and-underpinning
+  - ppl.excl.overseas-work
+  - ppl.excl.usa-canada
+  - ppl.excl.high-hazard-products
+  - ppl.excl.known-injury
+  - ppl.excl.fines-and-penalties
+  - ppl.excl.economic-loss
+  - ppl.excl.war-and-terrorism
+  - ppl.excl.nuclear
+  - ppl.excl.how-the-exclusions-apply
+- section: ppl.section.payment
+  clauses:
+  - ppl.pay.limit-of-liability
+  - ppl.pay.sub-limits
+  - ppl.pay.one-occurrence
+  - ppl.pay.defence-costs-and-the-limit
+  - ppl.pay.excess
+  - ppl.pay.paying-out-the-limit
+  - ppl.pay.other-insurance
+- section: ppl.section.obligations
+  clauses:
+  - ppl.obl.tell-us-about-claims
+  - ppl.obl.do-not-admit-liability
+  - ppl.obl.cooperate-with-us
+  - ppl.obl.reasonable-precautions
+  - ppl.obl.preserve-our-recovery-rights
+  - ppl.obl.tell-us-about-changes
+- section: ppl.section.conditions
+  clauses:
+  - ppl.cond.insurance-contracts-act
+  - ppl.cond.your-duty-of-disclosure
+  - ppl.cond.individual-treatment
+  - ppl.cond.subrogation-waiver
+  - ppl.cond.premium-adjustment
+  - ppl.cond.cancellation
+  - ppl.cond.sanctions
+  - ppl.cond.governing-law
+  - ppl.cond.jurisdiction
+  - ppl.cond.gst
+  - ppl.cond.several-liability
+  - ppl.cond.assignment
+  - ppl.cond.headings-and-references
+  - ppl.cond.disputes-and-complaints
+  - ppl.cond.privacy
+- section: end
+  clauses:
+  - ppl.claims.how-to-make-a-claim
+  - ppl.endorsement-library
+  - ppl.end.e01
+  - ppl.end.e02
+  - ppl.end.e03
+  - ppl.end.e04
+  - ppl.end.e05
+  - ppl.end.e06
+  - ppl.end.e07
+  - ppl.end.e08
+  - ppl.end.e09
+  - ppl.end.e10
+  - ppl.end.e11
+  - ppl.end.e12
+  - ppl.end.e13
+  - ppl.end.e14
+  - ppl.end.e15
+  - ppl.end.e16
+  - ppl.end.e17
+  - ppl.end.e18
+  - ppl.end.e19
+  - ppl.end.e20
+  - ppl.end.e21
+  - ppl.end.e22
+  - ppl.end.e23
+  - ppl.licence-notice
