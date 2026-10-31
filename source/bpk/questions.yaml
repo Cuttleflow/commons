@@ -1,0 +1,204 @@
+# Platform questions for the Business Package wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.bpk namespace. The platform question set uses the same IDs.
+# used_by: R rating (sent to the tenant's rater), A appetite or referral rule, S schedule, E## endorsement trigger.
+# Every question is used by something. Agency thresholds are set in the platform, not here.
+# Questions under qs.bpk.situation are asked once for each Situation.
+questions:
+  # The insured
+  - id: qs.bpk.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.bpk.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.bpk.insured.entity_type
+    text: What type of entity is the insured?
+    type: select
+    options: [company, trust, not_for_profit, partnership, sole_trader]
+    used_by: R, A
+  - id: qs.bpk.insured.activities
+    text: What does the business do, and what percentage of turnover comes from each activity?
+    type: repeating (Exposure Engine activity, percentage; total 100)
+    used_by: R, A, S
+  - id: qs.bpk.insured.years_in_business
+    text: How many years has the business traded under its current ownership?
+    type: number
+    used_by: A, S
+  - id: qs.bpk.insured.state
+    text: In which state or territory is the business based? Its law governs the policy.
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, S
+  - id: qs.bpk.insured.adverse_insurance_history
+    text: Has any insurer declined, cancelled or imposed special terms on the insured in the last 5 years?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.bpk.insured.adverse_history
+    text: Has the insured, or any director, been insolvent, bankrupt or convicted of an offence involving dishonesty in the last 10 years?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.bpk.insured.interested_parties_count
+    text: How many lessors or financiers must be noted on the policy?
+    type: number, with names
+    used_by: S, E09
+  - id: qs.bpk.insured.voluntary_workers
+    text: How many voluntary workers help the business?
+    type: number
+    used_by: E11
+  # Exposure
+  - id: qs.bpk.exposure.turnover
+    text: What is the estimated turnover for the next 12 months?
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.bpk.exposure.employees
+    text: How many employees are there, as full-time equivalents?
+    type: number
+    used_by: R
+  - id: qs.bpk.exposure.claims_3y
+    text: How many claims or losses has the business had in the last 3 years?
+    type: number, with details if more than 0
+    used_by: R, A
+  - id: qs.bpk.exposure.nsw_small_business
+    text: NSW only. Does the insured declare that it is a small business entity, with turnover under $2 million?
+    type: yes/no
+    used_by: R
+  # Each Situation
+  - id: qs.bpk.situation.address
+    text: What is the address of the Situation?
+    type: address
+    used_by: R, S
+  - id: qs.bpk.situation.year_built
+    text: In what year was the building built, and in what year was it rewired, if it has been?
+    type: year, year
+    used_by: R, A
+  - id: qs.bpk.situation.construction
+    text: What are the walls, floors and roof made of?
+    type: select
+    options: [non_combustible, masonry_or_mixed, combustible_including_eps]
+    used_by: R, A
+  - id: qs.bpk.situation.sprinklers
+    text: Are sprinklers fitted throughout the building?
+    type: yes/no
+    used_by: R, A
+  - id: qs.bpk.situation.occupied
+    text: Will the premises be left unattended for more than 60 consecutive days during the period?
+    type: yes/no
+    used_by: A
+  - id: qs.bpk.situation.sums_insured
+    text: What are the sums insured for buildings, contents and stock at the Situation?
+    type: currency (AUD) for each
+    used_by: R, A, S
+  - id: qs.bpk.situation.excess
+    text: Which property damage excess is chosen for the Situation?
+    type: select
+    options: ['500', '1000', '2500', '5000']
+    used_by: R, S
+  - id: qs.bpk.situation.gross_profit
+    text: What is the annual gross profit to be insured, and what indemnity period is chosen?
+    type: currency (AUD); select 6, 12, 18 or 24 months
+    used_by: R, S
+  - id: qs.bpk.situation.glass_sum_insured
+    text: What is the glass sum insured at the Situation?
+    type: currency (AUD)
+    used_by: R, S
+  - id: qs.bpk.situation.equipment_sum_insured
+    text: What is the sum insured for plant, machinery and electronic equipment at the Situation?
+    type: currency (AUD)
+    used_by: R, S
+  - id: qs.bpk.situation.hazards
+    text: Which of these take place at the Situation?
+    type: multi-select
+    options: [flammable_liquids, spray_painting, hot_works, deep_frying, woodworking, none]
+    used_by: R, A, E12
+  - id: qs.bpk.situation.flood_history
+    text: Has the Situation flooded in the last 10 years, or is it in an area shown as flood-prone?
+    type: yes/no
+    used_by: R, E02
+  - id: qs.bpk.situation.seasonal_stock_increase_pct
+    text: By what percentage does stock rise in peak months, if at all?
+    type: percentage, with the months
+    used_by: E03
+  - id: qs.bpk.situation.works_contract_value
+    text: What is the contract value of any building works under way at the Situation?
+    type: currency (AUD)
+    used_by: E08
+  - id: qs.bpk.situation.accidental_damage_wanted
+    text: Is accidental damage cover wanted at the Situation?
+    type: yes/no
+    used_by: E01
+  # Sections written once for the Business
+  - id: qs.bpk.crime.limit
+    text: What crime limit is chosen, and is social engineering cover wanted?
+    type: select 25,000, 50,000, 100,000 or 250,000; yes/no
+    used_by: R, S
+  - id: qs.bpk.crime.payment_controls
+    text: Do two people approve payments, and are changes to supplier bank details verified by calling a number already held?
+    type: yes/no for each
+    used_by: R, A
+  - id: qs.bpk.liability.limit
+    text: What liability limit is chosen?
+    type: select 5,000,000, 10,000,000 or 20,000,000
+    used_by: R, S
+  - id: qs.bpk.liability.products_supplied
+    text: Does the business sell or supply products, and does it manufacture or import any of them?
+    type: select
+    options: [no_products, resell_only, manufacture_or_import]
+    used_by: R, E07
+  - id: qs.bpk.liability.us_canada_exports
+    text: Are any products exported to the USA or Canada?
+    type: yes/no
+    used_by: A, S
+  - id: qs.bpk.liability.contractors
+    text: Does the business use contractors or labour hire, and do they hold their own liability insurance?
+    type: yes/no for each
+    used_by: A
+  - id: qs.bpk.liability.hot_works_away
+    text: Does the business carry out welding, cutting or other hot works away from its own premises?
+    type: yes/no
+    used_by: A, E10
+  - id: qs.bpk.liability.lease_tenants_liability_required
+    text: If the business leases premises, what tenants' liability limit does the lease require?
+    type: currency (AUD)
+    used_by: E05
+  - id: qs.bpk.liability.property_in_care_value
+    text: What is the most value of other people's property in the business's care, custody or control at any one time?
+    type: currency (AUD)
+    used_by: E06
+  - id: qs.bpk.equipment.breakdown_bi_wanted
+    text: Is loss of profit cover after equipment breakdown wanted?
+    type: yes/no
+    used_by: E04
+  - id: qs.bpk.general_property.sum_insured
+    text: What is the blanket sum insured for portable business property, and are any items to be specified?
+    type: currency (AUD); list of items and values
+    used_by: R, S
+  - id: qs.bpk.transit.carryings
+    text: What are the annual carryings, and what is the most carried in any one conveyance?
+    type: currency (AUD) for each
+    used_by: R, A, S
+  - id: qs.bpk.tax_audit.limit
+    text: What tax audit limit is chosen, and has the business been audited in the last 3 years?
+    type: select 10,000, 25,000, 50,000 or 100,000; yes/no
+    used_by: R, A, S
+  - id: qs.bpk.cyber.limit
+    text: What cyber limit is chosen?
+    type: select 250,000, 500,000, 1,000,000 or 2,000,000
+    used_by: R, S
+  - id: qs.bpk.cyber.controls
+    text: Is multi-factor authentication used on all remote access and email, and are offline backups tested at least every quarter?
+    type: yes/no for each
+    used_by: R, A
+  - id: qs.bpk.management_liability.limit
+    text: What management liability limit is chosen?
+    type: select 500,000, 1,000,000 or 2,000,000
+    used_by: R, S
+  - id: qs.bpk.management_liability.known_matters
+    text: Are there any claims, or facts that might give rise to a claim, against the business or its directors?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.bpk.claims_made.retroactive_dates
+    text: For renewals with continuous cover, what are the retroactive dates for the cyber and management liability sections?
+    type: date for each
+    used_by: S
