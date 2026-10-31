@@ -1,0 +1,162 @@
+# Platform questions for the Meridian motor wordings (Commercial Motor base and Private Motor).
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.mot namespace. The Go templates
+# CMV-AU-GO, FLT-AU-GO and PMV-AU-GO use the same IDs (Cuttleflow/cuttleflow-app specs/go-motor).
+# used_by: R rating (sent to the tenant's rater), A appetite or referral rule, S schedule, E## endorsement trigger.
+# Questions under qs.mot.vehicles are asked once for each vehicle. The *_count questions are
+# derived from the vehicle rows by the platform, so a rule can read them as one value.
+questions:
+  # The insured
+  - id: qs.mot.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.mot.insured.abn
+    text: What is the insured's ABN? (Not asked for private motor.)
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.mot.insured.entity_type
+    text: What type of insured is this?
+    type: select
+    options: [company, trust, partnership, sole_trader, individual]
+    used_by: R, A
+  - id: qs.mot.insured.activity
+    text: What does the business do? (Not asked for private motor.)
+    type: select (Exposure Engine activity)
+    used_by: A, S
+  - id: qs.mot.insured.state
+    text: In which state or territory is the insured based? Its law governs the policy.
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, S
+  - id: qs.mot.insured.years_in_business
+    text: How many years has the business traded under its current ownership?
+    type: number
+    used_by: A
+  - id: qs.mot.insured.adverse_insurance_history
+    text: Has any insurer declined, cancelled or imposed special terms on the insured in the last 5 years?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.mot.drivers.licence_history
+    text: In the last 3 years, has any driver had a licence suspended or cancelled, or been convicted of a driving offence involving alcohol, drugs or dangerous driving?
+    type: yes/no, with details
+    used_by: A
+  # Claims
+  - id: qs.mot.claims.at_fault_count_3y
+    text: How many at-fault claims have there been on the insured's vehicles in the last 3 years?
+    type: number
+    used_by: R, A
+  - id: qs.mot.claims.claims_free_years
+    text: How many consecutive years has the regular driver held insurance with no at-fault claim? (Private motor.)
+    type: number
+    used_by: R
+  - id: qs.mot.claims.experience
+    text: For each of the last 3 to 5 policy years, how many vehicle-years were insured, how many claims were made, what was paid and reserved in total, and what was the largest single claim? (Fleet basis.)
+    type: repeating (policy year end, vehicle-years, claim count, incurred, largest claim)
+    used_by: R, A
+  # Fleet
+  - id: qs.mot.fleet.vehicle_count
+    text: How many vehicles are insured? (Derived from the vehicle schedule.)
+    type: number
+    used_by: R, A, E09, E18
+  - id: qs.mot.fleet.declaration_basis
+    text: How will vehicle changes be declared? (Fleet basis.)
+    type: select
+    options: [pro_rata, monthly, quarterly, annual]
+    used_by: S
+  # Vehicles
+  - id: qs.mot.vehicles
+    text: For each vehicle, give its registration, make and model, year, vehicle type, gross vehicle mass, value basis and sum insured, cover level, use, garaging postcode and state, and whether it is refrigerated, electric or hybrid, held under a novated lease, or fitted with an automated driving system.
+    type: repeating (vehicle fields)
+    used_by: R, S
+  - id: qs.mot.vehicles.heavy_count
+    text: How many vehicles have a gross vehicle mass over 4.5 tonnes? (Derived.)
+    type: number
+    used_by: A, E01
+  - id: qs.mot.vehicles.refrigerated_count
+    text: How many vehicles are refrigerated? (Derived.)
+    type: number
+    used_by: E02
+  - id: qs.mot.vehicles.agreed_value_count
+    text: How many vehicles are insured for an agreed value? (Derived.)
+    type: number
+    used_by: E05
+  - id: qs.mot.vehicles.novated_count
+    text: How many vehicles are held under a novated lease? (Derived.)
+    type: number
+    used_by: E08
+  - id: qs.mot.vehicles.plant_count
+    text: How many items of registered mobile plant are listed? (Derived.)
+    type: number
+    used_by: A, E11
+  - id: qs.mot.vehicles.ev_count
+    text: How many vehicles are electric or hybrid? (Derived.)
+    type: number
+    used_by: E14
+  - id: qs.mot.vehicles.automated_count
+    text: How many vehicles have an automated driving system? (Derived.)
+    type: number
+    used_by: E15
+  # Use
+  - id: qs.mot.use.radius
+    text: How far do the vehicles usually travel from their garaging address?
+    type: select
+    options: [local, regional, interstate]
+    used_by: R, E13
+  - id: qs.mot.use.hire_or_reward
+    text: Is any vehicle used for hire, fare or reward, including rideshare or delivery for a platform?
+    type: yes/no
+    used_by: A, E03
+  - id: qs.mot.use.dangerous_goods
+    text: Does any vehicle carry dangerous goods that require placarding?
+    type: yes/no
+    used_by: R, A, E12
+  - id: qs.mot.use.tow_recovery
+    text: Is any vehicle used as a tow truck or recovery vehicle?
+    type: yes/no
+    used_by: A, E16
+  - id: qs.mot.use.courtesy_fleet
+    text: Is lending vehicles to customers part of the business?
+    type: yes/no
+    used_by: E17
+  # Drivers
+  - id: qs.mot.drivers.basis
+    text: Is the policy for any authorised driver, or for named drivers only?
+    type: select
+    options: [any_authorised, named]
+    used_by: S
+  - id: qs.mot.drivers.youngest_age
+    text: How old is the youngest person who will drive the vehicles?
+    type: number
+    used_by: R, A
+  - id: qs.mot.drivers.min_years_licensed
+    text: What is the shortest time any driver has held a full licence for the class of vehicle they drive, in years?
+    type: number
+    used_by: R
+  # Cover
+  - id: qs.mot.cover.tppd_limit
+    text: What third party property damage limit is required?
+    type: select
+    options: [5000000, 10000000, 20000000, 30000000]
+    used_by: R, S
+  - id: qs.mot.cover.basic_excess
+    text: What basic excess is required for each vehicle?
+    type: select
+    options: [500, 1000, 2000, 5000]
+    used_by: R, S
+  - id: qs.mot.cover.tools_of_trade_si
+    text: What value of tools of trade is carried in each vehicle?
+    type: number
+    used_by: S, E04
+  - id: qs.mot.cover.windscreen_increased
+    text: Do you want the windscreen benefit increased?
+    type: yes/no
+    used_by: E06
+  - id: qs.mot.cover.hire_extended
+    text: Do you want the hire vehicle benefit extended?
+    type: yes/no
+    used_by: E10
+  # Risk management
+  - id: qs.mot.risk.telematics
+    text: Do the vehicles have a telematics system that records speed, harsh events and location?
+    type: yes/no
+    used_by: A, E07
