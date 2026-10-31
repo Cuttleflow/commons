@@ -1,0 +1,686 @@
+{
+ "wording": "fs-credit-intermediaries",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/FS/0003",
+ "base": "fs-base@1.0.0-DRAFT",
+ "clauses": [
+  {
+   "id": "fs.about",
+   "heading": "About This Policy",
+   "sha256": "014456436304303433ccd98ec9d7a4c3bf2aec28f8ca76215c839377a536d9c9"
+  },
+  {
+   "id": "fs.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "fs.schedule",
+   "heading": "Schedule",
+   "sha256": "0c945915486aba8dd291d829a39e3d74581068c0a6d0fec9887ce1d247fee8e0"
+  },
+  {
+   "id": "fs.section.definitions",
+   "heading": "Definitions",
+   "sha256": "a0be66d24cca1a93364ad959e36b4f53d132c81a7075c1c7525d1e82080f64ca"
+  },
+  {
+   "id": "fs.def.afca",
+   "heading": "AFCA",
+   "sha256": "9c21c72dbd747347bf1b9b9e8e157863927c10953f0a02ea14faecc4398500c1"
+  },
+  {
+   "id": "fs.def.business-activity",
+   "heading": "Business activity",
+   "sha256": "469dd9a93a12c388336af6067cc51465091bc8d95b6838c2c76d130f78ef76e8"
+  },
+  {
+   "id": "fs.def.claim",
+   "heading": "Claim",
+   "sha256": "cf226856132e143bcabfd23f8c7228039fcece8eddf9bc06e1ffd3457bf0e50d"
+  },
+  {
+   "id": "fs.def.company",
+   "heading": "Company",
+   "sha256": "199f99fdf5327cfbe4cf584860587a187417093e2ef776ba6c3f6f80e51d90ad"
+  },
+  {
+   "id": "fs.def.computer-system",
+   "heading": "Computer system",
+   "sha256": "00cf5813e627ffaf316cea0c0d0809e17a3396c6dc5ae0dd31335e5ae403927e"
+  },
+  {
+   "id": "fs.def.confidential-information",
+   "heading": "Confidential information",
+   "sha256": "9d60d1104dede35192071bdf98d5861433c2ffe0fca08f0458ee3035a5eaea65"
+  },
+  {
+   "id": "fs.def.defence-costs",
+   "heading": "Defence costs",
+   "sha256": "8d668ed553a4de7198a84c31e13ed99e249ed311065d52a87458ca00639e9668"
+  },
+  {
+   "id": "fs.def.employee",
+   "heading": "Employee",
+   "sha256": "45780d3209435c151da3b623ca4545d00d692fa3a96164b4548bcb4f2a911e60"
+  },
+  {
+   "id": "fs.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "c32b97c887b446c065b84d5202450912ae38b786ef132af5d6846ffecd726791"
+  },
+  {
+   "id": "fs.def.excess",
+   "heading": "Excess",
+   "sha256": "10bdc557fdffedd2c334e1f6c602d55403144f9aeba0d3c4982982673c38b931"
+  },
+  {
+   "id": "fs.def.final-adjudication",
+   "heading": "Final adjudication",
+   "sha256": "097a4e3a2959485247a1d3f172ccd3ae0cb715378caafe69923a739a60ed18f8"
+  },
+  {
+   "id": "fs.def.geographical-limits",
+   "heading": "Geographical limits",
+   "sha256": "07a723bbf87830ed62e1e0fac30793591fac24f56efae8f5de91b20162addafc"
+  },
+  {
+   "id": "fs.def.insured-person",
+   "heading": "Insured person",
+   "sha256": "e7813b14e6589c3d64e28999acf2e03308f869a14349ee7c868eebff7e5ad1e9"
+  },
+  {
+   "id": "fs.def.joint-venture",
+   "heading": "Joint venture",
+   "sha256": "57dd4bc108af5a71c3039363c3cb553344f4ef6c6be524c30d8c993f93442f60"
+  },
+  {
+   "id": "fs.def.limit-of-liability",
+   "heading": "Limit of liability",
+   "sha256": "5a617c77e239ebc177d88aeafbfb7e391b7f0771c3c991bf94d9585fdd1d3949"
+  },
+  {
+   "id": "fs.def.loss",
+   "heading": "Loss",
+   "sha256": "5ed464445e09670f9f05b030778485aba329c06c773cc2d5e0709b2bde31eebe"
+  },
+  {
+   "id": "fs.def.named-insured",
+   "heading": "Named insured",
+   "sha256": "1269ee482016f97c3914a95b9bdd652207283d127db1c5364a5e117913154223"
+  },
+  {
+   "id": "fs.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "10cd1ed2de46cbe1f40de926f78d2bdf5367ca68554892c2c0e467769c089d68"
+  },
+  {
+   "id": "fs.def.pollution",
+   "heading": "Pollution",
+   "sha256": "413a097bd6ae328e102e8ff57a706d0ea10102132eba68f38d2c53bf4922300e"
+  },
+  {
+   "id": "fs.def.predecessor-practice",
+   "heading": "Predecessor practice",
+   "sha256": "ea2aa50eda793e3e7f525b24a26ad6467af8f5bb496de56615c86903a651440d"
+  },
+  {
+   "id": "fs.ci.def.professional-services",
+   "heading": "Professional services",
+   "sha256": "b979a03317bb3a048b965916486ad17f83bb73c7d4cac7fa2e84cfbbab1e7756"
+  },
+  {
+   "id": "fs.def.representative",
+   "heading": "Representative",
+   "sha256": "9d198ec94cb569894b408b1593b3ba0f1bb9a061f8f4cd6daa86d64fe38d03fb"
+  },
+  {
+   "id": "fs.def.retroactive-date",
+   "heading": "Retroactive date",
+   "sha256": "414b81d18d79198df87b83aae39757685e6bd90adacf71f0a584012d464e0a20"
+  },
+  {
+   "id": "fs.def.schedule",
+   "heading": "Schedule",
+   "sha256": "5ae03fab335253ccdd73cfedbd226693ea6d63556588dc84934658294440c4f2"
+  },
+  {
+   "id": "fs.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "7079d0ba0bb1f4c8b970bfc551e9155fc70963851fd3db746636836c50855d02"
+  },
+  {
+   "id": "fs.def.we-us-our",
+   "heading": "We / us / our",
+   "sha256": "b4b6b27adda7d9a701773f77d7426d90a6a302d91b97bd5637cd7d4582a3ef6d"
+  },
+  {
+   "id": "fs.def.you-your",
+   "heading": "You / your",
+   "sha256": "32ef1f2a0ef8cccf505602f586784b6f73891fa9d4ae5d1564ee445a61d73b9c"
+  },
+  {
+   "id": "fs.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "fs.cover.claims-against-you",
+   "heading": "Claims Against You",
+   "sha256": "7382fcda450aedbbe3fbd1b3201354b42decc5f08857e009dc63ef2e6aa7663c"
+  },
+  {
+   "id": "fs.cover.notification-of-circumstances",
+   "heading": "Notification of Circumstances",
+   "sha256": "0065a4bf59025bf5cc7d4d7e927608d6984fc48c90f2a54ea16e1136a3226359"
+  },
+  {
+   "id": "fs.ext.avoiding-a-potential-claim",
+   "heading": "Avoiding a Potential Claim",
+   "sha256": "5b9de433bf180c2ff8bccabdc52cade77e975dc96728adb7eb2a89ce90648ca0"
+  },
+  {
+   "id": "fs.section.extensions",
+   "heading": "Extensions of Cover",
+   "sha256": "5c42b8f67863c76a61cf3732f1d5e6ad1d5ee814ba179f668623a752c9786083"
+  },
+  {
+   "id": "fs.ext.loss-of-documents-and-data",
+   "heading": "Loss of Documents and Data",
+   "sha256": "5fd5a210b6be81ac0eb5dfcb4ea1961c149d6a17ec21007cdb3a4255c4cf8215"
+  },
+  {
+   "id": "fs.ext.representatives",
+   "heading": "Representatives",
+   "sha256": "7419947af240f591a254519e104ae3655862c39659d0ad7f735bb11c918921ac"
+  },
+  {
+   "id": "fs.ext.afca-determinations",
+   "heading": "AFCA Determinations",
+   "sha256": "daa9899bc5d30eff8678df94c64c5a25e5e756d281c8543a454976412a5c514b"
+  },
+  {
+   "id": "fs.ext.first-party-dishonesty",
+   "heading": "First-Party Dishonesty",
+   "sha256": "b8732ee13e43dcf115d689790947adfb822a78c6c34ce9a1dd7fb250603e8417"
+  },
+  {
+   "id": "fs.ext.statutory-liability",
+   "heading": "Statutory Liability",
+   "sha256": "78f8cc74837349616d95105268c3fc33193d39190bb2e90b17d1d6ff16f0493f"
+  },
+  {
+   "id": "fs.ext.inquiry-costs",
+   "heading": "Inquiry Costs",
+   "sha256": "f0a477eca215387e3b124f1f7d67d4f731e474b133cc5f3d69af4e8c2db5b36e"
+  },
+  {
+   "id": "fs.ext.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "0e9336dbad49a0e8a9b6a29c9f2ced0aabe5f800e767d1adb7d18572a0a395c4"
+  },
+  {
+   "id": "fs.ext.mitigation-costs",
+   "heading": "Mitigation Costs",
+   "sha256": "fd717a2b54230bcf07e9d08742f8c6381f030632c8e39a39a9080619555145c0"
+  },
+  {
+   "id": "fs.ext.public-relations-costs",
+   "heading": "Public Relations Costs",
+   "sha256": "df06918119f6da2367c14fe20a925cec3672d91777d1d779ef15830df08f6cb6"
+  },
+  {
+   "id": "fs.ext.court-attendance",
+   "heading": "Court Attendance",
+   "sha256": "68776b43aea423ea5b6623ccdf69db80e7dbea283740991f56173095ddc558f8"
+  },
+  {
+   "id": "fs.ext.newly-acquired-subsidiaries",
+   "heading": "Newly Acquired Subsidiaries",
+   "sha256": "4bc313c13a9da11b8402e6d6570e3a16528089a7f70e29b8a841ec2c416f5259"
+  },
+  {
+   "id": "fs.ext.joint-ventures",
+   "heading": "Joint Ventures",
+   "sha256": "5a73e7adad12d54cf46d1dbdc4103fc01237e1ad19f7e9c9f53f553f5aa850fd"
+  },
+  {
+   "id": "fs.ext.predecessor-practices",
+   "heading": "Predecessor Practices",
+   "sha256": "78892ddc29f76c3ed43bb56663d62060a3ad637b61956ebdf6585bde39a946d3"
+  },
+  {
+   "id": "fs.ext.run-off-cover",
+   "heading": "Run-Off Cover",
+   "sha256": "2ba316ac443ebb931eaef23c07afa57407bebc242f6c2e41242fb3272f9206f6"
+  },
+  {
+   "id": "fs.ext.subcontractors-and-outsourcers",
+   "heading": "Subcontractors and Outsourcers",
+   "sha256": "2dcae9fcd37ae938f6bbe937c2d7fc88eb6f8cc2854213079cf51cee0be87fb3"
+  },
+  {
+   "id": "fs.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "7d863eb787645d56328bf658ab97a34dec07c3e44abdc0aa86e6aaee06893917"
+  },
+  {
+   "id": "fs.excl.bodily-injury-and-property-damage",
+   "heading": "Bodily Injury and Property Damage",
+   "sha256": "40598b302efc03bd4f86b358f91fd78f5c06e872abb1bd97c7df7b264cdd4a16"
+  },
+  {
+   "id": "fs.excl.employers-liability",
+   "heading": "Employer's Liability",
+   "sha256": "daaeb92e732f185e7e7e751fe8066dd422159cefde137e795d54297337abb61d"
+  },
+  {
+   "id": "fs.excl.directors-and-officers-liability",
+   "heading": "Directors' and Officers' Liability",
+   "sha256": "ffea43ffdb14b0edacd51aeae23a702d044403734babbd2021189ba4b959daf6"
+  },
+  {
+   "id": "fs.excl.cyber-event",
+   "heading": "Cyber Event",
+   "sha256": "f8da655369381fda00e811ce26c1ec7c5fda4f6398eabd2b568e49169263c0ce"
+  },
+  {
+   "id": "fs.excl.investment-performance",
+   "heading": "Investment Performance",
+   "sha256": "5cba9878a6d087454c523088387f463d0ebb9a1201eab5bcd6db77957a904274"
+  },
+  {
+   "id": "fs.ci.excl.lender-claims",
+   "heading": "Lender Claims and Commission Clawback",
+   "sha256": "d64e513b3d5d4f5e0377f8fdb4914268e7c75f31df46b6d60147e6c00e62e380"
+  },
+  {
+   "id": "fs.excl.products",
+   "heading": "Products",
+   "sha256": "3da11b57af0429c984d45e6bb85394ca47f7ee53f26e229a18a1134a53a47ec6"
+  },
+  {
+   "id": "fs.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "bfec24bd7ece3bbef1bb573c7ff170f0bf2aab8ecd25f308203a176856d8b827"
+  },
+  {
+   "id": "fs.excl.deliberate-and-dishonest-acts",
+   "heading": "Deliberate and Dishonest Acts",
+   "sha256": "9fe1975f0f7e0c05336b736f515924681cd5a16874c51a0e106c974b0ad77eb7"
+  },
+  {
+   "id": "fs.excl.prior-known-circumstances",
+   "heading": "Prior Known Circumstances",
+   "sha256": "afcadc99b3c5eeef152a53ca005a32e21656e42ea2b27eb5ad0d9a194541247f"
+  },
+  {
+   "id": "fs.excl.war-terrorism-and-sanctions",
+   "heading": "War, Terrorism, and Sanctions",
+   "sha256": "aead436e9c9d5dc2a44b17fbf43a59b379855e0d836c7d6c45bd3b3a344c476c"
+  },
+  {
+   "id": "fs.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "f53b39cdb811d5586c7fd6492bb432900afe82ef307cf880a371a95ed018e972"
+  },
+  {
+   "id": "fs.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "284d7fa39a5760a54006a42f8b76925be263e277c0e25cc03151286c83299eb0"
+  },
+  {
+   "id": "fs.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "7c45110aa252ab74825aca000c02f095cf6b2dcaa31156e6940f1d9dea3eea74"
+  },
+  {
+   "id": "fs.excl.trading-debts-and-business-losses",
+   "heading": "Trading Debts and Business Losses",
+   "sha256": "e31d4404efcac8e2cb7f4944f0f818a7d9bc79f60141425e1ef0cc0b9c2e2b0f"
+  },
+  {
+   "id": "fs.excl.related-party-claims",
+   "heading": "Related Party Claims",
+   "sha256": "6737a105610c5c48120d13a78fc69a1fd94921f9065c1a6ae6cb346a2f9638b2"
+  },
+  {
+   "id": "fs.excl.non-compensatory-payments",
+   "heading": "Non-Compensatory Payments",
+   "sha256": "7b6fd106e3ad18f6f11c31c29e642eb9f9a8434e4b0b829a35a7a3cce957acf3"
+  },
+  {
+   "id": "fs.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "fs.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "f19c4c466cdae6164ea5cd4f131035b4ca6e7eca664f57a8700798ca0c9eb916"
+  },
+  {
+   "id": "fs.pay.automatic-reinstatement",
+   "heading": "Automatic Reinstatement",
+   "sha256": "02c3a03a1142696aadcb0d858145efbf175bd89cf71fc289db65da0c03a366cc"
+  },
+  {
+   "id": "fs.pay.sub-limits",
+   "heading": "Sub-Limits",
+   "sha256": "bb139b8748e01ea1667ebf6a1bb7851d4e7d64f75ba3e976726c9a32352a0f6b"
+  },
+  {
+   "id": "fs.pay.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "dada75786bf07b2e21cfcca8e083e031a58a4ec6bac5ce1874c4de1dd40f7144"
+  },
+  {
+   "id": "fs.pay.excess",
+   "heading": "Excess",
+   "sha256": "9ee91e15fbfc571edfb2fab7c8583594338ec98790a9db0e085e8dce338efbe6"
+  },
+  {
+   "id": "fs.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "f30121a0ff7ee8e4bfa2f61c672662d49586680189fc03891e144dcbfcf19e11"
+  },
+  {
+   "id": "fs.pay.paying-out-the-limit",
+   "heading": "Paying Out the Limit",
+   "sha256": "8e1d8ce02a9b546c8f35a14cc012df3f5a0f858e0bafd30437116c93dbe89364"
+  },
+  {
+   "id": "fs.pay.allocation",
+   "heading": "Allocation",
+   "sha256": "69278105ff3442326358ccf729c81c826c33f8ede6061f2ed656449878b5b2ec"
+  },
+  {
+   "id": "fs.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "9e0dc39952e3808986b500703d1b7b96db927b2d42f992959b769d1ddd6f6925"
+  },
+  {
+   "id": "fs.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "5cbbe6963b3d70c977c4b04a652a60dd2470dbc38df80389a108ac192089844f"
+  },
+  {
+   "id": "fs.obl.tell-us-about-circumstances",
+   "heading": "Tell Us About Circumstances",
+   "sha256": "e921df2c4d36a020af2355ae08869da665b1e0961d9d4a776c5abdbe350068ae"
+  },
+  {
+   "id": "fs.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability",
+   "sha256": "08db17820641b1e6bb54dd742342ba52939d6e23c09687ec938927766f2bd7a3"
+  },
+  {
+   "id": "fs.obl.cooperate-with-us",
+   "heading": "Cooperate With Us",
+   "sha256": "072bc5e8d10f43938209ae17581380a72797855205258af5ab6de1fbe4659a44"
+  },
+  {
+   "id": "fs.obl.mitigate-your-loss",
+   "heading": "Mitigate Your Loss",
+   "sha256": "a540090f496395bf9db85fad965a376976abbebed01982a8caa15fd9968781f3"
+  },
+  {
+   "id": "fs.obl.preserve-our-recovery-rights",
+   "heading": "Preserve Our Recovery Rights",
+   "sha256": "4b589c6b93b81c6f9f74898a7fce3618a569b8069a40d1d40392010f4ecddf8f"
+  },
+  {
+   "id": "fs.obl.tell-us-about-other-insurance",
+   "heading": "Tell Us About Other Insurance",
+   "sha256": "7c4f96e6e1afa45e2ced3fb0eb8a9287c2d53b423d18506cf241b851079c3c64"
+  },
+  {
+   "id": "fs.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "df3dd121c69b578d62057447de9c8c5567ab2cff02f9a9f9aee68fe1ecf7e280"
+  },
+  {
+   "id": "fs.obl.individual-treatment-of-insured-persons",
+   "heading": "Individual Treatment of Insured Persons",
+   "sha256": "ad16a6a7de02f8ae0d948aa82d5a7ca27bedc9c8bf9380c8a57b9e2da9a2ab4c"
+  },
+  {
+   "id": "fs.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "fs.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "6bb88d898e9269642bf2161fef51503ca5482494842499746534ab2d5c6936c0"
+  },
+  {
+   "id": "fs.cond.your-duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "9b3f3367fadb8f615c50b508449bec659f5b0d670b5d70ebee336f539d4d656d"
+  },
+  {
+   "id": "fs.cond.licences-registrations-and-accreditations",
+   "heading": "Licences, Registrations and Accreditations",
+   "sha256": "43666f6d9c16f5797912996edd1acd93b8c4b000ea2a48a1e10b1318fd5f03cc"
+  },
+  {
+   "id": "fs.cond.compulsory-insurance-requirements",
+   "heading": "Compulsory Insurance Requirements",
+   "sha256": "3fd14a0fd831d81fa9c2d98dfa1594f1b3dbb3d704d33dbef6510fe2637bd2a9"
+  },
+  {
+   "id": "fs.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "32d8459445f670fa924f6ad823bbd9d9689f13dd5807dcb0eee348644eac8e74"
+  },
+  {
+   "id": "fs.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "e1b14143632e3c4a2b5999c67a98b5e7a62af67158ead8bb38c34cdbf3067a9d"
+  },
+  {
+   "id": "fs.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "cb977e5c81fd606f507d7bbfc89e6f3eebc688a4918a4887c532f10ed47fdae7"
+  },
+  {
+   "id": "fs.cond.gst",
+   "heading": "GST",
+   "sha256": "fd245335cb6351542b01c84694f354c689365de0e69461d6e0d391c4b9bc9a93"
+  },
+  {
+   "id": "fs.cond.several-liability",
+   "heading": "Several Liability",
+   "sha256": "d02c12cd0232c9ef649e13a237eea560de61c9760ba11499f3ce6c412e89fcea"
+  },
+  {
+   "id": "fs.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "52bae2a47f23fc6dcbd694b1c7be9a0bd44ed177f21af89185dd63b0b12ce152"
+  },
+  {
+   "id": "fs.cond.entire-agreement",
+   "heading": "Entire Agreement",
+   "sha256": "88c44d21c23cef8d4523216c312b32bdfeb394809d2642a08977ac4f1b16dbd4"
+  },
+  {
+   "id": "fs.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "c50b1d8287724bddb8734bcfc79b99792546820c1392701f9f58936bdff9a934"
+  },
+  {
+   "id": "fs.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "0c018d70b87a0a668debc2d318745747eeee2253ad49609022c769dba6d00e48"
+  },
+  {
+   "id": "fs.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "83743466af13d640ae08caf40f2ff2c2241c1a487d371d95de4f0f00f2fb4627"
+  },
+  {
+   "id": "fs.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "32ec4dddc367be8cd2ee9a036e424cc51924c9d567b7ff7cd2a2df9057c4589c"
+  },
+  {
+   "id": "fs.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "34d65ad41e90ab3b1ec7bd651fee1bf55db004cacf86cf6255f9afedbecd3584"
+  },
+  {
+   "id": "fs.ci.library.optional-endorsements",
+   "heading": "Credit Intermediaries Endorsements",
+   "sha256": "ea33bb373ae8bd205355d0c94fa27c94e03f70c230bd4a686bcedd6b78279949"
+  },
+  {
+   "id": "fs.ci.end.lender-claims-buy-back",
+   "heading": "Lender Claims Buy-back",
+   "sha256": "faba9e2589c014bc7c5791384b9d3f525ca6903e3f9309360e1bc8385b4b2e78"
+  },
+  {
+   "id": "fs.ci.end.motor-dealer-finance",
+   "heading": "Motor Dealer Finance",
+   "sha256": "04e8565b15747acb6aa608fbc6c78f7829503fd3dc5f350666edf66cd0c95a62"
+  },
+  {
+   "id": "fs.ci.end.unregulated-commercial-finance",
+   "heading": "Unregulated Commercial Finance",
+   "sha256": "940cabd9e2574ec4af80cffaad1ed5e1f305ae0f2e008240b74a90400104febd"
+  },
+  {
+   "id": "fs.ci.end.automatic-run-off",
+   "heading": "12-Month Automatic Run-off",
+   "sha256": "481b8267eba0660d14bcd3ad549d2d960d78df3f089d71ea35873b4d1a923a99"
+  },
+  {
+   "id": "fs.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "fs.ci.end.lender-claims-buy-back",
+   "heading": "Lender Claims Buy-back",
+   "trigger": {
+    "questions": [
+     "qs.fs.ci.aggregator",
+     "qs.fs.ci.lender_claims"
+    ],
+    "rules": [
+     {
+      "when": "qs.fs.ci.lender_claims = yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.fs.ci.lender_claims = no",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because lenders and aggregators may claim against you for errors in loan applications.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fs.ci.aggregator",
+     "text": "Which aggregator or licensee do you operate through?",
+     "type": "text",
+     "used_by": "R, E (Lender Claims Buy-back)"
+    },
+    {
+     "id": "qs.fs.ci.lender_claims",
+     "text": "In the last five years, has a lender, mortgage manager or aggregator made a claim against you or clawed back commission because of an error or alleged fraud in a loan application?",
+     "type": "yes/no, with details",
+     "used_by": "E (Lender Claims Buy-back)"
+    }
+   ]
+  },
+  {
+   "id": "fs.ci.end.motor-dealer-finance",
+   "heading": "Motor Dealer Finance",
+   "trigger": {
+    "questions": [
+     "qs.fs.ci.dealer_finance"
+    ],
+    "rules": [
+     {
+      "when": "qs.fs.ci.dealer_finance = yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you arrange finance in connection with vehicle sales."
+   },
+   "questions": [
+    {
+     "id": "qs.fs.ci.dealer_finance",
+     "text": "Do you arrange finance in connection with the sale of motor vehicles?",
+     "type": "yes/no",
+     "used_by": "E (Motor Dealer Finance)"
+    }
+   ]
+  },
+  {
+   "id": "fs.ci.end.unregulated-commercial-finance",
+   "heading": "Unregulated Commercial Finance",
+   "trigger": {
+    "questions": [
+     "qs.fs.ci.commercial_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.fs.ci.commercial_pct > 0",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because {qs.fs.ci.commercial_pct}% of your settlements are for unregulated commercial finance."
+   },
+   "questions": [
+    {
+     "id": "qs.fs.ci.commercial_pct",
+     "text": "What percentage of your settlements in the last 12 months were for finance not regulated by the National Consumer Credit Protection Act?",
+     "type": "percentage",
+     "used_by": "E (Unregulated Commercial Finance)"
+    }
+   ]
+  },
+  {
+   "id": "fs.ci.end.automatic-run-off",
+   "heading": "12-Month Automatic Run-off",
+   "trigger": {
+    "questions": [
+     "qs.fs.ci.ceasing"
+    ],
+    "rules": [
+     {
+      "when": "qs.fs.ci.ceasing = yes",
+      "action": "apply"
+     }
+    ],
+    "restrictions": [
+     {
+      "when": "qs.fs.ci.ceasing = yes and this endorsement is not attached",
+      "action": "refer",
+      "note": "ASIC RG 210 requires reasonable efforts to obtain 12 months automatic run-off. The platform records that it was offered and why it was not attached."
+     }
+    ],
+    "reason": "Applies because you intend to cease credit activities, and ASIC expects you to have 12 months of run-off cover."
+   },
+   "questions": [
+    {
+     "id": "qs.fs.ci.ceasing",
+     "text": "Do you intend to cease holding your credit licence, or cease to be a credit representative, in the next 12 months?",
+     "type": "yes/no",
+     "used_by": "E (12-Month Automatic Run-off)"
+    }
+   ]
+  }
+ ],
+ "sha256": "4e1c0845aefeffb21029dd3187bb8d61ea471d382b3e20a9522adbb479910f96"
+}

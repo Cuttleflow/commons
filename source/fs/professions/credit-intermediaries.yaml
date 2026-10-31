@@ -1,0 +1,56 @@
+id: fs-credit-intermediaries
+title: Credit Intermediaries Professional Indemnity Insurance
+class: FINANCIAL SERVICES PROFESSIONAL INDEMNITY INSURANCE · CREDIT INTERMEDIARIES
+kicker: Meridian Commons · Financial Services Professional Indemnity · Credit Intermediaries
+slug: credit-intermediaries
+file_stem: Meridian_FS_Credit_Intermediaries
+doc_ref: 2026/FS/0003
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for mortgage and finance brokers, credit representatives and
+  asset finance brokers, built on the Meridian Financial Services PI base wording.
+base: fs-base@1.0.0-DRAFT
+supersedes: MERIDIAN-PI-MORT-v1.0.0, and the finance limb of MERIDIAN-PI-MOTR-v1.0.0 (endorsements to base PI v1.0.0,
+  June 2026)
+overrides:
+- op: replace
+  target: fs.def.professional-services
+  with: fs.ci.def.professional-services
+- op: add
+  clause: fs.ci.excl.lender-claims
+  after: fs.excl.investment-performance
+- op: add
+  clause: fs.ci.library.optional-endorsements
+  after: fs.endorsement-library
+- op: add
+  clause: fs.ci.end.lender-claims-buy-back
+  after: fs.ci.library.optional-endorsements
+- op: add
+  clause: fs.ci.end.motor-dealer-finance
+  after: fs.ci.end.lender-claims-buy-back
+- op: add
+  clause: fs.ci.end.unregulated-commercial-finance
+  after: fs.ci.end.motor-dealer-finance
+- op: add
+  clause: fs.ci.end.automatic-run-off
+  after: fs.ci.end.unregulated-commercial-finance
+regulatory_basis:
+- topic: ASIC RG 210 — minimum cover, EDR awards, representatives' fraud, 12 months run-off
+  status: Met through the FS base and the 12-Month Automatic Run-off endorsement (restriction refers if not attached
+    on cessation). Lender claims are outside the RG 210 minimum and excluded by default.
+  review_by: '2027-03-31'
+- topic: National Consumer Credit Protection Act 2009 — best interests obligations for mortgage brokers (Part 3-5A)
+  status: Breach giving rise to compensation is within the FS base insuring clause.
+  review_by: '2027-03-31'
+proposal_questions:
+- Australian credit licence or credit representative details; aggregator.
+- Consumer credit revenue (drives the RG 210 minimum limit).
+- Settlements by number and value; share of unregulated commercial finance.
+- Lender claims and commission clawbacks; AFCA complaints.
+- Intention to cease credit activities.
+decisions:
+- '2026-10-31: Credit Intermediaries is built on the Financial Services PI base (profession review approved 31 October
+  2026).'
+- '2026-10-31: The June conflict-of-interest exclusion is deleted; best interests allegations are the core claim.'
+- '2026-10-31: Lender claims excluded by default, with a buy-back; commission clawback stays excluded.'

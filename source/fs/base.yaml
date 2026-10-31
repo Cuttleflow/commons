@@ -1,0 +1,147 @@
+id: fs-base
+title: Financial Services Professional Indemnity Insurance
+class: FINANCIAL SERVICES PROFESSIONAL INDEMNITY INSURANCE
+kicker: Meridian Commons · Financial Services Professional Indemnity
+slug: financial-services-professional-indemnity
+file_stem: Meridian_Financial_Services_Professional_Indemnity
+doc_ref: 2026/FS/0001
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Professional indemnity cover for Australian financial services and credit licensees and their representatives,
+  written on a claims-made basis to meet ASIC RG 126 and RG 210.
+regulatory_basis:
+- topic: ASIC RG 126 — compensation arrangements for AFS licensees (Corporations Act 2001 s.912B; Corporations Regulations
+    reg 7.6.02AAA)
+  status: 'Minimum limit of $2 million any one claim and aggregate for licensees with retail revenue of $2 million
+    or less, rising with revenue to $20 million: platform restriction on the limit. Representatives'' fraud and
+    dishonesty: Representatives extension. AFCA awards: AFCA Determinations extension. One automatic reinstatement:
+    base, unless the limit is at least twice the minimum. Defence costs in addition: base. Counsel to check against
+    the current RG 126.'
+  review_by: '2027-03-31'
+- topic: ASIC RG 210 — compensation and insurance arrangements for credit licensees (National Consumer Credit Protection
+    Act 2009 s.48)
+  status: 'Minimum $2 million, scaling with consumer credit revenue to $20 million: platform restriction. EDR awards
+    and representatives'' fraud: as for RG 126. Reasonable efforts to obtain 12 months automatic run-off: Credit
+    Intermediaries endorsement.'
+  review_by: '2027-03-31'
+- topic: Compensation Scheme of Last Resort levies
+  status: Not insured (Non-Compensatory Payments exclusion).
+  review_by: '2027-06-30'
+structure:
+- section: preamble
+  clauses:
+  - fs.about
+  - fs.version-history
+  - fs.schedule
+- section: fs.section.definitions
+  clauses:
+  - fs.def.afca
+  - fs.def.business-activity
+  - fs.def.claim
+  - fs.def.company
+  - fs.def.computer-system
+  - fs.def.confidential-information
+  - fs.def.defence-costs
+  - fs.def.employee
+  - fs.def.endorsement
+  - fs.def.excess
+  - fs.def.final-adjudication
+  - fs.def.geographical-limits
+  - fs.def.insured-person
+  - fs.def.joint-venture
+  - fs.def.limit-of-liability
+  - fs.def.loss
+  - fs.def.named-insured
+  - fs.def.policy-period
+  - fs.def.pollution
+  - fs.def.predecessor-practice
+  - fs.def.professional-services
+  - fs.def.representative
+  - fs.def.retroactive-date
+  - fs.def.schedule
+  - fs.def.subsidiary
+  - fs.def.we-us-our
+  - fs.def.you-your
+- section: fs.section.cover
+  clauses:
+  - fs.cover.claims-against-you
+  - fs.cover.notification-of-circumstances
+  - fs.ext.avoiding-a-potential-claim
+- section: fs.section.extensions
+  clauses:
+  - fs.ext.loss-of-documents-and-data
+  - fs.ext.representatives
+  - fs.ext.afca-determinations
+  - fs.ext.first-party-dishonesty
+  - fs.ext.statutory-liability
+  - fs.ext.inquiry-costs
+  - fs.ext.continuous-cover
+  - fs.ext.mitigation-costs
+  - fs.ext.public-relations-costs
+  - fs.ext.court-attendance
+  - fs.ext.newly-acquired-subsidiaries
+  - fs.ext.joint-ventures
+  - fs.ext.predecessor-practices
+  - fs.ext.run-off-cover
+  - fs.ext.subcontractors-and-outsourcers
+- section: fs.section.exclusions
+  clauses:
+  - fs.excl.bodily-injury-and-property-damage
+  - fs.excl.employers-liability
+  - fs.excl.directors-and-officers-liability
+  - fs.excl.cyber-event
+  - fs.excl.investment-performance
+  - fs.excl.products
+  - fs.excl.contractual-liability
+  - fs.excl.deliberate-and-dishonest-acts
+  - fs.excl.prior-known-circumstances
+  - fs.excl.war-terrorism-and-sanctions
+  - fs.excl.nuclear
+  - fs.excl.asbestos
+  - fs.excl.pollution
+  - fs.excl.trading-debts-and-business-losses
+  - fs.excl.related-party-claims
+  - fs.excl.non-compensatory-payments
+- section: fs.section.payment
+  clauses:
+  - fs.pay.limit-of-liability
+  - fs.pay.automatic-reinstatement
+  - fs.pay.sub-limits
+  - fs.pay.defence-costs
+  - fs.pay.excess
+  - fs.pay.other-insurance
+  - fs.pay.paying-out-the-limit
+  - fs.pay.allocation
+- section: fs.section.obligations
+  clauses:
+  - fs.obl.tell-us-about-claims
+  - fs.obl.tell-us-about-circumstances
+  - fs.obl.do-not-admit-liability
+  - fs.obl.cooperate-with-us
+  - fs.obl.mitigate-your-loss
+  - fs.obl.preserve-our-recovery-rights
+  - fs.obl.tell-us-about-other-insurance
+  - fs.obl.tell-us-about-changes
+  - fs.obl.individual-treatment-of-insured-persons
+- section: fs.section.conditions
+  clauses:
+  - fs.cond.insurance-contracts-act
+  - fs.cond.your-duty-of-disclosure
+  - fs.cond.licences-registrations-and-accreditations
+  - fs.cond.compulsory-insurance-requirements
+  - fs.cond.cancellation
+  - fs.cond.governing-law
+  - fs.cond.jurisdiction
+  - fs.cond.gst
+  - fs.cond.several-liability
+  - fs.cond.assignment
+  - fs.cond.entire-agreement
+  - fs.cond.disputes-and-complaints
+  - fs.cond.privacy
+  - fs.cond.headings-and-references
+- section: end
+  clauses:
+  - fs.claims.how-to-make-a-claim
+  - fs.endorsement-library
+  - fs.licence-notice
