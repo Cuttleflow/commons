@@ -130,3 +130,198 @@ questions:
     text: Do you obtain clients from lead generators or call centres?
     type: yes/no, with details
     used_by: R
+  # Cuttleflow Go PI templates (Linear PLT-637): the questions the shared PI rater, the referral rules and the schedule read.
+  # Each Go package offers the subset of options for its profession (occupation codes are APRA NCPD PI occupation codes).
+  - id: qs.fs.base.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - fs.general_advice
+    - fs.personal_advice
+    - fs.dealing
+    - fs.custody
+    - fs.investment_advice
+    - fs.credit
+    - fs.other
+  - id: qs.fs.ci.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - ci.residential
+    - ci.commercial
+    - ci.asset
+    - ci.vehicle
+    - ci.mortgage_mgmt
+    - ci.unregulated
+  - id: qs.fs.common.claims_count_5y
+    text: Claims made against the practice in the last 5 years
+    type: number
+    used_by: R, A
+  - id: qs.fs.common.claims_incurred_5y
+    text: Total paid and reserved on those claims ($)
+    type: number
+    used_by: A
+  - id: qs.fs.common.disciplinary_5y
+    text: Any disciplinary proceeding or regulator action in the last 5 years?
+    type: yes/no
+    used_by: A
+  - id: qs.fs.common.excess
+    text: Excess, each claim
+    type: select
+    used_by: R
+    options:
+    - '2500'
+    - '5000'
+    - '10000'
+    - '25000'
+    - '50000'
+    - '1000'
+  - id: qs.fs.common.fees_by_state
+    text: Share of fees by state or territory
+    type: repeating (state, pct)
+    used_by: S
+  - id: qs.fs.common.fees_last_year
+    text: Gross fees for the last completed financial year (revenue from licensed services)
+    type: number
+    used_by: R, A
+  - id: qs.fs.common.fees_next_year
+    text: Estimated gross fees for the coming financial year
+    type: number
+    used_by: S
+  - id: qs.fs.common.known_circumstances
+    text: Any circumstance that might give rise to a claim?
+    type: yes/no
+    used_by: A
+  - id: qs.fs.common.largest_client_pct
+    text: Share of fees from the largest client (%)
+    type: number
+    used_by: A
+  - id: qs.fs.common.limit
+    text: Limit of liability (any one claim and in the aggregate)
+    type: select
+    used_by: R
+    options:
+    - '2000000'
+    - '3000000'
+    - '5000000'
+    - '10000000'
+  - id: qs.fs.common.occupation
+    text: Occupation (APRA NCPD professional indemnity occupation)
+    type: select
+    used_by: S
+    options:
+    - AFNMGR
+    - AINCON
+    - ACRMAN
+    - ATSTSU
+    - ASUPAD
+    - AFINCO
+    - AFNADV
+    - ACUSTO
+    - AMORBR
+    - AFNBRK
+    - AMORMA
+    - APFCON
+    - AFPCON
+    - HINSBK
+    - HINSAG
+    - HARGEN
+    - HARLIF
+    - HUWAGT
+    - HLASAG
+  - id: qs.fs.common.overseas_fees_pct
+    text: Share of fees from work for clients outside Australia (%)
+    type: number
+    used_by: A
+  - id: qs.fs.common.principal_state
+    text: State or territory of the main office
+    type: select
+    used_by: S
+    options:
+    - NSW
+    - VIC
+    - QLD
+    - WA
+    - SA
+    - TAS
+    - ACT
+    - NT
+  - id: qs.fs.common.principals
+    text: Number of principals, partners or directors
+    type: number
+    used_by: S
+  - id: qs.fs.common.prior_declined
+    text: Has any insurer declined, cancelled or imposed special terms on this insurance?
+    type: yes/no
+    used_by: A
+  - id: qs.fs.common.retro_cover
+    text: Prior acts cover
+    type: select
+    used_by: R
+    options:
+    - continuous
+    - new_practice
+    - buyback_1y
+    - buyback_2y
+    - buyback_3y
+  - id: qs.fs.common.risk_management
+    text: Risk management
+    type: select
+    used_by: R
+    options:
+    - accredited_qms
+    - documented_procedures
+    - none
+  - id: qs.fs.common.staff
+    text: Number of other staff
+    type: number
+    used_by: S
+  - id: qs.fs.common.territory
+    text: Territory
+    type: select
+    used_by: R
+    options:
+    - australia
+    - worldwide_excl_usa_canada
+  - id: qs.fs.common.usa_canada_work
+    text: Any work for clients in, or subject to the law of, the USA or Canada?
+    type: yes/no
+    used_by: A
+  - id: qs.fs.common.written_contracts
+    text: Written engagement terms with clients
+    type: select
+    used_by: R
+    options:
+    - always
+    - mostly
+    - rarely
+  - id: qs.fs.common.years_trading
+    text: Years the practice has traded
+    type: number
+    used_by: R
+  - id: qs.fs.fa.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - fa.superannuation
+    - fa.smsf
+    - fa.investment
+    - fa.retirement
+    - fa.life_risk
+    - fa.tax_financial
+    - fa.strategy
+  - id: qs.fs.ii.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - ii.sme_broking
+    - ii.corporate_broking
+    - ii.personal_lines
+    - ii.life_broking
+    - ii.underwriting_agency
+    - ii.claims_handling
+    - ii.strata

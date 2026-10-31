@@ -441,3 +441,415 @@ questions:
     text: Do you inspect or certify animals for export, or accompany animals on export voyages?
     type: yes/no
     used_by: E (Live Export Certification Exclusion)
+  # Cuttleflow Go PI templates (Linear PLT-637): the questions the shared PI rater, the referral rules and the schedule read.
+  # Each Go package offers the subset of options for its profession (occupation codes are APRA NCPD PI occupation codes).
+  - id: qs.pi.ac.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - acc.bookkeeping
+    - acc.tax
+    - acc.accounts
+    - acc.management
+    - acc.smsf_audit
+    - acc.company_audit
+    - acc.insolvency
+    - acc.trusts_estates
+    - acc.valuations
+    - acc.financial_consulting
+  - id: qs.pi.ae.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - ae.arch_residential
+    - ae.arch_commercial
+    - ae.interior
+    - ae.landscape
+    - ae.planning
+    - ae.drafting
+    - ae.civil
+    - ae.structural
+    - ae.building_services
+    - ae.geotechnical
+    - ae.environmental
+    - ae.traffic
+    - ae.quantity_surveying
+    - ae.land_survey
+    - ae.cadastral
+    - ae.project_mgmt
+  - id: qs.pi.bsc.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - bsc.class_1_10
+    - bsc.class_2_9
+    - bsc.inspections
+    - bsc.reports
+    - bsc.fire_safety_reports
+  - id: qs.pi.common.claims_count_5y
+    text: Claims made against the practice in the last 5 years
+    type: number
+    used_by: R, A
+  - id: qs.pi.common.claims_incurred_5y
+    text: Total paid and reserved on those claims ($)
+    type: number
+    used_by: A
+  - id: qs.pi.common.costs_basis
+    text: Defence costs
+    type: select
+    used_by: R
+    options:
+    - inclusive
+    - in_addition
+  - id: qs.pi.common.disciplinary_5y
+    text: Any disciplinary proceeding or regulator action in the last 5 years?
+    type: yes/no
+    used_by: A
+  - id: qs.pi.common.excess
+    text: Excess, each claim
+    type: select
+    used_by: R
+    options:
+    - '2500'
+    - '5000'
+    - '10000'
+    - '25000'
+    - '50000'
+    - '1000'
+  - id: qs.pi.common.fees_by_state
+    text: Share of fees by state or territory
+    type: repeating (state, pct)
+    used_by: S
+  - id: qs.pi.common.fees_last_year
+    text: Gross fees for the last completed financial year
+    type: number
+    used_by: R, A
+  - id: qs.pi.common.fees_next_year
+    text: Estimated gross fees for the coming financial year
+    type: number
+    used_by: S
+  - id: qs.pi.common.known_circumstances
+    text: Any circumstance that might give rise to a claim?
+    type: yes/no
+    used_by: A
+  - id: qs.pi.common.largest_client_pct
+    text: Share of fees from the largest client (%)
+    type: number
+    used_by: A
+  - id: qs.pi.common.limit
+    text: Limit of liability (any one claim and in the aggregate)
+    type: select
+    used_by: R, A
+    options:
+    - '250000'
+    - '500000'
+    - '1000000'
+    - '2000000'
+    - '3000000'
+    - '5000000'
+    - '10000000'
+  - id: qs.pi.common.occupation
+    text: Occupation (APRA NCPD professional indemnity occupation)
+    type: select
+    used_by: S
+    options:
+    - AACCNT
+    - AACTAX
+    - ATAXAG
+    - ABOOKP
+    - AAUDIT
+    - AACINS
+    - AACMAN
+    - KACHTS
+    - KARCDR
+    - KINTDE
+    - KLACHS
+    - LTNPNR
+    - LCIENG
+    - LSTENG
+    - LFSENG
+    - LELENG
+    - LMEENG
+    - LHVENG
+    - LBHENG
+    - LGEEON
+    - LENVEN
+    - LTRENG
+    - LFPENG
+    - LENGDT
+    - LBLDES
+    - MLDSUV
+    - MSUREN
+    - MQTSUV
+    - MCOSTE
+    - MHYSUV
+    - LPRMGR
+    - LBCERT
+    - MBLSUV
+    - LBINSP
+    - LBLDIN
+    - BSOCON
+    - BWCCON
+    - BENCON
+    - BTCCON
+    - GTRCON
+    - ACTCON
+    - GEDCON
+    - GPSCHL
+    - GSECOL
+    - GSCHOL
+    - GUNVER
+    - GTEACH
+    - LGEOLO
+    - MSURMI
+    - LMIENG
+    - BNTCON
+    - BRSCON
+    - BMANAG
+    - BHRCON
+    - BIRCON
+    - BQUALC
+    - ACMCON
+    - ABSCON
+    - BECONO
+    - BTPCON
+    - BTOCON
+    - FAGCON
+    - FAGRON
+    - FFMCON
+    - FHTCON
+    - BFOCON
+    - JARBIT
+    - JTECHW
+    - BTRANS
+    - BEVMAN
+    - JADVAG
+    - BMOCON
+    - BPRCON
+    - BCMCON
+    - BMRCON
+    - JGPDES
+    - ACWCON
+    - JPHOTO
+    - NFPROD
+    - NJOURN
+    - NPUBLI
+    - NRADIO
+    - NTVBRO
+    - JWTCON
+    - EREAGT
+    - EREACT
+    - EREAIT
+    - EREAHT
+    - EREAPM
+    - ESTMGR
+    - EBDCOR
+    - EAUCTN
+    - FSSAGT
+    - EPTCON
+    - BPNCON
+    - HRMCON
+    - HLSCON
+    - HINSLA
+    - HLOSSA
+    - HININV
+    - JINVES
+    - BSECON
+    - FVETSM
+    - FVETEQ
+    - FVETLS
+    - FVETBS
+    - FVETGH
+    - FVTLAB
+  - id: qs.pi.common.overseas_fees_pct
+    text: Share of fees from work for clients outside Australia (%)
+    type: number
+    used_by: A
+  - id: qs.pi.common.principal_state
+    text: State or territory of the main office
+    type: select
+    used_by: S
+    options:
+    - NSW
+    - VIC
+    - QLD
+    - WA
+    - SA
+    - TAS
+    - ACT
+    - NT
+  - id: qs.pi.common.principals
+    text: Number of principals, partners or directors
+    type: number
+    used_by: S
+  - id: qs.pi.common.prior_declined
+    text: Has any insurer declined, cancelled or imposed special terms on this insurance?
+    type: yes/no
+    used_by: A
+  - id: qs.pi.common.retro_cover
+    text: Prior acts cover
+    type: select
+    used_by: R
+    options:
+    - continuous
+    - new_practice
+    - buyback_1y
+    - buyback_2y
+    - buyback_3y
+  - id: qs.pi.common.risk_management
+    text: Risk management
+    type: select
+    used_by: R
+    options:
+    - accredited_qms
+    - documented_procedures
+    - none
+  - id: qs.pi.common.staff
+    text: Number of other staff
+    type: number
+    used_by: S
+  - id: qs.pi.common.territory
+    text: Territory
+    type: select
+    used_by: R
+    options:
+    - australia
+    - worldwide_excl_usa_canada
+  - id: qs.pi.common.usa_canada_work
+    text: Any work for clients in, or subject to the law of, the USA or Canada?
+    type: yes/no
+    used_by: A
+  - id: qs.pi.common.written_contracts
+    text: Written engagement terms with clients
+    type: select
+    used_by: R
+    options:
+    - always
+    - mostly
+    - rarely
+  - id: qs.pi.common.years_trading
+    text: Years the practice has traded
+    type: number
+    used_by: R
+  - id: qs.pi.es.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - es.residential_ratings
+    - es.commercial_ratings
+    - es.audits
+    - es.renewables
+    - es.carbon_climate
+  - id: qs.pi.et.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - et.vet_accredited
+    - et.non_accredited
+    - et.higher_education
+    - et.schools
+    - et.tutoring
+    - et.course_design
+    - et.education_agent
+  - id: qs.pi.gm.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - gm.exploration
+    - gm.estimation
+    - gm.public_reports
+    - gm.valuation
+    - gm.geophysics
+    - gm.hydrogeology
+    - gm.mine_geotech
+  - id: qs.pi.misc.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - misc.management
+    - misc.hr
+    - misc.it
+    - misc.project_mgmt
+    - misc.agri
+    - misc.arborist
+    - misc.economics
+    - misc.quality
+    - misc.translation
+    - misc.events
+    - misc.vehicle_inspection
+    - misc.other
+  - id: qs.pi.mm.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - mm.advertising
+    - mm.pr
+    - mm.design
+    - mm.content
+    - mm.publishing
+    - mm.broadcasting
+    - mm.research
+    - mm.media_buying
+    - mm.promotions
+    - mm.influencers
+  - id: qs.pi.re.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - re.residential_sales
+    - re.commercial_sales
+    - re.leasing
+    - re.property_mgmt
+    - re.strata
+    - re.stock_station
+    - re.auctioneering
+    - re.buyers_agency
+    - re.insurance_ar
+  - id: qs.pi.rl.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - rl.permanent
+    - rl.contract
+    - rl.labour_hire
+    - rl.executive
+    - rl.testing
+    - rl.outplacement
+    - rl.hr
+  - id: qs.pi.rs.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - rs.whs
+    - rs.psychosocial
+    - rs.risk
+    - rs.fire_safety
+    - rs.loss_adjusting
+    - rs.claims_mgmt
+    - rs.workplace_investigations
+    - rs.investigations
+    - rs.injury_mgmt
+    - rs.training
+  - id: qs.pi.vt.activity_split
+    text: Share of fees by activity
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - vet.companion
+    - vet.equine
+    - vet.livestock
+    - vet.specialist
+    - vet.telehealth
+    - vet.prepurchase
+    - vet.laboratory
