@@ -1,0 +1,194 @@
+# Platform questions for the Group Personal Accident and Sickness wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.gpa namespace. The platform question set uses the same IDs.
+# used_by: R rating (sent to the tenant's rater), A appetite or referral rule, S schedule, E## endorsement trigger.
+# Every question is used by something. Agency thresholds are set in the platform, not here.
+# Questions under qs.gpa.category are asked once for each category of covered persons.
+questions:
+  # The policyholder
+  - id: qs.gpa.policyholder.name
+    text: What is the policyholder's full legal name?
+    type: text
+    used_by: S
+  - id: qs.gpa.policyholder.abn
+    text: What is the policyholder's ABN?
+    type: text
+    used_by: S, A
+  - id: qs.gpa.policyholder.state
+    text: In which state or territory is the policyholder's registered office?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, S
+  - id: qs.gpa.policyholder.business
+    text: What does the policyholder do?
+    type: text
+    used_by: S
+  - id: qs.gpa.policyholder.employees
+    text: How many employees does the policyholder have in total?
+    type: number
+    used_by: A
+  # Each category
+  - id: qs.gpa.category.name
+    text: What is this category called, and who is in it (for example, all permanent employees, or directors and executives)?
+    type: text
+    used_by: S
+  - id: qs.gpa.category.persons
+    text: How many people are in this category?
+    type: number
+    used_by: R, A, S
+  - id: qs.gpa.category.class
+    text: Which occupation class applies to most people in this category?
+    type: select
+    options: ['1', '2', '3', '4', '5']
+    used_by: R, A, S
+  - id: qs.gpa.category.average_age
+    text: What is the average age of the people in this category?
+    type: number (years)
+    used_by: R, A
+  - id: qs.gpa.category.oldest_age
+    text: How old is the oldest person in this category?
+    type: number (years)
+    used_by: A
+  - id: qs.gpa.category.scope
+    text: When should cover apply for this category?
+    type: select
+    options: ['24 hours a day', 'Occupational', 'Non-occupational']
+    used_by: R, S
+  - id: qs.gpa.category.capital_basis
+    text: Is the capital sum a fixed amount or a multiple of annual income?
+    type: select
+    options: ['Fixed amount', 'Multiple of income']
+    used_by: R, S
+  - id: qs.gpa.category.capital_sum
+    text: What is the capital sum for each person (fixed basis)?
+    type: currency
+    used_by: R, A, S
+  - id: qs.gpa.category.salary_multiple
+    text: What multiple of annual income is the capital sum (multiple basis)?
+    type: number
+    used_by: R, A, S
+  - id: qs.gpa.category.average_salary
+    text: What is the average annual income of the people in this category?
+    type: currency
+    used_by: R
+  - id: qs.gpa.category.capital_max
+    text: What is the maximum capital sum for any one person in this category?
+    type: currency
+    used_by: R, A, S
+  - id: qs.gpa.category.weekly_cover
+    text: Should this category have weekly benefits?
+    type: yes/no
+    used_by: R, S
+  - id: qs.gpa.category.weekly_pct
+    text: What percentage of income should the weekly benefit be?
+    type: select
+    options: ['50%', '75%', '85%']
+    used_by: R, S
+  - id: qs.gpa.category.weekly_max
+    text: What is the maximum weekly benefit for any one person?
+    type: currency
+    used_by: R, A, S
+  - id: qs.gpa.category.sickness
+    text: Should weekly benefits also cover sickness?
+    type: yes/no
+    used_by: R, S
+  - id: qs.gpa.category.waiting_period
+    text: What waiting period applies to weekly benefits?
+    type: select
+    options: ['7 days', '14 days', '30 days']
+    used_by: R, S
+  - id: qs.gpa.category.benefit_period
+    text: What benefit period applies to weekly benefits?
+    type: select
+    options: ['52 weeks', '104 weeks', '260 weeks']
+    used_by: R, A, S, E07
+  - id: qs.gpa.category.wc_top_up
+    text: Should weekly benefits for this category top up workers compensation rather than pay in full?
+    type: yes/no
+    used_by: R, S, E11
+  # Per-head categories
+  - id: qs.gpa.pertype.volunteers
+    text: How many voluntary workers should be covered?
+    type: number
+    used_by: R, S, E01
+  - id: qs.gpa.pertype.players
+    text: How many registered players, coaches and officials should be covered?
+    type: number
+    used_by: R, S, E03
+  - id: qs.gpa.pertype.students
+    text: How many enrolled students should be covered?
+    type: number
+    used_by: R, S, E15
+  # The programme
+  - id: qs.gpa.policy.journey_only
+    text: Is any category to be covered for journeys to and from work only?
+    type: yes/no
+    used_by: A, E02
+  - id: qs.gpa.policy.overseas_secondment
+    text: Are any covered persons seconded to work outside Australia?
+    type: yes/no
+    used_by: A, E04
+  - id: qs.gpa.policy.hazardous_pursuits
+    text: Do covered persons need cover for a pursuit the base wording excludes (for example, scuba diving below 30 metres, air sports or motor racing)?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.gpa.policy.fifo
+    text: Do covered persons fly in and fly out to remote sites, or travel on charter flights the policyholder arranges?
+    type: yes/no
+    used_by: A, E06
+  - id: qs.gpa.policy.extended_benefit_period
+    text: Is a benefit period longer than 104 weeks needed for any category?
+    type: yes/no
+    used_by: A, E07
+  - id: qs.gpa.policy.corporate_travel
+    text: Does the policyholder hold a corporate travel insurance policy?
+    type: yes/no
+    used_by: E08
+  - id: qs.gpa.policy.weekly_over_65
+    text: Are weekly benefits needed for covered persons aged 65 or older?
+    type: yes/no
+    used_by: A, E09
+  - id: qs.gpa.policy.high_risk_countries
+    text: Do covered persons travel to countries with a war or political risk?
+    type: yes/no
+    used_by: A, E10
+  - id: qs.gpa.policy.wc_top_up
+    text: Should weekly benefits for any category top up workers compensation?
+    type: yes/no
+    used_by: E11
+  - id: qs.gpa.policy.key_persons
+    text: How many named key persons need higher benefits than their category?
+    type: number
+    used_by: A, E12
+  - id: qs.gpa.policy.enterprise_agreement
+    text: Is any of this cover required by an enterprise agreement or award?
+    type: yes/no
+    used_by: A, E14
+  - id: qs.gpa.policy.opt_in
+    text: Do people choose whether to join this cover (a voluntary or opt-in scheme)?
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.policy.largest_concentration
+    text: What is the largest number of covered persons who work in one building or site, or travel together on one conveyance?
+    type: number
+    used_by: A
+  - id: qs.gpa.policy.aggregate_occurrence
+    text: What aggregate limit for any one occurrence is needed?
+    type: currency
+    used_by: A, S
+  # History
+  - id: qs.gpa.history.claims_5yr
+    text: Has the policyholder had any personal accident or sickness claims in the last 5 years? If so, give details.
+    type: yes/no (with details)
+    used_by: A
+  - id: qs.gpa.history.declined
+    text: Has any insurer declined, cancelled or refused to renew personal accident cover for the policyholder, or imposed special terms?
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.history.condition_exclusions
+    text: Does any person who needs benefits above the free cover limit have a medical condition to disclose?
+    type: yes/no
+    used_by: A, E16
+  - id: qs.gpa.issuer.lloyds
+    text: Is this policy issued under a Lloyd's binding authority?
+    type: yes/no
+    used_by: E13
