@@ -1,0 +1,79 @@
+id: pi-education-training
+title: Education and Training Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · EDUCATION AND TRAINING
+kicker: Meridian Commons · Professional Indemnity · Education and Training
+slug: education-training
+file_stem: Meridian_PI_Education_Training
+doc_ref: 2026/PI/0010
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for schools, higher education providers, registered training
+  organisations, tutors and education agents, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-EDUC-v1.0.0 and MERIDIAN-PI-RTOO-v1.0.0 (endorsements to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.et.def.professional-services
+- op: add
+  clause: pi.et.ext.failure-to-educate
+  after: pi.ext.subcontractors-and-outsourcers
+- op: add
+  clause: pi.et.ext.reassessment-costs
+  after: pi.et.ext.failure-to-educate
+- op: add
+  clause: pi.et.ext.education-regulators
+  after: pi.et.ext.reassessment-costs
+- op: add
+  clause: pi.et.ext.teachers-and-volunteers
+  after: pi.et.ext.education-regulators
+- op: add
+  clause: pi.et.excl.abuse
+  after: pi.excl.bodily-injury-and-property-damage
+- op: add
+  clause: pi.et.excl.fee-refunds
+  after: pi.excl.trading-debts-and-business-losses
+- op: add
+  clause: pi.et.excl.research
+  after: pi.et.excl.fee-refunds
+- op: add
+  clause: pi.et.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.et.end.third-party-delivery
+  after: pi.et.library.optional-endorsements
+- op: add
+  clause: pi.et.end.international-students
+  after: pi.et.end.third-party-delivery
+- op: add
+  clause: pi.et.end.vet-student-loans
+  after: pi.et.end.international-students
+- op: add
+  clause: pi.et.end.high-risk-training
+  after: pi.et.end.vet-student-loans
+- op: add
+  clause: pi.et.end.increased-reassessment
+  after: pi.et.end.high-risk-training
+regulatory_basis:
+- topic: Standards for RTOs 2025 (from 1 July 2025), made under the National Vocational Education and Training Regulator
+    Act 2011
+  status: Registration required (definition of professional services). Re-assessment costs extension. Replaces the
+    June references to ANTA standards.
+  review_by: '2027-03-31'
+- topic: TEQSA Act 2011; ESOS Act 2000 (tuition protection)
+  status: Regulator inquiries covered (Education Regulators extension). Tuition protection amounts excluded (Fee
+    Refunds exclusion).
+  review_by: '2027-03-31'
+- topic: 'Institutional abuse liability: Wrongs Act 1958 (Vic) s.91 and similar reverse-onus laws; AA v Trustees
+    of the Roman Catholic Church for the Diocese of Maitland-Newcastle [2026] HCA 2'
+  status: Abuse is excluded absolutely in this wording and belongs in a separate abuse liability product. Child
+    safe question refers.
+  review_by: '2027-03-31'
+proposal_questions:
+- Kinds of education provided and registrations held.
+- Regulator audit outcomes in the last three years.
+- Child safe compliance (referral to an abuse liability product).
+- Third-party delivery, international students, VET Student Loans, high-risk practical training and enrolments.
+decisions:
+- '2026-10-31: EDUC and RTOO merged; abuse cover removed from PI (profession review approved 31 October 2026).'
