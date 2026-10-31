@@ -3,6 +3,14 @@
 # used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
 # Agency thresholds are set in the platform, not here.
 questions:
+  - id: qs.gtr.insured.name
+    text: What is the policyholder's legal name?
+    type: text
+    used_by: S
+  - id: qs.gtr.insured.abn
+    text: What is the policyholder's ABN?
+    type: text
+    used_by: A, S
   - id: qs.gtr.insured.state
     text: In which state or territory is the policyholder's head office?
     type: select
@@ -37,31 +45,24 @@ questions:
     type: select
     options: ['worldwide', 'australia_only']
     used_by: A, S, E09
-  - id: qs.gtr.trips.domestic
-    text: How many return trips within Australia do you expect in the policy period?
-    type: number
+  - id: qs.gtr.trips.plan
+    text: For each destination region and usual trip length, how many return trips do you expect in the policy period? Add one row for each combination.
+    type: repeating (region, trips, trip length)
     used_by: R, S
-  - id: qs.gtr.trips.pacific
-    text: How many return trips to New Zealand and the Pacific do you expect in the policy period?
-    type: number
-    used_by: R, S
-  - id: qs.gtr.trips.asia
-    text: How many return trips to Asia do you expect in the policy period?
-    type: number
-    used_by: R, S
-  - id: qs.gtr.trips.europe
-    text: How many return trips to Europe and the United Kingdom do you expect in the policy period?
-    type: number
-    used_by: R, S
-  - id: qs.gtr.trips.rest_of_world
-    text: How many return trips to the Americas, Africa and the Middle East do you expect in the policy period?
-    type: number
-    used_by: R, S
-  - id: qs.gtr.trips.typical_duration
-    text: How long is a typical trip?
+  - id: qs.gtr.trips.region
+    text: Destination region for this row of the trip plan.
     type: select
-    options: ['up_to_14', '15_to_31', '32_to_90']
+    options: ['domestic', 'pacific', 'asia', 'europe', 'rest_of_world']
     used_by: R, S
+  - id: qs.gtr.trips.count
+    text: Number of return trips to this region, of this length, expected in the policy period.
+    type: number
+    used_by: R, S
+  - id: qs.gtr.trips.duration
+    text: Usual length of these trips.
+    type: select
+    options: ['up_to_14', '15_to_31', '32_to_90', 'over_90']
+    used_by: R, A
   - id: qs.gtr.trips.max_duration
     text: How long will the longest trip be?
     type: select
