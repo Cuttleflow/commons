@@ -1,0 +1,60 @@
+id: pi-building-energy-sustainability
+title: Building Energy and Sustainability Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · BUILDING ENERGY AND SUSTAINABILITY
+kicker: Meridian Commons · Professional Indemnity · Building Energy and Sustainability
+slug: building-energy-sustainability
+file_stem: Meridian_PI_Building_Energy_Sustainability
+doc_ref: 2026/PI/0005
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for building energy assessors, sustainability consultants and
+  energy auditors, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-ENER-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.es.def.professional-services
+- op: add
+  clause: pi.es.ext.scheme-administrator-inquiries
+  after: pi.ext.subcontractors-and-outsourcers
+- op: add
+  clause: pi.arch.excl.construction
+  after: pi.excl.products
+- op: add
+  clause: pi.es.excl.savings-guarantees
+  after: pi.excl.contractual-liability
+- op: add
+  clause: pi.es.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.es.end.energy-certificate-schemes
+  after: pi.es.library.optional-endorsements
+- op: add
+  clause: pi.es.end.climate-disclosure
+  after: pi.es.end.energy-certificate-schemes
+- op: add
+  clause: pi.arch.end.combustible-cladding
+  after: pi.es.end.climate-disclosure
+- op: add
+  clause: pi.es.end.solar-design
+  after: pi.arch.end.combustible-cladding
+regulatory_basis:
+- topic: Assessor accreditation schemes (NatHERS, BASIX, NABERS, Green Star, Commercial Building Disclosure Program)
+  status: Accreditation required through the base Licences, Registrations and Accreditations condition. Insurance
+    conditions of each scheme still to be verified.
+  review_by: '2027-03-31'
+- topic: NSW Energy Savings Scheme; Victorian Energy Upgrades
+  status: Certificate surrender is non-compensatory and excluded by the base. Energy Certificate Schemes Exclusion
+    endorsement available.
+  review_by: '2027-03-31'
+proposal_questions:
+- Accreditations held by each assessor, with the accrediting body.
+- Fees by activity and by residential or commercial building.
+- Financial interest in any supplier or installer of recommended products.
+- Whether you install products or equipment.
+decisions:
+- '2026-10-31: Separate product (profession review approved 31 October 2026).'
+- '2026-10-31: Client restriction removed.'
+- '2026-10-31: Climate disclosure advisory sits in this wording, with a sub-limit endorsement.'

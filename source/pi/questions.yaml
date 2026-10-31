@@ -33,3 +33,107 @@ questions:
     text: What percentage of your fees in the last 12 months came from hydrographic surveys?
     type: percentage
     used_by: R, E (Hydrographic Surveys Exclusion)
+  - id: qs.pi.bsc.first_registration_date
+    text: For each principal, on what date were they first registered as a building surveyor or certifier, and in which state or territory?
+    type: repeating (principal, state, date)
+    used_by: S (Cover from First Registration; NSW retroactive date)
+  - id: qs.pi.bsc.certifier_count
+    text: How many registered certifiers or building surveyors does the practice employ or engage?
+    type: number
+    used_by: R, S (NSW minimum limit)
+  - id: qs.pi.bsc.council_employee
+    text: Are any of the certifiers to be insured employed by a local council and acting in that role?
+    type: yes/no
+    used_by: A (decline; council employees are exempt from the requirement and insured by the council)
+  - id: qs.pi.bsc.qld_licence_expiry
+    text: If you hold a Queensland building certifier licence, on what date does it expire?
+    type: date
+    used_by: S (timing of the Queensland cladding restriction)
+  - id: qs.pi.bsc.disciplinary_history
+    text: In the last five years, has any principal been the subject of a disciplinary finding, licence condition, suspension or audit finding by a building regulator?
+    type: yes/no, with details
+    used_by: R
+  - id: qs.pi.bsc.class2_pct
+    text: What percentage of your certificates in the last 12 months were for Class 2 (apartment) buildings?
+    type: percentage
+    used_by: R, E (Apartment Buildings Sub-limit)
+  - id: qs.pi.bsc.max_storeys
+    text: What is the greatest number of storeys of any building you have certified in the last three years?
+    type: number
+    used_by: R, E (Apartment Buildings Sub-limit)
+  - id: qs.pi.bsc.ceasing_practice
+    text: Does any principal intend to retire or cease practice in the next 12 months?
+    type: yes/no
+    used_by: E (Retirement Run-off)
+  - id: qs.pi.bsc.pool_inspections
+    text: Do you inspect or certify swimming pool or spa barriers?
+    type: yes/no
+    used_by: E (Pool Safety Inspections)
+  - id: qs.pi.bsc.performance_solutions_pct
+    text: What percentage of your approvals in the last 12 months included a fire safety performance solution?
+    type: percentage
+    used_by: R, E (Fire Performance Solutions Exclusion)
+  - id: qs.pi.gm.competent_persons
+    text: For each person who signs public reports, which reporting code do they sign under and which professional memberships do they hold?
+    type: repeating (person, code, membership)
+    used_by: S (definition of professional services)
+  - id: qs.pi.gm.largest_project_value
+    text: What is the largest project value or capital raising connected with a report you prepared or contributed to in the last three years?
+    type: currency
+    used_by: R (refer above $500 million)
+  - id: qs.pi.gm.overseas
+    text: What percentage of your fees come from projects outside Australia and New Zealand, and in which countries?
+    type: percentage, with countries
+    used_by: R (rating and sanctions screening)
+  - id: qs.pi.gm.public_report_pct
+    text: What percentage of your fees in the last 12 months came from public reports, including contributions to them?
+    type: percentage
+    used_by: R, E (Public Report Excess)
+  - id: qs.pi.gm.petroleum_pct
+    text: What percentage of your fees in the last 12 months came from the estimation of petroleum reserves or resources?
+    type: percentage
+    used_by: E (Petroleum Reserves Estimation)
+  - id: qs.pi.gm.na_reports
+    text: Do you prepare reports under Canadian NI 43-101 or US SEC Regulation S-K subpart 1300, or for projects in the USA or Canada?
+    type: yes/no, with details
+    used_by: E (North American Reporting Exclusion)
+  - id: qs.pi.gm.tailings_pct
+    text: What percentage of your fees in the last 12 months came from tailings storage, mine closure or rehabilitation work?
+    type: percentage
+    used_by: E (Tailings and Mine Closure Exclusion)
+  - id: qs.pi.gm.valmin_pct
+    text: What percentage of your fees in the last 12 months came from mineral asset valuations?
+    type: percentage
+    used_by: R, E (Mineral Asset Valuation Sub-limit)
+  - id: qs.pi.es.accreditations
+    text: Which accreditations does each assessor hold (for example NatHERS, BASIX, NABERS, Green Star, Commercial Building Disclosure), and with which body?
+    type: repeating (person, scheme, accrediting body, number)
+    used_by: S (base Licences, Registrations and Accreditations condition)
+  - id: qs.pi.es.commercial_pct
+    text: What percentage of your fees in the last 12 months came from commercial buildings?
+    type: percentage
+    used_by: R
+  - id: qs.pi.es.supplier_interest
+    text: Do you, or any principal, have a financial interest in a supplier or installer of products that you recommend?
+    type: yes/no, with details
+    used_by: R
+  - id: qs.pi.es.installs_products
+    text: Do you install products or equipment?
+    type: yes/no
+    used_by: R (installation is a public liability risk; decline if it is a material part of the business)
+  - id: qs.pi.es.certificate_schemes_pct
+    text: What percentage of your fees in the last 12 months came from creating certificates under an energy efficiency or renewable energy certificate scheme?
+    type: percentage
+    used_by: E (Energy Certificate Schemes Exclusion)
+  - id: qs.pi.es.climate_reporting_pct
+    text: What percentage of your fees in the last 12 months came from advice on climate-related financial disclosure?
+    type: percentage
+    used_by: E (Climate Disclosure Sub-limit)
+  - id: qs.pi.es.solar_design
+    text: Do you design solar photovoltaic or battery storage systems?
+    type: yes/no
+    used_by: E (Solar and Battery System Design)
+  - id: qs.pi.es.solar_accreditation
+    text: If you design solar or battery systems, which accreditation does the designer hold, and with which body?
+    type: text
+    used_by: E (Solar and Battery System Design)

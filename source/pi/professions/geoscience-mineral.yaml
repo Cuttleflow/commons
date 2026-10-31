@@ -1,0 +1,65 @@
+id: pi-geoscience-mineral
+title: Geoscience and Mineral Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · GEOSCIENCE AND MINERAL
+kicker: Meridian Commons · Professional Indemnity · Geoscience and Mineral
+slug: geoscience-mineral
+file_stem: Meridian_PI_Geoscience_Mineral
+doc_ref: 2026/PI/0004
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for geologists, resource estimators, mineral asset valuers and
+  related geoscience consultants, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-GEOL-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.gm.def.professional-services
+- op: add
+  clause: pi.gm.ext.contributing-competent-persons
+  after: pi.ext.subcontractors-and-outsourcers
+- op: add
+  clause: pi.gm.ext.securities-exchange-queries
+  after: pi.gm.ext.contributing-competent-persons
+- op: add
+  clause: pi.gm.excl.guarantees-of-grade-and-price
+  after: pi.excl.contractual-liability
+- op: add
+  clause: pi.gm.excl.excluded-activities
+  after: pi.excl.non-compensatory-payments
+- op: add
+  clause: pi.gm.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.gm.end.public-report-excess
+  after: pi.gm.library.optional-endorsements
+- op: add
+  clause: pi.gm.end.petroleum-reserves
+  after: pi.gm.end.public-report-excess
+- op: add
+  clause: pi.gm.end.north-american-reporting
+  after: pi.gm.end.petroleum-reserves
+- op: add
+  clause: pi.gm.end.tailings-and-mine-closure
+  after: pi.gm.end.north-american-reporting
+- op: add
+  clause: pi.gm.end.valuation-sub-limit
+  after: pi.gm.end.tailings-and-mine-closure
+regulatory_basis:
+- topic: JORC Code 2012 (through ASX and NZX listing rules); JORC Code 2026 in consultation
+  status: Code-neutral public report condition in the definition of professional services. No compulsory PI.
+  review_by: '2027-03-31'
+- topic: VALMIN Code 2015
+  status: Valuations covered; Mineral Asset Valuation Sub-limit endorsement available.
+  review_by: '2027-03-31'
+proposal_questions:
+- 'Competent persons and specialists: reporting code and professional memberships.'
+- Fees by activity, including public reports, valuations, petroleum, tailings and mine closure, and North American
+  reporting.
+- Largest project or capital raising connected with a report in the last three years (refer above $500 million).
+- Overseas work by country (rating and sanctions screening).
+decisions:
+- '2026-10-31: Separate product (profession review approved 31 October 2026).'
+- '2026-10-31: Public report excess is the greater of $10,000 and 0.25%, capped at $250,000, as an editable default.'
+- '2026-10-31: Public report condition is code-neutral.'
