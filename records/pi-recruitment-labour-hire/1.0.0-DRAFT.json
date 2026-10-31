@@ -542,7 +542,7 @@
   {
    "id": "pi.rl.end.payroll-administration",
    "heading": "Payroll Administration",
-   "sha256": "f611cf5d661fbd89f6943aacd2b98a836ceb862d472813f0274d93e41162192b"
+   "sha256": "d49df488355a42e45b3116a01e964dd139a9a91e17e340db65b037a1d2ba1072"
   },
   {
    "id": "pi.rl.end.high-risk-placements",
@@ -746,5 +746,5 @@
    ]
   }
  ],
- "sha256": "48c4c4600c356f7ad8cf781877ec18d6366041154b8373722bb676ff5d77685f"
+ "sha256": "22972ac15aa4faa2a918170ac409ce7bdc5d0cb32a2309d73a04be629a7e4fbd"
 }
