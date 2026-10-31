@@ -247,7 +247,7 @@
   {
    "id": "pi.arch.ext.nsw-registered-practitioners",
    "heading": "NSW Registered Practitioners",
-   "sha256": "86b0b89a31fc99602a732e68d559ce953d19911e1ea36f26b503fe17ee6b5909"
+   "sha256": "1f32849c105911dba7b386ebec55cf400c8378eeb85b1c5da5c9521890b1ff71"
   },
   {
    "id": "pi.section.exclusions",
@@ -758,5 +758,5 @@
    ]
   }
  ],
- "sha256": "027211815462dd7e7b08aac20cab29dd1c1cecd079c347ec05c1b5791f152cf4"
+ "sha256": "47ff3dfc4bbf86f790098f79749418ea0b36dd1d1463acbd547bf57e9365de24"
 }

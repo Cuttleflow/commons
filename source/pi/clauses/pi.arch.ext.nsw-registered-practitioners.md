@@ -12,4 +12,4 @@ This extension applies to you, or to any insured person, who is registered under
 
 For a claim arising from work that the Act requires you to be registered to carry out, the retroactive date is the date you were first registered under that Act, if that date is earlier than the retroactive date shown in the schedule.
 
-[[ref:pi.excl.prior-known-circumstances]] continues to apply.
+This extension does not affect [[ref:pi.excl.prior-known-circumstances]].
