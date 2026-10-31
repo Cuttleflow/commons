@@ -1,0 +1,160 @@
+id: str-base
+title: Strata Insurance
+class: STRATA INSURANCE
+kicker: Meridian Commons · Strata
+slug: strata
+file_stem: Meridian_Strata
+doc_ref: 2026/STR/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Building, liability and scheme covers for residential, commercial and mixed-use strata schemes in Australia, bought by the body corporate.
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - str.about
+  - str.version-history
+  - str.important-information
+  - str.schedule
+- section: str.section.definitions
+  clauses:
+  - str.def.action-of-the-sea
+  - str.def.body-corporate
+  - str.def.building
+  - str.def.claim
+  - str.def.common-contents
+  - str.def.common-property
+  - str.def.damage
+  - str.def.defect
+  - str.def.discovered
+  - str.def.endorsement
+  - str.def.event
+  - str.def.excess
+  - str.def.fidelity-continuity-date
+  - str.def.final-adjudication
+  - str.def.flood
+  - str.def.funds
+  - str.def.indemnity-period
+  - str.def.lot
+  - str.def.lot-owner
+  - str.def.lot-owners-fixtures
+  - str.def.machinery
+  - str.def.major-works
+  - str.def.office-bearer
+  - str.def.personal-injury
+  - str.def.policy-period
+  - str.def.property-damage
+  - str.def.retroactive-date
+  - str.def.social-engineering-fraud
+  - str.def.storm
+  - str.def.strata-legislation
+  - str.def.strata-manager
+  - str.def.sum-insured
+  - str.def.unoccupied
+  - str.def.voluntary-worker
+  - str.def.we-us-our
+  - str.def.wrongful-act
+  - str.def.you-your
+- section: str.section.property
+  clauses:
+  - str.cover.property
+  - str.pay.basis-of-settlement
+  - str.ext.loss-of-rent
+  - str.ext.lot-owners-fixtures
+  - str.ext.floating-floors
+  - str.ext.emergency-repairs
+  - str.ext.leak-detection
+  - str.ext.fire-services-charges
+  - str.ext.keys-and-locks
+  - str.ext.mortgagees
+  - str.cover.catastrophe
+  - str.excl.defects-and-gradual-causes
+  - str.excl.flood
+  - str.excl.action-of-the-sea
+  - str.excl.earth-movement
+  - str.excl.unoccupied-building
+  - str.excl.major-works
+  - str.excl.property-other
+- section: str.section.liability
+  clauses:
+  - str.cover.liability
+  - str.excl.liability-workers
+  - str.excl.liability-contracts
+  - str.excl.liability-own-property
+  - str.excl.liability-vehicles
+  - str.excl.liability-pollution
+  - str.excl.liability-asbestos
+  - str.excl.liability-lot-business
+  - str.excl.liability-fines
+- section: str.section.voluntary-workers
+  clauses:
+  - str.cover.voluntary-workers
+- section: str.section.fidelity
+  clauses:
+  - str.cover.fidelity
+  - str.ext.social-engineering
+  - str.excl.fidelity
+- section: str.section.office-bearers
+  clauses:
+  - str.cover.office-bearers
+  - str.excl.office-bearers
+- section: str.section.machinery
+  clauses:
+  - str.cover.machinery
+  - str.excl.machinery
+- section: str.section.legal-expenses
+  clauses:
+  - str.cover.legal-expenses
+  - str.excl.legal-expenses
+- section: str.section.general-payment
+  clauses:
+  - str.pay.excess
+  - str.pay.gst
+  - str.pay.other-insurance
+  - str.pay.who-we-pay
+- section: str.section.general-exclusions
+  clauses:
+  - str.excl.war
+  - str.excl.nuclear
+  - str.excl.terrorism
+  - str.excl.cyber
+- section: str.section.obligations
+  clauses:
+  - str.obl.tell-us-about-claims
+  - str.obl.claims-made-notice
+  - str.obl.reduce-loss
+  - str.obl.admissions
+  - str.obl.tell-us-about-changes
+  - str.obl.subrogation
+- section: str.section.conditions
+  clauses:
+  - str.cond.insurance-contracts-act
+  - str.cond.strata-legislation
+  - str.cond.lot-owner-acts
+  - str.cond.cancellation
+  - str.cond.renewal
+  - str.cond.fraud
+  - str.cond.sanctions
+  - str.cond.gst
+  - str.cond.privacy
+  - str.cond.disputes-and-complaints
+  - str.cond.governing-law
+  - str.cond.jurisdiction
+  - str.cond.headings-and-references
+- section: end
+  clauses:
+  - str.claims.how-to-make-a-claim
+  - str.endorsement-library
+  - str.end.e01
+  - str.end.e02
+  - str.end.e03
+  - str.end.e04
+  - str.end.e05
+  - str.end.e06
+  - str.end.e07
+  - str.end.e08
+  - str.end.e09
+  - str.end.e10
+  - str.end.e11
+  - str.licence-notice

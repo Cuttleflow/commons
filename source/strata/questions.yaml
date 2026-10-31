@@ -1,0 +1,163 @@
+# Platform questions for the Strata wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.str namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.str.scheme.name
+    text: What is the name of the body corporate (owners corporation, strata company or community corporation)?
+    type: text
+    used_by: S
+  - id: qs.str.scheme.plan_number
+    text: What is the strata plan or scheme number?
+    type: text
+    used_by: S
+  - id: qs.str.scheme.address
+    text: What is the address of the building?
+    type: text
+    used_by: S
+  - id: qs.str.scheme.state
+    text: In which state or territory is the building?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, A, S
+  - id: qs.str.scheme.north_of_26th
+    text: Is the building north of the 26th parallel of latitude (roughly north of Gympie in Queensland, and of Carnarvon in Western Australia)?
+    type: yes/no
+    used_by: A
+  - id: qs.str.scheme.variant
+    text: Is the scheme residential (at least 80% of floor space is residential) or commercial (more than 20% is commercial, including mixed use)?
+    type: select
+    options: ['RES', 'COM']
+    used_by: R, A, S
+  - id: qs.str.scheme.commercial_floor_pct
+    text: What percentage of the building's floor space is used for commercial purposes?
+    type: percentage
+    used_by: A
+  - id: qs.str.scheme.lots
+    text: How many lots are in the scheme?
+    type: number
+    used_by: R, A, S
+  - id: qs.str.scheme.community_scheme
+    text: Is this a community, neighbourhood or layered scheme with more than one strata plan?
+    type: yes/no
+    used_by: A
+  - id: qs.str.building.storeys
+    text: How many storeys does the tallest building have above ground?
+    type: number
+    used_by: R, A
+  - id: qs.str.building.year_built
+    text: In what year was the building completed?
+    type: number (year)
+    used_by: R, A
+  - id: qs.str.building.construction
+    text: What are the external walls mainly made of?
+    type: select
+    options: ['non_combustible', 'timber_mixed', 'other']
+    used_by: R, A
+  - id: qs.str.building.combustible_cladding
+    text: Does the building have aluminium composite panels, expanded polystyrene or other combustible external cladding?
+    type: select
+    options: ['no', 'yes', 'unknown']
+    used_by: A, E04
+  - id: qs.str.building.heritage
+    text: Is the building heritage-listed?
+    type: yes/no
+    used_by: A, E07
+  - id: qs.str.building.sprinklers
+    text: Is the building fully protected by automatic fire sprinklers?
+    type: yes/no
+    used_by: R
+  - id: qs.str.building.valuation_current
+    text: Has the building been valued by a qualified valuer in the last five years?
+    type: yes/no
+    used_by: A, S
+  - id: qs.str.facilities.pool
+    text: Is there a swimming pool or spa on the common property?
+    type: yes/no
+    used_by: R
+  - id: qs.str.facilities.gym
+    text: Is there a gym on the common property?
+    type: yes/no
+    used_by: R
+  - id: qs.str.occupancy.short_term_pct
+    text: What percentage of the lots are let for stays of less than three months?
+    type: percentage
+    used_by: R, A, E06
+  - id: qs.str.occupancy.unoccupied
+    text: Is the building, or are most of its lots, unoccupied?
+    type: yes/no
+    used_by: A, E10
+  - id: qs.str.occupancy.hazardous_tenancy
+    text: Is any lot used for cooking with deep fryers, a workshop, a gym, a nightclub, or storing flammable goods?
+    type: yes/no
+    used_by: A, E11
+  - id: qs.str.risk.known_defects
+    text: Does the body corporate know of any defect in the building, including waterproofing, structural, fire safety or cladding defects?
+    type: yes/no
+    used_by: A, E02
+  - id: qs.str.risk.defect_orders
+    text: Has a council, building regulator or fire authority issued any order or notice about the building that has not been complied with?
+    type: yes/no
+    used_by: A, E02
+  - id: qs.str.risk.major_works
+    text: Are building works worth more than the lower of 20% of the building sum insured and $500,000 under way or planned in the next 12 months?
+    type: yes/no
+    used_by: A, E03
+  - id: qs.str.cover.building_sum_insured
+    text: What is the building sum insured?
+    type: currency
+    used_by: R, A, S
+  - id: qs.str.cover.common_contents_sum_insured
+    text: What is the common contents sum insured?
+    type: currency
+    used_by: A, S
+  - id: qs.str.cover.liability_limit
+    text: What public liability limit do you need?
+    type: select
+    options: ['20000000', '30000000']
+    used_by: R, S
+  - id: qs.str.cover.excess
+    text: What basic excess do you want?
+    type: select
+    options: ['1000', '2500', '5000', '10000']
+    used_by: R, S
+  - id: qs.str.cover.catastrophe
+    text: Do you want catastrophe cover?
+    type: yes/no
+    used_by: R, S
+  - id: qs.str.cover.machinery
+    text: Do you want machinery breakdown cover?
+    type: yes/no
+    used_by: R, S
+  - id: qs.str.cover.flood_requested
+    text: Do you want flood cover?
+    type: yes/no
+    used_by: E01
+  - id: qs.str.fidelity.max_fund_balance
+    text: What was the highest total balance of the body corporate's funds at any time in the last three years?
+    type: currency
+    used_by: A, S
+  - id: qs.str.claims.count_3yr
+    text: How many claims has the scheme made in the last three years?
+    type: number
+    used_by: R, A
+  - id: qs.str.claims.largest_3yr
+    text: What was the largest single claim in the last three years?
+    type: currency
+    used_by: A
+  - id: qs.str.claims.water_damage_count
+    text: How many of those claims were for water damage?
+    type: number
+    used_by: A, E05
+  - id: qs.str.claims.declined_or_cancelled
+    text: Has an insurer ever declined, cancelled or refused to renew insurance for the scheme, or imposed special terms?
+    type: yes/no
+    used_by: A
+  - id: qs.str.interested_parties
+    text: Do you want us to note the interest of a financier or other party?
+    type: yes/no
+    used_by: E08
+  - id: qs.str.issuer.lloyds
+    text: Is the policy issued under a Lloyd's binding authority?
+    type: yes/no
+    used_by: E09
