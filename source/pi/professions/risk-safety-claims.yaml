@@ -1,0 +1,73 @@
+id: pi-risk-safety-claims
+title: Risk, Safety and Claims Consultants Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · RISK, SAFETY AND CLAIMS CONSULTANTS
+kicker: Meridian Commons · Professional Indemnity · Risk, Safety and Claims Consultants
+slug: risk-safety-claims
+file_stem: Meridian_PI_Risk_Safety_Claims
+doc_ref: 2026/PI/0011
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for WHS and risk consultants, loss adjusters, claims managers,
+  investigators and injury management providers, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-RISK-v1.0.0, and the consulting services in MERIDIAN-PI-OHS-v1.0.0 (endorsements to base
+  PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.rs.def.professional-services
+- op: add
+  clause: pi.rs.ext.workplace-investigation-reports
+  after: pi.ext.subcontractors-and-outsourcers
+- op: add
+  clause: pi.rs.excl.clinical-services
+  after: pi.excl.bodily-injury-and-property-damage
+- op: add
+  clause: pi.rs.excl.fire-system-design
+  after: pi.excl.products
+- op: add
+  clause: pi.rs.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.rs.end.claims-handling-authorisation
+  after: pi.rs.library.optional-endorsements
+- op: add
+  clause: pi.rs.end.surveillance
+  after: pi.rs.end.claims-handling-authorisation
+- op: add
+  clause: pi.rs.end.psychosocial-hazards
+  after: pi.rs.end.surveillance
+- op: add
+  clause: pi.rs.end.fire-safety-engineering
+  after: pi.rs.end.psychosocial-hazards
+- op: add
+  clause: pi.rs.end.expert-witness
+  after: pi.rs.end.fire-safety-engineering
+regulatory_basis:
+- topic: 'Work health and safety penalties: insurance prohibited in NSW (from 10 June 2020), WA (from 31 March 2022)
+    and Queensland (from 28 March 2024)'
+  status: 'Not insured: base Statutory Liability extension. The June OHS endorsement did not address this.'
+  review_by: '2027-03-31'
+- topic: Claims handling and settling services (AFS licence required from 1 January 2022; loss assessors and adjusters
+    exempt)
+  status: Deciding or settling claims covered only when scheduled, through the Claims Handling Authorisation endorsement
+    and the base Financial Services exclusion carve-back.
+  review_by: '2027-03-31'
+- topic: State private investigator and security licensing; surveillance devices laws
+  status: Licence required by the definition of professional services and the base Licences condition. Surveillance
+    Exclusion endorsement available.
+  review_by: '2027-03-31'
+proposal_questions:
+- Fees by activity.
+- Investigator and security licences.
+- Clinical services (decline and refer to the Allied Health wording).
+- Claims decisions for insurers and AFS authorisation.
+- Surveillance, psychosocial, fire safety engineering and expert witness work.
+decisions:
+- '2026-10-31: OHS consulting and RISK merged; clinical occupational health moved to the Allied Health wording (profession
+  review approved 31 October 2026).'
+- '2026-10-31: The June asbestos, nuclear and terrorism "replacements" are not carried over; the base exclusions
+  apply.'
+- '2026-10-31: Claims managers with settlement authority as their main business belong on the Insurance Intermediaries
+  wording; adjusters stay here.'

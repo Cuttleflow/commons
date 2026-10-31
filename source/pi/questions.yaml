@@ -233,3 +233,87 @@ questions:
     text: Do you conduct livestock sales?
     type: yes/no
     used_by: E (Livestock Sales Injury and Damage Exclusion)
+  - id: qs.pi.rl.fee_split
+    text: What percentage of your fees in the last 12 months came from permanent recruitment, contract and temporary placement, labour hire, executive search, testing, outplacement, HR consulting and payroll administration?
+    type: repeating (activity, percentage)
+    used_by: R
+  - id: qs.pi.rl.onhire_headcount
+    text: How many workers do you have on hire at any one time, on average?
+    type: number
+    used_by: R
+  - id: qs.pi.rl.background_checks
+    text: Which checks do you carry out before placing a candidate (references, qualifications, licences, right to work, police checks)?
+    type: multi-select
+    used_by: R
+  - id: qs.pi.rl.onhire_pct
+    text: What percentage of your fees in the last 12 months came from supplying workers on hire?
+    type: percentage
+    used_by: E (On-hired Workers)
+  - id: qs.pi.rl.written_onhire_agreements
+    text: Do you supply all on-hired workers under a written agreement with the host that places day-to-day supervision with the host?
+    type: yes/no
+    used_by: E (On-hired Workers)
+  - id: qs.pi.rl.payroll_clients
+    text: For how many clients do you run payroll, including paying wages or superannuation on their behalf?
+    type: number
+    used_by: E (Payroll Administration)
+  - id: qs.pi.rl.high_risk_pct
+    text: What percentage of your placements in the last 12 months were in mining, construction, heavy industry, aviation, maritime, healthcare or security roles?
+    type: percentage
+    used_by: E (High-Risk Placements Exclusion)
+  - id: qs.pi.rl.labour_hire_states
+    text: In which states and territories do you supply labour hire workers?
+    type: multi-select (state or territory)
+    used_by: E (Labour Hire Licence Condition)
+  - id: qs.pi.rl.licence_numbers
+    text: What are your labour hire licence numbers in each state or territory that requires one?
+    type: repeating (state, number)
+    used_by: E (Labour Hire Licence Condition)
+  - id: qs.pi.rl.migration_advice
+    text: Do you, or anyone acting for you, give migration advice or immigration assistance?
+    type: yes/no
+    used_by: E (Migration Advice)
+  - id: qs.pi.rl.marn
+    text: If so, what is the name and registration number (MARN) of each registered migration agent who gives it?
+    type: repeating (name, MARN)
+    used_by: E (Migration Advice)
+  - id: qs.pi.rl.ai_screening
+    text: Do you use automated tools, including artificial intelligence, to screen or rank candidates?
+    type: yes/no, with details
+    used_by: E (Automated Screening Exclusion)
+  - id: qs.pi.rs.fee_split
+    text: What percentage of your fees in the last 12 months came from WHS consulting, risk consulting, fire safety consulting, loss assessing and adjusting, claims management, workplace investigations, surveillance, injury management and training?
+    type: repeating (activity, percentage)
+    used_by: R
+  - id: qs.pi.rs.investigator_licences
+    text: Which investigator or security licences are held, by whom, and in which states?
+    type: repeating (person, licence, state, number)
+    used_by: S (base Licences condition)
+  - id: qs.pi.rs.clinical_services
+    text: Do you provide any medical, nursing, psychological or other clinical services, including fitness-for-work medical assessments?
+    type: yes/no
+    used_by: R (decline; refer to the Allied Health wording)
+  - id: qs.pi.rs.claims_decisions
+    text: Do you decide or settle insurance claims on behalf of insurers?
+    type: yes/no
+    used_by: E (Claims Handling Authorisation)
+  - id: qs.pi.rs.afsl_or_ar
+    text: If so, do you hold an AFS licence authorising claims handling and settling, or act as an authorised representative of a licensee? Give the number.
+    type: yes/no, with number
+    used_by: E (Claims Handling Authorisation)
+  - id: qs.pi.rs.surveillance_pct
+    text: What percentage of your fees in the last 12 months came from covert surveillance?
+    type: percentage
+    used_by: E (Surveillance Exclusion)
+  - id: qs.pi.rs.psychosocial_pct
+    text: What percentage of your fees in the last 12 months came from assessing or advising on psychosocial hazards?
+    type: percentage
+    used_by: E (Psychosocial Hazards Sub-limit)
+  - id: qs.pi.rs.fire_engineering
+    text: Do you provide fire safety engineering advice, including fire modelling or egress analysis?
+    type: yes/no
+    used_by: E (Fire Safety Engineering Exclusion)
+  - id: qs.pi.rs.expert_witness
+    text: Do you prepare expert reports for legal proceedings or give expert evidence?
+    type: yes/no
+    used_by: E (Expert Witness)
