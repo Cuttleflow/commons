@@ -1,0 +1,102 @@
+# Platform questions for the Meridian Travel wording (individual, couple and family travel).
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.trv namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+questions:
+  - id: qs.trv.policyholder.name
+    text: What is the policyholder's full name?
+    type: text
+    used_by: S
+  - id: qs.trv.policyholder.state
+    text: In which state or territory does the policyholder live?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S
+  - id: qs.trv.policy.type
+    text: Who is travelling under this policy?
+    type: select
+    options: ['single', 'duo', 'family']
+    used_by: R, S
+  - id: qs.trv.traveller.oldest_age
+    text: How old is the oldest traveller?
+    type: number (years)
+    used_by: R, A, E15
+  - id: qs.trv.traveller.resident
+    text: Do all travellers live in Australia and hold a Medicare card or a visa that lets them return?
+    type: yes/no
+    used_by: A
+  - id: qs.trv.trip.region
+    text: Where is the main destination of the trip?
+    type: select
+    options: ['pacific', 'asia', 'europe', 'rest_of_world', 'domestic']
+    used_by: R, S, E05
+  - id: qs.trv.trip.days
+    text: How many days is the trip, from leaving home to returning?
+    type: number (days)
+    used_by: R, A, S
+  - id: qs.trv.trip.type
+    text: Is this cover for one trip or for every trip in a year?
+    type: select
+    options: ['single', 'annual']
+    used_by: A, E04
+  - id: qs.trv.trip.one_way
+    text: Is the trip one way, or a working holiday?
+    type: yes/no
+    used_by: E06
+  - id: qs.trv.trip.do_not_travel
+    text: Is any destination subject to DFAT advice of "do not travel"?
+    type: yes/no
+    used_by: A
+  - id: qs.trv.cover.plan
+    text: Which plan do you want?
+    type: select
+    options: ['essentials', 'comprehensive', 'top']
+    used_by: R, S
+  - id: qs.trv.cover.excess
+    text: Which excess do you want?
+    type: select (AUD)
+    options: ['0', '100', '250']
+    used_by: R, S
+  - id: qs.trv.medical.preexisting
+    text: Does any traveller have a pre-existing medical condition they want covered?
+    type: yes/no
+    used_by: E01
+  - id: qs.trv.medical.pregnant
+    text: Will any traveller be pregnant during the trip?
+    type: yes/no
+    used_by: E09
+  - id: qs.trv.cover.snow
+    text: Do you want cover for skiing and snowboarding?
+    type: yes/no
+    used_by: R, E02
+  - id: qs.trv.cover.adventure
+    text: Will any traveller take part in an extreme activity, such as skydiving, bungee jumping or deep scuba diving?
+    type: yes/no
+    used_by: R, E03
+  - id: qs.trv.cover.business
+    text: Will any traveller attend business meetings or conferences?
+    type: yes/no
+    used_by: E07
+  - id: qs.trv.cover.campervan
+    text: Will you hire a campervan or motorhome over 4.5 tonnes or with more than 9 seats?
+    type: yes/no
+    used_by: E08
+  - id: qs.trv.cover.pandemic
+    text: Do you want cover for disruption caused by your own diagnosis or quarantine in an epidemic or pandemic?
+    type: yes/no
+    used_by: R, E10
+  - id: qs.trv.cover.cfar
+    text: Do you want cancel for any reason cover?
+    type: yes/no
+    used_by: R, E11
+  - id: qs.trv.cover.electronics
+    text: Do you want a higher limit for named portable electronics?
+    type: yes/no
+    used_by: R, E12
+  - id: qs.trv.cover.wedding
+    text: Are you travelling to a wedding or event you want cancellation cover for?
+    type: yes/no
+    used_by: E13
+  - id: qs.trv.cover.golf
+    text: Do you want golf cover?
+    type: yes/no
+    used_by: E14
