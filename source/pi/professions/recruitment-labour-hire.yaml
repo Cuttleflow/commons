@@ -1,0 +1,77 @@
+id: pi-recruitment-labour-hire
+title: Recruitment and Labour Hire Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · RECRUITMENT AND LABOUR HIRE
+kicker: Meridian Commons · Professional Indemnity · Recruitment and Labour Hire
+slug: recruitment-labour-hire
+file_stem: Meridian_PI_Recruitment_Labour_Hire
+doc_ref: 2026/PI/0008
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for recruitment agencies, labour hire providers, executive search
+  firms and HR consultants, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-RECR-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.rl.def.professional-services
+- op: add
+  clause: pi.rl.ext.wrongful-placement
+  after: pi.ext.subcontractors-and-outsourcers
+- op: add
+  clause: pi.rl.excl.employer-payments
+  after: pi.excl.employers-liability
+- op: add
+  clause: pi.rl.excl.on-hired-work
+  after: pi.rl.excl.employer-payments
+- op: add
+  clause: pi.rl.excl.migration-advice
+  after: pi.excl.financial-services
+- op: add
+  clause: pi.rl.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.rl.end.on-hired-workers
+  after: pi.rl.library.optional-endorsements
+- op: add
+  clause: pi.rl.end.payroll-administration
+  after: pi.rl.end.on-hired-workers
+- op: add
+  clause: pi.rl.end.high-risk-placements
+  after: pi.rl.end.payroll-administration
+- op: add
+  clause: pi.rl.end.labour-hire-licences
+  after: pi.rl.end.high-risk-placements
+- op: add
+  clause: pi.rl.end.migration-advice
+  after: pi.rl.end.labour-hire-licences
+- op: add
+  clause: pi.rl.end.automated-screening
+  after: pi.rl.end.migration-advice
+regulatory_basis:
+- topic: Labour hire licensing (Victoria, Queensland, South Australia, ACT)
+  status: Licence required through the base Licences condition and the Labour Hire Licence Condition endorsement.
+    Counsel to confirm which schemes are currently in force.
+  review_by: '2027-03-31'
+- topic: Fair Work Act — same job, same pay orders; superannuation guarantee and payday super (from 1 July 2026)
+  status: 'Underpayments and employer debts are not compensatory loss (Wages, Superannuation and Employer Payments
+    exclusion). Client payroll errors: Payroll Administration endorsement.'
+  review_by: '2027-03-31'
+- topic: Work health and safety penalties (NSW, WA, Queensland insurance bans)
+  status: 'Not insured: base Statutory Liability extension.'
+  review_by: '2027-03-31'
+- topic: Migration Act 1958 — registered migration agents
+  status: Migration advice excluded unless given by a registered agent (Migration Advice endorsement).
+  review_by: '2027-03-31'
+proposal_questions:
+- Fees by activity; on-hire headcount.
+- Pre-placement checks.
+- Written on-hire agreements with hosts.
+- Labour hire states and licence numbers.
+- Payroll clients, high-risk placements, migration advice and automated screening.
+decisions:
+- '2026-10-31: Obstetric services definition and exclusion deleted; high-risk training exclusion replaced by the
+  base Bodily Injury and Property Damage exclusion (profession review approved 31 October 2026).'
+- '2026-10-31: On-hire cover as a broker option requiring written on-hire agreements.'
+- '2026-10-31: Payroll errors as a sub-limited broker option.'
