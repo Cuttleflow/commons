@@ -1,0 +1,561 @@
+{
+ "wording": "mot-personal",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/PMV/0001",
+ "base": "mot-base@3.0.0-DRAFT",
+ "clauses": [
+  {
+   "id": "mot.pvt.about",
+   "heading": "About This Policy",
+   "sha256": "9093ab62e9f6180969286b2c30f9e6142b92fc63d8167de6ab71771e79ff4ebf"
+  },
+  {
+   "id": "mot.pvt.who-this-is-for",
+   "heading": "Who This Policy Is For",
+   "sha256": "5af9d272d3631237e06846096139dc1ccd1f3357a21550ef6447553829f549fb"
+  },
+  {
+   "id": "mot.ctp-notice",
+   "heading": "Compulsory Third Party Insurance",
+   "sha256": "de9aa004c24c4bb8f8e93c100e6cb6ef6693f4366ad76812b9573551e2e14d57"
+  },
+  {
+   "id": "mot.version-history",
+   "heading": "Version and Document History",
+   "sha256": "1715c1806ca99208176d47630e6dd7b68900e5ae75fe248a69045b1334293934"
+  },
+  {
+   "id": "mot.pvt.schedule",
+   "heading": "Schedule",
+   "sha256": "0cf9e4721576f74748b1dfb5b8b609593ae962c061cfe8f825c3474d7d7578f5"
+  },
+  {
+   "id": "mot.section.definitions",
+   "heading": "Definitions",
+   "sha256": "f3d175d37acc940378676e620a24c7a2a042b0b6b6198eed2e12637e4071c4bf"
+  },
+  {
+   "id": "mot.def.accidental-loss-or-damage",
+   "heading": "Accidental Loss or Damage",
+   "sha256": "e1aaf5b63f90fdc9e32c5235e14643d479ca4e310fee881b23d0a2f982a0e7f2"
+  },
+  {
+   "id": "mot.def.agreed-value",
+   "heading": "Agreed Value",
+   "sha256": "883ab3b63d6170c1a09eaa431e46e7175786a8930094698f99804d30c35d477d"
+  },
+  {
+   "id": "mot.def.dangerous-goods",
+   "heading": "Dangerous Goods",
+   "sha256": "54541dd9267edd36478d283cdde33725213b59e9b0e41285df3f0168f63384d0"
+  },
+  {
+   "id": "mot.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "3792248f4cad5a5d064e777e84ffbcbd1141267a447e65957dc0b1494d35dc24"
+  },
+  {
+   "id": "mot.def.excess",
+   "heading": "Excess",
+   "sha256": "5f671d5d287021a5746ffc4be56bc9a24acca821d5bcca567280e82dd7d0d7a7"
+  },
+  {
+   "id": "mot.def.insured-person",
+   "heading": "Insured Person",
+   "sha256": "2739c143acca7f2522aa6acbb319186c90ca34250a3f3aa80ed05edfd19f0f1a"
+  },
+  {
+   "id": "mot.pvt.def.insured-vehicle",
+   "heading": "Insured Vehicle",
+   "sha256": "230977b67553c26956a94c8a831bc69012504f6474a4ef91df6f7654cf4f3f51"
+  },
+  {
+   "id": "mot.def.market-value",
+   "heading": "Market Value",
+   "sha256": "39400f945e91255b42ab220a57e82211f0dc16bdb5f6227e77b00c3d877b807a"
+  },
+  {
+   "id": "mot.def.named-insured",
+   "heading": "Named Insured",
+   "sha256": "9d6bebebce82d5b3684234fd4f701c794f91a641b7ce311adbea927a475b1e7c"
+  },
+  {
+   "id": "mot.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "14f5037b2e60901e3376846390a8c1a821300e71391f3efb55226a5ac4722c03"
+  },
+  {
+   "id": "mot.def.period-of-insurance",
+   "heading": "Period of Insurance",
+   "sha256": "af8aabc278c41799bf6024ed22adc22fce98b1bad23718c4a094e54b7f135c67"
+  },
+  {
+   "id": "mot.pvt.def.permitted-use",
+   "heading": "Permitted Use",
+   "sha256": "ad1a66dfc4b20cc5142195b0b052f8f6fc9d7b59f373adb8cd4b2425c5ef4c4e"
+  },
+  {
+   "id": "mot.def.schedule",
+   "heading": "Schedule",
+   "sha256": "6944b2c447287d27519a705ba4a682f84b035abdaba35ab749025fb501eab73c"
+  },
+  {
+   "id": "mot.def.substitute-vehicle",
+   "heading": "Substitute Vehicle",
+   "sha256": "cf34434eeeb75510ec840aa5f3cc9f1fc7a763dd3a6014cb964edb2a47ad4e1c"
+  },
+  {
+   "id": "mot.def.sum-insured",
+   "heading": "Sum Insured",
+   "sha256": "b31dd043c4e1977c2c6ec58bafa2591b456760c69ea1805f7cf3fde1cacbd5c4"
+  },
+  {
+   "id": "mot.def.total-loss",
+   "heading": "Total Loss",
+   "sha256": "a714b9a970498f229a2519366c0b6761178a9d52c134f39b68e0875b22f652a0"
+  },
+  {
+   "id": "mot.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "5ea1ac8dae1a3e19a2e7d7823258ab7ba4ff3386672625438fbad326a551c611"
+  },
+  {
+   "id": "mot.pvt.def.you-your",
+   "heading": "You, Your",
+   "sha256": "e292882a73ac5e4573246fdc45bda16899ebdcae326b5937a4235ee39109df0c"
+  },
+  {
+   "id": "mot.section.vehicle-cover",
+   "heading": "Cover for Your Vehicles",
+   "sha256": "1a00ca6a1bd1ad097d7b19c5bf38122ee10b1c83646d4e76c78b78c3798b08f2"
+  },
+  {
+   "id": "mot.cover.comprehensive",
+   "heading": "Comprehensive",
+   "sha256": "c10fdd3437138a95b9090eeae53d143b90f57c12a676433097c056bd41790b75"
+  },
+  {
+   "id": "mot.cover.third-party-fire-and-theft",
+   "heading": "Third Party, Fire and Theft",
+   "sha256": "f9a41a2419ccf069504dc40001c014b81ee6438ee09dfeb0193736246951ed04"
+  },
+  {
+   "id": "mot.pay.basis-of-settlement",
+   "heading": "Basis of Settlement",
+   "sha256": "e8d002961d150d7b4331cd7242dbbea083c3917e273016282d721a79621e3a38"
+  },
+  {
+   "id": "mot.pay.repairs",
+   "heading": "Repairs",
+   "sha256": "24ef96e994e0fd7109611258aebfb4b4b359ca2665f1207489e2adda69ff6429"
+  },
+  {
+   "id": "mot.pay.total-loss",
+   "heading": "Total Loss",
+   "sha256": "5c467225b3a0cad2f8a85e0a712c9fdf15a57a476787ef2b86a5f371f3c04862"
+  },
+  {
+   "id": "mot.pay.new-vehicle-replacement",
+   "heading": "New Vehicle Replacement",
+   "sha256": "2c17d6bcb55c193e4d9022e328363bf2ab238211ad141399c2e4f63c4819fc15"
+  },
+  {
+   "id": "mot.pay.choice-of-repairer",
+   "heading": "Choice of Repairer",
+   "sha256": "e250bf13c6853debb4215e96580a28e114d59c1cb287e6a4283e323292405d6d"
+  },
+  {
+   "id": "mot.pvt.ext.additional-benefits",
+   "heading": "Additional Benefits",
+   "sha256": "99f415261c9ce2e5c0561be15ed8b017913a85b295387694108f13a1f70fdc00"
+  },
+  {
+   "id": "mot.pvt.excl.vehicle-cover",
+   "heading": "What Is Not Covered for Your Car",
+   "sha256": "847c8e4e5dd14c39d3af758318b9d71e1a59c74d3031e7743bc17e1bda334a08"
+  },
+  {
+   "id": "mot.section.liability",
+   "heading": "Your Legal Liability",
+   "sha256": "c5112af7bdc9ad88fc962b75c75ab0b65ed7ede16746d27e1629ef70deebf596"
+  },
+  {
+   "id": "mot.cover.third-party-property-damage",
+   "heading": "Third Party Property Damage",
+   "sha256": "44045ccd696c86ee324e4ef42d894acc033cfbd61b60710ae0a61222476f2e5f"
+  },
+  {
+   "id": "mot.cover.who-is-covered",
+   "heading": "Who Is Covered",
+   "sha256": "1a53c06609b568783e671ba9179397a757178a363cc4782b9845cd2dc4f33c40"
+  },
+  {
+   "id": "mot.ext.supplementary-bodily-injury",
+   "heading": "Supplementary Bodily Injury",
+   "sha256": "8c92c03344ab0a148e04408fd0e17d8d3cba3db0286d9f8cf3e9e3cad62ce041"
+  },
+  {
+   "id": "mot.ext.uninsured-motorist",
+   "heading": "Uninsured Motorist Damage",
+   "sha256": "1c5a40f9a5f704ddb89d281a96ff049a8d68b0d843325244c8ff54b10ae50cdd"
+  },
+  {
+   "id": "mot.ext.substitute-vehicles",
+   "heading": "Substitute Vehicles",
+   "sha256": "95a066d82f3a5d4c4086a0f9b9c7579a336c6633555002c6b9c6ce7dfdecb1fc"
+  },
+  {
+   "id": "mot.ext.non-owned-trailers",
+   "heading": "Trailers",
+   "sha256": "91ed324ec140aeb5c25cd64c361d5844d29a5d54a2e4be5258ea5ac272f173fa"
+  },
+  {
+   "id": "mot.pvt.excl.liability",
+   "heading": "What Is Not Covered for Your Legal Liability",
+   "sha256": "d47b394cf52bdd3a2a515e16b66c74176ff7d312edfc38cc5d9b7b89d4e3e521"
+  },
+  {
+   "id": "mot.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "9f3db23056110ea9d39c1de6263f96f085508888d0812a3f86829b7624824c5f"
+  },
+  {
+   "id": "mot.excl.unlicensed-driver",
+   "heading": "Unlicensed or Disqualified Driver",
+   "sha256": "d153e5224867d5a193a5cea9e9e4121356bb4326e30a7bc9c12fbac6db6b3955"
+  },
+  {
+   "id": "mot.excl.alcohol-and-drugs",
+   "heading": "Alcohol and Drugs",
+   "sha256": "309ff7989fc8e6f37829f950c4f4b48cea05d5ac4c2eae5fd4e90977c5c0ca9a"
+  },
+  {
+   "id": "mot.excl.unroadworthy-condition",
+   "heading": "Unsafe or Unroadworthy Condition",
+   "sha256": "2bde32c3898c2204bb17df993cedd268fa2c9883ac53144fe24515a7c10efd31"
+  },
+  {
+   "id": "mot.excl.racing",
+   "heading": "Racing and Competition",
+   "sha256": "8b45bda7651e26d539207eb55dc77101692841914f0d0788785ed5762c6776ac"
+  },
+  {
+   "id": "mot.excl.overloading",
+   "heading": "Overloading",
+   "sha256": "41d36114e1147f86b3746914908f0827b4a7bc39250ddb90db409bcfd1b86d17"
+  },
+  {
+   "id": "mot.excl.outside-australia",
+   "heading": "Outside Australia",
+   "sha256": "3d47ad6e2ab085b63455d5ae03e38041fd9c365d0d1f115ad7620d7ad9b2e64a"
+  },
+  {
+   "id": "mot.excl.hire-fare-or-reward",
+   "heading": "Hire, Fare or Reward",
+   "sha256": "9358954556131b92c50e56bd29ca06ecc92067f4967ec43343a859b316ce251e"
+  },
+  {
+   "id": "mot.excl.other-than-permitted-use",
+   "heading": "Use Other Than the Permitted Use",
+   "sha256": "ccd9909a47df5f20f284a34ed98fc0c1822274a3b3df646c8e1ad12a8e9f41a5"
+  },
+  {
+   "id": "mot.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "6ef9f3faee5c3684f857ebe0cc8b9293a238f40012bc39e4b39572237ac61ceb"
+  },
+  {
+   "id": "mot.excl.war",
+   "heading": "War",
+   "sha256": "42327591fbd2e4bc1c3097351864975c931089485d1f63504326f81e0a61029e"
+  },
+  {
+   "id": "mot.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "45b102bfc4b43014a1f3735ba88ff84bfcfc2f71564eab4cf9e1b85029c5f036"
+  },
+  {
+   "id": "mot.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "876bafd9d6a45c952efac657f44ca6cf87291690896182773d8bfa8529cf7717"
+  },
+  {
+   "id": "mot.section.claims",
+   "heading": "Your Obligations When Something Happens",
+   "sha256": "8c51efff8f50cb4420d1b5ac98ff52e010f089cc4c1764d3eb692b456b452de5"
+  },
+  {
+   "id": "mot.obl.notify-us",
+   "heading": "Tell Us About an Incident",
+   "sha256": "b56b48bdd604d4576f847d3c33f444cdd6a60fc32d3e9583bd9a2a06ba446a69"
+  },
+  {
+   "id": "mot.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability",
+   "sha256": "8021abda8fd42160b1a0ca7395c7926744c334ad49ce2cdf244cb794dcfa162c"
+  },
+  {
+   "id": "mot.obl.protect-the-vehicle",
+   "heading": "Protect the Vehicle",
+   "sha256": "25baf878f310ecd02c62da43f90e49b9ba580dd7cb5cbba996c19fd698436875"
+  },
+  {
+   "id": "mot.obl.cooperate",
+   "heading": "Cooperate With Us",
+   "sha256": "6fac2b9238084c5473915acd034c50018e34aa330eea31e11addb41078da09ff"
+  },
+  {
+   "id": "mot.obl.maintain-vehicles",
+   "heading": "Maintain Your Vehicles",
+   "sha256": "3ae0a5e862572ded41d8667580f74c8952b4c467af665d84bef3c51fdce5bf2e"
+  },
+  {
+   "id": "mot.pvt.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "91ed97e90216d5d5b5a245f916d4effe403354a74c168401de7f6e231c02cab1"
+  },
+  {
+   "id": "mot.section.general-conditions",
+   "heading": "General Conditions",
+   "sha256": "b3129953607747123a80abb359ae21fa6b71cf476183d6385bcde6e65d79300e"
+  },
+  {
+   "id": "mot.cond.insurance-contracts-act",
+   "heading": "The Insurance Contracts Act",
+   "sha256": "5d0e5a2bd5835ad52c3aa4d4cef33cc0b45aae60623ca8fb23e202e4842ea17b"
+  },
+  {
+   "id": "mot.pvt.cond.duty-to-take-reasonable-care",
+   "heading": "Your Duty to Take Reasonable Care",
+   "sha256": "42f73801ede4991738d01a7ffdb8fce05abb3c10692308bf885f9c989c40586f"
+  },
+  {
+   "id": "mot.cond.premium",
+   "heading": "Premium and Instalments",
+   "sha256": "3ce4746e3fcf70d8cf2e0409551cc11a4bef4e416a7985663af2bfa386090483"
+  },
+  {
+   "id": "mot.cond.excess",
+   "heading": "Excesses",
+   "sha256": "fc35d1b328895fc9333f83c51a8f6d5f486409bda077f6e6ff217bd9fb19e6ba"
+  },
+  {
+   "id": "mot.pvt.cond.no-claim-bonus",
+   "heading": "No Claim Bonus",
+   "sha256": "5c13ec1d2033cf3dbac3f92d189ad627961bff3fbbc7b1d0efefd29a2cd08ee3"
+  },
+  {
+   "id": "mot.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "61c12c5467d0d242e1da4aee04ea6fd81b24d5557a6a3efb3ff8e9ba1a153801"
+  },
+  {
+   "id": "mot.pvt.cond.cooling-off",
+   "heading": "Cooling-off Period",
+   "sha256": "5657839c103e22dbfbb1c54699828b3956351f0ca6c118f52b05b98497ba912e"
+  },
+  {
+   "id": "mot.cond.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "a7a47aaa9859d957ecc1e041cbf80b04f3a0ea75009f32799004384a8b5ec82a"
+  },
+  {
+   "id": "mot.cond.gst",
+   "heading": "GST",
+   "sha256": "f9693c39c5a89d927d1d43262e200e6652ef8934f4b4a82fc8c7a39d473cf64c"
+  },
+  {
+   "id": "mot.cond.subrogation-and-interested-parties",
+   "heading": "Subrogation and Interested Parties",
+   "sha256": "67e723f3b6475b8cd34cbe7cea676d4c0eee3857df784a16ae6f2b225b7f2286"
+  },
+  {
+   "id": "mot.cond.salvage",
+   "heading": "Salvage",
+   "sha256": "d99622524a07fc1093057968d8a31106567d0ac22393122375bf445e1627b2ed"
+  },
+  {
+   "id": "mot.cond.fraudulent-claims",
+   "heading": "Fraudulent Claims",
+   "sha256": "d6263e48982c56782f527b8860ba13fb1deddb2764138def06737013854ec075"
+  },
+  {
+   "id": "mot.pvt.cond.complaints",
+   "heading": "Complaints and Disputes",
+   "sha256": "f54024ff5c78bd1262a612356f091ae226cb75e4f12641727372561f5b27f353"
+  },
+  {
+   "id": "mot.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "8613a31c5af389878b6b3417007fb5696f32a407275a9dc43f3f82160cffbff7"
+  },
+  {
+   "id": "mot.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "349a5ea16d6d90b38f9e1bd5dde6a393061489968b8e068cdb9cb0601356235c"
+  },
+  {
+   "id": "mot.cond.governing-law-and-jurisdiction",
+   "heading": "Governing Law and Jurisdiction",
+   "sha256": "4b6aefe0b314a638658d4a559d72eb18756e4f0bc83b4c4c0f83dee413b96924"
+  },
+  {
+   "id": "mot.cond.version-of-this-wording",
+   "heading": "Version of This Wording",
+   "sha256": "47377f41df2a332c7b2daa2eb7afff4f792475142041141922386586228c7d29"
+  },
+  {
+   "id": "mot.pvt.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "371bc2309fd74ecf25b83bb4ee901e15ff373377f38093afb2c171a500b83375"
+  },
+  {
+   "id": "mot.end.e05",
+   "heading": "E05 Agreed Value",
+   "sha256": "458ec294c47943dda12cd5258307425aa8def0e8d20917a0494beb8a42c1e9c9"
+  },
+  {
+   "id": "mot.end.e06",
+   "heading": "E06 Increased Windscreen Cover",
+   "sha256": "0c87591bfded8b802d3bf4996cb91c6d6400f66cef4787d564c793d3f6291bd2"
+  },
+  {
+   "id": "mot.end.e10",
+   "heading": "E10 Extended Hire Vehicle",
+   "sha256": "68c00f6d0019575043da1df28344cea99663d3bdc283d62e392dbeb061b5be07"
+  },
+  {
+   "id": "mot.end.e14",
+   "heading": "E14 Electric and Hybrid Vehicles",
+   "sha256": "a8710e5163e271f4f3f1ece7c17c32faf7c2c1df0ceeb8b3382520cd47319151"
+  },
+  {
+   "id": "mot.pvt.appendix.default-schedule-values",
+   "heading": "Default Schedule Values",
+   "sha256": "eee645c56107d8ea84e18c323575d8a48f37c05bc47dc0f4e019d42b1a427298"
+  },
+  {
+   "id": "mot.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "ee631bb24366d8cde71319323179ea09ba1523df0adf157d55b7481b82a52d32"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "mot.end.e05",
+   "heading": "E05 Agreed Value",
+   "trigger": {
+    "questions": [
+     "qs.mot.vehicles.agreed_value_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.mot.vehicles.agreed_value_count > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.mot.vehicles.agreed_value_count} vehicle(s) are insured for an agreed value.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mot.vehicles.agreed_value_count",
+     "text": "How many vehicles are insured for an agreed value? (Derived.)",
+     "type": "number",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "mot.end.e06",
+   "heading": "E06 Increased Windscreen Cover",
+   "trigger": {
+    "questions": [
+     "qs.mot.cover.windscreen_increased"
+    ],
+    "rules": [
+     {
+      "when": "qs.mot.cover.windscreen_increased == true",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option to increase the windscreen benefit.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mot.cover.windscreen_increased",
+     "text": "Do you want the windscreen benefit increased?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "mot.end.e10",
+   "heading": "E10 Extended Hire Vehicle",
+   "trigger": {
+    "questions": [
+     "qs.mot.cover.hire_extended"
+    ],
+    "rules": [
+     {
+      "when": "qs.mot.cover.hire_extended == true",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option to extend the hire vehicle benefit.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mot.cover.hire_extended",
+     "text": "Do you want the hire vehicle benefit extended?",
+     "type": "yes/no",
+     "used_by": "E10"
+    }
+   ]
+  },
+  {
+   "id": "mot.end.e14",
+   "heading": "E14 Electric and Hybrid Vehicles",
+   "trigger": {
+    "questions": [
+     "qs.mot.vehicles.ev_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.mot.vehicles.ev_count > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.mot.vehicles.ev_count} vehicle(s) are electric or hybrid.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mot.vehicles.ev_count",
+     "text": "How many vehicles are electric or hybrid? (Derived.)",
+     "type": "number",
+     "used_by": "E14"
+    }
+   ]
+  }
+ ],
+ "sha256": "f4786a5af479a9541372de3e8eddc9e9ad88dc6801064df738b1d6f0ff49ebf0"
+}

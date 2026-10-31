@@ -1,0 +1,132 @@
+# Platform questions that endorsement triggers depend on.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4): the platform question set uses the same IDs. Wording text here is the question as asked;
+# the platform may add help text. Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.fs.licence
+    text: Do you hold an Australian financial services licence or Australian credit licence, or act as an authorised representative or credit representative? Give the licensee's name and number.
+    type: repeating (licence type, licensee, number, authorisations)
+    used_by: S (definition of professional services)
+  - id: qs.fs.retail_revenue
+    text: What was your revenue from financial services or credit activities provided to retail clients or consumers in the last financial year?
+    type: currency
+    used_by: R (minimum limit under ASIC RG 126 or RG 210 is a platform restriction)
+  - id: qs.fs.representatives
+    text: How many authorised representatives or credit representatives act under your licence?
+    type: number
+    used_by: R
+  - id: qs.fs.afca_complaints
+    text: How many complaints have been made to AFCA about you or your representatives in the last three years, and what was paid?
+    type: number, with details
+    used_by: R
+  - id: qs.fs.breach_reports
+    text: Have you lodged a report with ASIC about a reportable situation in the last three years?
+    type: yes/no, with details
+    used_by: R
+  - id: qs.fs.ii.gwp_by_class
+    text: What gross written premium did you place in the last 12 months, by class of insurance?
+    type: repeating (class, premium)
+    used_by: R
+  - id: qs.fs.ii.binders_held
+    text: Do you write business under a binding authority or binder from an insurer?
+    type: yes/no
+    used_by: E (Exceeding Authority Sub-limit)
+  - id: qs.fs.ii.binder_gwp
+    text: What gross written premium did you write under binding authorities or binders in the last 12 months, and what are your claims settlement authority limits?
+    type: currency, with authority limits
+    used_by: R, E (Exceeding Authority Sub-limit)
+  - id: qs.fs.ii.trust_controls
+    text: How is client and insurer money held (insurance broking account or trust account), and who can authorise payments from it?
+    type: text
+    used_by: R
+  - id: qs.fs.ii.code_of_practice
+    text: Do you subscribe to the Insurance Brokers Code of Practice or the General Insurance Code of Practice?
+    type: yes/no
+    used_by: R
+  - id: qs.fs.ii.ddo
+    text: Do you have documented processes for your design and distribution obligations, including target market determinations?
+    type: yes/no
+    used_by: R
+  - id: qs.fs.ii.unrated_placements
+    text: In the last 12 months, did you place any business with an insurer that was not authorised by APRA and not rated at least A- (or equivalent)?
+    type: yes/no, with details
+    used_by: E (Insurer Insolvency Buy-back)
+  - id: qs.fs.ii.life_risk_advice
+    text: Do you give personal advice to retail clients on life risk insurance products?
+    type: yes/no
+    used_by: E (Life Risk Insurance Advice Exclusion)
+  - id: qs.fs.ii.premium_funding
+    text: Do you arrange premium funding for clients?
+    type: yes/no
+    used_by: E (Premium Funding)
+  - id: qs.fs.ii.strata_gwp_pct
+    text: What percentage of the premium you placed in the last 12 months was for strata insurance?
+    type: percentage
+    used_by: E (Strata Insurance Remuneration Exclusion)
+  - id: qs.fs.ci.aggregator
+    text: Which aggregator or licensee do you operate through?
+    type: text
+    used_by: R, E (Lender Claims Buy-back)
+  - id: qs.fs.ci.settlements
+    text: How many loans did you settle in the last 12 months, and what was their total value?
+    type: number and currency
+    used_by: R
+  - id: qs.fs.ci.lender_claims
+    text: In the last five years, has a lender, mortgage manager or aggregator made a claim against you or clawed back commission because of an error or alleged fraud in a loan application?
+    type: yes/no, with details
+    used_by: E (Lender Claims Buy-back)
+  - id: qs.fs.ci.dealer_finance
+    text: Do you arrange finance in connection with the sale of motor vehicles?
+    type: yes/no
+    used_by: E (Motor Dealer Finance)
+  - id: qs.fs.ci.commercial_pct
+    text: What percentage of your settlements in the last 12 months were for finance not regulated by the National Consumer Credit Protection Act?
+    type: percentage
+    used_by: E (Unregulated Commercial Finance)
+  - id: qs.fs.ci.ceasing
+    text: Do you intend to cease holding your credit licence, or cease to be a credit representative, in the next 12 months?
+    type: yes/no
+    used_by: E (12-Month Automatic Run-off)
+  - id: qs.fs.fa.advisers
+    text: How many relevant providers (financial advisers) are authorised under your licence, and how many are authorised representatives?
+    type: number
+    used_by: R
+  - id: qs.fs.fa.funds_under_advice
+    text: What are your total funds under advice?
+    type: currency
+    used_by: R
+  - id: qs.fs.fa.advice_split
+    text: What percentage of your advice revenue came from superannuation, SMSF, investment, life risk insurance, retirement income, and tax (financial) advice?
+    type: repeating (area, percentage)
+    used_by: R
+  - id: qs.fs.fa.approved_product_list
+    text: Do you maintain an approved product list with a documented research process?
+    type: yes/no
+    used_by: S (definition of Approved product; refer if no list)
+  - id: qs.fs.fa.off_apl_pct
+    text: What percentage of new product recommendations in the last 12 months were for products not on your approved product list?
+    type: percentage
+    used_by: R (refer if high)
+  - id: qs.fs.fa.mda
+    text: Do you operate a managed discretionary account service?
+    type: yes/no
+    used_by: E (Managed Discretionary Accounts Exclusion)
+  - id: qs.fs.fa.geared_pct
+    text: What percentage of your clients have a geared investment strategy or margin loan that you recommended?
+    type: percentage
+    used_by: E (Geared Investment Advice Sub-limit)
+  - id: qs.fs.fa.related_products
+    text: Do you, any representative, or any related party issue, operate or promote financial products that you recommend, or receive any benefit from them other than client-paid advice fees?
+    type: yes/no, with details
+    used_by: E (Related Products Exclusion)
+  - id: qs.fs.fa.named_products_exposure
+    text: Have you or any representative advised a client to acquire, switch to or hold the Shield Master Fund, the First Guardian Master Fund, or any other product now subject to mass complaints or regulatory action?
+    type: yes/no, with number of clients and amounts
+    used_by: E (Named Products Exclusion)
+  - id: qs.fs.fa.superannuation_switching
+    text: How many clients did you advise to switch superannuation funds in the last 12 months, and did any switch follow a lead from an unsolicited marketing call?
+    type: number, with details
+    used_by: R
+  - id: qs.fs.fa.lead_generators
+    text: Do you obtain clients from lead generators or call centres?
+    type: yes/no, with details
+    used_by: R

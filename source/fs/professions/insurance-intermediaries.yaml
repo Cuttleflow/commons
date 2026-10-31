@@ -1,0 +1,63 @@
+id: fs-insurance-intermediaries
+title: Insurance Intermediaries Professional Indemnity Insurance
+class: FINANCIAL SERVICES PROFESSIONAL INDEMNITY INSURANCE · INSURANCE INTERMEDIARIES
+kicker: Meridian Commons · Financial Services Professional Indemnity · Insurance Intermediaries
+slug: insurance-intermediaries
+file_stem: Meridian_FS_Insurance_Intermediaries
+doc_ref: 2026/FS/0002
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for insurance brokers, underwriting agencies, authorised representatives
+  and claims handlers, built on the Meridian Financial Services PI base wording.
+base: fs-base@1.0.0-DRAFT
+supersedes: MERIDIAN-PI-INBR-v1.0.0, and the insurance distribution limb of MERIDIAN-PI-MOTR-v1.0.0 (endorsements
+  to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: fs.def.professional-services
+  with: fs.ii.def.professional-services
+- op: add
+  clause: fs.ii.ext.premium-and-claims-money
+  after: fs.ext.afca-determinations
+- op: add
+  clause: fs.ii.excl.insurer-insolvency
+  after: fs.excl.investment-performance
+- op: add
+  clause: fs.ii.library.optional-endorsements
+  after: fs.endorsement-library
+- op: add
+  clause: fs.ii.end.insurer-insolvency-buy-back
+  after: fs.ii.library.optional-endorsements
+- op: add
+  clause: fs.ii.end.exceeding-authority
+  after: fs.ii.end.insurer-insolvency-buy-back
+- op: add
+  clause: fs.ii.end.life-risk-advice
+  after: fs.ii.end.exceeding-authority
+- op: add
+  clause: fs.ii.end.premium-funding
+  after: fs.ii.end.life-risk-advice
+- op: add
+  clause: fs.ii.end.strata-remuneration
+  after: fs.ii.end.premium-funding
+regulatory_basis:
+- topic: ASIC RG 126; claims handling and settling services (AFS licence required since 1 January 2022)
+  status: Met through the FS base. Loss assessors and adjusters who do not decide claims are covered by the Risk,
+    Safety and Claims Consultants PI wording.
+  review_by: '2027-03-31'
+- topic: Insurance Brokers Code of Practice; General Insurance Code of Practice
+  status: Proposal question only.
+  review_by: '2027-06-30'
+proposal_questions:
+- AFS licence or AR details and authorisations.
+- Gross written premium by class, and under binders, with claims settlement authority limits.
+- Number of authorised representatives.
+- Trust account controls; Code of Practice subscription; design and distribution processes.
+- AFCA complaints and ASIC breach reports in the last three years.
+decisions:
+- '2026-10-31: Insurance Intermediaries is built on a separate Financial Services PI base; underwriting agencies
+  included (profession review approved 31 October 2026).'
+- '2026-10-31: The June exclusion of client disclosures not confirmed in writing is deleted; disclosure advice is
+  the main broker claim and is handled by questions.'
+- '2026-10-31: Insurer insolvency excluded by default, with a buy-back.'

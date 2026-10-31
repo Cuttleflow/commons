@@ -149,6 +149,10 @@ def resolve(cls, manifest, clauses, errors):
                 continue
             for s in structure:
                 s["clauses"] = [op["with"] if c == target else c for c in s["clauses"]]
+        elif kind == "delete" and any(s["section"] == target for s in structure):
+            # A variant may remove a whole section (heading and every clause in it),
+            # for example the fleet provisions of a commercial base in a private wording.
+            structure = [s for s in structure if s["section"] != target]
         elif kind == "delete":
             for s in structure:
                 s["clauses"] = [c for c in s["clauses"] if c != target]
@@ -291,9 +295,11 @@ def professions_html(manifest):
     rows = "".join(
         f'<li><a href="{html.escape(p["slug"])}.html">{html.escape(p["title"])}</a>'
         f' <span class="pmeta">v{html.escape(str(p["version"]))} · {html.escape(p["doc_ref"])}'
-        f' · <a href="{html.escape(p["slug"])}-endorsement.html">endorsement form</a></span></li>'
+        + (f' · <a href="{html.escape(p["slug"])}-endorsement.html">endorsement form</a>' if p.get("endorsement_form", True) else "")
+        + '</span></li>'
         for p in profs)
-    return ('<div class="professions"><div class="mono plabel">Profession wordings built on this wording</div>'
+    label = manifest.get("variants_label", "Profession wordings built on this wording")
+    return (f'<div class="professions"><div class="mono plabel">{html.escape(label)}</div>'
             f'<ul>{rows}</ul></div>')
 
 
@@ -420,7 +426,7 @@ def render_docx(manifest, structure, cmap, path, changes_md):
     if manifest.get("form") == "endorsement":
         p = doc.add_paragraph(); run(p, "Policy endorsement", font="Georgia", size=14, italic=True, color=GREEN)
     elif "base" in manifest:
-        p = doc.add_paragraph(); run(p, "Integrated profession wording", font="Georgia", size=14, italic=True, color=GREEN)
+        p = doc.add_paragraph(); run(p, manifest.get("variant_subtitle", "Integrated profession wording"), font="Georgia", size=14, italic=True, color=GREEN)
     p = doc.add_paragraph(); run(p, "Cuttleflow Systems — Open Source Insurance Wording", font="Georgia", size=13, italic=True, color=GREEN)
     p = doc.add_paragraph(); run(p, f"Version {v} · {manifest['date']} · CC BY 4.0 (wording text only)", font="Consolas", size=9, color=GREEN)
     if "base" in manifest:
@@ -575,14 +581,16 @@ def main(argv):
     for cls, manifest, structure, cmap in built:
         if "base" not in manifest:
             manifest["professions"] = sorted(
-                (dict(slug=m["slug"], title=m["title"], version=m["version"], doc_ref=m["doc_ref"])
+                (dict(slug=m["slug"], title=m["title"], version=m["version"], doc_ref=m["doc_ref"],
+                      endorsement_form=m.get("endorsement_form", True))
                  for c, m, _s, _m in built if c == cls and "base" in m), key=lambda p: p["title"])
     for cls, manifest, structure, cmap in built:
         QUESTIONS.clear(); QUESTIONS.update(load_questions(cls))
         slug = manifest["slug"]
         if "base" in manifest:
             bslug = load_manifest(SOURCE / cls / "base.yaml")["slug"]
-            manifest["links"] = [("Endorsement form", f"{slug}-endorsement.html"), ("Base wording", f"{bslug}.html")]
+            manifest["links"] = ([("Endorsement form", f"{slug}-endorsement.html")] if manifest.get("endorsement_form", True) else []) \
+                + [("Base wording", f"{bslug}.html")]
         stem = manifest["file_stem"]
         docx_name = f"{stem}_v{manifest['version']}.docx"
         (ROOT / "wordings" / f"{slug}.html").write_text(render_html(manifest, structure, cmap, slug, docx_name), encoding="utf-8")
@@ -593,7 +601,9 @@ def main(argv):
             render_docx(manifest, structure, cmap, ROOT / "wordings" / "downloads" / docx_name,
                         ch.read_text(encoding="utf-8") if ch.exists() else "")
         print(f"Built {manifest['id']} {manifest['version']} -> wordings/{slug}.html")
-        if "base" in manifest:
+        if "base" in manifest and manifest.get("endorsement_form", True):
+            # endorsement_form: false - a variant issued only as an integrated wording
+            # (a consumer wording is never issued as an endorsement to a commercial base).
             base_manifest = load_manifest(SOURCE / cls / "base.yaml")
             em, es, emap = endorsement(manifest, base_manifest, cmap)
             eslug, edocx = f"{slug}-endorsement", f"{stem}_Endorsement_v{manifest['version']}.docx"

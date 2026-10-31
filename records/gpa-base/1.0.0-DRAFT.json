@@ -1,0 +1,1036 @@
+{
+ "wording": "gpa-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/GPA/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "gpa.about",
+   "heading": "About This Policy",
+   "sha256": "d4c1ce61a2072b62523777958ff3df43df7bef53140b2c1e4a6544844a270053"
+  },
+  {
+   "id": "gpa.version-history",
+   "heading": "Version and Document History",
+   "sha256": "db1d4d8b1393fd483f944a245e278cec293f04d28b8204494184e8ca38b7450a"
+  },
+  {
+   "id": "gpa.important-information",
+   "heading": "Important Information",
+   "sha256": "c51f4f3c024bde4b66d163a9efdc0b58ba6ca48660355cc1d5b51d0f58c2ecbd"
+  },
+  {
+   "id": "gpa.schedule",
+   "heading": "Schedule",
+   "sha256": "408ebcb733b82a927e56fba794d731c22a4137f34386414aaef7566bb26e927e"
+  },
+  {
+   "id": "gpa.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "gpa.def.accident",
+   "heading": "Accident",
+   "sha256": "6afa6d6524f3c7c194846530fda67b76fe4b93d3096b5a99380111c7287edeb0"
+  },
+  {
+   "id": "gpa.def.benefit-period",
+   "heading": "Benefit Period",
+   "sha256": "a1ecc0a84a5caf18b0b5bd9eca25d7c93ebc50b9f1174f41d7ee0306988de993"
+  },
+  {
+   "id": "gpa.def.capital-sum",
+   "heading": "Capital Sum",
+   "sha256": "03864853a5b8370fef8c9ac5ef7c43902a45b573742798a6e4d2fa411fef18a9"
+  },
+  {
+   "id": "gpa.def.category",
+   "heading": "Category",
+   "sha256": "f41b291ea0151453b04a0e1d223401c8e2a895f13a5a12028122a6e9740e25cf"
+  },
+  {
+   "id": "gpa.def.covered-person",
+   "heading": "Covered Person",
+   "sha256": "0b1ed2cfe769dcbf450083f878b439ce69209224695c22e2d259d5d7d053a16f"
+  },
+  {
+   "id": "gpa.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "gpa.def.hazardous-pursuit",
+   "heading": "Hazardous Pursuit",
+   "sha256": "9b1ea2c98f854a0851410b32046cbf61063e41590eb68278b0b2c96666f19eaf"
+  },
+  {
+   "id": "gpa.def.income",
+   "heading": "Income",
+   "sha256": "0c33c4136e7fc44893ebcfd0e13ee3267f7dbb03098ae0647ce0d3fb53a5ebc2"
+  },
+  {
+   "id": "gpa.def.injury",
+   "heading": "Injury",
+   "sha256": "5a5b915911dfe04874d7c83cf9ea88ea130e3bd20ada1dc700dbd9641d28837a"
+  },
+  {
+   "id": "gpa.def.medical-practitioner",
+   "heading": "Medical Practitioner",
+   "sha256": "012b91cebe353312cdd1c4bc3f5086f9212c914b06c8e38f1588920d8b5057ca"
+  },
+  {
+   "id": "gpa.def.mental-illness",
+   "heading": "Mental Illness",
+   "sha256": "1ced82cefe4d5e0bfe1ffd136c1a4b211c8089e478a4fd2079c033278179b906"
+  },
+  {
+   "id": "gpa.def.occupation-class",
+   "heading": "Occupation Class",
+   "sha256": "144ddeb492734b676c40a063737a1812633280d8b92a08a00cc8e0c88dbf18d8"
+  },
+  {
+   "id": "gpa.def.permanent",
+   "heading": "Permanent",
+   "sha256": "1082e2deda3e71fca513b9e481fd3490ff6c60af38278bd6756b73c5348e4ecc"
+  },
+  {
+   "id": "gpa.def.permanent-total-disablement",
+   "heading": "Permanent Total Disablement",
+   "sha256": "dcd9cdb489e33b663614221f3f2b12f2f9c44dbeda37127ccb8988990583363d"
+  },
+  {
+   "id": "gpa.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "63e7fdd289a56246cd031104e1f190f7864255d2706e9160682d26c69ae4daaf"
+  },
+  {
+   "id": "gpa.def.policyholder",
+   "heading": "Policyholder",
+   "sha256": "130dd45de35f46a949d74e8241a66dc99238a908e49fb30d52e6c00522feaa92"
+  },
+  {
+   "id": "gpa.def.pre-existing-condition",
+   "heading": "Pre-existing Condition",
+   "sha256": "ab9759d746013fd466a57f4aff741a2e07be4b1625e1cabd7031a79b70bb3040"
+  },
+  {
+   "id": "gpa.def.scope-of-cover",
+   "heading": "Scope of Cover",
+   "sha256": "46a83ce6d062ab07adb0edf4f4f55db610dd1200e97e4d174661283c490adf76"
+  },
+  {
+   "id": "gpa.def.sickness",
+   "heading": "Sickness",
+   "sha256": "f8e78c405621898f9a4e4b68237aa42872be22f31bb7913089a78058fde76d90"
+  },
+  {
+   "id": "gpa.def.temporary-partial-disablement",
+   "heading": "Temporary Partial Disablement",
+   "sha256": "9ce8881992187921eac4eb51fb6d6813aa868907e8bc19fd0827eea9c7844a9c"
+  },
+  {
+   "id": "gpa.def.temporary-total-disablement",
+   "heading": "Temporary Total Disablement",
+   "sha256": "2eb5d582b1f4baa33579b9f13a2248b6482b11fd7c4ec3cc94c59315ee438606"
+  },
+  {
+   "id": "gpa.def.waiting-period",
+   "heading": "Waiting Period",
+   "sha256": "b67bf4ad4446972247e973cc067560198a957542b4f5939c2ebc22eb088d6fcf"
+  },
+  {
+   "id": "gpa.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "gpa.def.weekly-benefit",
+   "heading": "Weekly Benefit",
+   "sha256": "a12031d3060c0710d33dab028081565a4e896ecaad9bbebc8e3158086518a8b2"
+  },
+  {
+   "id": "gpa.def.you-your",
+   "heading": "You, Your",
+   "sha256": "0598fc61dc55119f3d75271fbc0a6ddce7c2aeb52bb2211148138349b7c7657a"
+  },
+  {
+   "id": "gpa.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "gpa.cover.capital-benefits",
+   "heading": "Capital Benefits",
+   "sha256": "da13ed11c3073173f6aeb3fd94b2231fa8faf2fbe3ec74571141032a690826c4"
+  },
+  {
+   "id": "gpa.cover.weekly-injury",
+   "heading": "Weekly Benefits for Injury",
+   "sha256": "2b642ce1a4c247db9ed4462fbdc2c35d99ced67608c68020fa9e44b214c9590f"
+  },
+  {
+   "id": "gpa.cover.weekly-sickness",
+   "heading": "Weekly Benefits for Sickness",
+   "sha256": "d2fc014e939a86881d09a055c402730042114961f607c96ef1b1ab74bf94be36"
+  },
+  {
+   "id": "gpa.section.additional-benefits",
+   "heading": "Additional Benefits",
+   "sha256": "7316438f392079794c110f8b9ac816cf090349b315787451c5d13aa8e8703d1e"
+  },
+  {
+   "id": "gpa.ext.exposure-and-disappearance",
+   "heading": "Exposure and Disappearance",
+   "sha256": "8118629a13ac3a308790179ed48cc20461c927cefa7418738dc08d2ea4a9c86d"
+  },
+  {
+   "id": "gpa.ext.funeral-expenses",
+   "heading": "Funeral Expenses",
+   "sha256": "72953850d81a34390e0090214dc2f4a5ac34bc850db810c1bd598fc4aa25e5d5"
+  },
+  {
+   "id": "gpa.ext.dependent-children",
+   "heading": "Dependent Children",
+   "sha256": "3956458d1d88a7d416e802ff58c9c3bfa6f21fcee091a0d1bd15675a52dd0603"
+  },
+  {
+   "id": "gpa.ext.spouse-retraining",
+   "heading": "Spouse or Partner Retraining",
+   "sha256": "22d69960dd68b98dc7adfee206abdc5ebfc9ae7b367e0026610452a46837ed5f"
+  },
+  {
+   "id": "gpa.ext.coma",
+   "heading": "Coma",
+   "sha256": "92978b8ca437e24094b87f1071e2db22bbd7ccb27cf7aaec94ac4d97f8c0fad5"
+  },
+  {
+   "id": "gpa.ext.broken-bones",
+   "heading": "Broken Bones",
+   "sha256": "4430b442b6c3fab82e9034631bb8ff627af5008d58e79b233af1c23b3b7aba1b"
+  },
+  {
+   "id": "gpa.ext.non-medicare-medical",
+   "heading": "Non-Medicare Medical Expenses",
+   "sha256": "cbd682690d883f8cc31bb1fe03c0971d73736edd7c82d2632855ce20be301ff9"
+  },
+  {
+   "id": "gpa.ext.rehabilitation",
+   "heading": "Rehabilitation",
+   "sha256": "636d582eadb1c7781ff0ce41a0ae5b6a191e024b8774fad84a76b65ea0f284e2"
+  },
+  {
+   "id": "gpa.ext.home-and-vehicle-modification",
+   "heading": "Home and Vehicle Modification",
+   "sha256": "159024b2b583db6012636354acb328032a8833969aefaf168d02b5b8970f8cc2"
+  },
+  {
+   "id": "gpa.ext.transport-to-work",
+   "heading": "Transport to Work",
+   "sha256": "2b10b20b6c6ecca1def4ba7ccd9dbeba3e98cd9d6848fdae525e9d2732631566"
+  },
+  {
+   "id": "gpa.ext.escalation",
+   "heading": "Escalation of Weekly Benefits",
+   "sha256": "4f0316bb15bea7f40c62702a647977aae649a9ed38f5cdba913d9d3740d8ef07"
+  },
+  {
+   "id": "gpa.section.payment",
+   "heading": "How We Pay Benefits",
+   "sha256": "87377e61cf0d3336a84fb9f3853d2bebc416605f5ba126481d3d1ebcc037bc48"
+  },
+  {
+   "id": "gpa.pay.weekly-benefit-amount",
+   "heading": "How Much We Pay Each Week",
+   "sha256": "4d62d355d1a64a78b4d0ab23d2b0c323a2d0e0dff9380281f06a1dadbc41e70a"
+  },
+  {
+   "id": "gpa.pay.recurrence",
+   "heading": "Recurring Disablement",
+   "sha256": "2dad4b4efd6a88db722ed66fca5b0698fbf6944b7648010624cd8aaee8667568"
+  },
+  {
+   "id": "gpa.pay.one-capital-event",
+   "heading": "One Capital Benefit for Each Injury",
+   "sha256": "13ae15402220ac825292b4b59252332bcb07c8c297795c37a67f6728d3897f64"
+  },
+  {
+   "id": "gpa.pay.weekly-and-capital",
+   "heading": "Weekly Benefits Before a Capital Benefit",
+   "sha256": "6e4caa63ab8230632a5cc42e4cd79de7a0a63060e0156414dd3893c38c6a71df"
+  },
+  {
+   "id": "gpa.pay.offsets",
+   "heading": "Other Payments for the Same Disablement",
+   "sha256": "06c4edd2d0bb26b42f95092c98e13fe56560c228c7b6b1205a17551249cf990b"
+  },
+  {
+   "id": "gpa.pay.mental-illness",
+   "heading": "Mental Illness",
+   "sha256": "c0dee78ad82eb447fcfa64ff906052eabcd3d19412bfd7e17445ea8210f105d5"
+  },
+  {
+   "id": "gpa.pay.age-limits",
+   "heading": "Age Limits",
+   "sha256": "039c7b980dfca57870d6f2ee9b02c84f6f839b590e160d7614cf07ec644487a2"
+  },
+  {
+   "id": "gpa.pay.accumulation",
+   "heading": "Accumulation Limit",
+   "sha256": "5c2fc36c8a050917b2ae19a4697877f8bec641d49afcb17203d1ff10c1c6ba21"
+  },
+  {
+   "id": "gpa.pay.aggregate-limits",
+   "heading": "Aggregate Limits",
+   "sha256": "e08ce55d0d6b7d1d2ff5e6b7a86b0435b3e9b8147437888965d3b2ec97b2d0c6"
+  },
+  {
+   "id": "gpa.pay.medicare",
+   "heading": "What the Law Does Not Allow Us to Pay",
+   "sha256": "bbcc7bb8a06fda65865d7129c8506605c75aef31d079bd1872c8859c3f6e2d82"
+  },
+  {
+   "id": "gpa.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "6586bd5a2b5dba2085a8d65aa46c85b85dab2cadcf2b1a9936e6f23e19a96cfb"
+  },
+  {
+   "id": "gpa.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "030fcefdab560193990bad4bf7716ec2e7ebde7f975e797128d4cfb68e419899"
+  },
+  {
+   "id": "gpa.excl.intentional-self-injury",
+   "heading": "Intentional Self-Injury",
+   "sha256": "38ae104121cc7b43566a255bad97c06a7d7e3dc99073797cdd3876aeb5b33cc6"
+  },
+  {
+   "id": "gpa.excl.war",
+   "heading": "War",
+   "sha256": "2abb6dad9c1822536e9c24808dc0876183ae1ec5f44e9bfd4b8476d48c729c83"
+  },
+  {
+   "id": "gpa.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "4ce00837ae2c43f57fe8adbc09252db6fd11fa502738c396a58d40b6ba4e91b9"
+  },
+  {
+   "id": "gpa.excl.intoxication",
+   "heading": "Alcohol and Drugs",
+   "sha256": "a26f0a12efde661bfee3b20ff3381c979feca77753dcefc54e2853eb855b1ddc"
+  },
+  {
+   "id": "gpa.excl.criminal-acts",
+   "heading": "Criminal and Malicious Acts",
+   "sha256": "9eb48bbf4334a15564aa37a319b17c27d2a9414570f9410040afc44f50babfde"
+  },
+  {
+   "id": "gpa.excl.professional-sport",
+   "heading": "Professional Sport",
+   "sha256": "e59bb9ed973575ab91e8cc9b8492e10731a4cf9b8efa903ed16a538bee2b6ed6"
+  },
+  {
+   "id": "gpa.excl.flying",
+   "heading": "Flying",
+   "sha256": "144a36b137b81d80808d2c696006f53b9cc2e8b435bd8bece70c38d099d1c65b"
+  },
+  {
+   "id": "gpa.excl.hazardous-pursuits",
+   "heading": "Hazardous Pursuits",
+   "sha256": "0d2e5dfa09a6c4291736ad62b0462bdacd94e1eb1b961ca23e053fcefe311879"
+  },
+  {
+   "id": "gpa.excl.military-service",
+   "heading": "Military Service",
+   "sha256": "95159ce6407d7826b68876d21be476d473ad3ec0f29345069f3d1d40978b0bed"
+  },
+  {
+   "id": "gpa.excl.pre-existing-conditions",
+   "heading": "Pre-existing Conditions",
+   "sha256": "20f6d0f274e95dae172717b06e5189cabc5b8f18b573bb7468d83884c1c53102"
+  },
+  {
+   "id": "gpa.excl.initial-sickness-period",
+   "heading": "First 30 Days of Sickness Cover",
+   "sha256": "438027edbba42eb086c7309496caf6600956fb567fb58425ec775932ac2f6fa6"
+  },
+  {
+   "id": "gpa.excl.pregnancy",
+   "heading": "Pregnancy",
+   "sha256": "4677cd69d0d749088f71b91250f162e6ed91765060ceef82dcc350f7537dece7"
+  },
+  {
+   "id": "gpa.excl.elective-treatment",
+   "heading": "Elective Treatment",
+   "sha256": "4b125905c5c97037744d894317bde61950cb2c84f9c98838b4775d35779b478f"
+  },
+  {
+   "id": "gpa.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "66ac75110e7aa62e732cecc6329a2d47c747f90660fb89cdf95ab49e0bf09463"
+  },
+  {
+   "id": "gpa.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "515d864d5a046591b637737a1f39d3e0739a0f9acaacc11aa766af9e182a9ba8"
+  },
+  {
+   "id": "gpa.obl.medical-care-and-examination",
+   "heading": "Medical Care and Examination",
+   "sha256": "9a9fa7bec770c8bd823331a1fbdf064325eb220a664eb6628e32311670ba81ef"
+  },
+  {
+   "id": "gpa.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "ceb382557aad14a1626a9c4ad5d96d9527de6870061ddc53daaddd8cefc6a15d"
+  },
+  {
+   "id": "gpa.obl.policyholder-records",
+   "heading": "Policyholder's Records",
+   "sha256": "e482c817f2ce7aed15f961e2f4f007ab1d44f0a3a39c9526cb1682a145971e54"
+  },
+  {
+   "id": "gpa.obl.residence-and-travel",
+   "heading": "Living and Travelling Overseas",
+   "sha256": "8a2c36b39bc636441cb482aba5aa4309136407652ac1b498249b78b320a802c0"
+  },
+  {
+   "id": "gpa.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "gpa.cond.covered-persons-rights",
+   "heading": "Covered Persons' Rights",
+   "sha256": "4617a239541fd9f3470505710f28263b13a9deca3ad0870d79b682fb8ca9f695"
+  },
+  {
+   "id": "gpa.cond.automatic-cover",
+   "heading": "Automatic Cover for New Covered Persons",
+   "sha256": "e27ed25f6864db3ada9404c98f3b0d90778efd8adab621deaac632554b05e169"
+  },
+  {
+   "id": "gpa.cond.declarations-and-adjustment",
+   "heading": "Declarations and Premium Adjustment",
+   "sha256": "646e19f23ec90510a351f014994f36a3507845abc89015e3faad4982124690a7"
+  },
+  {
+   "id": "gpa.cond.notices",
+   "heading": "Notices",
+   "sha256": "9ecdae6a3e615126f916fee0f6a2e0752c5f9eb22185ec6b176a4ab815cd63cd"
+  },
+  {
+   "id": "gpa.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "b8593a3a7d665c155f6d49809f1b2833d5bc55e5c4e4b7030e8f4475efe6e10b"
+  },
+  {
+   "id": "gpa.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "ae5c2bdac21bf1e694897f99a5201e4938728d32cf8b9df9e2174f79ac6e257b"
+  },
+  {
+   "id": "gpa.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "eb70c90f0745dbd9d5f26d4e8244ef2275a598e0d401fc38555cd48ac2e7166f"
+  },
+  {
+   "id": "gpa.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "93420dcd87f8ad9ccc3a5d0f534ad54b5a759720fbf955a5249eb6fd6c3aedf1"
+  },
+  {
+   "id": "gpa.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "852d92cc4b6d23f827e431fe7b94b47eaf719a9435e1625ee5ca7b4a74ededfe"
+  },
+  {
+   "id": "gpa.cond.gst",
+   "heading": "GST",
+   "sha256": "370d7874b7334850c994dbb24222357dfc2451df940758aa5008baf5009175e8"
+  },
+  {
+   "id": "gpa.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "7f52ed79eca5b145a9afc0945f6732f582dac5298928111bb4a51165c83d8b7a"
+  },
+  {
+   "id": "gpa.cond.disputes-and-complaints",
+   "heading": "Complaints and Disputes",
+   "sha256": "94f9de09201e1ba8f4e3f26edef308841048f8d0498e5373da80a356303a6061"
+  },
+  {
+   "id": "gpa.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "802d68f2e6c5b1fc7f9c9fc64344de5fe5ed734442829021afbb9d47c566100f"
+  },
+  {
+   "id": "gpa.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "1c67d627403211516012ccac91bef03efa7aac2b43c1660e93557fd74cf4a7ae"
+  },
+  {
+   "id": "gpa.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "gpa.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "844f421cc7434adc6e4b419913b93a806e3f9851638e60f8459a65900a19b577"
+  },
+  {
+   "id": "gpa.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "f670fdf135c391db5076f7d0995cf7099978ccdc17d60126f39946665b2e3423"
+  },
+  {
+   "id": "gpa.end.e01",
+   "heading": "E01 Voluntary Workers",
+   "sha256": "95b30d89b7960a9c398865449d94ac202cf95d263d249ed5be0f291386795ef2"
+  },
+  {
+   "id": "gpa.end.e02",
+   "heading": "E02 Journey Cover",
+   "sha256": "2c88120d5cd11bcf30ec55937e46baa24a9baa13098815ab7b55a51e7a141712"
+  },
+  {
+   "id": "gpa.end.e03",
+   "heading": "E03 Sports Teams",
+   "sha256": "18874f35b5bdf3f709e0ba702154eafcfb45bc7aea23bff357fd5dc580198a2a"
+  },
+  {
+   "id": "gpa.end.e04",
+   "heading": "E04 Overseas Secondment",
+   "sha256": "8a900e5bc5d29ec46692733d80b71420de2f1fe0d645cd4a9566a72d759f7503"
+  },
+  {
+   "id": "gpa.end.e05",
+   "heading": "E05 Named Hazardous Pursuit",
+   "sha256": "05dcfac9b000b72decf6f77f56439a1c0b5c582e49bce1fd7dcefb5793c55134"
+  },
+  {
+   "id": "gpa.end.e06",
+   "heading": "E06 Fly-in Fly-out",
+   "sha256": "6187b9e89d968ad5a6e72ddea50b0f8c93f5fe03586d3d78d32a7aad0aef3947"
+  },
+  {
+   "id": "gpa.end.e07",
+   "heading": "E07 Extended Benefit Period",
+   "sha256": "81619225afe8804addc3d8f3beb8e4a0681217132ba4999b259229385c90e5c7"
+  },
+  {
+   "id": "gpa.end.e08",
+   "heading": "E08 Corporate Travel Interface",
+   "sha256": "77152e80fca7662ed2358a4db7544378b22d3d026214b0ad553454382a0217f0"
+  },
+  {
+   "id": "gpa.end.e09",
+   "heading": "E09 Weekly Benefits to Age 70",
+   "sha256": "7780cc30ac1bbbb0d4775198edbaaa3edeee26852d9bb6c203f83f68d4f26786"
+  },
+  {
+   "id": "gpa.end.e10",
+   "heading": "E10 Passive War and Political Risk Zones",
+   "sha256": "c30e6dd3de83a0eef04b60bfcc64a4028082182764de3d44c6ab8e643c7c8bbe"
+  },
+  {
+   "id": "gpa.end.e11",
+   "heading": "E11 Workers Compensation Top-Up",
+   "sha256": "f6548276e86a318c8b06f0510b084da183da6eacea271c319f0525b46ad4923e"
+  },
+  {
+   "id": "gpa.end.e12",
+   "heading": "E12 Key Person Top-Up",
+   "sha256": "1c49084b819863ed7bc4ea696e3d62b2b680e8f4aef705ea9024552ae902f831"
+  },
+  {
+   "id": "gpa.end.e13",
+   "heading": "E13 Lloyd's Underwriters",
+   "sha256": "c6709f954d528fcc45b43f05577ac97e8b3e90f795fd948ef43c74ba40d3c6df"
+  },
+  {
+   "id": "gpa.end.e14",
+   "heading": "E14 Enterprise Agreement Terms",
+   "sha256": "eb7193946fc428c339fab8a363c1bd6ed29ecb1c5fbba452e4b9d268dc460e84"
+  },
+  {
+   "id": "gpa.end.e15",
+   "heading": "E15 Students",
+   "sha256": "f88d95c5f3d199f95671858b7961c90f7d8a9f98b53faaadc19b6113d23fdf96"
+  },
+  {
+   "id": "gpa.end.e16",
+   "heading": "E16 Specific Condition Exclusion",
+   "sha256": "d5ad5d2a07aa380959f74d3ea7e4b4c761b4b8f708c91e89eea763af281809ef"
+  },
+  {
+   "id": "gpa.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "gpa.end.e01",
+   "heading": "E01 Voluntary Workers",
+   "trigger": {
+    "questions": [
+     "qs.gpa.pertype.volunteers"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.pertype.volunteers > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policyholder covers {qs.gpa.pertype.volunteers} voluntary workers.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.pertype.volunteers",
+     "text": "How many voluntary workers should be covered?",
+     "type": "number",
+     "used_by": "R, S, E01"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e02",
+   "heading": "E02 Journey Cover",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.journey_only"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.journey_only == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because journey-only cover was requested; it is outside the standard target market.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.journey_only",
+     "text": "Is any category to be covered for journeys to and from work only?",
+     "type": "yes/no",
+     "used_by": "A, E02"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e03",
+   "heading": "E03 Sports Teams",
+   "trigger": {
+    "questions": [
+     "qs.gpa.pertype.players"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.pertype.players > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policyholder covers {qs.gpa.pertype.players} registered players and officials.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.pertype.players",
+     "text": "How many registered players, coaches and officials should be covered?",
+     "type": "number",
+     "used_by": "R, S, E03"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e04",
+   "heading": "E04 Overseas Secondment",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.overseas_secondment"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.overseas_secondment == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because covered persons are seconded to work outside Australia.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.overseas_secondment",
+     "text": "Are any covered persons seconded to work outside Australia?",
+     "type": "yes/no",
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e05",
+   "heading": "E05 Named Hazardous Pursuit",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.hazardous_pursuits"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.hazardous_pursuits == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because covered persons take part in a pursuit the base wording excludes.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.hazardous_pursuits",
+     "text": "Do covered persons need cover for a pursuit the base wording excludes (for example, scuba diving below 30 metres, air sports or motor racing)?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e06",
+   "heading": "E06 Fly-in Fly-out",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.fifo"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.fifo == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because covered persons fly in and fly out to remote sites.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.fifo",
+     "text": "Do covered persons fly in and fly out to remote sites, or travel on charter flights the policyholder arranges?",
+     "type": "yes/no",
+     "used_by": "A, E06"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e07",
+   "heading": "E07 Extended Benefit Period",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.extended_benefit_period"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.extended_benefit_period == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because a benefit period longer than 104 weeks was requested.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.extended_benefit_period",
+     "text": "Is a benefit period longer than 104 weeks needed for any category?",
+     "type": "yes/no",
+     "used_by": "A, E07"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e08",
+   "heading": "E08 Corporate Travel Interface",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.corporate_travel"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.corporate_travel == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because the policyholder also holds a corporate travel policy.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.corporate_travel",
+     "text": "Does the policyholder hold a corporate travel insurance policy?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e09",
+   "heading": "E09 Weekly Benefits to Age 70",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.weekly_over_65"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.weekly_over_65 == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because weekly benefits are needed for covered persons aged 65 or older.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.weekly_over_65",
+     "text": "Are weekly benefits needed for covered persons aged 65 or older?",
+     "type": "yes/no",
+     "used_by": "A, E09"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e10",
+   "heading": "E10 Passive War and Political Risk Zones",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.high_risk_countries"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.high_risk_countries == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because covered persons travel to countries with a war or political risk.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.high_risk_countries",
+     "text": "Do covered persons travel to countries with a war or political risk?",
+     "type": "yes/no",
+     "used_by": "A, E10"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e11",
+   "heading": "E11 Workers Compensation Top-Up",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.wc_top_up"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.wc_top_up == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because weekly benefits are to top up workers compensation.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.wc_top_up",
+     "text": "Should weekly benefits for any category top up workers compensation?",
+     "type": "yes/no",
+     "used_by": "E11"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e12",
+   "heading": "E12 Key Person Top-Up",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.key_persons"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.key_persons > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because {qs.gpa.policy.key_persons} key persons need higher benefits than their category.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.key_persons",
+     "text": "How many named key persons need higher benefits than their category?",
+     "type": "number",
+     "used_by": "A, E12"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e13",
+   "heading": "E13 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.gpa.issuer.lloyds"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.issuer.lloyds == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policy is issued under a Lloyd's binding authority.",
+    "responses": [
+     "Attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.issuer.lloyds",
+     "text": "Is this policy issued under a Lloyd's binding authority?",
+     "type": "yes/no",
+     "used_by": "E13"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e14",
+   "heading": "E14 Enterprise Agreement Terms",
+   "trigger": {
+    "questions": [
+     "qs.gpa.policy.enterprise_agreement"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.policy.enterprise_agreement == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because an enterprise agreement or award requires the cover.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.policy.enterprise_agreement",
+     "text": "Is any of this cover required by an enterprise agreement or award?",
+     "type": "yes/no",
+     "used_by": "A, E14"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e15",
+   "heading": "E15 Students",
+   "trigger": {
+    "questions": [
+     "qs.gpa.pertype.students"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.pertype.students > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policyholder covers {qs.gpa.pertype.students} enrolled students.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.pertype.students",
+     "text": "How many enrolled students should be covered?",
+     "type": "number",
+     "used_by": "R, S, E15"
+    }
+   ]
+  },
+  {
+   "id": "gpa.end.e16",
+   "heading": "E16 Specific Condition Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.gpa.history.condition_exclusions"
+    ],
+    "rules": [
+     {
+      "when": "qs.gpa.history.condition_exclusions == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because a covered person needs benefits above the free cover limit and has disclosed a medical condition.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gpa.history.condition_exclusions",
+     "text": "Does any person who needs benefits above the free cover limit have a medical condition to disclose?",
+     "type": "yes/no",
+     "used_by": "A, E16"
+    }
+   ]
+  }
+ ],
+ "sha256": "ecfffe43657e4d6d4c89187039b791e36ad64abb92dd9173f7087c437aa68c95"
+}

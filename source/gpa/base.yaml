@@ -1,0 +1,137 @@
+id: gpa-base
+title: Group Personal Accident and Sickness Insurance
+class: GROUP PERSONAL ACCIDENT AND SICKNESS INSURANCE
+kicker: Meridian Commons · Group Personal Accident and Sickness
+slug: group-personal-accident-and-sickness
+file_stem: Meridian_Group_Personal_Accident_and_Sickness
+doc_ref: 2026/GPA/0001
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Capital and weekly benefits for categories of employees, executives, contractors, voluntary workers, players and students, bought by an organisation for its people.
+supersedes: Meridian Group Personal Accident and Sickness Policy Wording v1.0.0 (July 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - gpa.about
+  - gpa.version-history
+  - gpa.important-information
+  - gpa.schedule
+- section: gpa.section.definitions
+  clauses:
+  - gpa.def.accident
+  - gpa.def.benefit-period
+  - gpa.def.capital-sum
+  - gpa.def.category
+  - gpa.def.covered-person
+  - gpa.def.endorsement
+  - gpa.def.hazardous-pursuit
+  - gpa.def.income
+  - gpa.def.injury
+  - gpa.def.medical-practitioner
+  - gpa.def.mental-illness
+  - gpa.def.occupation-class
+  - gpa.def.permanent
+  - gpa.def.permanent-total-disablement
+  - gpa.def.policy-period
+  - gpa.def.policyholder
+  - gpa.def.pre-existing-condition
+  - gpa.def.scope-of-cover
+  - gpa.def.sickness
+  - gpa.def.temporary-partial-disablement
+  - gpa.def.temporary-total-disablement
+  - gpa.def.waiting-period
+  - gpa.def.we-us-our
+  - gpa.def.weekly-benefit
+  - gpa.def.you-your
+- section: gpa.section.cover
+  clauses:
+  - gpa.cover.capital-benefits
+  - gpa.cover.weekly-injury
+  - gpa.cover.weekly-sickness
+- section: gpa.section.additional-benefits
+  clauses:
+  - gpa.ext.exposure-and-disappearance
+  - gpa.ext.funeral-expenses
+  - gpa.ext.dependent-children
+  - gpa.ext.spouse-retraining
+  - gpa.ext.coma
+  - gpa.ext.broken-bones
+  - gpa.ext.non-medicare-medical
+  - gpa.ext.rehabilitation
+  - gpa.ext.home-and-vehicle-modification
+  - gpa.ext.transport-to-work
+  - gpa.ext.escalation
+- section: gpa.section.payment
+  clauses:
+  - gpa.pay.weekly-benefit-amount
+  - gpa.pay.recurrence
+  - gpa.pay.one-capital-event
+  - gpa.pay.weekly-and-capital
+  - gpa.pay.offsets
+  - gpa.pay.mental-illness
+  - gpa.pay.age-limits
+  - gpa.pay.accumulation
+  - gpa.pay.aggregate-limits
+  - gpa.pay.medicare
+  - gpa.pay.who-we-pay
+- section: gpa.section.exclusions
+  clauses:
+  - gpa.excl.intentional-self-injury
+  - gpa.excl.war
+  - gpa.excl.nuclear
+  - gpa.excl.intoxication
+  - gpa.excl.criminal-acts
+  - gpa.excl.professional-sport
+  - gpa.excl.flying
+  - gpa.excl.hazardous-pursuits
+  - gpa.excl.military-service
+  - gpa.excl.pre-existing-conditions
+  - gpa.excl.initial-sickness-period
+  - gpa.excl.pregnancy
+  - gpa.excl.elective-treatment
+- section: gpa.section.obligations
+  clauses:
+  - gpa.obl.tell-us-about-claims
+  - gpa.obl.medical-care-and-examination
+  - gpa.obl.tell-us-about-changes
+  - gpa.obl.policyholder-records
+  - gpa.obl.residence-and-travel
+- section: gpa.section.conditions
+  clauses:
+  - gpa.cond.covered-persons-rights
+  - gpa.cond.automatic-cover
+  - gpa.cond.declarations-and-adjustment
+  - gpa.cond.notices
+  - gpa.cond.insurance-contracts-act
+  - gpa.cond.cancellation
+  - gpa.cond.renewal
+  - gpa.cond.fraud
+  - gpa.cond.sanctions
+  - gpa.cond.gst
+  - gpa.cond.privacy
+  - gpa.cond.disputes-and-complaints
+  - gpa.cond.governing-law
+  - gpa.cond.jurisdiction
+  - gpa.cond.headings-and-references
+- section: end
+  clauses:
+  - gpa.claims.how-to-make-a-claim
+  - gpa.endorsement-library
+  - gpa.end.e01
+  - gpa.end.e02
+  - gpa.end.e03
+  - gpa.end.e04
+  - gpa.end.e05
+  - gpa.end.e06
+  - gpa.end.e07
+  - gpa.end.e08
+  - gpa.end.e09
+  - gpa.end.e10
+  - gpa.end.e11
+  - gpa.end.e12
+  - gpa.end.e13
+  - gpa.end.e14
+  - gpa.end.e15
+  - gpa.end.e16
+  - gpa.licence-notice

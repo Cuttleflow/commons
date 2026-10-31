@@ -137,3 +137,99 @@ questions:
     text: If you design solar or battery systems, which accreditation does the designer hold, and with which body?
     type: text
     used_by: E (Solar and Battery System Design)
+  - id: qs.pi.ac.tpb_registration
+    text: For each principal and the firm, what Tax Practitioners Board registration is held (tax agent, BAS agent, tax (financial) adviser) and what is the registration number?
+    type: repeating (person or entity, registration type, number)
+    used_by: S (base Licences, Registrations and Accreditations condition)
+  - id: qs.pi.ac.tax_turnover
+    text: What was your annual turnover from tax agent and BAS services in the last financial year?
+    type: currency
+    used_by: R (minimum limit under TPB(EP) 03/2010 is a platform restriction)
+  - id: qs.pi.ac.scheme_membership
+    text: Is the firm, or any principal, a member of a professional standards scheme? If so, which scheme and what is the scheme's monetary cap?
+    type: yes/no, with scheme and cap
+    used_by: R (limit must be at least the scheme requirement)
+  - id: qs.pi.ac.trust_funds
+    text: What is the largest amount of client or appointment money held at any one time?
+    type: currency
+    used_by: R
+  - id: qs.pi.ac.registered_liquidator
+    text: Is any principal a registered liquidator?
+    type: yes/no
+    used_by: E (Registered Liquidators)
+  - id: qs.pi.ac.listed_audit_clients
+    text: How many entities listed on a securities exchange, or regulated by APRA, do you audit or review?
+    type: number
+    used_by: R, E (Listed Entity Audits Exclusion)
+  - id: qs.pi.ac.smsf_audits_count
+    text: How many self-managed superannuation fund audits do you sign each year?
+    type: number
+    used_by: E (SMSF Audits Sub-limit)
+  - id: qs.pi.ac.limited_afsl
+    text: Do you, or any principal, give financial product advice under a limited AFS licence or as an authorised representative?
+    type: yes/no, with licence or AR number
+    used_by: E (Licensed Financial Advice)
+  - id: qs.pi.ac.tfa_condition
+    text: Does any principal's TPB registration carry a tax (financial) advice condition?
+    type: yes/no
+    used_by: E (Licensed Financial Advice)
+  - id: qs.pi.ac.valuation_pct
+    text: What percentage of your fees in the last 12 months came from business, share or asset valuations?
+    type: percentage
+    used_by: R, E (Valuations Sub-limit)
+  - id: qs.pi.ac.crypto_clients_pct
+    text: What percentage of your clients hold crypto-assets that you account for or report on?
+    type: percentage
+    used_by: E (Crypto-assets Exclusion)
+  - id: qs.pi.re.licences
+    text: For each state or territory in which you operate, which licences and certificates are held, by whom, and what are the numbers?
+    type: repeating (state, person or entity, licence type, number)
+    used_by: S (base Licences condition; state minimum limits are platform restrictions)
+  - id: qs.pi.re.fee_split
+    text: What percentage of your fees and commissions in the last 12 months came from sales, leasing, property management, strata management, stock and station agency, auctioneering and insurance distribution?
+    type: repeating (activity, percentage)
+    used_by: R
+  - id: qs.pi.re.properties_managed
+    text: How many properties do you manage?
+    type: number
+    used_by: R
+  - id: qs.pi.re.franchise
+    text: Do you operate under a franchise agreement that requires you to insure the franchisor? If so, name the franchisor.
+    type: yes/no, with name
+    used_by: S (Franchisor's Indemnity)
+  - id: qs.pi.re.rent_roll_acquired
+    text: Have you acquired a rent roll or strata management rights in the last three years, or do you plan to in the next 12 months?
+    type: yes/no, with details
+    used_by: S (Rent Roll Acquisitions)
+  - id: qs.pi.re.underquoting
+    text: In the last five years, has any principal or employee been the subject of a complaint, penalty or action about underquoting?
+    type: yes/no, with details
+    used_by: R
+  - id: qs.pi.re.trust_money
+    text: Do you hold client money in a trust account?
+    type: yes/no
+    used_by: E (Payment Redirection)
+  - id: qs.pi.re.callback_verification
+    text: Before paying trust money to new or changed account details, do you always confirm the details by calling the person on a telephone number you already hold?
+    type: yes/no
+    used_by: E (Payment Redirection)
+  - id: qs.pi.re.commercial_over_10m_pct
+    text: What percentage of your fees in the last 12 months came from commercial or industrial properties worth more than $10 million?
+    type: percentage
+    used_by: E (Commercial Property over $10 Million Exclusion)
+  - id: qs.pi.re.strata_lots_managed
+    text: How many strata or community scheme lots do you manage?
+    type: number
+    used_by: R, E (Strata Defects Advice Exclusion)
+  - id: qs.pi.re.business_broking_pct
+    text: What percentage of your fees in the last 12 months came from business broking?
+    type: percentage
+    used_by: E (Business Broking)
+  - id: qs.pi.re.off_the_plan_pct
+    text: What percentage of your sales in the last 12 months were off the plan?
+    type: percentage
+    used_by: R, E (Off-the-Plan Sales Sub-limit)
+  - id: qs.pi.re.livestock_sales
+    text: Do you conduct livestock sales?
+    type: yes/no
+    used_by: E (Livestock Sales Injury and Damage Exclusion)
