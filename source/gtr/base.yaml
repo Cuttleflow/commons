@@ -1,0 +1,133 @@
+id: gtr-base
+title: Corporate Travel Insurance
+class: CORPORATE TRAVEL INSURANCE
+kicker: Meridian Commons · Corporate Travel
+slug: corporate-travel
+file_stem: Meridian_Corporate_Travel
+doc_ref: 2026/CT/0001
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: 'Annual cover for an organisation''s business travellers, in Australia and overseas: medical, accident, disruption, luggage, money, liability, kidnap and crisis, and rental vehicle excess, sold through brokers.'
+supersedes: New wording. Derived from the Meridian Corporate Travel Insurance Policy Wording v1.0.0 (July 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - gtr.about
+  - gtr.version-history
+  - gtr.important-information
+  - gtr.schedule
+- section: gtr.section.definitions
+  clauses:
+  - gtr.def.accident
+  - gtr.def.accompanying-family-member
+  - gtr.def.business-equipment
+  - gtr.def.business-trip
+  - gtr.def.dfat-advice
+  - gtr.def.endorsement
+  - gtr.def.epidemic-or-pandemic
+  - gtr.def.excess
+  - gtr.def.home
+  - gtr.def.immediate-family
+  - gtr.def.injury
+  - gtr.def.insured-person
+  - gtr.def.kidnap
+  - gtr.def.known-event
+  - gtr.def.luggage-and-personal-effects
+  - gtr.def.medical-practitioner
+  - gtr.def.medicare-eligible
+  - gtr.def.money
+  - gtr.def.permanent-total-disablement
+  - gtr.def.policy-period
+  - gtr.def.pre-existing-condition
+  - gtr.def.rental-vehicle
+  - gtr.def.sickness
+  - gtr.def.temporary-total-disablement
+  - gtr.def.terrorism
+  - gtr.def.trip
+  - gtr.def.unattended
+  - gtr.def.we-us-our
+  - gtr.def.you-your
+- section: gtr.section.cover-basis
+  clauses:
+  - gtr.cover.who-is-covered
+  - gtr.cover.trip
+- section: gtr.section.medical
+  clauses:
+  - gtr.cover.medical
+- section: gtr.section.personal-accident
+  clauses:
+  - gtr.cover.personal-accident
+- section: gtr.section.disruption
+  clauses:
+  - gtr.cover.disruption
+- section: gtr.section.luggage
+  clauses:
+  - gtr.cover.luggage
+- section: gtr.section.business-expenses
+  clauses:
+  - gtr.cover.business-expenses
+- section: gtr.section.liability
+  clauses:
+  - gtr.cover.liability
+- section: gtr.section.kidnap-crisis
+  clauses:
+  - gtr.cover.kidnap-crisis
+- section: gtr.section.rental-vehicle
+  clauses:
+  - gtr.cover.rental-vehicle
+- section: gtr.section.payment
+  clauses:
+  - gtr.pay.limits-and-excess
+  - gtr.pay.one-section
+  - gtr.pay.accumulation
+  - gtr.pay.medicare
+  - gtr.pay.other-insurance
+  - gtr.pay.who-we-pay
+- section: gtr.section.exclusions
+  clauses:
+  - gtr.excl.pre-existing-conditions
+  - gtr.excl.government-advice
+  - gtr.excl.war
+  - gtr.excl.nuclear-biological-chemical
+  - gtr.excl.epidemic-pandemic
+  - gtr.excl.known-events
+  - gtr.excl.self-injury-intoxication
+  - gtr.excl.illegal-acts
+  - gtr.excl.hazardous-activities
+  - gtr.excl.manual-work
+  - gtr.excl.pregnancy
+  - gtr.excl.elective-treatment
+- section: gtr.section.obligations
+  clauses:
+  - gtr.obl.emergencies
+  - gtr.obl.claims
+  - gtr.obl.declarations
+- section: gtr.section.conditions
+  clauses:
+  - gtr.cond.insurance-contracts-act
+  - gtr.cond.cancellation
+  - gtr.cond.renewal
+  - gtr.cond.fraud
+  - gtr.cond.sanctions
+  - gtr.cond.gst
+  - gtr.cond.privacy
+  - gtr.cond.disputes-and-complaints
+  - gtr.cond.governing-law
+  - gtr.cond.jurisdiction
+  - gtr.cond.headings-and-references
+- section: end
+  clauses:
+  - gtr.claims.how-to-make-a-claim
+  - gtr.endorsement-library
+  - gtr.end.e01
+  - gtr.end.e02
+  - gtr.end.e03
+  - gtr.end.e04
+  - gtr.end.e05
+  - gtr.end.e06
+  - gtr.end.e07
+  - gtr.end.e08
+  - gtr.end.e09
+  - gtr.end.e10
+  - gtr.licence-notice

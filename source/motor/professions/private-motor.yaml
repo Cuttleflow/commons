@@ -1,0 +1,103 @@
+id: mot-personal
+title: Private Motor Insurance
+class: PRIVATE MOTOR INSURANCE
+kicker: Meridian Commons · Private Motor
+slug: private-motor
+file_stem: Meridian_Private_Motor
+doc_ref: 2026/PMV/0001
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Private car insurance for individuals, built on the Meridian Commercial Motor base wording so that cover
+  levels, settlement and liability read the same way across commercial, fleet and private motor.
+base: mot-base@3.0.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated private wording
+supersedes: None (first release)
+overrides:
+- op: replace
+  target: mot.about
+  with: mot.pvt.about
+- op: replace
+  target: mot.who-this-is-for
+  with: mot.pvt.who-this-is-for
+- op: replace
+  target: mot.schedule
+  with: mot.pvt.schedule
+- op: replace
+  target: mot.def.insured-vehicle
+  with: mot.pvt.def.insured-vehicle
+- op: replace
+  target: mot.def.permitted-use
+  with: mot.pvt.def.permitted-use
+- op: replace
+  target: mot.def.you-your
+  with: mot.pvt.def.you-your
+- op: delete
+  target: mot.def.fleet-basis
+- op: delete
+  target: mot.def.declaration-date
+- op: delete
+  target: mot.def.tool-of-trade
+- op: delete
+  target: mot.section.fleet
+- op: replace
+  target: mot.ext.additional-benefits
+  with: mot.pvt.ext.additional-benefits
+- op: delete
+  target: mot.ext.dangerous-goods
+- op: replace
+  target: mot.excl.liability
+  with: mot.pvt.excl.liability
+- op: replace
+  target: mot.excl.vehicle-cover
+  with: mot.pvt.excl.vehicle-cover
+- op: replace
+  target: mot.cond.duty-of-disclosure
+  with: mot.pvt.cond.duty-to-take-reasonable-care
+- op: replace
+  target: mot.cond.complaints
+  with: mot.pvt.cond.complaints
+- op: add
+  clause: mot.pvt.cond.no-claim-bonus
+  after: mot.cond.excess
+- op: add
+  clause: mot.pvt.cond.cooling-off
+  after: mot.cond.cancellation
+- op: replace
+  target: mot.obl.tell-us-about-changes
+  with: mot.pvt.obl.tell-us-about-changes
+- op: replace
+  target: mot.endorsement-library
+  with: mot.pvt.endorsement-library
+- op: delete
+  target: mot.end.e01
+- op: delete
+  target: mot.end.e02
+- op: delete
+  target: mot.end.e03
+- op: delete
+  target: mot.end.e04
+- op: delete
+  target: mot.end.e07
+- op: delete
+  target: mot.end.e08
+- op: delete
+  target: mot.end.e09
+- op: delete
+  target: mot.end.e11
+- op: delete
+  target: mot.end.e12
+- op: delete
+  target: mot.end.e13
+- op: delete
+  target: mot.end.e15
+- op: delete
+  target: mot.end.e16
+- op: delete
+  target: mot.end.e17
+- op: delete
+  target: mot.end.e18
+- op: replace
+  target: mot.appendix.default-schedule-values
+  with: mot.pvt.appendix.default-schedule-values
