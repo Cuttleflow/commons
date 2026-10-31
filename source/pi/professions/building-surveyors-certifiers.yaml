@@ -1,0 +1,75 @@
+id: pi-building-surveyors-certifiers
+title: Building Surveyors and Certifiers Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · BUILDING SURVEYORS AND CERTIFIERS
+kicker: Meridian Commons · Professional Indemnity · Building Surveyors and Certifiers
+slug: building-surveyors-certifiers
+file_stem: Meridian_PI_Building_Surveyors_Certifiers
+doc_ref: 2026/PI/0003
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for registered building surveyors and certifiers, built on the
+  Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-SURV-v1.0.0 for building surveyors (endorsement to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.bsc.def.professional-services
+- op: add
+  clause: pi.bsc.ext.cover-from-first-registration
+  after: pi.ext.subcontractors-and-outsourcers
+- op: add
+  clause: pi.bsc.ext.building-regulator-proceedings
+  after: pi.bsc.ext.cover-from-first-registration
+- op: add
+  clause: pi.arch.excl.construction
+  after: pi.excl.products
+- op: add
+  clause: pi.bsc.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.bsc.end.external-cladding
+  after: pi.bsc.library.optional-endorsements
+- op: add
+  clause: pi.bsc.end.apartment-buildings
+  after: pi.bsc.end.external-cladding
+- op: add
+  clause: pi.bsc.end.retirement-run-off
+  after: pi.bsc.end.apartment-buildings
+- op: add
+  clause: pi.bsc.end.pool-safety-inspections
+  after: pi.bsc.end.retirement-run-off
+- op: add
+  clause: pi.bsc.end.fire-performance-solutions
+  after: pi.bsc.end.pool-safety-inspections
+regulatory_basis:
+- topic: NSW — Building and Development Certifiers Act 2018 and Building and Development Certifiers Regulation 2020,
+    Part 3 (insurance)
+  status: 'Cover since first registration: Cover from First Registration extension. Cladding exclusion in the permitted
+    form: External Cladding Exclusion endorsement (restriction refers). Minimum limits depend on the number of certifiers
+    and are a schedule matter; counsel to confirm the current amounts.'
+  review_by: '2027-06-30'
+- topic: Victoria — Building Act 1993 s.135 and the building practitioners insurance Ministerial Orders
+  status: Cladding exclusion only in the form the Order permits (External Cladding Exclusion endorsement; restriction
+    refers). Current Order text to be read.
+  review_by: '2027-01-31'
+- topic: Queensland — Building Regulation 2021 s.84 (cladding exclusion permitted until 30 June 2027) and QBCC insurance
+    requirements for private certifiers
+  status: 'Automatic reinstatement: base. Former principals: base definition of insured person. Cladding exclusion
+    after 30 June 2027 refers (restriction).'
+  review_by: '2027-06-30'
+- topic: Other states and territories
+  status: Not yet researched. Base Compulsory Insurance Requirements condition applies.
+  review_by: '2027-03-31'
+proposal_questions:
+- 'Registration of each certifier: state, class of registration, number and date of first registration.'
+- Number of certifiers (drives the NSW minimum limit) and whether any are council employees.
+- Disciplinary findings, licence conditions and audit outcomes in the last five years.
+- Fees and certificates by building class, maximum storeys, cladding involvement, fire performance solutions and
+  pool barrier inspections.
+decisions:
+- '2026-10-31: Separate product rather than an A&E endorsement, because state rules must be enforced as restrictions
+  (profession review approved 31 October 2026).'
+- '2026-10-31: Cladding exclusion in each state''s permitted form, not one national form.'
+- '2026-10-31: Queensland cladding exclusion switches to referral from 1 July 2027; no further extension assumed.'

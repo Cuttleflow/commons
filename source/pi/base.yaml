@@ -5,11 +5,10 @@ kicker: Meridian Commons · Professional Indemnity
 slug: professional-indemnity
 file_stem: Meridian_Professional_Indemnity
 doc_ref: 2026/PI/0001
-version: 1.3.0-DRAFT
+version: 1.4.0-DRAFT
 date: October 2026
 draft: true
-summary: Civil-liability cover for professional services, written on a claims-made
-  basis.
+summary: Civil-liability cover for professional services, written on a claims-made basis.
 structure:
 - section: preamble
   clauses:
@@ -84,6 +83,7 @@ structure:
 - section: pi.section.payment
   clauses:
   - pi.pay.limit-of-liability
+  - pi.pay.automatic-reinstatement
   - pi.pay.sub-limits
   - pi.pay.defence-costs
   - pi.pay.excess
@@ -105,6 +105,9 @@ structure:
   clauses:
   - pi.cond.insurance-contracts-act
   - pi.cond.your-duty-of-disclosure
+  - pi.cond.licences-registrations-and-accreditations
+  - pi.cond.compulsory-insurance-requirements
+  - pi.cond.professional-standards-schemes
   - pi.cond.cancellation
   - pi.cond.governing-law
   - pi.cond.jurisdiction

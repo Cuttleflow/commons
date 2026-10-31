@@ -5,13 +5,14 @@ kicker: Meridian Commons · Professional Indemnity · Architects and Engineers
 slug: architects-engineers
 file_stem: Meridian_PI_Architects_Engineers
 doc_ref: 2026/PI/0002
-version: 1.0.0-DRAFT
+version: 1.1.0-DRAFT
 date: October 2026
 draft: true
-summary: Integrated professional indemnity wording for architects, engineers, surveyors and related design professions,
-  built on the Meridian PI base wording.
-base: pi-base@1.3.0-DRAFT
-supersedes: MERIDIAN-PI-ARCH-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+summary: Integrated professional indemnity wording for architects, engineers, surveyors, town planners and related
+  design professions, built on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-ARCH-v1.0.0 and, for land, cadastral and quantity surveyors, MERIDIAN-PI-SURV-v1.0.0 (endorsements
+  to base PI v1.0.0, June 2026)
 overrides:
 - op: replace
   target: pi.def.professional-services
@@ -38,9 +39,6 @@ overrides:
   clause: pi.arch.excl.excluded-activities
   after: pi.excl.non-compensatory-payments
 - op: add
-  clause: pi.arch.pay.automatic-reinstatement
-  after: pi.pay.limit-of-liability
-- op: add
   clause: pi.arch.library.optional-endorsements
   after: pi.endorsement-library
 - op: add
@@ -52,6 +50,15 @@ overrides:
 - op: add
   clause: pi.arch.end.mining-equipment-warranties
   after: pi.arch.end.combustible-cladding
+- op: add
+  clause: pi.arch.end.cadastral-run-off
+  after: pi.arch.end.mining-equipment-warranties
+- op: add
+  clause: pi.arch.end.depreciation-schedules
+  after: pi.arch.end.cadastral-run-off
+- op: add
+  clause: pi.arch.end.hydrographic-surveys
+  after: pi.arch.end.depreciation-schedules
 regulatory_basis:
 - topic: Victoria — insurance required for endorsed building engineers (Building Act 1993 s.135; Building Practitioners'
     and Endorsed Building Engineers' Insurance Ministerial Order, in force 1 August 2021)
@@ -59,7 +66,7 @@ regulatory_basis:
     permit it; Order text still to be read to confirm the engineers position
   review_by: 2027-01-31
 - topic: Victoria — Architects Insurance Ministerial Order (2020)
-  status: Met by the Automatic Reinstatement provision; minimum limits are a schedule matter
+  status: Met by the base Automatic Reinstatement provision (base 1.4.0); minimum limits are a schedule matter
   review_by: 2027-01-31
 - topic: NSW — Design and Building Practitioners Act 2020 and Regulation 2021
   status: Met by the NSW Registered Practitioners extension (retroactive date = first registration for regulated
@@ -68,6 +75,9 @@ regulatory_basis:
 - topic: Queensland — RPEQ Code of Practice; Board of Architects of Queensland Code
   status: Appropriate PI and disclosure to clients; no statutory minimum found
   review_by: 2027-06-30
+- topic: Cadastral surveyors — registration with the state Surveyor-General or surveyors board
+  status: Applied through the base Licences, Registrations and Accreditations condition
+  review_by: '2027-06-30'
 proposal_questions:
 - Registration, licensing or endorsement held by each principal for each state in which you practise (architect,
   RPEQ, Victorian endorsed building engineer, NSW registered design practitioner or professional engineer).
@@ -86,3 +96,6 @@ decisions:
 - '2026-10-29: One automatic reinstatement built into the wording.'
 - '2026-10-29: NSW registered practitioners: retroactive date treated as date of first registration for regulated
   work.'
+- '2026-10-31: Land, cadastral, engineering and quantity surveying and town planning sit in this wording (Surveyors
+  review, approved 31 October 2026). Building surveyors and certifiers have their own wording.'
+- '2026-10-31: Automatic Reinstatement and the registration rule moved to the base wording (base 1.4.0).'
