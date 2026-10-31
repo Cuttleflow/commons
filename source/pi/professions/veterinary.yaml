@@ -1,0 +1,72 @@
+id: pi-veterinary
+title: Veterinary Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · VETERINARY
+kicker: Meridian Commons · Professional Indemnity · Veterinary
+slug: veterinary
+file_stem: Meridian_PI_Veterinary
+doc_ref: 2026/PI/0012
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for veterinary practices and registered veterinarians, built
+  on the Meridian PI base wording.
+base: pi-base@1.4.0-DRAFT
+supersedes: MERIDIAN-PI-VETS-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.vt.def.professional-services
+- op: replace
+  target: pi.excl.products
+  with: pi.vt.excl.products
+- op: add
+  clause: pi.vt.ext.animals-in-care
+  after: pi.ext.subcontractors-and-outsourcers
+- op: add
+  clause: pi.vt.ext.veterinary-boards
+  after: pi.vt.ext.animals-in-care
+- op: add
+  clause: pi.vt.ext.emergency-treatment
+  after: pi.vt.ext.veterinary-boards
+- op: add
+  clause: pi.vt.excl.animal-welfare-offences
+  after: pi.excl.non-compensatory-payments
+- op: add
+  clause: pi.vt.pay.high-value-animals
+  after: pi.pay.excess
+- op: add
+  clause: pi.vt.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.vt.end.racing-animals
+  after: pi.vt.library.optional-endorsements
+- op: add
+  clause: pi.vt.end.pre-purchase-examinations
+  after: pi.vt.end.racing-animals
+- op: add
+  clause: pi.vt.end.reproductive-services
+  after: pi.vt.end.pre-purchase-examinations
+- op: add
+  clause: pi.vt.end.live-export
+  after: pi.vt.end.reproductive-services
+regulatory_basis:
+- topic: State and territory Veterinary Practitioners Acts (registration; national recognition of veterinary registration)
+  status: Registration required by the definition of professional services and the base Licences condition. Whether
+    any state requires PI as a condition of registration is still to be confirmed.
+  review_by: '2027-03-31'
+- topic: Animal welfare and biosecurity laws (notification duties)
+  status: Fines and penalties excluded; defence costs covered (Animal Welfare and Biosecurity Penalties exclusion).
+  review_by: '2027-03-31'
+- topic: Export Control Act 2020 (accredited veterinarians for live export)
+  status: Live export certification outside the definition; Live Export Certification Exclusion endorsement available.
+  review_by: '2027-03-31'
+proposal_questions:
+- Registration of each veterinarian, by state.
+- Species split and highest-value animal, herd or flock treated.
+- Telehealth, compounding, gene therapy and reproductive services.
+- Racing animals, pre-purchase examinations and live export certification.
+decisions:
+- '2026-10-31: Built on the PI base rather than a medical wording; not combined with public liability for now (profession
+  review approved 31 October 2026).'
+- '2026-10-31: High-value animal excess kept; artificial insemination and gene therapy handled by questions; care,
+  custody and control write-back added.'
