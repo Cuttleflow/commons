@@ -1,0 +1,1019 @@
+{
+ "wording": "str-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/STR/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "str.about",
+   "heading": "About This Policy",
+   "sha256": "12a95615f13e66be770e2c4a339dd5da00f4df4c5ce689f8f4c99cd0e6c406ee"
+  },
+  {
+   "id": "str.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "str.important-information",
+   "heading": "Important Information",
+   "sha256": "55cf586e8fbb9127de54c9707744c4d8a84c616d3bf86c7d70d7f2482bbc7c8c"
+  },
+  {
+   "id": "str.schedule",
+   "heading": "Schedule",
+   "sha256": "6ed3579d5e6c081a8e9410f3848a12e48f4ab09b706d65e53f99e898b9866924"
+  },
+  {
+   "id": "str.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "str.def.action-of-the-sea",
+   "heading": "Action of the Sea",
+   "sha256": "09279eb95f29c0f654e6be64490474674e09ec6910061894a5195d4dc0fd1809"
+  },
+  {
+   "id": "str.def.body-corporate",
+   "heading": "Body Corporate",
+   "sha256": "9d4b8cc0919f550d8d5966491975cc912a26bdcd7c66de7d95fc8425105a7f51"
+  },
+  {
+   "id": "str.def.building",
+   "heading": "Building",
+   "sha256": "3b9998a6bcd6eb2f1772623805e7513454ffbee986ac64d22957866384edce9d"
+  },
+  {
+   "id": "str.def.claim",
+   "heading": "Claim",
+   "sha256": "09535fb72d2ca243f819f920239354f22ef8a2ae5c9a34f8ae1076a2bb81ac57"
+  },
+  {
+   "id": "str.def.common-contents",
+   "heading": "Common Contents",
+   "sha256": "fa2e54ccabe20829f67a93ac2ea89bf34f9a899500d1be89edd51f55c34ce2f0"
+  },
+  {
+   "id": "str.def.common-property",
+   "heading": "Common Property",
+   "sha256": "708263574e1d89818cef5082fec822cefd538dc23d4da48bc523f6751343a3aa"
+  },
+  {
+   "id": "str.def.damage",
+   "heading": "Damage",
+   "sha256": "a0a2becb3045abc6a1cee3234ad580a666944df09129ff1edf6288f7be4fefa6"
+  },
+  {
+   "id": "str.def.defect",
+   "heading": "Defect",
+   "sha256": "5566f73c2ae9e2e94c15891411f970549eee170cf319883415ebac1d54c8bc78"
+  },
+  {
+   "id": "str.def.discovered",
+   "heading": "Discovered",
+   "sha256": "bead6b642c6b8708c30651a1288dac967bb87bfa1e4e4df7f9414a1e24fbf445"
+  },
+  {
+   "id": "str.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "str.def.event",
+   "heading": "Event",
+   "sha256": "ea422572812bbf7207170aa45aaa20eb198b2147f69fea2fb2e0207dcb555bdf"
+  },
+  {
+   "id": "str.def.excess",
+   "heading": "Excess",
+   "sha256": "ce8799d511bb058fba62bfba6ceec51457386fc95c72b2323d42cb8b09cf61ef"
+  },
+  {
+   "id": "str.def.fidelity-continuity-date",
+   "heading": "Fidelity Continuity Date",
+   "sha256": "2718be0349e3801eea8af6762297c4d02e9fc5b9b1a741909917af7ec12ee555"
+  },
+  {
+   "id": "str.def.final-adjudication",
+   "heading": "Final Adjudication",
+   "sha256": "f5f56fab59ac8bce25944e8f1433fa5115e1c22dfc3b10840ef9ff8261456824"
+  },
+  {
+   "id": "str.def.flood",
+   "heading": "Flood",
+   "sha256": "ad90765e056be5bef8913eab403de8cb368f8b99cfe90ba2bc34dd2c0f3858c3"
+  },
+  {
+   "id": "str.def.funds",
+   "heading": "Funds",
+   "sha256": "1974d6fd3e8bf0a131aad7ae9a8e0813275fc66086fe8285f4341b548953587c"
+  },
+  {
+   "id": "str.def.indemnity-period",
+   "heading": "Indemnity Period",
+   "sha256": "5eb0fa1324b38641d9950421d8d05be6052b6a3bc302a69c5f765e5c8e423b32"
+  },
+  {
+   "id": "str.def.lot",
+   "heading": "Lot",
+   "sha256": "f1e91935c01f81a6aad9804fd407fcbf47289f232fbfc04909604f9b0e3c328f"
+  },
+  {
+   "id": "str.def.lot-owner",
+   "heading": "Lot Owner",
+   "sha256": "0370d764a5e1e03334fdebf11e588d6fa2a221830b1b5de7143bcc9066011305"
+  },
+  {
+   "id": "str.def.lot-owners-fixtures",
+   "heading": "Lot Owners' Fixtures and Improvements",
+   "sha256": "b284add6a65470b87b014c7a01e2969f73a8ba548f42a3d24358430b0304aa26"
+  },
+  {
+   "id": "str.def.machinery",
+   "heading": "Machinery",
+   "sha256": "6ffa14fc14b136bcbbf2d8056caf078dd55c858cfbaf805bbc50b92f0f3a18ad"
+  },
+  {
+   "id": "str.def.major-works",
+   "heading": "Major Works",
+   "sha256": "3fa5ab3056b11a1a478dbdfb00bf8112550c30e19cdcf0c84b55aa45c9d32df5"
+  },
+  {
+   "id": "str.def.office-bearer",
+   "heading": "Office Bearer",
+   "sha256": "be423e75af3d4a9b1e53f109e96fae1d955b3fa791fcba0d51e739f27ed400ab"
+  },
+  {
+   "id": "str.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "76846b8e4c2dc1925b57c668d57253c77ef4745e428e2c52339aeb4dc0025922"
+  },
+  {
+   "id": "str.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "4b030f38437c9dc3975d7fd59275666dec7a6789f1cfab4f8fd2718a141478b8"
+  },
+  {
+   "id": "str.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "df5f6255c7e78cf0c20343b135655defa0525f02929dc10cb654ac38dfaa1ce2"
+  },
+  {
+   "id": "str.def.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "5cc248774b28f947e58d37e5a1c8afa27738855ec8244717c6e97855f09d46fb"
+  },
+  {
+   "id": "str.def.social-engineering-fraud",
+   "heading": "Social Engineering Fraud",
+   "sha256": "19ba3792605326be0877be7a7c129670ed9461071a4f948f9eee420d81e50356"
+  },
+  {
+   "id": "str.def.storm",
+   "heading": "Storm",
+   "sha256": "e88adacfb114307cded4155ec9cd6cc7630e40c547c8a89f4d53315a5e5761c6"
+  },
+  {
+   "id": "str.def.strata-legislation",
+   "heading": "Strata Legislation",
+   "sha256": "dfa8c27051675a60d7309a718d861150e275dfe12d637fb9a50e7607947a0f94"
+  },
+  {
+   "id": "str.def.strata-manager",
+   "heading": "Strata Manager",
+   "sha256": "a9e0d02554b358c5db130c9e95d20843cf42348818fdd8a2fcb1514feaa5744c"
+  },
+  {
+   "id": "str.def.sum-insured",
+   "heading": "Sum Insured",
+   "sha256": "d63dc1f6e89cf8fbe0c0596fa85abb6043edeacf7bcf84986c2bb5001e187f3a"
+  },
+  {
+   "id": "str.def.unoccupied",
+   "heading": "Unoccupied",
+   "sha256": "6950e555a49eef0cbf2678f891562b255092ab006dbf1e9d67de5345d059ad01"
+  },
+  {
+   "id": "str.def.voluntary-worker",
+   "heading": "Voluntary Worker",
+   "sha256": "cdc7c150229f19dda2b998ee70f75b1d7eaf277419aee8be25d3bf8d26471743"
+  },
+  {
+   "id": "str.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "str.def.wrongful-act",
+   "heading": "Wrongful Act",
+   "sha256": "3ad6e4ac6db13c4348e62dc2bcc419292db816fd898ab2cc75eb33f354ce7881"
+  },
+  {
+   "id": "str.def.you-your",
+   "heading": "You, Your",
+   "sha256": "7a3cd38dd0753b5e179212da0cb5252c5fdd191c5e1049abe7c5bf8891c03f4b"
+  },
+  {
+   "id": "str.section.property",
+   "heading": "Buildings and Common Contents",
+   "sha256": "a6b00cfc01676a80f654f3d5f17d7f8f6dccee442af7a7c19d033e747b2c5915"
+  },
+  {
+   "id": "str.cover.property",
+   "heading": "Damage to the Building and Common Contents",
+   "sha256": "819b5b8aea097afb4edba9aaba1a2d6c5856cd1fafbdf9daeba8862cf34464f0"
+  },
+  {
+   "id": "str.pay.basis-of-settlement",
+   "heading": "How We Settle Property Claims",
+   "sha256": "5c1a2183afec6a5b47103a0d324a2933906beaf046581f45580e1cade52826dc"
+  },
+  {
+   "id": "str.ext.loss-of-rent",
+   "heading": "Loss of Rent and Temporary Accommodation",
+   "sha256": "c6900dca161f59ef3eca1afcd1a8187b9cdd400a995aef5dbb3af7465f038d07"
+  },
+  {
+   "id": "str.ext.lot-owners-fixtures",
+   "heading": "Lot Owners' Fixtures and Improvements",
+   "sha256": "ddcff76221e33fba2636147404e1d0ca727efb21c36627cdb767a66d92c7f7bb"
+  },
+  {
+   "id": "str.ext.floating-floors",
+   "heading": "Floating Floors",
+   "sha256": "0dd44bffb72038b12ac86c3b25699c87dd6c99cb6cf2fe22783bb4c956c68ef8"
+  },
+  {
+   "id": "str.ext.emergency-repairs",
+   "heading": "Emergency Repairs and Temporary Protection",
+   "sha256": "0d6af603382e3def458de01097ddeb2cd95e9bb114c5e522168e8213cf3fa504"
+  },
+  {
+   "id": "str.ext.leak-detection",
+   "heading": "Finding the Source of a Leak",
+   "sha256": "c0154b4e53a9efc1b2d810a5f7dc16f018cd701084a72c9639ea217804092eef"
+  },
+  {
+   "id": "str.ext.fire-services-charges",
+   "heading": "Fire Brigade and Emergency Services Charges",
+   "sha256": "01d5a829abf96f5998b5b76893312641e4c6400b2297312aea5cceb7d9c53694"
+  },
+  {
+   "id": "str.ext.keys-and-locks",
+   "heading": "Keys, Locks and Access Devices",
+   "sha256": "8d7ddcb8152346db56ee68e85b41518444b5b3be5e6c751dd36498941b34b9a1"
+  },
+  {
+   "id": "str.ext.mortgagees",
+   "heading": "Interests of Lot Owners and Financiers",
+   "sha256": "9791ea4cce9257e2b1a186f29f4b1c2e7897ea979573d2e64501a2ecac86f8e2"
+  },
+  {
+   "id": "str.cover.catastrophe",
+   "heading": "Catastrophe Cover",
+   "sha256": "ae145512185d45ee4902548ac375460704d522363724deff120ff390223f2e39"
+  },
+  {
+   "id": "str.excl.defects-and-gradual-causes",
+   "heading": "Defects and Gradual Causes",
+   "sha256": "729709e72fad2b8e3bfb3aca8f7c8b329d5fc945eb602aa6acc97d6d5c9beaba"
+  },
+  {
+   "id": "str.excl.flood",
+   "heading": "Flood",
+   "sha256": "14c248497a73a1dbdb8fe8147c39bb441cff578aa453f359604c4417564a8063"
+  },
+  {
+   "id": "str.excl.action-of-the-sea",
+   "heading": "Action of the Sea",
+   "sha256": "9144b37c9178e249409c2b0dcaf9550ac18dba55c4c092334398d8c7058fb1ce"
+  },
+  {
+   "id": "str.excl.earth-movement",
+   "heading": "Earth Movement",
+   "sha256": "493845c635feb8c24a3643fc289aebc6fac2e1adaa48995306204d49a8229b94"
+  },
+  {
+   "id": "str.excl.unoccupied-building",
+   "heading": "Unoccupied Building",
+   "sha256": "fd844717fba2c5263cd1773f6ad48363e804659ee623568f76cd10850e7bd1e3"
+  },
+  {
+   "id": "str.excl.major-works",
+   "heading": "Major Works",
+   "sha256": "e98a81f9078eb56789443407d582dfeaa875b7a26ea522f3389afef352544f61"
+  },
+  {
+   "id": "str.excl.property-other",
+   "heading": "Property and Losses Not Covered",
+   "sha256": "789576de6658e1ce4f73cbd6a29cc3a43e1619883049d9000c92c533e770142d"
+  },
+  {
+   "id": "str.section.liability",
+   "heading": "Public Liability",
+   "sha256": "7f47e420f358a1e54f40a130f5ba88735d49525a190ad11ab71330d805474534"
+  },
+  {
+   "id": "str.cover.liability",
+   "heading": "Legal Liability to Others",
+   "sha256": "01f8916726f031aa5245962b2415651166033be144a8f59d7a1c79ab5b97dc6e"
+  },
+  {
+   "id": "str.excl.liability-workers",
+   "heading": "Injury to Workers",
+   "sha256": "ad5a75689e263d9d5f6d266a4d1174d7000df81d89633e15fa70076fd2a91bdd"
+  },
+  {
+   "id": "str.excl.liability-contracts",
+   "heading": "Liability Under Contract",
+   "sha256": "a6e43562f35b74f1dfe3fa757de225f35c7a1c72b5fa33e7ae70d67f819b2847"
+  },
+  {
+   "id": "str.excl.liability-own-property",
+   "heading": "Property You Own or Insure",
+   "sha256": "d400218b48afa820361b1c7228c96d5e39bb46bb9a58b5db4689bdcc1b816ed8"
+  },
+  {
+   "id": "str.excl.liability-vehicles",
+   "heading": "Vehicles, Aircraft and Watercraft",
+   "sha256": "338f0149f5161d113c6e9e6bfa2456d2e785f70c9f0928196259e2471eff8168"
+  },
+  {
+   "id": "str.excl.liability-pollution",
+   "heading": "Pollution",
+   "sha256": "a858f1e2487335e0b87bafe9ee93e532b42e1aea10a771234b4a482466cf3d5a"
+  },
+  {
+   "id": "str.excl.liability-asbestos",
+   "heading": "Asbestos",
+   "sha256": "c9ca5c78bacc32cd16c09abab45dda92dd80f40d23b05583cc69d5207c1b6b76"
+  },
+  {
+   "id": "str.excl.liability-lot-business",
+   "heading": "Business in a Lot",
+   "sha256": "fe5eafd9061514265e60b7632e4c04fc9391e77f518ddead40817284df8fb631"
+  },
+  {
+   "id": "str.excl.liability-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "cfde76f4c3c7303f164f9373c9edd24db51b93f493224e9c14ee451ef5f73507"
+  },
+  {
+   "id": "str.section.voluntary-workers",
+   "heading": "Voluntary Workers",
+   "sha256": "6a7890aaf72da39837451175b4e2031309303e2970a1f4fb61ba465db15fb6d9"
+  },
+  {
+   "id": "str.cover.voluntary-workers",
+   "heading": "Injury to Voluntary Workers",
+   "sha256": "f5d34fe7a6ef5230fc8e987581b890d61462dc6e7db1fd95fd1ffbc7f64664cd"
+  },
+  {
+   "id": "str.section.fidelity",
+   "heading": "Fidelity Guarantee",
+   "sha256": "2afffefca946b0e2a1f44458f94ca983b576ba7a10466bbef962a7d11eb13cca"
+  },
+  {
+   "id": "str.cover.fidelity",
+   "heading": "Loss of Funds Through Dishonesty",
+   "sha256": "d90c1ab302b97c75a05c79772a973f6fe55a9553ddd2c3e0ca897959bddeb2e6"
+  },
+  {
+   "id": "str.ext.social-engineering",
+   "heading": "Social Engineering Fraud",
+   "sha256": "46296ac27dd4eac17a2fafc7dcce4070d4c9b9a42dd93944df290981e83f1673"
+  },
+  {
+   "id": "str.excl.fidelity",
+   "heading": "Fidelity Losses Not Covered",
+   "sha256": "f51a3b6ca1fb577d9b049b8a112e1ff0a36627c4e3c70e5e21410a5192ffc634"
+  },
+  {
+   "id": "str.section.office-bearers",
+   "heading": "Office Bearers' Liability",
+   "sha256": "616045f210c7192c0a844bc60a605a6d91de5011a68c77dbf7061f273d8167f5"
+  },
+  {
+   "id": "str.cover.office-bearers",
+   "heading": "Claims Against Office Bearers",
+   "sha256": "df7639d338abbd04d08f47e0cc415e504b2e27469d6820341d9da0109004c588"
+  },
+  {
+   "id": "str.excl.office-bearers",
+   "heading": "Office Bearers' Claims Not Covered",
+   "sha256": "5c527f8213807fd2452aae4f15b643ceb8d9328a27ba39c223cd4f714fedb95e"
+  },
+  {
+   "id": "str.section.machinery",
+   "heading": "Machinery Breakdown",
+   "sha256": "536a3cf42c5625152a646229c0b78701ff6b713f8e96c09bb5c592ee194c39a1"
+  },
+  {
+   "id": "str.cover.machinery",
+   "heading": "Breakdown of Machinery",
+   "sha256": "35e04e9504269528ce19b382de2f87baee1fd234cbf28dbddca3fd2652de9d75"
+  },
+  {
+   "id": "str.excl.machinery",
+   "heading": "Machinery Losses Not Covered",
+   "sha256": "725b37b6d156510ab7a5341b43a81487a691b66b2ad6edb8596ab5e68312ebd6"
+  },
+  {
+   "id": "str.section.legal-expenses",
+   "heading": "Government Audit, Appeal and Legal Expenses",
+   "sha256": "dffac96980d41006f7356f4e6ad98921763808df671b8ce6335c17c5f6814123"
+  },
+  {
+   "id": "str.cover.legal-expenses",
+   "heading": "Audit, Appeal and Legal Defence Costs",
+   "sha256": "4964ca85ebc753d7d3e00413ca370e06e7f0ec2739681ab1e7143ea5ef335361"
+  },
+  {
+   "id": "str.excl.legal-expenses",
+   "heading": "Legal Expenses Not Covered",
+   "sha256": "7e4680f09382d8ebf6d2d0a38bf6a69cc23b73ce3a0450458b84b9b6f51c030d"
+  },
+  {
+   "id": "str.section.general-payment",
+   "heading": "How Claims Are Paid",
+   "sha256": "b2e36d3fa71800d21ecbb41f65400fb0164c0cf971a0edd9e9a0857898ccfbb2"
+  },
+  {
+   "id": "str.pay.excess",
+   "heading": "Excess",
+   "sha256": "977fd5bf4cc4cd3866ade058b691b9ab5e7dfe528c91c510b92297fb46c1e5dd"
+  },
+  {
+   "id": "str.pay.gst",
+   "heading": "GST on Claims",
+   "sha256": "4a5d21c30e7407ffba43db4d23b491441435b73fdfba6e72254f30fb29b5457b"
+  },
+  {
+   "id": "str.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "4ecc78e6fb599861d88f8012f2171d651ff60a06e2b0ca7da06263d02484ac68"
+  },
+  {
+   "id": "str.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "351e8203851718d7a20991da0c64e7b3cbfca1e15a9c9e885663b9c3a40074b6"
+  },
+  {
+   "id": "str.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "3b2494e49e0a61e20143f898a2a2ac00d8939981941fcb50c6f35529bfa2ebd4"
+  },
+  {
+   "id": "str.excl.war",
+   "heading": "War",
+   "sha256": "a6d18b9894cb3541b2b13a43b15b8889c3cf014aff3425645ea35ed7547e5604"
+  },
+  {
+   "id": "str.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "515a0fcec4a0a619b5d701b1f7eee86fa4488feb962cc0b2170467de8a674df4"
+  },
+  {
+   "id": "str.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "12a3d2d3391d160859cc5855b37c57151c2ccee8240a8258f937a9be64357788"
+  },
+  {
+   "id": "str.excl.cyber",
+   "heading": "Cyber Events",
+   "sha256": "3c9064722ee0217737b0d14527b95c2cc500e926659faced12c4c059b150392c"
+  },
+  {
+   "id": "str.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "str.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "cce4ec231c1f6bcdf94e8d9086fc00ad1cfae94f3ab8ad86ebccc75edfcfa6c1"
+  },
+  {
+   "id": "str.obl.claims-made-notice",
+   "heading": "Notice of Claims and Circumstances",
+   "sha256": "ddb4e141a00246f245846069170bec060db67dbff23af888c53a1445a8784e31"
+  },
+  {
+   "id": "str.obl.reduce-loss",
+   "heading": "Prevent Further Loss",
+   "sha256": "f524350897b782ef5aca3ac9e291b1cd89facf529b5fc24153dde3f12bdb43e1"
+  },
+  {
+   "id": "str.obl.admissions",
+   "heading": "Admissions and Settlements",
+   "sha256": "e7d22fce3303e9c3a10ee69b32b962433b5603c31e714ca760f45992c6ddd3d5"
+  },
+  {
+   "id": "str.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "8bb35b60419056585c0c77e05368c0d5ef1b6447fede562f628c5c487634ae2d"
+  },
+  {
+   "id": "str.obl.subrogation",
+   "heading": "Our Rights of Recovery",
+   "sha256": "afbb696794f23285ba74fab4998a233e4e34e17490f457665920d1fe6b542312"
+  },
+  {
+   "id": "str.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "str.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "a57da8d90ea2b97d9885705b83c04ba5843082247f7100cc0f6ba277b4f70188"
+  },
+  {
+   "id": "str.cond.strata-legislation",
+   "heading": "Strata Legislation",
+   "sha256": "39f72922ad5d3cb98a048af93a7926ca44e4ed822bbdfb6513aad51d1283cbc6"
+  },
+  {
+   "id": "str.cond.lot-owner-acts",
+   "heading": "Acts of Lot Owners and Occupiers",
+   "sha256": "06327ff0362a8380382b3d27a396d8fbc223db1819da1526e08da51eaa942203"
+  },
+  {
+   "id": "str.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "f7be13ca83c88fd041ffa3a38fefe7a30a9181584a14541d198f4009578c21ba"
+  },
+  {
+   "id": "str.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "b9b858a79f9ac9e514473147b079fb21f4704082303a6ccc92fff4e13a7ce5c6"
+  },
+  {
+   "id": "str.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "58ffc896f6a8494b96bc3a0c68314333bd702f37e6de1bfea35518d06a0ef486"
+  },
+  {
+   "id": "str.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "852d92cc4b6d23f827e431fe7b94b47eaf719a9435e1625ee5ca7b4a74ededfe"
+  },
+  {
+   "id": "str.cond.gst",
+   "heading": "GST",
+   "sha256": "e62d72f6bf153989dcf6a8411cb5ec8e8ee69906de547d4ed254969c66d8abc6"
+  },
+  {
+   "id": "str.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "ff8508d13fcab0048546d5ef735af8b4e65f27b0d11ce848918489c02593c229"
+  },
+  {
+   "id": "str.cond.disputes-and-complaints",
+   "heading": "Complaints and Disputes",
+   "sha256": "5a9f1f59d764455b92969df32fffd8b1a00c31e573b9a0bb8a7971c2961114db"
+  },
+  {
+   "id": "str.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "8e6532444873934211296baab38e27cc024faa3b7a8be32c8a8ab530ca400bd6"
+  },
+  {
+   "id": "str.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "str.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "str.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "d05ff91c52939b639ae71121c8035bda1203953539d12477402f85263b79c9e0"
+  },
+  {
+   "id": "str.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "83497032df9871209fdf1d58e28b8ec3613efe9fc1b07c1fe3971b68fc0a665d"
+  },
+  {
+   "id": "str.end.e01",
+   "heading": "E01 Flood Cover",
+   "sha256": "2176cd7ccbe15e58a5008a084f2f69004d8b045c25bc443154218a526eb1fd8e"
+  },
+  {
+   "id": "str.end.e02",
+   "heading": "E02 Known Defect",
+   "sha256": "115dd992a6d45ca7a4f207ee62f0dc4c07765d42fa8210d29e34585d4f9e1a66"
+  },
+  {
+   "id": "str.end.e03",
+   "heading": "E03 Major Works",
+   "sha256": "a242dcfd1befef2d3ac0d1c15635deac12325cf23d95395d6a5a3b00d70de99a"
+  },
+  {
+   "id": "str.end.e04",
+   "heading": "E04 Combustible Cladding",
+   "sha256": "b2ba1da4fab256a60c0756e52d456efeec95c4022c93652e5d69361a57a34e04"
+  },
+  {
+   "id": "str.end.e05",
+   "heading": "E05 Water Damage Excess",
+   "sha256": "30db75d376cf61accd4531ac417cbb3663ab9960de0a5dccdadb9c150a4ff3bd"
+  },
+  {
+   "id": "str.end.e06",
+   "heading": "E06 Short-Term Letting",
+   "sha256": "396069123c5952404994ea26eae5cf92f4ba6f820e1c7debfee0d0279debe929"
+  },
+  {
+   "id": "str.end.e07",
+   "heading": "E07 Heritage-Listed Building",
+   "sha256": "72b5875935c7a73af3538bd09f2c7d4db75082ec4e00e8382f66b3a5e1c78aa3"
+  },
+  {
+   "id": "str.end.e08",
+   "heading": "E08 Interested Party",
+   "sha256": "399204c7690a37175ad7628f27d575a68db4050b00de26565a962201f10eae31"
+  },
+  {
+   "id": "str.end.e09",
+   "heading": "E09 Lloyd's Underwriters",
+   "sha256": "a028e1c83ccfb11d9eba80784bcb46ef4d4dcf394953639e70169e6a1f534ae4"
+  },
+  {
+   "id": "str.end.e10",
+   "heading": "E10 Unoccupied Building",
+   "sha256": "9086d9068305e4557c0306bebb414dc3f554b3e3a41a96d861ee9f432649963c"
+  },
+  {
+   "id": "str.end.e11",
+   "heading": "E11 Commercial Occupancy",
+   "sha256": "6c5b55e3e93bf72f9257799469c70421e41031682dbe42c4516f3f29c710db7b"
+  },
+  {
+   "id": "str.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "str.end.e01",
+   "heading": "E01 Flood Cover",
+   "trigger": {
+    "questions": [
+     "qs.str.cover.flood_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.cover.flood_requested == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because flood cover was requested; the underwriter prices it from the flood risk at the address.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.cover.flood_requested",
+     "text": "Do you want flood cover?",
+     "type": "yes/no",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e02",
+   "heading": "E02 Known Defect",
+   "trigger": {
+    "questions": [
+     "qs.str.risk.known_defects",
+     "qs.str.risk.defect_orders"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.risk.defect_orders == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.str.risk.known_defects == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the body corporate has told us about a known defect or a defect order. Known defects are common; the underwriter decides the terms.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.risk.known_defects",
+     "text": "Does the body corporate know of any defect in the building, including waterproofing, structural, fire safety or cladding defects?",
+     "type": "yes/no",
+     "used_by": "A, E02"
+    },
+    {
+     "id": "qs.str.risk.defect_orders",
+     "text": "Has a council, building regulator or fire authority issued any order or notice about the building that has not been complied with?",
+     "type": "yes/no",
+     "used_by": "A, E02"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e03",
+   "heading": "E03 Major Works",
+   "trigger": {
+    "questions": [
+     "qs.str.risk.major_works"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.risk.major_works == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because major works are under way or planned at the building.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.risk.major_works",
+     "text": "Are building works worth more than the lower of 20% of the building sum insured and $500,000 under way or planned in the next 12 months?",
+     "type": "yes/no",
+     "used_by": "A, E03"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e04",
+   "heading": "E04 Combustible Cladding",
+   "trigger": {
+    "questions": [
+     "qs.str.building.combustible_cladding"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.building.combustible_cladding == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.str.building.combustible_cladding == unknown",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the building has, or may have, combustible external cladding.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.building.combustible_cladding",
+     "text": "Does the building have aluminium composite panels, expanded polystyrene or other combustible external cladding?",
+     "type": "select",
+     "options": [
+      "no",
+      "yes",
+      "unknown"
+     ],
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e05",
+   "heading": "E05 Water Damage Excess",
+   "trigger": {
+    "questions": [
+     "qs.str.claims.water_damage_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.claims.water_damage_count >= 2",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the scheme has had {qs.str.claims.water_damage_count} water damage claims in the last three years.",
+    "responses": [
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.claims.water_damage_count",
+     "text": "How many of those claims were for water damage?",
+     "type": "number",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e06",
+   "heading": "E06 Short-Term Letting",
+   "trigger": {
+    "questions": [
+     "qs.str.occupancy.short_term_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.occupancy.short_term_pct > 25",
+      "action": "refer"
+     },
+     {
+      "when": "qs.str.occupancy.short_term_pct > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.str.occupancy.short_term_pct}% of the lots are let for short stays.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.occupancy.short_term_pct",
+     "text": "What percentage of the lots are let for stays of less than three months?",
+     "type": "percentage",
+     "used_by": "R, A, E06"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e07",
+   "heading": "E07 Heritage-Listed Building",
+   "trigger": {
+    "questions": [
+     "qs.str.building.heritage"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.building.heritage == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the building is heritage-listed.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.building.heritage",
+     "text": "Is the building heritage-listed?",
+     "type": "yes/no",
+     "used_by": "A, E07"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e08",
+   "heading": "E08 Interested Party",
+   "trigger": {
+    "questions": [
+     "qs.str.interested_parties"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.interested_parties == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the body corporate has asked us to note an interested party.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.interested_parties",
+     "text": "Do you want us to note the interest of a financier or other party?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e09",
+   "heading": "E09 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.str.issuer.lloyds"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.issuer.lloyds == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policy is issued under a Lloyd's binding authority.",
+    "responses": [
+     "Attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.issuer.lloyds",
+     "text": "Is the policy issued under a Lloyd's binding authority?",
+     "type": "yes/no",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e10",
+   "heading": "E10 Unoccupied Building",
+   "trigger": {
+    "questions": [
+     "qs.str.occupancy.unoccupied"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.occupancy.unoccupied == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the building is unoccupied.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.occupancy.unoccupied",
+     "text": "Is the building, or are most of its lots, unoccupied?",
+     "type": "yes/no",
+     "used_by": "A, E10"
+    }
+   ]
+  },
+  {
+   "id": "str.end.e11",
+   "heading": "E11 Commercial Occupancy",
+   "trigger": {
+    "questions": [
+     "qs.str.occupancy.hazardous_tenancy"
+    ],
+    "rules": [
+     {
+      "when": "qs.str.occupancy.hazardous_tenancy == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because a lot is used for a higher-hazard commercial occupancy, such as cooking with deep fryers, a gym or a workshop.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.str.occupancy.hazardous_tenancy",
+     "text": "Is any lot used for cooking with deep fryers, a workshop, a gym, a nightclub, or storing flammable goods?",
+     "type": "yes/no",
+     "used_by": "A, E11"
+    }
+   ]
+  }
+ ],
+ "sha256": "7ac4a062f446d900b7e2589cdefc11cc3d162e50537c1ab2902302c07487c36f"
+}
