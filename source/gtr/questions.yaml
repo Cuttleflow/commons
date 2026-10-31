@@ -1,0 +1,142 @@
+# Platform questions for the Meridian Corporate Travel wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.gtr namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.gtr.insured.state
+    text: In which state or territory is the policyholder's head office?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S
+  - id: qs.gtr.insured.employee_count
+    text: How many people does the policyholder employ in Australia?
+    type: number
+    used_by: A, S
+  - id: qs.gtr.persons.traveller_count
+    text: How many directors, officers and employees are expected to travel in the policy period?
+    type: number
+    used_by: A, S
+  - id: qs.gtr.persons.contractors
+    text: Should contractors travelling on the policyholder's business be insured persons?
+    type: yes/no
+    used_by: S
+  - id: qs.gtr.persons.family
+    text: Should accompanying spouses, partners and dependent children be insured persons?
+    type: yes/no
+    used_by: R, S
+  - id: qs.gtr.persons.non_employees
+    text: Will consultants, board advisers or guests travel on the policyholder's business at its cost?
+    type: yes/no
+    used_by: E08
+  - id: qs.gtr.persons.based_overseas
+    text: Do any directors, officers or employees who travel live outside Australia?
+    type: yes/no
+    used_by: A, E10
+  - id: qs.gtr.cover.territory
+    text: Where will insured persons travel?
+    type: select
+    options: ['worldwide', 'australia_only']
+    used_by: A, S, E09
+  - id: qs.gtr.trips.domestic
+    text: How many return trips within Australia do you expect in the policy period?
+    type: number
+    used_by: R, S
+  - id: qs.gtr.trips.pacific
+    text: How many return trips to New Zealand and the Pacific do you expect in the policy period?
+    type: number
+    used_by: R, S
+  - id: qs.gtr.trips.asia
+    text: How many return trips to Asia do you expect in the policy period?
+    type: number
+    used_by: R, S
+  - id: qs.gtr.trips.europe
+    text: How many return trips to Europe and the United Kingdom do you expect in the policy period?
+    type: number
+    used_by: R, S
+  - id: qs.gtr.trips.rest_of_world
+    text: How many return trips to the Americas, Africa and the Middle East do you expect in the policy period?
+    type: number
+    used_by: R, S
+  - id: qs.gtr.trips.typical_duration
+    text: How long is a typical trip?
+    type: select
+    options: ['up_to_14', '15_to_31', '32_to_90']
+    used_by: R, S
+  - id: qs.gtr.trips.max_duration
+    text: How long will the longest trip be?
+    type: select
+    options: ['up_to_31', '32_to_90', 'over_90']
+    used_by: A, E06
+  - id: qs.gtr.trips.do_not_travel
+    text: Will anyone travel to a country or region for which DFAT advice is "do not travel"?
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.trips.high_risk
+    text: Will anyone travel to a country or region for which DFAT advice is "reconsider your need to travel"?
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.trips.max_together
+    text: What is the largest number of insured persons who will travel together on one flight or attend one event?
+    type: number
+    used_by: A
+  - id: qs.gtr.trips.charter_flights
+    text: Will insured persons fly on charter or non-scheduled aircraft, other than licensed charter flights to a destination served by no scheduled flight?
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.activities.manual_work
+    text: Will any insured person do manual work on a construction, mining, oil and gas or engineering site, or work underground or offshore?
+    type: yes/no
+    used_by: E05
+  - id: qs.gtr.activities.hazardous
+    text: Will any insured person take part in an activity listed in the hazardous activities exclusion?
+    type: yes/no
+    used_by: E03
+  - id: qs.gtr.medical.preexisting_declared
+    text: Does any insured person want cover for a pre-existing medical condition?
+    type: yes/no
+    used_by: E01
+  - id: qs.gtr.cover.leisure_days
+    text: How many days of leisure travel before or after a business trip should be covered?
+    type: select
+    options: ['7', '14', '21']
+    used_by: R, S, E02
+  - id: qs.gtr.cover.directors_leisure
+    text: Should directors and officers also be covered on leisure trips with no business purpose?
+    type: yes/no
+    used_by: R, S, E02
+  - id: qs.gtr.cover.pandemic
+    text: Do you want cover for disruption caused by an insured person's own diagnosis or quarantine in an epidemic or pandemic?
+    type: yes/no
+    used_by: E04
+  - id: qs.gtr.cover.kidnap
+    text: Do you want the kidnap, extortion and crisis response section?
+    type: yes/no
+    used_by: R, A, S
+  - id: qs.gtr.limit.pa_capital
+    text: What personal accident capital sum do you want for each insured person?
+    type: select (AUD)
+    options: ['250000', '500000', '1000000', '2000000']
+    used_by: R, S, E07
+  - id: qs.gtr.limit.cancellation
+    text: What cancellation and curtailment limit do you want for each insured person?
+    type: select (AUD)
+    options: ['10000', '25000', '50000', '100000']
+    used_by: R, S
+  - id: qs.gtr.limit.liability
+    text: What personal liability limit do you want?
+    type: select (AUD)
+    options: ['1000000', '2500000', '5000000', '10000000', '20000000']
+    used_by: R, S
+  - id: qs.gtr.excess
+    text: What excess do you want for the travel disruption, luggage, business expenses and personal liability sections?
+    type: select (AUD)
+    options: ['0', '100', '250', '500']
+    used_by: R, S
+  - id: qs.gtr.claims.count_3y
+    text: How many travel insurance claims has the policyholder made in the last 3 years?
+    type: number
+    used_by: R, A
+  - id: qs.gtr.claims.declined
+    text: Has any insurer declined, cancelled or refused to renew travel insurance for the policyholder?
+    type: yes/no
+    used_by: A
