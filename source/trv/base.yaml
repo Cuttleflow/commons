@@ -1,0 +1,128 @@
+id: trv-base
+title: Travel Insurance
+class: TRAVEL INSURANCE
+kicker: Meridian Commons · Travel
+slug: travel
+file_stem: Meridian_Travel
+doc_ref: 2026/TRAV/0001
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: 'Single-trip travel insurance for individuals, couples and families leaving Australia, with three plans: medical, cancellation, luggage, money, liability and rental vehicle excess.'
+supersedes: New wording. Derived from the Meridian Travel Insurance Policy Wording v1.0.0 (July 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - trv.about
+  - trv.version-history
+  - trv.important-information
+  - trv.schedule
+- section: trv.section.definitions
+  clauses:
+  - trv.def.accident
+  - trv.def.close-relative
+  - trv.def.dependent-child
+  - trv.def.dfat-advice
+  - trv.def.endorsement
+  - trv.def.epidemic-or-pandemic
+  - trv.def.excess
+  - trv.def.home
+  - trv.def.injury
+  - trv.def.insured-person
+  - trv.def.known-event
+  - trv.def.luggage-and-personal-effects
+  - trv.def.medical-practitioner
+  - trv.def.medicare-eligible
+  - trv.def.money
+  - trv.def.natural-disaster
+  - trv.def.plan
+  - trv.def.portable-electronics
+  - trv.def.pre-existing-condition
+  - trv.def.rental-vehicle
+  - trv.def.sickness
+  - trv.def.terrorism
+  - trv.def.travel-companion
+  - trv.def.travel-provider
+  - trv.def.trip
+  - trv.def.unattended
+  - trv.def.we-us-our
+  - trv.def.you-your
+- section: trv.section.cover-basis
+  clauses:
+  - trv.cover.who-is-covered
+  - trv.cover.trip
+- section: trv.section.medical
+  clauses:
+  - trv.cover.medical
+- section: trv.section.cancellation
+  clauses:
+  - trv.cover.cancellation
+- section: trv.section.luggage
+  clauses:
+  - trv.cover.luggage
+  - trv.cover.money
+- section: trv.section.liability
+  clauses:
+  - trv.cover.liability
+- section: trv.section.rental-vehicle
+  clauses:
+  - trv.cover.rental-vehicle
+- section: trv.section.extras
+  clauses:
+  - trv.cover.extras
+- section: trv.section.payment
+  clauses:
+  - trv.pay.limits-and-excess
+  - trv.pay.medicare
+  - trv.pay.other-insurance
+  - trv.pay.who-we-pay
+- section: trv.section.exclusions
+  clauses:
+  - trv.excl.pre-existing-conditions
+  - trv.excl.government-advice
+  - trv.excl.war
+  - trv.excl.nuclear-biological-chemical
+  - trv.excl.epidemic-pandemic
+  - trv.excl.known-events
+  - trv.excl.self-injury-intoxication
+  - trv.excl.illegal-acts
+  - trv.excl.hazardous-activities
+  - trv.excl.pregnancy
+  - trv.excl.elective-treatment
+  - trv.excl.business-travel
+- section: trv.section.obligations
+  clauses:
+  - trv.obl.emergencies
+  - trv.obl.claims
+- section: trv.section.conditions
+  clauses:
+  - trv.cond.insurance-contracts-act
+  - trv.cond.cancellation
+  - trv.cond.fraud
+  - trv.cond.sanctions
+  - trv.cond.gst
+  - trv.cond.privacy
+  - trv.cond.disputes-and-complaints
+  - trv.cond.governing-law
+  - trv.cond.jurisdiction
+  - trv.cond.headings-and-references
+- section: end
+  clauses:
+  - trv.claims.how-to-make-a-claim
+  - trv.endorsement-library
+  - trv.end.e01
+  - trv.end.e02
+  - trv.end.e03
+  - trv.end.e04
+  - trv.end.e05
+  - trv.end.e06
+  - trv.end.e07
+  - trv.end.e08
+  - trv.end.e09
+  - trv.end.e10
+  - trv.end.e11
+  - trv.end.e12
+  - trv.end.e13
+  - trv.end.e14
+  - trv.end.e15
+  - trv.licence-notice
