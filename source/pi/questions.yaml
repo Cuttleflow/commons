@@ -401,3 +401,43 @@ questions:
     text: How many students were enrolled with you in the last 12 months?
     type: number
     used_by: R, E (Increased Re-assessment Sub-limit)
+  - id: qs.pi.vt.registrations
+    text: For each veterinarian, in which state or territory are they registered, and what is the registration number?
+    type: repeating (person, state, number)
+    used_by: S (definition of professional services)
+  - id: qs.pi.vt.species_split
+    text: What percentage of your work in the last 12 months was with companion animals, equine, livestock, wildlife and exotic animals, and racing animals?
+    type: repeating (species group, percentage)
+    used_by: R
+  - id: qs.pi.vt.highest_value
+    text: What is the highest value of any animal, herd or flock you treated in the last 12 months?
+    type: currency
+    used_by: R, S (High-Value Animals Excess)
+  - id: qs.pi.vt.telehealth
+    text: Do you give advice or consultations by telehealth, including to clients in other states?
+    type: yes/no
+    used_by: R
+  - id: qs.pi.vt.compounding
+    text: Do you compound veterinary medicines?
+    type: yes/no
+    used_by: R
+  - id: qs.pi.vt.gene_therapy
+    text: Do you provide genetic modification, gene therapy or cloning services?
+    type: yes/no
+    used_by: R (refer)
+  - id: qs.pi.vt.racing_pct
+    text: What percentage of your work in the last 12 months was with thoroughbreds, standardbreds or greyhounds in training, racing or bred for racing?
+    type: percentage
+    used_by: E (Racing Animals Excess)
+  - id: qs.pi.vt.prepurchase_count
+    text: How many pre-purchase or soundness examinations did you perform in the last 12 months?
+    type: number
+    used_by: E (Pre-purchase Examinations Sub-limit)
+  - id: qs.pi.vt.reproductive_pct
+    text: What percentage of your fees in the last 12 months came from artificial breeding and reproductive services?
+    type: percentage
+    used_by: E (Reproductive Services)
+  - id: qs.pi.vt.live_export
+    text: Do you inspect or certify animals for export, or accompany animals on export voyages?
+    type: yes/no
+    used_by: E (Live Export Certification Exclusion)
