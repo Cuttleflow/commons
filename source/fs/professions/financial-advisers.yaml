@@ -1,0 +1,74 @@
+id: fs-financial-advisers
+title: Financial Advisers Professional Indemnity Insurance
+class: FINANCIAL SERVICES PROFESSIONAL INDEMNITY INSURANCE · FINANCIAL ADVISERS
+kicker: Meridian Commons · Financial Services Professional Indemnity · Financial Advisers
+slug: financial-advisers
+file_stem: Meridian_FS_Financial_Advisers
+doc_ref: 2026/FS/0004
+version: 1.0.0-DRAFT
+date: October 2026
+draft: true
+summary: Integrated professional indemnity wording for financial advisers, financial planners and their AFS licensees
+  and authorised representatives, written to meet ASIC RG 126 and built on the Meridian Financial Services PI base
+  wording.
+base: fs-base@1.0.0-DRAFT
+supersedes: MERIDIAN-PI-FINP-v1.0.0 (June 2026), which is withdrawn and is not a source for this wording
+overrides:
+- op: replace
+  target: fs.def.professional-services
+  with: fs.fa.def.professional-services
+- op: add
+  clause: fs.fa.excl.product-issuer-failure
+  after: fs.excl.investment-performance
+- op: add
+  clause: fs.fa.excl.market-participants
+  after: fs.fa.excl.product-issuer-failure
+- op: add
+  clause: fs.fa.library.optional-endorsements
+  after: fs.endorsement-library
+- op: add
+  clause: fs.fa.end.approved-products
+  after: fs.fa.library.optional-endorsements
+- op: add
+  clause: fs.fa.end.managed-discretionary-accounts
+  after: fs.fa.end.approved-products
+- op: add
+  clause: fs.fa.end.geared-investments
+  after: fs.fa.end.managed-discretionary-accounts
+- op: add
+  clause: fs.fa.end.related-products
+  after: fs.fa.end.geared-investments
+- op: add
+  clause: fs.fa.end.named-products
+  after: fs.fa.end.related-products
+regulatory_basis:
+- topic: ASIC RG 126 (issued November 2024, updated December 2025), Table 4 and RG 126.39 to RG 126.50
+  status: 'Minimum limit ($2m, or about retail revenue up to $20m): platform restriction. Defence costs in addition:
+    FS base. AFCA awards and conciliated amounts: FS base AFCA Determinations extension. Fraud and dishonesty of
+    officers, employees and representatives: FS base insuring clause and Representatives extension. Licensee and
+    all representatives covered: Representatives extension. One automatic reinstatement: FS base. Retroactive cover
+    to the start of the continuous series: FS base definition of Retroactive date. ASIC notifications not an admission:
+    FS base Prior Known Circumstances exclusion. Switching advice covered: definition of professional services.
+    Automatic run-off: not required (RG 126.36). Excess: platform referral above a level set by the agency (RG 126.44
+    to 126.45).'
+  review_by: '2027-03-31'
+- topic: Corporations Act 2001 Part 7.7A (best interests duty, conflicted remuneration); qualified tax relevant
+    providers (Tax Agent Services Act 2009)
+  status: Breach giving rise to compensation is within the FS base insuring clause. Tax (financial) advice is a
+    professional service.
+  review_by: '2027-03-31'
+- topic: Compensation Scheme of Last Resort
+  status: Levies are not insured (FS base Non-Compensatory Payments exclusion). FY27 revised levy estimate $198.1m,
+    mostly attributed to personal advice.
+  review_by: '2027-06-30'
+proposal_questions:
+- Licence details, number of advisers and authorised representatives, and funds under advice.
+- Revenue by advice area, including superannuation, SMSF, life risk and tax (financial) advice.
+- Approved product list and research process; share of recommendations off the list.
+- Managed discretionary accounts, geared strategies, related products, superannuation switching, lead generators.
+- Exposure to the Shield Master Fund, First Guardian Master Fund or other products subject to mass complaints.
+- AFCA complaints, ASIC breach reports and remediation programs in the last three years.
+decisions:
+- '2026-10-31: Financial Advisers drafted from first principles on the Financial Services PI base at the underwriter''s
+  request (31 October 2026). The AGCS Financial Planners wording POL732AGCS (May 2014) was reviewed as a market
+  benchmark only; no text was taken from it.'

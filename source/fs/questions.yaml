@@ -86,3 +86,47 @@ questions:
     text: Do you intend to cease holding your credit licence, or cease to be a credit representative, in the next 12 months?
     type: yes/no
     used_by: E (12-Month Automatic Run-off)
+  - id: qs.fs.fa.advisers
+    text: How many relevant providers (financial advisers) are authorised under your licence, and how many are authorised representatives?
+    type: number
+    used_by: R
+  - id: qs.fs.fa.funds_under_advice
+    text: What are your total funds under advice?
+    type: currency
+    used_by: R
+  - id: qs.fs.fa.advice_split
+    text: What percentage of your advice revenue came from superannuation, SMSF, investment, life risk insurance, retirement income, and tax (financial) advice?
+    type: repeating (area, percentage)
+    used_by: R
+  - id: qs.fs.fa.approved_product_list
+    text: Do you maintain an approved product list with a documented research process?
+    type: yes/no
+    used_by: E (Approved Product List Condition)
+  - id: qs.fs.fa.off_apl_pct
+    text: What percentage of new product recommendations in the last 12 months were for products not on your approved product list?
+    type: percentage
+    used_by: E (Approved Product List Condition)
+  - id: qs.fs.fa.mda
+    text: Do you operate a managed discretionary account service?
+    type: yes/no
+    used_by: E (Managed Discretionary Accounts Exclusion)
+  - id: qs.fs.fa.geared_pct
+    text: What percentage of your clients have a geared investment strategy or margin loan that you recommended?
+    type: percentage
+    used_by: E (Geared Investment Advice Sub-limit)
+  - id: qs.fs.fa.related_products
+    text: Do you, any representative, or any related party issue, operate or promote financial products that you recommend, or receive any benefit from them other than client-paid advice fees?
+    type: yes/no, with details
+    used_by: E (Related Products Exclusion)
+  - id: qs.fs.fa.named_products_exposure
+    text: Have you or any representative advised a client to acquire, switch to or hold the Shield Master Fund, the First Guardian Master Fund, or any other product now subject to mass complaints or regulatory action?
+    type: yes/no, with number of clients and amounts
+    used_by: E (Named Products Exclusion)
+  - id: qs.fs.fa.superannuation_switching
+    text: How many clients did you advise to switch superannuation funds in the last 12 months, and did any switch follow a lead from an unsolicited marketing call?
+    type: number, with details
+    used_by: R
+  - id: qs.fs.fa.lead_generators
+    text: Do you obtain clients from lead generators or call centres?
+    type: yes/no, with details
+    used_by: R

@@ -8,3 +8,6 @@ First release. A base wording for Australian financial services and credit licen
 - New exclusion: Investment Performance. Compensation Scheme of Last Resort levies are not insured.
 - Lodging a report with ASIC is not, by itself, knowledge of a circumstance under the Prior Known Circumstances exclusion.
 - The Professional Standards Schemes condition is not included.
+- Retroactive date: where a policy follows an immediately previous one, it is no later than the start of your continuous series of cover (RG 126).
+- Every representative is an insured person unless insured under a separate policy that gives you a right of indemnity (RG 126).
+- AFCA conciliated or negotiated amounts agreed with our consent are covered.
