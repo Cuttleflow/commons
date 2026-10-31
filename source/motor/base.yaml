@@ -1,0 +1,140 @@
+id: mot-base
+title: Commercial Motor Insurance — Individual Vehicles and Fleets
+class: COMMERCIAL MOTOR INSURANCE
+kicker: Meridian Commons · Commercial Motor
+slug: commercial-motor
+file_stem: Meridian_Commercial_Motor
+doc_ref: 2026/CMV/0001
+version: 3.0.0-DRAFT
+date: October 2026
+draft: true
+summary: 'Business motor vehicles from a single vehicle to a fleet of any size: comprehensive, third party fire
+  and theft, or third party only for each vehicle, with fleet provisions where the policy is written on a fleet
+  basis.'
+supersedes: Meridian Commercial Motor Policy Wording v2.0.0 (July 2026) and Small Fleet Motor v1.0.0 (2026/SFMO/0001),
+  published outside the Commons
+variants_label: Wordings built on this wording
+structure:
+- section: preamble
+  clauses:
+  - mot.about
+  - mot.who-this-is-for
+  - mot.ctp-notice
+  - mot.version-history
+  - mot.schedule
+- section: mot.section.definitions
+  clauses:
+  - mot.def.accidental-loss-or-damage
+  - mot.def.agreed-value
+  - mot.def.dangerous-goods
+  - mot.def.declaration-date
+  - mot.def.endorsement
+  - mot.def.excess
+  - mot.def.fleet-basis
+  - mot.def.insured-person
+  - mot.def.insured-vehicle
+  - mot.def.market-value
+  - mot.def.named-insured
+  - mot.def.occurrence
+  - mot.def.period-of-insurance
+  - mot.def.permitted-use
+  - mot.def.schedule
+  - mot.def.substitute-vehicle
+  - mot.def.sum-insured
+  - mot.def.tool-of-trade
+  - mot.def.total-loss
+  - mot.def.we-us-our
+  - mot.def.you-your
+- section: mot.section.vehicle-cover
+  clauses:
+  - mot.cover.comprehensive
+  - mot.cover.third-party-fire-and-theft
+  - mot.pay.basis-of-settlement
+  - mot.pay.repairs
+  - mot.pay.total-loss
+  - mot.pay.new-vehicle-replacement
+  - mot.pay.choice-of-repairer
+  - mot.ext.additional-benefits
+  - mot.excl.vehicle-cover
+- section: mot.section.liability
+  clauses:
+  - mot.cover.third-party-property-damage
+  - mot.cover.who-is-covered
+  - mot.ext.dangerous-goods
+  - mot.ext.supplementary-bodily-injury
+  - mot.ext.uninsured-motorist
+  - mot.ext.substitute-vehicles
+  - mot.ext.non-owned-trailers
+  - mot.excl.liability
+- section: mot.section.fleet
+  clauses:
+  - mot.fleet.automatic-cover
+  - mot.fleet.declarations
+  - mot.fleet.employees-vehicles
+  - mot.fleet.courtesy-vehicles
+  - mot.fleet.undeclared-vehicles
+  - mot.fleet.interstate-registration
+  - mot.fleet.claims-experience
+  - mot.fleet.excess-discount
+- section: mot.section.general-exclusions
+  clauses:
+  - mot.excl.unlicensed-driver
+  - mot.excl.alcohol-and-drugs
+  - mot.excl.unroadworthy-condition
+  - mot.excl.racing
+  - mot.excl.overloading
+  - mot.excl.outside-australia
+  - mot.excl.hire-fare-or-reward
+  - mot.excl.other-than-permitted-use
+  - mot.excl.deliberate-acts
+  - mot.excl.war
+  - mot.excl.nuclear
+  - mot.excl.terrorism
+- section: mot.section.claims
+  clauses:
+  - mot.obl.notify-us
+  - mot.obl.do-not-admit-liability
+  - mot.obl.protect-the-vehicle
+  - mot.obl.cooperate
+  - mot.obl.maintain-vehicles
+  - mot.obl.tell-us-about-changes
+- section: mot.section.general-conditions
+  clauses:
+  - mot.cond.insurance-contracts-act
+  - mot.cond.duty-of-disclosure
+  - mot.cond.premium
+  - mot.cond.excess
+  - mot.cond.cancellation
+  - mot.cond.other-insurance
+  - mot.cond.gst
+  - mot.cond.subrogation-and-interested-parties
+  - mot.cond.salvage
+  - mot.cond.fraudulent-claims
+  - mot.cond.complaints
+  - mot.cond.privacy
+  - mot.cond.sanctions
+  - mot.cond.governing-law-and-jurisdiction
+  - mot.cond.version-of-this-wording
+- section: end
+  clauses:
+  - mot.endorsement-library
+  - mot.end.e01
+  - mot.end.e02
+  - mot.end.e03
+  - mot.end.e04
+  - mot.end.e05
+  - mot.end.e06
+  - mot.end.e07
+  - mot.end.e08
+  - mot.end.e09
+  - mot.end.e10
+  - mot.end.e11
+  - mot.end.e12
+  - mot.end.e13
+  - mot.end.e14
+  - mot.end.e15
+  - mot.end.e16
+  - mot.end.e17
+  - mot.end.e18
+  - mot.appendix.default-schedule-values
+  - mot.licence-notice
