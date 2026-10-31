@@ -1,0 +1,129 @@
+# Platform questions for the Home and Contents wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.hom namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.hom.insured.name
+    text: What is the name of each person to be insured?
+    type: text
+    used_by: S
+  - id: qs.hom.property.address
+    text: What is the address of the home?
+    type: text
+    used_by: S
+  - id: qs.hom.property.state
+    text: In which state or territory is the home?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, A, S
+  - id: qs.hom.property.north_of_26th
+    text: Is the home north of the 26th parallel of latitude (roughly north of Gympie in Queensland, and of Carnarvon in Western Australia)?
+    type: yes/no
+    used_by: A
+  - id: qs.hom.property.hazard_zone
+    text: What is the natural hazard zone of the address (flood, storm and bushfire), as the address lookup returns it?
+    type: select
+    options: ['low', 'moderate', 'high']
+    used_by: R, A, E02
+  - id: qs.hom.property.dwelling_type
+    text: Is the home a house, a townhouse or villa, or a lot in a strata scheme?
+    type: select
+    options: ['house', 'townhouse', 'strata_lot']
+    used_by: A, S, E07
+  - id: qs.hom.property.construction
+    text: What are the external walls mainly made of?
+    type: select
+    options: ['masonry', 'timber_mixed', 'other']
+    used_by: R, A
+  - id: qs.hom.property.year_built
+    text: In what year was the building completed?
+    type: number (year)
+    used_by: R, A
+  - id: qs.hom.property.heritage
+    text: Is the building listed on a heritage register?
+    type: yes/no
+    used_by: A, E09
+  - id: qs.hom.property.good_repair
+    text: Is the home in a good state of repair, with no unrepaired damage?
+    type: yes/no
+    used_by: A
+  - id: qs.hom.property.renovation
+    text: Are building works costing more than $50,000, or affecting the structure, under way or planned in the next 12 months?
+    type: yes/no
+    used_by: A, E10
+  - id: qs.hom.property.security
+    text: What security does the home have?
+    type: select
+    options: ['none', 'deadlocks', 'monitored_alarm']
+    used_by: R
+  - id: qs.hom.occupancy.occupier
+    text: Who lives in the home?
+    type: select
+    options: ['owner', 'tenant_renter', 'holiday_home']
+    used_by: A, S
+  - id: qs.hom.occupancy.unoccupied_over_60_days
+    text: Has the home been unoccupied for more than 60 days, or will it be in the next 60 days?
+    type: yes/no
+    used_by: A, E11
+  - id: qs.hom.occupancy.home_business
+    text: Does anyone carry on a business at the home, other than working from a home office?
+    type: yes/no
+    used_by: A, E04
+  - id: qs.hom.occupancy.short_stay
+    text: Is the home, or part of it, let for short stays?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.hom.cover.building_sum_insured
+    text: What does it cost to rebuild the home (the building sum insured)? Enter 0 if you do not want building cover.
+    type: currency
+    used_by: R, A, S, E08
+  - id: qs.hom.cover.contents_sum_insured
+    text: What does it cost to replace your contents (the contents sum insured)? Enter 0 if you do not want contents cover.
+    type: currency
+    used_by: R, A, S
+  - id: qs.hom.cover.excess
+    text: Which basic excess do you choose?
+    type: select
+    options: ['500', '1000', '2000', '5000']
+    used_by: R, S
+  - id: qs.hom.cover.liability_limit
+    text: What limit of personal liability do you need?
+    type: select
+    options: ['20000000', '30000000']
+    used_by: R, A, S
+  - id: qs.hom.cover.accidental_damage
+    text: Do you want to add accidental damage cover?
+    type: yes/no
+    used_by: R, E01
+  - id: qs.hom.cover.portable_contents
+    text: Do you want to cover contents you carry away from the home?
+    type: yes/no
+    used_by: R, E03
+  - id: qs.hom.cover.specified_valuables
+    text: What is the total value of the valuables you want to specify individually?
+    type: currency
+    used_by: A, S, E06
+  - id: qs.hom.history.claims_5y
+    text: How many home or contents insurance claims have you made in the last five years?
+    type: number
+    used_by: R, A
+  - id: qs.hom.history.refused_or_cancelled
+    text: Has an insurer refused, cancelled or declined to renew insurance for you, or imposed special terms, in the last five years?
+    type: yes/no
+    used_by: A
+  - id: qs.hom.history.criminal_conviction
+    text: Has anyone to be insured been convicted of an offence of dishonesty, arson or malicious damage in the last ten years?
+    type: yes/no
+    used_by: A
+  - id: qs.hom.policy.interested_party
+    text: Does a financier or anyone else have an interest in the home that should be noted?
+    type: yes/no
+    used_by: S, E12
+  - id: qs.hom.policy.interested_party_name
+    text: Who is the interested party, and what is their interest?
+    type: text
+    used_by: S
+  - id: qs.hom.policy.lloyds_capacity
+    text: Is the policy underwritten at Lloyd's? (Answered by the platform from the binder.)
+    type: yes/no
+    used_by: E13
