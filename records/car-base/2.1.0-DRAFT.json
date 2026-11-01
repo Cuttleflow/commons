@@ -711,8 +711,7 @@
    "heading": "E01 Existing Structures and Principal's Contents",
    "trigger": {
     "questions": [
-     "qs.car.s1.existing_structures_si",
-     "qs.car.s1.principals_contents_si"
+     "qs.car.s1.existing_structures_si"
     ],
     "rules": [
      {
@@ -720,11 +719,11 @@
       "action": "refer"
      },
      {
-      "when": "qs.car.s1.existing_structures_si > 0 or qs.car.s1.principals_contents_si > 0",
+      "when": "qs.car.s1.existing_structures_si > 0",
       "action": "broker_option"
      }
     ],
-    "reason": "Considered because existing structures worth ${qs.car.s1.existing_structures_si} are part of, or next to, the project.",
+    "reason": "Considered because existing structures and principal's contents worth ${qs.car.s1.existing_structures_si} are part of, or next to, the project.",
     "responses": [
      "Attach",
      "Attach with amended sub-limit",
@@ -736,13 +735,7 @@
    "questions": [
     {
      "id": "qs.car.s1.existing_structures_si",
-     "text": "What sum insured is needed for existing structures (enter 0 if none)?",
-     "type": "currency",
-     "used_by": "R, S, E01"
-    },
-    {
-     "id": "qs.car.s1.principals_contents_si",
-     "text": "What sum insured is needed for the principal's contents (enter 0 if none)?",
+     "text": "What sum insured is needed for existing structures and the principal's contents together (enter 0 if none)?",
      "type": "currency",
      "used_by": "R, S, E01"
     }
@@ -952,7 +945,7 @@
      "id": "qs.car.risk.excavation_depth_m",
      "text": "What is the deepest excavation, in metres below existing ground level?",
      "type": "number",
-     "used_by": "R, A, E06"
+     "used_by": "A, E06"
     },
     {
      "id": "qs.car.risk.piling",
@@ -1114,10 +1107,10 @@
     "rules": [
      {
       "when": "qs.car.s1.plant_si > 0 or qs.car.s1.hired_plant == yes",
-      "action": "broker_option"
+      "action": "refer"
      }
     ],
-    "reason": "Offered because construction plant is used at the project site.",
+    "reason": "Referred because construction plant is to be insured; the underwriter prices it.",
     "responses": [
      "Attach",
      "Attach with amended sub-limit",
@@ -1131,7 +1124,7 @@
      "id": "qs.car.s1.plant_si",
      "text": "What sum insured is needed for construction plant owned by the insured (enter 0 if none)?",
      "type": "currency",
-     "used_by": "R, S, E11"
+     "used_by": "S, E11"
     },
     {
      "id": "qs.car.s1.hired_plant",

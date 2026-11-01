@@ -10,8 +10,8 @@ trigger:
   - qs.car.s1.hired_plant
   rules:
   - when: qs.car.s1.plant_si > 0 or qs.car.s1.hired_plant == yes
-    action: broker_option
-  reason: Offered because construction plant is used at the project site.
+    action: refer
+  reason: Referred because construction plant is to be insured; the underwriter prices it.
   responses:
   - Attach
   - Attach with amended sub-limit

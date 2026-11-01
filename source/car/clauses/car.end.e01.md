@@ -7,13 +7,12 @@ status: draft
 trigger:
   questions:
   - qs.car.s1.existing_structures_si
-  - qs.car.s1.principals_contents_si
   rules:
   - when: qs.car.s1.existing_structures_si > 2000000
     action: refer
-  - when: qs.car.s1.existing_structures_si > 0 or qs.car.s1.principals_contents_si > 0
+  - when: qs.car.s1.existing_structures_si > 0
     action: broker_option
-  reason: Considered because existing structures worth ${qs.car.s1.existing_structures_si} are part of, or next to, the project.
+  reason: Considered because existing structures and principal's contents worth ${qs.car.s1.existing_structures_si} are part of, or next to, the project.
   responses:
   - Attach
   - Attach with amended sub-limit
