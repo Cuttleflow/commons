@@ -3,6 +3,7 @@ id: tl.section.exclusions
 type: section
 heading: What Is Not Covered
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
@@ -41,7 +42,6 @@ Not all exclusions apply to all sections. Use this table to check which exclusio
 | [[ref:tl.excl.property-in-your-control]] | No | No | Yes |
 | [[ref:tl.excl.related-entities]] | Yes | Yes | Yes |
 | [[ref:tl.excl.retroactive-date]] | Yes | Yes | No |
-| [[ref:tl.excl.sanctions]] | Yes | Yes | Yes |
 | [[ref:tl.excl.securities-law]] | Yes | Yes | Yes |
 | [[ref:tl.excl.terrorism]] | Yes | No | Yes |
 | [[ref:tl.excl.trading-debts]] | Yes | Yes | Yes |
@@ -61,7 +61,7 @@ Notes to the matrix:
 
 (4) Subject to the write-back in [[ref:tl.ext.cyber-liability]].
 
-(5) Subject to the [[ref:tl.ext.outstanding-fees]] and [[ref:tl.ext.refund-of-fees]] write-backs.
+(5) Subject to [[ref:tl.ext.outstanding-fees]] and [[ref:tl.ext.refund-of-fees]].
 
 (6) Subject to [[ref:tl.ext.regulatory-penalties]] and [[ref:tl.cover.regulatory-defence-and-fines]] write-backs.
 

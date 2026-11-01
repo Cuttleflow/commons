@@ -5,15 +5,16 @@ kicker: "Meridian Commons \xB7 Technology Liability"
 slug: technology-liability
 file_stem: Meridian_Technology_Liability
 doc_ref: 2026/TL/0001
-version: 1.4.0-DRAFT
+version: 1.5.0-DRAFT
 date: November 2026
 draft: true
 summary: Technology professional liability, cyber protection, and public and products liability in one policy, for Australian technology companies.
-supersedes: Meridian Technology Liability v1.3.0-DRAFT (July 2026), published as a page without clause source, and the Technology Liability Endorsement Library (2026/TL/0002, July 2026)
+supersedes: Meridian Technology Liability v1.4.0-DRAFT (November 2026)
 structure:
 - section: preamble
   clauses:
   - tl.about
+  - tl.who-for
   - tl.version-history
   - tl.schedule
 - section: tl.section.definitions
@@ -143,7 +144,6 @@ structure:
   - tl.excl.property-in-your-control
   - tl.excl.related-entities
   - tl.excl.retroactive-date
-  - tl.excl.sanctions
   - tl.excl.securities-law
   - tl.excl.terrorism
   - tl.excl.trading-debts
@@ -170,6 +170,8 @@ structure:
   - tl.cond.mergers-and-consolidations
   - tl.pay.reinstatement
   - tl.cond.insurance-contracts-act
+  - tl.cond.corporations-act-199a-199b
+  - tl.cond.sanctions
   - tl.cond.gst
   - tl.cond.version-control
   - tl.cond.governing-law-and-jurisdiction
