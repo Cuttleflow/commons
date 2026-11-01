@@ -100,6 +100,10 @@ questions:
   text: What percentage of your fee income comes from corporate advisory work?
   type: number (percentage)
   used_by: A
+- id: qs.imi.exposure.fee_income
+  text: What is your total fee income for the current year, in $?
+  type: number ($)
+  used_by: A
 - id: qs.imi.exposure.largest_client_pct
   text: What percentage of your fee income comes from your largest client?
   type: number (percentage)
