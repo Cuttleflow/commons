@@ -3,18 +3,17 @@ id: gpa.pay.offsets
 type: payment
 heading: Other Payments for the Same Disablement
 since: 1.0.0
+changed: 1.1.0
 status: draft
-note: Contains a WP REVIEW tag for the Wording Partner.
 ---
 
 We reduce the weekly benefit by any weekly payment you receive, or are entitled to receive, for the same period of disablement from:
 
-- a workers compensation or transport accident scheme, or any other statutory compensation scheme;
-- sick leave or other pay from your employer or your business that continues while you are disabled; and
-- any other personal accident, sickness, income protection or disability income insurance,
+- a workers compensation or transport accident scheme, or any other statutory compensation scheme; and
+- sick leave or other pay from your employer or your business that continues while you are disabled,
 
 so that the total of all those payments and our weekly benefit is no more than your income. If Endorsement E11 applies to your category, the weekly benefit tops up workers compensation as that endorsement says.
 
-We do not reduce capital benefits, or the benefits in [[ref:gpa.section.additional-benefits]], for any other payment.
+We do not reduce the weekly benefit because of any other personal accident, sickness, income protection or disability income insurance. [[ref:gpa.pay.other-insurance]] explains how this policy fits with other insurance.
 
-[WP REVIEW: confirm the reduction for other insurance operates as a benefit measure, not as an "other insurance" provision caught by s45 of the Insurance Contracts Act 1984 (Cth).]
+We do not reduce capital benefits, or the benefits in [[ref:gpa.section.additional-benefits]], for any other payment.

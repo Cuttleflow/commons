@@ -3,6 +3,7 @@ id: gpa.end.e03
 type: endorsement
 heading: E03 Sports Teams
 since: 1.0.0
+changed: 1.1.0
 status: draft
 trigger:
   questions:
@@ -26,4 +27,4 @@ The category named in the schedule for this endorsement covers registered player
 
 The premium for this category is a rate per registered player or official.
 
-Schedule variables: the sport; number of registered participants (or the declaration basis); capital sum; weekly benefit; reduced capital sum for those under 18 (default 20% of the capital sum); non-Medicare medical limit.
+Schedule variables: the sport; number of registered participants (or the declaration basis); capital sum; weekly benefit; reduced capital sum for those under 18 (default 20% of the capital sum).

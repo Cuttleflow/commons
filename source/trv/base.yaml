@@ -5,8 +5,8 @@ kicker: Meridian Commons · Travel
 slug: travel
 file_stem: Meridian_Travel
 doc_ref: 2026/TRAV/0001
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: 'Single-trip travel insurance for individuals, couples and families leaving Australia, with three plans: medical, cancellation, luggage, money, liability and rental vehicle excess.'
 supersedes: New wording. Derived from the Meridian Travel Insurance Policy Wording v1.0.0 (July 2026), published outside the Commons
@@ -75,6 +75,7 @@ structure:
   - trv.pay.limits-and-excess
   - trv.pay.medicare
   - trv.pay.other-insurance
+  - trv.pay.recovery
   - trv.pay.who-we-pay
 - section: trv.section.exclusions
   clauses:

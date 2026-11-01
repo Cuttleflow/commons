@@ -3,6 +3,7 @@ id: gtr.cover.disruption
 type: cover
 heading: Cancellation, Curtailment and Delay
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -18,15 +19,17 @@ We will pay, up to the limit shown in the schedule for each insured person (defa
 An insured disruption event is:
 
 - the death, serious injury or serious sickness of the insured person, their travelling companion, or a member of their immediate family, certified by a medical practitioner;
-- a natural disaster, fire, flood, riot, strike or civil commotion at the destination, or the destination becoming unsafe because DFAT advice for it is raised after the trip was booked;
+- a natural disaster, fire, flood, riot, strike or civil commotion at the destination, or DFAT advice for the destination being raised to "do not travel" after the trip was booked;
 - the insured person's home or usual place of work in Australia being made uninhabitable or unusable by fire, flood or storm;
 - the insured person being summoned for jury service or subpoenaed as a witness; or
 - the cancellation, delay or diversion of scheduled transport for a reason outside the insured person's control.
+
+Where DFAT advice is raised to "do not travel" after the trip was booked and before it began, we pay for cancellation if the insured person cancels the trip because of the advice. If the insured person travels anyway, [[ref:gtr.excl.government-advice]] applies.
 
 We do not pay under this section for a loss caused by:
 
 - your business decisions, including a meeting, contract or event being moved or cancelled, or a change in your plans;
 - the insured person deciding not to travel or to come home, other than because of an insured disruption event;
 - a known event;
-- an amount that is refundable, or for which compensation is payable, by a carrier, travel agent, accommodation provider or under a credit card or other scheme; or
+- an amount that is refundable, or for which compensation is payable, by a carrier, travel agent or accommodation provider; or
 - an epidemic or pandemic, unless Endorsement E04 applies.

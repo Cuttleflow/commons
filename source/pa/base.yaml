@@ -5,8 +5,8 @@ kicker: Meridian Commons · Personal Accident and Sickness
 slug: personal-accident-and-sickness
 file_stem: Meridian_Personal_Accident_and_Sickness
 doc_ref: 2026/PA/0001
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Capital and weekly benefits for one named person, for injury and, if chosen, sickness, sold through brokers in Australia.
 supersedes: New wording. Derived from Meridian Group Personal Accident and Sickness Policy Wording v1.0.0 (July 2026), published outside the Commons
@@ -55,7 +55,6 @@ structure:
   - pa.ext.spouse-retraining
   - pa.ext.coma
   - pa.ext.broken-bones
-  - pa.ext.non-medicare-medical
   - pa.ext.rehabilitation
   - pa.ext.home-and-vehicle-modification
   - pa.ext.transport-to-work
@@ -67,8 +66,10 @@ structure:
   - pa.pay.one-capital-event
   - pa.pay.weekly-and-capital
   - pa.pay.offsets
+  - pa.pay.other-insurance
   - pa.pay.mental-illness
   - pa.pay.age-limits
+  - pa.obl.residence-and-travel
   - pa.pay.accumulation
   - pa.pay.medicare
   - pa.pay.who-we-pay
@@ -92,7 +93,6 @@ structure:
   - pa.obl.tell-us-about-claims
   - pa.obl.medical-care-and-examination
   - pa.obl.tell-us-about-changes
-  - pa.obl.residence-and-travel
 - section: pa.section.conditions
   clauses:
   - pa.cond.insurance-contracts-act

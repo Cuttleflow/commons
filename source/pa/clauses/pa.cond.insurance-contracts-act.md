@@ -1,16 +1,12 @@
 ---
 id: pa.cond.insurance-contracts-act
 type: condition
-heading: Insurance Contracts Act
+heading: Insurance Contracts Act 1984 (Cth)
 since: 1.0.0
+changed: 1.1.0
 status: draft
-note: Contains a WP REVIEW tag for the Wording Partner.
 ---
 
-Nothing in this policy excludes, restricts or modifies any right you have under the Insurance Contracts Act 1984 (Cth).
+Nothing in this policy excludes, restricts or modifies the operation of the Insurance Contracts Act 1984 (Cth). Where this policy is inconsistent with the Act, the Act prevails.
 
-Where you fail to do something this policy requires, or do something it does not allow, after the policy is entered into, s.54 of that Act applies. We will not refuse a claim only because of that act or omission. We may reduce our payment by the amount that fairly represents the extent to which our interests were prejudiced. We may refuse the claim only where the act or omission could reasonably be regarded as capable of causing or contributing to the loss, and then only as that section allows.
-
-Where you have not told us about a change under [[ref:pa.obl.tell-us-about-changes]], and the change meant a higher premium would have applied, we may reduce a claim to the proportion that the premium paid bears to the premium we would have charged.
-
-[WP REVIEW: confirm a premium-proportion reduction for an untold change of occupation or pursuit is a fair measure of prejudice under s54(1).]
+If this policy would otherwise let us refuse to pay a claim, in whole or in part, because of something you did or did not do after this policy was entered into, section 54 of the Act applies. We may not refuse to pay the claim only because of that act or omission. Our liability is reduced by the amount that fairly represents the extent to which our interests were prejudiced. Where the act or omission could reasonably be regarded as capable of causing or contributing to the loss, we may refuse to pay only the part of the claim that the act or omission caused or contributed to. We may not refuse any part that you prove the act or omission did not cause. This applies to every condition, exclusion, limit and obligation in this policy, not only to the claims conditions.

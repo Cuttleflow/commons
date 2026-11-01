@@ -5,8 +5,8 @@ kicker: Meridian Commons · Corporate Travel
 slug: corporate-travel
 file_stem: Meridian_Corporate_Travel
 doc_ref: 2026/CT/0001
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: 'Annual cover for an organisation''s business travellers, in Australia and overseas: medical, accident, disruption, luggage, money, liability, kidnap and crisis, and rental vehicle excess, sold through brokers.'
 supersedes: New wording. Derived from the Meridian Corporate Travel Insurance Policy Wording v1.0.0 (July 2026), published outside the Commons
@@ -23,10 +23,13 @@ structure:
   - gtr.def.accompanying-family-member
   - gtr.def.business-equipment
   - gtr.def.business-trip
+  - gtr.def.control-group
+  - gtr.def.dependent-child
   - gtr.def.dfat-advice
   - gtr.def.endorsement
   - gtr.def.epidemic-or-pandemic
   - gtr.def.excess
+  - gtr.def.extortion
   - gtr.def.home
   - gtr.def.immediate-family
   - gtr.def.injury
@@ -37,6 +40,8 @@ structure:
   - gtr.def.medical-practitioner
   - gtr.def.medicare-eligible
   - gtr.def.money
+  - gtr.def.natural-disaster
+  - gtr.def.permanent
   - gtr.def.permanent-total-disablement
   - gtr.def.policy-period
   - gtr.def.pre-existing-condition
@@ -44,8 +49,10 @@ structure:
   - gtr.def.sickness
   - gtr.def.temporary-total-disablement
   - gtr.def.terrorism
+  - gtr.def.travelling-companion
   - gtr.def.trip
   - gtr.def.unattended
+  - gtr.def.unlawful-detention
   - gtr.def.we-us-our
   - gtr.def.you-your
 - section: gtr.section.cover-basis
@@ -73,6 +80,8 @@ structure:
 - section: gtr.section.kidnap-crisis
   clauses:
   - gtr.cover.kidnap-crisis
+  - gtr.cover.security-evacuation
+  - gtr.cover.terrorism-response
 - section: gtr.section.rental-vehicle
   clauses:
   - gtr.cover.rental-vehicle
@@ -83,6 +92,7 @@ structure:
   - gtr.pay.accumulation
   - gtr.pay.medicare
   - gtr.pay.other-insurance
+  - gtr.pay.recovery
   - gtr.pay.who-we-pay
 - section: gtr.section.exclusions
   clauses:

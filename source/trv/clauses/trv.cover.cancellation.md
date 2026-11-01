@@ -3,6 +3,7 @@ id: trv.cover.cancellation
 type: cover
 heading: Cancellation, Cutting Short and Delay
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -31,7 +32,7 @@ We do not pay under this section for a loss caused by:
 
 - you changing your mind, or your work or business commitments;
 - a known event, or DFAT advice that applied when you bought this policy;
-- an amount that a travel provider refunds or must refund, or that is payable under a credit card or other scheme;
+- an amount that a travel provider refunds or must refund;
 - a pre-existing condition, of you or of a close relative or travel companion, unless it is a condition we have accepted for an insured person;
 - an epidemic or pandemic, unless Endorsement E10 applies; or
 - the wedding, event or other occasion you were travelling to being cancelled, unless Endorsement E13 applies.

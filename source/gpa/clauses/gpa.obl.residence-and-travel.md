@@ -1,8 +1,9 @@
 ---
 id: gpa.obl.residence-and-travel
-type: obligation
+type: payment
 heading: Living and Travelling Overseas
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
