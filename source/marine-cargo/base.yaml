@@ -1,0 +1,101 @@
+id: mcg-base
+title: Marine Cargo Insurance
+class: MARINE CARGO INSURANCE
+kicker: Meridian Commons · Marine Cargo
+slug: marine-cargo
+file_stem: Meridian_Marine_Cargo
+doc_ref: 2026/MC/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: An annual open transit policy for Australian importers, exporters and distributors, built on the Institute Cargo Clauses (A), (B) and (C), with inland transit cover within Australia.
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - mcg.about
+  - mcg.version-history
+  - mcg.important-information
+  - mcg.schedule
+- section: mcg.section.definitions
+  clauses:
+  - mcg.def.accumulation-limit
+  - mcg.def.annual-sendings
+  - mcg.def.conveyance
+  - mcg.def.endorsement
+  - mcg.def.excess
+  - mcg.def.excluded-goods
+  - mcg.def.export-transit
+  - mcg.def.goods
+  - mcg.def.import-transit
+  - mcg.def.inland-transit
+  - mcg.def.institute-clauses
+  - mcg.def.limit-any-one-conveyance
+  - mcg.def.own-vehicle
+  - mcg.def.policy-period
+  - mcg.def.professional-carrier
+  - mcg.def.theft-attractive-goods
+  - mcg.def.transit
+  - mcg.def.we-us-our
+  - mcg.def.you-your
+- section: mcg.section.cover
+  clauses:
+  - mcg.cover.transit
+  - mcg.cover.institute-clauses
+  - mcg.cover.inland-transit
+  - mcg.cover.duration
+  - mcg.cover.war-and-strikes
+- section: mcg.section.extensions
+  clauses:
+  - mcg.ext.accumulation
+  - mcg.ext.errors-and-omissions
+  - mcg.ext.certificates
+  - mcg.ext.packing-and-labels
+- section: mcg.section.payment
+  clauses:
+  - mcg.pay.basis-of-valuation
+  - mcg.pay.excess
+  - mcg.pay.premium-adjustment
+  - mcg.pay.gst
+- section: mcg.section.exclusions
+  clauses:
+  - mcg.excl.excluded-goods
+  - mcg.excl.transits-outside-australia
+  - mcg.excl.war-on-land
+  - mcg.excl.delay-and-market
+- section: mcg.section.obligations
+  clauses:
+  - mcg.obl.tell-us-about-loss
+  - mcg.obl.rights-against-carriers
+  - mcg.obl.reduce-loss
+  - mcg.obl.records
+  - mcg.obl.tell-us-about-changes
+- section: mcg.section.conditions
+  clauses:
+  - mcg.cond.statutory-framework
+  - mcg.cond.order-of-precedence
+  - mcg.cond.law-and-practice
+  - mcg.cond.jurisdiction
+  - mcg.cond.institute-clause-text
+  - mcg.cond.cancellation
+  - mcg.cond.fraud
+  - mcg.cond.sanctions
+  - mcg.cond.gst
+  - mcg.cond.privacy
+  - mcg.cond.disputes-and-complaints
+  - mcg.cond.headings-and-references
+- section: end
+  clauses:
+  - mcg.claims.how-to-make-a-claim
+  - mcg.endorsement-library
+  - mcg.end.e01
+  - mcg.end.e02
+  - mcg.end.e03
+  - mcg.end.e04
+  - mcg.end.e05
+  - mcg.end.e06
+  - mcg.end.e07
+  - mcg.end.e08
+  - mcg.end.e09
+  - mcg.end.e10
+  - mcg.licence-notice
