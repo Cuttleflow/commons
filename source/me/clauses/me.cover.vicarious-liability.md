@@ -4,6 +4,7 @@ type: cover
 heading: Vicarious Liability for Employees, Practitioners and Contracted Doctors
 legacy_number: '2.2'
 since: 1.1.0
+changed: 1.2.0
 status: draft
 ---
 
@@ -13,4 +14,6 @@ Cover under [[ref:me.cover.healthcare-operations]] includes the company's vicari
 - (b) any allied health practitioner, volunteer, student or locum tenens acting for the company; and
 - (c) any medical practitioner, including a visiting medical officer or contracted doctor, while providing healthcare services at or for the company.
 
-We will not pay the civil liability of a medical practitioner for any act, error or omission in the provision of healthcare services in their capacity as a medical practitioner. The cover in this clause is for the company's liability only. A medical practitioner is never an insured under this policy, has no rights under this policy, and must maintain their own compliant medical indemnity insurance. Where both the company and a medical practitioner are liable for the same loss, we pay only the company's share, and we may seek contribution or recovery from the medical practitioner or their insurer (see [[ref:me.obl.recovery-rights]]).
+We will not pay the civil liability of a medical practitioner for any act, error or omission in the provision of healthcare services in their capacity as a medical practitioner. The cover in this clause is for the company's liability only. A medical practitioner is never an insured under this policy, has no rights under this policy, and must maintain their own compliant medical indemnity insurance. 
+
+Where the company is liable, vicariously or for breach of a non-delegable duty of care, for the conduct of a medical practitioner, we pay the company's whole liability for that conduct, even if the medical practitioner is also liable for the same loss. After we pay, we may seek contribution or recovery from the medical practitioner or their insurer (see [[ref:me.obl.recovery-rights]]).

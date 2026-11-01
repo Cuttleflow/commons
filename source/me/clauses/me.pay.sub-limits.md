@@ -4,6 +4,7 @@ type: payment
 heading: Sub-limits
 legacy_number: '4.2'
 since: 1.1.0
+changed: 1.2.0
 status: draft
 ---
 
@@ -19,5 +20,6 @@ Where a sub-limit applies, it is the most we will pay for that type of cover for
 | [[ref:me.ext.loss-of-documents|heading]] | $250,000 |
 | [[ref:me.ext.public-relations|heading]] | $100,000 |
 | [[ref:me.ext.advance-claim-protection|heading]] | $100,000 |
+| [[ref:me.ext.court-attendance|heading]] | $25,000 |
 
 [WP REVIEW: these default sub-limits are new in this version; version 1.0.0 left every sub-limit to the schedule. Confirm with the capacity provider.]

@@ -3,11 +3,12 @@ id: fs.ext.representatives
 type: extension
 heading: Representatives
 since: 1.0.0
+changed: 1.1.0
 status: draft
 note: ASIC RG 126 and RG 210 require cover for the licensee's liability for the fraud and dishonesty of its representatives (sole traders excepted).
 ---
 
-We cover you for your liability for the conduct of your **representatives** in providing financial services or credit activities, including fraudulent or dishonest conduct and conduct outside the authority you gave them, where a law makes you liable to the client for that conduct.
+We cover you for your liability for the conduct of your **representatives** in providing financial services or credit activities, including fraudulent or dishonest conduct and conduct outside the authority you gave them, where a law makes you liable to the client for that conduct. This extension does not apply to a service that [[ref:fs.cond.licences-registrations-and-accreditations]] says is not a professional service.
 
 Each representative is an insured person for the professional services they provide as your representative, unless the schedule states that the representative is insured under a separate policy that gives you a right of indemnity.
 

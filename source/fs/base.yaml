@@ -5,8 +5,8 @@ kicker: Meridian Commons · Financial Services Professional Indemnity
 slug: financial-services-professional-indemnity
 file_stem: Meridian_Financial_Services_Professional_Indemnity
 doc_ref: 2026/FS/0001
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Professional indemnity cover for Australian financial services and credit licensees and their representatives,
   written on a claims-made basis to meet ASIC RG 126 and RG 210.
@@ -32,6 +32,7 @@ structure:
 - section: preamble
   clauses:
   - fs.about
+  - fs.who-this-policy-is-for
   - fs.version-history
   - fs.schedule
 - section: fs.section.definitions
@@ -42,6 +43,7 @@ structure:
   - fs.def.company
   - fs.def.computer-system
   - fs.def.confidential-information
+  - fs.def.control-group
   - fs.def.defence-costs
   - fs.def.employee
   - fs.def.endorsement
@@ -57,10 +59,12 @@ structure:
   - fs.def.pollution
   - fs.def.predecessor-practice
   - fs.def.professional-services
+  - fs.def.related-party
   - fs.def.representative
   - fs.def.retroactive-date
   - fs.def.schedule
   - fs.def.subsidiary
+  - fs.def.unauthorised-access
   - fs.def.we-us-our
   - fs.def.you-your
 - section: fs.section.cover
@@ -127,6 +131,8 @@ structure:
 - section: fs.section.conditions
   clauses:
   - fs.cond.insurance-contracts-act
+  - fs.cond.corporations-act-199b
+  - fs.cond.sanctions
   - fs.cond.your-duty-of-disclosure
   - fs.cond.licences-registrations-and-accreditations
   - fs.cond.compulsory-insurance-requirements

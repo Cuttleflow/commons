@@ -4,9 +4,10 @@ type: condition
 heading: Insurance Contracts Act
 legacy_number: '6.6'
 since: 1.1.0
+changed: 1.2.0
 status: draft
 ---
 
-Nothing in this policy excludes, restricts or modifies the operation of the Insurance Contracts Act 1984 (Cth) (the ICA). Where this policy is inconsistent with the ICA, the ICA prevails, and the inconsistent term is read down or severed to the minimum extent necessary.
+Nothing in this policy excludes, restricts or modifies the operation of the Insurance Contracts Act 1984 (Cth). Where this policy is inconsistent with the Act, the Act prevails.
 
-Without limiting the above, s.54 of the ICA applies to any act or omission by you after this policy is entered into, including under every obligation in [[ref:me.section.obligations]] and every obligation stated in an extension or endorsement. We may not refuse to pay a claim, or reduce our liability under it, by reason only of such an act or omission, except to the extent (if any) that we are prejudiced by it, or as the ICA otherwise permits.
+If this policy would otherwise let us refuse to pay a claim, in whole or in part, because of something you did or did not do after this policy was entered into, section 54 of the Act applies. We may not refuse to pay the claim only because of that act or omission. Our liability is reduced by the amount that fairly represents the extent to which our interests were prejudiced. Where the act or omission could reasonably be regarded as capable of causing or contributing to the loss, we may refuse to pay only the part of the claim that the act or omission caused or contributed to. We may not refuse any part that you prove the act or omission did not cause. This applies to every condition, exclusion, limit and obligation in this policy, not only to the claims conditions.

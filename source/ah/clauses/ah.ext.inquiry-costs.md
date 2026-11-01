@@ -4,10 +4,11 @@ type: extension
 heading: Inquiry Costs
 legacy_number: 2.2.5
 since: 1.3.0
+changed: 1.4.0
 status: draft
 ---
 
-We will pay the reasonable legal costs and expenses you incur, with our prior written consent, to be represented at, respond to, or prepare for an inquiry, where the notice requiring or inviting your attendance, response or production is first received by you and notified to us during the policy period. This includes, without limitation:
+We will pay the reasonable legal costs and expenses you incur, with our prior written consent, to be represented at, respond to, or prepare for an inquiry, where the inquiry is first made against you during the policy period, as [[ref:ah.def.inquiry]] provides, and you notify us of it during the policy period. This includes, without limitation:
 
 - (a) investigations, performance assessments, health assessments, immediate-action proceedings, panel hearings and tribunal proceedings by or on behalf of Ahpra or a National Board under the National Law;
 - (b) investigations and proceedings by the Health Ombudsman (Queensland), the Health Care Complaints Commission (New South Wales) or any other state or territory healthcare complaints entity;

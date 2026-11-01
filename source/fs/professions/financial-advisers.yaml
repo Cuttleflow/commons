@@ -5,13 +5,13 @@ kicker: Meridian Commons · Financial Services Professional Indemnity · Financi
 slug: financial-advisers
 file_stem: Meridian_FS_Financial_Advisers
 doc_ref: 2026/FS/0004
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity wording for financial advisers, financial planners and their AFS licensees
   and authorised representatives, written to meet ASIC RG 126 and built on the Meridian Financial Services PI base
   wording.
-base: fs-base@1.0.0-DRAFT
+base: fs-base@1.1.0-DRAFT
 supersedes: MERIDIAN-PI-FINP-v1.0.0 (June 2026), which is withdrawn and is not a source for this wording
 overrides:
 - op: replace
@@ -42,7 +42,7 @@ overrides:
   clause: fs.fa.end.named-products
   after: fs.fa.end.related-products
 regulatory_basis:
-- topic: ASIC RG 126 (issued November 2024, updated December 2025), Table 4 and RG 126.39 to RG 126.50
+- topic: ASIC RG 126 (issued November 2024, updated December 2025), Table 4 and RG 126.39 to RG 126.50 (paragraph numbers to be verified by counsel)
   status: 'Minimum limit ($2m, or about retail revenue up to $20m): platform restriction. Defence costs in addition:
     FS base. AFCA awards and conciliated amounts: FS base AFCA Determinations extension. Fraud and dishonesty of
     officers, employees and representatives: FS base insuring clause and Representatives extension. Licensee and
