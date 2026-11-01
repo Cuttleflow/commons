@@ -1,0 +1,124 @@
+id: cr-base
+title: Comprehensive Crime Insurance
+class: COMPREHENSIVE CRIME INSURANCE
+kicker: Meridian Commons · Crime
+slug: crime
+file_stem: Meridian_Comprehensive_Crime
+doc_ref: 2026/CRI/0001
+version: 2.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Cover for loss from employee and third-party crime (fraud, theft and social engineering) on a discovery basis.
+supersedes: Meridian Comprehensive Crime v1.2.0-DRAFT (July 2026), published as a page without clause source
+structure:
+- section: preamble
+  clauses:
+  - cr.about
+  - cr.version-history
+  - cr.distribution-note
+  - cr.schedule
+- section: cr.section.definitions
+  clauses:
+  - cr.def.computer-system
+  - cr.def.counterfeit
+  - cr.def.discovery
+  - cr.def.employee
+  - cr.def.endorsement
+  - cr.def.excess
+  - cr.def.financial-instrument
+  - cr.def.forgery
+  - cr.def.funds-transfer
+  - cr.def.limit-of-liability
+  - cr.def.loss
+  - cr.def.manifest-intent
+  - cr.def.money
+  - cr.def.named-insured
+  - cr.def.policy-period
+  - cr.def.property
+  - cr.def.responsible-person
+  - cr.def.retroactive-date
+  - cr.def.schedule
+  - cr.def.securities
+  - cr.def.subsidiary
+  - cr.def.third-party
+  - cr.def.third-party-service-provider
+  - cr.def.we-us-our
+  - cr.def.you-your
+- section: cr.section.cover
+  clauses:
+  - cr.cover.employee-dishonesty
+  - cr.cover.forgery-and-alteration
+  - cr.cover.computer-crime
+  - cr.cover.funds-transfer-fraud
+  - cr.cover.social-engineering-fraud
+  - cr.cover.theft-of-money-and-securities
+  - cr.cover.theft-of-other-property
+- section: cr.section.extensions
+  clauses:
+  - cr.ext.forensic-investigation-costs
+  - cr.ext.legal-costs-to-establish-the-loss
+  - cr.ext.reconstitution-of-records
+  - cr.ext.credit-monitoring-for-affected-persons
+  - cr.ext.third-party-service-provider-dishonesty
+  - cr.ext.clients-property
+  - cr.ext.newly-acquired-subsidiaries
+  - cr.ext.telephone-and-communications-fraud
+  - cr.ext.reward
+- section: cr.section.exclusions
+  clauses:
+  - cr.excl.indirect-and-consequential-loss
+  - cr.excl.trading-and-investment-losses
+  - cr.excl.inventory-shortages-unexplained
+  - cr.excl.prior-discovery
+  - cr.excl.losses-before-the-retroactive-date
+  - cr.excl.directors-and-officers-dishonesty
+  - cr.excl.government-and-regulatory-action
+  - cr.excl.war-terrorism-and-nuclear-risks
+  - cr.excl.contractual-penalties
+  - cr.excl.fees-and-commissions
+  - cr.excl.legal-liability-to-third-parties
+- section: cr.section.payment
+  clauses:
+  - cr.pay.limits-per-loss-and-aggregate
+  - cr.pay.single-loss
+  - cr.pay.excess
+  - cr.pay.valuation-money-and-securities
+  - cr.pay.multiple-insuring-clauses
+  - cr.pay.recoveries
+  - cr.pay.other-insurance
+- section: cr.section.obligations
+  clauses:
+  - cr.obl.notify-us-promptly
+  - cr.obl.assist-our-investigation
+  - cr.obl.report-to-authorities
+  - cr.obl.mitigate
+  - cr.obl.preserve-evidence
+  - cr.obl.subrogation-and-recovery
+  - cr.obl.proof-of-loss
+  - cr.obl.maintain-controls
+- section: cr.section.conditions
+  clauses:
+  - cr.cond.discovery-trigger
+  - cr.cond.prior-insurance-and-superseded-policies
+  - cr.cond.discovery-period
+  - cr.cond.cancellation
+  - cr.cond.duty-of-disclosure
+  - cr.cond.insurance-contracts-act-1984-cth-general
+  - cr.cond.governing-law
+  - cr.cond.gst
+  - cr.cond.sanctions-limitation
+  - cr.cond.disputes
+- section: end
+  clauses:
+  - cr.endorsement-library
+  - cr.end.e01
+  - cr.end.e02
+  - cr.end.e03
+  - cr.end.e04
+  - cr.end.e05
+  - cr.end.e06
+  - cr.end.e07
+  - cr.end.e08
+  - cr.end.e09
+  - cr.end.e10
+  - cr.licence-notice

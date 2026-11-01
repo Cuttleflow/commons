@@ -1,0 +1,913 @@
+{
+ "wording": "cr-base",
+ "version": "2.0.0-DRAFT",
+ "doc_ref": "2026/CRI/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "cr.about",
+   "heading": "About This Policy",
+   "sha256": "0bcd24ae757dc4c32b92629bca6286f927e55d7ebe7bddacd942d12e240609c7"
+  },
+  {
+   "id": "cr.version-history",
+   "heading": "Version and Document History",
+   "sha256": "4dff942ac64ca6b3451478a62cfb0f3d2498c6f5e0c6500c4be70aa0c4839d6e"
+  },
+  {
+   "id": "cr.distribution-note",
+   "heading": "Distribution and Regulatory Note",
+   "sha256": "5dacb6080fc4683b47c126f79f00fc68b26d2932ecf00a82fffb0136d96b7bbd"
+  },
+  {
+   "id": "cr.schedule",
+   "heading": "Schedule",
+   "sha256": "11d901eda91862b9b7d2e859a6e5a7fca48c3432154ea7b2cd9359f300d7fa1a"
+  },
+  {
+   "id": "cr.section.definitions",
+   "heading": "Definitions",
+   "sha256": "33a07dc61ddf21c550af9fcbb9db45e76c3c8d4d6f540b748264ba9c838903c9"
+  },
+  {
+   "id": "cr.def.computer-system",
+   "heading": "Computer system",
+   "sha256": "e3266a768c1ac9ca2b358ba48dc84a02bc37dc53d5a104b0689371be1f2249f9"
+  },
+  {
+   "id": "cr.def.counterfeit",
+   "heading": "Counterfeit",
+   "sha256": "67a4842630d8abd6503ca94d10f36531e81980823e7c0235ad1eff36cdf785a5"
+  },
+  {
+   "id": "cr.def.discovery",
+   "heading": "Discovery",
+   "sha256": "1c918ba436fc1c1b6fdbac250e728922471c477bd241378e789c3f9a04b5d2dc"
+  },
+  {
+   "id": "cr.def.employee",
+   "heading": "Employee",
+   "sha256": "cffbbfa655565a66fae3ac368b67d1219900224aa73d65afb6d36388f500c095"
+  },
+  {
+   "id": "cr.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "ef77eec01d3f7c7b7f6eea32912e6b3b8929fd4aad096102c6a84fe38a8c034b"
+  },
+  {
+   "id": "cr.def.excess",
+   "heading": "Excess",
+   "sha256": "d018d311dec13ef9bb7221c77daabddd3e49caacd8b684aff62f60fecabcc109"
+  },
+  {
+   "id": "cr.def.financial-instrument",
+   "heading": "Financial instrument",
+   "sha256": "fa1ff8da89e6964fc89b31741097dcdf55324826b6731f409aa5b62487edfae6"
+  },
+  {
+   "id": "cr.def.forgery",
+   "heading": "Forgery",
+   "sha256": "745244442caed7f75d0badcb1f46980ba7af8498c69fd522e3c9b29791aeb8fd"
+  },
+  {
+   "id": "cr.def.funds-transfer",
+   "heading": "Funds transfer",
+   "sha256": "54288c1da0c363fa9e7004e5c648ec696dafa68e8cd3b50e5fc18901342118f0"
+  },
+  {
+   "id": "cr.def.limit-of-liability",
+   "heading": "Limit of liability",
+   "sha256": "d42ce7061a3b39887097a2e31a8c1c3fe170cbd4a843e73861a547477bb0f4f3"
+  },
+  {
+   "id": "cr.def.loss",
+   "heading": "Loss",
+   "sha256": "1009db7fa4385787061176a1244d6ebb5bbd10c59e02c2a6037b42abbbfe40aa"
+  },
+  {
+   "id": "cr.def.manifest-intent",
+   "heading": "Manifest intent",
+   "sha256": "7e8266e4f28c65891c518815464f6fe596f76e91e7d92c600c78a7405069a9ff"
+  },
+  {
+   "id": "cr.def.money",
+   "heading": "Money",
+   "sha256": "07254c7758fe4a3d68ebef600391559dd22b3e0555990322af0ca8a99de5708a"
+  },
+  {
+   "id": "cr.def.named-insured",
+   "heading": "Named insured",
+   "sha256": "f65757a874a5d6c17137ba625a4ebd65d9bd7e85197fc205d49463962b7986ec"
+  },
+  {
+   "id": "cr.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "15e9e59e5f1e0d81b3756a6aedc2c6c5631510974dbd672cc353c99197097956"
+  },
+  {
+   "id": "cr.def.property",
+   "heading": "Property",
+   "sha256": "e4f4cecb76e06624b38deb3b80b9351db01d7cc3429b15e9529acf3b60e4a654"
+  },
+  {
+   "id": "cr.def.responsible-person",
+   "heading": "Responsible person",
+   "sha256": "c67c6a7d8c358b04ca7cf96f08509caa115b96f4d27ea0f5679d967bd127d1c7"
+  },
+  {
+   "id": "cr.def.retroactive-date",
+   "heading": "Retroactive date",
+   "sha256": "8dc7ed68f43ce24dac12bdf5892fdcb8d6e537e18460bd508850933b8f2f7d67"
+  },
+  {
+   "id": "cr.def.schedule",
+   "heading": "Schedule",
+   "sha256": "14ffa964b7f3d2749ae138afefb3d342bf7d8ef77171694622d3087d4c3fb068"
+  },
+  {
+   "id": "cr.def.securities",
+   "heading": "Securities",
+   "sha256": "50a30f16b9d0d51b17a78f65e4fe36a31f191a42219f6015b0d8801075501fb4"
+  },
+  {
+   "id": "cr.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "f4d8745b15710365daada1e65891517611abd9147cdcc0cc86149861f749a5fa"
+  },
+  {
+   "id": "cr.def.third-party",
+   "heading": "Third party",
+   "sha256": "e7e48b1ca33708d289029d0c63634849b9416a4618bcef13a9034a299ce59234"
+  },
+  {
+   "id": "cr.def.third-party-service-provider",
+   "heading": "Third-party service provider",
+   "sha256": "69db79f817f0bab0a60c3649a169f6d6fc5af61a2c2ccded931299fb9e3b41ea"
+  },
+  {
+   "id": "cr.def.we-us-our",
+   "heading": "We / us / our",
+   "sha256": "2321de13eb2d5d0606c027ff7cd9d5d510b958d1c1a1d48389565d7fd34eb13a"
+  },
+  {
+   "id": "cr.def.you-your",
+   "heading": "You / your",
+   "sha256": "5646e4f83d181e38269eaf00496dd6eb3b4c0db3d49353ffbe1b84227833ff74"
+  },
+  {
+   "id": "cr.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "f743d305a73489f2524e5ffc4e50cfc7e82c7e93bbf4b688923e7c7fe4f7b922"
+  },
+  {
+   "id": "cr.cover.employee-dishonesty",
+   "heading": "Employee Dishonesty",
+   "sha256": "ef1cd046f883f5a2401f0a5c3967ecb5f8337d6b943056b876adeb320852971f"
+  },
+  {
+   "id": "cr.cover.forgery-and-alteration",
+   "heading": "Forgery and Alteration",
+   "sha256": "55ad2c984c0bc08ad9daa74dc4a93292fc74b87c6963562e16283c09f1311129"
+  },
+  {
+   "id": "cr.cover.computer-crime",
+   "heading": "Computer Crime",
+   "sha256": "0e111e91e679d3a85852ae2c59db3428a1fb61fb035dee958a96dbad58d3621c"
+  },
+  {
+   "id": "cr.cover.funds-transfer-fraud",
+   "heading": "Funds Transfer Fraud",
+   "sha256": "50df707668be942f570200a84a07e580672d213384b5df9426f086232e4e5523"
+  },
+  {
+   "id": "cr.cover.social-engineering-fraud",
+   "heading": "Social Engineering Fraud",
+   "sha256": "9cb51b48dfdc5bc94610cc07504e7e6cbdf8dd5fb9805caa9760364d56e23193"
+  },
+  {
+   "id": "cr.cover.theft-of-money-and-securities",
+   "heading": "Theft of Money and Securities",
+   "sha256": "76b23792e1bfefef2cc319ec15515a760d6ee7cb62a84292bdfb48049ca4df02"
+  },
+  {
+   "id": "cr.cover.theft-of-other-property",
+   "heading": "Theft of Other Property",
+   "sha256": "aaf23e0daae6d6653fef0a366025677d7d05ec2643246efcce80d6530de9364b"
+  },
+  {
+   "id": "cr.section.extensions",
+   "heading": "Extensions of Cover",
+   "sha256": "aba97c7cfa3ffc1edfd0eb19f49981d925ce2818fb0ebc9a4343eff153a1824f"
+  },
+  {
+   "id": "cr.ext.forensic-investigation-costs",
+   "heading": "Forensic Investigation Costs",
+   "sha256": "269bd8938de59190c58731eac904a741bb874b2b65df1392c8719dd65aa5b372"
+  },
+  {
+   "id": "cr.ext.legal-costs-to-establish-the-loss",
+   "heading": "Legal Costs to Establish the Loss",
+   "sha256": "ed679cc2bc2fe6c51fd955b5adbc5e03c728901d68afabd20b045140c2d9edfa"
+  },
+  {
+   "id": "cr.ext.reconstitution-of-records",
+   "heading": "Reconstitution of Records",
+   "sha256": "1f901bc556836265bd197a1b07ccf6c201e1d7ad9b048e82458053e2bf1a70de"
+  },
+  {
+   "id": "cr.ext.credit-monitoring-for-affected-persons",
+   "heading": "Credit Monitoring for Affected Persons",
+   "sha256": "06b0405851d5f82d836a5607709e06d92d0d7d98067b64a2569c67c37488a344"
+  },
+  {
+   "id": "cr.ext.third-party-service-provider-dishonesty",
+   "heading": "Third-Party Service Provider Dishonesty",
+   "sha256": "db5eb88dbce2a1b275e136e590151735b9710c12ce251da5192d0cf4f69e0732"
+  },
+  {
+   "id": "cr.ext.clients-property",
+   "heading": "Client's Property",
+   "sha256": "ef7d1692ea406a43fda2e31afa6794747f5d9ed0e7e5ab797ff0f1664c6c97bd"
+  },
+  {
+   "id": "cr.ext.newly-acquired-subsidiaries",
+   "heading": "Newly Acquired Subsidiaries",
+   "sha256": "a5a85e36250fa91efc433342ac01f87dd24ae4682f55f8f247a23ee0f9c7472d"
+  },
+  {
+   "id": "cr.ext.telephone-and-communications-fraud",
+   "heading": "Telephone and Communications Fraud",
+   "sha256": "5687290b3b774063d7be4194b5eb08dbe04871549afaf6e53a5111a2726f7af3"
+  },
+  {
+   "id": "cr.ext.reward",
+   "heading": "Reward",
+   "sha256": "88f7d16286cc8a39ffc3440cb23f4c52ff18ba93047812f1a1d8d2f4a8ef2073"
+  },
+  {
+   "id": "cr.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "2a95cc6d328c3fbad9e39dc31864c9633887bec8a24710fafc196c67ad8e9b0b"
+  },
+  {
+   "id": "cr.excl.indirect-and-consequential-loss",
+   "heading": "Indirect and Consequential Loss",
+   "sha256": "0a0df3b365597369baa4467ecb55ec3a295e34ee3c012019bb602e4fb5c9cec8"
+  },
+  {
+   "id": "cr.excl.trading-and-investment-losses",
+   "heading": "Trading and Investment Losses",
+   "sha256": "4f308e3dd89e9389e4d3bbc164df8541e20d2f5cda7092f97da2efd968b4f29e"
+  },
+  {
+   "id": "cr.excl.inventory-shortages-unexplained",
+   "heading": "Inventory Shortages \u2014 Unexplained",
+   "sha256": "012649cf22a8f7fead549ce7fd649a2254b1b13a91e298cdd257f5f7b0a5087e"
+  },
+  {
+   "id": "cr.excl.prior-discovery",
+   "heading": "Prior Discovery",
+   "sha256": "e8007fc9e0f5244f264f1163fac32b1b0e5f2aa4b78ff5015ccbf1e6c6fcbf2a"
+  },
+  {
+   "id": "cr.excl.losses-before-the-retroactive-date",
+   "heading": "Losses Before the Retroactive Date",
+   "sha256": "0fbd84e346e75a6170498cc58cf9e6d92e1a6f538eed16d5d316dbb245d6734a"
+  },
+  {
+   "id": "cr.excl.directors-and-officers-dishonesty",
+   "heading": "Directors' and Officers' Dishonesty",
+   "sha256": "38d05e7b31a38f49c69ba2d4935a902bb98f9af6dad79580ddf443a656dacbd3"
+  },
+  {
+   "id": "cr.excl.government-and-regulatory-action",
+   "heading": "Government and Regulatory Action",
+   "sha256": "9d41b0d5a3a455e21c1faf86e3048901c0e760761463088eceb9f44b88308136"
+  },
+  {
+   "id": "cr.excl.war-terrorism-and-nuclear-risks",
+   "heading": "War, Terrorism, and Nuclear Risks",
+   "sha256": "13e0ba45e257185b8fa233791c3c8e91c0ce30a00a7aaccbb5a16ff64726f8db"
+  },
+  {
+   "id": "cr.excl.contractual-penalties",
+   "heading": "Contractual Penalties",
+   "sha256": "3997889896978c6deb1c693e7eccbf752f97d849b7008b19e9e91babf38cfe5c"
+  },
+  {
+   "id": "cr.excl.fees-and-commissions",
+   "heading": "Fees and Commissions",
+   "sha256": "4d3c60eb0f8147f4808ddd6a39733275aa2bf96e8a562de09775ba8112d66443"
+  },
+  {
+   "id": "cr.excl.legal-liability-to-third-parties",
+   "heading": "Legal Liability to Third Parties",
+   "sha256": "f847c81f2927da3a83933df8b67a07e851b76d180de61fde9221310d2b0777a4"
+  },
+  {
+   "id": "cr.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "7e72e44292b481427ec2c10f1308edc6c9bc101d778cd4d86f9bb40ca1a3d0bf"
+  },
+  {
+   "id": "cr.pay.limits-per-loss-and-aggregate",
+   "heading": "Limits Per Loss and Aggregate",
+   "sha256": "6a99c6801adb84241c142880576af8e092056d1202f3bdbd6d000efdbde14ff7"
+  },
+  {
+   "id": "cr.pay.single-loss",
+   "heading": "Single Loss",
+   "sha256": "a7e3111237b6328687b8ce2114bd5fc36b29a5f790d4d6087a37529e5e8f0f58"
+  },
+  {
+   "id": "cr.pay.excess",
+   "heading": "Excess",
+   "sha256": "83a8cdf1383b52a03895d2d6abdd72bfc45de7a0748ad6ef3671044c0b3a347f"
+  },
+  {
+   "id": "cr.pay.valuation-money-and-securities",
+   "heading": "Valuation \u2014 Money and Securities",
+   "sha256": "ecaa7b637503796aaf39d0ffde21fbec0dae8e84bec88e6dbc1d243d144afcff"
+  },
+  {
+   "id": "cr.pay.multiple-insuring-clauses",
+   "heading": "Multiple Insuring Clauses",
+   "sha256": "9316e4b278cf9c7e387f01d1245a075bc633c7a4496f43713512032cbca70ab9"
+  },
+  {
+   "id": "cr.pay.recoveries",
+   "heading": "Recoveries",
+   "sha256": "df84b32123a291ddd6f54a1836469344f822de4dc2f1176defff519fb87ea3bf"
+  },
+  {
+   "id": "cr.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "500d277728731d01c57789535d535494b6707a8d277acda93cfae51b2d1215df"
+  },
+  {
+   "id": "cr.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "c836f32403934e0b9fd4c9d3dc8d947ce899e25cbb953ffa7c638ad27e0da634"
+  },
+  {
+   "id": "cr.obl.notify-us-promptly",
+   "heading": "Notify Us Promptly",
+   "sha256": "6697a8d821985707c7843592c5982c3c9e3573a62acdbdb937de9e06680fabfe"
+  },
+  {
+   "id": "cr.obl.assist-our-investigation",
+   "heading": "Assist Our Investigation",
+   "sha256": "13a7a07a8171a933f3cf2c7a2426f2f8ca57e6c7a6d3ff697754ae2ea224dd90"
+  },
+  {
+   "id": "cr.obl.report-to-authorities",
+   "heading": "Report to Authorities",
+   "sha256": "518d173b9b747f0f44b26559e09cc2a667e93c67b79e6e2e27eb5f733ed757ad"
+  },
+  {
+   "id": "cr.obl.mitigate",
+   "heading": "Mitigate",
+   "sha256": "305951c8c40a739b8430531ff7d6b27e7db5cee01723e99d46567dcf759a8f56"
+  },
+  {
+   "id": "cr.obl.preserve-evidence",
+   "heading": "Preserve Evidence",
+   "sha256": "1e449954d67a94af3a0a3a82fedecd910022f656618d9f6ac4be2b01fe580513"
+  },
+  {
+   "id": "cr.obl.subrogation-and-recovery",
+   "heading": "Subrogation and Recovery",
+   "sha256": "1c5cc9f9be239e65e5dc0f09311cd4f9665dcff2e5679a3cf9187c2d3c3f2f51"
+  },
+  {
+   "id": "cr.obl.proof-of-loss",
+   "heading": "Proof of Loss",
+   "sha256": "0d7f2f040904f58fe2b10a2c455956ba406a784f1aa8833a996092dc71db7588"
+  },
+  {
+   "id": "cr.obl.maintain-controls",
+   "heading": "Maintain Controls",
+   "sha256": "895fd0806acde669d43ad2f2dcd789e1eda695baf3ca1fb37ac06499e5171871"
+  },
+  {
+   "id": "cr.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "f738d943e8679cbab0142c0c3dae8952d49e50a45ec2ff661a1b0bb496d9964b"
+  },
+  {
+   "id": "cr.cond.discovery-trigger",
+   "heading": "Discovery Trigger",
+   "sha256": "01d80317d781981cf7a499b6b278b8ccb94acb65e4914c7ef06a0654b3f72677"
+  },
+  {
+   "id": "cr.cond.prior-insurance-and-superseded-policies",
+   "heading": "Prior Insurance and Superseded Policies",
+   "sha256": "7dd50e0edffa75f2e5472b2043bc33c0db34b7b17ea254898eacdc84815bef3c"
+  },
+  {
+   "id": "cr.cond.discovery-period",
+   "heading": "Discovery Period",
+   "sha256": "6ede0ba66db32990167cb3a74dc8fe5ce3c2123dfda0afb6dc0d9f17fb1122d2"
+  },
+  {
+   "id": "cr.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "0ebf64b8db67a629a502081588460c0c22f6e358dd20e969a589792e0c9c3b80"
+  },
+  {
+   "id": "cr.cond.duty-of-disclosure",
+   "heading": "Duty of Disclosure",
+   "sha256": "fdb0b78c556dbcb1f26a822ef6a673645e72f8850d1eb8fc5f41e6f83777ffd3"
+  },
+  {
+   "id": "cr.cond.insurance-contracts-act-1984-cth-general",
+   "heading": "Insurance Contracts Act 1984 (Cth) \u2014 General",
+   "sha256": "dd57a8a9e4426363c3629300961d18dc768343d8e413139ac64155b386790c1c"
+  },
+  {
+   "id": "cr.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "2426f47df1346078f3ea420db9e01b7aad2fa9496fceb99a1a55dbba4c9f6f37"
+  },
+  {
+   "id": "cr.cond.gst",
+   "heading": "GST",
+   "sha256": "33582b051495569c12c2c3abca45a8651e91be70a5b0b9941a7e033201641e06"
+  },
+  {
+   "id": "cr.cond.sanctions-limitation",
+   "heading": "Sanctions Limitation",
+   "sha256": "c6bc4385421030977309367a0633829df821dcaf4ac9e7606f674dc4b6d23713"
+  },
+  {
+   "id": "cr.cond.disputes",
+   "heading": "Disputes",
+   "sha256": "f5bed867ec8b3a16f457f4411bb92feb8fb6c2b8254a6a69a9b3e3d6b1d8a2ba"
+  },
+  {
+   "id": "cr.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "feb952cea1e673634882f0c1fd16b88965ca82ae44729257f601c1d09b97df40"
+  },
+  {
+   "id": "cr.end.e01",
+   "heading": "E01 Increased Social Engineering Sub-limit",
+   "sha256": "4e9710c8727dd774246c9faf50fe5eaa332df8ec4b65059917c4f1b55133ae73"
+  },
+  {
+   "id": "cr.end.e02",
+   "heading": "E02 Third-Party Service Provider: Increased Sub-limit and Broadened Scope",
+   "sha256": "fd37465fff95f4e89659baf6ee9a383e27ab028b920873860748693a16f04145"
+  },
+  {
+   "id": "cr.end.e03",
+   "heading": "E03 Client Property: Increased Sub-limit",
+   "sha256": "e67a084e9be48ad26b878a0e8d539cae865d893eed7f3549b8ce633614f78c52"
+  },
+  {
+   "id": "cr.end.e04",
+   "heading": "E04 Vendor Dishonesty",
+   "sha256": "c8be1caf1e5c0f27054e0169062504f259542ecc2b0dbd5468570d13419dec14"
+  },
+  {
+   "id": "cr.end.e05",
+   "heading": "E05 Impersonation of Client at Premises",
+   "sha256": "cf06339ff7ce76ac8acb861145d3554c1d1da90c4e8fd2a6832f8b11bf71bd48"
+  },
+  {
+   "id": "cr.end.e06",
+   "heading": "E06 Cryptocurrency and Digital Asset Theft",
+   "sha256": "ea1bf4f8f608b86b0aedfadafc8edffa89d3d5db4d9b7dd2eafc7b36b397c744"
+  },
+  {
+   "id": "cr.end.e07",
+   "heading": "E07 Wage and Payroll Fraud: Expanded",
+   "sha256": "cf479e4beabd4d7c1a2178408504ee2e181ae1b7e0f169e30e43196feb414a15"
+  },
+  {
+   "id": "cr.end.e08",
+   "heading": "E08 Excess Layer",
+   "sha256": "7ab3d9bedda239fc635b5b12bf3bcb48b2834fb814001ecceed32cf2c948e4a1"
+  },
+  {
+   "id": "cr.end.e09",
+   "heading": "E09 Financial Institution: Fiduciary Funds",
+   "sha256": "5e079c67a8fbc558ab72e1080dbd5580d76405f4c61d9d4ad9fc3f930ad8581c"
+  },
+  {
+   "id": "cr.end.e10",
+   "heading": "E10 Invoice Manipulation Fraud",
+   "sha256": "2fa60b7e0425917544beb8450432436830c153c0cc8e5ec9a5a0168c44214e78"
+  },
+  {
+   "id": "cr.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "cr.end.e01",
+   "heading": "E01 Increased Social Engineering Sub-limit",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E01' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for a higher limit for payments made after a fraudulent instruction.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e02",
+   "heading": "E02 Third-Party Service Provider: Increased Sub-limit and Broadened Scope",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E02' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you rely on service providers who handle your money, payroll or systems.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e03",
+   "heading": "E03 Client Property: Increased Sub-limit",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E03' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you hold property of your clients.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e04",
+   "heading": "E04 Vendor Dishonesty",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E04' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because suppliers or contractors work at your premises.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e05",
+   "heading": "E05 Impersonation of Client at Premises",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E05' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because people present at your premises to collect money or property.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e06",
+   "heading": "E06 Cryptocurrency and Digital Asset Theft",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E06' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you hold cryptocurrency or digital assets.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e07",
+   "heading": "E07 Wage and Payroll Fraud: Expanded",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E07' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you run a large or complex payroll.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e08",
+   "heading": "E08 Excess Layer",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.layer"
+    ],
+    "rules": [
+     {
+      "when": "qs.cr.cover.layer == excess",
+      "action": "apply"
+     }
+    ],
+    "reason": "Attached because you asked for an excess layer above other crime insurance.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.layer",
+     "text": "Is this policy primary, or in excess of other crime insurance?",
+     "type": "select",
+     "options": [
+      "primary",
+      "excess"
+     ],
+     "used_by": "A, E08"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e09",
+   "heading": "E09 Financial Institution: Fiduciary Funds",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E09' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you hold client money in trust.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "cr.end.e10",
+   "heading": "E10 Invoice Manipulation Fraud",
+   "trigger": {
+    "questions": [
+     "qs.cr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E10' in qs.cr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you pay supplier invoices by electronic transfer.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.cr.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E09",
+      "E10"
+     ],
+     "used_by": "E01, E02, E03, E04, E05, E06, E07, E09, E10"
+    }
+   ]
+  }
+ ],
+ "sha256": "7d6c487984a80e226f6f11984dbb74c31b48ed5cdc19e98620ab71af3165449b"
+}
