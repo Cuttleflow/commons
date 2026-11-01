@@ -1,0 +1,141 @@
+# Platform questions for the Marine Cargo wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.mcg namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+- id: qs.mcg.insured.name
+  text: What is the insured's full legal name?
+  type: text
+  used_by: S
+- id: qs.mcg.insured.abn
+  text: What is the insured's ABN?
+  type: text (11 digits)
+  used_by: S, A
+- id: qs.mcg.insured.principal_state
+  text: In which state or territory is your principal place of business?
+  type: select
+  options:
+  - NSW
+  - VIC
+  - QLD
+  - WA
+  - SA
+  - TAS
+  - ACT
+  - NT
+  used_by: S
+- id: qs.mcg.insured.years_trading
+  text: How many years has the business traded under its current ownership?
+  type: number
+  used_by: R, A
+- id: qs.mcg.insured.anzsic_primary
+  text: What is your main business activity?
+  type: select (ANZSIC 2006 class)
+  used_by: S
+- id: qs.mcg.exposure.annual_sendings
+  text: What is the estimated total value of the goods you will send and receive in the next 12 months, on the basis of valuation in the wording?
+  type: currency (AUD)
+  used_by: R
+- id: qs.mcg.exposure.sendings_by_transit
+  text: 'What percentage of those sendings is each kind of transit: imports by sea, imports by air, exports by sea, exports by air, and inland transits within Australia?'
+  type: repeating (transit, percentage; total 100)
+  used_by: R, S
+- id: qs.mcg.exposure.max_single_shipment
+  text: What is the highest value of goods carried on any one conveyance, or held at any one place in transit?
+  type: currency (AUD)
+  used_by: A, S
+- id: qs.mcg.goods.description
+  text: Describe the goods you send and receive.
+  type: text
+  used_by: S
+- id: qs.mcg.goods.by_category
+  text: What percentage of your sendings is each kind of goods?
+  type: repeating (product category, percentage; total 100)
+  used_by: R, A, S
+- id: qs.mcg.goods.temperature_controlled
+  text: Do any of the goods need to be kept within a temperature range during transit?
+  type: yes/no
+  used_by: A, E01
+- id: qs.mcg.goods.second_hand
+  text: Are any of the goods used, second-hand or reconditioned?
+  type: yes/no
+  used_by: E02
+- id: qs.mcg.goods.dangerous_goods
+  text: Do any of the goods fall within a class of dangerous goods for transport?
+  type: yes/no
+  used_by: A, E04
+- id: qs.mcg.goods.theft_attractive_pct
+  text: What percentage of your sendings is theft-attractive goods, such as electronics, phones, alcohol, tobacco, medicines or cosmetics?
+  type: percentage
+  used_by: E05
+- id: qs.mcg.goods.machinery
+  text: Do the goods include machinery or equipment made up of parts?
+  type: yes/no
+  used_by: E06
+- id: qs.mcg.ops.professional_packing_pct
+  text: What percentage of your sendings is packed by a professional packer or shipped in full containers you or your supplier packed and sealed?
+  type: percentage
+  used_by: R
+- id: qs.mcg.ops.own_vehicle_pct
+  text: What percentage of your inland sendings travels in your own vehicles?
+  type: percentage
+  used_by: R, E03
+- id: qs.mcg.ops.storage_over_7_days
+  text: Are goods stored for more than 7 days at any place in the course of an inland transit?
+  type: yes/no
+  used_by: E09
+- id: qs.mcg.ops.high_risk_destinations
+  text: Do you send or receive goods to or from a country under sanctions or an area listed by the Joint War Committee?
+  type: yes/no
+  used_by: A, E10
+- id: qs.mcg.ops.cross_voyages
+  text: Do you need cover for transits that neither begin nor end in Australia?
+  type: yes/no
+  used_by: A
+- id: qs.mcg.history.claims_3yrs
+  text: How many cargo or transit losses have you had in the last 3 years, insured or not?
+  type: number
+  used_by: R, A
+- id: qs.mcg.history.declined
+  text: Has any insurer declined, cancelled or imposed special terms on your cargo or transit insurance?
+  type: yes/no
+  used_by: A
+- id: qs.mcg.cover.level
+  text: 'Which cover level do you want for the Transit section: (A), (B) or (C)?'
+  type: select
+  options:
+  - A
+  - B
+  - C
+  used_by: R, S
+- id: qs.mcg.cover.war_strikes
+  text: Do you want the War and Strikes section?
+  type: yes/no
+  used_by: R, S
+- id: qs.mcg.cover.limit_any_one_conveyance
+  text: What limit any one conveyance do you want?
+  type: select (currency)
+  options:
+  - '100000'
+  - '250000'
+  - '500000'
+  - '1000000'
+  used_by: R, S, A
+- id: qs.mcg.cover.excess
+  text: Which excess do you want?
+  type: select (currency)
+  options:
+  - '250'
+  - '500'
+  - '1000'
+  - '2500'
+  - '5000'
+  used_by: R, S
+- id: qs.mcg.cover.duty_requested
+  text: Do you want to insure import duty and taxes as part of the value of imported goods?
+  type: yes/no
+  used_by: E07
+- id: qs.mcg.cover.contingent_interest
+  text: Do you sell exports on terms where the buyer insures the goods, such as FOB or CFR, and want cover for your interest if the buyer does not pay after a loss?
+  type: yes/no
+  used_by: E08
