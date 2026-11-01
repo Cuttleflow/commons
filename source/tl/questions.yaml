@@ -1,0 +1,112 @@
+# Platform questions for the Technology Liability wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.tl namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.tl.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.tl.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.tl.insured.principal_state
+    text: In which state or territory is your principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S
+  - id: qs.tl.insured.activity
+    text: What is your dominant technology activity?
+    type: select
+    options: ['saas', 'itconsult', 'dev', 'managed', 'fintech']
+    used_by: R, A
+  - id: qs.tl.insured.holds_crypto
+    text: Do you hold, transfer or provide services in relation to cryptocurrency or other digital assets?
+    type: yes/no
+    used_by: E08
+  - id: qs.tl.exposure.revenue
+    text: What was your revenue in the last financial year?
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.tl.exposure.records_held
+    text: How many records containing personal information do you hold, including former customers and employees?
+    type: select
+    options: ['lt10k', 'k10_100', 'k100_1m', 'gt1m']
+    used_by: R, A
+  - id: qs.tl.exposure.products_supplied
+    text: What products do you supply?
+    type: select
+    options: ['none', 'resale', 'own']
+    used_by: R, A
+  - id: qs.tl.exposure.us_revenue_pct
+    text: What percentage of your revenue comes from customers in the United States or Canada?
+    type: percentage
+    used_by: A, E01
+  - id: qs.tl.contracts.liability
+    text: How do your customer contracts treat your liability?
+    type: select
+    options: ['standard', 'negotiated', 'uncapped']
+    used_by: R, A
+  - id: qs.tl.claims.claims_5y
+    text: How many claims have been made against you in the last five years?
+    type: select
+    options: ['nil', 'one', 'multiple']
+    used_by: R, A
+  - id: qs.tl.security.mfa
+    text: Is multi-factor authentication required for all remote access and for email?
+    type: yes/no
+    used_by: A
+  - id: qs.tl.security.offline_backups_tested
+    text: Do you keep offline or immutable backups of critical data, and have you tested restoring them in the last 6 months?
+    type: yes/no
+    used_by: A
+  - id: qs.tl.ops.embedded_devices
+    text: Do your technology products include software or firmware embedded in, or controlling, connected devices?
+    type: yes/no
+    used_by: E05
+  - id: qs.tl.ops.uses_ai_systems
+    text: Do you build, train or operate AI models or systems in your business?
+    type: yes/no
+    used_by: E06
+  - id: qs.tl.ops.provides_security_services
+    text: Do you provide managed security services to others?
+    type: yes/no
+    used_by: E09
+  - id: qs.tl.ops.government_contracts
+    text: Do you supply technology products or services to government or defence customers?
+    type: yes/no
+    used_by: E10
+  - id: qs.tl.cover.include_cyber
+    text: Do you want the Cyber Protection section?
+    type: yes/no
+    used_by: R, A, S
+  - id: qs.tl.cover.include_liability
+    text: Do you want the Public and Products Liability section?
+    type: yes/no
+    used_by: R, A, S
+  - id: qs.tl.cover.limit
+    text: What limit of liability do you need for the Technology Professional Liability and Cyber Protection sections combined?
+    type: select (AUD)
+    options: ['1000000', '2000000', '5000000', '10000000']
+    used_by: R, S
+  - id: qs.tl.cover.gl_limit
+    text: What limit of liability do you need for the Public and Products Liability section, for any one occurrence?
+    type: select (AUD)
+    options: ['5000000', '10000000', '20000000']
+    used_by: R, S
+  - id: qs.tl.cover.excess
+    text: What retention do you want for each claim?
+    type: select (AUD)
+    options: ['5000', '10000', '25000', '50000']
+    used_by: R, S
+  - id: qs.tl.cover.layer
+    text: Is this policy primary, or in excess of other technology liability insurance?
+    type: select
+    options: ['primary', 'excess']
+    used_by: A, E04
+  - id: qs.tl.cover.options_requested
+    text: Which optional endorsements would you like a price for?
+    type: multi-select
+    options: ['E02', 'E03', 'E06', 'E07', 'E11', 'E12', 'E13', 'E14']
+    used_by: E02, E03, E06, E07, E11, E12, E13, E14

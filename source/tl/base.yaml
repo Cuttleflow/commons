@@ -1,0 +1,194 @@
+id: tl-base
+title: Technology Liability
+class: TECHNOLOGY LIABILITY
+kicker: "Meridian Commons \xB7 Technology Liability"
+slug: technology-liability
+file_stem: Meridian_Technology_Liability
+doc_ref: 2026/TL/0001
+version: 1.4.0-DRAFT
+date: November 2026
+draft: true
+summary: Technology professional liability, cyber protection, and public and products liability in one policy, for Australian technology companies.
+supersedes: Meridian Technology Liability v1.3.0-DRAFT (July 2026), published as a page without clause source, and the Technology Liability Endorsement Library (2026/TL/0002, July 2026)
+structure:
+- section: preamble
+  clauses:
+  - tl.about
+  - tl.version-history
+  - tl.schedule
+- section: tl.section.definitions
+  clauses:
+  - tl.def.business
+  - tl.def.claim
+  - tl.def.client
+  - tl.def.computer-system
+  - tl.def.continuity-date
+  - tl.def.cyber-loss
+  - tl.def.damages
+  - tl.def.defence-costs
+  - tl.def.employee
+  - tl.def.executive-officer
+  - tl.def.final-adjudication
+  - tl.def.insured
+  - tl.def.insured-person
+  - tl.def.joint-venture
+  - tl.def.limit-of-liability
+  - tl.def.loss
+  - tl.def.named-insured
+  - tl.def.operational-technology
+  - tl.def.policy-period
+  - tl.def.regulatory-penalty
+  - tl.def.regulatory-proceeding
+  - tl.def.retention
+  - tl.def.retroactive-date
+  - tl.def.schedule
+  - tl.def.subsidiary
+  - tl.def.technology-product
+  - tl.def.technology-service
+  - tl.def.third-party
+  - tl.def.we-us-our
+  - tl.def.you-your
+  - tl.def.business-interruption-loss
+  - tl.def.control-group
+  - tl.def.cyber-security-breach
+  - tl.def.data-breach
+  - tl.def.extortion-threat
+  - tl.def.personal-information
+  - tl.def.system-failure
+  - tl.def.technology-provider
+  - tl.def.third-party-information
+  - tl.def.unauthorised-access
+  - tl.def.waiting-period
+  - tl.def.occurrence
+  - tl.def.personal-injury
+  - tl.def.property-damage
+  - tl.def.product-injury
+  - tl.def.related-claims
+  - tl.def.extended-reporting-period
+- section: tl.section.professional-liability
+  clauses:
+  - tl.cover.technology-professional-liability
+  - tl.cover.technology-professional-liability-clarifications
+  - tl.ext.outstanding-fees
+  - tl.ext.refund-of-fees
+  - tl.ext.mitigation-costs
+  - tl.ext.patents
+  - tl.ext.regulatory-penalties
+- section: tl.section.cyber
+  clauses:
+  - tl.cover.breach-response-and-notification
+  - tl.cover.data-restoration
+  - tl.cover.business-interruption
+  - tl.cover.system-failure-business-interruption
+  - tl.cover.cyber-extortion
+  - tl.cover.data-and-system-security-liability
+  - tl.cover.regulatory-defence-and-fines
+  - tl.cover.pci-dss-liability
+  - tl.ext.hardware-replacement
+  - tl.ext.reputational-harm
+  - tl.ext.cyber-crime
+- section: tl.section.liability
+  clauses:
+  - tl.cover.public-liability
+  - tl.cover.products-liability
+  - tl.ext.product-recall-expenses
+  - tl.ext.third-party-indemnities
+  - tl.ext.physical-and-legal-control
+  - tl.ext.harm-response-expenses
+  - tl.ext.cross-liability
+  - tl.ext.cyber-liability
+- section: tl.section.all-sections
+  clauses:
+  - tl.ext.advancement-of-defence-costs
+  - tl.ext.claims-preparation
+  - tl.ext.continuous-cover
+  - tl.ext.contractual-liability
+  - tl.ext.court-attendance-costs
+  - tl.ext.extended-reporting-period
+  - tl.ext.inquiry-costs
+  - tl.ext.joint-venture-liability
+  - tl.ext.media-and-advertising-liability
+  - tl.ext.newly-created-or-acquired-subsidiaries
+  - tl.ext.public-relations-expenses
+  - tl.ext.run-off
+  - tl.ext.severability
+- section: tl.section.exclusions
+  clauses:
+  - tl.excl.advertising-liability
+  - tl.excl.aircraft-and-watercraft
+  - tl.excl.asbestos-and-silica
+  - tl.excl.anti-competitive-conduct
+  - tl.excl.betterment
+  - tl.excl.commercial-decisions
+  - tl.excl.communicable-disease
+  - tl.excl.conduct
+  - tl.excl.construction
+  - tl.excl.contractual-liability
+  - tl.excl.cyber-and-data
+  - tl.excl.directors-and-officers
+  - tl.excl.employers-liability
+  - tl.excl.fees-or-charges
+  - tl.excl.fines-and-penalties
+  - tl.excl.natural-perils-and-physical-events
+  - tl.excl.infrastructure-failure
+  - tl.excl.jurisdictional-limits
+  - tl.excl.known-defect
+  - tl.excl.media-liability
+  - tl.excl.nuclear
+  - tl.excl.personal-injury-and-property-damage
+  - tl.excl.planned-outages
+  - tl.excl.pollution
+  - tl.excl.prior-or-pending
+  - tl.excl.product-defect-recall-repair-and-replacement
+  - tl.excl.property-in-your-control
+  - tl.excl.related-entities
+  - tl.excl.retroactive-date
+  - tl.excl.sanctions
+  - tl.excl.securities-law
+  - tl.excl.terrorism
+  - tl.excl.trading-debts
+  - tl.excl.unsolicited-communications
+  - tl.excl.vehicles
+  - tl.excl.war-and-state-cyber-operations
+  - tl.excl.wear-and-tear
+  - tl.excl.wrongful-data-collection
+- section: tl.section.claims-conditions
+  clauses:
+  - tl.obl.notification
+  - tl.cond.defence-and-settlement
+  - tl.pay.allocation
+  - tl.pay.related-claims-and-aggregation
+  - tl.cond.senior-counsel
+  - tl.cond.right-to-contest
+- section: tl.section.general-conditions
+  clauses:
+  - tl.pay.limits-of-liability
+  - tl.pay.non-accumulation
+  - tl.pay.retention
+  - tl.pay.other-insurance
+  - tl.cond.cancellation
+  - tl.cond.mergers-and-consolidations
+  - tl.pay.reinstatement
+  - tl.cond.insurance-contracts-act
+  - tl.cond.gst
+  - tl.cond.version-control
+  - tl.cond.governing-law-and-jurisdiction
+  - tl.cond.disputes-and-complaints
+- section: end
+  clauses:
+  - tl.endorsement-library
+  - tl.end.e01
+  - tl.end.e02
+  - tl.end.e03
+  - tl.end.e04
+  - tl.end.e05
+  - tl.end.e06
+  - tl.end.e07
+  - tl.end.e08
+  - tl.end.e09
+  - tl.end.e10
+  - tl.end.e11
+  - tl.end.e12
+  - tl.end.e13
+  - tl.end.e14
+  - tl.licence-notice
