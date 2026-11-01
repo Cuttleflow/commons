@@ -6,12 +6,12 @@ since: 1.1.0
 status: draft
 trigger:
   questions:
-  - qs.me.ops.facility_categories
+  - qs.me.ops.has_day_surgery
   - qs.me.ops.overnight_stays
   rules:
-  - when: '''day_surgery'' in qs.me.ops.facility_categories and qs.me.ops.overnight_stays == yes'
+  - when: qs.me.ops.has_day_surgery == yes and qs.me.ops.overnight_stays == yes
     action: refer
-  - when: '''day_surgery'' in qs.me.ops.facility_categories'
+  - when: qs.me.ops.has_day_surgery == yes
     action: apply
   reason: Applies because you operate a day surgery or procedure centre.
 ---

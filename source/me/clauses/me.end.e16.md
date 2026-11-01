@@ -6,18 +6,18 @@ since: 1.1.0
 status: draft
 trigger:
   questions:
-  - qs.me.ops.facility_categories
+  - qs.me.ops.has_aged_care
   - qs.me.aged.acqsc_sanction
   - qs.me.aged.memory_care_beds
   - qs.me.aged.sirs_priority1_12m
   rules:
-  - when: '''aged_care'' in qs.me.ops.facility_categories and qs.me.aged.acqsc_sanction == yes'
+  - when: qs.me.ops.has_aged_care == yes and qs.me.aged.acqsc_sanction == yes
     action: refer
-  - when: '''aged_care'' in qs.me.ops.facility_categories and qs.me.aged.memory_care_beds > 50'
+  - when: qs.me.ops.has_aged_care == yes and qs.me.aged.memory_care_beds > 50
     action: refer
-  - when: '''aged_care'' in qs.me.ops.facility_categories and qs.me.aged.sirs_priority1_12m > 3'
+  - when: qs.me.ops.has_aged_care == yes and qs.me.aged.sirs_priority1_12m > 3
     action: refer
-  - when: '''aged_care'' in qs.me.ops.facility_categories'
+  - when: qs.me.ops.has_aged_care == yes
     action: apply
   reason: Applies because you operate aged care or community care services. A current sanction, more than 50 memory care beds or more than 3 Priority 1 incidents in 12 months refers.
 ---

@@ -6,14 +6,15 @@ since: 1.1.0
 status: draft
 trigger:
   questions:
-  - qs.me.ops.facility_categories
+  - qs.me.ops.has_gp_medical_centre
+  - qs.me.ops.has_allied_health_clinic
   - qs.me.ops.cosmetic_procedures
   rules:
-  - when: '''gp_medical_centre'' in qs.me.ops.facility_categories and qs.me.ops.cosmetic_procedures == discrete_unit'
+  - when: qs.me.ops.has_gp_medical_centre == yes and qs.me.ops.cosmetic_procedures == discrete_unit
     action: refer
-  - when: '''gp_medical_centre'' in qs.me.ops.facility_categories'
+  - when: qs.me.ops.has_gp_medical_centre == yes
     action: apply
-  - when: '''allied_health_clinic'' in qs.me.ops.facility_categories'
+  - when: qs.me.ops.has_allied_health_clinic == yes
     action: apply
   reason: Applies because you operate a general practice, medical centre or allied health clinic.
 ---

@@ -1084,20 +1084,21 @@
    "heading": "E13 GP Medical Centre and Primary Care",
    "trigger": {
     "questions": [
-     "qs.me.ops.facility_categories",
+     "qs.me.ops.has_gp_medical_centre",
+     "qs.me.ops.has_allied_health_clinic",
      "qs.me.ops.cosmetic_procedures"
     ],
     "rules": [
      {
-      "when": "'gp_medical_centre' in qs.me.ops.facility_categories and qs.me.ops.cosmetic_procedures == discrete_unit",
+      "when": "qs.me.ops.has_gp_medical_centre == yes and qs.me.ops.cosmetic_procedures == discrete_unit",
       "action": "refer"
      },
      {
-      "when": "'gp_medical_centre' in qs.me.ops.facility_categories",
+      "when": "qs.me.ops.has_gp_medical_centre == yes",
       "action": "apply"
      },
      {
-      "when": "'allied_health_clinic' in qs.me.ops.facility_categories",
+      "when": "qs.me.ops.has_allied_health_clinic == yes",
       "action": "apply"
      }
     ],
@@ -1105,17 +1106,16 @@
    },
    "questions": [
     {
-     "id": "qs.me.ops.facility_categories",
-     "text": "Which types of facility do you operate?",
-     "type": "multi-select",
-     "options": [
-      "gp_medical_centre",
-      "allied_health_clinic",
-      "day_surgery",
-      "private_hospital",
-      "aged_care"
-     ],
-     "used_by": "A, S, E13, E14, E15, E16"
+     "id": "qs.me.ops.has_gp_medical_centre",
+     "text": "Do you operate a general practice, medical centre or other primary care clinic?",
+     "type": "yes/no",
+     "used_by": "A, S, E13"
+    },
+    {
+     "id": "qs.me.ops.has_allied_health_clinic",
+     "text": "Do you operate an allied health clinic?",
+     "type": "yes/no",
+     "used_by": "A, S, E13"
     },
     {
      "id": "qs.me.ops.cosmetic_procedures",
@@ -1135,16 +1135,16 @@
    "heading": "E14 Day Surgery and Procedure Centre",
    "trigger": {
     "questions": [
-     "qs.me.ops.facility_categories",
+     "qs.me.ops.has_day_surgery",
      "qs.me.ops.overnight_stays"
     ],
     "rules": [
      {
-      "when": "'day_surgery' in qs.me.ops.facility_categories and qs.me.ops.overnight_stays == yes",
+      "when": "qs.me.ops.has_day_surgery == yes and qs.me.ops.overnight_stays == yes",
       "action": "refer"
      },
      {
-      "when": "'day_surgery' in qs.me.ops.facility_categories",
+      "when": "qs.me.ops.has_day_surgery == yes",
       "action": "apply"
      }
     ],
@@ -1152,17 +1152,10 @@
    },
    "questions": [
     {
-     "id": "qs.me.ops.facility_categories",
-     "text": "Which types of facility do you operate?",
-     "type": "multi-select",
-     "options": [
-      "gp_medical_centre",
-      "allied_health_clinic",
-      "day_surgery",
-      "private_hospital",
-      "aged_care"
-     ],
-     "used_by": "A, S, E13, E14, E15, E16"
+     "id": "qs.me.ops.has_day_surgery",
+     "text": "Do you operate a day surgery or day procedure centre?",
+     "type": "yes/no",
+     "used_by": "A, S, E14"
     },
     {
      "id": "qs.me.ops.overnight_stays",
@@ -1177,21 +1170,21 @@
    "heading": "E15 Private Hospital",
    "trigger": {
     "questions": [
-     "qs.me.ops.facility_categories",
+     "qs.me.ops.has_private_hospital",
      "qs.me.hospital.beds",
      "qs.me.hospital.high_risk_services"
     ],
     "rules": [
      {
-      "when": "'private_hospital' in qs.me.ops.facility_categories and qs.me.hospital.beds > 200",
+      "when": "qs.me.ops.has_private_hospital == yes and qs.me.hospital.beds > 200",
       "action": "refer"
      },
      {
-      "when": "'private_hospital' in qs.me.ops.facility_categories and qs.me.hospital.high_risk_services == yes",
+      "when": "qs.me.ops.has_private_hospital == yes and qs.me.hospital.high_risk_services == yes",
       "action": "refer"
      },
      {
-      "when": "'private_hospital' in qs.me.ops.facility_categories",
+      "when": "qs.me.ops.has_private_hospital == yes",
       "action": "apply"
      }
     ],
@@ -1199,17 +1192,10 @@
    },
    "questions": [
     {
-     "id": "qs.me.ops.facility_categories",
-     "text": "Which types of facility do you operate?",
-     "type": "multi-select",
-     "options": [
-      "gp_medical_centre",
-      "allied_health_clinic",
-      "day_surgery",
-      "private_hospital",
-      "aged_care"
-     ],
-     "used_by": "A, S, E13, E14, E15, E16"
+     "id": "qs.me.ops.has_private_hospital",
+     "text": "Do you operate a licensed private hospital?",
+     "type": "yes/no",
+     "used_by": "A, S, E15"
     },
     {
      "id": "qs.me.hospital.beds",
@@ -1230,26 +1216,26 @@
    "heading": "E16 Aged Care and Residential Care",
    "trigger": {
     "questions": [
-     "qs.me.ops.facility_categories",
+     "qs.me.ops.has_aged_care",
      "qs.me.aged.acqsc_sanction",
      "qs.me.aged.memory_care_beds",
      "qs.me.aged.sirs_priority1_12m"
     ],
     "rules": [
      {
-      "when": "'aged_care' in qs.me.ops.facility_categories and qs.me.aged.acqsc_sanction == yes",
+      "when": "qs.me.ops.has_aged_care == yes and qs.me.aged.acqsc_sanction == yes",
       "action": "refer"
      },
      {
-      "when": "'aged_care' in qs.me.ops.facility_categories and qs.me.aged.memory_care_beds > 50",
+      "when": "qs.me.ops.has_aged_care == yes and qs.me.aged.memory_care_beds > 50",
       "action": "refer"
      },
      {
-      "when": "'aged_care' in qs.me.ops.facility_categories and qs.me.aged.sirs_priority1_12m > 3",
+      "when": "qs.me.ops.has_aged_care == yes and qs.me.aged.sirs_priority1_12m > 3",
       "action": "refer"
      },
      {
-      "when": "'aged_care' in qs.me.ops.facility_categories",
+      "when": "qs.me.ops.has_aged_care == yes",
       "action": "apply"
      }
     ],
@@ -1257,17 +1243,10 @@
    },
    "questions": [
     {
-     "id": "qs.me.ops.facility_categories",
-     "text": "Which types of facility do you operate?",
-     "type": "multi-select",
-     "options": [
-      "gp_medical_centre",
-      "allied_health_clinic",
-      "day_surgery",
-      "private_hospital",
-      "aged_care"
-     ],
-     "used_by": "A, S, E13, E14, E15, E16"
+     "id": "qs.me.ops.has_aged_care",
+     "text": "Do you operate residential aged care, or community or home aged care services?",
+     "type": "yes/no",
+     "used_by": "A, S, E16"
     },
     {
      "id": "qs.me.aged.acqsc_sanction",

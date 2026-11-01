@@ -6,15 +6,15 @@ since: 1.1.0
 status: draft
 trigger:
   questions:
-  - qs.me.ops.facility_categories
+  - qs.me.ops.has_private_hospital
   - qs.me.hospital.beds
   - qs.me.hospital.high_risk_services
   rules:
-  - when: '''private_hospital'' in qs.me.ops.facility_categories and qs.me.hospital.beds > 200'
+  - when: qs.me.ops.has_private_hospital == yes and qs.me.hospital.beds > 200
     action: refer
-  - when: '''private_hospital'' in qs.me.ops.facility_categories and qs.me.hospital.high_risk_services == yes'
+  - when: qs.me.ops.has_private_hospital == yes and qs.me.hospital.high_risk_services == yes
     action: refer
-  - when: '''private_hospital'' in qs.me.ops.facility_categories'
+  - when: qs.me.ops.has_private_hospital == yes
     action: apply
   reason: Applies because you operate a private hospital. Hospitals over 200 beds, or with cardiac surgery, neurosurgery or transplant services, refer.
 ---

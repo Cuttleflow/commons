@@ -16,11 +16,26 @@ questions:
     type: select
     options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
     used_by: S, A
-  - id: qs.me.ops.facility_categories
-    text: Which types of facility do you operate?
-    type: multi-select
-    options: [gp_medical_centre, allied_health_clinic, day_surgery, private_hospital, aged_care]
-    used_by: A, S, E13, E14, E15, E16
+  - id: qs.me.ops.has_gp_medical_centre
+    text: Do you operate a general practice, medical centre or other primary care clinic?
+    type: yes/no
+    used_by: A, S, E13
+  - id: qs.me.ops.has_allied_health_clinic
+    text: Do you operate an allied health clinic?
+    type: yes/no
+    used_by: A, S, E13
+  - id: qs.me.ops.has_day_surgery
+    text: Do you operate a day surgery or day procedure centre?
+    type: yes/no
+    used_by: A, S, E14
+  - id: qs.me.ops.has_private_hospital
+    text: Do you operate a licensed private hospital?
+    type: yes/no
+    used_by: A, S, E15
+  - id: qs.me.ops.has_aged_care
+    text: Do you operate residential aged care, or community or home aged care services?
+    type: yes/no
+    used_by: A, S, E16
   - id: qs.me.ops.revenue
     text: What was the company's gross revenue from healthcare operations in the last 12 months?
     type: currency (AUD)
