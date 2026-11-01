@@ -3,7 +3,8 @@ id: car.pay.other-insurance
 type: payment
 heading: Other Insurance
 since: 2.1.0
+changed: 2.2.0
 status: draft
 ---
 
-If other insurance covers the same loss or liability, the insured must tell us when making a claim. We will not refuse or reduce a claim only because other insurance exists. We may seek contribution from the other insurer as the law allows. This clause is subject to s.45 of the Insurance Contracts Act 1984 (Cth).
+If a loss covered by this policy is also covered by another insurance policy, we will not refuse or reduce our payment because of that other insurance. We may seek contribution from the other insurer as the law allows. This does not apply where the schedule or an endorsement states that this policy is excess of a specified underlying policy, in which case this policy pays only after the limit of that specified policy is exhausted.

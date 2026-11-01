@@ -3,7 +3,8 @@ id: str.def.retroactive-date
 type: definition
 heading: Retroactive Date
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
-For [[ref:str.section.office-bearers]], the date shown in the schedule as the retroactive date for that section. If none is shown, there is no retroactive date and wrongful acts are covered whenever committed.
+For [[ref:str.section.office-bearers]], the date shown in the schedule as the retroactive date for that section. If none is shown, it is the date the first policy we issued to the body corporate that included that section started, without a break in cover.

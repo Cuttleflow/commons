@@ -5,7 +5,7 @@ kicker: Meridian Commons · Strata
 slug: strata
 file_stem: Meridian_Strata
 doc_ref: 2026/STR/0001
-version: 1.0.0-DRAFT
+version: 1.1.0-DRAFT
 date: November 2026
 draft: true
 summary: Building, liability and scheme covers for residential, commercial and mixed-use strata schemes in Australia, bought by the body corporate.
@@ -21,10 +21,12 @@ structure:
   clauses:
   - str.def.action-of-the-sea
   - str.def.body-corporate
+  - str.def.breakdown
   - str.def.building
   - str.def.claim
   - str.def.common-contents
   - str.def.common-property
+  - str.def.control-group
   - str.def.damage
   - str.def.defect
   - str.def.discovered
@@ -130,6 +132,7 @@ structure:
 - section: str.section.conditions
   clauses:
   - str.cond.insurance-contracts-act
+  - str.cond.corporations-act-199
   - str.cond.strata-legislation
   - str.cond.lot-owner-acts
   - str.cond.cancellation

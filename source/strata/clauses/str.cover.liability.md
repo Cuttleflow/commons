@@ -3,6 +3,7 @@ id: str.cover.liability
 type: cover
 heading: Legal Liability to Others
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -12,6 +13,8 @@ We will pay the amount you become legally liable to pay as compensation for pers
 - the activities of the body corporate.
 
 **Who is insured under this section.** You, each lot owner for their liability as a lot owner in the common property, each office bearer, and each voluntary worker and employee of the body corporate while acting for it, are insured as if each were named in the schedule.
+
+**Claims against office bearers.** A claim for bodily injury, death, sickness, disease, disability, shock, fright, mental anguish, mental injury or property damage is covered under this section, even if it alleges that an office bearer was negligent or made an error, for example by not repairing the common property. A claim for false arrest, wrongful detention, malicious prosecution, defamation or invasion of privacy that results from a wrongful act is not covered under this section. [[ref:str.section.office-bearers]] covers it where that section is shown in the schedule.
 
 **Limit.** The most we pay for all compensation arising from one occurrence is the limit of liability shown in the schedule. All personal injury and property damage arising from one source or original cause is one occurrence.
 

@@ -5,7 +5,7 @@ kicker: Meridian Commons · Construction
 slug: construction-all-risks
 file_stem: Meridian_Construction_All_Risks_and_Liability
 doc_ref: 2026/CARL/0001
-version: 2.1.0-DRAFT
+version: 2.2.0-DRAFT
 date: November 2026
 draft: true
 summary: Contract works and third-party liability for construction projects in Australia, single project or annual, under one joint-names policy, with optional delay in start-up and design and construct
@@ -28,6 +28,7 @@ structure:
   - car.def.construction-plant
   - car.def.contract-value
   - car.def.contract-works
+  - car.def.control-group
   - car.def.damage
   - car.def.defects-liability-period
   - car.def.defence-costs
@@ -51,6 +52,7 @@ structure:
   - car.def.project-site
   - car.def.property-damage
   - car.def.retroactive-date
+  - car.def.third-party-claim
   - car.def.we-us-our
   - car.def.you-your
 - section: car.section.material-damage
@@ -136,6 +138,7 @@ structure:
 - section: car.section.conditions
   clauses:
   - car.cond.insurance-contracts-act
+  - car.cond.corporations-act-199
   - car.cond.joint-names
   - car.cond.cancellation
   - car.cond.premium-adjustment

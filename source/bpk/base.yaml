@@ -5,8 +5,8 @@ kicker: Meridian Commons · Business Package
 slug: business-package
 file_stem: Meridian_Business_Package
 doc_ref: 2026/PK/0001
-version: 2.1.0-DRAFT
-date: October 2026
+version: 2.2.0-DRAFT
+date: November 2026
 draft: true
 summary: 'A modular package for Australian small and medium businesses: property, business interruption,
   crime, glass, liability, equipment, general property, transit, tax audit, cyber and management liability.'
@@ -28,9 +28,11 @@ structure:
   - bpk.def.claim
   - bpk.def.computer-system
   - bpk.def.contents
+  - bpk.def.control-group
   - bpk.def.cyber-event
   - bpk.def.damage
   - bpk.def.data
+  - bpk.def.defect
   - bpk.def.discovery
   - bpk.def.dishonest-act
   - bpk.def.employee
@@ -202,6 +204,7 @@ structure:
   - bpk.ml.cover.statutory-liability
   - bpk.ml.limits
   - bpk.ml.statutory-insurability
+  - bpk.ml.corporations-act-199
   - bpk.ml.conduct
   - bpk.ml.claims-made
   - bpk.ml.additional-benefits
