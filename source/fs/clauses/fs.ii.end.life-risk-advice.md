@@ -4,6 +4,7 @@ type: endorsement
 heading: Life Risk Insurance Advice Exclusion
 profession: insurance-intermediaries
 since: 1.0.0
+changed: 1.1.0
 status: draft
 trigger:
   questions:
@@ -15,3 +16,5 @@ trigger:
 ---
 
 We do not cover any claim, loss or liability arising from personal advice to a retail client about a life risk insurance product.
+
+[WP REVIEW: confirm that excluding personal advice to retail clients on life risk insurance is a deliberate trade-off. It removes core regulated advice, and the endorsements preamble saves only the cover the law requires.]

@@ -4,6 +4,7 @@ type: endorsement
 heading: Related Products Exclusion
 profession: financial-advisers
 since: 1.0.0
+changed: 1.1.0
 status: draft
 note: Conflicted product recommendations are central to recent adviser claims. Because this exclusion can remove cover ASIC expects, it is never applied automatically.
 trigger:
@@ -21,4 +22,4 @@ trigger:
   - Decline risk
 ---
 
-We do not cover any claim, loss or liability arising from advice to acquire a financial product that is issued, operated or promoted by you, a representative, or a related party, or from which you or a related party receive a benefit other than advice fees paid by the client.
+We do not cover any claim, loss or liability arising from advice to acquire a financial product that is issued, operated or promoted by you, a representative, or a **related party**, or in which you or a **related party** hold an ownership or profit-sharing interest.

@@ -3,6 +3,7 @@ id: ah.def.claim
 type: definition
 heading: Claim
 since: 1.3.0
+changed: 1.4.0
 status: draft
 ---
 
@@ -15,4 +16,4 @@ Any of the following made against you or, where the context requires, received b
 - (e) a coronial inquest or inquiry at which your conduct or your professional services may be examined, where you are required or invited to give evidence or produce documents; and
 - (f) any other complaint or proceeding under a statute regulating health services, health complaints, privacy, discrimination or consumer protection, in which compensation, damages, restitution, disciplinary action or non-monetary relief is sought against you or in respect of your conduct, including an application, claim or proceeding for statutory compensation, or for a compensation order, under the Aged Care Act.
 
-A claim of the kind described in paragraphs (c) to (f) is treated as a claim only to the extent this policy expressly covers inquiries, defence costs or civil liability arising from it.
+A claim of the kind described in paragraphs (c) to (f) is treated as a claim only to the extent this policy expressly covers inquiries, defence costs or civil liability arising from it. It is first made when you first receive written notice of it, as [[ref:ah.def.inquiry]] provides for an inquiry.

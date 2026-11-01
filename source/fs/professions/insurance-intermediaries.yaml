@@ -5,12 +5,12 @@ kicker: Meridian Commons · Financial Services Professional Indemnity · Insuran
 slug: insurance-intermediaries
 file_stem: Meridian_FS_Insurance_Intermediaries
 doc_ref: 2026/FS/0002
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity wording for insurance brokers, underwriting agencies, authorised representatives
   and claims handlers, built on the Meridian Financial Services PI base wording.
-base: fs-base@1.0.0-DRAFT
+base: fs-base@1.1.0-DRAFT
 supersedes: MERIDIAN-PI-INBR-v1.0.0, and the insurance distribution limb of MERIDIAN-PI-MOTR-v1.0.0 (endorsements
   to base PI v1.0.0, June 2026)
 overrides:

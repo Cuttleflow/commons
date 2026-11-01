@@ -4,7 +4,10 @@ type: payment
 heading: Other Insurance
 legacy_number: '6.6'
 since: 1.3.0
+changed: 1.4.0
 status: draft
 ---
 
-If any other insurance, indemnity arrangement or statutory scheme covers, or but for its own terms would cover, a claim or amount covered by this policy, you must tell us about it when you notify the claim (see [[ref:ah.obl.other-recoveries]]). Nothing in this provision, and nothing else in this policy, excludes or limits our liability by reason only that you are entitled to cover under another contract of insurance: consistent with s.45 of the Insurance Contracts Act 1984 (Cth), we will not rely on the existence of other insurance to refuse or reduce your cover, but we may seek contribution from the other insurer to the extent the law allows.
+If a loss covered by this policy is also covered by another insurance policy, we will not refuse or reduce our payment because of that other insurance. We may seek contribution from the other insurer as the law allows. This does not apply where the schedule or an endorsement states that this policy is excess of a specified underlying policy, in which case this policy pays only after the limit of that specified policy is exhausted.
+
+Tell us about any other insurance, indemnity arrangement or statutory scheme that covers, or might cover, a claim when you notify it (see [[ref:ah.obl.other-recoveries]]).

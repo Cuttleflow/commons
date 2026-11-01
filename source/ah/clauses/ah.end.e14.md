@@ -3,6 +3,7 @@ id: ah.end.e14
 type: endorsement
 heading: E14 Psychology and Counselling
 since: 1.3.0
+changed: 1.4.0
 status: draft
 trigger:
   questions:
@@ -32,11 +33,12 @@ This endorsement applies where the insured is a psychologist (including a provis
 
 **Group therapy and telepsychology.** Professional services include group therapy, group counselling and group programs you facilitate. Claims by more than one participant arising from the same act, error, omission or event are one claim under [[ref:ah.cond.aggregation]]. Consistent with [[ref:ah.ext.telehealth]], professional services include telepsychology and remote counselling delivered in compliance with the Australian Psychological Society's ethical guidelines for psychological services via telehealth or, for a counsellor, the telehealth guidance of their professional association.
 
+**Scope limit.** A provisionally registered psychologist is an insured person only for professional services provided under supervision arrangements that comply with the Psychology Board of Australia's provisional registration requirements. This is a limit on who is covered, not an obligation, and [[ref:ah.section.obligations]] does not apply to it.
+
 **Additional obligations.** These are added to [[ref:ah.section.obligations]] and operate on the same basis:
 
-- (a) A provisionally registered psychologist is covered only while practising under supervision arrangements that comply with the Psychology Board of Australia's provisional registration requirements.
-- (b) A counsellor must maintain the membership, practising certificate, supervision and continuing professional development requirements of the ACA or PACFA throughout the policy period.
-- (c) You must keep contemporaneous clinical records of all consultations, including telehealth consultations, in accordance with your Board's or professional association's record-keeping standards.
+- (a) A counsellor must maintain the membership, practising certificate, supervision and continuing professional development requirements of the ACA or PACFA throughout the policy period.
+- (b) You must keep contemporaneous clinical records of all consultations, including telehealth consultations, in accordance with your Board's or professional association's record-keeping standards.
 
 **Additional exclusions.** We will not cover any claim, inquiry, loss, defence costs or other amounts arising from:
 

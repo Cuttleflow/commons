@@ -5,7 +5,7 @@ kicker: Meridian Commons · Allied Health
 slug: allied-health
 file_stem: Meridian_Allied_Health
 doc_ref: 2026/AH/0001
-version: 1.3.0-DRAFT
+version: 1.4.0-DRAFT
 date: November 2026
 draft: true
 summary: Combined professional indemnity, public liability and products liability for individual allied health practitioners, written on a claims-made basis to the National Boards' registration standards.
@@ -23,6 +23,7 @@ structure:
   - ah.def.bodily-injury
   - ah.def.circumstance
   - ah.def.claim
+  - ah.def.control-group
   - ah.def.defence-costs
   - ah.def.documents
   - ah.def.employee

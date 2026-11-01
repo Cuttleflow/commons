@@ -1,0 +1,21 @@
+Remediation following the Claude pre-review of 2 November 2026.
+
+- Limit of Liability (definition), Limit of Liability, Defence Costs and Automatic Reinstatement now say the same thing. The limit is the most we pay for loss. Defence costs are payable in addition, up to one further limit in total for the policy period, and are not reinstated. The Limit of Liability clause states the overall maximum with and without reinstatement.
+- Insurance Contracts Act 1984 (Cth): replaced with the library-wide text. Section 54 now applies to every condition, exclusion, limit and obligation in the policy.
+- Sanctions: new standalone condition naming the Australian sanctions laws and, as a stated scope choice, the United Kingdom, United States and European Union regimes. Sanctions are removed from the war exclusion, which is now headed War and Terrorism.
+- Corporations Act 2001 (Cth), sections 199A and 199B: new condition for insured persons who are directors or officers.
+- Statutory Liability: now pays defence costs and only those fines and penalties the law allows to be insured. It names the work health and safety penalty bans in New South Wales, Victoria and Queensland, excludes criminal fines, and applies advance-and-repay to defence costs in civil penalty and criminal proceedings. It is tied to the same trigger and retroactive date as other claims.
+- Claim (definition), Inquiry Costs, Statutory Liability, Joint Ventures, Predecessor Practices and Subcontractors and Outsourcers: one trigger for regulatory events, which are first made when you are first notified in writing. An investigation that later becomes a claim is one event. Each extension now states that the claim must be first made in the policy period and arise from business activity on or after the retroactive date. The Extensions of Cover introduction says the same for all extensions.
+- Control group: new definition. Prior Known Circumstances, Deliberate and Dishonest Acts and Individual Treatment of Insured Persons now attribute knowledge and conduct to the company only through its control group, and protect the company as well as insured persons.
+- Other Insurance: replaced with the library-wide text. We do not reduce or refuse a payment because of other insurance, unless the schedule or an endorsement makes this policy excess of a specified underlying policy.
+- Cancellation: you may cancel at any time and receive a pro-rata refund with no deduction for claims. We may cancel only as the Insurance Contracts Act 1984 (Cth) allows.
+- Governing Law: the State or Territory shown in the schedule, fixed at the start of the policy period. The schedule now has an item for it.
+- Joint Ventures: the extension now uses the defined term Joint venture only.
+- Licences, Registrations and Accreditations and Representatives: now state how they work together. The Representatives extension applies to conduct outside the authority you gave a representative, if the licence or authorisation permitted the service.
+- Run-Off Cover: no longer depends on Endorsement E01. An extension we offer takes effect when we issue an endorsement showing the period, premium and terms.
+- Endorsement Library: Endorsements E01 to E10 had no operative text and are removed from the table. They are not yet available in this version.
+- New definitions: Control group, Related party and Unauthorised access. Related Party Claims now uses the defined term Related party, with no change in scope.
+- Court Attendance: now has an aggregate cap, with a default of $25,000.
+- Who This Policy Is For: new statement that this wording is written for businesses and professionals, and that the issuer must give a Product Disclosure Statement and make a Target Market Determination available where a buyer is a retail client.
+- Compulsory Insurance Requirements and AFCA Determinations: marked for review by the Wording Partner on repayment and insurability.
+- Default set for underwriter confirmation: Court Attendance aggregate cap of $25,000, and the overall maximum of three times the limit (twice for loss, plus one further limit for defence costs).

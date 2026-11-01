@@ -5,7 +5,7 @@ kicker: Meridian Commons · Medical Establishments
 slug: medical-establishments
 file_stem: Meridian_Medical_Establishments
 doc_ref: 2026/ME/0001
-version: 1.1.0-DRAFT
+version: 1.2.0-DRAFT
 date: November 2026
 draft: true
 summary: Entity medical malpractice and civil liability for general practices, allied health clinics, day surgeries, private hospitals and aged care providers. Never covers a doctor's own liability.
@@ -23,6 +23,7 @@ structure:
   - me.def.civil-liability-legislation
   - me.def.claim
   - me.def.company
+  - me.def.control-group
   - me.def.defence-costs
   - me.def.documents
   - me.def.employee
@@ -52,6 +53,7 @@ structure:
   - me.def.student
   - me.def.subsidiary
   - me.def.telehealth
+  - me.def.unauthorised-access
   - me.def.visiting-medical-officer
   - me.def.volunteer
   - me.def.we-us-our
@@ -136,6 +138,7 @@ structure:
 - section: me.section.conditions
   clauses:
   - me.cond.insurance-contracts-act
+  - me.cond.corporations-act-199b
   - me.cond.duty-of-disclosure
   - me.cond.utmost-good-faith
   - me.cond.cancellation

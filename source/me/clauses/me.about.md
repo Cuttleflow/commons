@@ -3,6 +3,7 @@ id: me.about
 type: preamble
 heading: About This Policy
 since: 1.1.0
+changed: 1.2.0
 status: draft
 ---
 
@@ -19,8 +20,10 @@ It covers:
 
 **Medical practitioners.** This policy never covers the personal civil liability of a medical practitioner. We will not pay the civil liability of a medical practitioner for any act, error or omission in the provision of healthcare services in their capacity as a medical practitioner. Every medical practitioner practising at or for the company must hold their own medical indemnity insurance that complies with the Medical Indemnity (Prudential Supervision and Product Standards) Act 2003 (Cth). What this policy does cover is the company's own liability, including its vicarious liability and its non-delegable duty of care, arising from a medical practitioner's conduct. See [[ref:me.cover.healthcare-operations]] and [[ref:me.cover.vicarious-liability]].
 
+**Allied health practitioners.** This policy covers an allied health practitioner only while acting for or on behalf of the company. It is not written to be, and does not claim to be, the professional indemnity insurance that the Health Practitioner Regulation National Law and a National Board's registration standard require of a registered practitioner for their own practice. It has no unlimited retroactive cover, and its run-off cover belongs to the company, not to the practitioner. Each practitioner should check with their National Board whether this policy satisfies the standard that applies to them. [WP REVIEW: confirm this statement against the insurance requirement in the Health Practitioner Regulation National Law and the National Boards' registration standards.]
+
 **Claims made and notified.** This policy covers only claims first made against you during the policy period and notified to us during the policy period. It does not cover claims first made after the policy period ends, even if the treatment or incident occurred during the policy period, subject to your statutory rights under s.40(3) of the Insurance Contracts Act 1984 (Cth), which [[ref:me.cover.notification-of-circumstances]] explains. Before you enter into this contract, your insurer or its distributor must give you written notice of the effect of s.40(3), as s.40(1) of that Act requires.
 
 This policy, together with your schedule and any endorsements, forms your contract of insurance with us. Please read all documents together and tell us if anything is incorrect. We enter into this contract, and each of us must act towards the other, with the utmost good faith, as the Insurance Contracts Act 1984 (Cth) requires. Words with special meanings are listed in [[ref:me.section.definitions]].
 
-This wording is written for businesses. The insurer or distributor that issues it is responsible for deciding whether any purchaser is a retail client under the Corporations Act 2001 (Cth) and, if so, for issuing a Product Disclosure Statement and Target Market Determination.
+This wording is written for businesses and professionals. Some buyers, such as small businesses, may be retail clients under the Corporations Act 2001 (Cth). Where a buyer is a retail client, the issuer must give a Product Disclosure Statement and make a Target Market Determination available. This wording is not itself a Product Disclosure Statement. [WP REVIEW: confirm the retail-client posture for medical establishments.]

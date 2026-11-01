@@ -3,6 +3,7 @@ id: ah.end.e15
 type: endorsement
 heading: E15 Dental and Oral Health
 since: 1.3.0
+changed: 1.4.0
 status: draft
 trigger:
   questions:
@@ -47,7 +48,7 @@ This endorsement applies where the insured is a dental practitioner (a dentist, 
 - (b) the premises must comply with any applicable State or Territory hospital, day-procedure or health-facility licensing requirements for the level of sedation administered; and
 - (c) the person administering the sedation must hold current sedation-specific training and continuing professional development certification.
 
-If (a) to (c) are not met, we may reduce the amount we pay by the amount that fairly represents the prejudice we suffer, consistent with s.54 of the Insurance Contracts Act 1984 (Cth). Civil liability arising from dental treatment performed under general anaesthesia is covered only where the general anaesthesia was administered in an accredited day surgery or hospital facility by a person lawfully authorised to administer it; any claim arising from general anaesthesia administered elsewhere is excluded.
+If (a) to (c) are not met, we may reduce the amount we pay by the amount that fairly represents the prejudice we suffer, consistent with s.54 of the Insurance Contracts Act 1984 (Cth).
 
 **Additional obligations.** These are added to [[ref:ah.section.obligations]] and operate on the same basis:
 
@@ -58,5 +59,6 @@ If (a) to (c) are not met, we may reduce the amount we pay by the amount that fa
 
 - (a) Cosmetic facial injectables: the administration of botulinum toxin, dermal fillers or other cosmetic facial injectables for purely aesthetic purposes (that is, otherwise than for the treatment of temporomandibular disorders, bruxism, hyperhidrosis, dental or facial pain, or another clinical indication within the insured's scope of practice), unless the insured has declared that activity to us and Endorsement E07 applies. Where a facial injectable is administered for a clinical indication, [[ref:ah.excl.prescription-medicines]] continues to apply to the prescribing and supply of the substance.
 - (b) Specialist oral and maxillofacial surgery: any surgical procedure that requires specialist registration as an oral and maxillofacial surgeon, unless the insured holds that specialist registration and it is noted in the schedule. Surgical procedures within the general dental scope of practice, including surgical extractions, remain covered.
+- (c) General anaesthesia elsewhere: dental treatment performed under general anaesthesia, unless the general anaesthesia was administered in an accredited day surgery or hospital facility by a person lawfully authorised to administer it. This is an exclusion of a kind of risk, not an obligation. Treatment under general anaesthesia administered in such a facility by such a person is covered.
 
 Schedule variables: specialist registration (where held).

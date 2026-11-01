@@ -4,6 +4,7 @@ type: definition
 heading: Professional services
 profession: financial-advisers
 since: 1.0.0
+changed: 1.1.0
 status: draft
 note: 'Replaces the FS base definition. Drafted from first principles for this wording. MERIDIAN-PI-FINP-v1.0.0 (June 2026) is not a source: it was derived from a third-party wording and is withdrawn. Following
   the better market wordings, the approved product list is part of this definition rather than an exclusion (underwriter direction, 31 October 2026). Advice to switch to an approved product, or to continue
@@ -23,3 +24,5 @@ The following services, provided for a fee or other remuneration, to the extent 
 (e) tax (financial) advice provided by a qualified tax relevant provider; and
 
 (f) any other service shown in the schedule as a professional service.
+
+[WP REVIEW: confirm that limiting professional services to services "provided for a fee or other remuneration" is intended. RG 126 may expect cover for advice that is not paid for, or that is given before an engagement is confirmed.]
