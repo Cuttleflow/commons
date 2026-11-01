@@ -3,6 +3,7 @@ id: cr.end.e04
 type: endorsement
 heading: E04 Vendor Dishonesty
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -18,7 +19,7 @@ trigger:
   - Do not attach
 ---
 
-The [[ref:cr.cover.employee-dishonesty]] clause is extended to cover your loss caused by a dishonest act of a person who supplies goods or services to you and who is not an employee or a third-party service provider, where that person acts with manifest intent while working at your premises under your direct supervision.
+[[ref:cr.cover.employee-dishonesty]] is extended to cover your loss caused by a dishonest act of a person who supplies goods or services to you and who is not an employee or a third-party service provider, where that person acts with manifest intent while working at your premises under your direct supervision.
 
 This endorsement does not cover loss caused by a person who is a director, partner or principal of the named insured, or an independent auditor.
 

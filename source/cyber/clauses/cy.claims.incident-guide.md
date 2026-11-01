@@ -3,6 +3,7 @@ id: cy.claims.incident-guide
 type: claims
 heading: How to Respond to a Cyber Incident
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
@@ -22,6 +23,7 @@ status: draft
 
 **Within 72 hours**
 
+- Ransom payments — if a ransomware payment has been made or is planned, tell us first. The Cyber Security Act 2024 (Cth) may require a report within a short time after the payment. See [[ref:cy.cover.cyber-extortion]].
 - Assess notification obligations — our breach coach (legal advisor) will help you determine whether you are required to notify the OAIC and affected individuals under the Notifiable Data Breaches scheme. The statutory deadline is "as soon as practicable" after you become aware of an eligible data breach, with a maximum assessment period of 30 days.
 
 **Ongoing**

@@ -5,7 +5,7 @@ kicker: Meridian Commons · Marine Cargo
 slug: marine-cargo
 file_stem: Meridian_Marine_Cargo
 doc_ref: 2026/MC/0001
-version: 1.0.0-DRAFT
+version: 1.1.0-DRAFT
 date: November 2026
 draft: true
 summary: An annual open transit policy for Australian importers, exporters and distributors, built on the Institute Cargo Clauses (A), (B) and (C), with inland transit cover within Australia.
@@ -31,9 +31,11 @@ structure:
   - mcg.def.inland-transit
   - mcg.def.institute-clauses
   - mcg.def.limit-any-one-conveyance
+  - mcg.def.non-sea-transit
   - mcg.def.own-vehicle
   - mcg.def.policy-period
   - mcg.def.professional-carrier
+  - mcg.def.sea-transit
   - mcg.def.theft-attractive-goods
   - mcg.def.transit
   - mcg.def.we-us-our
@@ -56,6 +58,7 @@ structure:
   - mcg.pay.basis-of-valuation
   - mcg.pay.excess
   - mcg.pay.premium-adjustment
+  - mcg.pay.recoveries
   - mcg.pay.gst
 - section: mcg.section.exclusions
   clauses:
@@ -73,6 +76,7 @@ structure:
 - section: mcg.section.conditions
   clauses:
   - mcg.cond.statutory-framework
+  - mcg.cond.insurance-contracts-act
   - mcg.cond.order-of-precedence
   - mcg.cond.law-and-practice
   - mcg.cond.jurisdiction
@@ -80,6 +84,7 @@ structure:
   - mcg.cond.cancellation
   - mcg.cond.fraud
   - mcg.cond.sanctions
+  - mcg.cond.other-insurance
   - mcg.cond.gst
   - mcg.cond.privacy
   - mcg.cond.disputes-and-complaints

@@ -3,6 +3,7 @@ id: cy.cover.social-engineering
 type: cover
 heading: Social Engineering Fraud
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
@@ -10,6 +11,6 @@ If during the policy period you transfer funds as a result of a fraudulent commu
 
 You must discover the loss during the policy period and notify us within 30 days of discovery.
 
-We will not pay if you did not follow your own documented verification procedures (if any) before making the transfer. If you do not have documented verification procedures, we will assess whether you took reasonable steps to verify the instruction. [WP REVIEW: the library's settled position is that a missed verification step does not by itself remove cover; confirm whether this paragraph should instead reduce payment to the extent the failure caused or contributed to the loss, as s.54 allows.]
+A missed verification step does not by itself remove cover. We take into account whether you followed your own documented verification procedures (if any) before making the transfer. If you did not, we may reduce what we pay only to the extent that the failure caused or contributed to the loss. We may not refuse any part of the loss that you prove the failure did not cause.
 
 Sub-limit: the funds transfer and social engineering sub-limit shown in the schedule (or $250,000 per claim if not stated), shared with [[ref:cy.cover.funds-transfer-fraud]].

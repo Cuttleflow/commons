@@ -3,6 +3,7 @@ id: mcg.end.e09
 type: endorsement
 heading: E09 Storage in Transit
 since: 1.0.0
+changed: 1.1.0
 status: draft
 trigger:
   questions:
@@ -20,6 +21,6 @@ trigger:
 
 For inland transits, storage of the goods in the course of transit at the places shown in the schedule for this endorsement is insured for up to the number of days shown, despite the 7 day limit in [[ref:mcg.cover.duration]].
 
-The limit any one conveyance applies to each place of storage. It is a condition of this cover that each place of storage is a closed building, locked when unattended.
+The limit any one conveyance applies to each place of storage. The cover applies on the condition that each place of storage is a closed building, locked when unattended. This condition is not a warranty. If you do not meet it, we may refuse only the part of the claim that the failure caused or contributed to, as [[ref:mcg.cond.insurance-contracts-act]] sets out.
 
 Schedule variables: places of storage; maximum number of days (default 30); limit at each place.

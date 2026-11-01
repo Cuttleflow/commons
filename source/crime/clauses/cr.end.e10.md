@@ -3,6 +3,7 @@ id: cr.end.e10
 type: endorsement
 heading: E10 Invoice Manipulation Fraud
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -18,10 +19,10 @@ trigger:
   - Do not attach
 ---
 
-The [[ref:cr.cover.social-engineering-fraud]] clause is extended to cover your direct financial loss from paying a supplier invoice, in good faith, where a third party fraudulently altered the invoice or the payment details on it, or created a false invoice that purported to come from a supplier with whom you have an established business relationship.
+[[ref:cr.cover.social-engineering-fraud]] is extended to cover your direct financial loss from paying a supplier invoice, in good faith, where a third party fraudulently altered the invoice or the payment details on it, or created a false invoice that purported to come from a supplier with whom you have an established business relationship.
 
-Cover under this endorsement is not conditional on the verification procedure shown in the schedule. Where you did not follow it and that failure caused or contributed to the loss, we may reduce our payment to the extent the failure caused or contributed to it, as s.54 of the Insurance Contracts Act 1984 (Cth) allows.
+The sub-limit shown for this endorsement applies to a payment only if, before you paid, you followed the verification procedure shown in the schedule. Where you did not, cover for that payment is not removed: it applies at the social engineering sub-limit that would apply without this endorsement. Verification therefore limits only the increase. It is not a condition of cover.
 
-The sub-limit and excess shown in the schedule for this endorsement apply. The sub-limit is part of, and not in addition to, the limit of liability of the social engineering clause.
+The excess shown in the schedule for this endorsement applies. The sub-limit is part of, and not in addition to, the limit of liability of [[ref:cr.cover.social-engineering-fraud]].
 
 Schedule variables: sub-limit; excess; verification procedure.

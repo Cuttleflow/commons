@@ -3,6 +3,7 @@ id: cr.end.e05
 type: endorsement
 heading: E05 Impersonation of Client at Premises
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -18,7 +19,7 @@ trigger:
   - Do not attach
 ---
 
-The [[ref:cr.cover.social-engineering-fraud]] clause is extended to cover your direct financial loss of money, securities or property delivered or released by an employee at your premises, in good faith, to a person who impersonated a client or customer of yours in person, without the knowledge or consent of the client or customer.
+[[ref:cr.cover.social-engineering-fraud]] is extended to cover your direct financial loss of money, securities or property delivered or released by an employee at your premises, in good faith, to a person who impersonated a client or customer of yours in person, without the knowledge or consent of the client or customer.
 
 The sub-limit and excess shown in the schedule for this endorsement apply. The sub-limit is part of, and not in addition to, the limit of liability of the social engineering clause.
 

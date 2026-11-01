@@ -3,6 +3,7 @@ id: cr.end.e03
 type: endorsement
 heading: "E03 Client Property: Increased Sub-limit"
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -18,7 +19,7 @@ trigger:
   - Do not attach
 ---
 
-The sub-limit for the [[ref:cr.ext.clients-property]] extension is increased to the amount shown in the schedule for this endorsement. The increased sub-limit is part of, and not in addition to, the limit of liability of the clause it extends.
+The sub-limit in [[ref:cr.ext.clients-property]] is increased to the amount shown in the schedule for this endorsement. The increased sub-limit is part of, and not in addition to, the limit of liability of the clause it extends.
 
 The extension continues to apply only to property of a client that is in your care, custody or control, and only where you are legally liable for the loss.
 
