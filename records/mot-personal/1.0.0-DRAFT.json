@@ -17,12 +17,12 @@
   {
    "id": "mot.ctp-notice",
    "heading": "Compulsory Third Party Insurance",
-   "sha256": "de9aa004c24c4bb8f8e93c100e6cb6ef6693f4366ad76812b9573551e2e14d57"
+   "sha256": "7189dbb1b50a1145ec1bef6e39c1202773f44a5aa45d3e7a80cc781c718be7fb"
   },
   {
    "id": "mot.version-history",
    "heading": "Version and Document History",
-   "sha256": "1715c1806ca99208176d47630e6dd7b68900e5ae75fe248a69045b1334293934"
+   "sha256": "6e541ed541f9e91b26db01fc44936a427193be085db0fb65060cb9f7b4c4c31a"
   },
   {
    "id": "mot.pvt.schedule",
@@ -75,9 +75,9 @@
    "sha256": "39400f945e91255b42ab220a57e82211f0dc16bdb5f6227e77b00c3d877b807a"
   },
   {
-   "id": "mot.def.named-insured",
+   "id": "mot.pvt.def.named-insured",
    "heading": "Named Insured",
-   "sha256": "9d6bebebce82d5b3684234fd4f701c794f91a641b7ce311adbea927a475b1e7c"
+   "sha256": "66c36c01c9a3b8b486501db8843c7cf3133730a2a03f6af082403a0cb7b21b92"
   },
   {
    "id": "mot.def.occurrence",
@@ -147,7 +147,7 @@
   {
    "id": "mot.pay.repairs",
    "heading": "Repairs",
-   "sha256": "24ef96e994e0fd7109611258aebfb4b4b359ca2665f1207489e2adda69ff6429"
+   "sha256": "bb703ded3dbd858179e3cd4c91e3ad69887c3f3f532d032278cbd578bfbb85ad"
   },
   {
    "id": "mot.pay.total-loss",
@@ -202,12 +202,12 @@
   {
    "id": "mot.ext.substitute-vehicles",
    "heading": "Substitute Vehicles",
-   "sha256": "95a066d82f3a5d4c4086a0f9b9c7579a336c6633555002c6b9c6ce7dfdecb1fc"
+   "sha256": "9d6c56fce9fa8ae4580dfa37c32035f1f516162c080ecad410a6e7560db6c213"
   },
   {
    "id": "mot.ext.non-owned-trailers",
    "heading": "Trailers",
-   "sha256": "91ed324ec140aeb5c25cd64c361d5844d29a5d54a2e4be5258ea5ac272f173fa"
+   "sha256": "2da18f7773a028d4096004b00105a11f8ac096ed5afec2856a8c08614f49a8b6"
   },
   {
    "id": "mot.pvt.excl.liability",
@@ -217,7 +217,7 @@
   {
    "id": "mot.section.general-exclusions",
    "heading": "General Exclusions",
-   "sha256": "9f3db23056110ea9d39c1de6263f96f085508888d0812a3f86829b7624824c5f"
+   "sha256": "6352930e9f23d3847da5cbc1b1a900dbc59d7381b9641fee548e255c6149c004"
   },
   {
    "id": "mot.excl.unlicensed-driver",
@@ -250,9 +250,9 @@
    "sha256": "3d47ad6e2ab085b63455d5ae03e38041fd9c365d0d1f115ad7620d7ad9b2e64a"
   },
   {
-   "id": "mot.excl.hire-fare-or-reward",
+   "id": "mot.pvt.excl.hire-fare-or-reward",
    "heading": "Hire, Fare or Reward",
-   "sha256": "9358954556131b92c50e56bd29ca06ecc92067f4967ec43343a859b316ce251e"
+   "sha256": "922acbb266f7baabb29fbfe0f398a43899221c5f8cc19b5f1940b3e789126a49"
   },
   {
    "id": "mot.excl.other-than-permitted-use",
@@ -282,7 +282,7 @@
   {
    "id": "mot.section.claims",
    "heading": "Your Obligations When Something Happens",
-   "sha256": "8c51efff8f50cb4420d1b5ac98ff52e010f089cc4c1764d3eb692b456b452de5"
+   "sha256": "5d05b95fbf8bdec03552f9e5c43391f75eaec60ea4fdc512f0d73f95bc2ae358"
   },
   {
    "id": "mot.obl.notify-us",
@@ -305,14 +305,14 @@
    "sha256": "6fac2b9238084c5473915acd034c50018e34aa330eea31e11addb41078da09ff"
   },
   {
-   "id": "mot.obl.maintain-vehicles",
-   "heading": "Maintain Your Vehicles",
-   "sha256": "3ae0a5e862572ded41d8667580f74c8952b4c467af665d84bef3c51fdce5bf2e"
+   "id": "mot.pvt.obl.maintain-vehicle",
+   "heading": "Maintain Your Car",
+   "sha256": "794723573064444921c5025019e55bfc4a4a3046fd5a39159576bcde66895c9c"
   },
   {
    "id": "mot.pvt.obl.tell-us-about-changes",
    "heading": "Tell Us About Changes",
-   "sha256": "91ed97e90216d5d5b5a245f916d4effe403354a74c168401de7f6e231c02cab1"
+   "sha256": "3e72cd974be4166e1dfd64a8c5e5e021968234dcc816d53f8c861913a13b7d71"
   },
   {
    "id": "mot.section.general-conditions",
@@ -365,9 +365,9 @@
    "sha256": "f9693c39c5a89d927d1d43262e200e6652ef8934f4b4a82fc8c7a39d473cf64c"
   },
   {
-   "id": "mot.cond.subrogation-and-interested-parties",
+   "id": "mot.pvt.cond.subrogation-and-interested-parties",
    "heading": "Subrogation and Interested Parties",
-   "sha256": "67e723f3b6475b8cd34cbe7cea676d4c0eee3857df784a16ae6f2b225b7f2286"
+   "sha256": "a185dd755f837da1776ef6a4e8c9a56d7d304d3955a3d83b7ccd4ba51cc6269b"
   },
   {
    "id": "mot.cond.salvage",
@@ -557,5 +557,5 @@
    ]
   }
  ],
- "sha256": "f4786a5af479a9541372de3e8eddc9e9ad88dc6801064df738b1d6f0ff49ebf0"
+ "sha256": "e3edea69a3969930aba14bccb1b7317710dc9424d7029f15c891c06259c59d1e"
 }

@@ -1,0 +1,663 @@
+{
+ "wording": "mcg-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/MC/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "mcg.about",
+   "heading": "About This Policy",
+   "sha256": "6b32e6a11c24228fb07431ff313bd7c0968dc8de5729482324ca60a32a028fe4"
+  },
+  {
+   "id": "mcg.version-history",
+   "heading": "Version and Document History",
+   "sha256": "86a0448e9807c836b982e22c0aec6781e21bc5b8d754e8268269718ffbcfd1da"
+  },
+  {
+   "id": "mcg.important-information",
+   "heading": "Important Information",
+   "sha256": "e2b39126d7ed6353752f95000a1aaad7e9c96b7bbdc81a69d790e7723b21fe07"
+  },
+  {
+   "id": "mcg.schedule",
+   "heading": "Schedule",
+   "sha256": "6613fed1074efc2626d642730d890889b4deeb4fce3f6b6161310e920cf5b819"
+  },
+  {
+   "id": "mcg.section.definitions",
+   "heading": "Definitions",
+   "sha256": "6fda18aaa19dc71a6e105a35e07c7af7e0232fd9b943b8c1dd111100225a1d35"
+  },
+  {
+   "id": "mcg.def.accumulation-limit",
+   "heading": "Accumulation Limit",
+   "sha256": "710acda95b661f44012bd5a77af2fa836f9a00f8e19c4f029d954c5d68fca057"
+  },
+  {
+   "id": "mcg.def.annual-sendings",
+   "heading": "Annual Sendings",
+   "sha256": "9ce94e7d9bcca86072fa0df43f106546d9e83b38bc2100960d8b00593198eff9"
+  },
+  {
+   "id": "mcg.def.conveyance",
+   "heading": "Conveyance",
+   "sha256": "a0ef832c711d5e10ca6924c8dfb42136dbd23d2961433899982c460cc3ca0bdb"
+  },
+  {
+   "id": "mcg.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "mcg.def.excess",
+   "heading": "Excess",
+   "sha256": "19354e0c7a45f2f0e27c38feef1ea164d09ac59a16f18789c724238a9138ecec"
+  },
+  {
+   "id": "mcg.def.excluded-goods",
+   "heading": "Excluded Goods",
+   "sha256": "f4f7ff9b289bebe047bf6aa252d4896660ba7a5d95481a6555ddb2a6e50e619f"
+  },
+  {
+   "id": "mcg.def.export-transit",
+   "heading": "Export Transit",
+   "sha256": "f060de34db85388931427d042f82d86357a1ac86fa1d3e700af1998bbd017432"
+  },
+  {
+   "id": "mcg.def.goods",
+   "heading": "Goods",
+   "sha256": "5a2834afaf8b7ca5d16ba606f28ef078f8092e6073ff5008bfdd63868a8dea16"
+  },
+  {
+   "id": "mcg.def.import-transit",
+   "heading": "Import Transit",
+   "sha256": "3efc39e496629c15b7853e3a16e7ae0a2e3d4dd93765a30370c320ade8b8eb40"
+  },
+  {
+   "id": "mcg.def.inland-transit",
+   "heading": "Inland Transit",
+   "sha256": "7fee81471679191f40d410a22f16c5301ca20aaf0f42b8022f906b8a7f3e3b4f"
+  },
+  {
+   "id": "mcg.def.institute-clauses",
+   "heading": "Institute Clauses",
+   "sha256": "87cb613bc97a0fe488fdb9cf1d4676ad0cf90aaa7e48096d55191dd4829b0b98"
+  },
+  {
+   "id": "mcg.def.limit-any-one-conveyance",
+   "heading": "Limit Any One Conveyance",
+   "sha256": "7ab4b91d2b9e47384a1c979719c287c79fb9b74aa7a257765c219315851f003f"
+  },
+  {
+   "id": "mcg.def.own-vehicle",
+   "heading": "Own Vehicle",
+   "sha256": "a41c5fd976b5374f942f01861855bdc2243c9f5b49bd5b6bcf09520732eefbed"
+  },
+  {
+   "id": "mcg.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "4b030f38437c9dc3975d7fd59275666dec7a6789f1cfab4f8fd2718a141478b8"
+  },
+  {
+   "id": "mcg.def.professional-carrier",
+   "heading": "Professional Carrier",
+   "sha256": "ebbc3edadda676f64416ee6101301911d66d6caf87ec689563f9290aa58585b3"
+  },
+  {
+   "id": "mcg.def.theft-attractive-goods",
+   "heading": "Theft-Attractive Goods",
+   "sha256": "0d31ee777fd81458968fc63514ef832ba7e2cec4cb26ff2de0804a0eb20650cd"
+  },
+  {
+   "id": "mcg.def.transit",
+   "heading": "Transit",
+   "sha256": "d6b1669ff815e47d2f3e77dcebebb5c01e02301a8f20738602d2d6298b37c8a1"
+  },
+  {
+   "id": "mcg.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "mcg.def.you-your",
+   "heading": "You, Your",
+   "sha256": "8680ed5a287e95251b9bc8ee8fad3b8385c6bfdb40edac0735b7d4a5ac56d346"
+  },
+  {
+   "id": "mcg.section.cover",
+   "heading": "What We Cover",
+   "sha256": "36ece12dc9eb75a68affbf16ba57782a323cd3e6bb848e4997987164411a7275"
+  },
+  {
+   "id": "mcg.cover.transit",
+   "heading": "Transit Section",
+   "sha256": "68fc1852aa5e08df695b0f88288fe39179b56a217e9996bf074bfbec3a38d097"
+  },
+  {
+   "id": "mcg.cover.institute-clauses",
+   "heading": "Institute Clauses That Apply",
+   "sha256": "16da868d77c8a117fc06e3a1159d57028e926257c1f04d83544aff9dd352b350"
+  },
+  {
+   "id": "mcg.cover.inland-transit",
+   "heading": "Inland Transit Cover",
+   "sha256": "ffb3ce264e9e85989ca51b0d9f70237d25d3ed2fd874acfae2cf56d42f376593"
+  },
+  {
+   "id": "mcg.cover.duration",
+   "heading": "When Transit Starts and Ends",
+   "sha256": "d0dce699c1eb793382d8e0c1512c61a2bb05a1e8f1d84ec83468ae0b228aae50"
+  },
+  {
+   "id": "mcg.cover.war-and-strikes",
+   "heading": "War and Strikes Section",
+   "sha256": "786a1785e85e23aab9970a6154068ca33be0121bed1e69a5f2b03cf02210cf2c"
+  },
+  {
+   "id": "mcg.section.extensions",
+   "heading": "Extensions",
+   "sha256": "062302e07d0aef9e4b98f39ee9a9fd7a1adb54efea2424942ce0fb72b0dfcddc"
+  },
+  {
+   "id": "mcg.ext.accumulation",
+   "heading": "Accumulation",
+   "sha256": "acbad87c4de6787232d7656183011797bb340b6f2ee99cbd80345b67893cb589"
+  },
+  {
+   "id": "mcg.ext.errors-and-omissions",
+   "heading": "Errors and Omissions",
+   "sha256": "0e4398f81cde7607e9a547df2cd39221cea1d0b3a812d4abb8b700e60e20cd31"
+  },
+  {
+   "id": "mcg.ext.certificates",
+   "heading": "Certificates of Insurance",
+   "sha256": "3377e98776dea5e3f179930c04d929a26bff84c088bc6637e84b4d039592412e"
+  },
+  {
+   "id": "mcg.ext.packing-and-labels",
+   "heading": "Packing Materials and Labels",
+   "sha256": "c96ca436d7d01bc776fdb5c7aa9c342ca78f0c7b221bc66f7708cfbdd001d3a0"
+  },
+  {
+   "id": "mcg.section.payment",
+   "heading": "How We Pay Claims",
+   "sha256": "6dfe3cc5d5ed357e02499ea3a6a39886f5aaefc6ac2296c7dc8a12b3fab5cd79"
+  },
+  {
+   "id": "mcg.pay.basis-of-valuation",
+   "heading": "Basis of Valuation",
+   "sha256": "d6c54d4b766287086e48dd7d8be728d82a34ff81fa643e342430af38a7a6d8d4"
+  },
+  {
+   "id": "mcg.pay.excess",
+   "heading": "Excess",
+   "sha256": "855e5a38d3d3ad0aa9e3f8728c7d0aaa369e8c431995a4a58736bd6c63061973"
+  },
+  {
+   "id": "mcg.pay.premium-adjustment",
+   "heading": "Premium and Annual Sendings",
+   "sha256": "7bd2805dc620718846bb6b73269c69497c7650c4b2acf17f3f2d9dd07e7c2182"
+  },
+  {
+   "id": "mcg.pay.gst",
+   "heading": "GST on Claims",
+   "sha256": "a25a50da5bbc62a1f803e8730271d6d85302a9aed56e17f706072a24e356b05e"
+  },
+  {
+   "id": "mcg.section.exclusions",
+   "heading": "Exclusions",
+   "sha256": "80558b1780c66a369bfc1153221e49dbf0b3e1b75c9cb377a88abafbf114b3c0"
+  },
+  {
+   "id": "mcg.excl.excluded-goods",
+   "heading": "Excluded Goods",
+   "sha256": "14ed00e50b27fb7618d390250959befe71fb52dd9fd73b3c2bc2bfad3b5762cb"
+  },
+  {
+   "id": "mcg.excl.transits-outside-australia",
+   "heading": "Transits Outside Australia",
+   "sha256": "b6f3ab8bc72338eb960a76b94d24cb8f3497fdcd4c693b82a0fede87d1a826a4"
+  },
+  {
+   "id": "mcg.excl.war-on-land",
+   "heading": "War on Land",
+   "sha256": "5671905d4f0b956732575d81174892735ec23658de73e02cab311e7605222384"
+  },
+  {
+   "id": "mcg.excl.delay-and-market",
+   "heading": "Delay and Loss of Market",
+   "sha256": "22cec13f67a5255aa0b2c1ecc87817d0263c764be3738df67f98fd62b45730d8"
+  },
+  {
+   "id": "mcg.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "78df0b3c668e12e79396f3aa080793a2d6516b10c33a855b438e6d253a839a4e"
+  },
+  {
+   "id": "mcg.obl.tell-us-about-loss",
+   "heading": "Telling Us About a Loss",
+   "sha256": "e8281efd9e9d2b71f3e501e4a21d0a4370eec69c0243b8e2d47b915b5396a417"
+  },
+  {
+   "id": "mcg.obl.rights-against-carriers",
+   "heading": "Preserving Rights Against Carriers",
+   "sha256": "918f8124f64a8b78313de2459be50a29f7d9bec105180c6fe4e9f6b2db5e5099"
+  },
+  {
+   "id": "mcg.obl.reduce-loss",
+   "heading": "Minimising Loss",
+   "sha256": "968662886d2db7af1f08a7c6be4c28f6c102158ba3fe8fedb5701ed52f1ed2fb"
+  },
+  {
+   "id": "mcg.obl.records",
+   "heading": "Records of Sendings",
+   "sha256": "52c138fec0a0a4e89dca5a08cb397ecffea529848018bb9dd2d6ddb4c032499e"
+  },
+  {
+   "id": "mcg.obl.tell-us-about-changes",
+   "heading": "Telling Us About Changes",
+   "sha256": "824a9590230ca3df2e3a194f77713e67754b5b657c8185263db5bedec3af14f6"
+  },
+  {
+   "id": "mcg.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "f738d943e8679cbab0142c0c3dae8952d49e50a45ec2ff661a1b0bb496d9964b"
+  },
+  {
+   "id": "mcg.cond.statutory-framework",
+   "heading": "Marine Insurance Act and Insurance Contracts Act",
+   "sha256": "976c7acfe2dbd730e686d14edcdff1a30cf9807c7311dca85aef5e644e87a305"
+  },
+  {
+   "id": "mcg.cond.order-of-precedence",
+   "heading": "How the Parts of This Policy Fit Together",
+   "sha256": "e6a584a739b28a438de374fdf76599e3fe3208ef2b0113fe0713e4d5b588cec0"
+  },
+  {
+   "id": "mcg.cond.law-and-practice",
+   "heading": "Australian Law and Practice",
+   "sha256": "1266dbfd144c8fd7c150e8bfca217a6ff549b47185c92f130cfbb1ef76e9522f"
+  },
+  {
+   "id": "mcg.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "bae7f89b804e159b0de08cd77157062dcff4efa33a985dbb6b65465fc3ec61bc"
+  },
+  {
+   "id": "mcg.cond.institute-clause-text",
+   "heading": "Text of the Institute Clauses",
+   "sha256": "a3cf28671f7ead235fca2bcb1c6649abaa27b7fa6e12254eba530b260d9cb15f"
+  },
+  {
+   "id": "mcg.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "f2b6df3b5b4241612971ce20d1b792c3c13566fa8843afe9ac6522ccb90b4963"
+  },
+  {
+   "id": "mcg.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "4c8cced299e70fdb51c600f34a51c5f8de29ac270aa2328fdc818c6383cfea5e"
+  },
+  {
+   "id": "mcg.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "fcb366de7854f50e94fcd2dd91dbe6d09b78cbcb17550fdbb2b88991de8e826f"
+  },
+  {
+   "id": "mcg.cond.gst",
+   "heading": "GST",
+   "sha256": "46b20250325dd06e9dca37c9b60cf91cd7e701a2c35b6ea190cdc548f44ffb16"
+  },
+  {
+   "id": "mcg.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "4c4b353eb03f28053b7e6634e8f1a4dca63494534c7e06e5ff04768ed2e01864"
+  },
+  {
+   "id": "mcg.cond.disputes-and-complaints",
+   "heading": "Complaints and Disputes",
+   "sha256": "8827625405fb19eaab450be43a323801444d6f8798dce36fd4acbfb0cb98fa36"
+  },
+  {
+   "id": "mcg.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "5598cdfcaf9882283078ac2d5790a4ff98c2930d8615e0aea9415aff6a706488"
+  },
+  {
+   "id": "mcg.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "835574a3c3fd7f4a1f21a126143996184e6140ebd0dbf1a3368d4b6281f2878c"
+  },
+  {
+   "id": "mcg.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "bbe711e9ce5c2c99ec424181415a73199de291c181de2633cabfdb459ac14478"
+  },
+  {
+   "id": "mcg.end.e01",
+   "heading": "E01 Temperature-Controlled Goods",
+   "sha256": "1c759e9f1888ff3aad944d5b6e7a61fb52de3460a1cba6f7278842e9576c5526"
+  },
+  {
+   "id": "mcg.end.e02",
+   "heading": "E02 Used Goods",
+   "sha256": "651f723f29a398d628d534884014805f90fa06e97bf1350e8e7bc8bb87ceb7a5"
+  },
+  {
+   "id": "mcg.end.e03",
+   "heading": "E03 Own Vehicle Carriage",
+   "sha256": "fd5cc757416d616ef00031c32384818f666507bd9863df17a4359cde9d166ca7"
+  },
+  {
+   "id": "mcg.end.e04",
+   "heading": "E04 Dangerous Goods",
+   "sha256": "afd5a42693f13619656ce93507b8346696c28ad7b8cf1b1eddaff30c9f1642f6"
+  },
+  {
+   "id": "mcg.end.e05",
+   "heading": "E05 Theft-Attractive Goods Excess",
+   "sha256": "085efe290e5d1a2bacd893797c0a03b2679c5af976b1e766b07ca66e6db5105b"
+  },
+  {
+   "id": "mcg.end.e06",
+   "heading": "E06 Replacement Clause for Machinery",
+   "sha256": "64830801acaf769bacd4973823a749ee2c6803b7adc97677b98d4b7a727cecd9"
+  },
+  {
+   "id": "mcg.end.e07",
+   "heading": "E07 Import Duty and Taxes",
+   "sha256": "13b1737cb4403d72cd1617c6568cb65fa40baadab05d76adfc2b17a1123712d0"
+  },
+  {
+   "id": "mcg.end.e08",
+   "heading": "E08 Seller's Contingent Interest",
+   "sha256": "0ca506470049fef4b2b49082d753c98230ddd35de52d91809622437b8bddcfb3"
+  },
+  {
+   "id": "mcg.end.e09",
+   "heading": "E09 Storage in Transit",
+   "sha256": "30496f8d34c5eecec356df265618d905a5000cc606c24696ed33cd0944ced0d2"
+  },
+  {
+   "id": "mcg.end.e10",
+   "heading": "E10 High-Risk Areas",
+   "sha256": "3fed5a9f41cb1afdd420269a173ab7244e7ae35fd62b394ceb6c2e16a0df1e7e"
+  },
+  {
+   "id": "mcg.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "5332e61ffc1909f2da9488dc4db876683a5b6350e6b058fbb3ab9c6191e103cd"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "mcg.end.e01",
+   "heading": "E01 Temperature-Controlled Goods",
+   "trigger": {
+    "questions": [
+     "qs.mcg.goods.temperature_controlled"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.goods.temperature_controlled == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the goods include temperature-controlled goods; the underwriter sets the terms for refrigeration breakdown.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.goods.temperature_controlled",
+     "text": "Do any of the goods need to be kept within a temperature range during transit?",
+     "type": "yes/no",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e02",
+   "heading": "E02 Used Goods",
+   "trigger": {
+    "questions": [
+     "qs.mcg.goods.second_hand"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.goods.second_hand == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because some of the goods are used or second-hand."
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.goods.second_hand",
+     "text": "Are any of the goods used, second-hand or reconditioned?",
+     "type": "yes/no",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e03",
+   "heading": "E03 Own Vehicle Carriage",
+   "trigger": {
+    "questions": [
+     "qs.mcg.ops.own_vehicle_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.ops.own_vehicle_pct > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.mcg.ops.own_vehicle_pct}% of your inland sendings travel in your own vehicles."
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.ops.own_vehicle_pct",
+     "text": "What percentage of your inland sendings travels in your own vehicles?",
+     "type": "percentage",
+     "used_by": "R, E03"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e04",
+   "heading": "E04 Dangerous Goods",
+   "trigger": {
+    "questions": [
+     "qs.mcg.goods.dangerous_goods"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.goods.dangerous_goods == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the goods include dangerous goods; the underwriter confirms the classes and the terms.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.goods.dangerous_goods",
+     "text": "Do any of the goods fall within a class of dangerous goods for transport?",
+     "type": "yes/no",
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e05",
+   "heading": "E05 Theft-Attractive Goods Excess",
+   "trigger": {
+    "questions": [
+     "qs.mcg.goods.theft_attractive_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.goods.theft_attractive_pct > 25",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because theft-attractive goods are {qs.mcg.goods.theft_attractive_pct}% of your sendings."
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.goods.theft_attractive_pct",
+     "text": "What percentage of your sendings is theft-attractive goods, such as electronics, phones, alcohol, tobacco, medicines or cosmetics?",
+     "type": "percentage",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e06",
+   "heading": "E06 Replacement Clause for Machinery",
+   "trigger": {
+    "questions": [
+     "qs.mcg.goods.machinery"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.goods.machinery == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the goods include machinery or equipment made up of parts."
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.goods.machinery",
+     "text": "Do the goods include machinery or equipment made up of parts?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e07",
+   "heading": "E07 Import Duty and Taxes",
+   "trigger": {
+    "questions": [
+     "qs.mcg.cover.duty_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.cover.duty_requested == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked to insure import duty and taxes."
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.cover.duty_requested",
+     "text": "Do you want to insure import duty and taxes as part of the value of imported goods?",
+     "type": "yes/no",
+     "used_by": "E07"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e08",
+   "heading": "E08 Seller's Contingent Interest",
+   "trigger": {
+    "questions": [
+     "qs.mcg.cover.contingent_interest"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.cover.contingent_interest == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you sell exports on terms where the buyer insures the goods."
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.cover.contingent_interest",
+     "text": "Do you sell exports on terms where the buyer insures the goods, such as FOB or CFR, and want cover for your interest if the buyer does not pay after a loss?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e09",
+   "heading": "E09 Storage in Transit",
+   "trigger": {
+    "questions": [
+     "qs.mcg.ops.storage_over_7_days"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.ops.storage_over_7_days == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because goods are stored for more than 7 days in the course of inland transits.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.ops.storage_over_7_days",
+     "text": "Are goods stored for more than 7 days at any place in the course of an inland transit?",
+     "type": "yes/no",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "mcg.end.e10",
+   "heading": "E10 High-Risk Areas",
+   "trigger": {
+    "questions": [
+     "qs.mcg.ops.high_risk_destinations"
+    ],
+    "rules": [
+     {
+      "when": "qs.mcg.ops.high_risk_destinations == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you send or receive goods to or from a high-risk or sanctioned area.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mcg.ops.high_risk_destinations",
+     "text": "Do you send or receive goods to or from a country under sanctions or an area listed by the Joint War Committee?",
+     "type": "yes/no",
+     "used_by": "A, E10"
+    }
+   ]
+  }
+ ],
+ "sha256": "d44ede92d24e92ed0f84943bad79488964f641d16ecf9ad8929ac0b8ec5a45fd"
+}

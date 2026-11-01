@@ -1,0 +1,110 @@
+# Platform questions for the Cyber wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.cy namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.cy.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.cy.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.cy.insured.principal_state
+    text: In which state or territory is your principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S
+  - id: qs.cy.insured.anzsic_primary
+    text: What is your main business activity?
+    type: select (ANZSIC 2006 class)
+    used_by: R, A
+  - id: qs.cy.insured.restricted_activity
+    text: Is the business a bank or other financial institution, a payment processor, or a cryptocurrency business?
+    type: select
+    options: ['none', 'financial_institution', 'payment_processor', 'crypto']
+    used_by: A
+  - id: qs.cy.insured.years_trading
+    text: How many years has the business traded under its current ownership?
+    type: number
+    used_by: R
+  - id: qs.cy.insured.holds_crypto
+    text: Does the business hold cryptocurrency or other digital assets?
+    type: yes/no
+    used_by: E06
+  - id: qs.cy.insured.tech_services_pct
+    text: What percentage of your revenue comes from technology products or services you provide to others?
+    type: percentage
+    used_by: E07
+  - id: qs.cy.exposure.revenue
+    text: What was your revenue in the last financial year?
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.cy.exposure.records_held
+    text: How many records containing personal information do you hold, including former customers and employees?
+    type: number
+    used_by: R, A
+  - id: qs.cy.exposure.sensitive_record_type
+    text: What is the most sensitive type of personal information you hold?
+    type: select
+    options: ['contact', 'identity', 'financial', 'health']
+    used_by: R
+  - id: qs.cy.exposure.us_revenue_pct
+    text: What percentage of your revenue comes from customers in the United States or Canada?
+    type: percentage
+    used_by: A, E11
+  - id: qs.cy.security.mfa
+    text: Is multi-factor authentication required for all remote access and for email?
+    type: yes/no
+    used_by: A, E16
+  - id: qs.cy.security.offline_backups_tested
+    text: Do you keep offline or immutable backups of critical data, and have you tested restoring them in the last 12 months?
+    type: yes/no
+    used_by: A, E16
+  - id: qs.cy.security.eol_software
+    text: Do you run any software or operating system that the vendor no longer supports with security patches?
+    type: yes/no
+    used_by: E03
+  - id: qs.cy.claims.incidents_3y
+    text: How many cyber incidents or data breaches have you had in the last three years?
+    type: number
+    used_by: R, A
+  - id: qs.cy.ops.operational_technology
+    text: Do you operate equipment, plant or processes controlled by computer systems (operational technology)?
+    type: yes/no
+    used_by: E09
+  - id: qs.cy.ops.uses_ai_systems
+    text: Do you build, train or operate AI models or systems in your business?
+    type: yes/no
+    used_by: E15
+  - id: qs.cy.cover.limit
+    text: What limit of liability do you need?
+    type: select (AUD)
+    options: ['250000', '500000', '1000000', '2000000', '3000000', '5000000']
+    used_by: R, S
+  - id: qs.cy.cover.excess
+    text: What excess do you want?
+    type: select (AUD)
+    options: ['2500', '5000', '10000', '25000', '50000']
+    used_by: R, S
+  - id: qs.cy.cover.bi_waiting_hours
+    text: What business interruption waiting period do you want, in hours?
+    type: select
+    options: ['8', '12', '24']
+    used_by: R, S
+  - id: qs.cy.cover.se_sublimit
+    text: What sub-limit do you want for funds transfer and social engineering fraud?
+    type: select (AUD)
+    options: ['50000', '100000', '250000']
+    used_by: R, S
+  - id: qs.cy.cover.layer
+    text: Is this policy primary, or in excess of other cyber insurance?
+    type: select
+    options: ['primary', 'excess']
+    used_by: A, E10
+  - id: qs.cy.cover.options_requested
+    text: Which optional endorsements would you like a price for?
+    type: multi-select
+    options: ['E01', 'E02', 'E04', 'E05', 'E08', 'E12', 'E13', 'E14', 'E15']
+    used_by: E01, E02, E04, E05, E08, E12, E13, E14, E15

@@ -267,7 +267,7 @@
   {
    "id": "str.ext.mortgagees",
    "heading": "Interests of Lot Owners and Financiers",
-   "sha256": "9791ea4cce9257e2b1a186f29f4b1c2e7897ea979573d2e64501a2ecac86f8e2"
+   "sha256": "8fe97012a14cdb6ab469b3afe949023bdcbf1502794bfd21c9dd9a6c4ed593a8"
   },
   {
    "id": "str.cover.catastrophe",
@@ -302,7 +302,7 @@
   {
    "id": "str.excl.major-works",
    "heading": "Major Works",
-   "sha256": "e98a81f9078eb56789443407d582dfeaa875b7a26ea522f3389afef352544f61"
+   "sha256": "e0ba5206ababbee76c624cf2e20f08229b1ceb8c991a094ed40086414f4d2930"
   },
   {
    "id": "str.excl.property-other",
@@ -512,7 +512,7 @@
   {
    "id": "str.obl.tell-us-about-changes",
    "heading": "Tell Us About Changes",
-   "sha256": "8bb35b60419056585c0c77e05368c0d5ef1b6447fede562f628c5c487634ae2d"
+   "sha256": "c5ba008112678af2d175f01d46b02270c6bee1e4176493575fd618700ef1dc11"
   },
   {
    "id": "str.obl.subrogation",
@@ -602,7 +602,7 @@
   {
    "id": "str.end.e01",
    "heading": "E01 Flood Cover",
-   "sha256": "2176cd7ccbe15e58a5008a084f2f69004d8b045c25bc443154218a526eb1fd8e"
+   "sha256": "5f227d00fefff83ec577b8e92a22fea8648f46122324ceb0e93b2ef136b47803"
   },
   {
    "id": "str.end.e02",
@@ -612,7 +612,7 @@
   {
    "id": "str.end.e03",
    "heading": "E03 Major Works",
-   "sha256": "a242dcfd1befef2d3ac0d1c15635deac12325cf23d95395d6a5a3b00d70de99a"
+   "sha256": "440e485769371eb5f83823f84b5b216444330baf2ddeaa0d5ef4779fd47e7da2"
   },
   {
    "id": "str.end.e04",
@@ -647,12 +647,12 @@
   {
    "id": "str.end.e10",
    "heading": "E10 Unoccupied Building",
-   "sha256": "9086d9068305e4557c0306bebb414dc3f554b3e3a41a96d861ee9f432649963c"
+   "sha256": "4684f9b04d010067883147179cb8792cc06683d0db97dac1c532e3eb8f884932"
   },
   {
    "id": "str.end.e11",
    "heading": "E11 Commercial Occupancy",
-   "sha256": "6c5b55e3e93bf72f9257799469c70421e41031682dbe42c4516f3f29c710db7b"
+   "sha256": "ff5560973c759fe2321eab662fc258d71f0ef6a808ab67c1e6aa7346e3210dab"
   },
   {
    "id": "str.licence-notice",
@@ -1015,5 +1015,5 @@
    ]
   }
  ],
- "sha256": "7ac4a062f446d900b7e2589cdefc11cc3d162e50537c1ab2902302c07487c36f"
+ "sha256": "cb2d91ac2c78e299ed916f2a423a5d4fd8750337b1e7a10b79ab0cf519504852"
 }

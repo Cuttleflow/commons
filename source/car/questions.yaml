@@ -1,0 +1,165 @@
+# Platform questions for the Construction All Risks and Liability wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.car namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.car.insured.name
+    text: What is the named insured's legal name?
+    type: text
+    used_by: S
+  - id: qs.car.insured.abn
+    text: What is the named insured's ABN?
+    type: text
+    used_by: S
+  - id: qs.car.insured.anzsic_class
+    text: Which ANZSIC class best describes the named insured's business?
+    type: select (ANZSIC 2006 class, from the Exposure Engine)
+    used_by: A
+  - id: qs.car.insured.licence_held
+    text: Does the named insured hold the builder's or trade contractor's licence required for this work in the state or territory of the project site?
+    type: yes/no
+    used_by: A
+  - id: qs.car.insured.years_trading
+    text: How many years has the named insured been carrying out construction work?
+    type: number
+    used_by: R, A
+  - id: qs.car.cover.basis
+    text: Is cover for a single project, or annual on a contracts commencing or turnover basis?
+    type: select
+    options: ['single_project', 'annual_commencing', 'annual_turnover']
+    used_by: R, A, S
+  - id: qs.car.project.description
+    text: Describe the project, or for annual cover the business's construction work.
+    type: text
+    used_by: S
+  - id: qs.car.project.site_address
+    text: What is the address of the project site?
+    type: text
+    used_by: R, S
+  - id: qs.car.project.state
+    text: In which state or territory is the project site, or for annual cover the named insured's main place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, A, S
+  - id: qs.car.project.principal
+    text: Who is the principal?
+    type: text
+    used_by: S
+  - id: qs.car.project.type
+    text: What type of project is it?
+    type: select
+    options: ['res_new', 'res_alterations', 'res_multi_unit', 'com_fitout', 'com_new_build', 'civil', 'other']
+    used_by: R, A, E05
+  - id: qs.car.project.storeys
+    text: How many storeys will the tallest building have above ground?
+    type: number
+    used_by: A, E05
+  - id: qs.car.project.construction_method
+    text: What is the main construction method?
+    type: select
+    options: ['timber_frame', 'masonry_steel', 'concrete']
+    used_by: R
+  - id: qs.car.project.contract_value
+    text: What is the contract value of the project, including principal-supplied materials, or for annual cover the estimated total contract value of projects starting in the policy period?
+    type: currency
+    used_by: R, A, S
+  - id: qs.car.project.period_months
+    text: How many months is the construction period, or for annual cover the longest construction period of any one project?
+    type: number
+    used_by: R, A, S
+  - id: qs.car.annual.max_project_value
+    text: What is the largest contract value of any one project to be covered automatically? For a single project, enter its contract value.
+    type: currency
+    used_by: R, A, S
+  - id: qs.car.s1.existing_structures_si
+    text: What sum insured is needed for existing structures and the principal's contents together (enter 0 if none)?
+    type: currency
+    used_by: R, S, E01
+  - id: qs.car.s1.plant_si
+    text: What sum insured is needed for construction plant owned by the insured (enter 0 if none)?
+    type: currency
+    used_by: S, E11
+  - id: qs.car.s1.hired_plant
+    text: Will the insured hire in construction plant it is responsible for?
+    type: yes/no
+    used_by: E11
+  - id: qs.car.s1.offsite_transit_limit
+    text: What limit is needed for any one offsite storage location or conveyance?
+    type: currency
+    used_by: S, E10
+  - id: qs.car.s1.leg_clause
+    text: Which defects clause is required?
+    type: select
+    options: ['leg1', 'leg2', 'leg3']
+    used_by: R, S, E02
+  - id: qs.car.s1.dlp_months
+    text: How many months is the defects liability period?
+    type: select
+    options: ['3', '6', '12', '24']
+    used_by: A, S
+  - id: qs.car.s1.excess
+    text: Which standard excess is chosen for material damage?
+    type: currency
+    used_by: R, S
+  - id: qs.car.s2.limit
+    text: Which public and products liability limit is required?
+    type: select
+    options: ['5000000', '10000000', '20000000']
+    used_by: R, A, S
+  - id: qs.car.s3.required
+    text: Is delay in start-up cover required for the principal?
+    type: yes/no
+    used_by: A, S, E03
+  - id: qs.car.s4.required
+    text: Does the insured have design responsibility, and is design and construct professional indemnity cover required?
+    type: yes/no
+    used_by: A, S, E12
+  - id: qs.car.s4.ffp_warranty
+    text: Does the construction contract require a fitness-for-purpose design warranty?
+    type: yes/no
+    used_by: E12
+  - id: qs.car.risk.demolition
+    text: Does the project include demolition, other than minor strip-out?
+    type: yes/no
+    used_by: A, E04
+  - id: qs.car.risk.asbestos_known
+    text: Is asbestos known to be present and to be removed as part of the project?
+    type: yes/no
+    used_by: E04
+  - id: qs.car.risk.combustible_cladding
+    text: Will the project install aluminium composite panels, expanded polystyrene or other combustible external cladding?
+    type: select
+    options: ['no', 'yes', 'unknown']
+    used_by: A, E05
+  - id: qs.car.risk.excavation_depth_m
+    text: What is the deepest excavation, in metres below existing ground level?
+    type: number
+    used_by: A, E06
+  - id: qs.car.risk.piling
+    text: Does the project include piling?
+    type: yes/no
+    used_by: A, E06
+  - id: qs.car.risk.dewatering
+    text: Does the project include dewatering?
+    type: yes/no
+    used_by: A, E06
+  - id: qs.car.risk.marine_tidal
+    text: Does the project include work in or next to water, such as marine, tidal or river works?
+    type: yes/no
+    used_by: A, E07
+  - id: qs.car.risk.works_started
+    text: Has work on the project already started?
+    type: yes/no
+    used_by: A, E08
+  - id: qs.car.risk.principal_arranged_insurance
+    text: Has the principal arranged its own contract works or liability insurance for the project?
+    type: yes/no
+    used_by: E09
+  - id: qs.car.risk.heritage
+    text: Does the project involve a heritage-listed building or structure?
+    type: yes/no
+    used_by: A
+  - id: qs.car.history.claims_5yr
+    text: How many contract works or liability claims has the named insured had in the last 5 years?
+    type: number
+    used_by: R, A

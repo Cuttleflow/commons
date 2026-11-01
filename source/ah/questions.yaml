@@ -1,0 +1,143 @@
+# Platform questions for the Allied Health wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.ah namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.ah.insured.name
+    text: What is the insured practitioner's full legal name?
+    type: text
+    used_by: S
+  - id: qs.ah.insured.abn
+    text: What is the practitioner's or practice's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.ah.insured.principal_state
+    text: In which state or territory is your principal place of practice?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S, A
+  - id: qs.ah.practice.profession
+    text: What is your health profession?
+    type: select
+    options: [physiotherapy, chiropractic, osteopathy, podiatry, psychology, counselling, social_work, occupational_therapy, speech_pathology, dietetics, exercise_physiology, audiology, orthoptics, optometry, pharmacy, paramedicine, medical_radiation, sonography, chinese_medicine, atsi_health, massage_myotherapy, dentist, dental_specialist, dental_hygienist_therapist, dental_prosthetist, nursing, midwifery]
+    used_by: R, A, S, E01, E13, E14, E15
+  - id: qs.ah.practice.registration
+    text: Do you hold current registration with your National Board or, for a self-regulated discipline, the practising membership your professional association requires?
+    type: yes/no
+    used_by: A
+  - id: qs.ah.practice.fee_income
+    text: What were your gross fees from professional services in the last 12 months?
+    type: currency (AUD)
+    used_by: R, S
+  - id: qs.ah.practice.years_in_practice
+    text: How many years have you been in practice since first registration or accreditation?
+    type: number
+    used_by: R, A
+  - id: qs.ah.practice.entity_insured
+    text: Do you practise through a company, partnership or trust that you want named as an insured?
+    type: yes/no
+    used_by: E03
+  - id: qs.ah.practice.clinical_trials
+    text: Do you take part in a clinical trial or research project as an investigator or study clinician?
+    type: yes/no
+    used_by: E02
+  - id: qs.ah.practice.facility_intrapartum
+    text: Do you provide intrapartum midwifery care in a licensed healthcare facility?
+    type: yes/no
+    used_by: E01
+  - id: qs.ah.practice.cosmetic_procedures
+    text: Do you perform any non-surgical cosmetic or aesthetic procedures, such as cosmetic injectables?
+    type: yes/no
+    used_by: R, E07
+  - id: qs.ah.practice.overseas_work
+    text: Do you provide services temporarily outside Australia?
+    type: yes/no
+    used_by: E08
+  - id: qs.ah.practice.overseas_telehealth
+    text: Do you provide telehealth from Australia to patients outside Australia?
+    type: yes/no
+    used_by: E09
+  - id: qs.ah.practice.usa_canada
+    text: Do you provide any services in, or to patients located in, the USA or Canada?
+    type: yes/no
+    used_by: A
+  - id: qs.ah.practice.therapy_animal_program
+    text: Do you run a structured animal-assisted therapy program?
+    type: yes/no
+    used_by: E10
+  - id: qs.ah.practice.event_services
+    text: Do you provide first aid or event health services at sporting, community or mass-gathering events?
+    type: yes/no
+    used_by: E11
+  - id: qs.ah.physio.cervical_manipulation
+    text: Does your practice include high-velocity cervical spine manipulation?
+    type: yes/no
+    used_by: R
+  - id: qs.ah.psych.high_risk_categories
+    text: "How many of these do you work with: children and adolescents; trauma and abuse survivors; patients with active suicidal ideation; forensic or court-ordered assessments; hypnotherapy or memory-related techniques?"
+    type: number (0 to 5)
+    used_by: R, A
+  - id: qs.ah.psych.medico_legal_pct
+    text: What percentage of your fees comes from medico-legal reports?
+    type: percentage
+    used_by: A
+  - id: qs.ah.dental.sedation
+    text: What sedation do you administer?
+    type: select
+    options: [none, inhalational_or_oral, intravenous]
+    used_by: R, A
+  - id: qs.ah.dental.implants_per_year
+    text: How many dental implants do you place each year?
+    type: number
+    used_by: R
+  - id: qs.ah.dental.oms_specialist
+    text: Are you registered as a specialist oral and maxillofacial surgeon?
+    type: yes/no
+    used_by: A, E15
+  - id: qs.ah.history.claims_count_5y
+    text: How many claims or complaints that led to compensation have been made against you in the last 5 years?
+    type: number
+    used_by: R, A
+  - id: qs.ah.history.ahpra_conditions
+    text: Is your registration currently subject to any condition, undertaking or notation, or has it been in the last 5 years?
+    type: yes/no
+    used_by: A
+  - id: qs.ah.history.known_circumstances
+    text: Are you aware of any circumstance that might give rise to a claim or inquiry against you?
+    type: yes/no
+    used_by: A
+  - id: qs.ah.history.prior_declined
+    text: Has an insurer ever declined, cancelled or refused to renew your professional indemnity insurance?
+    type: yes/no
+    used_by: A
+  - id: qs.ah.cover.retro_cover
+    text: Have you held professional indemnity insurance continuously, and do you need prior acts cover?
+    type: select
+    options: [continuous, new_practitioner, gap_in_cover]
+    used_by: R, A, S
+  - id: qs.ah.cover.limit
+    text: What limit of liability do you need?
+    type: select
+    options: ['5000000', '10000000', '20000000']
+    used_by: R, S
+  - id: qs.ah.cover.excess
+    text: What excess do you want?
+    type: select
+    options: ['0', '250', '500', '1000', '2500']
+    used_by: R, S
+  - id: qs.ah.cover.inquiry_sublimit_increase
+    text: Do you want a higher inquiry costs sub-limit?
+    type: yes/no
+    used_by: E04
+  - id: qs.ah.cover.erp_purchased
+    text: Are you buying the 12-month extended reporting period?
+    type: yes/no
+    used_by: E05
+  - id: qs.ah.cover.extended_runoff_required
+    text: Does your registration standard or professional association require run-off cover longer than 72 months?
+    type: yes/no
+    used_by: E06
+  - id: qs.ah.cover.second_reinstatement
+    text: Do you want a second reinstatement of the professional indemnity limit?
+    type: yes/no
+    used_by: E12

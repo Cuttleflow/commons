@@ -33,6 +33,9 @@ overrides:
 - op: replace
   target: mot.def.you-your
   with: mot.pvt.def.you-your
+- op: replace
+  target: mot.def.named-insured
+  with: mot.pvt.def.named-insured
 - op: delete
   target: mot.def.fleet-basis
 - op: delete
@@ -53,6 +56,9 @@ overrides:
   target: mot.excl.vehicle-cover
   with: mot.pvt.excl.vehicle-cover
 - op: replace
+  target: mot.excl.hire-fare-or-reward
+  with: mot.pvt.excl.hire-fare-or-reward
+- op: replace
   target: mot.cond.duty-of-disclosure
   with: mot.pvt.cond.duty-to-take-reasonable-care
 - op: replace
@@ -67,6 +73,12 @@ overrides:
 - op: replace
   target: mot.obl.tell-us-about-changes
   with: mot.pvt.obl.tell-us-about-changes
+- op: replace
+  target: mot.obl.maintain-vehicles
+  with: mot.pvt.obl.maintain-vehicle
+- op: replace
+  target: mot.cond.subrogation-and-interested-parties
+  with: mot.pvt.cond.subrogation-and-interested-parties
 - op: replace
   target: mot.endorsement-library
   with: mot.pvt.endorsement-library

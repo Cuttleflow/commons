@@ -217,7 +217,7 @@
   {
    "id": "lld.section.property-exclusions",
    "heading": "What the Building and Landlord's Contents Sections Do Not Cover",
-   "sha256": "ac1ebcffbc19bdb0e4750882729065e1e7defc1484ab2a5029c61476061286b1"
+   "sha256": "4d46235ecac65c18f2cd1a4679659ca0991af7fa33e5ae3a27ffb525a29cc99b"
   },
   {
    "id": "lld.excl.first-72-hours",
@@ -502,7 +502,7 @@
   {
    "id": "lld.obl.tell-us-about-changes",
    "heading": "Telling Us About Changes",
-   "sha256": "a36106cec4b69541c5ff0ffd59a5ce249f342cff94bbd98e949a5079cf68d963"
+   "sha256": "23ab0cab61683a8daf3702be3f271cfbe42a93a114c0cbad47421d556646e712"
   },
   {
    "id": "lld.obl.subrogation",
@@ -597,12 +597,12 @@
   {
    "id": "lld.end.e03",
    "heading": "E03 Pet Damage",
-   "sha256": "aba608942811a412501ee2b44909e5d6b4d1b97da65fcb248c357b6b139e3afd"
+   "sha256": "2599bf3fe368822e541ee41bf80335a01bba02edb77cbd648060c84bf44ed482"
   },
   {
    "id": "lld.end.e04",
    "heading": "E04 Short-Stay Letting",
-   "sha256": "4fd40105e30f8ee10064f6b83a91441cf0035b851c7601d816dd6102bac0c628"
+   "sha256": "624ce75c80d46226a11c1aed6cc555d04a730b86608d435cb283e5ec931be4a2"
   },
   {
    "id": "lld.end.e05",
@@ -622,12 +622,12 @@
   {
    "id": "lld.end.e08",
    "heading": "E08 Building Works",
-   "sha256": "3ca22215abbd4c53e0f123e10833689dc27676a3496ff9ba399b25dd3bc110c2"
+   "sha256": "7a0072babba56b12fb681e50d548e6153e63c438ffbca7fe354ed261fdf2da6c"
   },
   {
    "id": "lld.end.e09",
    "heading": "E09 Unoccupied Property",
-   "sha256": "c9ac16dd31155d2ce54f1e5c2c24fa4b176391526ef7d515586a414010b4e360"
+   "sha256": "cf89a2b1b3dfa338e652c90e3631bc4701d755259d7171060435b15ed64a24b8"
   },
   {
    "id": "lld.end.e10",
@@ -1074,5 +1074,5 @@
    ]
   }
  ],
- "sha256": "287bcfbcc9e477d6e7c4fd2bf3fcfcbc121aa28c20045f05a2a7bdccf5dce878"
+ "sha256": "74d01730634ce2391822aef2d36ae05d3f85748e58806af7f13b22fc8700cfc0"
 }

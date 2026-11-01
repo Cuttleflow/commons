@@ -1,0 +1,130 @@
+id: hom-base
+title: Home and Contents Insurance
+class: HOME AND CONTENTS INSURANCE
+kicker: Meridian Commons · Home and Contents
+slug: home-and-contents
+file_stem: Meridian_Home_and_Contents
+doc_ref: 2026/HC/0001
+version: 1.1.0-DRAFT
+date: November 2026
+draft: true
+summary: Home building, contents and personal liability cover for owner-occupiers and renters in Australia.
+supersedes: Meridian Home and Contents v1.0.0, July 2026.
+structure:
+- section: preamble
+  clauses:
+  - hom.about
+  - hom.version-history
+  - hom.important-information
+  - hom.schedule
+- section: hom.section.definitions
+  clauses:
+  - hom.def.action-of-the-sea
+  - hom.def.building
+  - hom.def.contents
+  - hom.def.damage
+  - hom.def.endorsement
+  - hom.def.event
+  - hom.def.excess
+  - hom.def.flood
+  - hom.def.household
+  - hom.def.personal-injury
+  - hom.def.policy-period
+  - hom.def.property-damage
+  - hom.def.storm
+  - hom.def.sum-insured
+  - hom.def.unoccupied
+  - hom.def.we-us-our
+  - hom.def.you-your
+- section: hom.section.building
+  clauses:
+  - hom.cover.building
+  - hom.pay.building-settlement
+  - hom.ext.temporary-accommodation
+  - hom.ext.emergency-repairs
+  - hom.ext.keys-and-locks
+  - hom.ext.landscaping
+  - hom.ext.fire-services-charges
+  - hom.ext.motor-burnout
+  - hom.ext.mortgage-discharge
+- section: hom.section.contents
+  clauses:
+  - hom.cover.contents
+  - hom.pay.contents-settlement
+  - hom.pay.contents-limits
+  - hom.ext.contents-away
+  - hom.ext.spoiled-food
+  - hom.ext.guests-property
+  - hom.ext.contents-accommodation
+- section: hom.section.property-exclusions
+  clauses:
+  - hom.excl.first-72-hours
+  - hom.excl.defects-and-gradual-causes
+  - hom.excl.earth-movement
+  - hom.excl.action-of-the-sea
+  - hom.excl.unoccupied
+  - hom.excl.property-other
+- section: hom.section.liability
+  clauses:
+  - hom.cover.liability
+  - hom.excl.liability-household
+  - hom.excl.liability-workers
+  - hom.excl.liability-contracts
+  - hom.excl.liability-vehicles
+  - hom.excl.liability-pollution
+  - hom.excl.liability-asbestos
+  - hom.excl.liability-business
+  - hom.excl.liability-fines
+- section: hom.section.general-payment
+  clauses:
+  - hom.pay.excess
+  - hom.pay.gst
+  - hom.pay.other-insurance
+  - hom.pay.who-we-pay
+- section: hom.section.general-exclusions
+  clauses:
+  - hom.excl.deliberate-acts
+  - hom.excl.illegal-use
+  - hom.excl.war
+  - hom.excl.nuclear
+  - hom.excl.terrorism
+  - hom.excl.cyber
+- section: hom.section.obligations
+  clauses:
+  - hom.obl.tell-us-about-claims
+  - hom.obl.reduce-loss
+  - hom.obl.admissions
+  - hom.obl.tell-us-about-changes
+  - hom.obl.subrogation
+- section: hom.section.conditions
+  clauses:
+  - hom.cond.insurance-contracts-act
+  - hom.cond.joint-insureds
+  - hom.cond.cancellation
+  - hom.cond.renewal
+  - hom.cond.fraud
+  - hom.cond.sanctions
+  - hom.cond.gst
+  - hom.cond.privacy
+  - hom.cond.disputes-and-complaints
+  - hom.cond.governing-law
+  - hom.cond.jurisdiction
+  - hom.cond.headings-and-references
+- section: end
+  clauses:
+  - hom.claims.how-to-make-a-claim
+  - hom.endorsement-library
+  - hom.end.e01
+  - hom.end.e02
+  - hom.end.e03
+  - hom.end.e04
+  - hom.end.e05
+  - hom.end.e06
+  - hom.end.e07
+  - hom.end.e08
+  - hom.end.e09
+  - hom.end.e10
+  - hom.end.e11
+  - hom.end.e12
+  - hom.end.e13
+  - hom.licence-notice

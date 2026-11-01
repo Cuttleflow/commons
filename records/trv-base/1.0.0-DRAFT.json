@@ -422,22 +422,22 @@
   {
    "id": "trv.end.e01",
    "heading": "E01 Pre-existing Medical Conditions",
-   "sha256": "c1fb357d3d1118f48131a652cc9870be5868041acc836f7e7d375764fc456219"
+   "sha256": "612aab8372df66bfbe46c3c81ddbf9dd61073691f06f2146de0a84badd23d03c"
   },
   {
    "id": "trv.end.e02",
    "heading": "E02 Snow Sports",
-   "sha256": "0a8f412979aaede3c30f16c78426c9ba1bab891d0314c7dc4b60022a98235413"
+   "sha256": "915500a2dbf907632733ab3413f7b5e17eb4dcac59d951be3089a6fd90c6d110"
   },
   {
    "id": "trv.end.e03",
    "heading": "E03 Adventure and Extreme Activities",
-   "sha256": "966b0ea4f23d93b9d45975e3f4ce2b58c364b213e5c514315017ee044a59049b"
+   "sha256": "78ca6e0fdf710adb5a7f5f7e68aa8d078a7a94a243c25edd8497aae303b0a013"
   },
   {
    "id": "trv.end.e04",
    "heading": "E04 Annual Multi-Trip",
-   "sha256": "58591c7cf101f2b8db383683dbc568920e20f97dc7758d1e789859722dd67bf4"
+   "sha256": "2068f609696493aec3b501d93ffbdbf1e5fb491f4d3adad5d5c291f1ebeec79c"
   },
   {
    "id": "trv.end.e05",
@@ -447,12 +447,12 @@
   {
    "id": "trv.end.e06",
    "heading": "E06 One-Way Trip or Working Holiday",
-   "sha256": "61f298a6d0fa87b42ca6771d134c6565f8c2a40bafe81a19501d7b0d361357df"
+   "sha256": "5d91bac4365129b1e932575080c34e84c10dceb421dc6c3de93ef801a42aa11f"
   },
   {
    "id": "trv.end.e07",
    "heading": "E07 Business Meetings and Conferences",
-   "sha256": "26247e42f55cab2135a4c518caf168f4eeb51da014aaed0b9815f5d089a08737"
+   "sha256": "c0a34f935f234aa71b48f0b28dee633cf890847749b2078852f8eee84aea09b0"
   },
   {
    "id": "trv.end.e08",
@@ -467,7 +467,7 @@
   {
    "id": "trv.end.e10",
    "heading": "E10 Epidemic and Pandemic Disruption",
-   "sha256": "6daaf2ebed47d2bcf3c2c05cc84fa8277b1d7111482f76cffe8476ca8c17b153"
+   "sha256": "eecbae76eb4551d3bbee932257ad938862000e64e5a3e84b125cef5e8a9a2f2c"
   },
   {
    "id": "trv.end.e11",
@@ -943,5 +943,5 @@
    ]
   }
  ],
- "sha256": "5adb010ac1a9f9cde904bf29b95d436883ec463fd5fccf4c58d274c5ff6535f3"
+ "sha256": "68571595a56efa5a10cd8d820cce90c8d1d97ed4cce7c6de93a0b5f8d20261e1"
 }

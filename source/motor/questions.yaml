@@ -141,7 +141,7 @@ questions:
   - id: qs.mot.cover.basic_excess
     text: What basic excess is required for each vehicle?
     type: select
-    options: [500, 1000, 2000, 5000]
+    options: [500, 750, 1000, 2000, 5000]
     used_by: R, S
   - id: qs.mot.cover.tools_of_trade_si
     text: What value of tools of trade is carried in each vehicle?

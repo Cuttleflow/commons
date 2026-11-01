@@ -7,7 +7,7 @@
   {
    "id": "mot.about",
    "heading": "About This Policy",
-   "sha256": "424ccc87e9ce535ce54e61dc89d241d41b8d574df96a31519bfa3c2c7f274934"
+   "sha256": "d2fb8fee3fafe4c754cf279c1010eae6d58dd5fabba94970fc1701cf331dab80"
   },
   {
    "id": "mot.who-this-is-for",
@@ -17,12 +17,12 @@
   {
    "id": "mot.ctp-notice",
    "heading": "Compulsory Third Party Insurance",
-   "sha256": "de9aa004c24c4bb8f8e93c100e6cb6ef6693f4366ad76812b9573551e2e14d57"
+   "sha256": "7189dbb1b50a1145ec1bef6e39c1202773f44a5aa45d3e7a80cc781c718be7fb"
   },
   {
    "id": "mot.version-history",
    "heading": "Version and Document History",
-   "sha256": "1715c1806ca99208176d47630e6dd7b68900e5ae75fe248a69045b1334293934"
+   "sha256": "6e541ed541f9e91b26db01fc44936a427193be085db0fb65060cb9f7b4c4c31a"
   },
   {
    "id": "mot.schedule",
@@ -162,7 +162,7 @@
   {
    "id": "mot.pay.repairs",
    "heading": "Repairs",
-   "sha256": "24ef96e994e0fd7109611258aebfb4b4b359ca2665f1207489e2adda69ff6429"
+   "sha256": "bb703ded3dbd858179e3cd4c91e3ad69887c3f3f532d032278cbd578bfbb85ad"
   },
   {
    "id": "mot.pay.total-loss",
@@ -222,12 +222,12 @@
   {
    "id": "mot.ext.substitute-vehicles",
    "heading": "Substitute Vehicles",
-   "sha256": "95a066d82f3a5d4c4086a0f9b9c7579a336c6633555002c6b9c6ce7dfdecb1fc"
+   "sha256": "9d6c56fce9fa8ae4580dfa37c32035f1f516162c080ecad410a6e7560db6c213"
   },
   {
    "id": "mot.ext.non-owned-trailers",
    "heading": "Trailers",
-   "sha256": "91ed324ec140aeb5c25cd64c361d5844d29a5d54a2e4be5258ea5ac272f173fa"
+   "sha256": "2da18f7773a028d4096004b00105a11f8ac096ed5afec2856a8c08614f49a8b6"
   },
   {
    "id": "mot.excl.liability",
@@ -282,7 +282,7 @@
   {
    "id": "mot.section.general-exclusions",
    "heading": "General Exclusions",
-   "sha256": "9f3db23056110ea9d39c1de6263f96f085508888d0812a3f86829b7624824c5f"
+   "sha256": "6352930e9f23d3847da5cbc1b1a900dbc59d7381b9641fee548e255c6149c004"
   },
   {
    "id": "mot.excl.unlicensed-driver",
@@ -347,7 +347,7 @@
   {
    "id": "mot.section.claims",
    "heading": "Your Obligations When Something Happens",
-   "sha256": "8c51efff8f50cb4420d1b5ac98ff52e010f089cc4c1764d3eb692b456b452de5"
+   "sha256": "5d05b95fbf8bdec03552f9e5c43391f75eaec60ea4fdc512f0d73f95bc2ae358"
   },
   {
    "id": "mot.obl.notify-us",
@@ -477,7 +477,7 @@
   {
    "id": "mot.end.e03",
    "heading": "E03 Hire, Fare or Reward",
-   "sha256": "e8a508cedf45d9d6ccf64a8a9f8a514063125e7cf7242e62b3de654ab2c7a28e"
+   "sha256": "4c69db595c76be25747faa0736dc948de0e1369aaa7f3646cb9df8d5457edcb4"
   },
   {
    "id": "mot.end.e04",
@@ -542,7 +542,7 @@
   {
    "id": "mot.end.e16",
    "heading": "E16 Tow Trucks and Recovery Vehicles",
-   "sha256": "f8f18c6c01dea583d673545668dfc8a2adc5487ac183703f4bb672557ca1fcb8"
+   "sha256": "41d5746431b2f74c95a26a9258a877a75f6e5c891ca3a5bc91493b7a9c627a29"
   },
   {
    "id": "mot.end.e17",
@@ -1095,5 +1095,5 @@
    ]
   }
  ],
- "sha256": "dba0e7da160fe4b079f49e8c9d7cf04485e23b0bcb7c879f83381e2d38de3030"
+ "sha256": "ec74e25a18aa9a079ca53d0b643ed27f33ed8c61a51def68c5140f14502dd7b5"
 }
