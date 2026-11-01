@@ -1,0 +1,191 @@
+id: ah-base
+title: Allied Health Insurance
+class: ALLIED HEALTH INSURANCE
+kicker: Meridian Commons · Allied Health
+slug: allied-health
+file_stem: Meridian_Allied_Health
+doc_ref: 2026/AH/0001
+version: 1.3.0-DRAFT
+date: November 2026
+draft: true
+summary: Combined professional indemnity, public liability and products liability for individual allied health practitioners, written on a claims-made basis to the National Boards' registration standards.
+supersedes: Meridian Allied Health Policy Wording v1.2.0 and the AH-PHYS, AH-PSYC and AH-DENT profession endorsements v1.1.0 (July 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - ah.about
+  - ah.version-history
+  - ah.schedule
+- section: ah.section.definitions
+  clauses:
+  - ah.def.aged-care-act
+  - ah.def.allied-health-practitioner
+  - ah.def.bodily-injury
+  - ah.def.circumstance
+  - ah.def.claim
+  - ah.def.defence-costs
+  - ah.def.documents
+  - ah.def.employee
+  - ah.def.endorsement
+  - ah.def.excess
+  - ah.def.final-adjudication
+  - ah.def.good-samaritan-act
+  - ah.def.national-law
+  - ah.def.inquiring-body
+  - ah.def.inquiry
+  - ah.def.limit-of-liability
+  - ah.def.locum
+  - ah.def.loss
+  - ah.def.malpractice
+  - ah.def.medical-practitioner
+  - ah.def.ndb-notification
+  - ah.def.open-disclosure
+  - ah.def.policy
+  - ah.def.policy-period
+  - ah.def.practice
+  - ah.def.products
+  - ah.def.professional-association
+  - ah.def.professional-services
+  - ah.def.property-damage
+  - ah.def.retroactive-date
+  - ah.def.schedule
+  - ah.def.senior-counsel
+  - ah.def.statutory-liability
+  - ah.def.therapy-animal
+  - ah.def.whs-law
+  - ah.def.we-us-our
+  - ah.def.you-your
+- section: ah.section.pi
+  clauses:
+  - ah.cover.professional-indemnity
+  - ah.cover.how-extensions-apply
+  - ah.ext.data-breach-costs
+  - ah.ext.data-breach-penalties
+  - ah.ext.audits-and-employee-fraud
+  - ah.ext.good-samaritan
+  - ah.ext.inquiry-costs
+  - ah.ext.mandatory-reporting
+  - ah.ext.loss-of-documents
+  - ah.ext.public-relations
+  - ah.ext.court-attendance
+  - ah.ext.continuous-cover
+  - ah.ext.run-off
+  - ah.ext.extended-reporting-period
+  - ah.ext.therapy-animals
+  - ah.ext.therapy-after-inquiry
+  - ah.ext.trauma-counselling
+  - ah.ext.teaching-and-expert-reports
+  - ah.ext.students
+  - ah.ext.locums
+  - ah.ext.volunteers
+  - ah.ext.estates-and-spouses
+  - ah.ext.telehealth
+  - ah.ext.statutory-liability
+  - ah.ext.advance-claim-protection
+  - ah.ext.serious-invasion-of-privacy
+- section: ah.section.pl
+  clauses:
+  - ah.cover.public-liability
+  - ah.cover.relationship-between-sections
+  - ah.cover.how-section-b-extensions-apply
+  - ah.ext.products-liability
+  - ah.ext.tenants-liability
+  - ah.ext.hired-equipment
+  - ah.ext.advertising-liability
+- section: ah.section.notification
+  clauses:
+  - ah.cover.notifying-circumstances
+  - ah.cover.effect-of-notification
+  - ah.cover.one-notification
+  - ah.cover.notifying-inquiries
+- section: ah.section.exclusions
+  clauses:
+  - ah.excl.medical-practitioners
+  - ah.excl.unregistered-practice
+  - ah.excl.obstetrics
+  - ah.excl.prescription-medicines
+  - ah.excl.clinical-trials
+  - ah.excl.sexual-misconduct
+  - ah.excl.intoxicants
+  - ah.excl.deliberate-acts
+  - ah.excl.employers-liability
+  - ah.excl.employment-practices
+  - ah.excl.directors-and-officers
+  - ah.excl.uninsurable-penalties
+  - ah.excl.prior-circumstances
+  - ah.excl.contractual-liability
+  - ah.excl.trading-debts
+  - ah.excl.goods-outside-services
+  - ah.excl.related-parties
+  - ah.excl.fines-and-penalties
+  - ah.excl.nuclear
+  - ah.excl.asbestos
+  - ah.excl.war-and-terrorism
+  - ah.excl.usa-canada
+  - ah.excl.pollution
+  - ah.excl.property-in-your-care
+  - ah.excl.vehicles-aircraft-watercraft
+  - ah.excl.communicable-disease
+- section: ah.section.payment
+  clauses:
+  - ah.pay.limit-of-liability
+  - ah.pay.automatic-reinstatement
+  - ah.pay.defence-costs
+  - ah.pay.sub-limits
+  - ah.pay.excess
+  - ah.pay.one-claim
+  - ah.pay.other-insurance
+  - ah.pay.high-cost-claims-scheme
+  - ah.pay.gst
+- section: ah.section.obligations
+  clauses:
+  - ah.obl.notify-us
+  - ah.obl.no-admissions
+  - ah.obl.cooperate
+  - ah.obl.mitigate
+  - ah.obl.tell-us-about-changes
+  - ah.obl.other-recoveries
+  - ah.obl.pay-the-premium
+- section: ah.section.conditions
+  clauses:
+  - ah.cond.insurance-contracts-act
+  - ah.cond.duty-of-disclosure
+  - ah.cond.cancellation
+  - ah.cond.governing-law
+  - ah.cond.jurisdiction
+  - ah.cond.disputes-and-complaints
+  - ah.cond.conduct-of-defence
+  - ah.cond.senior-counsel
+  - ah.cond.settlement
+  - ah.cond.allocation
+  - ah.cond.subrogation
+  - ah.cond.severability
+  - ah.cond.gst
+  - ah.cond.aggregation
+  - ah.cond.currency
+  - ah.cond.assignment
+  - ah.cond.repayment
+  - ah.cond.utmost-good-faith
+  - ah.cond.sanctions
+  - ah.cond.notices
+  - ah.cond.privacy
+- section: end
+  clauses:
+  - ah.claims.how-to-make-a-claim
+  - ah.endorsement-library
+  - ah.end.e01
+  - ah.end.e02
+  - ah.end.e03
+  - ah.end.e04
+  - ah.end.e05
+  - ah.end.e06
+  - ah.end.e07
+  - ah.end.e08
+  - ah.end.e09
+  - ah.end.e10
+  - ah.end.e11
+  - ah.end.e12
+  - ah.end.e13
+  - ah.end.e14
+  - ah.end.e15
+  - ah.licence-notice

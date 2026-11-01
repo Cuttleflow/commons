@@ -1,0 +1,176 @@
+id: me-base
+title: Medical Establishments Insurance
+class: MEDICAL ESTABLISHMENTS INSURANCE
+kicker: Meridian Commons · Medical Establishments
+slug: medical-establishments
+file_stem: Meridian_Medical_Establishments
+doc_ref: 2026/ME/0001
+version: 1.1.0-DRAFT
+date: November 2026
+draft: true
+summary: Entity medical malpractice and civil liability for general practices, allied health clinics, day surgeries, private hospitals and aged care providers. Never covers a doctor's own liability.
+supersedes: Meridian Medical Establishments Policy Wording v1.0.0 and the ME-GPMC, ME-SURG, ME-HOSP and ME-AGED endorsements v1.0.0 (July 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - me.about
+  - me.version-history
+  - me.schedule
+- section: me.section.definitions
+  clauses:
+  - me.def.aged-care-act
+  - me.def.allied-health-practitioner
+  - me.def.civil-liability-legislation
+  - me.def.claim
+  - me.def.company
+  - me.def.defence-costs
+  - me.def.documents
+  - me.def.employee
+  - me.def.excess
+  - me.def.facility
+  - me.def.geographical-limits
+  - me.def.final-adjudication
+  - me.def.healthcare-operations
+  - me.def.healthcare-services
+  - me.def.inquiring-body
+  - me.def.inquiry
+  - me.def.insured-person
+  - me.def.limit-of-liability
+  - me.def.locum-tenens
+  - me.def.loss
+  - me.def.medical-practitioner
+  - me.def.medication
+  - me.def.molestation
+  - me.def.obstetrics-services
+  - me.def.open-disclosure
+  - me.def.policy-period
+  - me.def.pollution
+  - me.def.privacy-legislation
+  - me.def.retroactive-date
+  - me.def.schedule
+  - me.def.senior-counsel
+  - me.def.student
+  - me.def.subsidiary
+  - me.def.telehealth
+  - me.def.visiting-medical-officer
+  - me.def.volunteer
+  - me.def.we-us-our
+  - me.def.you-your
+- section: me.section.cover
+  clauses:
+  - me.cover.healthcare-operations
+  - me.cover.vicarious-liability
+  - me.cover.inquiry-costs
+  - me.cover.notification-of-circumstances
+- section: me.section.extensions
+  clauses:
+  - me.ext.consumer-protection
+  - me.ext.privacy
+  - me.ext.serious-invasion-of-privacy
+  - me.ext.good-samaritan
+  - me.ext.audits-and-employee-fraud
+  - me.ext.statutory-liability
+  - me.ext.molestation-defence-costs
+  - me.ext.new-subsidiaries-and-facilities
+  - me.ext.loss-of-documents
+  - me.ext.public-relations
+  - me.ext.court-attendance
+  - me.ext.advance-claim-protection
+  - me.ext.continuous-cover
+  - me.ext.run-off
+  - me.ext.extended-reporting-period
+  - me.ext.aged-care-compensation
+  - me.ext.sirs-proceedings
+  - me.ext.students
+  - me.ext.volunteers
+  - me.ext.locum-tenens
+  - me.ext.estates-and-spouses
+  - me.ext.telehealth
+- section: me.section.exclusions
+  clauses:
+  - me.excl.medical-practitioners
+  - me.excl.employers-liability
+  - me.excl.directors-and-officers
+  - me.excl.obstetrics
+  - me.excl.cosmetic-procedures
+  - me.excl.unregistered-practice
+  - me.excl.prescription-medicines
+  - me.excl.clinical-trials
+  - me.excl.molestation
+  - me.excl.intoxicants
+  - me.excl.prior-circumstances
+  - me.excl.contractual-liability
+  - me.excl.goods-sold
+  - me.excl.trading-debts
+  - me.excl.fines-and-penalties
+  - me.excl.whs-penalties
+  - me.excl.related-parties
+  - me.excl.nuclear
+  - me.excl.asbestos
+  - me.excl.war-and-terrorism
+  - me.excl.pollution
+  - me.excl.cyber-events
+  - me.excl.usa-canada
+- section: me.section.payment
+  clauses:
+  - me.pay.limit-of-liability
+  - me.pay.sub-limits
+  - me.pay.defence-costs
+  - me.pay.excess
+  - me.pay.other-insurance
+  - me.pay.allocation
+  - me.pay.paying-out-the-limit
+- section: me.section.obligations
+  clauses:
+  - me.obl.tell-us-about-claims
+  - me.obl.tell-us-about-circumstances
+  - me.obl.do-not-admit-liability
+  - me.obl.cooperate
+  - me.obl.conduct-of-defence
+  - me.obl.senior-counsel
+  - me.obl.settlement
+  - me.obl.mitigate
+  - me.obl.tell-us-about-changes
+  - me.obl.other-insurance
+  - me.obl.recovery-rights
+- section: me.section.conditions
+  clauses:
+  - me.cond.insurance-contracts-act
+  - me.cond.duty-of-disclosure
+  - me.cond.utmost-good-faith
+  - me.cond.cancellation
+  - me.cond.severability
+  - me.cond.third-party-beneficiaries
+  - me.cond.governing-law
+  - me.cond.jurisdiction
+  - me.cond.disputes-and-complaints
+  - me.cond.code-of-practice
+  - me.cond.gst
+  - me.cond.currency
+  - me.cond.premium-payment
+  - me.cond.aggregation
+  - me.cond.assignment
+  - me.cond.entire-agreement
+  - me.cond.sanctions
+  - me.cond.privacy
+- section: end
+  clauses:
+  - me.claims.how-to-make-a-claim
+  - me.endorsement-library
+  - me.end.e01
+  - me.end.e02
+  - me.end.e03
+  - me.end.e04
+  - me.end.e05
+  - me.end.e06
+  - me.end.e07
+  - me.end.e08
+  - me.end.e09
+  - me.end.e10
+  - me.end.e11
+  - me.end.e12
+  - me.end.e13
+  - me.end.e14
+  - me.end.e15
+  - me.end.e16
+  - me.licence-notice
