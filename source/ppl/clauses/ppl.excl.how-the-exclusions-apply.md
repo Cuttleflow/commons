@@ -3,6 +3,7 @@ id: ppl.excl.how-the-exclusions-apply
 type: exclusion
 heading: How the Exclusions Apply
 since: 2.0.0
+changed: 2.1.0
 status: draft
 ---
 
@@ -31,7 +32,7 @@ The table shows which exclusions apply in full to each cover and which contain a
 | Vibration and Removal of Support | Applies | Applies |
 | Shoring and Underpinning | Applies | Applies |
 | Work Outside Australia and New Zealand | Carve-back | Applies |
-| USA and Canada | Carve-back | Applies |
+| USA and Canada | Applies | Applies |
 | High-Hazard Products | Applies | Applies |
 | Known Injury or Damage | Carve-back | Carve-back |
 | Fines, Penalties and Punitive Damages | Carve-back | Carve-back |

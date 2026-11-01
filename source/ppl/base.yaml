@@ -5,8 +5,8 @@ kicker: Meridian Commons · Public and Products Liability
 slug: public-and-products-liability
 file_stem: Meridian_Public_and_Products_Liability
 doc_ref: 2026/LI/0001
-version: 2.0.0-DRAFT
-date: October 2026
+version: 2.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Broadform public and products liability cover for Australian businesses, written on an occurrence basis.
 supersedes: Meridian Broadform Liability Policy Wording v1.0.0 (July 2026), published outside the Commons
@@ -14,6 +14,7 @@ structure:
 - section: preamble
   clauses:
   - ppl.about
+  - ppl.who-this-policy-is-for
   - ppl.version-history
   - ppl.schedule
 - section: ppl.section.definitions
@@ -24,6 +25,7 @@ structure:
   - ppl.def.claim
   - ppl.def.communicable-disease
   - ppl.def.compensation
+  - ppl.def.control-group
   - ppl.def.defence-costs
   - ppl.def.employee
   - ppl.def.endorsement
@@ -127,6 +129,8 @@ structure:
   - ppl.cond.insurance-contracts-act
   - ppl.cond.your-duty-of-disclosure
   - ppl.cond.individual-treatment
+  - ppl.cond.claims-made-endorsements
+  - ppl.cond.corporations-act-199
   - ppl.cond.subrogation-waiver
   - ppl.cond.premium-adjustment
   - ppl.cond.cancellation

@@ -3,6 +3,7 @@ id: ppl.end.e13
 type: endorsement
 heading: E13 Vibration and Removal of Support
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -22,7 +23,7 @@ trigger:
   - Do not attach
 ---
 
-[[ref:ppl.excl.vibration-and-support]] does not apply, if before the work started you:
+[[ref:ppl.excl.vibration-and-support]] does not apply, and [[ref:ppl.excl.pollution]] does not apply to vibration as a pollutant, if before the work started you:
 
 - had a dilapidation survey made of buildings and structures within the zone of influence of the work, where a prudent contractor would; and
 - followed the design and any monitoring required by a qualified engineer for excavation deeper than the depth shown in the schedule for this endorsement.
