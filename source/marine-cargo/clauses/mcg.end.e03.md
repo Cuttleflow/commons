@@ -3,6 +3,7 @@ id: mcg.end.e03
 type: endorsement
 heading: E03 Own Vehicle Carriage
 since: 1.0.0
+changed: 1.1.0
 status: draft
 trigger:
   questions:
@@ -19,6 +20,8 @@ For goods carried in your own vehicle:
 - we do not cover theft from a vehicle left unattended overnight in the open, unless the schedule for this endorsement says otherwise;
 - goods must be secured against movement during the transit; and
 - the driver must hold a current licence for the vehicle.
+
+These requirements are not warranties. If you do not meet one, we may refuse only the part of the claim that the failure caused or contributed to, as [[ref:mcg.cond.insurance-contracts-act]] sets out.
 
 The excess shown in the schedule for this endorsement applies to each claim for goods carried in your own vehicle.
 

@@ -4,9 +4,10 @@ type: condition
 heading: Cancellation
 legacy_number: '7.4'
 since: 2.0.0
+changed: 2.1.0
 status: draft
 ---
 
-**By you:** Cancel at any time in writing. Proportional refund less amounts paid or reserved.
+**You** may cancel this policy at any time by telling us. We refund the premium for the unexpired period of insurance on a pro-rata basis, less any non-refundable government charges.
 
-**By us:** We may only cancel this policy on grounds permitted by the Insurance Contracts Act 1984 (Cth) s 60. Where we are entitled to cancel, we will give you written notice as required by s 59, and will refund the premium for the unexpired portion proportionally.
+**We** may cancel this policy only as the Insurance Contracts Act 1984 (Cth) allows, by giving you written notice as that Act requires. We refund the premium for the unexpired period on a pro-rata basis.

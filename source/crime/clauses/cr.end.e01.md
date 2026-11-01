@@ -3,6 +3,7 @@ id: cr.end.e01
 type: endorsement
 heading: E01 Increased Social Engineering Sub-limit
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -18,10 +19,10 @@ trigger:
   - Do not attach
 ---
 
-The social engineering sub-limit for the [[ref:cr.cover.social-engineering-fraud]] clause is increased to the amount shown in the schedule for this endorsement. The increased sub-limit is part of, and not in addition to, the limit of liability of that clause and of any overall aggregate.
+The social engineering sub-limit in [[ref:cr.cover.social-engineering-fraud]] is increased to the amount shown in the schedule for this endorsement. The increased sub-limit is part of, and not in addition to, the limit of liability of that clause and of any overall aggregate.
 
 All losses arising from one impersonation, or from a series of related impersonations by the same person or group, are one loss. The social engineering excess shown in the schedule for this endorsement applies to each loss.
 
-This endorsement applies only while the verification procedure shown in the schedule for this endorsement is in use. Where it was not followed and that failure caused or contributed to the loss, we may reduce our payment to the extent the failure caused or contributed to it, as s.54 of the Insurance Contracts Act 1984 (Cth) allows.
+The increased sub-limit applies to a payment only if, before you acted on the instruction, you followed the verification procedure shown in the schedule for this endorsement. Where you did not, cover for that payment is not removed: it applies at the sub-limit that would apply without this endorsement. Verification therefore limits only the increase. It is not a condition of cover.
 
 Schedule variables: social engineering sub-limit; social engineering excess; verification procedure.

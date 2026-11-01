@@ -3,10 +3,11 @@ id: cy.cover.business-interruption
 type: cover
 heading: Business Interruption
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-If a cyber event that occurs during the policy period causes a total or partial interruption to your business (whether the interruption occurs during the policy period or afterwards), we will pay:
+If you discover a cyber event during the policy period and it causes a total or partial interruption to your business (whether the interruption occurs during the policy period or afterwards), we will pay:
 
 (a) your net income loss; and
 (b) your extra expense,

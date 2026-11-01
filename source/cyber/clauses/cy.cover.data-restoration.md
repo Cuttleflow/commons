@@ -3,10 +3,11 @@ id: cy.cover.data-restoration
 type: cover
 heading: Data and System Restoration
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-If a cyber event that occurs during the policy period corrupts, damages, destroys, or encrypts your data or computer system, we will pay the reasonable costs to:
+If you discover a cyber event during the policy period and it corrupts, damages, destroys, or encrypts your data or computer system, we will pay the reasonable costs to:
 
 (a) restore, recreate, or recollect your data from backups or other sources;
 (b) repair or replace the affected components of your computer system; and

@@ -3,6 +3,7 @@ id: cr.end.e06
 type: endorsement
 heading: E06 Cryptocurrency and Digital Asset Theft
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -18,7 +19,7 @@ trigger:
   - Do not attach
 ---
 
-The [[ref:cr.cover.theft-of-money-and-securities]] clause is extended, and the definitions of [[ref:cr.def.money]] and [[ref:cr.def.securities]] are read as including, the cryptocurrency and digital assets named in the schedule for this endorsement, held by you or by a custodian on your behalf.
+[[ref:cr.cover.theft-of-money-and-securities]] is extended, and the definitions of [[ref:cr.def.money|heading]] and [[ref:cr.def.securities|heading]] are read as including, the cryptocurrency and digital assets named in the schedule for this endorsement, held by you or by a custodian on your behalf.
 
 We cover loss of those assets only where you have taken the security steps for private keys and access credentials shown in the schedule for this endorsement. We value the loss at the market value of the asset at the close of business on the day you discover the loss, in Australian dollars.
 

@@ -3,10 +3,11 @@ id: cy.cover.media-liability
 type: cover
 heading: Media Liability
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-If a claim is first made against you during the policy period arising from your digital media content, we will pay any amount you become legally liable to pay as compensation, and your defence costs, for:
+If a claim is first made against you during the policy period arising from your digital media content, published on or after the retroactive date, we will pay any amount you become legally liable to pay as compensation, and your defence costs, for:
 
 (i) defamation (including libel and slander);
 (ii) breach of privacy or intrusion upon seclusion;

@@ -3,6 +3,7 @@ id: xol.about
 type: preamble
 heading: About This Policy
 since: 2.0.0
+changed: 2.1.0
 status: draft
 note: Contains a WP REVIEW tag for the Wording Partner.
 ---
@@ -13,4 +14,4 @@ This policy does not drop down. If the underlying insurance does not pay, for an
 
 This policy, together with your schedule and any endorsements shown in it, forms your contract of insurance with us. Please read it together with the followed policy and the other underlying insurance, and tell us if anything in the schedule is incorrect. Where the schedule and this wording differ, the schedule applies. Words with special meanings are listed in [[ref:xol.section.definitions]].
 
-This wording is written for businesses. The insurer or distributor that issues it is responsible for deciding whether any purchaser is a retail client under the Corporations Act 2001 (Cth) and, if so, for issuing a Product Disclosure Statement and Target Market Determination. [WP REVIEW: confirm the retail-client posture statement for excess layers written above retail-eligible primary covers.]
+This wording is written for businesses and professionals. Some buyers, such as small businesses, may be retail clients under the Corporations Act 2001 (Cth). Where a buyer is a retail client, the issuer must give a Product Disclosure Statement and make a Target Market Determination available. This wording is not itself a Product Disclosure Statement. [WP REVIEW: confirm the retail-client posture statement for excess layers written above retail-eligible primary covers.]

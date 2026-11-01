@@ -5,7 +5,7 @@ kicker: Meridian Commons · Cyber
 slug: cyber
 file_stem: Meridian_Cyber
 doc_ref: 2026/CY/0002
-version: 1.4.0-DRAFT
+version: 1.5.0-DRAFT
 date: November 2026
 draft: true
 summary: First- and third-party cover for cyber events and data breaches, for Australian businesses.
@@ -15,12 +15,14 @@ structure:
   clauses:
   - cy.about
   - cy.version-history
+  - cy.distribution-note
   - cy.schedule
 - section: cy.section.definitions
   clauses:
   - cy.def.claim
   - cy.def.company
   - cy.def.computer-system
+  - cy.def.control-group
   - cy.def.cyber-event
   - cy.def.cyber-extortion-threat
   - cy.def.data
@@ -43,6 +45,7 @@ structure:
   - cy.def.policy-period
   - cy.def.privacy-breach
   - cy.def.ransomware
+  - cy.def.related-events
   - cy.def.retroactive-date
   - cy.def.schedule
   - cy.def.service-provider
@@ -91,7 +94,6 @@ structure:
   - cy.excl.unsupported-software
   - cy.excl.patent-trade-secrets
   - cy.excl.nuclear
-  - cy.excl.sanctions
   - cy.excl.unfair-collection
   - cy.excl.trading-losses
   - cy.excl.improvement-costs
@@ -117,6 +119,7 @@ structure:
 - section: cy.section.conditions
   clauses:
   - cy.cond.insurance-contracts-act
+  - cy.cond.sanctions
   - cy.cond.duty-of-disclosure
   - cy.cond.cancellation
   - cy.cond.governing-law

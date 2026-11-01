@@ -3,6 +3,7 @@ id: mcg.licence-notice
 type: notice
 heading: Licence and Trademark Notice
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -12,4 +13,4 @@ An adopting insurer's own schedule, proposal, endorsements and other materials p
 
 This wording is provided for general use and adaptation. Adopting insurers and their advisers are responsible for obtaining their own legal, regulatory, and reinsurance advice before use, including on the use of the Institute Clauses and on whether a Product Disclosure Statement and Target Market Determination are required. Use of this wording requires the approval of the relevant capacity provider. Any Wording Partner review and sign-off letter issued in respect of this wording runs to Cuttleflow Pty Ltd t/a Cuttleflow Systems only and does not constitute legal advice to any adopting insurer or insured.
 
-Designed for the Australian market. Assumes application of the Marine Insurance Act 1909 (Cth) to import and export transits, and of the Insurance Contracts Act 1984 (Cth) to inland transits. Users are responsible for their own legal review, regulatory compliance, and reinsurance alignment.
+Designed for the Australian market. Assumes application of the Marine Insurance Act 1909 (Cth) to Sea Transits, including coastal carriage, and of the Insurance Contracts Act 1984 (Cth) to Non-Sea Transits, that is carriage by air, post, courier, road and rail. Users are responsible for their own legal review, regulatory compliance, and reinsurance alignment.

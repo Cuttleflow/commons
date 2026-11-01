@@ -5,7 +5,7 @@ kicker: Meridian Commons · Excess of Loss
 slug: excess-of-loss
 file_stem: Meridian_Excess_of_Loss
 doc_ref: 2026/XOL/0001
-version: 2.0.0-DRAFT
+version: 2.1.0-DRAFT
 date: November 2026
 draft: true
 summary: Follow-form excess of loss cover for Australian businesses, above a named primary policy, with no automatic drop-down.
@@ -20,6 +20,7 @@ structure:
   clauses:
   - xol.def.attachment-point
   - xol.def.claim
+  - xol.def.control-group
   - xol.def.defence-costs
   - xol.def.endorsement
   - xol.def.followed-policy
@@ -41,6 +42,7 @@ structure:
   - xol.cover.difference-in-conditions
   - xol.cover.changes-to-the-followed-policy
   - xol.cover.defence-costs
+  - xol.cover.extended-reporting-period
 - section: xol.section.exclusions
   clauses:
   - xol.excl.below-the-attachment-point
@@ -64,6 +66,7 @@ structure:
 - section: xol.section.conditions
   clauses:
   - xol.cond.insurance-contracts-act
+  - xol.cond.corporations-act-199
   - xol.cond.your-duty-of-disclosure
   - xol.cond.cancellation
   - xol.cond.sanctions

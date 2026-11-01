@@ -5,7 +5,7 @@ kicker: Meridian Commons · Crime
 slug: crime
 file_stem: Meridian_Comprehensive_Crime
 doc_ref: 2026/CRI/0001
-version: 2.0.0-DRAFT
+version: 2.1.0-DRAFT
 date: November 2026
 draft: true
 summary: Cover for loss from employee and third-party crime (fraud, theft and social engineering) on a discovery basis.
@@ -20,6 +20,7 @@ structure:
 - section: cr.section.definitions
   clauses:
   - cr.def.computer-system
+  - cr.def.control-group
   - cr.def.counterfeit
   - cr.def.discovery
   - cr.def.employee

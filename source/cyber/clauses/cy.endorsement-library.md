@@ -3,10 +3,11 @@ id: cy.endorsement-library
 type: library
 heading: Endorsement Library
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-An endorsement applies only if its code is shown in the schedule. Each endorsement changes this policy only as it states, and is read together with the variables (sub-limits, excesses, co-insurance, periods, named parties) shown for it in the schedule. Where an endorsement and the rest of this policy conflict, the endorsement applies to the extent of the conflict. Endorsements do not increase the limit of liability unless they say so; a sub-limit in an endorsement is part of, not in addition to, the limit of liability. If a variable an endorsement needs is not shown in the schedule, the default stated in the endorsement applies; if it has no default, the endorsement does not apply until we show the variable in the schedule. These endorsements are for use with version 1.4.x of this wording.
+An endorsement applies only if its code is shown in the schedule. Each endorsement changes this policy only as it states, and is read together with the variables (sub-limits, excesses, co-insurance, periods, named parties) shown for it in the schedule. Where an endorsement and the rest of this policy conflict, the endorsement applies to the extent of the conflict. Endorsements do not increase the limit of liability unless they say so; a sub-limit in an endorsement is part of, not in addition to, the limit of liability. If a variable an endorsement needs is not shown in the schedule, the default stated in the endorsement applies; if it has no default, the endorsement does not apply until we show the variable in the schedule. These endorsements are for use with version 1.5.x of this wording.
 
 | Code | Endorsement | Effect |
 |---|---|---|
