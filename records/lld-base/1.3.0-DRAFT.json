@@ -1,0 +1,1078 @@
+{
+ "wording": "lld-base",
+ "version": "1.3.0-DRAFT",
+ "doc_ref": "2026/PR/0003",
+ "base": null,
+ "clauses": [
+  {
+   "id": "lld.about",
+   "heading": "About This Policy",
+   "sha256": "8b5aad0ddfb2a02d540303767efc2efd5ab72dd9f22e47be89c5092563dc612a"
+  },
+  {
+   "id": "lld.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "lld.important-information",
+   "heading": "Important Information",
+   "sha256": "72e6dadd6a19e8d16e03b671d8bec9890450c32de6bc255f085e2aa63429417f"
+  },
+  {
+   "id": "lld.schedule",
+   "heading": "Schedule",
+   "sha256": "7a2677eb4f99f8a8af0caaae384dca2143e6a041d4cc0235982f31a0dc2662d6"
+  },
+  {
+   "id": "lld.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "lld.def.action-of-the-sea",
+   "heading": "Action of the Sea",
+   "sha256": "b88dc7d8353a9d30a6a83b8b44187e6af74ca1fe690b255f83798cc6ebab5469"
+  },
+  {
+   "id": "lld.def.bond",
+   "heading": "Bond",
+   "sha256": "23104cd98a04c444b7087adb9e5c0f020de8408a296dc12df7b33bff63e4138e"
+  },
+  {
+   "id": "lld.def.building",
+   "heading": "Building",
+   "sha256": "18afe7bcfe87f2e5effcbf4376f978c8157df93258cdc53b1180b8038908a5aa"
+  },
+  {
+   "id": "lld.def.contents",
+   "heading": "Contents",
+   "sha256": "22b5a002923ffd31d254e61b496cb019bfb63fb0f61ab705445cc585c2d16edb"
+  },
+  {
+   "id": "lld.def.damage",
+   "heading": "Damage",
+   "sha256": "d432f3d0ff54e5ed22ecc8f9b4c0277164e66b979329c6336f64a543a8d94e49"
+  },
+  {
+   "id": "lld.def.drug-contamination",
+   "heading": "Drug Contamination",
+   "sha256": "67322948ee87814d9f003956bcd90b2399b29ef3ac7eb9a8b4c6213967fc58f9"
+  },
+  {
+   "id": "lld.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "lld.def.event",
+   "heading": "Event",
+   "sha256": "ea422572812bbf7207170aa45aaa20eb198b2147f69fea2fb2e0207dcb555bdf"
+  },
+  {
+   "id": "lld.def.excess",
+   "heading": "Excess",
+   "sha256": "02b6edbced1c6e3d2db53f8192f1401fb7f420ca111f3e717c0a83ecd90c18c7"
+  },
+  {
+   "id": "lld.def.flood",
+   "heading": "Flood",
+   "sha256": "ad90765e056be5bef8913eab403de8cb368f8b99cfe90ba2bc34dd2c0f3858c3"
+  },
+  {
+   "id": "lld.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "8891499b97f0ef59bd7b2b6aa966c24dcf1cfb571f4158ef4778841b7db0773d"
+  },
+  {
+   "id": "lld.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "4b030f38437c9dc3975d7fd59275666dec7a6789f1cfab4f8fd2718a141478b8"
+  },
+  {
+   "id": "lld.def.property",
+   "heading": "Property",
+   "sha256": "aed860cd5369404ebed207adecfc431fb28330bfe017775ad6d2edf59b86807c"
+  },
+  {
+   "id": "lld.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "ab2de411a69b0ea6054424984be7961bc6fd9d18b7403e3f1c0c6da4721476a9"
+  },
+  {
+   "id": "lld.def.property-manager",
+   "heading": "Property Manager",
+   "sha256": "ff31de429531dbd1f89ef768f87105e0bdaaebf6a770a842fc2abce73baca56d"
+  },
+  {
+   "id": "lld.def.rent",
+   "heading": "Rent",
+   "sha256": "e4da4f58b4fba22b5dddbef72707a8ae7cfbc1bc8ebb3d56d9aa3570c9ca64d7"
+  },
+  {
+   "id": "lld.def.residential-tenancy-agreement",
+   "heading": "Residential Tenancy Agreement",
+   "sha256": "06948512074faddd80e59fcb88fbe0197c4bb327a8951ee752360e07d93f62a1"
+  },
+  {
+   "id": "lld.def.short-stay-letting",
+   "heading": "Short-Stay Letting",
+   "sha256": "9d043411ff3ba1361b20d4ca42a6b7aba01d850e1807c708506f4b665fdfb590"
+  },
+  {
+   "id": "lld.def.storm",
+   "heading": "Storm",
+   "sha256": "e88adacfb114307cded4155ec9cd6cc7630e40c547c8a89f4d53315a5e5761c6"
+  },
+  {
+   "id": "lld.def.sum-insured",
+   "heading": "Sum Insured",
+   "sha256": "a87b7f6029fc00c94d792f18b0d48986e93b41762be8e56b8cf8edab44501c88"
+  },
+  {
+   "id": "lld.def.tenancy-legislation",
+   "heading": "Tenancy Legislation",
+   "sha256": "d26450f0c6c202d079704463556334dbe52303638743e05eac2455a3f8660cd9"
+  },
+  {
+   "id": "lld.def.tenant",
+   "heading": "Tenant",
+   "sha256": "4ccd03e0e704db17fe3a904d09a96a0d9f97993d120eeef5d2e05eea924def96"
+  },
+  {
+   "id": "lld.def.tribunal",
+   "heading": "Tribunal",
+   "sha256": "f4e31ec3a2a5a2e53e77715d876c115b13c8513a29ac1deb06d943a6f63a0b58"
+  },
+  {
+   "id": "lld.def.unoccupied",
+   "heading": "Unoccupied",
+   "sha256": "8f8bccf9dff2eb1081406d6c8ac778a9a8b096d7e01e54054cca9adb536d2fe8"
+  },
+  {
+   "id": "lld.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "lld.def.you-your",
+   "heading": "You, Your",
+   "sha256": "63715f00c51e6f403256b8bfe6270ce44c7c21839df60343972b3e1bacc930d6"
+  },
+  {
+   "id": "lld.section.building",
+   "heading": "Building",
+   "sha256": "60ca9e2f32bbeae8786a6ea2969d4bdbf61b7c15243f191f82aac727617e0bce"
+  },
+  {
+   "id": "lld.cover.building",
+   "heading": "Damage to the Building",
+   "sha256": "e2b28afef79b0907d841f35d43c5b04baecb9858e0dbbaca1f1d3bbee91933b3"
+  },
+  {
+   "id": "lld.pay.building-settlement",
+   "heading": "How We Settle Building Claims",
+   "sha256": "1f61416681f606c4229bf749efdef23fc72558d2c9da17c898cbb568b1dc4d2a"
+  },
+  {
+   "id": "lld.ext.emergency-repairs",
+   "heading": "Emergency Repairs and Temporary Protection",
+   "sha256": "b46e99b32fb2518ae9454a47e006d2b79d2253a9e28084d4bfe7498262d91452"
+  },
+  {
+   "id": "lld.ext.keys-and-locks",
+   "heading": "Keys and Locks",
+   "sha256": "1ba011032a2dc670fccfad96b48473ad981e38dd00fbcacd432983f8ab8de859"
+  },
+  {
+   "id": "lld.ext.landscaping",
+   "heading": "Trees, Plants and Landscaping",
+   "sha256": "1f255d2fe9c8b1511b62420b823dea0b9af0f797f442103c1d26535c27d07896"
+  },
+  {
+   "id": "lld.ext.fire-services-charges",
+   "heading": "Fire Services Charges",
+   "sha256": "7a663901603af4534a0daec4f148af6633f28900995b8410d5a99d4b01839ba7"
+  },
+  {
+   "id": "lld.ext.mortgage-repayments",
+   "heading": "Loan Repayments While the Property Is Untenantable",
+   "sha256": "948198213e2835ce1ee758292e4c22be3dadf90c2866e2c4ce523e6c7b3b56d1"
+  },
+  {
+   "id": "lld.section.contents",
+   "heading": "Landlord's Contents",
+   "sha256": "503843b263394a2d7f9f2aa3af2894612413925ba8dbbc5d94ab9a4bd75900a3"
+  },
+  {
+   "id": "lld.cover.contents",
+   "heading": "Damage to the Landlord's Contents",
+   "sha256": "9326df75fd27622183112031ee271782e4df1c0cefd43f3b1dfbca0e3827883a"
+  },
+  {
+   "id": "lld.pay.contents-settlement",
+   "heading": "How We Settle Contents Claims",
+   "sha256": "7f2a637c112ab62937647d832140edcf8fa0f8311002c17887214a52f9d71d81"
+  },
+  {
+   "id": "lld.section.property-exclusions",
+   "heading": "What the Building and Landlord's Contents Sections Do Not Cover",
+   "sha256": "4d46235ecac65c18f2cd1a4679659ca0991af7fa33e5ae3a27ffb525a29cc99b"
+  },
+  {
+   "id": "lld.excl.first-72-hours",
+   "heading": "Storm and Flood in the First 72 Hours",
+   "sha256": "65c8ba25cec025ba6e2f93e074e62383a8c6b998b8bf5e8eedb15eaf4e6b12fe"
+  },
+  {
+   "id": "lld.excl.defects-and-gradual-causes",
+   "heading": "Defects and Gradual Causes",
+   "sha256": "f732b4cfbe0ff58190623cf39e4fb5a26a425f2905a0ce908a84db1ce4cc5fa5"
+  },
+  {
+   "id": "lld.excl.earth-movement",
+   "heading": "Earth Movement",
+   "sha256": "0e7c0fd823ed6fde7254c0fed2f011eac436817abe12b78feb86b49a36bb1131"
+  },
+  {
+   "id": "lld.excl.action-of-the-sea",
+   "heading": "Action of the Sea",
+   "sha256": "9144b37c9178e249409c2b0dcaf9550ac18dba55c4c092334398d8c7058fb1ce"
+  },
+  {
+   "id": "lld.excl.unoccupied",
+   "heading": "Unoccupied Property",
+   "sha256": "afa83d70b23bbbf6c7d9885d07c67f54bb8011ead91b23528a900d7f94bdaebe"
+  },
+  {
+   "id": "lld.excl.property-other",
+   "heading": "Other Property Exclusions",
+   "sha256": "a7b298bae96e71b0beb3ab8daf8f8adb7f129e77a0e0baba4c5409b227fd42ce"
+  },
+  {
+   "id": "lld.section.rent",
+   "heading": "Loss of Rent",
+   "sha256": "504d7813c6935e569e5d91a297ad7a5da6165dd379e4ca6a57bc17cba478fd38"
+  },
+  {
+   "id": "lld.cover.rent-after-damage",
+   "heading": "Loss of Rent After Damage",
+   "sha256": "9d62ab5ff00bb31599e09b988bf09b01070b48dee0c60275b346ef580a1a039c"
+  },
+  {
+   "id": "lld.cover.prevention-of-access",
+   "heading": "Prevention of Access",
+   "sha256": "265ed96868406877484f2c9f83457a2e27c5987a867f494bc89a31a83bb574ac"
+  },
+  {
+   "id": "lld.cover.tenant-default",
+   "heading": "Tenant Default",
+   "sha256": "5e277825ee8da503badb9774ae8a171c2cf3390adf9e5a823fe4688e9891e0f2"
+  },
+  {
+   "id": "lld.cover.death-of-tenant",
+   "heading": "Death of a Sole Tenant",
+   "sha256": "203f6357f65549bb2674c0a0db48ed4ec1972e5b5eb46ed43d4af07a10e28aa6"
+  },
+  {
+   "id": "lld.cond.tenant-selection",
+   "heading": "How the Tenant Was Chosen",
+   "sha256": "608e7eb986f0c550d6d8e51e8d261e82ea0ba0afad01b8083383ae69faac132f"
+  },
+  {
+   "id": "lld.pay.rent-settlement",
+   "heading": "How We Settle Rent Claims",
+   "sha256": "241504f2037afd36c7189ab707303a57b2b4c68bb01a5aab970bf7bcd1643e6f"
+  },
+  {
+   "id": "lld.excl.rent",
+   "heading": "What the Loss of Rent Section Does Not Cover",
+   "sha256": "1fa96e1dc63181b94d3fd253b1ec536e389c99606da98ca7f18295cf77bf6185"
+  },
+  {
+   "id": "lld.section.tenant-damage",
+   "heading": "Tenant Damage",
+   "sha256": "b6f3d8d492f270feb1be6c22c4e57b4a6426d52a2005d9fdf894b62353ea8afa"
+  },
+  {
+   "id": "lld.cover.malicious-tenant-damage",
+   "heading": "Malicious and Intentional Damage by a Tenant",
+   "sha256": "5b74a78d622e016ec62d50c9f72a65b4d36c233180b29a187fbe47d75932d163"
+  },
+  {
+   "id": "lld.cover.accidental-tenant-damage",
+   "heading": "Accidental Damage by a Tenant",
+   "sha256": "1315c12a98ef080192ec074e2990cefddaf4ea23e13f3b9c3319a8cae3249a8f"
+  },
+  {
+   "id": "lld.cover.drug-contamination",
+   "heading": "Drug Contamination",
+   "sha256": "b2383d6ba75247c95ca0ca335f3fd0eddd9ee763bc396437bba465bd3638f86f"
+  },
+  {
+   "id": "lld.pay.tenant-damage-settlement",
+   "heading": "How We Settle Tenant Damage Claims",
+   "sha256": "8dac49bc2d87b8fbcf726c52f0ebc0ced31d4a9e8de215e48f3b3d71379675af"
+  },
+  {
+   "id": "lld.excl.tenant-damage",
+   "heading": "What the Tenant Damage Section Does Not Cover",
+   "sha256": "d2832a9cb3d200a6fd23a06e2766e23ebffd9ea35175d8e24d0c70c2118b5701"
+  },
+  {
+   "id": "lld.section.liability",
+   "heading": "Liability",
+   "sha256": "ef13289dbc038f3010d3f669703dfba43b54159fc1aa0b3a69fc4e2f0aabc77a"
+  },
+  {
+   "id": "lld.cover.liability",
+   "heading": "Liability as Owner of the Property",
+   "sha256": "f7e83b49cccddff061e4d649884b3477cc8ca7bfea2131d264fdf8662f010337"
+  },
+  {
+   "id": "lld.excl.liability-workers",
+   "heading": "Workers",
+   "sha256": "f3cfc9ab25e80a65e29d354c037f54352a880787eaf9dfddcdcc6f24414dc1b9"
+  },
+  {
+   "id": "lld.excl.liability-contracts",
+   "heading": "Contractual Liability",
+   "sha256": "dea115a7d07bc78fd6b7d4d287b3f18d95328b7f3ec9c5aae0f537327b154856"
+  },
+  {
+   "id": "lld.excl.liability-vehicles",
+   "heading": "Vehicles, Aircraft and Watercraft",
+   "sha256": "13fa49f70a6772923f1cf7ecb8b27bb072ab0c49b5f52f0038400d2b411cc254"
+  },
+  {
+   "id": "lld.excl.liability-own-property",
+   "heading": "Your Own Property",
+   "sha256": "80f54fd407b7e214daf4cc1cecbcccf07050073aa3f0a170cd1485e19e766df7"
+  },
+  {
+   "id": "lld.excl.liability-pollution",
+   "heading": "Pollution",
+   "sha256": "a858f1e2487335e0b87bafe9ee93e532b42e1aea10a771234b4a482466cf3d5a"
+  },
+  {
+   "id": "lld.excl.liability-asbestos",
+   "heading": "Asbestos",
+   "sha256": "c9ca5c78bacc32cd16c09abab45dda92dd80f40d23b05583cc69d5207c1b6b76"
+  },
+  {
+   "id": "lld.excl.liability-business",
+   "heading": "Business Activities",
+   "sha256": "bdc71148f721a76ebc6a5ec54ef5c31b55d2c43f6dcb6e2d240512d23e2b6579"
+  },
+  {
+   "id": "lld.excl.liability-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "835660ece3e34d0c6ae8e5a5a84c083ca6225b33508a0d834b7992d75a1e8046"
+  },
+  {
+   "id": "lld.section.additional-benefits",
+   "heading": "Additional Benefits",
+   "sha256": "76ca29a09fc1c862f939808762eb879d1e19a3da13379506ef6085312dc191d6"
+  },
+  {
+   "id": "lld.ext.legal-costs-tenant-disputes",
+   "heading": "Legal Costs for Tenant Disputes",
+   "sha256": "69d665c4ec75c203106a35f3a27d203ca76471ec2a83f58d5322b03a76065e14"
+  },
+  {
+   "id": "lld.ext.tax-audit",
+   "heading": "Tax Audit Costs",
+   "sha256": "f696c39054593cac245fecff68afed97e700f14e991485ac517e65f120474ae5"
+  },
+  {
+   "id": "lld.ext.body-corporate-excess",
+   "heading": "Body Corporate Excess",
+   "sha256": "4b30bad6519ada7a5a7f9ad8829cf6e2538bae2e229dafe55540468d5d23d8b8"
+  },
+  {
+   "id": "lld.ext.reletting-costs",
+   "heading": "Reletting Costs",
+   "sha256": "ff278e19cda9cf323f2483cc35ee3cba5a18c8ea92856bfd5d0cc828bd199208"
+  },
+  {
+   "id": "lld.ext.abandoned-goods",
+   "heading": "Removing Abandoned Goods",
+   "sha256": "9489878638b57c8a7a61de8c51b6b386400f4a06c0137905817dd121e7f739a2"
+  },
+  {
+   "id": "lld.ext.tenant-accommodation",
+   "heading": "Tenant's Emergency Accommodation",
+   "sha256": "323609b8ab52d98de6d4cbda17895d804f403e0e90df5075ed55288acf4e3956"
+  },
+  {
+   "id": "lld.section.general-payment",
+   "heading": "How Claims Are Paid",
+   "sha256": "9367c0e6caacb5f519141d2ad804ddd8c0c0b61b8777db77c2488fb166cddc80"
+  },
+  {
+   "id": "lld.pay.excess",
+   "heading": "Excess",
+   "sha256": "2b2a429706de3f118e85e14a1accf07ee80ed0ccc79b9acbea25e8ff31ded8f9"
+  },
+  {
+   "id": "lld.pay.gst",
+   "heading": "GST and Claims",
+   "sha256": "6c8c3834c1e8a36b32e78ead5d7964f5666ad83c840dc2f38b8f0e5056ed2c06"
+  },
+  {
+   "id": "lld.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "abe7f054c7d64082533a9c9a93218054ed05183b568dd21d62ef4dff6144564d"
+  },
+  {
+   "id": "lld.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "851e3bc4de56ca974672e3fe170221dc0b640b558a0b48b06ab140d6dc2e4799"
+  },
+  {
+   "id": "lld.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "3b2494e49e0a61e20143f898a2a2ac00d8939981941fcb50c6f35529bfa2ebd4"
+  },
+  {
+   "id": "lld.excl.short-stay-letting",
+   "heading": "Short-Stay Letting",
+   "sha256": "fdd5c3381a7ff927e39e43f0fd6c62265314153ad3562909b73eb35f531df41c"
+  },
+  {
+   "id": "lld.excl.deliberate-acts",
+   "heading": "Your Deliberate Acts",
+   "sha256": "f85886265106b693a2e3a51822c03a9246b2f0a491b7824b8eacb119fbde9702"
+  },
+  {
+   "id": "lld.excl.illegal-use",
+   "heading": "Illegal Use You Knew Of",
+   "sha256": "84b9988ac8285bca4f9b540788e384e4982328c6b46a476f7d1587f85e407d09"
+  },
+  {
+   "id": "lld.excl.war",
+   "heading": "War",
+   "sha256": "a6d18b9894cb3541b2b13a43b15b8889c3cf014aff3425645ea35ed7547e5604"
+  },
+  {
+   "id": "lld.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "515a0fcec4a0a619b5d701b1f7eee86fa4488feb962cc0b2170467de8a674df4"
+  },
+  {
+   "id": "lld.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "17c38246d7cb569a0a79281afe3b68b458577a79cf5577bc6191ebce01af0702"
+  },
+  {
+   "id": "lld.excl.cyber",
+   "heading": "Electronic Data",
+   "sha256": "ba1ea94bbe0dc1863c6f9797baffd6d30561dac6949971cc5a2fa87049508d13"
+  },
+  {
+   "id": "lld.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "lld.obl.tell-us-about-claims",
+   "heading": "Telling Us About a Claim",
+   "sha256": "c8ba78fc577d2e20d93a396dc5d655cb666f86e7f4193cdb8542efd3c9e7501b"
+  },
+  {
+   "id": "lld.obl.tenant-default-steps",
+   "heading": "Steps When a Tenant Does Not Pay",
+   "sha256": "891d673490c98da5409292cc877f5754d8ca9896813ab2b9360efea60fcfb245"
+  },
+  {
+   "id": "lld.obl.inspections",
+   "heading": "Inspecting the Property",
+   "sha256": "2204577397a375d19257a5a9599396692e65062c44cf3d9c0be8fb1ce3a6f566"
+  },
+  {
+   "id": "lld.obl.reduce-loss",
+   "heading": "Reducing Loss",
+   "sha256": "e7dc391341235b730961a6af937c6c05ea3a834ee64c3c1c941e26a0495bb0d6"
+  },
+  {
+   "id": "lld.obl.admissions",
+   "heading": "Admissions",
+   "sha256": "de27d9395e6fcf06b7009a844d8dbff65cb83fe5417a781fd5dd0bfda4f701a0"
+  },
+  {
+   "id": "lld.obl.tell-us-about-changes",
+   "heading": "Telling Us About Changes",
+   "sha256": "56af6e1793ecca1f5b7cf73d9172b05f8cffa3345b9605e625ef39406b9382a9"
+  },
+  {
+   "id": "lld.obl.subrogation",
+   "heading": "Our Right of Recovery",
+   "sha256": "e376adb6066e2c54b41a1a61dba4e587030ea4255dab17ba0542b4b8bf175911"
+  },
+  {
+   "id": "lld.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "lld.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "lld.cond.joint-owners",
+   "heading": "Joint Owners",
+   "sha256": "e39fe3a039f3650ef5087995035ec7e148de9c7eb9e6e76ef3a1503ee4a31695"
+  },
+  {
+   "id": "lld.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "0a537e966c5e0bb621798ba1e8b81d0fce5e03dbe7ec99b6ed4e4bc061ec47b7"
+  },
+  {
+   "id": "lld.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "c86ca1a7e228dcda5eea5b6490637d8131c390871051330bc1e8caccca7570ca"
+  },
+  {
+   "id": "lld.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "5ba52d19ab90443ea6b2198a22945a8def05fcb16abf4bdcae943f6728c7bdb5"
+  },
+  {
+   "id": "lld.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "lld.cond.gst",
+   "heading": "GST",
+   "sha256": "63bdcc61627672d8dac44e7f52e17015b5be64ad6348ea1b11ce090bc5a9d35c"
+  },
+  {
+   "id": "lld.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "e363f9712ccc85945ab7827ae3bfd9e0d19207ced5877a42fc3f8fce270fa054"
+  },
+  {
+   "id": "lld.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "2f7238ce116321804d396ddc0bfafeafe676e4b8e60bdda48cde9a0d5777d640"
+  },
+  {
+   "id": "lld.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "8a4f65113c906280913947878de19908d629d6b17c62f2445f2e342c2e8ea1ee"
+  },
+  {
+   "id": "lld.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "lld.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "lld.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "7ce3c2118db3d7c4ff3e648c16b3705df629ad575545f72546844854e1b5b2a1"
+  },
+  {
+   "id": "lld.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "31145d5275327c915225ccc00d3e79e1844ad5af5d6411eeafc8ca2a5df39da0"
+  },
+  {
+   "id": "lld.end.e01",
+   "heading": "E01 Accidental Damage",
+   "sha256": "953939478c69fdd160d1f4d03266defb06c177ce96cc60ddc1d6271ceccbd954"
+  },
+  {
+   "id": "lld.end.e02",
+   "heading": "E02 Higher Weekly Rent",
+   "sha256": "7fffc01579d46f198719541e3ced7cebc32dd189bd14e675b3164f4512b8efe0"
+  },
+  {
+   "id": "lld.end.e03",
+   "heading": "E03 Pet Damage",
+   "sha256": "2599bf3fe368822e541ee41bf80335a01bba02edb77cbd648060c84bf44ed482"
+  },
+  {
+   "id": "lld.end.e04",
+   "heading": "E04 Short-Stay Letting",
+   "sha256": "624ce75c80d46226a11c1aed6cc555d04a730b86608d435cb283e5ec931be4a2"
+  },
+  {
+   "id": "lld.end.e05",
+   "heading": "E05 Rooming House or Student Accommodation",
+   "sha256": "4e98749a59cb79b1c3a30c8accd7db7bd916095c5ba350e521848c9fe62b2420"
+  },
+  {
+   "id": "lld.end.e06",
+   "heading": "E06 Specialist Disability or Supported Accommodation",
+   "sha256": "3d1c26bdd58fde041f05e08ea74175b4ad7c652c30e8ba35b726eaa273368155"
+  },
+  {
+   "id": "lld.end.e07",
+   "heading": "E07 Agreed Value",
+   "sha256": "34ad3eb376f8719dabbefdde5d1913879bfebb0377978b1104c7aaea0a8155d2"
+  },
+  {
+   "id": "lld.end.e08",
+   "heading": "E08 Building Works",
+   "sha256": "7a0072babba56b12fb681e50d548e6153e63c438ffbca7fe354ed261fdf2da6c"
+  },
+  {
+   "id": "lld.end.e09",
+   "heading": "E09 Unoccupied Property",
+   "sha256": "cf89a2b1b3dfa338e652c90e3631bc4701d755259d7171060435b15ed64a24b8"
+  },
+  {
+   "id": "lld.end.e10",
+   "heading": "E10 Heritage-Listed Building",
+   "sha256": "6e3c0b607400d549503fce30a8fe18384e7f3ad688945705249825ae7d97051c"
+  },
+  {
+   "id": "lld.end.e11",
+   "heading": "E11 Interested Party",
+   "sha256": "b1f0e8e814c2fceb99357c25f79a7121f229458cfd924e0687d2b92bb452b1fb"
+  },
+  {
+   "id": "lld.end.e12",
+   "heading": "E12 Lloyd's Underwriters",
+   "sha256": "045760389fb4d97665ec4f635c5b73b05135c2605297c0c089731aa96e91edf4"
+  },
+  {
+   "id": "lld.end.e13",
+   "heading": "E13 Self-Managed Property",
+   "sha256": "d8b1b28295c967629b50fcb5f967379e4f95d84dee12bf2e368fba69e8a216ef"
+  },
+  {
+   "id": "lld.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "dd44d1d733ca8cd8e653e6f77b6bb29efc8df689216302a471dc1e98bd147778"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "lld.end.e01",
+   "heading": "E01 Accidental Damage",
+   "trigger": {
+    "questions": [
+     "qs.lld.cover.accidental_damage"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.cover.accidental_damage == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because accidental damage cover was chosen.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.cover.accidental_damage",
+     "text": "Do you want to add accidental damage cover?",
+     "type": "yes/no",
+     "used_by": "R, E01"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e02",
+   "heading": "E02 Higher Weekly Rent",
+   "trigger": {
+    "questions": [
+     "qs.lld.tenancy.weekly_rent"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.tenancy.weekly_rent > 1500",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the weekly rent is ${qs.lld.tenancy.weekly_rent}, above the standard limit.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.tenancy.weekly_rent",
+     "text": "What is the weekly rent?",
+     "type": "currency",
+     "used_by": "R, A, S, E02"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e03",
+   "heading": "E03 Pet Damage",
+   "trigger": {
+    "questions": [
+     "qs.lld.tenancy.pets_permitted"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.tenancy.pets_permitted == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the tenancy allows pets.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.tenancy.pets_permitted",
+     "text": "Does the tenancy allow the tenant to keep pets?",
+     "type": "yes/no",
+     "used_by": "R, E03"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e04",
+   "heading": "E04 Short-Stay Letting",
+   "trigger": {
+    "questions": [
+     "qs.lld.tenancy.agreement_type"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.tenancy.agreement_type == short_stay",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the property is let for short stays.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.tenancy.agreement_type",
+     "text": "How is the property let?",
+     "type": "select",
+     "options": [
+      "residential_tenancy",
+      "short_stay",
+      "not_let"
+     ],
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e05",
+   "heading": "E05 Rooming House or Student Accommodation",
+   "trigger": {
+    "questions": [
+     "qs.lld.tenancy.tenancy_type"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.tenancy.tenancy_type == rooming",
+      "action": "refer"
+     },
+     {
+      "when": "qs.lld.tenancy.tenancy_type == student",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the property is let as a rooming house or student accommodation.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.tenancy.tenancy_type",
+     "text": "What kind of tenancy is it?",
+     "type": "select",
+     "options": [
+      "standard",
+      "rooming",
+      "student",
+      "supported"
+     ],
+     "used_by": "A, E05, E06"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e06",
+   "heading": "E06 Specialist Disability or Supported Accommodation",
+   "trigger": {
+    "questions": [
+     "qs.lld.tenancy.tenancy_type"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.tenancy.tenancy_type == supported",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the property is specialist disability or supported accommodation.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.tenancy.tenancy_type",
+     "text": "What kind of tenancy is it?",
+     "type": "select",
+     "options": [
+      "standard",
+      "rooming",
+      "student",
+      "supported"
+     ],
+     "used_by": "A, E05, E06"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e07",
+   "heading": "E07 Agreed Value",
+   "trigger": {
+    "questions": [
+     "qs.lld.cover.building_sum_insured"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.cover.building_sum_insured > 2500000",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the building sum insured is ${qs.lld.cover.building_sum_insured}, above the Go limit.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.cover.building_sum_insured",
+     "text": "What does it cost to rebuild the building (the building sum insured)? Enter 0 for a strata lot or if you do not want building cover.",
+     "type": "currency",
+     "used_by": "R, A, S, E07"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e08",
+   "heading": "E08 Building Works",
+   "trigger": {
+    "questions": [
+     "qs.lld.property.renovation"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.property.renovation == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because building works are under way or planned.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.property.renovation",
+     "text": "Are building works costing more than $50,000, or affecting the structure, under way or planned in the next 12 months?",
+     "type": "yes/no",
+     "used_by": "A, E08"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e09",
+   "heading": "E09 Unoccupied Property",
+   "trigger": {
+    "questions": [
+     "qs.lld.tenancy.vacant_over_60_days"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.tenancy.vacant_over_60_days == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the property has been, or will be, unoccupied for more than 60 days.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.tenancy.vacant_over_60_days",
+     "text": "Has the property been unoccupied for more than 60 days, or will it be in the next 60 days?",
+     "type": "yes/no",
+     "used_by": "A, E09"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e10",
+   "heading": "E10 Heritage-Listed Building",
+   "trigger": {
+    "questions": [
+     "qs.lld.property.heritage"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.property.heritage == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the building is heritage-listed.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.property.heritage",
+     "text": "Is the building listed on a heritage register?",
+     "type": "yes/no",
+     "used_by": "A, E10"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e11",
+   "heading": "E11 Interested Party",
+   "trigger": {
+    "questions": [
+     "qs.lld.policy.interested_party"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.policy.interested_party == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because an interested party was named.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.policy.interested_party",
+     "text": "Does a financier or anyone else have an interest in the property that should be noted?",
+     "type": "yes/no",
+     "used_by": "S, E11"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e12",
+   "heading": "E12 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.lld.policy.lloyds_capacity"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.policy.lloyds_capacity == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the policy is underwritten at Lloyd's.",
+    "responses": [
+     "Attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.policy.lloyds_capacity",
+     "text": "Is the policy underwritten at Lloyd's? (Answered by the platform from the binder.)",
+     "type": "yes/no",
+     "used_by": "E12"
+    }
+   ]
+  },
+  {
+   "id": "lld.end.e13",
+   "heading": "E13 Self-Managed Property",
+   "trigger": {
+    "questions": [
+     "qs.lld.tenancy.management"
+    ],
+    "rules": [
+     {
+      "when": "qs.lld.tenancy.management == self",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the property is self-managed.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.lld.tenancy.management",
+     "text": "Is the property managed by a licensed property manager, or by you?",
+     "type": "select",
+     "options": [
+      "agent",
+      "self"
+     ],
+     "used_by": "R, A, E13"
+    }
+   ]
+  }
+ ],
+ "sha256": "2cebf057c9b1fee3772e20d32ed7b4203345206f12de64380c42a3c5187bf48a"
+}
