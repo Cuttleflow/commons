@@ -14,7 +14,7 @@ questions:
   - id: qs.car.insured.anzsic_class
     text: Which ANZSIC class best describes the named insured's business?
     type: select (ANZSIC 2006 class, from the Exposure Engine)
-    used_by: R, A
+    used_by: A
   - id: qs.car.insured.licence_held
     text: Does the named insured hold the builder's or trade contractor's licence required for this work in the state or territory of the project site?
     type: yes/no
@@ -60,33 +60,25 @@ questions:
     options: ['timber_frame', 'masonry_steel', 'concrete']
     used_by: R
   - id: qs.car.project.contract_value
-    text: What is the contract value of the project, including principal-supplied materials?
+    text: What is the contract value of the project, including principal-supplied materials, or for annual cover the estimated total contract value of projects starting in the policy period?
     type: currency
     used_by: R, A, S
   - id: qs.car.project.period_months
-    text: How many months is the construction period?
+    text: How many months is the construction period, or for annual cover the longest construction period of any one project?
     type: number
     used_by: R, A, S
   - id: qs.car.annual.max_project_value
-    text: What is the largest contract value of any one project to be covered automatically?
-    type: currency
-    used_by: R, A, S
-  - id: qs.car.annual.declared_contract_value
-    text: What is the estimated total contract value of projects for the policy period?
+    text: What is the largest contract value of any one project to be covered automatically? For a single project, enter its contract value.
     type: currency
     used_by: R, A, S
   - id: qs.car.s1.existing_structures_si
-    text: What sum insured is needed for existing structures (enter 0 if none)?
-    type: currency
-    used_by: R, S, E01
-  - id: qs.car.s1.principals_contents_si
-    text: What sum insured is needed for the principal's contents (enter 0 if none)?
+    text: What sum insured is needed for existing structures and the principal's contents together (enter 0 if none)?
     type: currency
     used_by: R, S, E01
   - id: qs.car.s1.plant_si
     text: What sum insured is needed for construction plant owned by the insured (enter 0 if none)?
     type: currency
-    used_by: R, S, E11
+    used_by: S, E11
   - id: qs.car.s1.hired_plant
     text: Will the insured hire in construction plant it is responsible for?
     type: yes/no
@@ -112,7 +104,7 @@ questions:
   - id: qs.car.s2.limit
     text: Which public and products liability limit is required?
     type: select
-    options: ['5000000', '10000000', '20000000', 'other']
+    options: ['5000000', '10000000', '20000000']
     used_by: R, A, S
   - id: qs.car.s3.required
     text: Is delay in start-up cover required for the principal?
@@ -142,7 +134,7 @@ questions:
   - id: qs.car.risk.excavation_depth_m
     text: What is the deepest excavation, in metres below existing ground level?
     type: number
-    used_by: R, A, E06
+    used_by: A, E06
   - id: qs.car.risk.piling
     text: Does the project include piling?
     type: yes/no
