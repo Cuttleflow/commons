@@ -5,12 +5,12 @@ kicker: Meridian Commons · Professional Indemnity · Recruitment and Labour Hir
 slug: recruitment-labour-hire
 file_stem: Meridian_PI_Recruitment_Labour_Hire
 doc_ref: 2026/PI/0008
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity wording for recruitment agencies, labour hire providers, executive search
   firms and HR consultants, built on the Meridian PI base wording.
-base: pi-base@1.4.0-DRAFT
+base: pi-base@1.5.0-DRAFT
 supersedes: MERIDIAN-PI-RECR-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
 overrides:
 - op: replace
@@ -75,3 +75,4 @@ decisions:
   base Bodily Injury and Property Damage exclusion (profession review approved 31 October 2026).'
 - '2026-10-31: On-hire cover as a broker option requiring written on-hire agreements.'
 - '2026-10-31: Payroll errors as a sub-limited broker option.'
+- '2026-11-02: Remediation following the pre-review of 2 November 2026; re-pinned to base 1.5.0-DRAFT. See the change file for 1.1.0.'

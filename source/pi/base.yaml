@@ -5,14 +5,15 @@ kicker: Meridian Commons · Professional Indemnity
 slug: professional-indemnity
 file_stem: Meridian_Professional_Indemnity
 doc_ref: 2026/PI/0001
-version: 1.4.0-DRAFT
-date: October 2026
+version: 1.5.0-DRAFT
+date: November 2026
 draft: true
 summary: Civil-liability cover for professional services, written on a claims-made basis.
 structure:
 - section: preamble
   clauses:
   - pi.about
+  - pi.who-this-policy-is-for
   - pi.version-history
   - pi.schedule
 - section: pi.section.definitions
@@ -22,6 +23,7 @@ structure:
   - pi.def.company
   - pi.def.computer-system
   - pi.def.confidential-information
+  - pi.def.control-group
   - pi.def.defence-costs
   - pi.def.employee
   - pi.def.endorsement
@@ -108,6 +110,8 @@ structure:
   - pi.cond.licences-registrations-and-accreditations
   - pi.cond.compulsory-insurance-requirements
   - pi.cond.professional-standards-schemes
+  - pi.cond.sanctions
+  - pi.cond.corporations-act-ss-199a-199b
   - pi.cond.cancellation
   - pi.cond.governing-law
   - pi.cond.jurisdiction

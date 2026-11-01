@@ -5,12 +5,12 @@ kicker: Meridian Commons · Professional Indemnity · Accountants
 slug: accountants
 file_stem: Meridian_PI_Accountants
 doc_ref: 2026/PI/0006
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity wording for accountants, auditors, tax and BAS agents, bookkeepers and
   insolvency practitioners, built on the Meridian PI base wording.
-base: pi-base@1.4.0-DRAFT
+base: pi-base@1.5.0-DRAFT
 supersedes: MERIDIAN-PI-ACCT-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
 overrides:
 - op: replace
@@ -81,3 +81,4 @@ decisions:
 - '2026-10-31: Advice under a limited AFS licence by endorsement, at the higher RG 126 minimum.'
 - '2026-10-31: June Predecessor Firm extension deleted; the base Predecessor Practices extension applies and is
   wider.'
+- '2026-11-02: Remediation following the pre-review of 2 November 2026; re-pinned to base 1.5.0-DRAFT. See the change file for 1.1.0.'

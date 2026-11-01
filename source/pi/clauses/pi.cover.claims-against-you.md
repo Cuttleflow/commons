@@ -4,7 +4,7 @@ type: cover
 heading: Claims Against You
 legacy_number: '2.1'
 since: 1.0.0
-changed: 1.3.0
+changed: 1.5.0
 status: draft
 ---
 
@@ -26,3 +26,5 @@ for any actual or alleged:
 - (viii) any other civil liability arising from your professional services
 
 unless excluded under [[ref:pi.section.exclusions]].
+
+A formal complaint or proceeding before a professional disciplinary body is a claim within paragraph (e) of [[ref:pi.def.claim]]. For that claim we pay only your defence costs, whether or not the allegation falls within heads (i) to (viii). We do not pay any fine, penalty, costs order in favour of the body, or cost of complying with an order, condition or direction made against you. The most we will pay for those defence costs in the policy period is the sub-limit for disciplinary defence costs in [[ref:pi.pay.sub-limits]]. [[ref:pi.ext.inquiry-costs]] applies to an investigation or inquiry that has not yet become a formal complaint or proceeding.

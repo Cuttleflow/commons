@@ -5,12 +5,12 @@ kicker: Meridian Commons · Professional Indemnity · Real Estate and Strata
 slug: real-estate-strata
 file_stem: Meridian_PI_Real_Estate_Strata
 doc_ref: 2026/PI/0007
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity wording for real estate agents, property and strata managers, stock and
   station agents and auctioneers, built on the Meridian PI base wording.
-base: pi-base@1.4.0-DRAFT
+base: pi-base@1.5.0-DRAFT
 supersedes: MERIDIAN-PI-REAL-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
 overrides:
 - op: replace
@@ -80,3 +80,4 @@ decisions:
 - '2026-10-31: Payment redirection as a sub-limited broker option with a call-back condition.'
 - '2026-10-31: Strata managers included.'
 - '2026-10-31: Valuation exclusion narrowed to formal valuations; appraisals covered without a disclaimer condition.'
+- '2026-11-02: Remediation following the pre-review of 2 November 2026; re-pinned to base 1.5.0-DRAFT. See the change file for 1.1.0.'

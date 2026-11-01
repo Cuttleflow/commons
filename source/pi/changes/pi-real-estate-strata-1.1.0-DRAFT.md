@@ -1,0 +1,8 @@
+Remediation following the Claude pre-review of 2 November 2026. Built on base PI 1.5.0-DRAFT.
+
+- Base changes flow through: Financial Services exclusion, Sanctions, Statutory Liability, Other Insurance, Cancellation, the Insurance Contracts Act 1984 (Cth) condition and the other changes listed for base PI 1.5.0-DRAFT.
+- Rent Roll Acquisitions extension: the condition that no other insurance responds is removed. The Other Insurance provision applies instead. The extension now states that the retroactive date does not apply to management before you acquired the rent roll or rights. Default set for underwriter confirmation.
+- Payment Redirection endorsement: confirming new payment details by telephone is now a factor in assessing the claim, not a condition of cover. We may reduce payment only by the amount that fairly represents the effect of not confirming, and we will not refuse a claim only for that reason.
+- Trust Money Taken by Principals exclusion: now turns on a Final adjudication, with defence costs advanced and repaid if the misappropriation is established. Flagged for review against the New South Wales licence insurance condition.
+- Dishonesty of Employees and Agents extension: now states that it applies despite the Deliberate and Dishonest Acts exclusion, which otherwise continues to apply.
+- Commercial Property Value Exclusion endorsement (renamed from Commercial Property over $10 Million Exclusion): the value threshold is now a schedule item, with $10,000,000 as the default. It does not apply where the law permits an exclusion only above a higher amount. Flagged for review. Default set for underwriter confirmation.

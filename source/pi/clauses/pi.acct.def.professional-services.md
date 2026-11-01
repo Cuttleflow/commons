@@ -4,6 +4,7 @@ type: definition
 heading: Professional services
 profession: accountants
 since: 1.0.0
+changed: 1.1.0
 status: draft
 note: 'Replaces the base definition. Rebuilt from MERIDIAN-PI-ACCT-v1.0.0. A service that requires registration (registered tax or BAS agent, registered company auditor, approved SMSF auditor, registered
   liquidator, registered trustee) is covered only when the registration is held: base Licences, Registrations and Accreditations condition.'
@@ -28,3 +29,5 @@ The following services provided to a third party for a fee:
 (h) financial consulting, other than a service that requires an Australian financial services licence unless that service is shown in the schedule; and
 
 (i) any other service shown in the schedule as a professional service.
+
+The services in (b) and (e) are professional services shown in the schedule for the purposes of [[ref:pi.excl.financial-services]]. That exclusion does not apply to them, unless the work involves financial product advice, dealing in a financial product or a credit activity.

@@ -5,12 +5,12 @@ kicker: Meridian Commons · Professional Indemnity · Education and Training
 slug: education-training
 file_stem: Meridian_PI_Education_Training
 doc_ref: 2026/PI/0010
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity wording for schools, higher education providers, registered training
   organisations, tutors and education agents, built on the Meridian PI base wording.
-base: pi-base@1.4.0-DRAFT
+base: pi-base@1.5.0-DRAFT
 supersedes: MERIDIAN-PI-EDUC-v1.0.0 and MERIDIAN-PI-RTOO-v1.0.0 (endorsements to base PI v1.0.0, June 2026)
 overrides:
 - op: replace
@@ -77,3 +77,4 @@ proposal_questions:
 - Third-party delivery, international students, VET Student Loans, high-risk practical training and enrolments.
 decisions:
 - '2026-10-31: EDUC and RTOO merged; abuse cover removed from PI (profession review approved 31 October 2026).'
+- '2026-11-02: Remediation following the pre-review of 2 November 2026; re-pinned to base 1.5.0-DRAFT. See the change file for 1.1.0.'

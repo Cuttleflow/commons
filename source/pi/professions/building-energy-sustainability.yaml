@@ -5,12 +5,12 @@ kicker: Meridian Commons · Professional Indemnity · Building Energy and Sustai
 slug: building-energy-sustainability
 file_stem: Meridian_PI_Building_Energy_Sustainability
 doc_ref: 2026/PI/0005
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity wording for building energy assessors, sustainability consultants and
   energy auditors, built on the Meridian PI base wording.
-base: pi-base@1.4.0-DRAFT
+base: pi-base@1.5.0-DRAFT
 supersedes: MERIDIAN-PI-ENER-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
 overrides:
 - op: replace
@@ -58,3 +58,4 @@ decisions:
 - '2026-10-31: Separate product (profession review approved 31 October 2026).'
 - '2026-10-31: Client restriction removed.'
 - '2026-10-31: Climate disclosure advisory sits in this wording, with a sub-limit endorsement.'
+- '2026-11-02: Remediation following the pre-review of 2 November 2026; re-pinned to base 1.5.0-DRAFT. See the change file for 1.1.0.'
