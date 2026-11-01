@@ -1,0 +1,1382 @@
+{
+ "wording": "ah-base",
+ "version": "1.4.0-DRAFT",
+ "doc_ref": "2026/AH/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "ah.about",
+   "heading": "About This Policy",
+   "sha256": "e9b01fc69c3b9c826f787c9f07cf1f9e4b7f2fe25b70760121a59059297313d2"
+  },
+  {
+   "id": "ah.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "ah.schedule",
+   "heading": "Schedule",
+   "sha256": "edec60b7b23a8e7b253b7b7e93719a2e97ce7a934a8183667602396ea022daf7"
+  },
+  {
+   "id": "ah.section.definitions",
+   "heading": "Definitions",
+   "sha256": "64c75eb2e12fb06c76f52fbbb8832075f051408d068014c94600b15c91b84aaf"
+  },
+  {
+   "id": "ah.def.aged-care-act",
+   "heading": "Aged Care Act",
+   "sha256": "831eff93e60f169e5d1d185d65c39be40a68ca06e1ffdfd50c43cb4148b89a1b"
+  },
+  {
+   "id": "ah.def.allied-health-practitioner",
+   "heading": "Allied Health Practitioner",
+   "sha256": "37ffdc4dfc81b57e3477d576254102c9b181081eee5e81827da5ce24eb839e63"
+  },
+  {
+   "id": "ah.def.bodily-injury",
+   "heading": "Bodily Injury",
+   "sha256": "33be61b7a445fbd69cced831b8c354f9eb961c7273f4cf1ad3834e223712a9f2"
+  },
+  {
+   "id": "ah.def.circumstance",
+   "heading": "Circumstance",
+   "sha256": "fbe1f077b6e326c9c8cc4910e02a1ce92befb7b960ec752da87b2a9f357fb88c"
+  },
+  {
+   "id": "ah.def.claim",
+   "heading": "Claim",
+   "sha256": "69d61a672944398a9b9aee9a5037dacf13dd684b999482da1fd9c32f7a215a9b"
+  },
+  {
+   "id": "ah.def.control-group",
+   "heading": "Control Group",
+   "sha256": "beae2bb74218428407ef88bf8a7b3f1ecf76e75b2092bb61166fa9a88169bc40"
+  },
+  {
+   "id": "ah.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "069aca8925256ed883ce0b04a71135c8be02d9cfd6a9be94f91237338186bb04"
+  },
+  {
+   "id": "ah.def.documents",
+   "heading": "Documents",
+   "sha256": "519aa0f5f7db83d3d226c40736abb35d4a34b95c5f55dc676c6390e7f0e91b66"
+  },
+  {
+   "id": "ah.def.employee",
+   "heading": "Employee",
+   "sha256": "782fe410975c3b266b661e8bfc6203dd9281a41872b25dffa33a48acf78d2ae5"
+  },
+  {
+   "id": "ah.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "ca86fbacdaa0af4e27fdea72823281c5c3cd13e815158be79b183316a2ee8d64"
+  },
+  {
+   "id": "ah.def.excess",
+   "heading": "Excess",
+   "sha256": "e3295200fe34f16489438f6eca681ddcabaaa35f0beb5a4ed521cd8da68aa02c"
+  },
+  {
+   "id": "ah.def.final-adjudication",
+   "heading": "Final Adjudication",
+   "sha256": "78e29dd965a4bb2acb1c9abe5ee197836626f67d25cda84f40d61b1502e8ad16"
+  },
+  {
+   "id": "ah.def.good-samaritan-act",
+   "heading": "Good Samaritan Act",
+   "sha256": "94b88e28cfd6fdee4c27a35234dc2c4abad200c153390d80431ca5f5171c8d92"
+  },
+  {
+   "id": "ah.def.national-law",
+   "heading": "National Law",
+   "sha256": "d0f83c26e3fcbc68c6e941b43337685704ff3cff301a07960861fb30e48d2118"
+  },
+  {
+   "id": "ah.def.inquiring-body",
+   "heading": "Inquiring Body",
+   "sha256": "17624180839befc47d71732a5db0bea5b2ceb0bf96ce3908a536b11331d4159d"
+  },
+  {
+   "id": "ah.def.inquiry",
+   "heading": "Inquiry",
+   "sha256": "d636dc9155889b9158dd18f361a99dd858eda1dfcb8da7e14fc5cfb6b6b944b3"
+  },
+  {
+   "id": "ah.def.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "fd8a86427597279f70b00dc6b0a1e45f38c356fab516c23a475b1c7fb09f0f64"
+  },
+  {
+   "id": "ah.def.locum",
+   "heading": "Locum",
+   "sha256": "65e02f37ae13def15321391dbfcd704ab78433e164aa422c0358535989d6ac5d"
+  },
+  {
+   "id": "ah.def.loss",
+   "heading": "Loss",
+   "sha256": "a2c96a30f7bbe59785d57a87fdffc896c971d084f46ca82338a72d607e5c5db2"
+  },
+  {
+   "id": "ah.def.malpractice",
+   "heading": "Malpractice",
+   "sha256": "747e13d4fd8089a64d9ee42196e43d6c0baffe6046c5ad25b5531c7899d50995"
+  },
+  {
+   "id": "ah.def.medical-practitioner",
+   "heading": "Medical Practitioner",
+   "sha256": "9829841269baa08eb497e2263034e15937144ad8f13c168ef900144515a6d71d"
+  },
+  {
+   "id": "ah.def.ndb-notification",
+   "heading": "NDB Notification",
+   "sha256": "9ffb367240ad573df3b7dfd3fed359b2cf896b39ce083c9e554d5c5218fd1452"
+  },
+  {
+   "id": "ah.def.open-disclosure",
+   "heading": "Open Disclosure",
+   "sha256": "8cca699dc33ca8e36c69a255fc62baaa4cd61425915af6b42904a1c49c673ef8"
+  },
+  {
+   "id": "ah.def.policy",
+   "heading": "Policy",
+   "sha256": "42d36bc8daf7ebfa754299688483f78b6771cdec2ede1b5025a7efdd57b324d7"
+  },
+  {
+   "id": "ah.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "d9c26072363aa90b3bda06e35b83d25bc9629e8036ff2588b5c4d51688b924dd"
+  },
+  {
+   "id": "ah.def.practice",
+   "heading": "Practice",
+   "sha256": "7f31cafd899ba2c0fe079bcb0f2fff0bce34e7146da670b979fbb5e27b62490a"
+  },
+  {
+   "id": "ah.def.products",
+   "heading": "Products",
+   "sha256": "752c9f8e7ea5bf167f7adc419b24218709f6f39e329e8da633e027902158200a"
+  },
+  {
+   "id": "ah.def.professional-association",
+   "heading": "Professional Association",
+   "sha256": "e43f3d8560c736c3b544bc93dcc3cec569ffae469f1b841a8128960f4fa3d208"
+  },
+  {
+   "id": "ah.def.professional-services",
+   "heading": "Professional Services",
+   "sha256": "aeaa57a171675b051b379e33481287b04021089b60a053e7992eff7cbd003853"
+  },
+  {
+   "id": "ah.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "a5d1d1f07759dc6aecd58873a8c04d90c982ce08ebbb6ff57858f5efb2106efe"
+  },
+  {
+   "id": "ah.def.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "02dbd9afe8355328d3e5e57dca31d30d761db8f03eb18694e5e362d2bffbccd6"
+  },
+  {
+   "id": "ah.def.schedule",
+   "heading": "Schedule",
+   "sha256": "ef514c101a0ea269019bbe39a0454dfe3de42f8196bebe47b61352f4a8b6c0ec"
+  },
+  {
+   "id": "ah.def.senior-counsel",
+   "heading": "Senior Counsel",
+   "sha256": "76ae2e8562714f97968e6f87d8d7bfd9ed04aeba236eadd39172f6d33d302685"
+  },
+  {
+   "id": "ah.def.statutory-liability",
+   "heading": "Statutory Penalty",
+   "sha256": "699c606b6081a26a337b452d5bf654b9bc08a8ba288b5e848ecf760c4212cc73"
+  },
+  {
+   "id": "ah.def.therapy-animal",
+   "heading": "Therapy Animal",
+   "sha256": "4acfbad94447093f83e9b6510c9249612f417897114d1942e4d2ead570dd53e5"
+  },
+  {
+   "id": "ah.def.whs-law",
+   "heading": "WHS Law",
+   "sha256": "233c9ae2a3e1bdb8f237263763e10c23c6a51394cb65f2dc30ea7a765e3e1abe"
+  },
+  {
+   "id": "ah.def.we-us-our",
+   "heading": "We, Us and Our",
+   "sha256": "41e90e47407b2223397d92aaf7ce408527dcf36afacf112214a647087897d560"
+  },
+  {
+   "id": "ah.def.you-your",
+   "heading": "You, Your and Insured Person",
+   "sha256": "d293576ab6c3e0e2d894df053e062669e46114187172629a731a55972d748503"
+  },
+  {
+   "id": "ah.section.pi",
+   "heading": "Section A: Professional Indemnity",
+   "sha256": "cc500fcc1cde10b8019ac77f7397dd0c6fbb1490e0cec61e7255cf06619000f8"
+  },
+  {
+   "id": "ah.cover.professional-indemnity",
+   "heading": "Professional Indemnity Cover",
+   "sha256": "47ff0d2461c0e52afb72e53ebfc71d8010b83f11c4b0260503d3479abbf64c05"
+  },
+  {
+   "id": "ah.cover.how-extensions-apply",
+   "heading": "How the Extensions Apply",
+   "sha256": "925c6e328ea6c5b456f5221a78ac4d0d42cb5b261ca9301980351f71cb49dbcb"
+  },
+  {
+   "id": "ah.ext.data-breach-costs",
+   "heading": "Data Breach Notification Costs",
+   "sha256": "b0b9b695deba0313bb6e16d2fc8a040f84d841a2dfc2b4924da675b425dcb952"
+  },
+  {
+   "id": "ah.ext.data-breach-penalties",
+   "heading": "Data Breach Fines and Penalties",
+   "sha256": "e17b4e60387c898706823ed262ca5f235b12aebcf4294d4977f0b9b3e1ccce57"
+  },
+  {
+   "id": "ah.ext.audits-and-employee-fraud",
+   "heading": "Medicare, NDIS and PBS Audits and Employee Fraud",
+   "sha256": "02b9df3e3e8735c5312156fe93ea59b0f5aeb928266539d803c4f17e65873698"
+  },
+  {
+   "id": "ah.ext.good-samaritan",
+   "heading": "Good Samaritan Acts",
+   "sha256": "3c546b4d470bfd99763ec8e4d62087a67a418681ade60b5d1307732afb548e05"
+  },
+  {
+   "id": "ah.ext.inquiry-costs",
+   "heading": "Inquiry Costs",
+   "sha256": "fd17ab5a391c2e4350932ec144ae006cbec2fc6425009db296714ef36b0ec45c"
+  },
+  {
+   "id": "ah.ext.mandatory-reporting",
+   "heading": "Mandatory Reporting Costs",
+   "sha256": "7645ee71f65927b61106efd3eaedb43693d9de4e2916c4d0c841f1983a5ce15a"
+  },
+  {
+   "id": "ah.ext.loss-of-documents",
+   "heading": "Loss of Documents",
+   "sha256": "9f24ab4d115d94721086f52f7c34df56e35692bf65289e7312a887ae63d9b69f"
+  },
+  {
+   "id": "ah.ext.public-relations",
+   "heading": "Public Relations and Crisis Expenses",
+   "sha256": "26939129b0059faf24dfe067478033e81a807a18395c0aacda7399d6c6c74c70"
+  },
+  {
+   "id": "ah.ext.court-attendance",
+   "heading": "Court Attendance Costs",
+   "sha256": "a4a283b41c80030d0565aafe6db0a6906f2b5b3db851d3449a984a8b30cb23c1"
+  },
+  {
+   "id": "ah.ext.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "6353a63e9a55a7284f7e2e33467fd22f5c9eec3f683e52a8e4c05c2a812db190"
+  },
+  {
+   "id": "ah.ext.run-off",
+   "heading": "Run-off Cover on Retirement or Cessation of Practice",
+   "sha256": "8ef37df4e12979d117dab47f7e5b9413318d0edbbdde6d4c91768c99a43222de"
+  },
+  {
+   "id": "ah.ext.extended-reporting-period",
+   "heading": "Extended Reporting Period",
+   "sha256": "4ff242b4e568d2fdf010ff8024dbd05f464a8144243fe83f453789c00f1c5f0f"
+  },
+  {
+   "id": "ah.ext.therapy-animals",
+   "heading": "Therapy Animals",
+   "sha256": "480ee5fd482236961bd9b3a37540a6d9b48d80ddb0ef2158fb4a67e137a984f0"
+  },
+  {
+   "id": "ah.ext.therapy-after-inquiry",
+   "heading": "Therapy and Counselling for You After an Inquiry",
+   "sha256": "fcb2cce7be2cbe4235e09d0178f5e047317bb9dcb09e6f3369b1eb4da104a30d"
+  },
+  {
+   "id": "ah.ext.trauma-counselling",
+   "heading": "Trauma Counselling Following Violence",
+   "sha256": "a2705a88b0eb98b2278d186235fcb0d1ef3be7c32244ab4e9b7eda7a5cc1f204"
+  },
+  {
+   "id": "ah.ext.teaching-and-expert-reports",
+   "heading": "Teaching, Publications and Expert Reports",
+   "sha256": "a3f5f7c43ac79b6fe3b6f54995463757d3edfb4ad925a9f2c7770bf9715a9716"
+  },
+  {
+   "id": "ah.ext.students",
+   "heading": "Students and Work-experience Placements",
+   "sha256": "e84bd7a7a2e318b6eb1756992edab4a3040b6ff65e2f98c6adaa697c98a94b2b"
+  },
+  {
+   "id": "ah.ext.locums",
+   "heading": "Locum Tenens",
+   "sha256": "396d2fbb2a901aaaee11a27b734082a4bd8a1a8cedff110f6172b816708488de"
+  },
+  {
+   "id": "ah.ext.volunteers",
+   "heading": "Volunteers",
+   "sha256": "2500a663a74c32c14e52ebad30daee71a9797c879147f63abba8e4c8c5837de6"
+  },
+  {
+   "id": "ah.ext.estates-and-spouses",
+   "heading": "Spouses, Estates and Legal Representatives",
+   "sha256": "5cd5d415e374abfd3da6f73aba4aa9304d316a40c574fc6e040fa273d6058ca5"
+  },
+  {
+   "id": "ah.ext.telehealth",
+   "heading": "Telehealth and Remote Care",
+   "sha256": "bd5c577732c1a0494c32bdee167429eca4b6ccfdcc6a554bf1ddf5f785fad016"
+  },
+  {
+   "id": "ah.ext.statutory-liability",
+   "heading": "Statutory Liability",
+   "sha256": "932a4dacb86d95902d5c37e7f2d57272d70f6a90175511f04adafb2c67715bfc"
+  },
+  {
+   "id": "ah.ext.advance-claim-protection",
+   "heading": "Advance Claim Protection",
+   "sha256": "3a000184d70a07629e34226626dfe4d34b749af8b7cb9e685ce841a5958b4eb9"
+  },
+  {
+   "id": "ah.ext.serious-invasion-of-privacy",
+   "heading": "Serious Invasion of Privacy",
+   "sha256": "01043f408c6dec2de86125aa17f9dcea54ada2d85ac9d96a27e300682de1ca38"
+  },
+  {
+   "id": "ah.section.pl",
+   "heading": "Section B: Public Liability",
+   "sha256": "9647c545f2fe5326089e5c3867823c026396b2ff795ac46c0baa04cbcfe7fb02"
+  },
+  {
+   "id": "ah.cover.public-liability",
+   "heading": "Public Liability Cover",
+   "sha256": "98c6a7948482b4c1a555c5c34233452ca103eea09669fbb40adf81be0cefe31e"
+  },
+  {
+   "id": "ah.cover.relationship-between-sections",
+   "heading": "Relationship Between Section A and Section B",
+   "sha256": "2ad9315cb804b271c84bdf0dd890e6c45119f1e76873b06af15b858b21b079c4"
+  },
+  {
+   "id": "ah.cover.how-section-b-extensions-apply",
+   "heading": "How the Section B Extensions Apply",
+   "sha256": "6652139c9b4660ba221e3d20aabecd916f7a46c660ca701fac3daed49fcbbd69"
+  },
+  {
+   "id": "ah.ext.products-liability",
+   "heading": "Products Liability",
+   "sha256": "2c9f591e4905b351fb1b3b661199262fadc040ee43c4a6d67e6e9ea41eff0b08"
+  },
+  {
+   "id": "ah.ext.tenants-liability",
+   "heading": "Tenant's Legal Liability",
+   "sha256": "861534afc2dfd18add5642f8cc65aaf5744b18141a51931b61dfdda087d9704e"
+  },
+  {
+   "id": "ah.ext.hired-equipment",
+   "heading": "Non-owned and Hired Plant and Equipment",
+   "sha256": "9a4865e9500528cbc7b84f1b359dae0cb2fee0c3753222b7414661bc82d83957"
+  },
+  {
+   "id": "ah.ext.advertising-liability",
+   "heading": "Advertising Liability",
+   "sha256": "f5aa2111e94762bb2143bc33a46f7cc568730f7387e5f2f56c81ed0b1a481452"
+  },
+  {
+   "id": "ah.section.notification",
+   "heading": "Notification of Circumstances",
+   "sha256": "c31bd570ee53345d628815cb19ec9d36556290835d0c0c36a67eb5ebe4df6055"
+  },
+  {
+   "id": "ah.cover.notifying-circumstances",
+   "heading": "Your Right to Notify Circumstances",
+   "sha256": "44c69855d4bdeff20e46fb63cb6f4085cd32f8f22d55c94790e22bea85f5fe22"
+  },
+  {
+   "id": "ah.cover.effect-of-notification",
+   "heading": "Effect of Notification",
+   "sha256": "e46fd9e669bba5e28113994d12a15f7f988a9cd06d0b78c5a9c52cea73eb5404"
+  },
+  {
+   "id": "ah.cover.one-notification",
+   "heading": "What Counts as One Notification",
+   "sha256": "58f1b0820d2e80967afca4beb1103d3b9c836c1e95bfbb868c0e9f365f6b78d2"
+  },
+  {
+   "id": "ah.cover.notifying-inquiries",
+   "heading": "Notifying Possible Inquiries",
+   "sha256": "7049944599cdd09bd293ae4af15f28d821d5f7b2faf4bcd25cb3b08b7485ea99"
+  },
+  {
+   "id": "ah.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "63589730ac7e01570030ce60fba37faabd346a3f5430459fa135059db18338d0"
+  },
+  {
+   "id": "ah.excl.medical-practitioners",
+   "heading": "Medical Practitioners",
+   "sha256": "df4cf087a6f81b95acfc48a82c1fa407825c64f3a504efc65cbfab8bf09f2eec"
+  },
+  {
+   "id": "ah.excl.unregistered-practice",
+   "heading": "Unregistered or Unaccredited Practice",
+   "sha256": "c09add0154a4ce8c1c0e6949e2773798a78e45b143f8c784716b5f7ca288c7d1"
+  },
+  {
+   "id": "ah.excl.obstetrics",
+   "heading": "Obstetrics and Intrapartum Homebirth",
+   "sha256": "74dde78947d9bfc1540c4cb9e27daf29acbcb0f61670a77f12e6193f8cac322b"
+  },
+  {
+   "id": "ah.excl.prescription-medicines",
+   "heading": "Prescription-only Medicines Outside Authority",
+   "sha256": "c0f5521a093e06f2212aa2ccf2e669e970e2f16717be30b1d1115c106ed11a67"
+  },
+  {
+   "id": "ah.excl.clinical-trials",
+   "heading": "Clinical Trials and Experimental Procedures",
+   "sha256": "aeb308c757d082d8819a35efd0b2f8002608fbf94245a672d527300ac014ceec"
+  },
+  {
+   "id": "ah.excl.sexual-misconduct",
+   "heading": "Sexual Misconduct",
+   "sha256": "e85b76b7a52e6a164d1782930f5a516494b0c8f490e4b109226a483e9d074613"
+  },
+  {
+   "id": "ah.excl.intoxicants",
+   "heading": "Intoxicants",
+   "sha256": "4c514ad134ac94e6be13089d9e9ec132e2b4c07bc8fb0b0271b6ba98031aba2f"
+  },
+  {
+   "id": "ah.excl.deliberate-acts",
+   "heading": "Deliberate, Dishonest, Fraudulent or Criminal Acts",
+   "sha256": "302c228de92a5c4599db174bda1467c19bb7a18d8ce4fccd8a03eaa832c7aaa1"
+  },
+  {
+   "id": "ah.excl.employers-liability",
+   "heading": "Employer's Liability and Workers Compensation",
+   "sha256": "d2365aa35055b70b11ae7f4160888d6656337c8041bb31ac708681cb375252a0"
+  },
+  {
+   "id": "ah.excl.employment-practices",
+   "heading": "Employment Practices",
+   "sha256": "b9f55f320a51a1d003d581c0502e24f5739a9d7a0bde52ad00bac6d420d39e6a"
+  },
+  {
+   "id": "ah.excl.directors-and-officers",
+   "heading": "Directors' and Officers' Liability",
+   "sha256": "4805378cf0761e1a35ffddf868121ea119099767ff8899ff4613f915f1086ea0"
+  },
+  {
+   "id": "ah.excl.uninsurable-penalties",
+   "heading": "Uninsurable Penalties",
+   "sha256": "73fd66d9500b5dc47abcbe7dd543738e2d3a557bcd1c87fa7322bc445bc8f23a"
+  },
+  {
+   "id": "ah.excl.prior-circumstances",
+   "heading": "Prior Known Circumstances and Prior Notifications",
+   "sha256": "a84b99bff9a3a6915c8afa949fa752ed4b1b79e92274be2999c91dbe786677ea"
+  },
+  {
+   "id": "ah.excl.contractual-liability",
+   "heading": "Assumed Contractual Liability",
+   "sha256": "8133ec7efc8967a7e6beb26204209fb82137a66fbe3b884c73388949320b3dac"
+  },
+  {
+   "id": "ah.excl.trading-debts",
+   "heading": "Trading Debts, Fees and Billing Disputes",
+   "sha256": "dd16d449c946da8701bf83eb86e53b87f78fe1c451c6a819f14dccbc991517db"
+  },
+  {
+   "id": "ah.excl.goods-outside-services",
+   "heading": "Goods Sold or Supplied Outside Professional Services",
+   "sha256": "23522c1fd719267d25ea6b0fc40269ff8b7a76b2eb8e65ae82264ec4b65036a0"
+  },
+  {
+   "id": "ah.excl.related-parties",
+   "heading": "Related Parties",
+   "sha256": "1ed7dcdd5635bc1501f3a938b1d0b796c33de7af7bc0fe29678a74a4a872c7d9"
+  },
+  {
+   "id": "ah.excl.fines-and-penalties",
+   "heading": "Fines, Penalties and Punitive Damages",
+   "sha256": "2bd45e4e6aaa2885ff4d9dc84d13753a084ca98b0422259aedb0829e929c6ca4"
+  },
+  {
+   "id": "ah.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "e2fd0f0564a9fd9e97218cfa424787a59ee362041437ce36a5047db47dbf47c0"
+  },
+  {
+   "id": "ah.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "c68950c8221713e6b47b72d505f36ed622667c1809b0d8a275a16df9adf8a969"
+  },
+  {
+   "id": "ah.excl.war-and-terrorism",
+   "heading": "Terrorism and War",
+   "sha256": "97ae7f440e6994c8f2b52a7892082928cd396b2e4131efdf69d55bf927807dea"
+  },
+  {
+   "id": "ah.excl.usa-canada",
+   "heading": "USA and Canada",
+   "sha256": "e0f6099ffa65c57b5f9684ef26066010abf1369405680adf7ecac3a8f661690c"
+  },
+  {
+   "id": "ah.excl.pollution",
+   "heading": "Pollution and Contamination",
+   "sha256": "c247c83c189e137cd34ea797c21a3660668c76712d23519a0317140dfc87592e"
+  },
+  {
+   "id": "ah.excl.property-in-your-care",
+   "heading": "Property in Your Care, Custody or Control",
+   "sha256": "84409029b594dc926c07fbdc373ba2208c216a8f26a33edabf1b8fe6f71a740c"
+  },
+  {
+   "id": "ah.excl.vehicles-aircraft-watercraft",
+   "heading": "Aircraft, Watercraft and Vehicles",
+   "sha256": "0693bc782887e2cf9f398be2222f9a8774ef1a794af5a1a060267d3f84a7cd8e"
+  },
+  {
+   "id": "ah.excl.communicable-disease",
+   "heading": "Communicable Disease: Deliberate Breach",
+   "sha256": "1e50c59e593fc30106dbccf6b162c89c8c5b9f3c94b4f998f81172f68ac4686d"
+  },
+  {
+   "id": "ah.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "ah.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "9d3b4fb3312601fc18b8b95d1148b4a2d376fbd0d35e24ebec970c936c16f175"
+  },
+  {
+   "id": "ah.pay.automatic-reinstatement",
+   "heading": "Automatic Reinstatement",
+   "sha256": "37339f5b30d0132c1996af05c41dd4049a43dd27609b40a58747e5041ad942a3"
+  },
+  {
+   "id": "ah.pay.defence-costs",
+   "heading": "Defence Costs Are Inclusive",
+   "sha256": "93e0ddaa4736918ea9dc1c901a07ba2af3eb43424278c7e8ca649cb08fa4717b"
+  },
+  {
+   "id": "ah.pay.sub-limits",
+   "heading": "Sub-limits",
+   "sha256": "823b054f79f555397b49d2fdcd8fce7361691e0008d45a5420a3121338b493f6"
+  },
+  {
+   "id": "ah.pay.excess",
+   "heading": "Excess",
+   "sha256": "6ccf89b04ec6b3ccbbf675e6f46ecdb57c94d40c5c9dfa04bf8cda4ec6aff2a5"
+  },
+  {
+   "id": "ah.pay.one-claim",
+   "heading": "One Claim",
+   "sha256": "9f5174b85a932d71041d8c883a01b249e41d4946a476f7ca25dce68899612193"
+  },
+  {
+   "id": "ah.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "1efdc44ac01140446b4db6ed93460524258bbc62ff022eb871a2c9c91030793b"
+  },
+  {
+   "id": "ah.pay.high-cost-claims-scheme",
+   "heading": "Allied Health High Cost Claims Indemnity Scheme",
+   "sha256": "b2ceef2e7d951f3b2842e25276c168e64796564c1c410b05514906a1695caf11"
+  },
+  {
+   "id": "ah.pay.gst",
+   "heading": "GST and the Limits",
+   "sha256": "75181a5e5470f0e797aa66da265813ebe17dc3fa2908ed4adef21858edacfe7f"
+  },
+  {
+   "id": "ah.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "a2d6aa0ca0eb1dd16d6df93c6749398243a1becd4723d2e8c57665a0ce05a199"
+  },
+  {
+   "id": "ah.obl.notify-us",
+   "heading": "Notify Us as Soon as Practicable",
+   "sha256": "248c3dfd9eaf7da856186c7d6406d1814a27bf7fbf5e710994cbaee3dcfaa130"
+  },
+  {
+   "id": "ah.obl.no-admissions",
+   "heading": "No Admissions Without Our Consent",
+   "sha256": "dc73b839550da117c55529749fb7a2f691ce841e364edd10cbb31e9d080832df"
+  },
+  {
+   "id": "ah.obl.cooperate",
+   "heading": "Cooperate With Us",
+   "sha256": "71e56970c5d97a800cbe0a65e01522b26ab6f3afa21e7be0a9680721ad874388"
+  },
+  {
+   "id": "ah.obl.mitigate",
+   "heading": "Mitigate",
+   "sha256": "3ccecfea050ccfe612cc4167694bd2c8e0c89725492d97e2c501853aa3ec9f98"
+  },
+  {
+   "id": "ah.obl.tell-us-about-changes",
+   "heading": "Tell Us About Material Changes",
+   "sha256": "f5375be3fcbf5305264407fa2bd532aa50c080142967f95e8842ddc77bdfcaac"
+  },
+  {
+   "id": "ah.obl.other-recoveries",
+   "heading": "Tell Us About Other Recoveries",
+   "sha256": "c7c5dc1e72c3f331fc49cc25fa3adce2f4543995ce396ded17c6d951e81f21d6"
+  },
+  {
+   "id": "ah.obl.pay-the-premium",
+   "heading": "Pay the Premium",
+   "sha256": "2e0ddd758cac2b39c6afa7bb331d196330040a497ca2c5337cf0d71f63c1e447"
+  },
+  {
+   "id": "ah.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "ah.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "f6fb50e76457e062e91716c11c7bb7a451ce3e915cb112515fc5f17280d4139e"
+  },
+  {
+   "id": "ah.cond.duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "1dd4733d97cd70232b3b5fada4ab3c4fc17aa4f5c6cb28afa7c62fa90acd421e"
+  },
+  {
+   "id": "ah.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "4afb726a6aa53910a4659f6960f3d2e60658615857828980d64198abcd0f9979"
+  },
+  {
+   "id": "ah.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "ceab355dfe2b8ab6958bda945b39ce489b902ce48fe7c68450c836a140fcac79"
+  },
+  {
+   "id": "ah.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "982fadbab28e45c698c6132696d12e9cb96483b295619846c9e4dcbb8d793ef9"
+  },
+  {
+   "id": "ah.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "539e01d5905c451560915a0ace9041ed4dcb073708b81efb4e760f727333f8fb"
+  },
+  {
+   "id": "ah.cond.conduct-of-defence",
+   "heading": "Conduct of the Defence and Conflicts of Interest",
+   "sha256": "0c37c9699ebc9d2bd3cf2519637c38635b4a6c0d14b109d2ba74c236259fac67"
+  },
+  {
+   "id": "ah.cond.senior-counsel",
+   "heading": "Senior Counsel Clause",
+   "sha256": "aaefb6782c2c8b84a1237c5b9bf268287da80cd6f04da2586f42fa9a284fdebb"
+  },
+  {
+   "id": "ah.cond.settlement",
+   "heading": "Settlement Opportunities",
+   "sha256": "6d53ad2ea9be45810db7a89bf8be3fd3446d2e28ec6e90857cef15343bd38eef"
+  },
+  {
+   "id": "ah.cond.allocation",
+   "heading": "Allocation",
+   "sha256": "47fbea3a5b764e918b3e5c3e819c49c50ba24973f2d7727eb5988a81897e448a"
+  },
+  {
+   "id": "ah.cond.subrogation",
+   "heading": "Subrogation",
+   "sha256": "2f3b93dfb69280d5cb504ce3b4422ce178697fa5d3e5a76ed522766257a85fb0"
+  },
+  {
+   "id": "ah.cond.severability",
+   "heading": "Severability and Non-imputation",
+   "sha256": "e2138ac95fc33e1254e485511064dcd057993ca080fddf55ed1ea5c39dff3c4a"
+  },
+  {
+   "id": "ah.cond.gst",
+   "heading": "GST and Input Tax Credits",
+   "sha256": "a5346723d7027deccc6556e06b2ec2d033e21f67d163a3183794af14f8cdad18"
+  },
+  {
+   "id": "ah.cond.aggregation",
+   "heading": "Multiple Claims Aggregation",
+   "sha256": "cb454564f30549fabfb43701870075b0a1f94e610d2c4b029f2aaad2c48c8952"
+  },
+  {
+   "id": "ah.cond.currency",
+   "heading": "Australian Currency",
+   "sha256": "4b8b0152afed851902cec25fd757711a33ed0b51ab85b1288ea4aadb12f6aff7"
+  },
+  {
+   "id": "ah.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "07abc033a26bfd24f43dbab4f4d53c7753517d01831e7a97ac0e4faf38444112"
+  },
+  {
+   "id": "ah.cond.repayment",
+   "heading": "Repayment Where Cover Is Not Established",
+   "sha256": "aa20e65732789d5ff9b72270e6b87433229019ea025c7d95fe376cc825f9547d"
+  },
+  {
+   "id": "ah.cond.utmost-good-faith",
+   "heading": "Utmost Good Faith",
+   "sha256": "8ec0c7ad97665b0d7a91a73d09597423b6e58ffba109babd9bc1d198d86aac8d"
+  },
+  {
+   "id": "ah.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "ah.cond.notices",
+   "heading": "Notices",
+   "sha256": "bd3beef9d90866c9229e850ba416f090c7cc0c0f6371cff03b51271e2b36ad32"
+  },
+  {
+   "id": "ah.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "e3bceb20ea5f55cc1e57c557c6e79a676dc3a5ab037978ed885282d3242669cd"
+  },
+  {
+   "id": "ah.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "b873052e45a80cabcf137f2352e2dd05a12f41372ca7afac6294bba8639ac31a"
+  },
+  {
+   "id": "ah.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "2009687f6da2cd1419c90414d2dac7413bfe80597aca776812be5e741830cde8"
+  },
+  {
+   "id": "ah.end.e01",
+   "heading": "E01 Facility-based Intrapartum Midwifery Care",
+   "sha256": "f1ee3348c49a6e092229cef2d7cc5787214f2e2072cd7519ab20e7427b0ec4b8"
+  },
+  {
+   "id": "ah.end.e02",
+   "heading": "E02 Clinical Trials and Approved Research",
+   "sha256": "7a06708c72db20072b9d99c50326766157e93d7259af0e9fbaf7a9d5721819f4"
+  },
+  {
+   "id": "ah.end.e03",
+   "heading": "E03 Practice Entity as Named Insured",
+   "sha256": "98a7cdb847483aa40a5e33210f01ddd7c54844f713dc04e5cbb81ce7109c6ce1"
+  },
+  {
+   "id": "ah.end.e04",
+   "heading": "E04 Increased Inquiry Costs Sub-limit",
+   "sha256": "105cbfef1aa0644e3be1fad5a3eebbaef087e22ce3700e765cd66e624c9e28e3"
+  },
+  {
+   "id": "ah.end.e05",
+   "heading": "E05 Extended Reporting Period",
+   "sha256": "794306a2bc9a58edb039073f2b36e8232c1842dfb9923ce5d8d03e0e14621bf1"
+  },
+  {
+   "id": "ah.end.e06",
+   "heading": "E06 Extended Run-off Cover",
+   "sha256": "83f14a636da1ae249aba7ee55106dd68144e242c87730b9d3502e131fb15c2e3"
+  },
+  {
+   "id": "ah.end.e07",
+   "heading": "E07 Cosmetic and Aesthetic Procedures",
+   "sha256": "8431b998d7342be5972c503e8df3841bd28d0135bb4de59259dfb6f41a6553c5"
+  },
+  {
+   "id": "ah.end.e08",
+   "heading": "E08 Worldwide Territorial Extension",
+   "sha256": "29213447a543170b8c29e6fbd3e7a453f5775747bd9a5b986005735b56078a3b"
+  },
+  {
+   "id": "ah.end.e09",
+   "heading": "E09 Telehealth to Overseas Patients",
+   "sha256": "99b0a9995145202507fc97c5f23f4a941badfdd3b44d3eb96cf994d7d6dae5cf"
+  },
+  {
+   "id": "ah.end.e10",
+   "heading": "E10 Animal-assisted Therapy Program",
+   "sha256": "40299df4bda3987970d90eb7090324598a86d6ae8059634500eec6b1173ffeb4"
+  },
+  {
+   "id": "ah.end.e11",
+   "heading": "E11 First Aid and Event Medical Services",
+   "sha256": "e9adfbdcfaff7b5f9f8b19ef25f7a7583183973ac81f6140a7468077ff7fa0c0"
+  },
+  {
+   "id": "ah.end.e12",
+   "heading": "E12 Second Reinstatement of the Limit",
+   "sha256": "a3febddfee6203f8988224e088731ae0ff0ff1c9fe1f135ccedece005b8b930a"
+  },
+  {
+   "id": "ah.end.e13",
+   "heading": "E13 Physiotherapy",
+   "sha256": "ed2dad6e4cb8e942e70f30240b0fd87d62b440f5f8fd373fe4f8806588e27cac"
+  },
+  {
+   "id": "ah.end.e14",
+   "heading": "E14 Psychology and Counselling",
+   "sha256": "b21011e67e417fcee37d56499259f16c095925ebd48fe9c1a73e14e5140ea2f2"
+  },
+  {
+   "id": "ah.end.e15",
+   "heading": "E15 Dental and Oral Health",
+   "sha256": "4ebcf12765896a7380c4622cf0dbaeb480a23008475015f78405715755b19b49"
+  },
+  {
+   "id": "ah.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "ah.end.e01",
+   "heading": "E01 Facility-based Intrapartum Midwifery Care",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.profession",
+     "qs.ah.practice.facility_intrapartum"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.profession == midwifery and qs.ah.practice.facility_intrapartum == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you are a midwife providing intrapartum care in a licensed facility.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.profession",
+     "text": "What is your health profession?",
+     "type": "select",
+     "options": [
+      "physiotherapy",
+      "chiropractic",
+      "osteopathy",
+      "podiatry",
+      "psychology",
+      "counselling",
+      "social_work",
+      "occupational_therapy",
+      "speech_pathology",
+      "dietetics",
+      "exercise_physiology",
+      "audiology",
+      "orthoptics",
+      "optometry",
+      "pharmacy",
+      "paramedicine",
+      "medical_radiation",
+      "sonography",
+      "chinese_medicine",
+      "atsi_health",
+      "massage_myotherapy",
+      "dentist",
+      "dental_specialist",
+      "dental_hygienist_therapist",
+      "dental_prosthetist",
+      "nursing",
+      "midwifery"
+     ],
+     "used_by": "R, A, S, E01, E13, E14, E15"
+    },
+    {
+     "id": "qs.ah.practice.facility_intrapartum",
+     "text": "Do you provide intrapartum midwifery care in a licensed healthcare facility?",
+     "type": "yes/no",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e02",
+   "heading": "E02 Clinical Trials and Approved Research",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.clinical_trials"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.clinical_trials == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you take part in a clinical trial or research project.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.clinical_trials",
+     "text": "Do you take part in a clinical trial or research project as an investigator or study clinician?",
+     "type": "yes/no",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e03",
+   "heading": "E03 Practice Entity as Named Insured",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.entity_insured"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.entity_insured == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you practise through a company, partnership or trust that you asked us to name."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.entity_insured",
+     "text": "Do you practise through a company, partnership or trust that you want named as an insured?",
+     "type": "yes/no",
+     "used_by": "E03"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e04",
+   "heading": "E04 Increased Inquiry Costs Sub-limit",
+   "trigger": {
+    "questions": [
+     "qs.ah.cover.inquiry_sublimit_increase"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.cover.inquiry_sublimit_increase == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for a higher inquiry costs sub-limit."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.cover.inquiry_sublimit_increase",
+     "text": "Do you want a higher inquiry costs sub-limit?",
+     "type": "yes/no",
+     "used_by": "E04"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e05",
+   "heading": "E05 Extended Reporting Period",
+   "trigger": {
+    "questions": [
+     "qs.ah.cover.erp_purchased"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.cover.erp_purchased == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you bought the 12-month extended reporting period."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.cover.erp_purchased",
+     "text": "Are you buying the 12-month extended reporting period?",
+     "type": "yes/no",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e06",
+   "heading": "E06 Extended Run-off Cover",
+   "trigger": {
+    "questions": [
+     "qs.ah.cover.extended_runoff_required"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.cover.extended_runoff_required == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because your registration standard or association requires run-off longer than 72 months."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.cover.extended_runoff_required",
+     "text": "Does your registration standard or professional association require run-off cover longer than 72 months?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e07",
+   "heading": "E07 Cosmetic and Aesthetic Procedures",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.cosmetic_procedures"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.cosmetic_procedures == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you perform cosmetic or aesthetic procedures.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.cosmetic_procedures",
+     "text": "Do you perform any non-surgical cosmetic or aesthetic procedures, such as cosmetic injectables?",
+     "type": "yes/no",
+     "used_by": "R, E07"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e08",
+   "heading": "E08 Worldwide Territorial Extension",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.overseas_work"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.overseas_work == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you provide services temporarily outside Australia."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.overseas_work",
+     "text": "Do you provide services temporarily outside Australia?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e09",
+   "heading": "E09 Telehealth to Overseas Patients",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.overseas_telehealth"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.overseas_telehealth == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you provide telehealth to patients outside Australia."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.overseas_telehealth",
+     "text": "Do you provide telehealth from Australia to patients outside Australia?",
+     "type": "yes/no",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e10",
+   "heading": "E10 Animal-assisted Therapy Program",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.therapy_animal_program"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.therapy_animal_program == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because you run a structured animal-assisted therapy program."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.therapy_animal_program",
+     "text": "Do you run a structured animal-assisted therapy program?",
+     "type": "yes/no",
+     "used_by": "E10"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e11",
+   "heading": "E11 First Aid and Event Medical Services",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.event_services"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.event_services == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you provide first aid or event health services at events."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.event_services",
+     "text": "Do you provide first aid or event health services at sporting, community or mass-gathering events?",
+     "type": "yes/no",
+     "used_by": "E11"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e12",
+   "heading": "E12 Second Reinstatement of the Limit",
+   "trigger": {
+    "questions": [
+     "qs.ah.cover.second_reinstatement"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.cover.second_reinstatement == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for a second reinstatement of the limit."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.cover.second_reinstatement",
+     "text": "Do you want a second reinstatement of the professional indemnity limit?",
+     "type": "yes/no",
+     "used_by": "E12"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e13",
+   "heading": "E13 Physiotherapy",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.profession"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.profession == physiotherapy",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you are a physiotherapist."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.profession",
+     "text": "What is your health profession?",
+     "type": "select",
+     "options": [
+      "physiotherapy",
+      "chiropractic",
+      "osteopathy",
+      "podiatry",
+      "psychology",
+      "counselling",
+      "social_work",
+      "occupational_therapy",
+      "speech_pathology",
+      "dietetics",
+      "exercise_physiology",
+      "audiology",
+      "orthoptics",
+      "optometry",
+      "pharmacy",
+      "paramedicine",
+      "medical_radiation",
+      "sonography",
+      "chinese_medicine",
+      "atsi_health",
+      "massage_myotherapy",
+      "dentist",
+      "dental_specialist",
+      "dental_hygienist_therapist",
+      "dental_prosthetist",
+      "nursing",
+      "midwifery"
+     ],
+     "used_by": "R, A, S, E01, E13, E14, E15"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e14",
+   "heading": "E14 Psychology and Counselling",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.profession"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.practice.profession == psychology",
+      "action": "apply"
+     },
+     {
+      "when": "qs.ah.practice.profession == counselling",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you are a psychologist or counsellor."
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.profession",
+     "text": "What is your health profession?",
+     "type": "select",
+     "options": [
+      "physiotherapy",
+      "chiropractic",
+      "osteopathy",
+      "podiatry",
+      "psychology",
+      "counselling",
+      "social_work",
+      "occupational_therapy",
+      "speech_pathology",
+      "dietetics",
+      "exercise_physiology",
+      "audiology",
+      "orthoptics",
+      "optometry",
+      "pharmacy",
+      "paramedicine",
+      "medical_radiation",
+      "sonography",
+      "chinese_medicine",
+      "atsi_health",
+      "massage_myotherapy",
+      "dentist",
+      "dental_specialist",
+      "dental_hygienist_therapist",
+      "dental_prosthetist",
+      "nursing",
+      "midwifery"
+     ],
+     "used_by": "R, A, S, E01, E13, E14, E15"
+    }
+   ]
+  },
+  {
+   "id": "ah.end.e15",
+   "heading": "E15 Dental and Oral Health",
+   "trigger": {
+    "questions": [
+     "qs.ah.practice.profession",
+     "qs.ah.dental.oms_specialist"
+    ],
+    "rules": [
+     {
+      "when": "qs.ah.dental.oms_specialist == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ah.practice.profession == dentist",
+      "action": "apply"
+     },
+     {
+      "when": "qs.ah.practice.profession == dental_specialist",
+      "action": "apply"
+     },
+     {
+      "when": "qs.ah.practice.profession == dental_hygienist_therapist",
+      "action": "apply"
+     },
+     {
+      "when": "qs.ah.practice.profession == dental_prosthetist",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you are a dental practitioner. Oral and maxillofacial surgery refers to an underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ah.practice.profession",
+     "text": "What is your health profession?",
+     "type": "select",
+     "options": [
+      "physiotherapy",
+      "chiropractic",
+      "osteopathy",
+      "podiatry",
+      "psychology",
+      "counselling",
+      "social_work",
+      "occupational_therapy",
+      "speech_pathology",
+      "dietetics",
+      "exercise_physiology",
+      "audiology",
+      "orthoptics",
+      "optometry",
+      "pharmacy",
+      "paramedicine",
+      "medical_radiation",
+      "sonography",
+      "chinese_medicine",
+      "atsi_health",
+      "massage_myotherapy",
+      "dentist",
+      "dental_specialist",
+      "dental_hygienist_therapist",
+      "dental_prosthetist",
+      "nursing",
+      "midwifery"
+     ],
+     "used_by": "R, A, S, E01, E13, E14, E15"
+    },
+    {
+     "id": "qs.ah.dental.oms_specialist",
+     "text": "Are you registered as a specialist oral and maxillofacial surgeon?",
+     "type": "yes/no",
+     "used_by": "A, E15"
+    }
+   ]
+  }
+ ],
+ "sha256": "76ee88ce674fb0375efd77f427593ee6e5094bc1bb997800cf6d73fb2e31bd43"
+}

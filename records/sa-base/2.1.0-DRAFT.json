@@ -1,0 +1,394 @@
+{
+ "wording": "sa-base",
+ "version": "2.1.0-DRAFT",
+ "doc_ref": "2026/SADO/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "sa.about",
+   "heading": "About This Policy",
+   "sha256": "43966173913d4d62266b25a497782f178cb08d890035594aa6a151b6232d4562"
+  },
+  {
+   "id": "sa.who-this-policy-is-for",
+   "heading": "Who This Policy Is For",
+   "sha256": "8180839b14b0732843262ae84d3d47c4c174266956ad11e50adee27369652ca8"
+  },
+  {
+   "id": "sa.version-history",
+   "heading": "Version and Document History",
+   "sha256": "54bce159a8409d4853dca40996c5df1ca32aeb9fef694f4d35671d79ef20d75c"
+  },
+  {
+   "id": "sa.schedule",
+   "heading": "Schedule",
+   "sha256": "6a1334e36ecde34c9a31256f2fb0fb39d83038728b2e1a617a8f2369d59eaaf7"
+  },
+  {
+   "id": "sa.section.definitions",
+   "heading": "Definitions",
+   "sha256": "554a26141d6680a3e17d792e381673e3364e21a4f384e1509f45cf0de1b9cfb3"
+  },
+  {
+   "id": "sa.def.attachment-point",
+   "heading": "Attachment point",
+   "sha256": "66419967194782894474a4298c5d1d34fca13510e8cf84db8a32abc91fc9d461"
+  },
+  {
+   "id": "sa.def.claim",
+   "heading": "Claim",
+   "sha256": "4f5a31dc5bd05381119404595195654439d041a6dc9cda392be22a26d91aa58c"
+  },
+  {
+   "id": "sa.def.company",
+   "heading": "Company",
+   "sha256": "c44b3910f27445a81b1c7aa8bd6b35767a02f9ac96fb2a7d8113472c8eb979b7"
+  },
+  {
+   "id": "sa.def.control-group",
+   "heading": "Control group",
+   "sha256": "6b024792eb8b44617e0ef3bb432114469d8f98dd535864c15cc41854bcbf02c8"
+  },
+  {
+   "id": "sa.def.defence-costs",
+   "heading": "Defence costs",
+   "sha256": "bc4dcf222340c9a21b0f9ed3efb825bf303efe1b85be3980333a342e8cb088d7"
+  },
+  {
+   "id": "sa.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "c32b97c887b446c065b84d5202450912ae38b786ef132af5d6846ffecd726791"
+  },
+  {
+   "id": "sa.def.final-adjudication",
+   "heading": "Final adjudication",
+   "sha256": "bc176b8f544c372c8838a92e970f30eada89fb4e4252d531ee9b41890131b730"
+  },
+  {
+   "id": "sa.def.followed-policy",
+   "heading": "Followed policy",
+   "sha256": "c79b9c653bed58f02014be0de267e9e8930d5d285ab4d6963845f5c87f6f5305"
+  },
+  {
+   "id": "sa.def.insured-person",
+   "heading": "Insured person",
+   "sha256": "04f319463b41815c5585d045c25fb8876fee135e5d149bd3a38b38f29614ec2f"
+  },
+  {
+   "id": "sa.def.loss",
+   "heading": "Loss",
+   "sha256": "6f56ccd7a9aa65dcfe27b5329fffc4b0a98fa9d0073f89dce0b9a098d441ff00"
+  },
+  {
+   "id": "sa.def.non-indemnifiable-loss",
+   "heading": "Non-indemnifiable loss",
+   "sha256": "d243e4a705388f2b2bfd4c09ffb31c3c5f88b48fb63e2a1cba1dfe746b3ec730"
+  },
+  {
+   "id": "sa.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "d6a511fc41147e9d326e585004fdd26d28f477225531e71c71e97b68b751b854"
+  },
+  {
+   "id": "sa.def.regulator",
+   "heading": "Regulator",
+   "sha256": "dc8558d1996e55914332079ca2cd40de560063ad69ebc41b64ca8182bb3300db"
+  },
+  {
+   "id": "sa.def.retroactive-date",
+   "heading": "Retroactive date",
+   "sha256": "043e991dacd77e40ed76c581792d99b962b101e545581c9fd8153fa668b303f1"
+  },
+  {
+   "id": "sa.def.schedule",
+   "heading": "Schedule",
+   "sha256": "5de045beca766edb61f2163b3f027610e337c8f74f147d40bced2d2b8e89470b"
+  },
+  {
+   "id": "sa.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "6221c8dbc015758af58860951347623c24c8350defb15fb6fbc62f5a5d57f733"
+  },
+  {
+   "id": "sa.def.underlying-do-insurance",
+   "heading": "Underlying D&O insurance",
+   "sha256": "775d4fe1f7597abab0188383e1c914618d48efa80013ab2adf46228da5a641e5"
+  },
+  {
+   "id": "sa.def.underlying-insurer",
+   "heading": "Underlying insurer",
+   "sha256": "4ef21e5545f6a3930336a6ea043ad30cf86c3e7727a8d136e786a0a98cc7d3fe"
+  },
+  {
+   "id": "sa.def.we-us-our",
+   "heading": "We / us / our",
+   "sha256": "b4b6b27adda7d9a701773f77d7426d90a6a302d91b97bd5637cd7d4582a3ef6d"
+  },
+  {
+   "id": "sa.def.wrongful-act",
+   "heading": "Wrongful act",
+   "sha256": "d244686aafb8ed2a302c461e16c67ead0b3af0e522ecb32c82e25247bf0eb19b"
+  },
+  {
+   "id": "sa.def.you-your",
+   "heading": "You / your",
+   "sha256": "5c85cdd7de2ace99ae454702bec6d5d6655a5790c20449582042f1401fb76aca"
+  },
+  {
+   "id": "sa.section.covered",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "sa.cover.side-a-excess-cover",
+   "heading": "Side A Excess Cover",
+   "sha256": "d0a6446bc68a3b86304888ddb9e77d4d8151a3c96eba49f9d6d5ef116b4c2bae"
+  },
+  {
+   "id": "sa.cover.exhaustion-of-the-underlying-do-insurance",
+   "heading": "Exhaustion of the Underlying D&O Insurance",
+   "sha256": "5a9bda51b644cd3c76aae8e35a6dad8cc687d7d3146983fd326cc743d2518b1e"
+  },
+  {
+   "id": "sa.cover.following-the-underlying-do-insurance",
+   "heading": "Following the Underlying D&O Insurance",
+   "sha256": "ebf82b45a0c3dd0933e4bcd6f8d20df0bb30b03544f7e459fc4acbee540500d3"
+  },
+  {
+   "id": "sa.cover.no-drop-down",
+   "heading": "No Drop-Down",
+   "sha256": "4b8610b9c2a02c2486878e2dcf1e85e4ade5c83008c1ca6c7b9e3adfa8683f43"
+  },
+  {
+   "id": "sa.cover.priority-and-independence",
+   "heading": "Priority and Independence",
+   "sha256": "ba12be5c55683a4dd24156523207572c627313f99de91ac9d60d3536311daca8"
+  },
+  {
+   "id": "sa.cover.presumptive-indemnification",
+   "heading": "Presumptive Indemnification",
+   "sha256": "c4cef391b286307fc0e3fa32d71b1d9018cb7881bd0b2f36345ba3a0b3a533e4"
+  },
+  {
+   "id": "sa.ext.advancement-of-defence-costs",
+   "heading": "Advancement of Defence Costs",
+   "sha256": "87427e6f81c6b045f86de08bead23f2753d322404674837a11bbae0e14a5a466"
+  },
+  {
+   "id": "sa.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "2d4ab386b6d446af2952abf016238d79b0620f2d69c1f7faed00e787fcd4993b"
+  },
+  {
+   "id": "sa.excl.loss-indemnified-by-the-company",
+   "heading": "Loss Indemnified by the Company",
+   "sha256": "a100a3727e5af218cf7cee2576a7bab5c3d83e9b82dfbcb7b987a4d7e5db30af"
+  },
+  {
+   "id": "sa.excl.dishonesty-and-fraud",
+   "heading": "Dishonesty and Fraud",
+   "sha256": "07d31cc13dac11987cf43a14596c51ef34e07302913bf0d65246c96f2fad3d5c"
+  },
+  {
+   "id": "sa.excl.personal-profit",
+   "heading": "Personal Profit",
+   "sha256": "bb1e1b019e95c7ef0dbf13878d52720607cb187b9acb129a457b71c292fcebb3"
+  },
+  {
+   "id": "sa.excl.prior-and-pending-litigation",
+   "heading": "Prior and Pending Litigation",
+   "sha256": "ca722702630d3e5f2cd6ff987d2b427f428d163513b6bd7fed652821b9f2a95c"
+  },
+  {
+   "id": "sa.excl.us-canada-jurisdiction",
+   "heading": "US / Canada Jurisdiction",
+   "sha256": "9b5f17c0972d42dbe692b5916711f14a0c01bb7ce7bd4034ce4c73fa65e91572"
+  },
+  {
+   "id": "sa.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "sa.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "b85543f249a03e265bc1ecd54aca37de7dda6e578fca5a474797b1988c6013fa"
+  },
+  {
+   "id": "sa.pay.defence-costs-within-the-limit",
+   "heading": "Defence Costs Within the Limit",
+   "sha256": "c95c4e1973fd0dfe379b693a3d6060c520c40b86a2800f37882d6ff99bdd0cec"
+  },
+  {
+   "id": "sa.pay.no-excess-for-insured-persons",
+   "heading": "No Excess for Insured Persons",
+   "sha256": "954f07e1249259d50b460bf6eefc062b0a7e6a891bbbdc36df862876ea51d72c"
+  },
+  {
+   "id": "sa.pay.order-of-payment",
+   "heading": "Order of Payment",
+   "sha256": "5361071b38e60d10ae0eb6ca23901a1f2dccfbff6154a3bbba1032d78d95dd94"
+  },
+  {
+   "id": "sa.pay.allocation",
+   "heading": "Allocation",
+   "sha256": "d95bf4dcb46c4b1330df197cbf5054746ef9a7968d6f249563a43be03c6324e9"
+  },
+  {
+   "id": "sa.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "8ab7b15ebd9ea96aabf337b94fb0d040bdff194e86b6239e3da32897abc9787f"
+  },
+  {
+   "id": "sa.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "sa.obl.notify-claims",
+   "heading": "Notify Us of Claims",
+   "sha256": "ceef157f9676b93e0f1b4fe190c85dc304259039f8d1822f5604a2a9751a17bd"
+  },
+  {
+   "id": "sa.obl.notify-circumstances",
+   "heading": "Notify Us of Circumstances",
+   "sha256": "cad4922f316dbd65a65d3322fbdb8c2add9c9a17191fb97bd96761162794dd48"
+  },
+  {
+   "id": "sa.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability",
+   "sha256": "1b9a6ce916b59357a94f5ece0b36e4b85a350df4091b1a641adcbdd5d620174e"
+  },
+  {
+   "id": "sa.obl.cooperate",
+   "heading": "Cooperate",
+   "sha256": "67ff047a8e27de857185a6a2e6ca24d106af6fb99cafc260c7829d7e64729af2"
+  },
+  {
+   "id": "sa.obl.maintenance-of-underlying-do-insurance",
+   "heading": "Maintenance of Underlying D&O Insurance",
+   "sha256": "2dc1dcf50aeb9283c4b2531983e2d96be83f1afe6f609fd3e79053cdb8148ed8"
+  },
+  {
+   "id": "sa.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "sa.cond.non-avoidance",
+   "heading": "Non-Avoidance",
+   "sha256": "90002a6a07ae28ea46c36a03093da4316a27f5acfa7153b7fd9710d41d896bdf"
+  },
+  {
+   "id": "sa.cond.duty-of-disclosure",
+   "heading": "Duty of Disclosure",
+   "sha256": "68be20a3836684038d78a37a80bd766dcc163415738f8a7eeca13e013423ee78"
+  },
+  {
+   "id": "sa.cond.severability",
+   "heading": "Severability",
+   "sha256": "da7b207af40d0c2925779a4ec2f4add131b8d7d4dc61ecf4f9e2930a2f82e493"
+  },
+  {
+   "id": "sa.cond.subrogation-and-recovery",
+   "heading": "Subrogation and Recovery",
+   "sha256": "5b7352b48a1d26f4b3a2125a2ab2d3a66e52f9a5196febcbd15a815694d94b94"
+  },
+  {
+   "id": "sa.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "0c32697d43e49937c0149322e7696b6b001e7e2953834660b6c05caae92420f0"
+  },
+  {
+   "id": "sa.cond.discovery-period",
+   "heading": "Discovery Period",
+   "sha256": "bb4c433980b8bdcd25688b58ff98e48adc035cf0f63e23699f9c4849a2092cf4"
+  },
+  {
+   "id": "sa.cond.governing-law-and-jurisdiction",
+   "heading": "Governing Law and Jurisdiction",
+   "sha256": "214ab87c7eea20410709de0a4dbe8d611e89f7b6dc2fcba3c825edd9b585960a"
+  },
+  {
+   "id": "sa.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "e1e1be20f7fcf7d4847d8e3d1cf71110403069111763a7505d746f5cc4d91bc2"
+  },
+  {
+   "id": "sa.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "3f3857c12f52c9133e539ed56387eda4cecdd9c717fe3b81a458f1ecc3f1c72d"
+  },
+  {
+   "id": "sa.cond.insurance-contracts-act-1984-cth",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "sa.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "sa.cond.corporations-act-199a-199b",
+   "heading": "Corporations Act 2001 (Cth), sections 199A and 199B",
+   "sha256": "77c294c51bc797c6699dd850f154353870385f16682db19b2f7653b4083f33af"
+  },
+  {
+   "id": "sa.cond.gst",
+   "heading": "GST",
+   "sha256": "fabeba3d49b7fca85cb6fdec49f42195b5b67a1b95b31dd84ba4e1d269ff0431"
+  },
+  {
+   "id": "sa.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "73b33ef9951752218ba4a4ca4e0d7183a709d5dc9567aef82a311c250dfef8a9"
+  },
+  {
+   "id": "sa.end.e04",
+   "heading": "E04 Difference in Conditions",
+   "sha256": "f2eade26f481678d6dd2915b2d18b9082967bcd269314de164a8a44e4cc5acab"
+  },
+  {
+   "id": "sa.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "a9197586ca05e70ea09c3fa34e0568886c231b230cf25e52647542ad54c94efd"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "sa.end.e04",
+   "heading": "E04 Difference in Conditions",
+   "trigger": {
+    "questions": [
+     "qs.sa.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E04' in qs.sa.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for drop-down cover for the insured persons if the underlying D&O insurance does not pay.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.sa.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E04"
+     ],
+     "used_by": "E04"
+    }
+   ]
+  }
+ ],
+ "sha256": "9eb7f469292f2e0060775c37856aa784b27e5f33861f06ee745fe0684e5990ec"
+}

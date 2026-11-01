@@ -1,0 +1,937 @@
+{
+ "wording": "hom-base",
+ "version": "1.2.0-DRAFT",
+ "doc_ref": "2026/HC/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "hom.about",
+   "heading": "About This Policy",
+   "sha256": "c193252e821d1b0a0f4b702df33c9896be9408aed1167255e0d7d452a2f33e86"
+  },
+  {
+   "id": "hom.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "hom.important-information",
+   "heading": "Important Information",
+   "sha256": "b261b484e9b47e44f7600b638449cad9338ade66bbaefeca46a0b101a2e7921f"
+  },
+  {
+   "id": "hom.schedule",
+   "heading": "Schedule",
+   "sha256": "91f7b2b238aa72f7fba3a83a1f0384b95340f8ff00434d93585a7a3986a9ef19"
+  },
+  {
+   "id": "hom.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "hom.def.action-of-the-sea",
+   "heading": "Action of the Sea",
+   "sha256": "b88dc7d8353a9d30a6a83b8b44187e6af74ca1fe690b255f83798cc6ebab5469"
+  },
+  {
+   "id": "hom.def.building",
+   "heading": "Building",
+   "sha256": "9bcce37de09e839a3286513f50f9dec77b4e91584191a6e1192072883029a145"
+  },
+  {
+   "id": "hom.def.contents",
+   "heading": "Contents",
+   "sha256": "a91fcff6ffe58d345defa71f0634c17fa38ebb8dc10f7439ff9968017d16007d"
+  },
+  {
+   "id": "hom.def.damage",
+   "heading": "Damage",
+   "sha256": "d432f3d0ff54e5ed22ecc8f9b4c0277164e66b979329c6336f64a543a8d94e49"
+  },
+  {
+   "id": "hom.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "hom.def.event",
+   "heading": "Event",
+   "sha256": "ea422572812bbf7207170aa45aaa20eb198b2147f69fea2fb2e0207dcb555bdf"
+  },
+  {
+   "id": "hom.def.excess",
+   "heading": "Excess",
+   "sha256": "02b6edbced1c6e3d2db53f8192f1401fb7f420ca111f3e717c0a83ecd90c18c7"
+  },
+  {
+   "id": "hom.def.flood",
+   "heading": "Flood",
+   "sha256": "ad90765e056be5bef8913eab403de8cb368f8b99cfe90ba2bc34dd2c0f3858c3"
+  },
+  {
+   "id": "hom.def.household",
+   "heading": "Household",
+   "sha256": "fa6b747192cc0fcc6fe8af21253f595f87022baa1591f799c7a17046f04d0594"
+  },
+  {
+   "id": "hom.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "8891499b97f0ef59bd7b2b6aa966c24dcf1cfb571f4158ef4778841b7db0773d"
+  },
+  {
+   "id": "hom.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "4b030f38437c9dc3975d7fd59275666dec7a6789f1cfab4f8fd2718a141478b8"
+  },
+  {
+   "id": "hom.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "ab2de411a69b0ea6054424984be7961bc6fd9d18b7403e3f1c0c6da4721476a9"
+  },
+  {
+   "id": "hom.def.storm",
+   "heading": "Storm",
+   "sha256": "e88adacfb114307cded4155ec9cd6cc7630e40c547c8a89f4d53315a5e5761c6"
+  },
+  {
+   "id": "hom.def.sum-insured",
+   "heading": "Sum Insured",
+   "sha256": "a87b7f6029fc00c94d792f18b0d48986e93b41762be8e56b8cf8edab44501c88"
+  },
+  {
+   "id": "hom.def.unoccupied",
+   "heading": "Unoccupied",
+   "sha256": "1ace8d7ca20dd7ff8f5eb30bea87bf1212b999632bd418b843e32df5fdc3392c"
+  },
+  {
+   "id": "hom.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "hom.def.you-your",
+   "heading": "You, Your",
+   "sha256": "8897cf1c5c1863b7a05e157aa9234782b5275066543b936056e5dd859aef7b24"
+  },
+  {
+   "id": "hom.section.building",
+   "heading": "Home Building",
+   "sha256": "71aafd89c507ffe7c9abe559914346ebe33ffa06a615b895f8a031bea3eb34c8"
+  },
+  {
+   "id": "hom.cover.building",
+   "heading": "Damage to the Building",
+   "sha256": "356a81bc5034a16763c216fa0148014a8d0235c281036b3ae0897ac47c725176"
+  },
+  {
+   "id": "hom.pay.building-settlement",
+   "heading": "How We Settle Building Claims",
+   "sha256": "1f61416681f606c4229bf749efdef23fc72558d2c9da17c898cbb568b1dc4d2a"
+  },
+  {
+   "id": "hom.ext.temporary-accommodation",
+   "heading": "Temporary Accommodation",
+   "sha256": "3a4a96b4288a8c919a1eee41704137e0df28d3210ce32f17e9e0c8a5d38d0b22"
+  },
+  {
+   "id": "hom.ext.emergency-repairs",
+   "heading": "Emergency Repairs and Temporary Protection",
+   "sha256": "b46e99b32fb2518ae9454a47e006d2b79d2253a9e28084d4bfe7498262d91452"
+  },
+  {
+   "id": "hom.ext.keys-and-locks",
+   "heading": "Keys and Locks",
+   "sha256": "fbf3a5ff61d1c4f670b80d48cc09f33e3d024d50d3dffe0e6e09160ec9f43604"
+  },
+  {
+   "id": "hom.ext.landscaping",
+   "heading": "Trees, Plants and Landscaping",
+   "sha256": "00e36fd1308b02d35c8b19838fcbc87e3e974e7195229890d34902fcf2892ca9"
+  },
+  {
+   "id": "hom.ext.fire-services-charges",
+   "heading": "Fire Services Charges",
+   "sha256": "b23b20a022f5a4bf89d808e18bb53513fe7177b5eb0161f1f2c40457c6ba5614"
+  },
+  {
+   "id": "hom.ext.motor-burnout",
+   "heading": "Motor Burnout",
+   "sha256": "c7e10f3fab57f25f463f0073d26b92250335b97bcf84e40a857832020289afaa"
+  },
+  {
+   "id": "hom.ext.mortgage-discharge",
+   "heading": "Mortgage Discharge Costs",
+   "sha256": "06cc7b3e0b32d3f73a4fb8715cbf90c4dac78f43ddb7a6933d8d33b49d0a626e"
+  },
+  {
+   "id": "hom.section.contents",
+   "heading": "Contents",
+   "sha256": "983258ca825210faa5b9274c0d2951639affab1833923d01ee93a7d0f21a22c7"
+  },
+  {
+   "id": "hom.cover.contents",
+   "heading": "Damage to Your Contents",
+   "sha256": "260be22f41c8a2f99a8b1f9eb7b954440535496f9ee3d9efe49cbcacf73eda5a"
+  },
+  {
+   "id": "hom.pay.contents-settlement",
+   "heading": "How We Settle Contents Claims",
+   "sha256": "66ab67310ddf230b6dd445deb41364e159d7008e7dabf9a56dbdcaf8f18cb7e7"
+  },
+  {
+   "id": "hom.pay.contents-limits",
+   "heading": "Limits for Some Contents",
+   "sha256": "0fd2dcaecf05863a08718cd7174b81e8589239ce31b6aaa4d9e6d7e6ad66fe50"
+  },
+  {
+   "id": "hom.ext.contents-away",
+   "heading": "Contents Away From the Home",
+   "sha256": "c4507e8db81ddbc18d3780865cbfeb9434a405b4b51718a7772be9d50f6ba26b"
+  },
+  {
+   "id": "hom.ext.spoiled-food",
+   "heading": "Spoiled Food and Medicine",
+   "sha256": "178b01dcf4c73cdcd1ebb90acaacdb6a26bace6583708bf9b3a8776594bee419"
+  },
+  {
+   "id": "hom.ext.guests-property",
+   "heading": "Guests' and Domestic Workers' Property",
+   "sha256": "3fa704b2f98ff267861ecd365ffdb2393a51e1c6e3fbd60cfeee0d981b8d982a"
+  },
+  {
+   "id": "hom.ext.contents-accommodation",
+   "heading": "Temporary Accommodation for Contents-Only Policies",
+   "sha256": "c76d698daf9fd0ea218cfd51399fe0baa4694f06aa744b5b42bc117059576649"
+  },
+  {
+   "id": "hom.section.property-exclusions",
+   "heading": "What the Home Building and Contents Sections Do Not Cover",
+   "sha256": "b010226d738c724871516ebefddfd67acc741ada6ff31c579b324b2dfca3e5d2"
+  },
+  {
+   "id": "hom.excl.first-72-hours",
+   "heading": "Storm and Flood in the First 72 Hours",
+   "sha256": "4ab9a51c5877208ed7cbda544d48e96d224ef42e8e5b12045f1c7d79d9ce7252"
+  },
+  {
+   "id": "hom.excl.defects-and-gradual-causes",
+   "heading": "Defects and Gradual Causes",
+   "sha256": "2b5ed6b5f4821d4df13e5785af55bff3cb68eb140f6a36564f904b8b3a4120cd"
+  },
+  {
+   "id": "hom.excl.earth-movement",
+   "heading": "Earth Movement",
+   "sha256": "0e7c0fd823ed6fde7254c0fed2f011eac436817abe12b78feb86b49a36bb1131"
+  },
+  {
+   "id": "hom.excl.action-of-the-sea",
+   "heading": "Action of the Sea",
+   "sha256": "9144b37c9178e249409c2b0dcaf9550ac18dba55c4c092334398d8c7058fb1ce"
+  },
+  {
+   "id": "hom.excl.unoccupied",
+   "heading": "Unoccupied Home",
+   "sha256": "aa1651812818a6b016deb9d0d7f4fb6dfbeb251528b3aeb3e96f3b539d23c5b5"
+  },
+  {
+   "id": "hom.excl.property-other",
+   "heading": "Other Property Exclusions",
+   "sha256": "ddaf4f7c189f96757046db40d65d62bdd1bf4b1c4eddaf4fed0481b3a9b2ab9a"
+  },
+  {
+   "id": "hom.section.liability",
+   "heading": "Personal Liability",
+   "sha256": "57c866be041d1ad1df2fe45e607217a5f48741134005cc62d3d9c2f88ce67f98"
+  },
+  {
+   "id": "hom.cover.liability",
+   "heading": "Liability as a Householder",
+   "sha256": "3bfeedbc8d31b8d52b120c107051e8f9c9ccfbb3224a0966672e6257f6cbfe09"
+  },
+  {
+   "id": "hom.excl.liability-household",
+   "heading": "Your Household",
+   "sha256": "4ed8dedc5806e523bb59965a5a18b0243c13c2544aa70fafc86f7211e5ec3b90"
+  },
+  {
+   "id": "hom.excl.liability-workers",
+   "heading": "Workers",
+   "sha256": "f3cfc9ab25e80a65e29d354c037f54352a880787eaf9dfddcdcc6f24414dc1b9"
+  },
+  {
+   "id": "hom.excl.liability-contracts",
+   "heading": "Contractual Liability",
+   "sha256": "dea115a7d07bc78fd6b7d4d287b3f18d95328b7f3ec9c5aae0f537327b154856"
+  },
+  {
+   "id": "hom.excl.liability-vehicles",
+   "heading": "Vehicles, Aircraft and Watercraft",
+   "sha256": "03452e0a49e237c0b6aa529a2a6546dd42b56281f26f66739b0f77587851452b"
+  },
+  {
+   "id": "hom.excl.liability-pollution",
+   "heading": "Pollution",
+   "sha256": "a858f1e2487335e0b87bafe9ee93e532b42e1aea10a771234b4a482466cf3d5a"
+  },
+  {
+   "id": "hom.excl.liability-asbestos",
+   "heading": "Asbestos",
+   "sha256": "c9ca5c78bacc32cd16c09abab45dda92dd80f40d23b05583cc69d5207c1b6b76"
+  },
+  {
+   "id": "hom.excl.liability-business",
+   "heading": "Business and Professional Activities",
+   "sha256": "8da22c630d6c69693120ce3163bf33f732aad1e5d5c4157c2d24f7de59afcf0d"
+  },
+  {
+   "id": "hom.excl.liability-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "835660ece3e34d0c6ae8e5a5a84c083ca6225b33508a0d834b7992d75a1e8046"
+  },
+  {
+   "id": "hom.section.general-payment",
+   "heading": "How Claims Are Paid",
+   "sha256": "9367c0e6caacb5f519141d2ad804ddd8c0c0b61b8777db77c2488fb166cddc80"
+  },
+  {
+   "id": "hom.pay.excess",
+   "heading": "Excess",
+   "sha256": "352c49818fec1c5fa4b0571508d9715b3dd360fbfeab708ffa823cd971dc50cb"
+  },
+  {
+   "id": "hom.pay.gst",
+   "heading": "GST and Claims",
+   "sha256": "6c8c3834c1e8a36b32e78ead5d7964f5666ad83c840dc2f38b8f0e5056ed2c06"
+  },
+  {
+   "id": "hom.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "abe7f054c7d64082533a9c9a93218054ed05183b568dd21d62ef4dff6144564d"
+  },
+  {
+   "id": "hom.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "851e3bc4de56ca974672e3fe170221dc0b640b558a0b48b06ab140d6dc2e4799"
+  },
+  {
+   "id": "hom.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "3b2494e49e0a61e20143f898a2a2ac00d8939981941fcb50c6f35529bfa2ebd4"
+  },
+  {
+   "id": "hom.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "84d7b48774ad05b57e65de8fbb20bf153fb8667320d8549143e140e468809a09"
+  },
+  {
+   "id": "hom.excl.illegal-use",
+   "heading": "Illegal Use",
+   "sha256": "a2a3c23c1b08289847562bafd71d4602043009ac33faa1685ee45af2c80ee01d"
+  },
+  {
+   "id": "hom.excl.war",
+   "heading": "War",
+   "sha256": "a6d18b9894cb3541b2b13a43b15b8889c3cf014aff3425645ea35ed7547e5604"
+  },
+  {
+   "id": "hom.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "515a0fcec4a0a619b5d701b1f7eee86fa4488feb962cc0b2170467de8a674df4"
+  },
+  {
+   "id": "hom.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "397dd472da5a320879a3447bb3edf3f1931551bb15f6197772605ddd26ec58da"
+  },
+  {
+   "id": "hom.excl.cyber",
+   "heading": "Electronic Data",
+   "sha256": "ba1ea94bbe0dc1863c6f9797baffd6d30561dac6949971cc5a2fa87049508d13"
+  },
+  {
+   "id": "hom.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "hom.obl.tell-us-about-claims",
+   "heading": "Telling Us About a Claim",
+   "sha256": "380f7f9b42a3f417e01a618177adda3ca44681ab9f2ec0687032fd9010683314"
+  },
+  {
+   "id": "hom.obl.reduce-loss",
+   "heading": "Reducing Loss",
+   "sha256": "e7dc391341235b730961a6af937c6c05ea3a834ee64c3c1c941e26a0495bb0d6"
+  },
+  {
+   "id": "hom.obl.admissions",
+   "heading": "Admissions",
+   "sha256": "084bd71a11b3bc24c10b09ea9bdb6b822cea02046878ee2d78ead935234d09c1"
+  },
+  {
+   "id": "hom.obl.tell-us-about-changes",
+   "heading": "Telling Us About Changes",
+   "sha256": "17d1db1c9eb8296e59c5f7184dd3124c5a581ef02ed8a8b3631e89a195f6fed8"
+  },
+  {
+   "id": "hom.obl.subrogation",
+   "heading": "Our Right of Recovery",
+   "sha256": "c695adec8ca7926d092b4a910ff2d006b37c46ccfdcf75ab07d0d2e6a010b182"
+  },
+  {
+   "id": "hom.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "hom.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "hom.cond.joint-insureds",
+   "heading": "Joint Insureds",
+   "sha256": "a536dfb57ceaf2a3eaaa1d19b003ded8223467463d1caeac03090fd0287d44dc"
+  },
+  {
+   "id": "hom.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "b2c4d3e38b2764d2843c71bcccb0b7200544856642ec8fd5229f56fcfd5805fb"
+  },
+  {
+   "id": "hom.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "c86ca1a7e228dcda5eea5b6490637d8131c390871051330bc1e8caccca7570ca"
+  },
+  {
+   "id": "hom.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "5ba52d19ab90443ea6b2198a22945a8def05fcb16abf4bdcae943f6728c7bdb5"
+  },
+  {
+   "id": "hom.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "hom.cond.gst",
+   "heading": "GST",
+   "sha256": "63bdcc61627672d8dac44e7f52e17015b5be64ad6348ea1b11ce090bc5a9d35c"
+  },
+  {
+   "id": "hom.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "696e65b0a580b4d8fdbdd4bc83e9d0455abae3f0dad4befe3522a0d5b0fe0aa3"
+  },
+  {
+   "id": "hom.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "2f7238ce116321804d396ddc0bfafeafe676e4b8e60bdda48cde9a0d5777d640"
+  },
+  {
+   "id": "hom.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "b4676fb48efc7d2006eea1f41e6189417467205bc57405e521276e9d4b550bac"
+  },
+  {
+   "id": "hom.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "hom.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "hom.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "42cb1b150943386079d3247d30e3c48bbd070fe8789745ad271f0ac7b286994d"
+  },
+  {
+   "id": "hom.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "74d388d6cd24410d28964ee903cc5597a3ce954d70eafb7813d661acb034bb88"
+  },
+  {
+   "id": "hom.end.e01",
+   "heading": "E01 Accidental Damage",
+   "sha256": "ec825486d9686ef7652ad3c0b2bd6f111772e35a4e563940e83e6f41103ad00c"
+  },
+  {
+   "id": "hom.end.e02",
+   "heading": "E02 Flood Excess",
+   "sha256": "42ba4f20b02d822a5afda51d9a8abb09fa4df388cde5ac5c879a4f7f393efe5e"
+  },
+  {
+   "id": "hom.end.e03",
+   "heading": "E03 Portable Contents",
+   "sha256": "d6eb8efc5161c2329e5203a74f40866b0a886b8bd9f8801a1bda9fe78001f697"
+  },
+  {
+   "id": "hom.end.e04",
+   "heading": "E04 Home Business",
+   "sha256": "77af8941d74ce97a25a60d618dcb3856abb270c2b987aa9d5fa96fc2b84fcbf5"
+  },
+  {
+   "id": "hom.end.e05",
+   "heading": "E05 Short-Stay Letting",
+   "sha256": "ed61280a8d0b536aacac0dd287e80dcec412095b0ca071428183e4b92a625147"
+  },
+  {
+   "id": "hom.end.e06",
+   "heading": "E06 Specified Valuables",
+   "sha256": "860bd92dfb646fa71dad67fc3df81f49fd2e70657ef1238f21ebecbe95485940"
+  },
+  {
+   "id": "hom.end.e07",
+   "heading": "E07 Strata Lot Owner",
+   "sha256": "0f326e86b9f1d1b05bd6b5d3228a455aa0dd2da5ebe74b4236d25882d170c84d"
+  },
+  {
+   "id": "hom.end.e08",
+   "heading": "E08 Agreed Value",
+   "sha256": "c958685060d916d3b1e993ffff4e2a354d487237666dd8b211b79ecc5cdb14c7"
+  },
+  {
+   "id": "hom.end.e09",
+   "heading": "E09 Heritage-Listed Home",
+   "sha256": "0191b0982918e2b9c6aeca47c26ce16b5155128fa4f05d661ffd1b8e47bf4c19"
+  },
+  {
+   "id": "hom.end.e10",
+   "heading": "E10 Building Works",
+   "sha256": "83e1ecf4f5dccb98c702fc5d6431b2bfb0055e406bc147dd4d3820ebed8f47f7"
+  },
+  {
+   "id": "hom.end.e11",
+   "heading": "E11 Unoccupied Home",
+   "sha256": "069a68cdee58b2e03622cfd3cf6b26eba25fc5739defb1b473fbb8cba4694e0c"
+  },
+  {
+   "id": "hom.end.e12",
+   "heading": "E12 Interested Party",
+   "sha256": "69d9d270c2fa70a7d7cbaf82655828e072f97297026a7dc8cc88748f2ddcf002"
+  },
+  {
+   "id": "hom.end.e13",
+   "heading": "E13 Lloyd's Underwriters",
+   "sha256": "7bca19bc794c0e5503de250fd9be6c219ff4e3eb4675dcb1471be13599c2a3aa"
+  },
+  {
+   "id": "hom.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "7f13832ca4e824dd4d5e5331d79eff360781670aff2f49f925aaeeecc6ad13a7"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "hom.end.e01",
+   "heading": "E01 Accidental Damage",
+   "trigger": {
+    "questions": [
+     "qs.hom.cover.accidental_damage"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.cover.accidental_damage == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because accidental damage cover was chosen.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.cover.accidental_damage",
+     "text": "Do you want to add accidental damage cover?",
+     "type": "yes/no",
+     "used_by": "R, E01"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e02",
+   "heading": "E02 Flood Excess",
+   "trigger": {
+    "questions": [
+     "qs.hom.property.hazard_zone"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.property.hazard_zone == high",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the address is in a high natural hazard zone; the underwriter sets any flood excess.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.property.hazard_zone",
+     "text": "What is the natural hazard zone of the address (flood, storm and bushfire), as the address lookup returns it?",
+     "type": "select",
+     "options": [
+      "low",
+      "moderate",
+      "high"
+     ],
+     "used_by": "R, A, E02"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e03",
+   "heading": "E03 Portable Contents",
+   "trigger": {
+    "questions": [
+     "qs.hom.cover.portable_contents"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.cover.portable_contents == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because portable contents cover was chosen.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.cover.portable_contents",
+     "text": "Do you want to cover contents you carry away from the home?",
+     "type": "yes/no",
+     "used_by": "R, E03"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e04",
+   "heading": "E04 Home Business",
+   "trigger": {
+    "questions": [
+     "qs.hom.occupancy.home_business"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.occupancy.home_business == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because a business is carried on at the home.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.occupancy.home_business",
+     "text": "Does anyone carry on a business at the home, other than working from a home office?",
+     "type": "yes/no",
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e05",
+   "heading": "E05 Short-Stay Letting",
+   "trigger": {
+    "questions": [
+     "qs.hom.occupancy.short_stay"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.occupancy.short_stay == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the home is let for short stays.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.occupancy.short_stay",
+     "text": "Is the home, or part of it, let for short stays?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e06",
+   "heading": "E06 Specified Valuables",
+   "trigger": {
+    "questions": [
+     "qs.hom.cover.specified_valuables"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.cover.specified_valuables > 25000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.hom.cover.specified_valuables > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because valuables of ${qs.hom.cover.specified_valuables} are to be specified.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.cover.specified_valuables",
+     "text": "What is the total value of the valuables you want to specify individually?",
+     "type": "currency",
+     "used_by": "A, S, E06"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e07",
+   "heading": "E07 Strata Lot Owner",
+   "trigger": {
+    "questions": [
+     "qs.hom.property.dwelling_type"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.property.dwelling_type == strata_lot",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the home is a lot in a strata scheme.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.property.dwelling_type",
+     "text": "Is the home a house, a townhouse or villa, or a lot in a strata scheme?",
+     "type": "select",
+     "options": [
+      "house",
+      "townhouse",
+      "strata_lot"
+     ],
+     "used_by": "A, S, E07"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e08",
+   "heading": "E08 Agreed Value",
+   "trigger": {
+    "questions": [
+     "qs.hom.cover.building_sum_insured"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.cover.building_sum_insured > 2500000",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the building sum insured is ${qs.hom.cover.building_sum_insured}, above the Go limit.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.cover.building_sum_insured",
+     "text": "What does it cost to rebuild the home (the building sum insured)? Enter 0 if you do not want building cover.",
+     "type": "currency",
+     "used_by": "R, A, S, E08"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e09",
+   "heading": "E09 Heritage-Listed Home",
+   "trigger": {
+    "questions": [
+     "qs.hom.property.heritage"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.property.heritage == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the building is heritage-listed.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.property.heritage",
+     "text": "Is the building listed on a heritage register?",
+     "type": "yes/no",
+     "used_by": "A, E09"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e10",
+   "heading": "E10 Building Works",
+   "trigger": {
+    "questions": [
+     "qs.hom.property.renovation"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.property.renovation == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because building works are under way or planned.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.property.renovation",
+     "text": "Are building works costing more than $50,000, or affecting the structure, under way or planned in the next 12 months?",
+     "type": "yes/no",
+     "used_by": "A, E10"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e11",
+   "heading": "E11 Unoccupied Home",
+   "trigger": {
+    "questions": [
+     "qs.hom.occupancy.unoccupied_over_60_days"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.occupancy.unoccupied_over_60_days == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the home has been, or will be, unoccupied for more than 60 days.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.occupancy.unoccupied_over_60_days",
+     "text": "Has the home been unoccupied for more than 60 days, or will it be in the next 60 days?",
+     "type": "yes/no",
+     "used_by": "A, E11"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e12",
+   "heading": "E12 Interested Party",
+   "trigger": {
+    "questions": [
+     "qs.hom.policy.interested_party"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.policy.interested_party == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because an interested party was named.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.policy.interested_party",
+     "text": "Does a financier or anyone else have an interest in the home that should be noted?",
+     "type": "yes/no",
+     "used_by": "S, E12"
+    }
+   ]
+  },
+  {
+   "id": "hom.end.e13",
+   "heading": "E13 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.hom.policy.lloyds_capacity"
+    ],
+    "rules": [
+     {
+      "when": "qs.hom.policy.lloyds_capacity == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the policy is underwritten at Lloyd's.",
+    "responses": [
+     "Attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.hom.policy.lloyds_capacity",
+     "text": "Is the policy underwritten at Lloyd's? (Answered by the platform from the binder.)",
+     "type": "yes/no",
+     "used_by": "E13"
+    }
+   ]
+  }
+ ],
+ "sha256": "d17e31e2e1e04b33c1550afbf2053f3faa25f602b7467eb565a6cb95f99f083b"
+}

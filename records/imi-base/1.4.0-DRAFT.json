@@ -1,0 +1,1367 @@
+{
+ "wording": "imi-base",
+ "version": "1.4.0-DRAFT",
+ "doc_ref": "2026/IMI/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "imi.about",
+   "heading": "About This Policy",
+   "sha256": "afa189a6fa8fd245d0fd35b1e7d18ab17a87ac404cf2ebafa50ed15f3b922b23"
+  },
+  {
+   "id": "imi.version-history",
+   "heading": "Version and Document History",
+   "sha256": "cab3177e060a7a31f6e49a46ce4455d8dfae39fa3edb0cd2b36e62ef0fab5c4e"
+  },
+  {
+   "id": "imi.distribution-note",
+   "heading": "Who This Policy Is For",
+   "sha256": "d761a0352347cdd267fefaa066a72fa2e389775bbf2e9d61e3579cb9dfac7d9d"
+  },
+  {
+   "id": "imi.schedule",
+   "heading": "Schedule",
+   "sha256": "42743cdb3e95f8f9d82cbc317455f4e48a025d2d696374e56def3a02dd350fa8"
+  },
+  {
+   "id": "imi.section.definitions",
+   "heading": "Definitions",
+   "sha256": "1d130a27c2556123d5160b17ee6defc87284d61bf859f9995de6d07a186ba850"
+  },
+  {
+   "id": "imi.def.afsl",
+   "heading": "AFSL",
+   "sha256": "ddd0c71db0c224251454ec577739aba0918af61d5e75a45d11d4552e7a2d4230"
+  },
+  {
+   "id": "imi.def.claim",
+   "heading": "Claim",
+   "sha256": "9b7c45825c65cb9bd7f956247e832dd0d9cba27af073fe227611f5b7f817f82b"
+  },
+  {
+   "id": "imi.def.company",
+   "heading": "Company",
+   "sha256": "d359d1a3198f2f3fa9b06021c97560dce42a701a3d770271654c046e1c3769f4"
+  },
+  {
+   "id": "imi.def.compliance-costs",
+   "heading": "Compliance costs",
+   "sha256": "0d22eb6bd0d61a59208e88d18021a63d4aed05558e74515fefdf0d3f46fb149c"
+  },
+  {
+   "id": "imi.def.control-group",
+   "heading": "Control group",
+   "sha256": "6b024792eb8b44617e0ef3bb432114469d8f98dd535864c15cc41854bcbf02c8"
+  },
+  {
+   "id": "imi.def.defence-costs",
+   "heading": "Defence costs",
+   "sha256": "d925e03f692e3aa0805f336aee05930e8536b3bf5e9dc8ba76640137239ef90b"
+  },
+  {
+   "id": "imi.def.derivative-action",
+   "heading": "Derivative action",
+   "sha256": "688a180f70a378118b97be874efe44562b8f5e10c027ed5afab9d9edae4fe7d6"
+  },
+  {
+   "id": "imi.def.discovery",
+   "heading": "Discovery",
+   "sha256": "f2f5d2907817efe57d24f566063378b23c2ef07231499c8acd53b39edaee6fad"
+  },
+  {
+   "id": "imi.def.dishonest-act",
+   "heading": "Dishonest act",
+   "sha256": "ad07b637e983018dc3c0cb99b5f588481d28848fa063d759bb286be2e904e80a"
+  },
+  {
+   "id": "imi.def.employee",
+   "heading": "Employee",
+   "sha256": "dfec5a673c9ce8f4e7096ea1cc976d5c46d808b861dfc6fd8aa454aaf72cbf86"
+  },
+  {
+   "id": "imi.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "c32b97c887b446c065b84d5202450912ae38b786ef132af5d6846ffecd726791"
+  },
+  {
+   "id": "imi.def.excess",
+   "heading": "Excess",
+   "sha256": "6f818db843577056cf242335aac6406695f53de791f5dd7e1c334b0b3ae32a44"
+  },
+  {
+   "id": "imi.def.final-adjudication",
+   "heading": "Final adjudication",
+   "sha256": "3a862b4adfdccef2f09ed6850fc48d6ee42666659770a56ccc98985aee522e13"
+  },
+  {
+   "id": "imi.def.financial-services-activities",
+   "heading": "Financial services activities",
+   "sha256": "5bd9daad0a084479df9b48d4689976dc0cac4b90d26dbc6e42aff22e60f4ac34"
+  },
+  {
+   "id": "imi.def.fund",
+   "heading": "Fund",
+   "sha256": "ba22a468996b6ce16c4137dde71cf956b354c34d8666e69753a9276f94231df9"
+  },
+  {
+   "id": "imi.def.fund-assets",
+   "heading": "Fund assets",
+   "sha256": "84cffd7430b313229186375713537912ed6a7ffac3c7c3bf19218fbfcd1c9bda"
+  },
+  {
+   "id": "imi.def.insured",
+   "heading": "Insured",
+   "sha256": "f6a415bbc2312bf0c465360f611cdb6fb065b2e2b18cb21709da4d3b586117b3"
+  },
+  {
+   "id": "imi.def.insured-person",
+   "heading": "Insured person",
+   "sha256": "34a5a9cb202305bee4f0a46cfa651723be3fc4924508ee195c9b4e7ff8d94f36"
+  },
+  {
+   "id": "imi.def.limit-of-liability",
+   "heading": "Limit of liability",
+   "sha256": "fe49381f46f86ee2a75ca3a9b1cc3dfe2f7d79c6ecf4dffd19b0c19e9cc81eb4"
+  },
+  {
+   "id": "imi.def.loss",
+   "heading": "Loss",
+   "sha256": "bcb1f244f3f1b7082d85d73574d1af1b621d34e12a4a3d6c1b88c7e89aa3ac84"
+  },
+  {
+   "id": "imi.def.named-insured",
+   "heading": "Named insured",
+   "sha256": "3d1399a45afb1de65f98b201a0bcc3fa93c10eb7f85462d572d5af0eb38d851e"
+  },
+  {
+   "id": "imi.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "d6a511fc41147e9d326e585004fdd26d28f477225531e71c71e97b68b751b854"
+  },
+  {
+   "id": "imi.def.regulatory-proceeding",
+   "heading": "Regulatory proceeding",
+   "sha256": "e84b0bf42d6cdae6b6e2b275c1d121049092a1439770e33cd0e378182e47c143"
+  },
+  {
+   "id": "imi.def.responsible-person",
+   "heading": "Responsible person",
+   "sha256": "9086b019db24220358dd51ad0b97deeb40a93a8884eb6ec2c10a4886a2cc4af7"
+  },
+  {
+   "id": "imi.def.retroactive-date",
+   "heading": "Retroactive date",
+   "sha256": "81b1b0a1e6f9318c57f97e1185e5550bc110c4fabf930d95a99073478325abd4"
+  },
+  {
+   "id": "imi.def.schedule",
+   "heading": "Schedule",
+   "sha256": "3335552578df6e1034cc53dfa6e7f09c81ee39fc44611a44b895e724584e7fdf"
+  },
+  {
+   "id": "imi.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "d4c84dd64295da436f8f8aab955ea124f5d041d4f1eaf025d76ecc4d13a6d81e"
+  },
+  {
+   "id": "imi.def.third-party-service-provider",
+   "heading": "Third-party service provider",
+   "sha256": "90da2828afee12021fe4843f815c1104b155240769d7a6911169b2557c6ebec1"
+  },
+  {
+   "id": "imi.def.unauthorised-access",
+   "heading": "Unauthorised access",
+   "sha256": "9af0ff782c31e733e3a3a5c505d95b04043dcedbcc535fc3958e89d403fc1b9f"
+  },
+  {
+   "id": "imi.def.we-us-our",
+   "heading": "We / us / our",
+   "sha256": "b4b6b27adda7d9a701773f77d7426d90a6a302d91b97bd5637cd7d4582a3ef6d"
+  },
+  {
+   "id": "imi.def.wrongful-act",
+   "heading": "Wrongful act",
+   "sha256": "11fe9f6b6f8519cba6b5520d772619f802fe03844a55af3d8fcc66bb86d0b44f"
+  },
+  {
+   "id": "imi.def.you-your",
+   "heading": "You / your",
+   "sha256": "48260037b4a226bde2620f57489c60c06e4e41aa4d244fbc04524bea60bbee82"
+  },
+  {
+   "id": "imi.section.pl",
+   "heading": "Professional Liability",
+   "sha256": "b64a7ee28b9a22650fe5ca3425189991f02acc30e7369189fc9056e451c9623c"
+  },
+  {
+   "id": "imi.section.pl-cover",
+   "heading": "What Is Covered \u2014 Professional Liability",
+   "sha256": "0744f78a55de9c57aea484eb13dc1bca1bbf316120a5a53fb49486e773732938"
+  },
+  {
+   "id": "imi.cover.financial-services-liability",
+   "heading": "Financial Services Liability",
+   "sha256": "8a3a4c7cb8e395c97fb3f4f8becbad060f6b03928096f7938c86dbfceab1c6eb"
+  },
+  {
+   "id": "imi.cover.defence-of-regulatory-proceedings",
+   "heading": "Defence of Regulatory Proceedings",
+   "sha256": "8648b196316c9abcb50233bb2ec41804fc982cd084acc82462443ec4f7af7c88"
+  },
+  {
+   "id": "imi.cover.afca-complaints",
+   "heading": "AFCA Complaints",
+   "sha256": "9f6b6d4d6a2728f5d583a8b37520fe503d88691c5a3f6d67af8d4a6a6b093166"
+  },
+  {
+   "id": "imi.cover.notification-of-circumstances",
+   "heading": "Notification of Circumstances",
+   "sha256": "402d24e347dbff5bd6b5acb4f64983f6e4ac92580f5302e83b4c218c71cc085b"
+  },
+  {
+   "id": "imi.section.pl-extensions",
+   "heading": "Extensions \u2014 Professional Liability",
+   "sha256": "41d4e6c50864b55183ec39e3ad9e4d06343968e6bc5a577d0c827bb3a600a54c"
+  },
+  {
+   "id": "imi.ext.loss-of-documents",
+   "heading": "Loss of Documents",
+   "sha256": "6293621042b01cc832477a99f8e9114090691e43eec10aca7863bbcc7a74cb2e"
+  },
+  {
+   "id": "imi.ext.fund-assets-third-party-service-provider-failure",
+   "heading": "Fund Assets \u2014 Third-Party Service Provider Failure",
+   "sha256": "fc8ef55b65b1d3f75e72483881e7e8f9f1a1f274fd003c45a0209e695e020e63"
+  },
+  {
+   "id": "imi.ext.mitigation-costs",
+   "heading": "Mitigation Costs",
+   "sha256": "4bacf39d62d8ff3f4fda88a74ecec533c798c534aa9ed4a3f9f99b4dc513e97d"
+  },
+  {
+   "id": "imi.ext.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "4daefa506c5d4a3a1693dc426be6daaa45239aca5ffc0c9b90842d4011bee081"
+  },
+  {
+   "id": "imi.ext.public-relations",
+   "heading": "Public Relations",
+   "sha256": "2920c94395cfc0c299a34df6e900ddc6ac62d5152fa380e8a928510642228d4b"
+  },
+  {
+   "id": "imi.ext.court-attendance",
+   "heading": "Court Attendance",
+   "sha256": "9e1784c2dc0037bbefc78f4b4883fb702de9422dd169db76c4d321a60fe787e1"
+  },
+  {
+   "id": "imi.ext.joint-venture-and-sub-advised-funds",
+   "heading": "Joint Venture and Sub-Advised Funds",
+   "sha256": "cf3a3843917e21c3f6b04808555fd88253dc04661d47d20e6729d85cb91f8ec8"
+  },
+  {
+   "id": "imi.ext.compliance-costs",
+   "heading": "Compliance Costs",
+   "sha256": "cb8fb40b9b65a5a40e9787f65d21b19314c72e021042637ec854013c09c4d04d"
+  },
+  {
+   "id": "imi.section.do",
+   "heading": "Directors' and Officers' Liability",
+   "sha256": "1b110c5d73f758c5c6582d16d37fbfe6346f62a1fda7a863943f697a344615d1"
+  },
+  {
+   "id": "imi.section.do-cover",
+   "heading": "What Is Covered \u2014 Directors' and Officers' Liability",
+   "sha256": "6c78129b06ee7e6a113e0f064c52eebe575a9fe0a7f3c4e12fc5af4a997c6ea5"
+  },
+  {
+   "id": "imi.cover.personal-liability-non-indemnifiable-loss-side-a",
+   "heading": "Personal Liability \u2014 Non-Indemnifiable Loss (Side A)",
+   "sha256": "7dddfe668d315fa1ebfe98e18cc875c6644a6d4e66a00cbbd216bf02ac7756f2"
+  },
+  {
+   "id": "imi.cover.company-reimbursement-side-b",
+   "heading": "Company Reimbursement (Side B)",
+   "sha256": "a651607f4afdbeef7185640deb9eaa636e7a2ea557ecc59187644719e7138729"
+  },
+  {
+   "id": "imi.section.do-extensions",
+   "heading": "Extensions \u2014 Directors' and Officers' Liability",
+   "sha256": "31f88f60fbe219f26b892feb550ffcc15b6b2c8af57d2c2a4a23546ac3043ece"
+  },
+  {
+   "id": "imi.ext.retired-directors-and-officers",
+   "heading": "Retired Directors and Officers",
+   "sha256": "4ff90670594eb4b0fa0ab6c4f5d7c8a56a189675770ab0462c11528e4fafe9d5"
+  },
+  {
+   "id": "imi.ext.spouse-estate-and-legal-representative",
+   "heading": "Spouse, Estate, and Legal Representative",
+   "sha256": "ebb012fdf7a261fb9f62a5ef95ff0bb6aaa3264cc0c9f2ad06a01bb12a8ff97b"
+  },
+  {
+   "id": "imi.ext.asic-and-apra-investigation-costs",
+   "heading": "ASIC and APRA Investigation Costs",
+   "sha256": "a7848910e9fb80632f3b042fe56c17cb1f7ef3ba258c2e8832c962b9ea72261e"
+  },
+  {
+   "id": "imi.ext.far-proceeding-costs",
+   "heading": "FAR Proceeding Costs",
+   "sha256": "26ef59d64c53eefea338f2e85885258b3a95837fb7e487ceab2f13d13e89f956"
+  },
+  {
+   "id": "imi.ext.preservation-of-assets-and-living-expenses",
+   "heading": "Preservation of Assets and Living Expenses",
+   "sha256": "f3de005f71b0580602a02c60b2349d4dfcad9c40554b81428ebaabf7a7d8f894"
+  },
+  {
+   "id": "imi.ext.bail-and-civil-bond",
+   "heading": "Bail and Civil Bond",
+   "sha256": "aaf83eba4ee1e203a0cce6c8f82e24c4d8de9c3dc2cdfc3cb889d482557d506d"
+  },
+  {
+   "id": "imi.ext.extradition-defence",
+   "heading": "Extradition Defence",
+   "sha256": "71dc7eb091e94c8bbd37a4e42a74b21997f8ae2644923547c2414ce205adb2ff"
+  },
+  {
+   "id": "imi.ext.loss-of-earnings",
+   "heading": "Loss of Earnings",
+   "sha256": "9eb4eeb930ab0991f2e37501f60bcecc60bfe699b8599b988621d0c25c003874"
+  },
+  {
+   "id": "imi.section.crime",
+   "heading": "Crime",
+   "sha256": "88c6baabf4a3ea0e3386ff70c6c3420feb0c398ccbea70f1e40252855d7b9dbd"
+  },
+  {
+   "id": "imi.section.crime-cover",
+   "heading": "What Is Covered \u2014 Crime",
+   "sha256": "02b866eee256324014b83e448397bee3c1e113e476fdb9d273c8c4094fbfa7c5"
+  },
+  {
+   "id": "imi.cover.employee-dishonesty",
+   "heading": "Employee Dishonesty",
+   "sha256": "e946a7417f735e87002fd6eccff72fb1f66b5520139821f9955463f3c768c8aa"
+  },
+  {
+   "id": "imi.cover.third-party-service-provider-dishonesty",
+   "heading": "Third-Party Service Provider Dishonesty",
+   "sha256": "d6a3d23ef15b4256609c685a491c11313dd9b0f0e500195827d4942c13454842"
+  },
+  {
+   "id": "imi.cover.forgery-and-alteration",
+   "heading": "Forgery and Alteration",
+   "sha256": "f7f17401009dc03448412462b150f523bc4f5d2cacf04cc08f6a7f679a0f185a"
+  },
+  {
+   "id": "imi.cover.computer-crime",
+   "heading": "Computer Crime",
+   "sha256": "d188680d56cb4c938910677631d7f82dda85128ca53abe48a87014c37de1307c"
+  },
+  {
+   "id": "imi.cover.funds-transfer-fraud",
+   "heading": "Funds Transfer Fraud",
+   "sha256": "74b77388563ed908dc938e5c9af1bd7292dfa9576558bccfcc068715f98670d4"
+  },
+  {
+   "id": "imi.cover.social-engineering-fraud",
+   "heading": "Social Engineering Fraud",
+   "sha256": "bc45fe77f26feaa660b51d8a2bbb8c0995954759b1bcb027193944b15398c55b"
+  },
+  {
+   "id": "imi.section.crime-extensions",
+   "heading": "Extensions \u2014 Crime",
+   "sha256": "7f4b45bc7650ba2295ecae347e9df34cfda723f19c7649efb154dda14e813746"
+  },
+  {
+   "id": "imi.ext.forensic-investigation-costs",
+   "heading": "Forensic Investigation Costs",
+   "sha256": "da19999cd8387a0da036f2bfeff0935a06433ad962d7118641ca3bdd848d0f80"
+  },
+  {
+   "id": "imi.ext.reconstitution-of-records",
+   "heading": "Reconstitution of Records",
+   "sha256": "479022c99bf40db4a6e772c3479db800bc19518fb4cd45cf86571b26e814bc10"
+  },
+  {
+   "id": "imi.ext.client-investor-notification-costs",
+   "heading": "Client / Investor Notification Costs",
+   "sha256": "c77621cefaa74fe2804a86936a111923dc3471994ae37917511feb2845ef6551"
+  },
+  {
+   "id": "imi.ext.payment-to-funds",
+   "heading": "Payment to Funds",
+   "sha256": "6296c02896c605d5e3c3f1ede3fa81b98348e96ea4c3df1812a01b1b42ef4760"
+  },
+  {
+   "id": "imi.ext.single-loss",
+   "heading": "Single Loss",
+   "sha256": "84c9f77de80a853bb373c985b442572fd901e33d49414eb65cfd0dbdf3095674"
+  },
+  {
+   "id": "imi.ext.digital-assets-and-cryptocurrency",
+   "heading": "Digital Assets and Cryptocurrency",
+   "sha256": "e3a633f8163834cf987a8b95e7e19cac04358e427bab77bd9346d9fafe479925"
+  },
+  {
+   "id": "imi.section.exclusions",
+   "heading": "What Is Not Covered \u2014 All Sections",
+   "sha256": "1cc62865f41e2961422ac436262ab547108cb54cfa9e7645fdde4f7e49ebc7d0"
+  },
+  {
+   "id": "imi.excl.dishonesty-and-fraud",
+   "heading": "Dishonesty and Fraud \u2014 Professional Liability and Directors' and Officers' Liability",
+   "sha256": "dd35a8fb337d3ad1441ad6dbaa750876f8864c5651b3ab8ba2cf7e6e3e7dc241"
+  },
+  {
+   "id": "imi.excl.fines-and-penalties",
+   "heading": "Fines and Penalties",
+   "sha256": "58e079ff43a8a1e10c40eac5be6b7b1e1d0ba07a56e6a9a0faa9127389d3b05a"
+  },
+  {
+   "id": "imi.excl.personal-profit",
+   "heading": "Personal Profit",
+   "sha256": "0f0f9df98b46e3e0097ed84d7db7d49d4fee706bdab10881a7a4fea23b9bb8d0"
+  },
+  {
+   "id": "imi.excl.insured-versus-insured",
+   "heading": "Insured Versus Insured",
+   "sha256": "75d4634fe09f65dbe796bf96c6098e6b34892cef06cfe3328e85e21304f9c1fa"
+  },
+  {
+   "id": "imi.excl.prior-known-matters",
+   "heading": "Prior Known Matters",
+   "sha256": "4de0870733cb1c9b09a90b278e932db910ff3371af6bcbab8e7c7f1a7ad6bc82"
+  },
+  {
+   "id": "imi.excl.prior-and-pending-litigation",
+   "heading": "Prior and Pending Litigation",
+   "sha256": "f4eeec735ed67a3b53016e7b22ea9d615d002578c1da1f149820b288fb906a19"
+  },
+  {
+   "id": "imi.excl.prior-discovery-crime",
+   "heading": "Prior Discovery \u2014 Crime",
+   "sha256": "066485fbad1919fd48a9e1eeba6bafe5db9f4702cacf9f3ecb4aabe10fb799a6"
+  },
+  {
+   "id": "imi.excl.bodily-injury-and-property-damage",
+   "heading": "Bodily Injury and Property Damage",
+   "sha256": "1485fd2b8c7b5e3635fc0aa89e91f27b13486bf363c0e7343a052ece23fd918d"
+  },
+  {
+   "id": "imi.excl.fund-performance",
+   "heading": "Fund Performance",
+   "sha256": "4ac72c9f4a3ab7f8f3bfe274e2fcdc004cf7ae6d4e7def89992e364d9477b72e"
+  },
+  {
+   "id": "imi.excl.trading-losses-crime",
+   "heading": "Trading Losses \u2014 Crime",
+   "sha256": "3ee705ba010cd2bf87b50252c7671d672e26fb901505d714009185327dd63d46"
+  },
+  {
+   "id": "imi.excl.fees-and-commissions",
+   "heading": "Fees and Commissions",
+   "sha256": "b2deb2cc0c1eb160e6824d1cd2992ffa6d2dab7d09002e835b4c5ed46c5ad7ba"
+  },
+  {
+   "id": "imi.excl.product-design-and-distribution",
+   "heading": "Product Design and Distribution",
+   "sha256": "5db99c822f3718afab0e10d902b5749d84cd75adffa5b55005be01225fae9969"
+  },
+  {
+   "id": "imi.excl.war-terrorism-sanctions-nuclear",
+   "heading": "War, Terrorism and Nuclear Risks",
+   "sha256": "da6f0689eed12804dd3406d6a104cbb07abdd3a66b6ae093db55dd811800041b"
+  },
+  {
+   "id": "imi.excl.cyber-event",
+   "heading": "Cyber Event",
+   "sha256": "438e0f06399187a12e428abbe14395c4c8c7df1bb76ba459c79a304c78beb272"
+  },
+  {
+   "id": "imi.excl.us-canada-jurisdiction",
+   "heading": "US / Canada Jurisdiction",
+   "sha256": "d5adf4ca546ef4032c04e5a322b64107408c97903d94880e4cc0af407584eb51"
+  },
+  {
+   "id": "imi.excl.employers-liability",
+   "heading": "Employer's Liability",
+   "sha256": "052d0437c5d0527e1da36d9e40a55c9282f6e60ee37d6ede902f3a01ecfb3ddf"
+  },
+  {
+   "id": "imi.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "imi.pay.section-limits-and-overall-aggregate",
+   "heading": "Section Limits and Overall Aggregate",
+   "sha256": "aeba1b9e93487159ef84817406c3ac9ec006254ab3052a5dfdcec1aa3e06516f"
+  },
+  {
+   "id": "imi.pay.priority-of-payment",
+   "heading": "Priority of Payment",
+   "sha256": "4fdd5cd067b24599a4fcb196f20cbf7929f950197acc3fc089328566b87a9305"
+  },
+  {
+   "id": "imi.pay.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "d1d55364c92f7922f5d22b3c6fd2013ca77c10df0f9b98010e637b3f01d71358"
+  },
+  {
+   "id": "imi.pay.allocation",
+   "heading": "Allocation",
+   "sha256": "fec38ace35371ad92f68e5db6c1aad9b19f6e5121e4e69d9010675b68fc90a94"
+  },
+  {
+   "id": "imi.pay.no-excess-on-side-a",
+   "heading": "No Excess on Side A",
+   "sha256": "ce7d35fd2150ed2245d018d98554fbfbe64eba36526f148e9e635521f06bd96d"
+  },
+  {
+   "id": "imi.pay.cross-section-application",
+   "heading": "Cross-Section Application",
+   "sha256": "4fb62cbaba0d391dcd9637f8f08600f03625708a6b0d4047f40a33ddc60407e9"
+  },
+  {
+   "id": "imi.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "731b789b0df54ddc93d07efb58e6463edba1efe011fc38167a22822f2feea303"
+  },
+  {
+   "id": "imi.pay.multiple-funds-limit-sharing",
+   "heading": "Multiple Funds \u2014 Limit Sharing",
+   "sha256": "f7af7564d155fa854900c9efb0e79018ac816a338a2a46fe8fb41eb931ca88de"
+  },
+  {
+   "id": "imi.pay.valuation-and-recoveries-crime",
+   "heading": "Valuation and Recoveries \u2014 Crime",
+   "sha256": "489f6208f97d7994c02648627479cb81bcb1f5f93f0e1c63d1b03d5fc65ff01e"
+  },
+  {
+   "id": "imi.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "imi.obl.notify-claims",
+   "heading": "Notify Claims \u2014 Professional Liability and Directors' and Officers' Liability",
+   "sha256": "79b796330c8014825bc6a24c3ec78f52ea61d9e0e05472c218e1b7129e7987b4"
+  },
+  {
+   "id": "imi.obl.notify-circumstances",
+   "heading": "Notify Circumstances \u2014 Professional Liability and Directors' and Officers' Liability",
+   "sha256": "ea932aeaa0a956f21903c65a64f2dd6135f68b29888fc20ffc1611c3b85586f9"
+  },
+  {
+   "id": "imi.obl.notify-losses-crime",
+   "heading": "Notify Losses \u2014 Crime",
+   "sha256": "a962968f7ffc141381e503edd6dc9f2b0564a18eaf30ed3bc66412c70555fe22"
+  },
+  {
+   "id": "imi.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability",
+   "sha256": "43940167faaacdbbcd753054ac04422dafd2561b131dae296b59086f7bb17151"
+  },
+  {
+   "id": "imi.obl.cooperate",
+   "heading": "Cooperate",
+   "sha256": "d6e3ad0e19ff469a94e0ddee75e08f8eb3e7615696f3b2b32b1e05ee315ae311"
+  },
+  {
+   "id": "imi.obl.duty-of-disclosure",
+   "heading": "Duty of Disclosure",
+   "sha256": "d441f7fe0675fcfa6b3c1d47ab424473eec200abe784af0fd36a4c0a037ee76f"
+  },
+  {
+   "id": "imi.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "imi.cond.severability-and-non-imputation",
+   "heading": "Severability and Non-Imputation",
+   "sha256": "dc4485def52e2d79fd9f93d257017881612f2f04fd96b2e153f6d9ab6b80d849"
+  },
+  {
+   "id": "imi.cond.non-rescindable-side-a",
+   "heading": "Non-Avoidance \u2014 Side A",
+   "sha256": "1e566ec2e5cb94a2b40670b4e6dad0142cb8fbc4e613ac7935dcc18737c591fb"
+  },
+  {
+   "id": "imi.cond.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "cf693c7a58ee324c65666a1ce00a237b89ae905c81987d31d0417104da45059f"
+  },
+  {
+   "id": "imi.cond.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "5407619be9787fd39facc60fc4e1219b705b332676be133225c78d957e6062f5"
+  },
+  {
+   "id": "imi.cond.extended-reporting-period",
+   "heading": "Extended Reporting Period",
+   "sha256": "478347a2e134a1d5c7b17c665a826cd028795ed849138fb4206b0986a44c5df5"
+  },
+  {
+   "id": "imi.cond.extended-discovery-period-crime",
+   "heading": "Extended Discovery Period \u2014 Crime",
+   "sha256": "34c6e4eb6a0c9c482ca5e943f77ae9fbc97cb220fc6fea4621ea862d53f6797c"
+  },
+  {
+   "id": "imi.cond.superseded-policies-crime",
+   "heading": "Prior Insurance and Superseded Policies \u2014 Crime",
+   "sha256": "c83dbf3fe98083a4d39bef5dab535b0a90f5658f19cec2842cf06aad80921d1a"
+  },
+  {
+   "id": "imi.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "3ed402af97913974632d6f60308cdb025e9206115f8c724919481a6718a8a78c"
+  },
+  {
+   "id": "imi.cond.change-of-control",
+   "heading": "Change of Control",
+   "sha256": "851f86eb40129c332686fd2d1ade6c59905d0e79f6bd38031d73351776c7a459"
+  },
+  {
+   "id": "imi.cond.newly-acquired-subsidiaries",
+   "heading": "Newly Acquired Subsidiaries",
+   "sha256": "fa143988393a16ac4fbed7cc7343bf7fdf7df299ab031fcbf53c281b3bc55580"
+  },
+  {
+   "id": "imi.cond.governing-law-jurisdiction-gst-privacy-disputes",
+   "heading": "Governing Law, Jurisdiction, GST, Privacy, Disputes",
+   "sha256": "eda29b29ceef993c7c9f502821877cdef9023ac9ada28bb791fb06db1888e421"
+  },
+  {
+   "id": "imi.cond.insurance-contracts-act-savings",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "d1cb74a382693bd3b82582f5e33016d02b5b2de52c2893f67afb72f81f832793"
+  },
+  {
+   "id": "imi.cond.corporations-act-199a-199b",
+   "heading": "Corporations Act 2001 (Cth), sections 199A and 199B",
+   "sha256": "29f157b34102716bd6d09297df3180ab097806d115ee8b7c922d54e9eadda747"
+  },
+  {
+   "id": "imi.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "imi.cond.fund-wind-up-run-off",
+   "heading": "Fund Wind-Up Run-Off",
+   "sha256": "2fead62ce9710a22c33d2d13d57f020fa7c5d4f75edfee9a0e5944b9897087f6"
+  },
+  {
+   "id": "imi.section.appendix-guide",
+   "heading": "Appendix A \u2014 Investment Managers: A Practical Guide",
+   "sha256": "4d0267c6109759326134c6aaec5dab55e95c121693c9450dd1a7f688377e869b"
+  },
+  {
+   "id": "imi.guide.why-integrated",
+   "heading": "Why an integrated policy, not separate covers?",
+   "sha256": "8e5b43bc80aef2a5c205cf0c73251b239591022d1e8c60e5896a279d97a1d936"
+  },
+  {
+   "id": "imi.guide.regulatory-obligations",
+   "heading": "Key regulatory obligations for investment managers",
+   "sha256": "75773eafd1e13c5a56a8a9bf7554e6047450f357fd9ed4014d536b44085ff6fb"
+  },
+  {
+   "id": "imi.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "9f15eb86245b36fc961f9909c952024a352c667a545278ae6cb693992e00cc9c"
+  },
+  {
+   "id": "imi.end.e01",
+   "heading": "E01 US and Canada Jurisdiction Extension",
+   "sha256": "a7bcccea9510478091f0ada5b4aee6332ee14c691886142e9787f2600224ac25"
+  },
+  {
+   "id": "imi.end.e02",
+   "heading": "E02 Superannuation Trustee \u2014 Enhanced",
+   "sha256": "6d43f0beaa7475f59c62242a0f6eddcb6e367825a5aceb5bc00af36cd06ee667"
+  },
+  {
+   "id": "imi.end.e03",
+   "heading": "E03 Responsible Entity \u2014 Enhanced",
+   "sha256": "81cad5e875ea5b8ffed4e6bf08a918fcedfcf7aa36db761baa10d121faafd8ea"
+  },
+  {
+   "id": "imi.end.e04",
+   "heading": "E04 Alternative Strategies",
+   "sha256": "aa5dd512709c2faa581a06fabb6e1b5f1160d10e71a5c95c724cc8557fa54d74"
+  },
+  {
+   "id": "imi.end.e05",
+   "heading": "E05 Custodian Failure \u2014 Enhanced",
+   "sha256": "3ee9b2d1c34c42f104f5969dd42729e3d8416933296348ab7aae4b945c9f3951"
+  },
+  {
+   "id": "imi.end.e06",
+   "heading": "E06 ESG and Greenwashing",
+   "sha256": "ab43a8a61ad074e8d963811217338ab2b31cc6d62968161c6dcaf250e7d54247"
+  },
+  {
+   "id": "imi.end.e07",
+   "heading": "E07 Defence Costs in Addition to the Limit",
+   "sha256": "6812284df717bd36dceafdad223f06d373d3a54997677167f8678016cb761195"
+  },
+  {
+   "id": "imi.end.e08",
+   "heading": "E08 Extended Reporting Period",
+   "sha256": "69e11a9151bf4bca012b2937022cb7e455b56dedbf015e1beddbe31818c365fd"
+  },
+  {
+   "id": "imi.end.e09",
+   "heading": "E09 Run-off Following Change of Control or Cessation of AFSL",
+   "sha256": "02986060d9979e18c6a3eea1b0a5df0cf84435dedf0688ab995cf04d5242e00a"
+  },
+  {
+   "id": "imi.end.e10",
+   "heading": "E10 Prospectus and PDS Liability \u2014 Enhanced",
+   "sha256": "052c7702708bf6050dd4f5a1040146b05ff1542d57deb21f1971b47c22e05ab6"
+  },
+  {
+   "id": "imi.end.e11",
+   "heading": "E11 Excess Layer",
+   "sha256": "16c7623c399e78c6fbf0c6ad9d76ba2c760b65e695bcad149265b62e55ef47e5"
+  },
+  {
+   "id": "imi.end.e12",
+   "heading": "E12 Employment Practices Liability",
+   "sha256": "400a3d4e2b3d2b48f8672ecfd85104bb4261aa67b6f449159c0e3821301f82d3"
+  },
+  {
+   "id": "imi.end.e13",
+   "heading": "E13 Cryptocurrency and Digital Asset Fund Management",
+   "sha256": "47461791856b4a1c60ad49784bc2c973673bafbf36bcdbfc5a88bb57835c239e"
+  },
+  {
+   "id": "imi.end.e14",
+   "heading": "E14 Side A Difference in Conditions",
+   "sha256": "3ca5a124590d2fd0c50145fa4137b6ece60de9de83460a639fca3b216e0886a8"
+  },
+  {
+   "id": "imi.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9282c93babfb68b82d926f92c384d0d1876f809aa7cd3f28dc86e7a6d7a52f8b"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "imi.end.e01",
+   "heading": "E01 US and Canada Jurisdiction Extension",
+   "trigger": {
+    "questions": [
+     "qs.imi.exposure.us_ca_pct",
+     "qs.imi.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.imi.exposure.us_ca_pct > 0",
+      "action": "refer"
+     },
+     {
+      "when": "'E01 US and Canada Jurisdiction Extension' in qs.imi.cover.options_requested",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because {qs.imi.exposure.us_ca_pct}% of your investors or funds are in the United States or Canada, or because you asked for it.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.exposure.us_ca_pct",
+     "text": "What percentage of your investors, or of your funds under management, is domiciled in the United States or Canada?",
+     "type": "number (percentage)",
+     "used_by": "A, E01"
+    },
+    {
+     "id": "qs.imi.cover.options_requested",
+     "text": "Which of these optional extensions do you want to be considered?",
+     "type": "multi-select",
+     "options": [
+      "E01 US and Canada Jurisdiction Extension",
+      "E05 Custodian Failure \u2014 Enhanced",
+      "E08 Extended Reporting Period",
+      "E10 Prospectus and PDS Liability \u2014 Enhanced",
+      "E11 Excess Layer",
+      "E12 Employment Practices Liability",
+      "E14 Side A Difference in Conditions"
+     ],
+     "used_by": "E01, E05, E08, E10, E11, E12, E14"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e02",
+   "heading": "E02 Superannuation Trustee \u2014 Enhanced",
+   "trigger": {
+    "questions": [
+     "qs.imi.licence.roles",
+     "qs.imi.licence.rse_fum"
+    ],
+    "rules": [
+     {
+      "when": "'RSE licensee' in qs.imi.licence.roles",
+      "action": "refer"
+     },
+     {
+      "when": "qs.imi.licence.rse_fum > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you act as a registrable superannuation entity licensee, managing {qs.imi.licence.rse_fum} $ million.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.licence.roles",
+     "text": "In which roles do you act?",
+     "type": "multi-select",
+     "options": [
+      "Investment manager",
+      "Responsible entity",
+      "Trustee",
+      "Custodian",
+      "RSE licensee",
+      "Financial adviser"
+     ],
+     "used_by": "A, E02, E03"
+    },
+    {
+     "id": "qs.imi.licence.rse_fum",
+     "text": "What are the funds under management, in $ million, for which you are an RSE licensee?",
+     "type": "number ($ million)",
+     "used_by": "A, E02"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e03",
+   "heading": "E03 Responsible Entity \u2014 Enhanced",
+   "trigger": {
+    "questions": [
+     "qs.imi.licence.roles",
+     "qs.imi.exposure.related_party_dealings"
+    ],
+    "rules": [
+     {
+      "when": "'Responsible entity' in qs.imi.licence.roles and qs.imi.exposure.related_party_dealings = 'Yes'",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because you act as a responsible entity and a fund you operate deals with you or a related party of yours.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.licence.roles",
+     "text": "In which roles do you act?",
+     "type": "multi-select",
+     "options": [
+      "Investment manager",
+      "Responsible entity",
+      "Trustee",
+      "Custodian",
+      "RSE licensee",
+      "Financial adviser"
+     ],
+     "used_by": "A, E02, E03"
+    },
+    {
+     "id": "qs.imi.exposure.related_party_dealings",
+     "text": "Does a fund you operate deal with you, or with a related party of yours, as a counterparty?",
+     "type": "yes/no",
+     "used_by": "E03"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e04",
+   "heading": "E04 Alternative Strategies",
+   "trigger": {
+    "questions": [
+     "qs.imi.exposure.alternatives_share_pct",
+     "qs.imi.exposure.strategy",
+     "qs.imi.governance.redemption_suspension_5yr"
+    ],
+    "rules": [
+     {
+      "when": "qs.imi.exposure.alternatives_share_pct >= 30",
+      "action": "apply"
+     },
+     {
+      "when": "qs.imi.exposure.strategy in ('Private credit', 'Property or real assets')",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.imi.exposure.alternatives_share_pct}% of your funds under management is in alternative or unlisted assets, or your main strategy is {qs.imi.exposure.strategy}.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.exposure.alternatives_share_pct",
+     "text": "What percentage of your funds under management is in alternative or unlisted assets?",
+     "type": "number (percentage)",
+     "used_by": "A, E04"
+    },
+    {
+     "id": "qs.imi.exposure.strategy",
+     "text": "Which investment strategy applies to the largest part of your funds under management?",
+     "type": "select",
+     "options": [
+      "Long-only listed",
+      "Mixed or multi-asset",
+      "Private credit",
+      "Property or real assets"
+     ],
+     "used_by": "R, A, E04"
+    },
+    {
+     "id": "qs.imi.governance.redemption_suspension_5yr",
+     "text": "In the last 5 years, has any fund suspended or gated redemptions?",
+     "type": "yes/no",
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e05",
+   "heading": "E05 Custodian Failure \u2014 Enhanced",
+   "trigger": {
+    "questions": [
+     "qs.imi.governance.custodian_arrangement",
+     "qs.imi.governance.custodian_written_contract",
+     "qs.imi.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.imi.governance.custodian_arrangement = 'I hold the assets of at least one fund myself'",
+      "action": "refer"
+     },
+     {
+      "when": "qs.imi.governance.custodian_written_contract = 'No'",
+      "action": "refer"
+     },
+     {
+      "when": "'E05 Custodian Failure \u2014 Enhanced' in qs.imi.cover.options_requested",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because of how the assets of your funds are held, or because you asked for it.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.governance.custodian_arrangement",
+     "text": "How are fund assets held?",
+     "type": "select",
+     "options": [
+      "An independent third-party custodian holds the assets of every fund",
+      "I hold the assets of at least one fund myself"
+     ],
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.imi.governance.custodian_written_contract",
+     "text": "Is every custodian engaged under a written contract?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.imi.cover.options_requested",
+     "text": "Which of these optional extensions do you want to be considered?",
+     "type": "multi-select",
+     "options": [
+      "E01 US and Canada Jurisdiction Extension",
+      "E05 Custodian Failure \u2014 Enhanced",
+      "E08 Extended Reporting Period",
+      "E10 Prospectus and PDS Liability \u2014 Enhanced",
+      "E11 Excess Layer",
+      "E12 Employment Practices Liability",
+      "E14 Side A Difference in Conditions"
+     ],
+     "used_by": "E01, E05, E08, E10, E11, E12, E14"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e06",
+   "heading": "E06 ESG and Greenwashing",
+   "trigger": {
+    "questions": [
+     "qs.imi.exposure.esg_labelled"
+    ],
+    "rules": [
+     {
+      "when": "qs.imi.exposure.esg_labelled = 'Yes'",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because one or more of your funds describes itself as ESG, sustainable, green or climate-focused.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.exposure.esg_labelled",
+     "text": "Does any fund describe itself as ESG, sustainable, green or climate-focused?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e07",
+   "heading": "E07 Defence Costs in Addition to the Limit",
+   "trigger": {
+    "questions": [
+     "qs.imi.cover.costs_basis"
+    ],
+    "rules": [
+     {
+      "when": "qs.imi.cover.costs_basis = 'In addition to the limit'",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you asked for defence costs to be paid in addition to the limit.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.cover.costs_basis",
+     "text": "Should defence costs be paid within the limit or in addition to it?",
+     "type": "select",
+     "options": [
+      "Within the limit",
+      "In addition to the limit"
+     ],
+     "used_by": "E07, S"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e08",
+   "heading": "E08 Extended Reporting Period",
+   "trigger": {
+    "questions": [
+     "qs.imi.cover.extended_reporting_months",
+     "qs.imi.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.imi.cover.extended_reporting_months != 'None'",
+      "action": "refer"
+     },
+     {
+      "when": "'E08 Extended Reporting Period' in qs.imi.cover.options_requested",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you asked for a longer period to notify claims after the policy ends.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.cover.extended_reporting_months",
+     "text": "What extended reporting period do you want?",
+     "type": "select",
+     "options": [
+      "None",
+      "12 months",
+      "24 months",
+      "36 months",
+      "72 months"
+     ],
+     "used_by": "E08, S"
+    },
+    {
+     "id": "qs.imi.cover.options_requested",
+     "text": "Which of these optional extensions do you want to be considered?",
+     "type": "multi-select",
+     "options": [
+      "E01 US and Canada Jurisdiction Extension",
+      "E05 Custodian Failure \u2014 Enhanced",
+      "E08 Extended Reporting Period",
+      "E10 Prospectus and PDS Liability \u2014 Enhanced",
+      "E11 Excess Layer",
+      "E12 Employment Practices Liability",
+      "E14 Side A Difference in Conditions"
+     ],
+     "used_by": "E01, E05, E08, E10, E11, E12, E14"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e09",
+   "heading": "E09 Run-off Following Change of Control or Cessation of AFSL",
+   "trigger": {
+    "questions": [
+     "qs.imi.history.change_of_control_planned"
+    ],
+    "rules": [
+     {
+      "when": "qs.imi.history.change_of_control_planned = 'Yes'",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because a change of control of the company, or the cessation of your AFSL, is planned or under negotiation.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.history.change_of_control_planned",
+     "text": "Is a change of control of the company, or the cessation of your AFSL, planned or under negotiation?",
+     "type": "yes/no",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e10",
+   "heading": "E10 Prospectus and PDS Liability \u2014 Enhanced",
+   "trigger": {
+    "questions": [
+     "qs.imi.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E10 Prospectus and PDS Liability \u2014 Enhanced' in qs.imi.cover.options_requested",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you asked for cover for a prospectus or product disclosure statement.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.cover.options_requested",
+     "text": "Which of these optional extensions do you want to be considered?",
+     "type": "multi-select",
+     "options": [
+      "E01 US and Canada Jurisdiction Extension",
+      "E05 Custodian Failure \u2014 Enhanced",
+      "E08 Extended Reporting Period",
+      "E10 Prospectus and PDS Liability \u2014 Enhanced",
+      "E11 Excess Layer",
+      "E12 Employment Practices Liability",
+      "E14 Side A Difference in Conditions"
+     ],
+     "used_by": "E01, E05, E08, E10, E11, E12, E14"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e11",
+   "heading": "E11 Excess Layer",
+   "trigger": {
+    "questions": [
+     "qs.imi.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E11 Excess Layer' in qs.imi.cover.options_requested",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you asked for cover excess of other insurance.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.cover.options_requested",
+     "text": "Which of these optional extensions do you want to be considered?",
+     "type": "multi-select",
+     "options": [
+      "E01 US and Canada Jurisdiction Extension",
+      "E05 Custodian Failure \u2014 Enhanced",
+      "E08 Extended Reporting Period",
+      "E10 Prospectus and PDS Liability \u2014 Enhanced",
+      "E11 Excess Layer",
+      "E12 Employment Practices Liability",
+      "E14 Side A Difference in Conditions"
+     ],
+     "used_by": "E01, E05, E08, E10, E11, E12, E14"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e12",
+   "heading": "E12 Employment Practices Liability",
+   "trigger": {
+    "questions": [
+     "qs.imi.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E12 Employment Practices Liability' in qs.imi.cover.options_requested",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you asked for employment practices liability cover.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.cover.options_requested",
+     "text": "Which of these optional extensions do you want to be considered?",
+     "type": "multi-select",
+     "options": [
+      "E01 US and Canada Jurisdiction Extension",
+      "E05 Custodian Failure \u2014 Enhanced",
+      "E08 Extended Reporting Period",
+      "E10 Prospectus and PDS Liability \u2014 Enhanced",
+      "E11 Excess Layer",
+      "E12 Employment Practices Liability",
+      "E14 Side A Difference in Conditions"
+     ],
+     "used_by": "E01, E05, E08, E10, E11, E12, E14"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e13",
+   "heading": "E13 Cryptocurrency and Digital Asset Fund Management",
+   "trigger": {
+    "questions": [
+     "qs.imi.exposure.digital_assets_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.imi.exposure.digital_assets_pct > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because {qs.imi.exposure.digital_assets_pct}% of your funds under management is in digital assets or cryptocurrency.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.exposure.digital_assets_pct",
+     "text": "What percentage of your funds under management is in digital assets or cryptocurrency?",
+     "type": "number (percentage)",
+     "used_by": "A, E13"
+    }
+   ]
+  },
+  {
+   "id": "imi.end.e14",
+   "heading": "E14 Side A Difference in Conditions",
+   "trigger": {
+    "questions": [
+     "qs.imi.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E14 Side A Difference in Conditions' in qs.imi.cover.options_requested",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you asked for a separate Side A limit for your directors and officers.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.imi.cover.options_requested",
+     "text": "Which of these optional extensions do you want to be considered?",
+     "type": "multi-select",
+     "options": [
+      "E01 US and Canada Jurisdiction Extension",
+      "E05 Custodian Failure \u2014 Enhanced",
+      "E08 Extended Reporting Period",
+      "E10 Prospectus and PDS Liability \u2014 Enhanced",
+      "E11 Excess Layer",
+      "E12 Employment Practices Liability",
+      "E14 Side A Difference in Conditions"
+     ],
+     "used_by": "E01, E05, E08, E10, E11, E12, E14"
+    }
+   ]
+  }
+ ],
+ "sha256": "28c0528e7059e406e66466222f126507e7455d43c58014a76c8c00552a39e032"
+}

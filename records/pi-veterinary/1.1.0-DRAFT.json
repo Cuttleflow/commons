@@ -1,0 +1,697 @@
+{
+ "wording": "pi-veterinary",
+ "version": "1.1.0-DRAFT",
+ "doc_ref": "2026/PI/0012",
+ "base": "pi-base@1.5.0-DRAFT",
+ "clauses": [
+  {
+   "id": "pi.about",
+   "heading": "About This Policy",
+   "sha256": "cbccf7db9e9955fe9257dfef0a06218b866b8546f1b9b32ab1f8e931534256b1"
+  },
+  {
+   "id": "pi.who-this-policy-is-for",
+   "heading": "Who This Policy Is For",
+   "sha256": "799a591fb4a035bca688e6949895200a3f891ab709198e701bf19629431954a5"
+  },
+  {
+   "id": "pi.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "pi.schedule",
+   "heading": "Schedule",
+   "sha256": "6b00d9c141a61877dbe28d9f28b32d8c81dfd9c5df87034229347b574c43276f"
+  },
+  {
+   "id": "pi.section.definitions",
+   "heading": "Definitions",
+   "sha256": "a0be66d24cca1a93364ad959e36b4f53d132c81a7075c1c7525d1e82080f64ca"
+  },
+  {
+   "id": "pi.def.business-activity",
+   "heading": "Business activity",
+   "sha256": "469dd9a93a12c388336af6067cc51465091bc8d95b6838c2c76d130f78ef76e8"
+  },
+  {
+   "id": "pi.def.claim",
+   "heading": "Claim",
+   "sha256": "554b8a85577dfbd3ac2c5df94e05bf8b0339332792dd0b5509535c4988c1aa8e"
+  },
+  {
+   "id": "pi.def.company",
+   "heading": "Company",
+   "sha256": "199f99fdf5327cfbe4cf584860587a187417093e2ef776ba6c3f6f80e51d90ad"
+  },
+  {
+   "id": "pi.def.computer-system",
+   "heading": "Computer system",
+   "sha256": "00cf5813e627ffaf316cea0c0d0809e17a3396c6dc5ae0dd31335e5ae403927e"
+  },
+  {
+   "id": "pi.def.confidential-information",
+   "heading": "Confidential information",
+   "sha256": "9d60d1104dede35192071bdf98d5861433c2ffe0fca08f0458ee3035a5eaea65"
+  },
+  {
+   "id": "pi.def.control-group",
+   "heading": "Control group",
+   "sha256": "6b024792eb8b44617e0ef3bb432114469d8f98dd535864c15cc41854bcbf02c8"
+  },
+  {
+   "id": "pi.def.defence-costs",
+   "heading": "Defence costs",
+   "sha256": "8d668ed553a4de7198a84c31e13ed99e249ed311065d52a87458ca00639e9668"
+  },
+  {
+   "id": "pi.def.employee",
+   "heading": "Employee",
+   "sha256": "45780d3209435c151da3b623ca4545d00d692fa3a96164b4548bcb4f2a911e60"
+  },
+  {
+   "id": "pi.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "c32b97c887b446c065b84d5202450912ae38b786ef132af5d6846ffecd726791"
+  },
+  {
+   "id": "pi.def.excess",
+   "heading": "Excess",
+   "sha256": "10bdc557fdffedd2c334e1f6c602d55403144f9aeba0d3c4982982673c38b931"
+  },
+  {
+   "id": "pi.def.final-adjudication",
+   "heading": "Final adjudication",
+   "sha256": "097a4e3a2959485247a1d3f172ccd3ae0cb715378caafe69923a739a60ed18f8"
+  },
+  {
+   "id": "pi.def.geographical-limits",
+   "heading": "Geographical limits",
+   "sha256": "07a723bbf87830ed62e1e0fac30793591fac24f56efae8f5de91b20162addafc"
+  },
+  {
+   "id": "pi.def.insured-person",
+   "heading": "Insured person",
+   "sha256": "e7813b14e6589c3d64e28999acf2e03308f869a14349ee7c868eebff7e5ad1e9"
+  },
+  {
+   "id": "pi.def.joint-venture",
+   "heading": "Joint venture",
+   "sha256": "57dd4bc108af5a71c3039363c3cb553344f4ef6c6be524c30d8c993f93442f60"
+  },
+  {
+   "id": "pi.def.limit-of-liability",
+   "heading": "Limit of liability",
+   "sha256": "5a617c77e239ebc177d88aeafbfb7e391b7f0771c3c991bf94d9585fdd1d3949"
+  },
+  {
+   "id": "pi.def.loss",
+   "heading": "Loss",
+   "sha256": "5ed464445e09670f9f05b030778485aba329c06c773cc2d5e0709b2bde31eebe"
+  },
+  {
+   "id": "pi.def.named-insured",
+   "heading": "Named insured",
+   "sha256": "1269ee482016f97c3914a95b9bdd652207283d127db1c5364a5e117913154223"
+  },
+  {
+   "id": "pi.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "10cd1ed2de46cbe1f40de926f78d2bdf5367ca68554892c2c0e467769c089d68"
+  },
+  {
+   "id": "pi.def.pollution",
+   "heading": "Pollution",
+   "sha256": "413a097bd6ae328e102e8ff57a706d0ea10102132eba68f38d2c53bf4922300e"
+  },
+  {
+   "id": "pi.def.predecessor-practice",
+   "heading": "Predecessor practice",
+   "sha256": "ea2aa50eda793e3e7f525b24a26ad6467af8f5bb496de56615c86903a651440d"
+  },
+  {
+   "id": "pi.vt.def.professional-services",
+   "heading": "Professional services",
+   "sha256": "0bb12ae484b5ceacc237f46c3102762bd25f6c05e96d065e2483d49d7d89ad11"
+  },
+  {
+   "id": "pi.def.retroactive-date",
+   "heading": "Retroactive date",
+   "sha256": "716d59bdf014da751af7a09a1474fcb0533f43e9d52c4d5658882b3b916e7c55"
+  },
+  {
+   "id": "pi.def.schedule",
+   "heading": "Schedule",
+   "sha256": "5ae03fab335253ccdd73cfedbd226693ea6d63556588dc84934658294440c4f2"
+  },
+  {
+   "id": "pi.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "7079d0ba0bb1f4c8b970bfc551e9155fc70963851fd3db746636836c50855d02"
+  },
+  {
+   "id": "pi.def.we-us-our",
+   "heading": "We / us / our",
+   "sha256": "b4b6b27adda7d9a701773f77d7426d90a6a302d91b97bd5637cd7d4582a3ef6d"
+  },
+  {
+   "id": "pi.def.you-your",
+   "heading": "You / your",
+   "sha256": "32ef1f2a0ef8cccf505602f586784b6f73891fa9d4ae5d1564ee445a61d73b9c"
+  },
+  {
+   "id": "pi.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "pi.cover.claims-against-you",
+   "heading": "Claims Against You",
+   "sha256": "a1306ecda3b9afb2781b4fc261fbc16935be187e5aedc4710968a0f4a57ac6c8"
+  },
+  {
+   "id": "pi.cover.notification-of-circumstances",
+   "heading": "Notification of Circumstances",
+   "sha256": "869427bc4278dfd92395ec567d9610f784cf315e680285f3c68be300cd4ab168"
+  },
+  {
+   "id": "pi.ext.avoiding-a-potential-claim",
+   "heading": "Avoiding a Potential Claim",
+   "sha256": "3684c70e9079769b95975d0df0a93a8b0d1c45b2ed696f64de1edf963fa2fb94"
+  },
+  {
+   "id": "pi.section.extensions",
+   "heading": "Extensions of Cover",
+   "sha256": "5c42b8f67863c76a61cf3732f1d5e6ad1d5ee814ba179f668623a752c9786083"
+  },
+  {
+   "id": "pi.ext.loss-of-documents-and-data",
+   "heading": "Loss of Documents and Data",
+   "sha256": "5fd5a210b6be81ac0eb5dfcb4ea1961c149d6a17ec21007cdb3a4255c4cf8215"
+  },
+  {
+   "id": "pi.ext.first-party-dishonesty",
+   "heading": "First-Party Dishonesty",
+   "sha256": "ead76157d105852e7affd69ae71b3174e389b70712740f1c4e1045e02f0d51f5"
+  },
+  {
+   "id": "pi.ext.statutory-liability",
+   "heading": "Statutory Liability",
+   "sha256": "9b81e836ca4fb619da555aebfc1c2c75b585e881d5d891f908a8c1914ca992e7"
+  },
+  {
+   "id": "pi.ext.inquiry-costs",
+   "heading": "Inquiry Costs",
+   "sha256": "dfba578bbff1e764122dfac94692d5b86fe3e2a6061fbf2708fcc23918c4bd3b"
+  },
+  {
+   "id": "pi.ext.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "1ce15927e4c11c4bd287086534d7d5049abc5402d46ab3f883005826a8eb94ef"
+  },
+  {
+   "id": "pi.ext.mitigation-costs",
+   "heading": "Mitigation Costs",
+   "sha256": "fd717a2b54230bcf07e9d08742f8c6381f030632c8e39a39a9080619555145c0"
+  },
+  {
+   "id": "pi.ext.public-relations-costs",
+   "heading": "Public Relations Costs",
+   "sha256": "5b898d9810e692d683752c628ebe885f0dbc3207c71c843e11fcb59a22f539f0"
+  },
+  {
+   "id": "pi.ext.court-attendance",
+   "heading": "Court Attendance",
+   "sha256": "c2af343c953f9308df7d8e16dc7f87dc4d6530ef71d20c1c3df9808195e33638"
+  },
+  {
+   "id": "pi.ext.newly-acquired-subsidiaries",
+   "heading": "Newly Acquired Subsidiaries",
+   "sha256": "4bc313c13a9da11b8402e6d6570e3a16528089a7f70e29b8a841ec2c416f5259"
+  },
+  {
+   "id": "pi.ext.joint-ventures",
+   "heading": "Joint Ventures",
+   "sha256": "5a73e7adad12d54cf46d1dbdc4103fc01237e1ad19f7e9c9f53f553f5aa850fd"
+  },
+  {
+   "id": "pi.ext.predecessor-practices",
+   "heading": "Predecessor Practices",
+   "sha256": "78892ddc29f76c3ed43bb56663d62060a3ad637b61956ebdf6585bde39a946d3"
+  },
+  {
+   "id": "pi.ext.run-off-cover",
+   "heading": "Run-Off Cover",
+   "sha256": "29d45cde37382784319a9764dc1cd6941ecd7a4b20d498236fe7a37261a4def1"
+  },
+  {
+   "id": "pi.ext.subcontractors-and-outsourcers",
+   "heading": "Subcontractors and Outsourcers",
+   "sha256": "2dcae9fcd37ae938f6bbe937c2d7fc88eb6f8cc2854213079cf51cee0be87fb3"
+  },
+  {
+   "id": "pi.vt.ext.animals-in-care",
+   "heading": "Animals in Care",
+   "sha256": "5d78c7c64baa6f6c346e4564d7dea2149c8cd9e2630344d2d0048333d5ec513f"
+  },
+  {
+   "id": "pi.vt.ext.veterinary-boards",
+   "heading": "Veterinary Boards",
+   "sha256": "76fd38cc4a5dbf3ee36dd7186d36fe1d4e29dc321d3bf74e34f682beac14dd2e"
+  },
+  {
+   "id": "pi.vt.ext.emergency-treatment",
+   "heading": "Emergency Treatment",
+   "sha256": "d101bc3b4be0c08c2ec0af5eb20a7fe8e2d80fa1269bb9c233ec003161584954"
+  },
+  {
+   "id": "pi.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "7d863eb787645d56328bf658ab97a34dec07c3e44abdc0aa86e6aaee06893917"
+  },
+  {
+   "id": "pi.excl.bodily-injury-and-property-damage",
+   "heading": "Bodily Injury and Property Damage",
+   "sha256": "40598b302efc03bd4f86b358f91fd78f5c06e872abb1bd97c7df7b264cdd4a16"
+  },
+  {
+   "id": "pi.excl.employers-liability",
+   "heading": "Employer's Liability",
+   "sha256": "daaeb92e732f185e7e7e751fe8066dd422159cefde137e795d54297337abb61d"
+  },
+  {
+   "id": "pi.excl.directors-and-officers-liability",
+   "heading": "Directors' and Officers' Liability",
+   "sha256": "ffea43ffdb14b0edacd51aeae23a702d044403734babbd2021189ba4b959daf6"
+  },
+  {
+   "id": "pi.excl.cyber-event",
+   "heading": "Cyber Event",
+   "sha256": "f8da655369381fda00e811ce26c1ec7c5fda4f6398eabd2b568e49169263c0ce"
+  },
+  {
+   "id": "pi.excl.financial-services",
+   "heading": "Financial Services",
+   "sha256": "0353fe3da9a18b5875a6d75dcef56ab4c7556a7be36eca9225bf264453ae4fc0"
+  },
+  {
+   "id": "pi.vt.excl.products",
+   "heading": "Products",
+   "sha256": "ba3e42e71197fcb6436d27412a3c81b224dbf510b5795a1579dd520be59ceaa1"
+  },
+  {
+   "id": "pi.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "bfec24bd7ece3bbef1bb573c7ff170f0bf2aab8ecd25f308203a176856d8b827"
+  },
+  {
+   "id": "pi.excl.deliberate-and-dishonest-acts",
+   "heading": "Deliberate and Dishonest Acts",
+   "sha256": "9fe1975f0f7e0c05336b736f515924681cd5a16874c51a0e106c974b0ad77eb7"
+  },
+  {
+   "id": "pi.excl.prior-known-circumstances",
+   "heading": "Prior Known Circumstances",
+   "sha256": "f2ed7adae3e08a53c1437bb7b75e4f0e516a655681c4f10d6ba88244d6927abb"
+  },
+  {
+   "id": "pi.excl.war-terrorism-and-sanctions",
+   "heading": "War and Terrorism",
+   "sha256": "c78048f85ab9b3243653a9dcc40278d0c9de7111c5ac74822209a7d198177d55"
+  },
+  {
+   "id": "pi.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "f53b39cdb811d5586c7fd6492bb432900afe82ef307cf880a371a95ed018e972"
+  },
+  {
+   "id": "pi.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "284d7fa39a5760a54006a42f8b76925be263e277c0e25cc03151286c83299eb0"
+  },
+  {
+   "id": "pi.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "7c45110aa252ab74825aca000c02f095cf6b2dcaa31156e6940f1d9dea3eea74"
+  },
+  {
+   "id": "pi.excl.trading-debts-and-business-losses",
+   "heading": "Trading Debts and Business Losses",
+   "sha256": "e31d4404efcac8e2cb7f4944f0f818a7d9bc79f60141425e1ef0cc0b9c2e2b0f"
+  },
+  {
+   "id": "pi.excl.related-party-claims",
+   "heading": "Related Party Claims",
+   "sha256": "6737a105610c5c48120d13a78fc69a1fd94921f9065c1a6ae6cb346a2f9638b2"
+  },
+  {
+   "id": "pi.excl.non-compensatory-payments",
+   "heading": "Non-Compensatory Payments",
+   "sha256": "6b33145dfd137d885a5cf212abb2e8278c034ceb1b40ea54df6bbcc285202952"
+  },
+  {
+   "id": "pi.vt.excl.animal-welfare-offences",
+   "heading": "Animal Welfare and Biosecurity Penalties",
+   "sha256": "57ee0089fd2aeaf2da405bf1f60e4a7ab17e27022729d8c634cbebacc40a1d46"
+  },
+  {
+   "id": "pi.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "pi.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "d18887351399244f6df19145a1de54c226949fb4dfcaee74ecaf889661f5fd2a"
+  },
+  {
+   "id": "pi.pay.automatic-reinstatement",
+   "heading": "Automatic Reinstatement",
+   "sha256": "02c3a03a1142696aadcb0d858145efbf175bd89cf71fc289db65da0c03a366cc"
+  },
+  {
+   "id": "pi.pay.sub-limits",
+   "heading": "Sub-Limits",
+   "sha256": "28a8f07ccfe64daaf2824a2777ccee2dd076c31115c111a4a69f0e8295032ff8"
+  },
+  {
+   "id": "pi.pay.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "7dd8752677eca19135089ad61d3549b5729f6b11b0efe6756ed5b864e797ab3d"
+  },
+  {
+   "id": "pi.pay.excess",
+   "heading": "Excess",
+   "sha256": "9ee91e15fbfc571edfb2fab7c8583594338ec98790a9db0e085e8dce338efbe6"
+  },
+  {
+   "id": "pi.vt.pay.high-value-animals",
+   "heading": "High-Value Animals Excess",
+   "sha256": "d7b6167eea51ffc4e3756aa772fe93d11dd171c6783961c55a9d00e43ea8464f"
+  },
+  {
+   "id": "pi.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "abe7f054c7d64082533a9c9a93218054ed05183b568dd21d62ef4dff6144564d"
+  },
+  {
+   "id": "pi.pay.paying-out-the-limit",
+   "heading": "Paying Out the Limit",
+   "sha256": "8e1d8ce02a9b546c8f35a14cc012df3f5a0f858e0bafd30437116c93dbe89364"
+  },
+  {
+   "id": "pi.pay.allocation",
+   "heading": "Allocation",
+   "sha256": "69278105ff3442326358ccf729c81c826c33f8ede6061f2ed656449878b5b2ec"
+  },
+  {
+   "id": "pi.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "9e0dc39952e3808986b500703d1b7b96db927b2d42f992959b769d1ddd6f6925"
+  },
+  {
+   "id": "pi.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "5cbbe6963b3d70c977c4b04a652a60dd2470dbc38df80389a108ac192089844f"
+  },
+  {
+   "id": "pi.obl.tell-us-about-circumstances",
+   "heading": "Tell Us About Circumstances",
+   "sha256": "a33f3d701647ef09ae7d0ae86cf04ad49f7adc81c4dd4c0b837174dea7172bdb"
+  },
+  {
+   "id": "pi.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability",
+   "sha256": "08db17820641b1e6bb54dd742342ba52939d6e23c09687ec938927766f2bd7a3"
+  },
+  {
+   "id": "pi.obl.cooperate-with-us",
+   "heading": "Cooperate With Us",
+   "sha256": "072bc5e8d10f43938209ae17581380a72797855205258af5ab6de1fbe4659a44"
+  },
+  {
+   "id": "pi.obl.mitigate-your-loss",
+   "heading": "Mitigate Your Loss",
+   "sha256": "a540090f496395bf9db85fad965a376976abbebed01982a8caa15fd9968781f3"
+  },
+  {
+   "id": "pi.obl.preserve-our-recovery-rights",
+   "heading": "Preserve Our Recovery Rights",
+   "sha256": "4b589c6b93b81c6f9f74898a7fce3618a569b8069a40d1d40392010f4ecddf8f"
+  },
+  {
+   "id": "pi.obl.tell-us-about-other-insurance",
+   "heading": "Tell Us About Other Insurance",
+   "sha256": "7c4f96e6e1afa45e2ced3fb0eb8a9287c2d53b423d18506cf241b851079c3c64"
+  },
+  {
+   "id": "pi.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "df3dd121c69b578d62057447de9c8c5567ab2cff02f9a9f9aee68fe1ecf7e280"
+  },
+  {
+   "id": "pi.obl.individual-treatment-of-insured-persons",
+   "heading": "Individual Treatment of Insured Persons",
+   "sha256": "ad16a6a7de02f8ae0d948aa82d5a7ca27bedc9c8bf9380c8a57b9e2da9a2ab4c"
+  },
+  {
+   "id": "pi.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "pi.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "pi.cond.your-duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "a7e859e5f96ad0c092f4fd31e0c295b71fa566e9de902c4a948960323a0f4080"
+  },
+  {
+   "id": "pi.cond.licences-registrations-and-accreditations",
+   "heading": "Licences, Registrations and Accreditations",
+   "sha256": "94638df7709f940c4388808f4542aa931720693086254e67df05a9097080f87b"
+  },
+  {
+   "id": "pi.cond.compulsory-insurance-requirements",
+   "heading": "Compulsory Insurance Requirements",
+   "sha256": "39b10bdf8cd7952bfc3b8830646b90caa48d5460c482190ebb18a7e7086b86da"
+  },
+  {
+   "id": "pi.cond.professional-standards-schemes",
+   "heading": "Professional Standards Schemes",
+   "sha256": "f649e1893086633b764f47780266c42987afcdc84e0c40a683ba25ef2ca5bde1"
+  },
+  {
+   "id": "pi.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "pi.cond.corporations-act-ss-199a-199b",
+   "heading": "Corporations Act 2001 (Cth), sections 199A and 199B",
+   "sha256": "64c232b28c4186298f7778abbbaeb5c4ec2c99af057a5a419d474a35c2373ebe"
+  },
+  {
+   "id": "pi.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "9ae83ed9c429a38e459ae2747e4757803117d6bc2dd21fadc94231ae10582d99"
+  },
+  {
+   "id": "pi.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "e7209d33789dff119d5cdc8801d382ef78896e6fe5596547ce7d4c7c1f03d311"
+  },
+  {
+   "id": "pi.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "cb977e5c81fd606f507d7bbfc89e6f3eebc688a4918a4887c532f10ed47fdae7"
+  },
+  {
+   "id": "pi.cond.gst",
+   "heading": "GST",
+   "sha256": "fd245335cb6351542b01c84694f354c689365de0e69461d6e0d391c4b9bc9a93"
+  },
+  {
+   "id": "pi.cond.several-liability",
+   "heading": "Several Liability",
+   "sha256": "d02c12cd0232c9ef649e13a237eea560de61c9760ba11499f3ce6c412e89fcea"
+  },
+  {
+   "id": "pi.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "52bae2a47f23fc6dcbd694b1c7be9a0bd44ed177f21af89185dd63b0b12ce152"
+  },
+  {
+   "id": "pi.cond.entire-agreement",
+   "heading": "Entire Agreement",
+   "sha256": "88c44d21c23cef8d4523216c312b32bdfeb394809d2642a08977ac4f1b16dbd4"
+  },
+  {
+   "id": "pi.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "c50b1d8287724bddb8734bcfc79b99792546820c1392701f9f58936bdff9a934"
+  },
+  {
+   "id": "pi.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "0c018d70b87a0a668debc2d318745747eeee2253ad49609022c769dba6d00e48"
+  },
+  {
+   "id": "pi.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "dc859c2063edfb69193a878ebda341903ed67181bdfdc5460aa9abe93537fdb5"
+  },
+  {
+   "id": "pi.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "32ec4dddc367be8cd2ee9a036e424cc51924c9d567b7ff7cd2a2df9057c4589c"
+  },
+  {
+   "id": "pi.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "89b7672c4b908a8ea382be227d1926040733aedc729235d22de484dafe3c85f6"
+  },
+  {
+   "id": "pi.vt.library.optional-endorsements",
+   "heading": "Veterinary Endorsements",
+   "sha256": "85e5a24a8e4bf0e5993e2ccec526b670d7beb77f15e63ef393217df04f799c32"
+  },
+  {
+   "id": "pi.vt.end.racing-animals",
+   "heading": "Racing Animals Excess",
+   "sha256": "e16255baae10bf6d641250315040563d9c160bb77bff0b3d32dea7e540c7fe69"
+  },
+  {
+   "id": "pi.vt.end.pre-purchase-examinations",
+   "heading": "Pre-purchase Examinations Sub-limit",
+   "sha256": "a476af18959625d1b210855f428b4f731ee0bc73c085ccad870007b9609fc129"
+  },
+  {
+   "id": "pi.vt.end.reproductive-services",
+   "heading": "Reproductive Services",
+   "sha256": "8ac3f822f3c535b46da0d1381156f296fcb5a8dbde91a3a3b5852761c2aa0ce5"
+  },
+  {
+   "id": "pi.vt.end.live-export",
+   "heading": "Live Export Certification Exclusion",
+   "sha256": "eb2ec8467cdab190663afbf3b3f14b038914868bbbc49b440490a7bde3c5836a"
+  },
+  {
+   "id": "pi.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "pi.vt.end.racing-animals",
+   "heading": "Racing Animals Excess",
+   "trigger": {
+    "questions": [
+     "qs.pi.vt.racing_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.pi.vt.racing_pct > 10",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.pi.vt.racing_pct}% of your work is with racing animals.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pi.vt.racing_pct",
+     "text": "What percentage of your work in the last 12 months was with thoroughbreds, standardbreds or greyhounds in training, racing or bred for racing?",
+     "type": "percentage",
+     "used_by": "E (Racing Animals Excess)"
+    }
+   ]
+  },
+  {
+   "id": "pi.vt.end.pre-purchase-examinations",
+   "heading": "Pre-purchase Examinations Sub-limit",
+   "trigger": {
+    "questions": [
+     "qs.pi.vt.prepurchase_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.pi.vt.prepurchase_count > 50",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Applies because you perform {qs.pi.vt.prepurchase_count} pre-purchase examinations a year.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pi.vt.prepurchase_count",
+     "text": "How many pre-purchase or soundness examinations did you perform in the last 12 months?",
+     "type": "number",
+     "used_by": "E (Pre-purchase Examinations Sub-limit)"
+    }
+   ]
+  },
+  {
+   "id": "pi.vt.end.reproductive-services",
+   "heading": "Reproductive Services",
+   "trigger": {
+    "questions": [
+     "qs.pi.vt.reproductive_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.pi.vt.reproductive_pct > 0",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you provide reproductive services."
+   },
+   "questions": [
+    {
+     "id": "qs.pi.vt.reproductive_pct",
+     "text": "What percentage of your fees in the last 12 months came from artificial breeding and reproductive services?",
+     "type": "percentage",
+     "used_by": "E (Reproductive Services)"
+    }
+   ]
+  },
+  {
+   "id": "pi.vt.end.live-export",
+   "heading": "Live Export Certification Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.pi.vt.live_export"
+    ],
+    "rules": [
+     {
+      "when": "qs.pi.vt.live_export = yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you certify animals for live export."
+   },
+   "questions": [
+    {
+     "id": "qs.pi.vt.live_export",
+     "text": "Do you inspect or certify animals for export, or accompany animals on export voyages?",
+     "type": "yes/no",
+     "used_by": "E (Live Export Certification Exclusion)"
+    }
+   ]
+  }
+ ],
+ "sha256": "f50129a0071121e7865ac8cafc7eb1c4f861068e27a80411a9106e2c765725a5"
+}

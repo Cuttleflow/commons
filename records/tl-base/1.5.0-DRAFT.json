@@ -1,0 +1,1388 @@
+{
+ "wording": "tl-base",
+ "version": "1.5.0-DRAFT",
+ "doc_ref": "2026/TL/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "tl.about",
+   "heading": "About This Policy",
+   "sha256": "17249df138c195e3048c4cf87887b3ac2a682653a1aab1e7f9c05f4df82ea805"
+  },
+  {
+   "id": "tl.who-for",
+   "heading": "Who This Policy Is For",
+   "sha256": "799a591fb4a035bca688e6949895200a3f891ab709198e701bf19629431954a5"
+  },
+  {
+   "id": "tl.version-history",
+   "heading": "Version and Document History",
+   "sha256": "249b698a5837264585104a1b043679eca7569758a8c4074528eaf59273e77504"
+  },
+  {
+   "id": "tl.schedule",
+   "heading": "Schedule",
+   "sha256": "c5d40089b7910392029d05178b5ca791eeb9ef5e48f6a62285b47d249e5a368a"
+  },
+  {
+   "id": "tl.section.definitions",
+   "heading": "Definitions",
+   "sha256": "a54489a92546271c1e619830fb60840fb3d4afc2ac786741de69ce6b0f738c2a"
+  },
+  {
+   "id": "tl.def.business",
+   "heading": "Business",
+   "sha256": "64bf7126966fca3fcb5febffca29159de57823dd79199263911e06589647fa85"
+  },
+  {
+   "id": "tl.def.claim",
+   "heading": "Claim",
+   "sha256": "416fd8b4c72702d6a16552ada5e4c41a23277ef3b2f6adad76653da84068cac4"
+  },
+  {
+   "id": "tl.def.client",
+   "heading": "Client",
+   "sha256": "073bede37371bc16fd33c65b3a4d8a6c9621488d7a9d654e77015cb3a3df7fa4"
+  },
+  {
+   "id": "tl.def.computer-system",
+   "heading": "Computer system",
+   "sha256": "2deecb96915e1d7385f4f5da83009c33b9c116bfa46493453719ff4eb06054d2"
+  },
+  {
+   "id": "tl.def.continuity-date",
+   "heading": "Continuity date",
+   "sha256": "b21309ed5b718aa1f3ab0dc19ad9a094e7eb88fb0a3807ecf29a212b07d7193b"
+  },
+  {
+   "id": "tl.def.cyber-loss",
+   "heading": "Cyber loss",
+   "sha256": "4cf38c6d2611e4573f7c2a38830a49d37bcc05021926fcf5a95bd3d33a874ca3"
+  },
+  {
+   "id": "tl.def.damages",
+   "heading": "Damages",
+   "sha256": "beb83b04a6b5de3e31de32a1d6f037fa94e8522bb663637534334228d751048f"
+  },
+  {
+   "id": "tl.def.defence-costs",
+   "heading": "Defence costs",
+   "sha256": "61af2ab68630ab882c6214243c33f9941ef5ec4d231d6240b33d6f22c1e23281"
+  },
+  {
+   "id": "tl.def.employee",
+   "heading": "Employee",
+   "sha256": "496a998572d1687722a56b45ed3de37eeaab0888dabfb002a4da273a3afca747"
+  },
+  {
+   "id": "tl.def.executive-officer",
+   "heading": "Executive officer",
+   "sha256": "8b7735b9984b4565f29b4b3bdead81251a2b3d9be7ad742edc22cacf432023d9"
+  },
+  {
+   "id": "tl.def.final-adjudication",
+   "heading": "Final adjudication",
+   "sha256": "781b7b38978d9cd3301280593a37b16bf7245e7314f5e72467b1f6d38d6bc0ed"
+  },
+  {
+   "id": "tl.def.insured",
+   "heading": "Insured",
+   "sha256": "e96ecd6c7b23d25ed3c64e9290dd8d4a6c5089297d797adfafefe3b2adbdf7bd"
+  },
+  {
+   "id": "tl.def.insured-person",
+   "heading": "Insured person",
+   "sha256": "5c8178357ab5d666c2cb1556f6d185b6902ef62794ac3f81abdb60cb660d43f7"
+  },
+  {
+   "id": "tl.def.joint-venture",
+   "heading": "Joint venture",
+   "sha256": "e1f9a23b8913da64d974c06daaea70e2178e20e235778374f4864036ec5b3e9a"
+  },
+  {
+   "id": "tl.def.limit-of-liability",
+   "heading": "Limit of liability",
+   "sha256": "82eabfadec58502e8a6a9ade2672f6b77e78bbc74988998c7d326628c0aba14a"
+  },
+  {
+   "id": "tl.def.loss",
+   "heading": "Loss",
+   "sha256": "db87a70018fc0596480b9ed1fd977a3d71c780cf7ba83c285fc418a2e85fe062"
+  },
+  {
+   "id": "tl.def.named-insured",
+   "heading": "Named insured",
+   "sha256": "9d63bf98786bcf0c248488aee2af89205df609cf6313586556741394004abf15"
+  },
+  {
+   "id": "tl.def.operational-technology",
+   "heading": "Operational technology",
+   "sha256": "f01c29be6082f36692e80f69d9510663e6cca8ef7b54177aa6b52a3494f03459"
+  },
+  {
+   "id": "tl.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "d6a511fc41147e9d326e585004fdd26d28f477225531e71c71e97b68b751b854"
+  },
+  {
+   "id": "tl.def.regulatory-penalty",
+   "heading": "Regulatory penalty",
+   "sha256": "05988861b4f8e0c380b192482a369afe8b6e8d4f97363aa18939771b28ebce5f"
+  },
+  {
+   "id": "tl.def.regulatory-proceeding",
+   "heading": "Regulatory proceeding",
+   "sha256": "015821285295da8aecfedbfde252dbc551e9282cc43941c7231e810b49feb1cd"
+  },
+  {
+   "id": "tl.def.retention",
+   "heading": "Retention",
+   "sha256": "a987ea2530602de9c18ce4ceb019b811c5d691146f90fbafdcdef02c1bdd2a76"
+  },
+  {
+   "id": "tl.def.retroactive-date",
+   "heading": "Retroactive date",
+   "sha256": "79d1e59c56f6baf91cc7f01e47d762311adde975368bb5b80667e3a364c5b22a"
+  },
+  {
+   "id": "tl.def.schedule",
+   "heading": "Schedule",
+   "sha256": "af1d863b9208321d1c125ec454f44dae968534b3521052b168166b6d1d0ebebe"
+  },
+  {
+   "id": "tl.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "d4642b9c17dbd4e7a14cea6365294d230ce134353fa2fab86fa456579bc3d58f"
+  },
+  {
+   "id": "tl.def.technology-product",
+   "heading": "Technology product",
+   "sha256": "5536ffbc9f88e334ae5705cf5311ce8a0b03741bb70e9924a15d448d48ec67f9"
+  },
+  {
+   "id": "tl.def.technology-service",
+   "heading": "Technology service",
+   "sha256": "1da8fcf5c7a2e2c17a245c2c137dc135abb37af07d53b488e927c548a0d42f8e"
+  },
+  {
+   "id": "tl.def.third-party",
+   "heading": "Third party",
+   "sha256": "ce26f955433019649eb396de3ee06f52ff04acd96887baadc3976befb52bb88f"
+  },
+  {
+   "id": "tl.def.we-us-our",
+   "heading": "We / us / our",
+   "sha256": "b4b6b27adda7d9a701773f77d7426d90a6a302d91b97bd5637cd7d4582a3ef6d"
+  },
+  {
+   "id": "tl.def.you-your",
+   "heading": "You / your",
+   "sha256": "dc3f8102fce8672f11de0503323492cebb44bc98885390026b8855c22074b7ef"
+  },
+  {
+   "id": "tl.def.business-interruption-loss",
+   "heading": "Business interruption loss",
+   "sha256": "3f15e0f9de0f3873fc70ddfd795e57b3b2878b520ad36211c92eba8963c81e84"
+  },
+  {
+   "id": "tl.def.control-group",
+   "heading": "Control group",
+   "sha256": "49345532950f19a46bfdd1822fa4c0d6fdb019e96d470d3b1dc3eade184d806e"
+  },
+  {
+   "id": "tl.def.cyber-security-breach",
+   "heading": "Cyber security breach",
+   "sha256": "e69f6005d1ab312528ef1198a8079947777a66b9b32ceb231f2d7490f4b30daf"
+  },
+  {
+   "id": "tl.def.data-breach",
+   "heading": "Data breach",
+   "sha256": "ed03909ff9b427118e76a0d06fb33619b420c66ed19ce5c36f6d7f9f42fcc792"
+  },
+  {
+   "id": "tl.def.extortion-threat",
+   "heading": "Extortion threat",
+   "sha256": "292d022069465c103f29712567fedde0838c251095aed708584ab1ae6591dc72"
+  },
+  {
+   "id": "tl.def.personal-information",
+   "heading": "Personal information",
+   "sha256": "b4b453d487323e1877d16190ca11eea08df99e598211299c9fc9c515745f6ccc"
+  },
+  {
+   "id": "tl.def.system-failure",
+   "heading": "System failure",
+   "sha256": "f7381d4f601b99c6633ce7ba18466811debf16518dac04d4acc968001a2864ed"
+  },
+  {
+   "id": "tl.def.technology-provider",
+   "heading": "Technology provider",
+   "sha256": "f69f244ca030684f0b89a3d4c527afa3a42b99ba0e2ea9f58baca859dad881b2"
+  },
+  {
+   "id": "tl.def.third-party-information",
+   "heading": "Third-party information",
+   "sha256": "a25a2c92d85d3ea019c62247b87469aac31002ddeb15a8cb96cf71a997a0340e"
+  },
+  {
+   "id": "tl.def.unauthorised-access",
+   "heading": "Unauthorised access",
+   "sha256": "257d3bf9582e6ccba3f7455a01055a8b114ead76c791f1c6bba4d6bfebebad05"
+  },
+  {
+   "id": "tl.def.waiting-period",
+   "heading": "Waiting period",
+   "sha256": "d7c22405c750dcba325b49f6bc2304b2a85556f310aa4e2a51846715c9e826e9"
+  },
+  {
+   "id": "tl.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "0cb6be308e16864f04e2f9327aabccd1b33ad4dc4c55687ffdf925f4b7dda959"
+  },
+  {
+   "id": "tl.def.personal-injury",
+   "heading": "Personal injury",
+   "sha256": "1cd99dab8a3b4d8abff37169c93f23a89c20a7bb4fdaab354966a65f323a04c0"
+  },
+  {
+   "id": "tl.def.property-damage",
+   "heading": "Property damage",
+   "sha256": "c4ad8b9d94aa9fb5a5f9c5ad20cbab7141ecd461e8766911cbe4e2f25b8a06a6"
+  },
+  {
+   "id": "tl.def.product-injury",
+   "heading": "Product injury",
+   "sha256": "e1f048698a8dd7919b1f8557bd1b83a0ece7c2dab3fd23cd87df3745e3f235c9"
+  },
+  {
+   "id": "tl.def.related-claims",
+   "heading": "Related claims",
+   "sha256": "14713a30aa2fa9bef561016b6a27e39ef114c9de8799883a5372f884a07acf33"
+  },
+  {
+   "id": "tl.def.extended-reporting-period",
+   "heading": "Extended reporting period",
+   "sha256": "61948a26d4d7b4d9ce62467bba01bd60cf095dbe5a341f78862def5b00bf47c3"
+  },
+  {
+   "id": "tl.section.professional-liability",
+   "heading": "Technology Professional Liability",
+   "sha256": "0c02437c5ed13c9231bc803c28e7f2bf63dc2766ffb60e72870dd98c9ac1afa6"
+  },
+  {
+   "id": "tl.cover.technology-professional-liability",
+   "heading": "Technology Professional Liability Insuring Agreement",
+   "sha256": "b6fe3904b0a8653975e97e28e119b1a67f14345f7c34538db811f61a7b2ba047"
+  },
+  {
+   "id": "tl.cover.technology-professional-liability-clarifications",
+   "heading": "Technology Professional Liability Clarifications",
+   "sha256": "f2e41907838b80b75b9d81e3ad13e16dbdba43655949c62daae31bba8b00a688"
+  },
+  {
+   "id": "tl.ext.outstanding-fees",
+   "heading": "Outstanding Fees",
+   "sha256": "72a203ff8979b64808d3db6cf9fe0e0fbd59318fd8988a65f4f9eff619d42087"
+  },
+  {
+   "id": "tl.ext.refund-of-fees",
+   "heading": "Refund of Fees",
+   "sha256": "79e9215607f52c3ac1835b0502a2279ffdf2bffabd0ec1438ac0b3e7b17602b7"
+  },
+  {
+   "id": "tl.ext.mitigation-costs",
+   "heading": "Mitigation Costs",
+   "sha256": "9eda36cf7f695cc38ed48c1996adc4050533d13760bf98f398a524b768773b77"
+  },
+  {
+   "id": "tl.ext.patents",
+   "heading": "Patents",
+   "sha256": "dd07c40ef38d3e543de2519253c54dcb5ce8effe7f75fb0490384b1d3f09e42e"
+  },
+  {
+   "id": "tl.ext.regulatory-penalties",
+   "heading": "Regulatory Penalties",
+   "sha256": "66b36a8fcdfbf868ed69d858443094bee16562cc157ceea258d1313884f7ec1c"
+  },
+  {
+   "id": "tl.section.cyber",
+   "heading": "Cyber Protection",
+   "sha256": "ebdef0e468ad7e5dc8a77d98cce6a8cc3ddf143d8c9da4b5f277e4c152b8a4d3"
+  },
+  {
+   "id": "tl.cover.breach-response-and-notification",
+   "heading": "Breach Response and Notification",
+   "sha256": "a7cc29be942bf07400f018058aa285e0b2334f49e33cca7f68ef2f6c12837d13"
+  },
+  {
+   "id": "tl.cover.data-restoration",
+   "heading": "Data Restoration",
+   "sha256": "3d661b59e7f2f25dbdc8b83c6d36f8c0cb0e5b427e4c193274d77e3650186cf2"
+  },
+  {
+   "id": "tl.cover.business-interruption",
+   "heading": "Business Interruption",
+   "sha256": "927f6b937ac16b2e59ac85433a002ca099c67c7172327f2ff6084f060f567c05"
+  },
+  {
+   "id": "tl.cover.system-failure-business-interruption",
+   "heading": "System Failure Business Interruption",
+   "sha256": "a8c54126d2df6886c3f399ca1b49ded7edd34115366adff520995388a044a097"
+  },
+  {
+   "id": "tl.cover.cyber-extortion",
+   "heading": "Cyber Extortion",
+   "sha256": "f56d165ad94a6360c74754938379bcc18ce66d6748e6f4cf1028397f553985ac"
+  },
+  {
+   "id": "tl.cover.data-and-system-security-liability",
+   "heading": "Data and System Security Liability",
+   "sha256": "c47230e3895ed9ea144629a1740043383b1c57c908ef6ff7be5761ee78fce642"
+  },
+  {
+   "id": "tl.cover.regulatory-defence-and-fines",
+   "heading": "Regulatory Defence and Fines",
+   "sha256": "6507d4658b538d7912eb7107a43f95c237c0d94f771dcb4ed0599bd7dfd0c509"
+  },
+  {
+   "id": "tl.cover.pci-dss-liability",
+   "heading": "PCI DSS Liability",
+   "sha256": "960352c8aa39e5408ab0673198f692d9d95440fd3f4ca9adb063e9c6b07c02c5"
+  },
+  {
+   "id": "tl.ext.hardware-replacement",
+   "heading": "Hardware Replacement",
+   "sha256": "b7308c4e116c3a02755d30fb185ada3b2f2bd08a7a3e1eac530d7195f5e335f8"
+  },
+  {
+   "id": "tl.ext.reputational-harm",
+   "heading": "Reputational Harm",
+   "sha256": "94608462ba3c16315afb2c8529ae981174ff520e51dcfe517cbbda07441a8d30"
+  },
+  {
+   "id": "tl.ext.cyber-crime",
+   "heading": "Cyber Crime",
+   "sha256": "57814b83e3a18ce9deed9ca3aa649cd70f2a6102296d30bca070d2b1899e5f99"
+  },
+  {
+   "id": "tl.section.liability",
+   "heading": "Public and Products Liability",
+   "sha256": "d5f2d3e391b172de54ddff4e28977ab2bc0f5f9a05fce2e0f8bde38de9cc4193"
+  },
+  {
+   "id": "tl.cover.public-liability",
+   "heading": "Public Liability",
+   "sha256": "402e29702f7b3b431d61cce64dd42fef2bad7906af9f91f4ec88644b9e2a4b70"
+  },
+  {
+   "id": "tl.cover.products-liability",
+   "heading": "Products Liability",
+   "sha256": "b2370eb14e6da64c44d5634aa48dc06d82da76f03e2c916b38168cd5a57210b6"
+  },
+  {
+   "id": "tl.ext.product-recall-expenses",
+   "heading": "Product Recall Expenses",
+   "sha256": "a374759c0cd2d24195658658473c5da295fd48fa2475a4d806ef3ea60e08a476"
+  },
+  {
+   "id": "tl.ext.third-party-indemnities",
+   "heading": "Third-Party Indemnities",
+   "sha256": "a6e577b2ed4c95545e8efd0c0b81a11463ce1e22504ee80da809cc6d55579a3e"
+  },
+  {
+   "id": "tl.ext.physical-and-legal-control",
+   "heading": "Physical and Legal Control",
+   "sha256": "c4a62ab9561e42fb5ecee7ca5a49e04505be635ab24baec9797e867be9ae7850"
+  },
+  {
+   "id": "tl.ext.harm-response-expenses",
+   "heading": "Harm Response Expenses",
+   "sha256": "20d571aeafd4ad2a6498c103e2a297d9a4b4920fcbd9e29b12273e02b5f50436"
+  },
+  {
+   "id": "tl.ext.cross-liability",
+   "heading": "Cross Liability",
+   "sha256": "3915bd3697999c058364007279ef828931402890c6fd2d5598e1bd420a5ff8f6"
+  },
+  {
+   "id": "tl.ext.cyber-liability",
+   "heading": "Cyber Liability",
+   "sha256": "6ade102d006f92fb3a2d23149ab4aa0d32a9239096ad021305edb4cbbfcb2062"
+  },
+  {
+   "id": "tl.section.all-sections",
+   "heading": "Extensions Applicable to All Sections",
+   "sha256": "1d3bded17c6f90f33c7bbb035efbc5a3277cf85f99c347df76d38a45bace7d84"
+  },
+  {
+   "id": "tl.ext.advancement-of-defence-costs",
+   "heading": "Advancement of Defence Costs",
+   "sha256": "ef14427e1e1a55c751139795ff5ceafd4ed369a5e2a60d2f6ee9768b60d50ccd"
+  },
+  {
+   "id": "tl.ext.claims-preparation",
+   "heading": "Claims Preparation",
+   "sha256": "3c209ad7a1d5c7f9f58e5f477040b992b77af7d1ac91a617a6de9d19b5a0d366"
+  },
+  {
+   "id": "tl.ext.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "a90f3214e644b84f002ab998868dc24f4cdd89e69b3d6ba6e03b03b9a16f4103"
+  },
+  {
+   "id": "tl.ext.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "177cdfac28b1274fbfb4a6c4fe28bec9068048b31a182f38e71073d7f999b7b8"
+  },
+  {
+   "id": "tl.ext.court-attendance-costs",
+   "heading": "Court Attendance Costs",
+   "sha256": "11fbaa658703784d975c31450ede66f593e9b62bcb9837de398a9c42ab782880"
+  },
+  {
+   "id": "tl.ext.extended-reporting-period",
+   "heading": "Extended Reporting Period",
+   "sha256": "43d33ea252d60dfc1982a7b2ab939f85428b8acdbb125fd19891b58f153e8ab4"
+  },
+  {
+   "id": "tl.ext.inquiry-costs",
+   "heading": "Inquiry Costs",
+   "sha256": "d45f101f71a0817581952a7180a59cb69c48bfa6bbe6d94b7da60e47e2edf844"
+  },
+  {
+   "id": "tl.ext.joint-venture-liability",
+   "heading": "Joint Venture Liability",
+   "sha256": "ca933095a8e163f75a6ee2e4f664ba8b9f61868f630f7382b8971192527b2bba"
+  },
+  {
+   "id": "tl.ext.media-and-advertising-liability",
+   "heading": "Media and Advertising Liability",
+   "sha256": "375c0ffbf9756615ea41a30a45ed95478f8e41fa67ce56870ff731a3fbaca794"
+  },
+  {
+   "id": "tl.ext.newly-created-or-acquired-subsidiaries",
+   "heading": "Newly Created or Acquired Subsidiaries",
+   "sha256": "7b0bf30044392c8774b0d9a449c0b3fad4ff02a41e3a3380519e6e61137e0eda"
+  },
+  {
+   "id": "tl.ext.public-relations-expenses",
+   "heading": "Public Relations Expenses",
+   "sha256": "53f71a4950548ab81a9e5b03147ccd0b9c04e615c63f7e3384fc25583a8b8dc5"
+  },
+  {
+   "id": "tl.ext.run-off",
+   "heading": "Run-Off",
+   "sha256": "59dc03db55a9e484db7053d2100e9395412b07b81d0d9630d2b3fe5a72129fdd"
+  },
+  {
+   "id": "tl.ext.severability",
+   "heading": "Severability and Non-Imputation and Innocent Non-Disclosure",
+   "sha256": "46a0dd26a35d460704c29bb99b792ee657f900c396b82fb4ca74181614905eb7"
+  },
+  {
+   "id": "tl.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "7ab348518374363e574d668eccd6aec89c07dd4c00071ea8b2ca369e496d5337"
+  },
+  {
+   "id": "tl.excl.advertising-liability",
+   "heading": "Advertising Liability",
+   "sha256": "ab74160902df2ea6a87a9b6b0a22b1fe01d83b44d3e267fc13a41ecfb52e2609"
+  },
+  {
+   "id": "tl.excl.aircraft-and-watercraft",
+   "heading": "Aircraft and Watercraft",
+   "sha256": "21e6c8db33bac33e0b52c8f29853ff9bf83d14f33eafc0d4136e3552696d36b2"
+  },
+  {
+   "id": "tl.excl.asbestos-and-silica",
+   "heading": "Asbestos and Silica",
+   "sha256": "ea063fdfb0ca84871d7aa9295f1339ab44c125e5fdf082b1726d42b16b8d746e"
+  },
+  {
+   "id": "tl.excl.anti-competitive-conduct",
+   "heading": "Anti-Competitive Conduct",
+   "sha256": "1c275b295a4f70351f878efcd9c5bef715d84d332be22114a8fe7bdbbfb3d508"
+  },
+  {
+   "id": "tl.excl.betterment",
+   "heading": "Betterment",
+   "sha256": "b5310beab291d2d4f11dd0a403f1ce7dcf7be7531deb8e60253b05fe631bef2f"
+  },
+  {
+   "id": "tl.excl.commercial-decisions",
+   "heading": "Commercial Decisions",
+   "sha256": "610c871370db826c8ca0f2c18691a1f47d7ba55d06d3907b2d78b36a3e7982ad"
+  },
+  {
+   "id": "tl.excl.communicable-disease",
+   "heading": "Communicable Disease",
+   "sha256": "7afc16fc4c04c6b4420da81021ff39f12436c9d88ef2de1b1d9f0e7aafd86f23"
+  },
+  {
+   "id": "tl.excl.conduct",
+   "heading": "Conduct (Fraud and Dishonesty)",
+   "sha256": "92a8a48e78096e9bff0f8310aea57f337b3bd7298c92188c45b09499416fb712"
+  },
+  {
+   "id": "tl.excl.construction",
+   "heading": "Construction",
+   "sha256": "d78a89e28158ea92c3d0681895406aa16f7fee66a81925484001a227fb5b46e9"
+  },
+  {
+   "id": "tl.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "6f702296d0705a531881e0e570f8a6701deed837855a28cce8950786078efcdd"
+  },
+  {
+   "id": "tl.excl.cyber-and-data",
+   "heading": "Cyber and Data",
+   "sha256": "e2f009d08a9bbf48413db7b0ea9baa7d8883495cbad577c087e3ae495dc665ec"
+  },
+  {
+   "id": "tl.excl.directors-and-officers",
+   "heading": "Directors and Officers",
+   "sha256": "e4874cc87c4ed106a3baef12cb0b48a540a1f649e71886e6d33679f8fa85fc36"
+  },
+  {
+   "id": "tl.excl.employers-liability",
+   "heading": "Employers Liability",
+   "sha256": "4b958986ba10ec04291d0b24d372a6db4cdf37bbe8b454cfefd79bf1ba33ff52"
+  },
+  {
+   "id": "tl.excl.fees-or-charges",
+   "heading": "Fees or Charges",
+   "sha256": "4fab5d8b0905327d7708622693600deab1d5f8e4f6bf204aa743ba57ff61eae4"
+  },
+  {
+   "id": "tl.excl.fines-and-penalties",
+   "heading": "Fines and Penalties",
+   "sha256": "6f989bfa03b8ed69aa93546945473523c9d6986d6956017dd4026e2bbb0c0d74"
+  },
+  {
+   "id": "tl.excl.natural-perils-and-physical-events",
+   "heading": "Natural Perils and Physical Events",
+   "sha256": "4ba6361fb417136f5f46007162686ecbedf352b3dbd170cc8da0431619b35c49"
+  },
+  {
+   "id": "tl.excl.infrastructure-failure",
+   "heading": "Infrastructure Failure",
+   "sha256": "752ec5d5c04a2b896ffa3f4dd3b0b3e552e482b760352e66cdb84eee77104515"
+  },
+  {
+   "id": "tl.excl.jurisdictional-limits",
+   "heading": "Jurisdictional Limits",
+   "sha256": "005cc46db66123e9f2ed5cdff114579264df4f6631375d8cd2857dcafe81c42b"
+  },
+  {
+   "id": "tl.excl.known-defect",
+   "heading": "Known Defect",
+   "sha256": "c856f23089363e918634b9428a5230b6c6b7091149a2be887bb91b779dd673fe"
+  },
+  {
+   "id": "tl.excl.media-liability",
+   "heading": "Media Liability",
+   "sha256": "d5d8cee6703dc8beffff296315649babf13381a6ec7805635deace4931dd6235"
+  },
+  {
+   "id": "tl.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "7df87e384bd3d0ef1374fd697222e7748a3abbdc7895e0ceae46987821ae69bb"
+  },
+  {
+   "id": "tl.excl.personal-injury-and-property-damage",
+   "heading": "Personal Injury and Property Damage",
+   "sha256": "efb7abe0b201b5c8cbeaa91b1a819851e6e2a23c079ed69afe9db982075dcf66"
+  },
+  {
+   "id": "tl.excl.planned-outages",
+   "heading": "Planned Outages",
+   "sha256": "3316b23e9ba41d8d51ad411fcbcf4af45afc68891d47016c266c87e61403a66b"
+  },
+  {
+   "id": "tl.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "241327ac344ed863a89049253a06a42260ba2b91e05620d30b569ac1726e2ca5"
+  },
+  {
+   "id": "tl.excl.prior-or-pending",
+   "heading": "Prior or Pending",
+   "sha256": "cf296ab364d2f91fd42d77f92f0954318b423237e1d19c4f943605f32ce5857a"
+  },
+  {
+   "id": "tl.excl.product-defect-recall-repair-and-replacement",
+   "heading": "Product Defect, Recall, Repair, and Replacement",
+   "sha256": "26df22bfe86a059ce67818b54b43f13bec4328efa053d69d6c979db08c165b23"
+  },
+  {
+   "id": "tl.excl.property-in-your-control",
+   "heading": "Property in Your Control",
+   "sha256": "60014af7629b5c0a61ecb3fb9643898da7baf3d2f66f35eae860602f8d66c258"
+  },
+  {
+   "id": "tl.excl.related-entities",
+   "heading": "Related Entities",
+   "sha256": "177c8253e4ad1f5c127938ad5824a44b8c978c151a30c9c742ed348b86b4a4b8"
+  },
+  {
+   "id": "tl.excl.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "ebcd8158e030c19c9eb843ede9a8d2ed1f2d2003548f3dea4795e71bc4e7ab4f"
+  },
+  {
+   "id": "tl.excl.securities-law",
+   "heading": "Securities Law",
+   "sha256": "395e498cd155d08f5c63b0dc6dfe26fbc21650cd596f91a6c6914e9be45dd087"
+  },
+  {
+   "id": "tl.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "6fcf23ab9ca100ee14ff1871c621f366e84d6d42256eeafe95981453d7e0734d"
+  },
+  {
+   "id": "tl.excl.trading-debts",
+   "heading": "Trading Debts",
+   "sha256": "da95e022c65f05064ae02ae852844d312bb601ab6181e7bbda75069b6da4db06"
+  },
+  {
+   "id": "tl.excl.unsolicited-communications",
+   "heading": "Unsolicited Communications",
+   "sha256": "628dab1039f0347be3a176ae7d8e544f0bece258598df6397a33cbcecc1f5c3b"
+  },
+  {
+   "id": "tl.excl.vehicles",
+   "heading": "Vehicles",
+   "sha256": "8d401e08f2cadde1d033bb6cf718979ddfd197ad928b19a731bccedc783007d5"
+  },
+  {
+   "id": "tl.excl.war-and-state-cyber-operations",
+   "heading": "War and State Cyber Operations",
+   "sha256": "91ea3a2a26817d6bb67fee265bd76a4f98bde1e37b201b7f37f7bf15bfca60a7"
+  },
+  {
+   "id": "tl.excl.wear-and-tear",
+   "heading": "Wear and Tear",
+   "sha256": "6485dd0ce636d1a6d6f09a019bb6a17b4793145ab928971c763c8f6c881990af"
+  },
+  {
+   "id": "tl.excl.wrongful-data-collection",
+   "heading": "Wrongful Data Collection",
+   "sha256": "5930ac566884325aef4365c3f0f290663da9986abb89d8ad9a8997760326e285"
+  },
+  {
+   "id": "tl.section.claims-conditions",
+   "heading": "Claims Conditions",
+   "sha256": "1c2733062dc74afaf22335851f3b216897b736dd47b236b3269a5bb9cbf8ebf1"
+  },
+  {
+   "id": "tl.obl.notification",
+   "heading": "Notification",
+   "sha256": "4e7d39b456af51ae23c1a82b255be0f58dc8a52208e400a5d48c3879cc27ec99"
+  },
+  {
+   "id": "tl.cond.defence-and-settlement",
+   "heading": "Defence and Settlement",
+   "sha256": "163acc77f04f875aca4de63a153593b628735ed24375f6cef737431348707132"
+  },
+  {
+   "id": "tl.pay.allocation",
+   "heading": "Allocation",
+   "sha256": "3ee1576ba1e2f394e671c33052a59192432f5973fc2e29ff72a78bb7e009b2cc"
+  },
+  {
+   "id": "tl.pay.related-claims-and-aggregation",
+   "heading": "Related Claims and Aggregation",
+   "sha256": "fc8a1affb9ee2e987d62f0b693f0a478e5ddecaf00b004ece6b2c822e9de1fbe"
+  },
+  {
+   "id": "tl.cond.senior-counsel",
+   "heading": "Senior Counsel Clause",
+   "sha256": "08a48ef5f833bd22bfd5663a4e7512c5ed53b301b5ff875cd3f4e457592e69cf"
+  },
+  {
+   "id": "tl.cond.right-to-contest",
+   "heading": "Right to Contest",
+   "sha256": "c3cbc19e7dd4e781dd858e4ac7d5c4559c449f5ddf4c81e0cd90c5f7a4d085dd"
+  },
+  {
+   "id": "tl.section.general-conditions",
+   "heading": "General Conditions",
+   "sha256": "d249770c0b222e23bf348ef2105c3b8ce5bf93790c2a696bdd60af777b47a9c9"
+  },
+  {
+   "id": "tl.pay.limits-of-liability",
+   "heading": "Limits of Liability",
+   "sha256": "963ab139d9e7dd3b1c70ddf111535e8d696bcc64c8cfba6f9b3372cab72ec392"
+  },
+  {
+   "id": "tl.pay.non-accumulation",
+   "heading": "Non-Accumulation",
+   "sha256": "0802c38564f34103832b69efdec65f4ceb59069b714b81526f9d1a3fd8b01a6c"
+  },
+  {
+   "id": "tl.pay.retention",
+   "heading": "Retention",
+   "sha256": "567c5852e0bf1f6e9a55db5c57d6c274a4bfd6f5e5ba40e0d5756b716111ac3d"
+  },
+  {
+   "id": "tl.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "abe7f054c7d64082533a9c9a93218054ed05183b568dd21d62ef4dff6144564d"
+  },
+  {
+   "id": "tl.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "6d66516cdfba300663dd452bfc80772b9ea03fe02060302a12baf050833ae9b7"
+  },
+  {
+   "id": "tl.cond.mergers-and-consolidations",
+   "heading": "Mergers and Consolidations",
+   "sha256": "ce5ff1fc519b1e763505f2affdbb05ec53d9f1cce49b14e078328ea65bbbb51b"
+  },
+  {
+   "id": "tl.pay.reinstatement",
+   "heading": "Reinstatement",
+   "sha256": "4707cec41181ec802ecc7bcccd44fbfd2543737938b0d9ce36a5f14401cd7b04"
+  },
+  {
+   "id": "tl.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "dff33bba9d4cc3df9d0b0a3109c755acd9d0645912cdb3a7e0c4b76433a593ff"
+  },
+  {
+   "id": "tl.cond.corporations-act-199a-199b",
+   "heading": "Corporations Act 2001 (Cth), sections 199A and 199B",
+   "sha256": "64c232b28c4186298f7778abbbaeb5c4ec2c99af057a5a419d474a35c2373ebe"
+  },
+  {
+   "id": "tl.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "296db7ded4e0c1968a0a8e01cffb75c6352fca9165fd0e88dadb4e1b2baf63f8"
+  },
+  {
+   "id": "tl.cond.gst",
+   "heading": "GST",
+   "sha256": "950ce3f0b41971f5788d90b008841e76763810da2069cb5e040f171295d0f7a1"
+  },
+  {
+   "id": "tl.cond.version-control",
+   "heading": "Version Control",
+   "sha256": "e285e01fbfd84b56ad71dd7ad448c37ecd3818de8f6b08a53c2a322414a65966"
+  },
+  {
+   "id": "tl.cond.governing-law-and-jurisdiction",
+   "heading": "Governing Law and Jurisdiction",
+   "sha256": "cb247087331c9e1faffad287d7c8f3b69a68ccf1626c97ca4d228e5ea6133535"
+  },
+  {
+   "id": "tl.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "9afdd105542cfbf22910f7e4e3c1aa374e12df1f9701f6defaca6fb96ef4a6d4"
+  },
+  {
+   "id": "tl.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "6fda94a93338e7689a7ddca3a180b8668b5c13d11c8ccb9752d390f3c0324d65"
+  },
+  {
+   "id": "tl.end.e01",
+   "heading": "E01 United States and Canada Jurisdiction",
+   "sha256": "7c08c67f944760c2b0574c5384f04e81fdc3f03698df00e659e6241ebd4e4d60"
+  },
+  {
+   "id": "tl.end.e02",
+   "heading": "E02 Defence Costs in Addition to the Limit",
+   "sha256": "1aee6cab6885d256fd2526b203d8583287188d62fc1bb1f7212c1e59678584e6"
+  },
+  {
+   "id": "tl.end.e03",
+   "heading": "E03 Increased Sub-limits",
+   "sha256": "101b6ca797d88466b7cce2204201b203f3dfd6f56ce4d4b597625de306dcc73c"
+  },
+  {
+   "id": "tl.end.e04",
+   "heading": "E04 Excess Layer",
+   "sha256": "e6ace8eabeed1442945772ed36bb16ebbedc84134262e450b4cbfc1822855764"
+  },
+  {
+   "id": "tl.end.e05",
+   "heading": "E05 IoT and Embedded Systems",
+   "sha256": "f2ce90f96c112c2e1533381ae8716150e229d8a95640ad922a8f1bf81e846f3b"
+  },
+  {
+   "id": "tl.end.e06",
+   "heading": "E06 AI Governance and Model Liability",
+   "sha256": "d13a164568d02d7c0f7f2258a82757c6a472b0103382bee108eec0b6f2c36544"
+  },
+  {
+   "id": "tl.end.e07",
+   "heading": "E07 Open Source Software Licence Compliance",
+   "sha256": "22b53cdbf0e83a0d81612de84afa30ee08f2d7e4b4603ca2b512de52cd29c55b"
+  },
+  {
+   "id": "tl.end.e08",
+   "heading": "E08 Cryptocurrency and Digital Asset Services",
+   "sha256": "5186789637cdca319cb8d902e7e6f458e05afda2427104a656d6aab566a18fb3"
+  },
+  {
+   "id": "tl.end.e09",
+   "heading": "E09 Managed Security Services Provider",
+   "sha256": "4f55f9f646220cf811beba5ea2d3e4383b998f0857e7a2ff511f3fdeb803c5ba"
+  },
+  {
+   "id": "tl.end.e10",
+   "heading": "E10 Government and Defence Contractor",
+   "sha256": "8e6e595e78cdc8ce7aeedae5e00331d59298bf0440ebc2b6f4c8cfd6e4dd3223"
+  },
+  {
+   "id": "tl.end.e11",
+   "heading": "E11 Non-IT Dependent Business Interruption",
+   "sha256": "191c294eb4c7b2c5cbe1b676440d92d84a7873ef182ebadeb0282826440a0a37"
+  },
+  {
+   "id": "tl.end.e12",
+   "heading": "E12 Customer Business Interruption",
+   "sha256": "b1dfd9c76d3096017fb68910fe5075e96152b8046026781ff276f64f5b55fa2b"
+  },
+  {
+   "id": "tl.end.e13",
+   "heading": "E13 Missed Bid Income Loss",
+   "sha256": "e588b154afb9ec2043181a22d908e1e9571392cba11b54ef2417eed59d0bb442"
+  },
+  {
+   "id": "tl.end.e14",
+   "heading": "E14 Emergency Continuity Costs",
+   "sha256": "006f5d5db9e94a7cd5dc5b15c433946fc66631dd8418a5dd75be15a682c993e1"
+  },
+  {
+   "id": "tl.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "c36f4637d96653b942d653862c9d70dad636124695899c8b2ae8153ed1fd425a"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "tl.end.e01",
+   "heading": "E01 United States and Canada Jurisdiction",
+   "trigger": {
+    "questions": [
+     "qs.tl.exposure.us_revenue_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.tl.exposure.us_revenue_pct > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because {qs.tl.exposure.us_revenue_pct}% of your revenue comes from customers in the United States or Canada.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.exposure.us_revenue_pct",
+     "text": "What percentage of your revenue comes from customers in the United States or Canada?",
+     "type": "percentage",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e02",
+   "heading": "E02 Defence Costs in Addition to the Limit",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E02' in qs.tl.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for defence costs to be paid outside the limit of liability.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E02",
+      "E03",
+      "E06",
+      "E07",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+     ],
+     "used_by": "E02, E03, E06, E07, E11, E12, E13, E14"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e03",
+   "heading": "E03 Increased Sub-limits",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E03' in qs.tl.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for higher sub-limits on named covers.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E02",
+      "E03",
+      "E06",
+      "E07",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+     ],
+     "used_by": "E02, E03, E06, E07, E11, E12, E13, E14"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e04",
+   "heading": "E04 Excess Layer",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.layer"
+    ],
+    "rules": [
+     {
+      "when": "qs.tl.cover.layer == excess",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because this policy is written in excess of other technology liability insurance.",
+    "responses": [
+     "Attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.layer",
+     "text": "Is this policy primary, or in excess of other technology liability insurance?",
+     "type": "select",
+     "options": [
+      "primary",
+      "excess"
+     ],
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e05",
+   "heading": "E05 IoT and Embedded Systems",
+   "trigger": {
+    "questions": [
+     "qs.tl.ops.embedded_devices"
+    ],
+    "rules": [
+     {
+      "when": "qs.tl.ops.embedded_devices == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because your technology products include software or firmware embedded in, or controlling, connected devices.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.ops.embedded_devices",
+     "text": "Do your technology products include software or firmware embedded in, or controlling, connected devices?",
+     "type": "yes/no",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e06",
+   "heading": "E06 AI Governance and Model Liability",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.options_requested",
+     "qs.tl.ops.uses_ai_systems"
+    ],
+    "rules": [
+     {
+      "when": "'E06' in qs.tl.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.tl.ops.uses_ai_systems == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because you build, train or operate AI models or systems in your business.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E02",
+      "E03",
+      "E06",
+      "E07",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+     ],
+     "used_by": "E02, E03, E06, E07, E11, E12, E13, E14"
+    },
+    {
+     "id": "qs.tl.ops.uses_ai_systems",
+     "text": "Do you build, train or operate AI models or systems in your business?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e07",
+   "heading": "E07 Open Source Software Licence Compliance",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E07' in qs.tl.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for cover for open source licence compliance claims.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E02",
+      "E03",
+      "E06",
+      "E07",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+     ],
+     "used_by": "E02, E03, E06, E07, E11, E12, E13, E14"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e08",
+   "heading": "E08 Cryptocurrency and Digital Asset Services",
+   "trigger": {
+    "questions": [
+     "qs.tl.insured.holds_crypto"
+    ],
+    "rules": [
+     {
+      "when": "qs.tl.insured.holds_crypto == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you hold, transfer or provide services in relation to cryptocurrency or other digital assets.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.insured.holds_crypto",
+     "text": "Do you hold, transfer or provide services in relation to cryptocurrency or other digital assets?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e09",
+   "heading": "E09 Managed Security Services Provider",
+   "trigger": {
+    "questions": [
+     "qs.tl.ops.provides_security_services"
+    ],
+    "rules": [
+     {
+      "when": "qs.tl.ops.provides_security_services == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you provide managed security services to others.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.ops.provides_security_services",
+     "text": "Do you provide managed security services to others?",
+     "type": "yes/no",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e10",
+   "heading": "E10 Government and Defence Contractor",
+   "trigger": {
+    "questions": [
+     "qs.tl.ops.government_contracts"
+    ],
+    "rules": [
+     {
+      "when": "qs.tl.ops.government_contracts == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because you supply technology products or services to government or defence customers.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.ops.government_contracts",
+     "text": "Do you supply technology products or services to government or defence customers?",
+     "type": "yes/no",
+     "used_by": "E10"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e11",
+   "heading": "E11 Non-IT Dependent Business Interruption",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E11' in qs.tl.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for cover for outages at suppliers you depend on.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E02",
+      "E03",
+      "E06",
+      "E07",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+     ],
+     "used_by": "E02, E03, E06, E07, E11, E12, E13, E14"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e12",
+   "heading": "E12 Customer Business Interruption",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E12' in qs.tl.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for cover for lost income when a major customer suffers a cyber event.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E02",
+      "E03",
+      "E06",
+      "E07",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+     ],
+     "used_by": "E02, E03, E06, E07, E11, E12, E13, E14"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e13",
+   "heading": "E13 Missed Bid Income Loss",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E13' in qs.tl.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for cover for contracts you lose because of a cyber event.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E02",
+      "E03",
+      "E06",
+      "E07",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+     ],
+     "used_by": "E02, E03, E06, E07, E11, E12, E13, E14"
+    }
+   ]
+  },
+  {
+   "id": "tl.end.e14",
+   "heading": "E14 Emergency Continuity Costs",
+   "trigger": {
+    "questions": [
+     "qs.tl.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E14' in qs.tl.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for cover for emergency costs of keeping services running after a cyber event.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.tl.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E02",
+      "E03",
+      "E06",
+      "E07",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+     ],
+     "used_by": "E02, E03, E06, E07, E11, E12, E13, E14"
+    }
+   ]
+  }
+ ],
+ "sha256": "34a9148b704bdc90b8d05a8ddeb3a97d44b3e43d9acd3a73bb51ac1fe60592c5"
+}
