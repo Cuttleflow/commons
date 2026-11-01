@@ -1,0 +1,159 @@
+id: lld-base
+title: Landlords Insurance
+class: LANDLORDS INSURANCE
+kicker: Meridian Commons · Landlords
+slug: landlords
+file_stem: Meridian_Landlords
+doc_ref: 2026/PR/0003
+version: 1.1.0-DRAFT
+date: November 2026
+draft: true
+summary: Building, landlord's contents, loss of rent, tenant damage and liability cover for owners of residential investment property in Australia.
+supersedes: Meridian Landlords v1.0.0 (2026/PR/0003), July 2026.
+structure:
+- section: preamble
+  clauses:
+  - lld.about
+  - lld.version-history
+  - lld.important-information
+  - lld.schedule
+- section: lld.section.definitions
+  clauses:
+  - lld.def.action-of-the-sea
+  - lld.def.bond
+  - lld.def.building
+  - lld.def.contents
+  - lld.def.damage
+  - lld.def.drug-contamination
+  - lld.def.endorsement
+  - lld.def.event
+  - lld.def.excess
+  - lld.def.flood
+  - lld.def.personal-injury
+  - lld.def.policy-period
+  - lld.def.property
+  - lld.def.property-damage
+  - lld.def.property-manager
+  - lld.def.rent
+  - lld.def.residential-tenancy-agreement
+  - lld.def.short-stay-letting
+  - lld.def.storm
+  - lld.def.sum-insured
+  - lld.def.tenancy-legislation
+  - lld.def.tenant
+  - lld.def.tribunal
+  - lld.def.unoccupied
+  - lld.def.we-us-our
+  - lld.def.you-your
+- section: lld.section.building
+  clauses:
+  - lld.cover.building
+  - lld.pay.building-settlement
+  - lld.ext.emergency-repairs
+  - lld.ext.keys-and-locks
+  - lld.ext.landscaping
+  - lld.ext.fire-services-charges
+  - lld.ext.mortgage-repayments
+- section: lld.section.contents
+  clauses:
+  - lld.cover.contents
+  - lld.pay.contents-settlement
+- section: lld.section.property-exclusions
+  clauses:
+  - lld.excl.first-72-hours
+  - lld.excl.defects-and-gradual-causes
+  - lld.excl.earth-movement
+  - lld.excl.action-of-the-sea
+  - lld.excl.unoccupied
+  - lld.excl.property-other
+- section: lld.section.rent
+  clauses:
+  - lld.cover.rent-after-damage
+  - lld.cover.prevention-of-access
+  - lld.cover.tenant-default
+  - lld.cover.death-of-tenant
+  - lld.cond.tenant-selection
+  - lld.pay.rent-settlement
+  - lld.excl.rent
+- section: lld.section.tenant-damage
+  clauses:
+  - lld.cover.malicious-tenant-damage
+  - lld.cover.accidental-tenant-damage
+  - lld.cover.drug-contamination
+  - lld.pay.tenant-damage-settlement
+  - lld.excl.tenant-damage
+- section: lld.section.liability
+  clauses:
+  - lld.cover.liability
+  - lld.excl.liability-workers
+  - lld.excl.liability-contracts
+  - lld.excl.liability-vehicles
+  - lld.excl.liability-own-property
+  - lld.excl.liability-pollution
+  - lld.excl.liability-asbestos
+  - lld.excl.liability-business
+  - lld.excl.liability-fines
+- section: lld.section.additional-benefits
+  clauses:
+  - lld.ext.legal-costs-tenant-disputes
+  - lld.ext.tax-audit
+  - lld.ext.body-corporate-excess
+  - lld.ext.reletting-costs
+  - lld.ext.abandoned-goods
+  - lld.ext.tenant-accommodation
+- section: lld.section.general-payment
+  clauses:
+  - lld.pay.excess
+  - lld.pay.gst
+  - lld.pay.other-insurance
+  - lld.pay.who-we-pay
+- section: lld.section.general-exclusions
+  clauses:
+  - lld.excl.short-stay-letting
+  - lld.excl.deliberate-acts
+  - lld.excl.illegal-use
+  - lld.excl.war
+  - lld.excl.nuclear
+  - lld.excl.terrorism
+  - lld.excl.cyber
+- section: lld.section.obligations
+  clauses:
+  - lld.obl.tell-us-about-claims
+  - lld.obl.tenant-default-steps
+  - lld.obl.inspections
+  - lld.obl.reduce-loss
+  - lld.obl.admissions
+  - lld.obl.tell-us-about-changes
+  - lld.obl.subrogation
+- section: lld.section.conditions
+  clauses:
+  - lld.cond.insurance-contracts-act
+  - lld.cond.joint-owners
+  - lld.cond.cancellation
+  - lld.cond.renewal
+  - lld.cond.fraud
+  - lld.cond.sanctions
+  - lld.cond.gst
+  - lld.cond.privacy
+  - lld.cond.disputes-and-complaints
+  - lld.cond.governing-law
+  - lld.cond.jurisdiction
+  - lld.cond.headings-and-references
+- section: end
+  clauses:
+  - lld.claims.how-to-make-a-claim
+  - lld.endorsement-library
+  - lld.end.e01
+  - lld.end.e02
+  - lld.end.e03
+  - lld.end.e04
+  - lld.end.e05
+  - lld.end.e06
+  - lld.end.e07
+  - lld.end.e08
+  - lld.end.e09
+  - lld.end.e10
+  - lld.end.e11
+  - lld.end.e12
+  - lld.end.e13
+  - lld.licence-notice

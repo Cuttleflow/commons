@@ -192,7 +192,7 @@
   {
    "id": "ml.ext.asic-investigation-costs",
    "heading": "ASIC Investigation Costs",
-   "sha256": "9a9e04d98bc9f6d98ee34cda9ed2e59fd0f80450cf75e192fa096811129b9328"
+   "sha256": "eaf8746d5f4ce40e5ccfff2e667a7da237b8fd1f3753c1f7f2a683d411fbeb52"
   },
   {
    "id": "ml.ext.extradition-costs",
@@ -402,7 +402,7 @@
   {
    "id": "ml.cover.whs-defence-costs",
    "heading": "WHS Defence Costs \u2014 Priority Cover",
-   "sha256": "6cbd3ff9fe1ba1227e0467633364a6c074f48c081a2bb08c29fadd5d277b1f34"
+   "sha256": "a9eed25da2e2b4e877e3de25741d73ebfb76a4a90e7bf112b4f7098905f1d271"
   },
   {
    "id": "ml.section.statutory-extensions",
@@ -677,7 +677,7 @@
   {
    "id": "ml.cond.insurance-contracts-act",
    "heading": "Insurance Contracts Act 1984 (Cth)",
-   "sha256": "4ca23c24a80e1f10c0074bcafb3b6756faeeabee16c258340d03607dff2953ba"
+   "sha256": "3b4590a5262a538dc583f4dc579517b3b427cf3e3f012450a1550608cf9efe7d"
   },
   {
    "id": "ml.cond.duty-of-disclosure",
@@ -757,12 +757,12 @@
   {
    "id": "ml.end.e02",
    "heading": "E02 Defence Costs in Addition to the Limit",
-   "sha256": "f51a32d71cd6f8724a16b8d109252f2cc22af006f13b4d74b5f7c02690fbaf3a"
+   "sha256": "10e1b426270f3095bbe458db500f8c7f1f07dac6db1080f71e5f070fe79ee43a"
   },
   {
    "id": "ml.end.e03",
    "heading": "E03 USA and Canada Jurisdiction",
-   "sha256": "4808805d9d25f1701424242506bb93a93dd2ef7f5a261045322a5187ae70fd75"
+   "sha256": "855d231ada5b37f78d2c887b6283a3d810bb6b38d2da54c9d51fd49c2d10dd5c"
   },
   {
    "id": "ml.end.e04",
@@ -787,7 +787,7 @@
   {
    "id": "ml.end.e08",
    "heading": "E08 Third-Party Crime",
-   "sha256": "bfde9fa42e6b0ec91686e3f122352fafdeae09d6623a376629624f18cc078752"
+   "sha256": "3919cb5c7653803a4b13b4a8b2d382990c8f480abd33ad02921ae4f766ad6d46"
   },
   {
    "id": "ml.end.e09",
@@ -1243,5 +1243,5 @@
    ]
   }
  ],
- "sha256": "858477f463a82dea9b97aea3086e59b0126299583b158615e0bc841218787e4c"
+ "sha256": "139f443193a360872c97837c2c9c35812a665beccb6cf9b07bafb282cffbae49"
 }

@@ -252,7 +252,7 @@
   {
    "id": "cy.ext.dependent-business-interruption",
    "heading": "Dependent Business Interruption",
-   "sha256": "90326abe934bc3536433a076cd2e3ec6383b56053e33ce23e3cc5df8556be1db"
+   "sha256": "3276b5695ba899fdc44db35449c15161b4c5994a541ccdbd38db5ae0fa56d5ce"
   },
   {
    "id": "cy.ext.bricking",
@@ -537,7 +537,7 @@
   {
    "id": "cy.cond.retroactive-date",
    "heading": "Retroactive Date",
-   "sha256": "85dd5c859b8fb7e09eff2641e6cc46ce5160b317f324ea4badc38d5c4cfb43ee"
+   "sha256": "fefee3b47ff7ae900c4f0a43785904ff659d0ea08ecacb24eb2810fa2f2fba28"
   },
   {
    "id": "cy.claims.incident-guide",
@@ -557,12 +557,12 @@
   {
    "id": "cy.end.e02",
    "heading": "E02 Defence Costs in Addition to the Limit",
-   "sha256": "fd8544d661a916b1dc3a43d227018f902cc97ea143b6b87b2d85ae630f77b1d8"
+   "sha256": "8729a8d18590255be2d957a09a91fd90523fffe260e431e811f38eef3450c9d1"
   },
   {
    "id": "cy.end.e03",
    "heading": "E03 End-of-Life Software",
-   "sha256": "eb30e2ef9166e797894e13bd257add1284c2328ac2825348be5e05fc1a22078a"
+   "sha256": "7d8483d06a1b0c4df73f1bb1ea5da119b7877501a46465bec721741cdb5bf942"
   },
   {
    "id": "cy.end.e04",
@@ -582,27 +582,27 @@
   {
    "id": "cy.end.e07",
    "heading": "E07 Technology Errors and Omissions",
-   "sha256": "ca950118118ca5b5a617a53a9b5e169c6d1b73a77b32c510b3a973dd49749096"
+   "sha256": "9f21d3170bcaed5e18ed17b390f41cfcafb59c72b210b8d7fdae816e98607075"
   },
   {
    "id": "cy.end.e08",
    "heading": "E08 Invoice Manipulation Fraud",
-   "sha256": "da5f9c017ba50869cb07b03e24afa1b3fd6ab8d78433d4048f9cf9b5cf56df1c"
+   "sha256": "59e5f0abe381c41cad1180002891663dbc1086556edb4a8b00e41eaed3dbf1ea"
   },
   {
    "id": "cy.end.e09",
    "heading": "E09 Contingent Bodily Injury from Operational Technology",
-   "sha256": "9e2fe357df624a9e4378d1eba4147a298558b8299e54f81caf3744dab45987ae"
+   "sha256": "7dd4193526c73a2955572812f346737a9626d76bc8f904e4569bb218b7d54ff2"
   },
   {
    "id": "cy.end.e10",
    "heading": "E10 Excess Layer",
-   "sha256": "a98d6f272990e66a741f3be34efd32739bef7992717b6c589153ca58e127e12a"
+   "sha256": "0affea0947e40326bdafe8b33bfde17a9c29b03c57691ef59c24fba0c5922fe4"
   },
   {
    "id": "cy.end.e11",
    "heading": "E11 United States and Canada Jurisdiction",
-   "sha256": "82dba8180d6bd68c8b218518ffb343a936ab5588e6803f5f8e930a0a6e9a6f8e"
+   "sha256": "ca9ef6b36be6b839e59103e7bdaa7208a496657d55dbb3a5edb2bc24eb15f470"
   },
   {
    "id": "cy.end.e12",
@@ -612,12 +612,12 @@
   {
    "id": "cy.end.e13",
    "heading": "E13 Non-IT Dependent Business Interruption",
-   "sha256": "bf81a7c9927eb1632f537bad26296f485360806face5c05c703d7ed082c3efc3"
+   "sha256": "3a9a3e022c3701b7444411049a144a13a7f8feb418570c9162ed686a1d9e993e"
   },
   {
    "id": "cy.end.e14",
    "heading": "E14 Customer Business Interruption",
-   "sha256": "499091999e5911c3f1eac8c6c41b25390df454a269e992c05e49869f757db2e6"
+   "sha256": "8e58c41d8189d9ab507885f9ad84d994094b2547b40c5912ba452b2e15ec95f4"
   },
   {
    "id": "cy.end.e15",
@@ -1238,5 +1238,5 @@
    ]
   }
  ],
- "sha256": "ab467860fafb15570f7258557a32e33b9939a41b2aa6530e1276f5ebce14c168"
+ "sha256": "d71109748930ff06902f090a9e83882113ca5bdfe234550fe8d8f163679b05de"
 }

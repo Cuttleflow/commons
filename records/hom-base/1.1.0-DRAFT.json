@@ -372,7 +372,7 @@
   {
    "id": "hom.obl.tell-us-about-changes",
    "heading": "Telling Us About Changes",
-   "sha256": "22ea4714a728db0338c4df53810c40cc3d75100b0b939e1f6b483f33a3acc8ca"
+   "sha256": "a5705210339229f5ddf6adb5b3314d4b8e8699858cfae06982525797ec16acf0"
   },
   {
    "id": "hom.obl.subrogation",
@@ -472,7 +472,7 @@
   {
    "id": "hom.end.e04",
    "heading": "E04 Home Business",
-   "sha256": "9762c660c36a34c0e7c5e1f586f49e0d85ac66bb33bcf7f71eae194aeab61a07"
+   "sha256": "77af8941d74ce97a25a60d618dcb3856abb270c2b987aa9d5fa96fc2b84fcbf5"
   },
   {
    "id": "hom.end.e05",
@@ -502,12 +502,12 @@
   {
    "id": "hom.end.e10",
    "heading": "E10 Building Works",
-   "sha256": "ee019ecf25e814ef7eeff790a744d953bc5cbf3d4bab81726dfa783fae329e63"
+   "sha256": "83e1ecf4f5dccb98c702fc5d6431b2bfb0055e406bc147dd4d3820ebed8f47f7"
   },
   {
    "id": "hom.end.e11",
    "heading": "E11 Unoccupied Home",
-   "sha256": "79e61c02a8ad40cc9a3c8b8c945e1d77451e6fe8ac1523857ffaeda0022ed80e"
+   "sha256": "069a68cdee58b2e03622cfd3cf6b26eba25fc5739defb1b473fbb8cba4694e0c"
   },
   {
    "id": "hom.end.e12",
@@ -933,5 +933,5 @@
    ]
   }
  ],
- "sha256": "098a5bc9bb3faf694dccdc6cb8b951c5cd83c51181fc428387d3a05a963bf1db"
+ "sha256": "de2a2385e11f6402b18f12281c75a78d36430fa717552ccce9b956b835dd9e45"
 }
