@@ -1,0 +1,1157 @@
+{
+ "wording": "do-base",
+ "version": "1.3.0-DRAFT",
+ "doc_ref": "2026/DO/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "do.about",
+   "heading": "About This Policy",
+   "sha256": "a5e72e0816a31c8dddf3e17bf3d21580417438de47d7065012c012dded1228a6"
+  },
+  {
+   "id": "do.version-history",
+   "heading": "Version and Document History",
+   "sha256": "8d08af102bdef319d977c5405bbef13f5c921c6b2d6bbced2583b328a79b85ba"
+  },
+  {
+   "id": "do.distribution-note",
+   "heading": "Distribution and Regulatory Note",
+   "sha256": "2336fdbc682dcff9d3cd7cf86158b3d41cc74b8898b8a6cacaa50d860e298080"
+  },
+  {
+   "id": "do.schedule",
+   "heading": "Schedule",
+   "sha256": "2118d92675a3f0441c17f749ae66c7e3f6668176e28793302145dad43aa4e461"
+  },
+  {
+   "id": "do.section.definitions",
+   "heading": "Definitions",
+   "sha256": "554a26141d6680a3e17d792e381673e3364e21a4f384e1509f45cf0de1b9cfb3"
+  },
+  {
+   "id": "do.def.claim",
+   "heading": "Claim",
+   "sha256": "750697d7d26bd215c434447b9cb9de28431952577c635e31dcfd159c3a41414f"
+  },
+  {
+   "id": "do.def.company",
+   "heading": "Company",
+   "sha256": "3b386f67500fd92a5d628da344370ca7a1b7f7013cd880a171e411242cb76367"
+  },
+  {
+   "id": "do.def.compensatory-damages",
+   "heading": "Compensatory damages",
+   "sha256": "27f27e0c40151e20deb21c4b69c949a87c3fb647aec606607a4102da262e8a80"
+  },
+  {
+   "id": "do.def.consolidated-assets",
+   "heading": "Consolidated assets",
+   "sha256": "a9f33299271621da44268afd4e6d8ee121236857630ab60c4644bdb5f533e12b"
+  },
+  {
+   "id": "do.def.continuity-date",
+   "heading": "Continuity date",
+   "sha256": "614323354dd0f95209fe4c09139507693664c3d695d916fc02114947a3c343da"
+  },
+  {
+   "id": "do.def.continuous-disclosure-breach",
+   "heading": "Continuous disclosure breach",
+   "sha256": "65c0e2bd90b5713b31684daa9b889eb5ad835b2e693b3d3bd3d905787d81dcb4"
+  },
+  {
+   "id": "do.def.defence-costs",
+   "heading": "Defence costs",
+   "sha256": "40682b2c0a0e0f331f38c7239a54003141d8163b82eaca98b926e30a4c62d007"
+  },
+  {
+   "id": "do.def.derivative-action",
+   "heading": "Derivative action",
+   "sha256": "9a0bee32e022789f5724cb486e6ef65dbe2b274803991d70cb81fcd55c01554b"
+  },
+  {
+   "id": "do.def.e-discovery-costs",
+   "heading": "E-discovery costs",
+   "sha256": "a954d926f8c2649bc1d68099aaf788ae899db106492d0412b3c7310a6080556c"
+  },
+  {
+   "id": "do.def.class-certification-study-expenses",
+   "heading": "Class certification study expenses",
+   "sha256": "8eaaab2c5522b03bbb786898ff777f916ccf40ae9b2aaf0dbaf9fa7011b986cd"
+  },
+  {
+   "id": "do.def.employee",
+   "heading": "Employee",
+   "sha256": "7c51271fec29a4450c762e9a8268febfc44faffe4f842e0a930654e792d1a5b5"
+  },
+  {
+   "id": "do.def.employment-claim",
+   "heading": "Employment claim",
+   "sha256": "9935d00216bb82d33cc06a4f0bbcc212bb9c9c696efb1c280ece4d54d5c8bfed"
+  },
+  {
+   "id": "do.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "1752d611afc8befc684720710bb45493dd05b4b32b1ed217c2e350d6b5ca6d53"
+  },
+  {
+   "id": "do.def.entity-cover-loss",
+   "heading": "Entity cover loss",
+   "sha256": "c8a13b606eed0d9f12fca9a050950dc2f476c73104cdcc311abb5c952fd23613"
+  },
+  {
+   "id": "do.def.excess",
+   "heading": "Excess",
+   "sha256": "712ae5885f4604e42953cf5bbf301c2b91437bdf6aa51bc3e9033b9251ef5d68"
+  },
+  {
+   "id": "do.def.final-adjudication",
+   "heading": "Final adjudication",
+   "sha256": "a919b0a90b446e33406590ec79d7b54488f83b16efecf90665161a8f7da656b5"
+  },
+  {
+   "id": "do.def.financial-institution",
+   "heading": "Financial institution",
+   "sha256": "15f104043ab74e7f27441ea773bcd3075a260262544cadf5dc0426c2077cd332"
+  },
+  {
+   "id": "do.def.indemnifiable-loss",
+   "heading": "Indemnifiable loss",
+   "sha256": "4a773718317c172120473cfed7b85b87bec31620cd9307607c8cc87884a09d2b"
+  },
+  {
+   "id": "do.def.insured",
+   "heading": "Insured",
+   "sha256": "cc6609d4c3ab93894e866cce7eee495095c7d987106e2e99094221d5838c2ab1"
+  },
+  {
+   "id": "do.def.insured-person",
+   "heading": "Insured person",
+   "sha256": "c27d19a4bb7792e5ae5f84fc7cd70fe793b821f082c019fd7a7d16cbeec8543d"
+  },
+  {
+   "id": "do.def.investigation",
+   "heading": "Investigation",
+   "sha256": "8706b3a3efc0f87d4e13e7c8b6bf7233e648f1655a00ec8a473859eea090bf76"
+  },
+  {
+   "id": "do.def.limit-of-liability",
+   "heading": "Limit of liability",
+   "sha256": "aab2203598ba391faacf7886e1dfe9cd2247357f57ad57eadfd387978dd6bc16"
+  },
+  {
+   "id": "do.def.loss",
+   "heading": "Loss",
+   "sha256": "d3a065e649abc9383ad07785acc735e8c43bf7910ca961635ef89a4687bc2e7f"
+  },
+  {
+   "id": "do.def.non-indemnifiable-loss",
+   "heading": "Non-indemnifiable loss",
+   "sha256": "e8bd3baf3df28665866f647b1a18afd6b26d555f2017c06cfe24fe919fa9334f"
+  },
+  {
+   "id": "do.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "8e44b20fea0335743468451d925cfc3453b4609a78f413630aaca1538e2548fc"
+  },
+  {
+   "id": "do.def.regulator",
+   "heading": "Regulator",
+   "sha256": "0a3c1cee7c72bfe4b97f0f2bbe6b9b70b307888ed4881cf1e6c5219fed2683d2"
+  },
+  {
+   "id": "do.def.retention",
+   "heading": "Retention",
+   "sha256": "8298ea237e657b3a6842e999b414753922046a7e3cbad0c77474e806c642487f"
+  },
+  {
+   "id": "do.def.retroactive-date",
+   "heading": "Retroactive date",
+   "sha256": "622ec8ea267726b6078a15a7cede59c77fd1fed84b8d88c68cba21e0ccfc9d91"
+  },
+  {
+   "id": "do.def.schedule",
+   "heading": "Schedule",
+   "sha256": "14ffa964b7f3d2749ae138afefb3d342bf7d8ef77171694622d3087d4c3fb068"
+  },
+  {
+   "id": "do.def.securities-claim",
+   "heading": "Securities claim",
+   "sha256": "054611c4d567b520f8d1e973d2fd9db178d20553904280f4dfe8756b704e2488"
+  },
+  {
+   "id": "do.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "eee2e5ae7865f82228f1547a91358be779f351fe9d63264e91fd8a810624a9fa"
+  },
+  {
+   "id": "do.def.we-us-our",
+   "heading": "We / us / our",
+   "sha256": "2321de13eb2d5d0606c027ff7cd9d5d510b958d1c1a1d48389565d7fd34eb13a"
+  },
+  {
+   "id": "do.def.wrongful-act",
+   "heading": "Wrongful act",
+   "sha256": "33117e0a78298ba3df689d4267efd946a8b0848468d136e051b5f3a512083276"
+  },
+  {
+   "id": "do.section.covered",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "do.section.side-a",
+   "heading": "Side A \u2014 Non-Indemnifiable Loss",
+   "sha256": "97702c8f1ecb07b7082d7f01cd617331ff98019e2603577b514876e1b859c151"
+  },
+  {
+   "id": "do.cover.personal-liability-direct-payment",
+   "heading": "Personal Liability \u2014 Direct Payment",
+   "sha256": "d6fdb11777ac65254cc80b7241dc512a5c555ff952d565883d53a19e1066b005"
+  },
+  {
+   "id": "do.cover.when-non-indemnifiable-loss-arises",
+   "heading": "When Non-Indemnifiable Loss Arises",
+   "sha256": "ae9c23db10d1ad65805ba4b3edc466fc631c404e3b14b62e10f9fb9daa3476d5"
+  },
+  {
+   "id": "do.cover.no-excess-on-side-a",
+   "heading": "No Excess on Side A",
+   "sha256": "0949b686c0665d21c66d6372c9c6b746244a35e4e639268fff6fe2dd9beacb67"
+  },
+  {
+   "id": "do.section.side-b",
+   "heading": "Side B \u2014 Company Reimbursement",
+   "sha256": "0e8f1ac09a844fd79069af4b7470ac3806ba250ed0e90db556f0579af80c8b04"
+  },
+  {
+   "id": "do.cover.reimbursement-of-the-company",
+   "heading": "Reimbursement of the Company",
+   "sha256": "40a99c705d56a08f6a8fc8a76d35b9bec6debcdccdf211c6de9c9fa9f7468b8f"
+  },
+  {
+   "id": "do.cover.side-b-excess",
+   "heading": "Side B Excess",
+   "sha256": "4d51e71cc4bb6d20e4fc4d6038ffa6a9483668e3da85078ad41bbdff51958a2e"
+  },
+  {
+   "id": "do.section.side-c",
+   "heading": "Side C \u2014 Entity Securities Claims",
+   "sha256": "6791b364002a5f22e16abf9591ad3158a6a43626019b5b394e482ffb28ed6d18"
+  },
+  {
+   "id": "do.cover.securities-claims-against-the-company",
+   "heading": "Securities Claims Against the Company",
+   "sha256": "8f903654fddff5589bd6af461f4e59b94e790d42cf3a74e3bd62366a14193a0c"
+  },
+  {
+   "id": "do.cover.side-c-retention",
+   "heading": "Side C Retention",
+   "sha256": "aea8ac540670a3e57ac29c752e3b7bae90c9fe88a272b64757fa7459c7fd95a3"
+  },
+  {
+   "id": "do.section.extensions",
+   "heading": "Extensions of Cover",
+   "sha256": "abb773b563b58f9c60a77c9dc254e56a309a5f87259761ae1c57c796a3799af1"
+  },
+  {
+   "id": "do.section.defence-investigation",
+   "heading": "Defence and Investigation",
+   "sha256": "06789169f03c225e99e6ff8c5594ca334f1d3c7ecd4082af9fd93c52b3fab4d4"
+  },
+  {
+   "id": "do.ext.advancement-of-defence-costs",
+   "heading": "Advancement of Defence Costs",
+   "sha256": "6f7eee8b1feed4b95ea8d9c1095f5cfe2199eac4ec5cc5cab514a7bb9eff58df"
+  },
+  {
+   "id": "do.ext.investigation-costs",
+   "heading": "Investigation Costs",
+   "sha256": "eaa0f1583fbddfff947ec8b944b0bd12a42ed0357f3ff7078209fe1ccb24f62d"
+  },
+  {
+   "id": "do.ext.pre-investigation-advisory-costs",
+   "heading": "Pre-Investigation Advisory Costs",
+   "sha256": "1f583bd35218c241f359582b751151154ec8ff8895a24cf1035c6fa1c6626e1a"
+  },
+  {
+   "id": "do.ext.class-certification-study-expenses-and-e-discovery-costs",
+   "heading": "Class Certification Study Expenses and E-Discovery Costs",
+   "sha256": "71970dd12cf984afff3e7b8a3d2f0f6b575f356e0792aa15ece3590ef2a27722"
+  },
+  {
+   "id": "do.ext.cooperation-with-regulators-legal-representation",
+   "heading": "Cooperation With Regulators \u2014 Legal Representation",
+   "sha256": "ffdcd0a6e1ecda4027d6a0fa6fcbddfe8a17bbe07ab01785117355210b380833"
+  },
+  {
+   "id": "do.section.personal-protection",
+   "heading": "Personal Protection",
+   "sha256": "f5501c773c522ac036a9ca1a8cae7fc9179e65a13f4ec23d93637d90b4ed5a67"
+  },
+  {
+   "id": "do.ext.retired-directors-and-officers",
+   "heading": "Retired Directors and Officers",
+   "sha256": "ce521dbae7a40d7ef5e4472d228487d54db1e654af756b25e513f9c045a2af71"
+  },
+  {
+   "id": "do.ext.new-directors-and-officers",
+   "heading": "New Directors and Officers",
+   "sha256": "cad7f7e2622fe5e67a169bbc99cb9660d0e56d5b2a7e250e0ce73c8d499430cd"
+  },
+  {
+   "id": "do.ext.spouse-estate-and-jointly-held-assets",
+   "heading": "Spouse, Estate, and Jointly Held Assets",
+   "sha256": "e61ad3b0e5ff6bbc7e602fb6645ec6822328cc4d7ad1cbb5b039c626ff5f4067"
+  },
+  {
+   "id": "do.ext.bail-and-civil-bond",
+   "heading": "Bail and Civil Bond",
+   "sha256": "c8ec6d492ceeb4e88157940a2735a467a388c2f1c4f77d4989e422c65628482c"
+  },
+  {
+   "id": "do.ext.preservation-of-assets-and-living-expenses",
+   "heading": "Preservation of Assets and Living Expenses",
+   "sha256": "779c0670a17e58e786fef686719323a9073bc9877e106008399f292343afab2e"
+  },
+  {
+   "id": "do.ext.extradition-defence",
+   "heading": "Extradition Defence",
+   "sha256": "1e6fc54a80c50eace886c60845c9f6134cdef28fab27c69d3c8ca866065cf42f"
+  },
+  {
+   "id": "do.ext.loss-of-earnings-attending-proceedings",
+   "heading": "Loss of Earnings \u2014 Attending Proceedings",
+   "sha256": "d97b522d28f92beec2c79452c55f91376dc5677a6535a85e78845b583f6d2951"
+  },
+  {
+   "id": "do.ext.tax-advisory-costs",
+   "heading": "Tax Advisory Costs",
+   "sha256": "3d2c99f85ef10bc9c436e22054601b57a74bc3066e8ff51b483e208bc2fe4942"
+  },
+  {
+   "id": "do.section.corporate-events",
+   "heading": "Corporate Events",
+   "sha256": "d1f3d025a6cec736cc54dab2e0240f956cc5e2bc537eb5134f61ba27aec0a773"
+  },
+  {
+   "id": "do.ext.newly-acquired-subsidiaries",
+   "heading": "Newly Acquired Subsidiaries",
+   "sha256": "aaf34e3e0ff44e3ec2ef35f2f89a2ffd7243c489fc6a91f8ebd8c317c80a3b4d"
+  },
+  {
+   "id": "do.ext.divested-subsidiaries-run-off",
+   "heading": "Divested Subsidiaries \u2014 Run-Off",
+   "sha256": "277efe31fec5232421cc0c8994a1da59e1efbabdf8b0c87a70119548d11af211"
+  },
+  {
+   "id": "do.ext.change-of-control",
+   "heading": "Change of Control",
+   "sha256": "b7a935f1b711a92db7bc7cc85495604b1d8e17265029f7aec19bbf50b1358f9e"
+  },
+  {
+   "id": "do.ext.public-relations",
+   "heading": "Public Relations",
+   "sha256": "e672adf8a7de5d2edff692561de3dd4593acf1b4cd16d73431585325ae45e54e"
+  },
+  {
+   "id": "do.ext.prospectus-and-fundraising",
+   "heading": "Prospectus and Fundraising",
+   "sha256": "ff7fca537262cfcfd79e4d4f4a14284e5596c19a1ffa7ca736ce972b7014211c"
+  },
+  {
+   "id": "do.ext.reinstatement-after-recovery",
+   "heading": "Reinstatement After Recovery",
+   "sha256": "e4cc78eaf90960bfe49e5e437de80e459f9c56bd7097ef5520038e2bc43f32c4"
+  },
+  {
+   "id": "do.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "269389efa9d9e31e0c53628a4478ca1da748db1148ca03ffd737073c10fe1432"
+  },
+  {
+   "id": "do.excl.dishonesty-and-fraud",
+   "heading": "Dishonesty and Fraud",
+   "sha256": "6d4407bf9395f5cc2d20cb2177a479d262c624afa1aa8864187c0ad815cd3efd"
+  },
+  {
+   "id": "do.excl.personal-profit-and-illegal-remuneration",
+   "heading": "Personal Profit and Illegal Remuneration",
+   "sha256": "dcbdfd5f5e9d616ad2628b765d5bfce186cee83bb31571224a98996868e5519f"
+  },
+  {
+   "id": "do.excl.insured-versus-insured",
+   "heading": "Insured Versus Insured",
+   "sha256": "781a96ebd88ed1b0e8f6fc9c69164971c8a3f6b73ed396aa543eee9c9700d45a"
+  },
+  {
+   "id": "do.excl.prior-known-matters",
+   "heading": "Prior Known Matters",
+   "sha256": "1f3c3f8a53c53c4802d9f08d371e39f12af3d994eca24e0206fa96ac2490507a"
+  },
+  {
+   "id": "do.excl.prior-and-pending-litigation",
+   "heading": "Prior and Pending Litigation",
+   "sha256": "dd1361696acaa3ae39e6b3445fccf2dab5132d37a207b873a04d3c2911f30fc2"
+  },
+  {
+   "id": "do.excl.bodily-injury-and-property-damage",
+   "heading": "Bodily Injury and Property Damage",
+   "sha256": "6501adf840e3983e7ef2eb393c5f39db447f583a3ac4f131fd81003f76fb3818"
+  },
+  {
+   "id": "do.excl.professional-services",
+   "heading": "Professional Services",
+   "sha256": "78f1e1bc50e27d3169bfb30829ad6ee8220158e6d93c90ae9ddc11073d531c02"
+  },
+  {
+   "id": "do.excl.product-liability",
+   "heading": "Product Liability",
+   "sha256": "180187479f88de4a131b544e10ad6ad0ce2ced4a9045f06b4461d6944196eb7d"
+  },
+  {
+   "id": "do.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "fe0834c3b3f792032ead9fe4744056ea0c9ddb0bcadea7b17a06072b9923c57e"
+  },
+  {
+   "id": "do.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "99bb645508ce3f5ab459764daee733dabf922263a7734130d80d16a4783833fa"
+  },
+  {
+   "id": "do.excl.us-canada-jurisdiction",
+   "heading": "US / Canada Jurisdiction",
+   "sha256": "457d7e992e2e0f58f73e3aa09de109d1f1f589ae921f57b02fe7c296932eebb9"
+  },
+  {
+   "id": "do.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "e90bed3debc8933046e206abcc20f605398d9a36c58539f1d28c9d96585d4d22"
+  },
+  {
+   "id": "do.excl.employers-liability",
+   "heading": "Employer's Liability",
+   "sha256": "6defc8ede78d112aa982f9e2c105793f9a597d98e0710eb4d88a44f84384a71b"
+  },
+  {
+   "id": "do.excl.major-transaction-ipo",
+   "heading": "Major Transaction \u2014 IPO",
+   "sha256": "7445418b85ee0b045e57a41c91640759a5b379f388b8bf944677d71bbbf52896"
+  },
+  {
+   "id": "do.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "do.pay.limits-architecture",
+   "heading": "Limits \u2014 Architecture",
+   "sha256": "be41288a03446d0dd867959eb4c9b05d0e96c5ccfb4f7ee942117b2b3dadd3f8"
+  },
+  {
+   "id": "do.pay.priority-of-payment",
+   "heading": "Priority of Payment",
+   "sha256": "549d08d410c4d5069ed2a11b1b4a0b52ce2e1c7bd3cd1a0f5abad224d4de1cba"
+  },
+  {
+   "id": "do.pay.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "b3fd00156a3f4db2546061b07f3791d4f640aafe4eb59b57959f2d0494f6137f"
+  },
+  {
+   "id": "do.pay.allocation",
+   "heading": "Allocation",
+   "sha256": "00fe6ff0f3501e69201fc1f85c917ba76f7b7cb6bbb7e81597bd27ed06cc1547"
+  },
+  {
+   "id": "do.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "62a7a65ef7a26fe8bc3b6c47916cec4f332336c298b9dfdb9c42c34d644fdf9f"
+  },
+  {
+   "id": "do.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "do.obl.notify-claims",
+   "heading": "Notify Claims",
+   "sha256": "f9da4fec027c5fc1f11ac10dad1691e76f4ac4e2dc2131844630f22b17868740"
+  },
+  {
+   "id": "do.obl.notify-circumstances",
+   "heading": "Notify Circumstances",
+   "sha256": "143257ebf632bc2d832cbbbf202d1bdb44e1697618a2795b4155f49266e1277d"
+  },
+  {
+   "id": "do.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability",
+   "sha256": "857aebd288e5f92162e59b7328ca0363155e23c882cab3b765478c5b19bf60d5"
+  },
+  {
+   "id": "do.obl.cooperate",
+   "heading": "Cooperate",
+   "sha256": "2144c760e0adf230efae325fee404ce12e7d3264a4f8b287d31b0e3c2ebe775f"
+  },
+  {
+   "id": "do.obl.selection-of-defence-counsel",
+   "heading": "Selection of Defence Counsel",
+   "sha256": "1ac365346d69d310b245be65216450c6645dbc6c2426b0353400e82193b2dac4"
+  },
+  {
+   "id": "do.obl.settlement",
+   "heading": "Settlement",
+   "sha256": "c49f8fefed6b9c032d7473c02f2fe6e41f9e97215608710a2400b1eb0ecd6fbd"
+  },
+  {
+   "id": "do.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "do.cond.severability-and-non-imputation",
+   "heading": "Severability and Non-Imputation",
+   "sha256": "4cedc192214ef6819198f7aa664e93a3a1a9f9550280bd026190f4a15b4e18be"
+  },
+  {
+   "id": "do.cond.non-avoidance-side-a",
+   "heading": "Non-Avoidance (Side A)",
+   "sha256": "69162fd41802d284d8fe314de4d9ba30eb1a2bd5d09dff4fd4da072b2b922ce0"
+  },
+  {
+   "id": "do.cond.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "276f4aa948bb08d17c545d9df78a876b86466510f611a56c7646150f53eb553a"
+  },
+  {
+   "id": "do.cond.discovery-period",
+   "heading": "Discovery Period",
+   "sha256": "6c8767acc581303b0148f96862aee28c2559942faaf349c7ab22afa0f76d65d6"
+  },
+  {
+   "id": "do.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "57367e0e91230299f45d61a1daffbe5b25172fa07452b70af506b075da222d64"
+  },
+  {
+   "id": "do.cond.duty-of-disclosure",
+   "heading": "Duty of Disclosure",
+   "sha256": "281860369af1a26318976c8f250ec81b9c0cb014e85441896591b6897c88ae19"
+  },
+  {
+   "id": "do.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "cd688836129f8eb879fab98e0ea68f447fb3914851d26be2d5d49c88b5414188"
+  },
+  {
+   "id": "do.cond.gst",
+   "heading": "GST",
+   "sha256": "9efb2aa4eb633b7161a950a4404307d165d2e01e9b0d75385905ba9dbd5e7d99"
+  },
+  {
+   "id": "do.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "c2dc40e731ae4f0a8a841d8e0d937f5b745cc52c689fb50e71c1b015e89eb46f"
+  },
+  {
+   "id": "do.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "03be5aa81bf2a256f62aa80a3ce241c01467f42d29f9e349721cad1a058c395f"
+  },
+  {
+   "id": "do.section.notices",
+   "heading": "Notices, Sanctions and Interpretation",
+   "sha256": "6ce08f4671f10335c77bad434a1c406d7fd991aeed785b0b73cb2c4aa0092d47"
+  },
+  {
+   "id": "do.cond.notices",
+   "heading": "Notices",
+   "sha256": "ee90a41360c867c263562d57b1a17245e727d15a3b8179883d4a88bd43ceee71"
+  },
+  {
+   "id": "do.cond.insurance-contracts-act-1984-cth",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "2f72bdaba4e8d5f3c9b4a110827568d6858fa504fc0f94eed8ac499536bc9fb2"
+  },
+  {
+   "id": "do.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "6f64cf791dcf0e98f8e7309c7a9ac7c883140948e35037a2d2401c2e984050af"
+  },
+  {
+   "id": "do.cond.governing-law-and-jurisdiction",
+   "heading": "Governing Law and Jurisdiction",
+   "sha256": "7f9156ec61161322790165ce9bd7aa3da47d377acd2ee7aa3617d98b30f33388"
+  },
+  {
+   "id": "do.cond.interpretation",
+   "heading": "Interpretation",
+   "sha256": "0d0c81d209d76f5c4d1b1655cfec2c9e658aa3036092e03939901c7b809d3fd8"
+  },
+  {
+   "id": "do.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "9e1e71a5de920ebb61b6ba8dea8e249eb2d93ad43dd4293f7bf74358a7f72b1d"
+  },
+  {
+   "id": "do.end.e01",
+   "heading": "E01 United States / Canada Jurisdiction Extension",
+   "sha256": "dbc071ee37189dbc256bd9a8ff2f73ba7c8cfcebbc74d909fda2e3e5c54fc1ff"
+  },
+  {
+   "id": "do.end.e02",
+   "heading": "E02 Small Capitalisation and Resources Companies",
+   "sha256": "062090f8125c38c250c5cd9db74d1568b83e0870c40c7d10e108d8e2c305f031"
+  },
+  {
+   "id": "do.end.e03",
+   "heading": "E03 Financial Institutions",
+   "sha256": "ab853dc58234acb6bb9f8328865b1ae5b80b46db2e9837cfcad829b25102a98b"
+  },
+  {
+   "id": "do.end.e04",
+   "heading": "E04 Environmental, Social, and Governance (ESG)",
+   "sha256": "7c0a5d5425512250b7ad72e2eec350d560e826ca0252d43940ec288277414339"
+  },
+  {
+   "id": "do.end.e05",
+   "heading": "E05 Prospectus and Capital Raising \u2014 Enhanced",
+   "sha256": "ade4e354fecb0ddb531a88a14e417eb98f07787435690cccb68c09576d9f43a1"
+  },
+  {
+   "id": "do.end.e06",
+   "heading": "E06 Extended Discovery Period",
+   "sha256": "494c2f79b269bfd839ec1b3e6bcdbbccd54e9aa98881630ada4c43267538ce31"
+  },
+  {
+   "id": "do.end.e07",
+   "heading": "E07 Defence Costs in Addition to Limit",
+   "sha256": "9fd2db66673b25a00b6dc37973beb22d3ae0db091a8e97bfddbe2f833412a2a8"
+  },
+  {
+   "id": "do.end.e08",
+   "heading": "E08 Side A Standalone / Excess DIC",
+   "sha256": "a4292f12a68c33719e3bdf0580a1e0881a1bf4d296d97551eb17f0fca39b9833"
+  },
+  {
+   "id": "do.end.e09",
+   "heading": "E09 Excess Layer",
+   "sha256": "bb6c2298c523023c22ce9ebff45cffe93afea10047c6fc8a55bae4176a5b76c9"
+  },
+  {
+   "id": "do.end.e10",
+   "heading": "E10 Run-Off / Tail Policy",
+   "sha256": "4e86dd1f247c2033d0891c083e52cab576cc11d48032273a45af17ccb7ac46af"
+  },
+  {
+   "id": "do.end.e12",
+   "heading": "E12 Outside Directorship Liability (ODL)",
+   "sha256": "ba88b194f26195ec117c07b0dfd1e85ae4fa0957495f3027ca5142334393d6dd"
+  },
+  {
+   "id": "do.end.e13",
+   "heading": "E13 Employment Practices Liability (EPL)",
+   "sha256": "95f314b025d10c809220812f94143aa804820ef93fd471f39cf82a3597c35b49"
+  },
+  {
+   "id": "do.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9e2b3cce58516026bace8e7557ef0e242b1687b78beff41bcac25c27cdb2efb8"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "do.end.e01",
+   "heading": "E01 United States / Canada Jurisdiction Extension",
+   "trigger": {
+    "questions": [
+     "qs.do.exposure.us_subsidiary",
+     "qs.do.exposure.us_revenue_pct",
+     "qs.do.exposure.us_listed"
+    ],
+    "rules": [
+     {
+      "when": "qs.do.exposure.us_subsidiary == yes or qs.do.exposure.us_listed == yes or qs.do.exposure.us_revenue_pct >= 10",
+      "action": "refer"
+     },
+     {
+      "when": "qs.do.exposure.us_revenue_pct > 0",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Applies because the company has a subsidiary in, earns {qs.do.exposure.us_revenue_pct}% of its revenue from, or has securities traded in, the United States or Canada.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.exposure.us_subsidiary",
+     "text": "Does the company have a subsidiary, office or employees in the United States or Canada?",
+     "type": "yes/no",
+     "used_by": "A, E01"
+    },
+    {
+     "id": "qs.do.exposure.us_revenue_pct",
+     "text": "What percentage of your revenue comes from customers in the United States or Canada?",
+     "type": "percentage",
+     "used_by": "R, A, E01"
+    },
+    {
+     "id": "qs.do.exposure.us_listed",
+     "text": "Are any of the company's securities listed, quoted or traded in the United States or Canada, including through American depositary receipts?",
+     "type": "yes/no",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e02",
+   "heading": "E02 Small Capitalisation and Resources Companies",
+   "trigger": {
+    "questions": [
+     "qs.do.insured.entity_type",
+     "qs.do.insured.anzsic_primary",
+     "qs.do.exposure.market_cap"
+    ],
+    "rules": [
+     {
+      "when": "qs.do.insured.entity_type == 'listed' and qs.do.exposure.market_cap < 500000000 and qs.do.insured.anzsic_primary startswith ['06','07','08','09','10']",
+      "action": "refer"
+     },
+     {
+      "when": "qs.do.insured.entity_type == 'listed' and qs.do.exposure.market_cap < 500000000",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Applies because the company is listed, has a market capitalisation under A$500 million and, if in resources, carries JORC and capital-raising exposure.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.insured.entity_type",
+     "text": "What kind of entity is the named insured?",
+     "type": "select",
+     "options": [
+      "listed",
+      "private_company",
+      "not_for_profit"
+     ],
+     "used_by": "R, A, E02"
+    },
+    {
+     "id": "qs.do.insured.anzsic_primary",
+     "text": "What is your main business activity?",
+     "type": "select (ANZSIC 2006 class)",
+     "used_by": "R, A, E02, E03"
+    },
+    {
+     "id": "qs.do.exposure.market_cap",
+     "text": "What is the company's market capitalisation?",
+     "type": "currency (AUD)",
+     "used_by": "A, E02"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e03",
+   "heading": "E03 Financial Institutions",
+   "trigger": {
+    "questions": [
+     "qs.do.exposure.financial_institution"
+    ],
+    "rules": [
+     {
+      "when": "qs.do.exposure.financial_institution == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the company is regulated by APRA.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.exposure.financial_institution",
+     "text": "Is the company authorised, licensed or required to be licensed by APRA?",
+     "type": "yes/no",
+     "used_by": "A, E03"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e04",
+   "heading": "E04 Environmental, Social, and Governance (ESG)",
+   "trigger": {
+    "questions": [
+     "qs.do.cover.options_requested",
+     "qs.do.insured.entity_type"
+    ],
+    "rules": [
+     {
+      "when": "'E04' in qs.do.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.do.insured.entity_type == 'listed'",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Offered because you asked for cover for greenwashing, climate disclosure and activist shareholder claims.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E04",
+      "E06",
+      "E07",
+      "E08",
+      "E12",
+      "E13"
+     ],
+     "used_by": "E04, E06, E07, E08, E12, E13"
+    },
+    {
+     "id": "qs.do.insured.entity_type",
+     "text": "What kind of entity is the named insured?",
+     "type": "select",
+     "options": [
+      "listed",
+      "private_company",
+      "not_for_profit"
+     ],
+     "used_by": "R, A, E02"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e05",
+   "heading": "E05 Prospectus and Capital Raising \u2014 Enhanced",
+   "trigger": {
+    "questions": [
+     "qs.do.exposure.capital_raising"
+    ],
+    "rules": [
+     {
+      "when": "qs.do.exposure.capital_raising != 'none'",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the company plans a capital raising under a prospectus in the next 12 months.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.exposure.capital_raising",
+     "text": "Does the company plan an initial public offering or other capital raising under a prospectus in the next 12 months?",
+     "type": "select",
+     "options": [
+      "none",
+      "follow_on",
+      "ipo"
+     ],
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e06",
+   "heading": "E06 Extended Discovery Period",
+   "trigger": {
+    "questions": [
+     "qs.do.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E06' in qs.do.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for a longer discovery period after the policy ends.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E04",
+      "E06",
+      "E07",
+      "E08",
+      "E12",
+      "E13"
+     ],
+     "used_by": "E04, E06, E07, E08, E12, E13"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e07",
+   "heading": "E07 Defence Costs in Addition to Limit",
+   "trigger": {
+    "questions": [
+     "qs.do.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E07' in qs.do.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for defence costs to be paid in addition to the limit of liability.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E04",
+      "E06",
+      "E07",
+      "E08",
+      "E12",
+      "E13"
+     ],
+     "used_by": "E04, E06, E07, E08, E12, E13"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e08",
+   "heading": "E08 Side A Standalone / Excess DIC",
+   "trigger": {
+    "questions": [
+     "qs.do.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E08' in qs.do.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for a Side A difference-in-conditions layer for the insured persons.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E04",
+      "E06",
+      "E07",
+      "E08",
+      "E12",
+      "E13"
+     ],
+     "used_by": "E04, E06, E07, E08, E12, E13"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e09",
+   "heading": "E09 Excess Layer",
+   "trigger": {
+    "questions": [
+     "qs.do.cover.layer"
+    ],
+    "rules": [
+     {
+      "when": "qs.do.cover.layer == 'excess'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because this policy is written in excess of other directors' and officers' insurance.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.cover.layer",
+     "text": "Is this policy primary, or in excess of other directors' and officers' insurance?",
+     "type": "select",
+     "options": [
+      "primary",
+      "excess"
+     ],
+     "used_by": "A, S, E09"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e10",
+   "heading": "E10 Run-Off / Tail Policy",
+   "trigger": {
+    "questions": [
+     "qs.do.exposure.change_of_control"
+    ],
+    "rules": [
+     {
+      "when": "qs.do.exposure.change_of_control == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because a change of control, merger, scheme or delisting is expected in the next 12 months.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.exposure.change_of_control",
+     "text": "Is a change of control, merger, scheme of arrangement or delisting expected in the next 12 months?",
+     "type": "yes/no",
+     "used_by": "A, E10"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e12",
+   "heading": "E12 Outside Directorship Liability (ODL)",
+   "trigger": {
+    "questions": [
+     "qs.do.exposure.outside_directorships",
+     "qs.do.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.do.exposure.outside_directorships == yes",
+      "action": "suggest"
+     },
+     {
+      "when": "'E12' in qs.do.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because a director or officer serves on another organisation's board at the company's request.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.exposure.outside_directorships",
+     "text": "Does any director or officer serve on the board of another organisation at the company's request?",
+     "type": "yes/no",
+     "used_by": "E12"
+    },
+    {
+     "id": "qs.do.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E04",
+      "E06",
+      "E07",
+      "E08",
+      "E12",
+      "E13"
+     ],
+     "used_by": "E04, E06, E07, E08, E12, E13"
+    }
+   ]
+  },
+  {
+   "id": "do.end.e13",
+   "heading": "E13 Employment Practices Liability (EPL)",
+   "trigger": {
+    "questions": [
+     "qs.do.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'E13' in qs.do.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for employment practices liability cover for the company and its insured persons.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.do.cover.options_requested",
+     "text": "Which optional endorsements would you like a price for?",
+     "type": "multi-select",
+     "options": [
+      "E04",
+      "E06",
+      "E07",
+      "E08",
+      "E12",
+      "E13"
+     ],
+     "used_by": "E04, E06, E07, E08, E12, E13"
+    }
+   ]
+  }
+ ],
+ "sha256": "595b8f13664b1d4ce7877d5dd4b7f388b16f93b8a408f72ae8b25276a481b6dd"
+}

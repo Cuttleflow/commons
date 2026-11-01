@@ -1,0 +1,121 @@
+# Platform questions for the Directors and Officers wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.do namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.do.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.do.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.do.insured.principal_state
+    text: In which state or territory is your principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S
+  - id: qs.do.insured.entity_type
+    text: What kind of entity is the named insured?
+    type: select
+    options: ['listed', 'private_company', 'not_for_profit']
+    used_by: R, A, E02
+  - id: qs.do.insured.asx_code
+    text: What is the company's ASX code?
+    type: text
+    used_by: S
+  - id: qs.do.insured.anzsic_primary
+    text: What is your main business activity?
+    type: select (ANZSIC 2006 class)
+    used_by: R, A, E02, E03
+  - id: qs.do.insured.years_trading
+    text: How many years has the business traded under its current ownership?
+    type: number
+    used_by: R
+  - id: qs.do.exposure.total_assets
+    text: What are the company's consolidated total assets, in the latest audited financial statements?
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.do.exposure.market_cap
+    text: What is the company's market capitalisation?
+    type: currency (AUD)
+    used_by: A, E02
+  - id: qs.do.exposure.us_subsidiary
+    text: Does the company have a subsidiary, office or employees in the United States or Canada?
+    type: yes/no
+    used_by: A, E01
+  - id: qs.do.exposure.us_revenue_pct
+    text: What percentage of your revenue comes from customers in the United States or Canada?
+    type: percentage
+    used_by: R, A, E01
+  - id: qs.do.exposure.us_listed
+    text: Are any of the company's securities listed, quoted or traded in the United States or Canada, including through American depositary receipts?
+    type: yes/no
+    used_by: A, E01
+  - id: qs.do.exposure.financial_institution
+    text: Is the company authorised, licensed or required to be licensed by APRA?
+    type: yes/no
+    used_by: A, E03
+  - id: qs.do.exposure.capital_raising
+    text: Does the company plan an initial public offering or other capital raising under a prospectus in the next 12 months?
+    type: select
+    options: ['none', 'follow_on', 'ipo']
+    used_by: A, E05
+  - id: qs.do.exposure.change_of_control
+    text: Is a change of control, merger, scheme of arrangement or delisting expected in the next 12 months?
+    type: yes/no
+    used_by: A, E10
+  - id: qs.do.exposure.outside_directorships
+    text: Does any director or officer serve on the board of another organisation at the company's request?
+    type: yes/no
+    used_by: E12
+  - id: qs.do.finance.condition
+    text: Which best describes the company's result in its last financial year?
+    type: select
+    options: ['profit', 'breakeven', 'loss']
+    used_by: R
+  - id: qs.do.finance.going_concern_note
+    text: Do the company's latest financial statements, or its auditor's report, contain a going-concern note or qualification?
+    type: yes/no
+    used_by: A
+  - id: qs.do.finance.insolvency_history
+    text: In the last five years has the company, or any director in another company, been insolvent, or had an administrator, liquidator or receiver appointed?
+    type: yes/no
+    used_by: A
+  - id: qs.do.governance.independent_majority
+    text: Does the board have a majority of independent non-executive directors?
+    type: yes/no
+    used_by: R
+  - id: qs.do.governance.regulatory_matter
+    text: Is the company, or any director or officer, the subject of a current investigation, inquiry or enforcement action by a regulator?
+    type: yes/no
+    used_by: A
+  - id: qs.do.claims.count_5y
+    text: How many directors' and officers' claims, regulatory investigations or securities class actions has the company had in the last five years?
+    type: number
+    used_by: R, A
+  - id: qs.do.claims.known_circumstances
+    text: Is any director or officer aware of a circumstance that might give rise to a claim?
+    type: yes/no
+    used_by: A
+  - id: qs.do.cover.limit
+    text: What limit of liability do you need?
+    type: select (AUD)
+    options: ['1000000', '2000000', '3000000', '5000000', '10000000', '20000000']
+    used_by: R, S
+  - id: qs.do.cover.excess
+    text: What excess (Side B) and retention (Side C) do you want?
+    type: select (AUD)
+    options: ['0', '10000', '25000', '50000', '100000']
+    used_by: R, S
+  - id: qs.do.cover.layer
+    text: Is this policy primary, or in excess of other directors' and officers' insurance?
+    type: select
+    options: ['primary', 'excess']
+    used_by: A, S, E09
+  - id: qs.do.cover.options_requested
+    text: Which optional endorsements would you like a price for?
+    type: multi-select
+    options: ['E04', 'E06', 'E07', 'E08', 'E12', 'E13']
+    used_by: E04, E06, E07, E08, E12, E13
