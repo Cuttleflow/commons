@@ -1,0 +1,214 @@
+# Platform questions for the Investment Managers Indemnity Insurance wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.imi namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+- id: qs.imi.insured.name
+  text: What is the insured's full legal name?
+  type: text
+  used_by: S
+- id: qs.imi.insured.abn
+  text: What is the insured's ABN?
+  type: text (11 digits)
+  used_by: S, A
+- id: qs.imi.insured.acn
+  text: What is the insured's ACN?
+  type: text (9 digits)
+  used_by: S
+- id: qs.imi.insured.principal_state
+  text: In which state or territory is your principal place of business?
+  type: select
+  options:
+  - NSW
+  - VIC
+  - QLD
+  - WA
+  - SA
+  - TAS
+  - ACT
+  - NT
+  used_by: R, S
+- id: qs.imi.licence.afsl_number
+  text: What is your AFSL number?
+  type: text
+  used_by: S, A
+- id: qs.imi.licence.afsl_status
+  text: What is the status of your AFSL?
+  type: select
+  options:
+  - Current
+  - Current, with conditions imposed
+  - Suspended or cancelled
+  used_by: A
+- id: qs.imi.licence.roles
+  text: In which roles do you act?
+  type: multi-select
+  options:
+  - Investment manager
+  - Responsible entity
+  - Trustee
+  - Custodian
+  - RSE licensee
+  - Financial adviser
+  used_by: A, E02, E03
+- id: qs.imi.licence.rse_fum
+  text: What are the funds under management, in $ million, for which you are an RSE licensee?
+  type: number ($ million)
+  used_by: A, E02
+- id: qs.imi.exposure.fum_total
+  text: What are your total funds under management, in $ million?
+  type: number ($ million)
+  used_by: R, A, S
+- id: qs.imi.exposure.strategy
+  text: Which investment strategy applies to the largest part of your funds under management?
+  type: select
+  options:
+  - Long-only listed
+  - Mixed or multi-asset
+  - Private credit
+  - Property or real assets
+  used_by: R, A, E04
+- id: qs.imi.exposure.alternatives_share_pct
+  text: What percentage of your funds under management is in alternative or unlisted assets?
+  type: number (percentage)
+  used_by: A, E04
+- id: qs.imi.exposure.scheme_count
+  text: How many registered schemes and funds do you manage?
+  type: number
+  used_by: R, A
+- id: qs.imi.exposure.schemes
+  text: Which schemes and funds do you manage, and what are their funds under management?
+  type: repeating (name, type, funds under management in $ million)
+  used_by: S
+- id: qs.imi.exposure.esg_labelled
+  text: Does any fund describe itself as ESG, sustainable, green or climate-focused?
+  type: yes/no
+  used_by: E06
+- id: qs.imi.exposure.digital_assets_pct
+  text: What percentage of your funds under management is in digital assets or cryptocurrency?
+  type: number (percentage)
+  used_by: A, E13
+- id: qs.imi.exposure.mortgage_or_unlisted_property
+  text: Do you manage a mortgage fund or an unlisted property trust?
+  type: yes/no
+  used_by: A
+- id: qs.imi.exposure.us_ca_pct
+  text: What percentage of your investors, or of your funds under management, is domiciled in the United States or Canada?
+  type: number (percentage)
+  used_by: A, E01
+- id: qs.imi.exposure.corporate_advisory_pct
+  text: What percentage of your fee income comes from corporate advisory work?
+  type: number (percentage)
+  used_by: A
+- id: qs.imi.exposure.largest_client_pct
+  text: What percentage of your fee income comes from your largest client?
+  type: number (percentage)
+  used_by: A
+- id: qs.imi.exposure.related_party_dealings
+  text: Does a fund you operate deal with you, or with a related party of yours, as a counterparty?
+  type: yes/no
+  used_by: E03
+- id: qs.imi.governance.custodian_arrangement
+  text: How are fund assets held?
+  type: select
+  options:
+  - An independent third-party custodian holds the assets of every fund
+  - I hold the assets of at least one fund myself
+  used_by: A, E05
+- id: qs.imi.governance.custodian_written_contract
+  text: Is every custodian engaged under a written contract?
+  type: yes/no
+  used_by: A, E05
+- id: qs.imi.governance.redemption_suspension_5yr
+  text: In the last 5 years, has any fund suspended or gated redemptions?
+  type: yes/no
+  used_by: A, E04
+- id: qs.imi.governance.retail_clients
+  text: Do you hold an AFSL that authorises you to deal with retail clients?
+  type: yes/no
+  used_by: A
+- id: qs.imi.history.reg_history
+  text: What is your history with ASIC or APRA?
+  type: select
+  options:
+  - Clean
+  - Past enquiry, closed
+  - Enforcement action, or a current investigation
+  used_by: A
+- id: qs.imi.history.asic_reportable
+  text: Have you lodged a reportable situation with ASIC in the last 5 years?
+  type: yes/no
+  used_by: A
+- id: qs.imi.history.misconduct_current
+  text: Is any director, officer or responsible manager the subject of a current proceeding for professional misconduct?
+  type: yes/no
+  used_by: A
+- id: qs.imi.history.claims_5y
+  text: How many claims or circumstances have been notified under investment managers, professional indemnity, D&O or crime insurance in the last 5 years?
+  type: select
+  options:
+  - None
+  - One
+  - More than one
+  used_by: A
+- id: qs.imi.history.change_of_control_planned
+  text: Is a change of control of the company, or the cessation of your AFSL, planned or under negotiation?
+  type: yes/no
+  used_by: E09
+- id: qs.imi.cover.limit
+  text: What aggregate limit of liability do you want?
+  type: select
+  options:
+  - 5000000
+  - 10000000
+  - 20000000
+  used_by: R, S
+- id: qs.imi.cover.excess
+  text: What excess do you want?
+  type: select
+  options:
+  - 50000
+  - 100000
+  - 250000
+  used_by: R, S
+- id: qs.imi.cover.include_do
+  text: Do you want Directors' and Officers' Liability cover?
+  type: yes/no
+  used_by: R, S
+- id: qs.imi.cover.include_crime
+  text: Do you want Crime cover?
+  type: yes/no
+  used_by: R, S
+- id: qs.imi.cover.costs_basis
+  text: Should defence costs be paid within the limit or in addition to it?
+  type: select
+  options:
+  - Within the limit
+  - In addition to the limit
+  used_by: E07, S
+- id: qs.imi.cover.extended_reporting_months
+  text: What extended reporting period do you want?
+  type: select
+  options:
+  - None
+  - 12 months
+  - 24 months
+  - 36 months
+  - 72 months
+  used_by: E08, S
+- id: qs.imi.cover.retro_date
+  text: What retroactive date applies, or what is the date you first held continuous claims-made cover?
+  type: date
+  used_by: S
+- id: qs.imi.cover.options_requested
+  text: Which of these optional extensions do you want to be considered?
+  type: multi-select
+  options:
+  - E01 US and Canada Jurisdiction Extension
+  - E05 Custodian Failure — Enhanced
+  - E08 Extended Reporting Period
+  - E10 Prospectus and PDS Liability — Enhanced
+  - E11 Excess Layer
+  - E12 Employment Practices Liability
+  - E14 Side A Difference in Conditions
+  used_by: E01, E05, E08, E10, E11, E12, E14
