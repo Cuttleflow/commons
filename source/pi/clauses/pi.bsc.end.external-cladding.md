@@ -4,6 +4,7 @@ type: endorsement
 heading: External Cladding Exclusion
 profession: building-surveyors-certifiers
 since: 1.0.0
+changed: 1.1.0
 status: draft
 note: 'From the Surveyors review (October 2026). State laws permit cladding exclusions for certifiers in different terms: NSW Building and Development Certifiers Regulation 2020, Victorian Ministerial Orders
   since July 2019, and in Queensland the Building Regulation 2021 until 30 June 2027. The endorsement adopts each permitted form rather than one national text. Counsel to settle the text against each state
@@ -30,6 +31,11 @@ trigger:
 
 We do not cover any claim, loss or liability arising from the use, or proposed use, in a building of external wall cladding that is combustible or that does not comply with the building law that applies to the building, including any assessment, approval, certification or inspection of building work that includes that cladding.
 
-This endorsement applies to building work in a state or territory only to the extent that, and in the terms in which, the law requiring you to hold this insurance in that state or territory permits such an exclusion. Where that law prescribes the words of a permitted exclusion, those words apply in place of the first paragraph for building work in that state or territory.
+This endorsement applies to building work in a state or territory only to the extent that, and in the terms in which, the law requiring you to hold this insurance in that state or territory permits such an exclusion. It applies as follows:
 
-This endorsement does not apply to building work in a state or territory where that law does not permit an exclusion of this kind on the date the policy period starts.
+| State or territory | When this endorsement applies |
+|---|---|
+| New South Wales | In the form permitted by the Building and Development Certifiers Regulation 2020 (NSW). [WP REVIEW: set out the permitted form in full once the Regulation is read.] |
+| Victoria | In the form permitted by the current Victorian Ministerial Order. [WP REVIEW: set out the permitted form in full once the Order is read.] |
+| Queensland | Until 30 June 2027, where the Building Regulation 2021 (Qld) permits it. After that date, only to the extent that the law then permits it. [WP REVIEW: confirm the Queensland end date and any exempted licences.] |
+| Any other state or territory | Only if the law there permits an exclusion of this kind on the date the policy period starts. |

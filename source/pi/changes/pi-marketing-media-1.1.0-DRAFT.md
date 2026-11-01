@@ -1,0 +1,6 @@
+Remediation following the Claude pre-review of 2 November 2026. Built on base PI 1.5.0-DRAFT.
+
+- Base changes flow through: Financial Services exclusion, Sanctions, Statutory Liability, Other Insurance, Cancellation, the Insurance Contracts Act 1984 (Cth) condition and the other changes listed for base PI 1.5.0-DRAFT.
+- Media Liability extension: injurious falsehood is removed from the defamation head and stated not to be covered, because the malice carve-out would have removed it. For invasion of privacy, including the statutory tort, we advance defence costs until a Final adjudication establishes that you intended or were reckless as to the invasion, and then the cover ends and the costs are repaid. Flagged for review.
+- Withdrawal Costs extension: now responds to a claim or to a circumstance notified under Notification of Circumstances, not to a written threat, for material created or published on or after the retroactive date. It has a default sub-limit of $50,000. Default set for underwriter confirmation.
+- Prizes and Over-Redemption exclusion: the carve-back for a missing permit is limited to compensation for loss your negligence caused. Fines, penalties and the cost of prizes owed because a promotion was unlawful are not paid. Flagged for review.

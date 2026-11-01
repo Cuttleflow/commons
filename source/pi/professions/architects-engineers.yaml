@@ -5,12 +5,12 @@ kicker: Meridian Commons · Professional Indemnity · Architects and Engineers
 slug: architects-engineers
 file_stem: Meridian_PI_Architects_Engineers
 doc_ref: 2026/PI/0002
-version: 1.1.0-DRAFT
-date: October 2026
+version: 1.2.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity wording for architects, engineers, surveyors, town planners and related
   design professions, built on the Meridian PI base wording.
-base: pi-base@1.4.0-DRAFT
+base: pi-base@1.5.0-DRAFT
 supersedes: MERIDIAN-PI-ARCH-v1.0.0 and, for land, cadastral and quantity surveyors, MERIDIAN-PI-SURV-v1.0.0 (endorsements
   to base PI v1.0.0, June 2026)
 overrides:
@@ -99,3 +99,4 @@ decisions:
 - '2026-10-31: Land, cadastral, engineering and quantity surveying and town planning sit in this wording (Surveyors
   review, approved 31 October 2026). Building surveyors and certifiers have their own wording.'
 - '2026-10-31: Automatic Reinstatement and the registration rule moved to the base wording (base 1.4.0).'
+- '2026-11-02: Remediation following the pre-review of 2 November 2026; re-pinned to base 1.5.0-DRAFT. See the change file for 1.2.0.'

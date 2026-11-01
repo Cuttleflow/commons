@@ -4,13 +4,14 @@ type: exclusion
 heading: Excluded Engineering Activities
 profession: architects-engineers
 since: 1.0.0
+changed: 1.2.0
 status: draft
 note: From "4.6 Excluded Activities" in MERIDIAN-PI-ARCH-v1.0.0. Bridges and tunnels moved to an optional endorsement and environmental engineering removed (the base Pollution exclusion applies), on underwriter direction 29 October 2026.
 ---
 
 Arising from:
 
-(a) the design or construction of dams more than 6 metres in height;
+(a) the design or construction of dams more than the height shown in the schedule for this purpose (or 6 metres if no height is shown);
 
 (b) geological estimates prepared for a prospectus or other disclosure document;
 

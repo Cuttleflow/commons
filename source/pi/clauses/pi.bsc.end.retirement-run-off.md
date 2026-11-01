@@ -4,6 +4,7 @@ type: endorsement
 heading: Retirement Run-off
 profession: building-surveyors-certifiers
 since: 1.0.0
+changed: 1.1.0
 status: draft
 note: Adds cover. Building claims can be brought up to 10 years after completion of the building work.
 trigger:
@@ -18,3 +19,5 @@ trigger:
 If you permanently cease to practise as a building surveyor or certifier during the policy period, and this endorsement is shown in the schedule, [[ref:pi.ext.run-off-cover]] continues for the period shown in the schedule for this endorsement, of up to 10 years after the end of the policy period, on payment of the premium shown in the schedule.
 
 All other terms of this policy, including the limit of liability, continue to apply to those claims.
+
+[WP REVIEW: confirm whether NSW or any other state requires run-off cover for retired certifiers as part of compulsory insurance, so that it cannot be an optional priced endorsement.]

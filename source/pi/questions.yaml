@@ -216,7 +216,7 @@ questions:
   - id: qs.pi.re.commercial_over_10m_pct
     text: What percentage of your fees in the last 12 months came from commercial or industrial properties worth more than $10 million?
     type: percentage
-    used_by: E (Commercial Property over $10 Million Exclusion)
+    used_by: E (Commercial Property Value Exclusion)
   - id: qs.pi.re.strata_lots_managed
     text: How many strata or community scheme lots do you manage?
     type: number

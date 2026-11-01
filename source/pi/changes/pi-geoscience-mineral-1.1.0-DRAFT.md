@@ -1,0 +1,6 @@
+Remediation following the Claude pre-review of 2 November 2026. Built on base PI 1.5.0-DRAFT.
+
+- Base changes flow through: Financial Services exclusion, Sanctions, Statutory Liability, Other Insurance, Cancellation, the Insurance Contracts Act 1984 (Cth) condition and the other changes listed for base PI 1.5.0-DRAFT.
+- Professional services: the membership test for public reports now applies only to each competent person or specialist who signs the report on your behalf. A person whose work you rely on does not affect it. Competent person and specialist are now explained. The Financial Services exclusion is stated not to apply to a public report unless it involves financial product advice, dealing in a financial product or a credit activity.
+- Securities Exchange Queries extension: now says which queries and reviews it covers (those directed to you that require you to respond about your own work), that they are treated as a formal inquiry, and that they must be notified to us in the policy period. Routine queries are not covered.
+- Excluded Geoscience Activities exclusion: the dam height is now a schedule item, with 6 metres as the default. Default set for underwriter confirmation.

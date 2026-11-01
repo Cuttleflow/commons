@@ -5,12 +5,12 @@ kicker: Meridian Commons · Professional Indemnity · Marketing, Media and Commu
 slug: marketing-media
 file_stem: Meridian_PI_Marketing_Media
 doc_ref: 2026/PI/0009
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Integrated professional indemnity and media liability wording for marketing, advertising, PR, design, content,
   publishing and media businesses, built on the Meridian PI base wording.
-base: pi-base@1.4.0-DRAFT
+base: pi-base@1.5.0-DRAFT
 supersedes: MERIDIAN-PI-MKTG-v1.0.0 (endorsement to base PI v1.0.0, June 2026)
 overrides:
 - op: replace
@@ -73,3 +73,4 @@ decisions:
   approved 31 October 2026).'
 - '2026-10-31: The June broadcast-delay, investigative-review and proof sign-off conditions became questions and
   endorsements.'
+- '2026-11-02: Remediation following the pre-review of 2 November 2026; re-pinned to base 1.5.0-DRAFT. See the change file for 1.1.0.'
