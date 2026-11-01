@@ -1,0 +1,167 @@
+id: car-base
+title: Construction All Risks and Liability Insurance
+class: CONSTRUCTION ALL RISKS AND LIABILITY INSURANCE
+kicker: Meridian Commons · Construction
+slug: construction-all-risks
+file_stem: Meridian_Construction_All_Risks_and_Liability
+doc_ref: 2026/CARL/0001
+version: 2.1.0-DRAFT
+date: November 2026
+draft: true
+summary: Contract works and third-party liability for construction projects in Australia, single project or annual, under one joint-names policy, with optional delay in start-up and design and construct
+  professional indemnity.
+supersedes: Construction All Risks and Liability v2.0.0 (2026/CARL/0001), which superseded Construction and Contract Works v1.0.0 (2026/CCW/0001).
+structure:
+- section: preamble
+  clauses:
+  - car.about
+  - car.version-history
+  - car.important-information
+  - car.schedule
+- section: car.section.definitions
+  clauses:
+  - car.def.annual-basis
+  - car.def.claim
+  - car.def.compensation
+  - car.def.construction-contract
+  - car.def.construction-period
+  - car.def.construction-plant
+  - car.def.contract-value
+  - car.def.contract-works
+  - car.def.damage
+  - car.def.defects-liability-period
+  - car.def.defence-costs
+  - car.def.endorsement
+  - car.def.event
+  - car.def.excess
+  - car.def.existing-structures
+  - car.def.geographical-scope
+  - car.def.insured
+  - car.def.limit-of-liability
+  - car.def.named-insured
+  - car.def.occurrence
+  - car.def.personal-injury
+  - car.def.policy-period
+  - car.def.pollutant
+  - car.def.practical-completion
+  - car.def.principal
+  - car.def.principals-contents
+  - car.def.professional-services-wrongful-act
+  - car.def.project
+  - car.def.project-site
+  - car.def.property-damage
+  - car.def.retroactive-date
+  - car.def.we-us-our
+  - car.def.you-your
+- section: car.section.material-damage
+  clauses:
+  - car.cover.material-damage
+  - car.pay.basis-of-settlement
+  - car.ext.escalation
+  - car.ext.debris-removal
+  - car.ext.professional-fees
+  - car.ext.expediting-costs
+  - car.ext.building-law
+  - car.ext.plans-and-documents
+  - car.ext.offsite-and-transit
+  - car.ext.mitigation-costs
+  - car.ext.fire-brigade-charges
+  - car.ext.public-authority-fees
+  - car.ext.partial-handover
+  - car.cover.defects-liability-period
+  - car.cover.testing-and-commissioning
+  - car.cover.annual-basis
+  - car.excl.defects
+  - car.excl.wear-and-tear
+  - car.excl.breakdown
+  - car.excl.shortages
+  - car.excl.delay-and-penalties
+  - car.excl.cessation-of-work
+  - car.excl.property-excluded
+  - car.excl.material-damage-pollution
+- section: car.section.liability
+  clauses:
+  - car.cover.liability
+  - car.cover.completed-works
+  - car.cover.defence-costs
+  - car.ext.care-custody-control
+  - car.ext.vibration-and-support
+  - car.ext.underground-services
+  - car.ext.sudden-pollution
+  - car.ext.vicarious-liability
+  - car.ext.first-aid
+  - car.cond.vibration-and-services
+  - car.excl.liability-workers
+  - car.excl.liability-contract-works
+  - car.excl.liability-professional
+  - car.excl.liability-own-work
+  - car.excl.liability-vehicles
+  - car.excl.liability-aircraft-watercraft
+  - car.excl.liability-pollution
+  - car.excl.liability-fines
+  - car.excl.liability-contractual
+- section: car.section.delay
+  clauses:
+  - car.cover.delay
+  - car.pay.delay-loss
+  - car.excl.delay
+- section: car.section.design-pi
+  clauses:
+  - car.cover.design-pi
+  - car.ext.extended-reporting-period
+  - car.excl.design-pi
+- section: car.section.general-payment
+  clauses:
+  - car.pay.limits
+  - car.pay.excess
+  - car.pay.who-we-pay
+  - car.pay.gst
+  - car.pay.other-insurance
+- section: car.section.general-exclusions
+  clauses:
+  - car.excl.war
+  - car.excl.nuclear
+  - car.excl.terrorism
+  - car.excl.asbestos
+  - car.excl.cyber
+- section: car.section.obligations
+  clauses:
+  - car.obl.tell-us-about-claims
+  - car.obl.claims-made-notice
+  - car.obl.admissions
+  - car.obl.reasonable-precautions
+  - car.obl.declarations
+  - car.obl.tell-us-about-changes
+  - car.obl.subrogation
+- section: car.section.conditions
+  clauses:
+  - car.cond.insurance-contracts-act
+  - car.cond.joint-names
+  - car.cond.cancellation
+  - car.cond.premium-adjustment
+  - car.cond.inspection
+  - car.cond.fraud
+  - car.cond.sanctions
+  - car.cond.gst
+  - car.cond.privacy
+  - car.cond.disputes-and-complaints
+  - car.cond.governing-law
+  - car.cond.jurisdiction
+  - car.cond.headings-and-references
+- section: end
+  clauses:
+  - car.claims.how-to-make-a-claim
+  - car.endorsement-library
+  - car.end.e01
+  - car.end.e02
+  - car.end.e03
+  - car.end.e04
+  - car.end.e05
+  - car.end.e06
+  - car.end.e07
+  - car.end.e08
+  - car.end.e09
+  - car.end.e10
+  - car.end.e11
+  - car.end.e12
+  - car.licence-notice
