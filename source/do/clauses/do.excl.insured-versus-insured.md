@@ -3,6 +3,7 @@ id: do.excl.insured-versus-insured
 type: exclusion
 heading: Insured Versus Insured
 since: 1.3.0
+changed: 1.4.0
 status: draft
 ---
 
@@ -12,7 +13,7 @@ Claims by one insured against another — except:
 
 (b) derivative actions by shareholders;
 
-(c) whistleblower claims;
+(c) claims by a whistleblower, meaning a person who makes a disclosure that the law protects as a whistleblower disclosure;
 
 (d) a claim funded, in whole or in part, by a litigation funder, or otherwise funded or actively directed by a person other than the claimant (including by the provision of legal representation, funding of legal costs, or control of the conduct or strategy of the proceeding by that person) — other than a Regulator acting in its regulatory capacity;
 

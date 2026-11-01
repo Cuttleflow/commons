@@ -1,0 +1,93 @@
+id: sa-base
+title: Side A Directors' & Officers' Liability Insurance
+class: SIDE A DIRECTORS' & OFFICERS' LIABILITY INSURANCE
+kicker: Meridian Commons · Side A D&O
+slug: side-a-do
+file_stem: Meridian_Side_A_DO
+doc_ref: 2026/SADO/0001
+version: 2.1.0-DRAFT
+date: November 2026
+draft: true
+summary: Excess cover reserved for individual directors and officers, above the company's D&O or management liability insurance.
+supersedes: Meridian Side A D&O v2.0.0-DRAFT (October 2026), published as a page without clause source
+structure:
+- section: preamble
+  clauses:
+  - sa.about
+  - sa.who-this-policy-is-for
+  - sa.version-history
+  - sa.schedule
+- section: sa.section.definitions
+  clauses:
+  - sa.def.attachment-point
+  - sa.def.claim
+  - sa.def.company
+  - sa.def.control-group
+  - sa.def.defence-costs
+  - sa.def.endorsement
+  - sa.def.final-adjudication
+  - sa.def.followed-policy
+  - sa.def.insured-person
+  - sa.def.loss
+  - sa.def.non-indemnifiable-loss
+  - sa.def.policy-period
+  - sa.def.regulator
+  - sa.def.retroactive-date
+  - sa.def.schedule
+  - sa.def.subsidiary
+  - sa.def.underlying-do-insurance
+  - sa.def.underlying-insurer
+  - sa.def.we-us-our
+  - sa.def.wrongful-act
+  - sa.def.you-your
+- section: sa.section.covered
+  clauses:
+  - sa.cover.side-a-excess-cover
+  - sa.cover.exhaustion-of-the-underlying-do-insurance
+  - sa.cover.following-the-underlying-do-insurance
+  - sa.cover.no-drop-down
+  - sa.cover.priority-and-independence
+  - sa.cover.presumptive-indemnification
+  - sa.ext.advancement-of-defence-costs
+- section: sa.section.exclusions
+  clauses:
+  - sa.excl.loss-indemnified-by-the-company
+  - sa.excl.dishonesty-and-fraud
+  - sa.excl.personal-profit
+  - sa.excl.prior-and-pending-litigation
+  - sa.excl.us-canada-jurisdiction
+- section: sa.section.payment
+  clauses:
+  - sa.pay.limit-of-liability
+  - sa.pay.defence-costs-within-the-limit
+  - sa.pay.no-excess-for-insured-persons
+  - sa.pay.order-of-payment
+  - sa.pay.allocation
+  - sa.pay.other-insurance
+- section: sa.section.obligations
+  clauses:
+  - sa.obl.notify-claims
+  - sa.obl.notify-circumstances
+  - sa.obl.do-not-admit-liability
+  - sa.obl.cooperate
+  - sa.obl.maintenance-of-underlying-do-insurance
+- section: sa.section.conditions
+  clauses:
+  - sa.cond.non-avoidance
+  - sa.cond.duty-of-disclosure
+  - sa.cond.severability
+  - sa.cond.subrogation-and-recovery
+  - sa.cond.cancellation
+  - sa.cond.discovery-period
+  - sa.cond.governing-law-and-jurisdiction
+  - sa.cond.disputes-and-complaints
+  - sa.cond.privacy
+  - sa.cond.insurance-contracts-act-1984-cth
+  - sa.cond.sanctions
+  - sa.cond.corporations-act-199a-199b
+  - sa.cond.gst
+- section: end
+  clauses:
+  - sa.endorsement-library
+  - sa.end.e04
+  - sa.licence-notice

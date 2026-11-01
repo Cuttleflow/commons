@@ -1,0 +1,12 @@
+---
+id: sa.pay.other-insurance
+type: payment
+heading: Other Insurance
+since: 2.0.0
+changed: 2.1.0
+status: draft
+---
+
+If a loss covered by this policy is also covered by another insurance policy, we will not refuse or reduce our payment because of that other insurance. We may seek contribution from the other insurer as the law allows. This does not apply where the schedule or an endorsement states that this policy is excess of a specified underlying policy, in which case this policy pays only after the limit of that specified policy is exhausted.
+
+The underlying D&O insurance listed in the schedule is a specified underlying policy for this purpose.

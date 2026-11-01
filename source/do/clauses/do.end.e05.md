@@ -3,6 +3,7 @@ id: do.end.e05
 type: endorsement
 heading: E05 Prospectus and Capital Raising — Enhanced
 since: 1.3.0
+changed: 1.4.0
 status: draft
 trigger:
   questions:
@@ -42,4 +43,10 @@ We will cover claims arising from statements made in investor roadshows, analyst
 
 We will pay the costs of establishing a due diligence defence under section 731 of the Corporations Act 2001 (Cth) or equivalent.
 
-Schedule variables: Type, maximum proceeds and date of the specified capital raising.
+**Limit, Premium and Other Insurance**
+
+Claims under this endorsement are subject to the limit of liability of the policy period in which the capital raising occurred. They are part of that limit, not in addition to it. If a policy we issue for a later period also responds to the claim, we pay it only once.
+
+The additional premium for this endorsement is shown in the schedule. [[ref:do.pay.other-insurance]] applies to claims under this endorsement.
+
+Schedule variables: Type, maximum proceeds and date of the specified capital raising; additional premium.

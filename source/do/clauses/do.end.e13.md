@@ -21,7 +21,7 @@ trigger:
 
 **Additional Definitions**
 
-This endorsement uses the [[ref:do.def.employment-claim]] definition. In addition: Third-party discrimination claim means a claim by a customer, client, supplier, or other third party who is not an Employee, alleging discrimination or harassment by an insured person or an Employee acting on behalf of the company, in connection with the company's business.
+This endorsement uses [[ref:do.def.employment-claim]]. In addition: Third-party discrimination claim means a claim by a customer, client, supplier, or other third party who is not an Employee, alleging discrimination or harassment by an insured person or an Employee acting on behalf of the company, in connection with the company's business.
 
 **Insuring Clause — Company and Individual Cover**
 

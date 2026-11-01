@@ -5,16 +5,17 @@ kicker: Meridian Commons · Directors & Officers
 slug: directors-and-officers
 file_stem: Meridian_Directors_and_Officers
 doc_ref: 2026/DO/0001
-version: 1.3.0-DRAFT
+version: 1.4.0-DRAFT
 date: November 2026
 draft: true
 summary: Cover for directors and officers against claims for wrongful acts in their roles — Side A, Side B and, for securities claims, Side C.
-supersedes: Meridian Directors and Officers v1.2.0-DRAFT (July 2026), published as a page without clause source
+supersedes: Meridian Directors and Officers v1.3.0-DRAFT (November 2026)
 structure:
 - section: preamble
   clauses:
   - do.about
   - do.version-history
+  - do.who-this-policy-is-for
   - do.distribution-note
   - do.schedule
 - section: do.section.definitions
@@ -23,6 +24,7 @@ structure:
   - do.def.company
   - do.def.compensatory-damages
   - do.def.consolidated-assets
+  - do.def.control-group
   - do.def.continuity-date
   - do.def.continuous-disclosure-breach
   - do.def.defence-costs
@@ -132,6 +134,7 @@ structure:
   - do.cond.continuous-cover
   - do.cond.discovery-period
   - do.cond.cancellation
+  - do.cond.corporations-act-199a-199b
   - do.cond.duty-of-disclosure
   - do.cond.governing-law
   - do.cond.gst
