@@ -5,8 +5,8 @@ kicker: Meridian Commons · Commercial Motor
 slug: commercial-motor
 file_stem: Meridian_Commercial_Motor
 doc_ref: 2026/CMV/0001
-version: 3.0.0-DRAFT
-date: October 2026
+version: 3.1.0-DRAFT
+date: November 2026
 draft: true
 summary: 'Business motor vehicles from a single vehicle to a fleet of any size: comprehensive, third party fire
   and theft, or third party only for each vehicle, with fleet provisions where the policy is written on a fleet
@@ -26,6 +26,7 @@ structure:
   clauses:
   - mot.def.accidental-loss-or-damage
   - mot.def.agreed-value
+  - mot.def.control-group
   - mot.def.dangerous-goods
   - mot.def.declaration-date
   - mot.def.endorsement
@@ -35,6 +36,7 @@ structure:
   - mot.def.insured-vehicle
   - mot.def.market-value
   - mot.def.named-insured
+  - mot.def.not-at-fault
   - mot.def.occurrence
   - mot.def.period-of-insurance
   - mot.def.permitted-use
@@ -110,6 +112,7 @@ structure:
   - mot.cond.subrogation-and-interested-parties
   - mot.cond.salvage
   - mot.cond.fraudulent-claims
+  - mot.cond.joint-insureds
   - mot.cond.complaints
   - mot.cond.privacy
   - mot.cond.sanctions

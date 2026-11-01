@@ -3,10 +3,11 @@ id: mot.pvt.appendix.default-schedule-values
 type: library
 heading: Default Schedule Values
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
-These are the defaults that apply where the Schedule does not show another amount. Each figure is a Schedule value: an issuer may vary it in the Schedule without amending this wording, subject to the Product Disclosure Statement.
+These are the defaults that apply where the Schedule does not show another amount. Each figure is a Schedule value: an issuer may vary it in the Schedule without amending this wording, subject to the Product Disclosure Statement. The Schedule may not set the third party property damage limit below the minimum amount that standard cover requires under the Insurance Contracts Regulations 2017 (Cth). Before an issuer varies a figure, it must check the change against the list of differences from standard cover that it gives you, and update that list if the change adds a difference.
 
 | Clause | Item | Default |
 |---|---|---|
@@ -25,6 +26,7 @@ These are the defaults that apply where the Schedule does not show another amoun
 | [[ref:mot.pvt.ext.additional-benefits]] | Child seats and restraints | $750 each seat |
 | [[ref:mot.pvt.ext.additional-benefits]] | Emergency travel and accommodation | $1,000 each Occurrence; more than 100 km from home |
 | [[ref:mot.pvt.ext.additional-benefits]] | Trailer while attached | $2,000 each trailer |
+| [[ref:mot.pvt.obl.tell-us-about-changes]] | Notice before a changed premium or changed terms apply | 14 days |
 | [[ref:mot.cond.excess]] | Basic excess | $750 |
 | [[ref:mot.cond.excess]] | Age excess; age | $1,000 for a driver under 21; $600 for a driver aged 21 to 24 |
 | [[ref:mot.cond.excess]] | Inexperienced driver excess; period | $500; licence held for less than 2 years |

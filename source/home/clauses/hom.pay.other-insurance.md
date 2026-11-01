@@ -3,7 +3,8 @@ id: hom.pay.other-insurance
 type: payment
 heading: Other Insurance
 since: 1.1.0
+changed: 1.2.0
 status: draft
 ---
 
-If another policy also covers the same loss, we share the loss with the other insurer as the law of contribution provides. This clause is subject to s.45 of the Insurance Contracts Act 1984 (Cth).
+If a loss covered by this policy is also covered by another insurance policy, we will not refuse or reduce our payment because of that other insurance. We may seek contribution from the other insurer as the law allows. This does not apply where the schedule or an endorsement states that this policy is excess of a specified underlying policy, in which case this policy pays only after the limit of that specified policy is exhausted.

@@ -8,4 +8,4 @@ This is the first release of the Meridian Private Motor wording. It is built on 
 - Named Insured means the individual or individuals shown in the Schedule; the private wording is for individuals only.
 - Clauses adapted from the commercial base for private use: Hire, Fare or Reward (cost-sharing is not hire or reward), Maintain Your Car (no Heavy Vehicle National Law duties) and Subrogation and Interested Parties (no recovery from an Insured person or a family or household member driving with your permission).
 - Tell Us About Changes: we tell you any new premium or terms in writing, and if you do not accept them you may cancel with a pro-rata refund from the date of the change.
-- The Default Schedule Values basic excess stays at $750 (Max, 1 November 2026); the Go template offers it alongside $500, $1,000, $2,000 and $5,000.
+- The Default Schedule Values basic excess is $750.

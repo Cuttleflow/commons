@@ -3,6 +3,7 @@ id: mot.cond.excess
 type: condition
 heading: Excesses
 since: 3.0.0
+changed: 3.1.0
 status: draft
 ---
 
@@ -16,4 +17,4 @@ The Excesses shown in the Schedule apply to each claim, for each Insured vehicle
 | Unlisted driver excess | In addition, where the Schedule shows named drivers and the driver was not one of them |
 | Voluntary excess | In addition, where you chose a higher excess for a lower premium |
 
-No excess applies to a claim for windscreen or window glass only, or where we agree that the driver of the Insured vehicle was not at fault and you give us the name and address of the person responsible. Where more than one Insured vehicle is damaged in the same Occurrence, you pay one basic excess (the highest that applies), plus any additional excess for each driver.
+No excess applies to a claim for windscreen or window glass only, or where the driver of the Insured vehicle was Not at fault and you give us the name and address of the person responsible. Where more than one Insured vehicle is damaged in the same Occurrence, you pay one basic excess (the highest that applies), plus any additional excess for each driver.
