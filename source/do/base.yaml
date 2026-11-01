@@ -1,0 +1,162 @@
+id: do-base
+title: Directors & Officers Liability Insurance
+class: DIRECTORS & OFFICERS LIABILITY INSURANCE
+kicker: Meridian Commons · Directors & Officers
+slug: directors-and-officers
+file_stem: Meridian_Directors_and_Officers
+doc_ref: 2026/DO/0001
+version: 1.3.0-DRAFT
+date: November 2026
+draft: true
+summary: Cover for directors and officers against claims for wrongful acts in their roles — Side A, Side B and, for securities claims, Side C.
+supersedes: Meridian Directors and Officers v1.2.0-DRAFT (July 2026), published as a page without clause source
+structure:
+- section: preamble
+  clauses:
+  - do.about
+  - do.version-history
+  - do.distribution-note
+  - do.schedule
+- section: do.section.definitions
+  clauses:
+  - do.def.claim
+  - do.def.company
+  - do.def.compensatory-damages
+  - do.def.consolidated-assets
+  - do.def.continuity-date
+  - do.def.continuous-disclosure-breach
+  - do.def.defence-costs
+  - do.def.derivative-action
+  - do.def.e-discovery-costs
+  - do.def.class-certification-study-expenses
+  - do.def.employee
+  - do.def.employment-claim
+  - do.def.endorsement
+  - do.def.entity-cover-loss
+  - do.def.excess
+  - do.def.final-adjudication
+  - do.def.financial-institution
+  - do.def.indemnifiable-loss
+  - do.def.insured
+  - do.def.insured-person
+  - do.def.investigation
+  - do.def.limit-of-liability
+  - do.def.loss
+  - do.def.non-indemnifiable-loss
+  - do.def.policy-period
+  - do.def.regulator
+  - do.def.retention
+  - do.def.retroactive-date
+  - do.def.schedule
+  - do.def.securities-claim
+  - do.def.subsidiary
+  - do.def.we-us-our
+  - do.def.wrongful-act
+- section: do.section.covered
+  clauses: []
+- section: do.section.side-a
+  clauses:
+  - do.cover.personal-liability-direct-payment
+  - do.cover.when-non-indemnifiable-loss-arises
+  - do.cover.no-excess-on-side-a
+- section: do.section.side-b
+  clauses:
+  - do.cover.reimbursement-of-the-company
+  - do.cover.side-b-excess
+- section: do.section.side-c
+  clauses:
+  - do.cover.securities-claims-against-the-company
+  - do.cover.side-c-retention
+- section: do.section.extensions
+  clauses: []
+- section: do.section.defence-investigation
+  clauses:
+  - do.ext.advancement-of-defence-costs
+  - do.ext.investigation-costs
+  - do.ext.pre-investigation-advisory-costs
+  - do.ext.class-certification-study-expenses-and-e-discovery-costs
+  - do.ext.cooperation-with-regulators-legal-representation
+- section: do.section.personal-protection
+  clauses:
+  - do.ext.retired-directors-and-officers
+  - do.ext.new-directors-and-officers
+  - do.ext.spouse-estate-and-jointly-held-assets
+  - do.ext.bail-and-civil-bond
+  - do.ext.preservation-of-assets-and-living-expenses
+  - do.ext.extradition-defence
+  - do.ext.loss-of-earnings-attending-proceedings
+  - do.ext.tax-advisory-costs
+- section: do.section.corporate-events
+  clauses:
+  - do.ext.newly-acquired-subsidiaries
+  - do.ext.divested-subsidiaries-run-off
+  - do.ext.change-of-control
+  - do.ext.public-relations
+  - do.ext.prospectus-and-fundraising
+  - do.ext.reinstatement-after-recovery
+- section: do.section.exclusions
+  clauses:
+  - do.excl.dishonesty-and-fraud
+  - do.excl.personal-profit-and-illegal-remuneration
+  - do.excl.insured-versus-insured
+  - do.excl.prior-known-matters
+  - do.excl.prior-and-pending-litigation
+  - do.excl.bodily-injury-and-property-damage
+  - do.excl.professional-services
+  - do.excl.product-liability
+  - do.excl.pollution
+  - do.excl.nuclear
+  - do.excl.us-canada-jurisdiction
+  - do.excl.contractual-liability
+  - do.excl.employers-liability
+  - do.excl.major-transaction-ipo
+- section: do.section.payment
+  clauses:
+  - do.pay.limits-architecture
+  - do.pay.priority-of-payment
+  - do.pay.defence-costs
+  - do.pay.allocation
+  - do.pay.other-insurance
+- section: do.section.obligations
+  clauses:
+  - do.obl.notify-claims
+  - do.obl.notify-circumstances
+  - do.obl.do-not-admit-liability
+  - do.obl.cooperate
+  - do.obl.selection-of-defence-counsel
+  - do.obl.settlement
+- section: do.section.conditions
+  clauses:
+  - do.cond.severability-and-non-imputation
+  - do.cond.non-avoidance-side-a
+  - do.cond.continuous-cover
+  - do.cond.discovery-period
+  - do.cond.cancellation
+  - do.cond.duty-of-disclosure
+  - do.cond.governing-law
+  - do.cond.gst
+  - do.cond.disputes-and-complaints
+  - do.cond.privacy
+- section: do.section.notices
+  clauses:
+  - do.cond.notices
+  - do.cond.insurance-contracts-act-1984-cth
+  - do.cond.sanctions
+  - do.cond.governing-law-and-jurisdiction
+  - do.cond.interpretation
+- section: end
+  clauses:
+  - do.endorsement-library
+  - do.end.e01
+  - do.end.e02
+  - do.end.e03
+  - do.end.e04
+  - do.end.e05
+  - do.end.e06
+  - do.end.e07
+  - do.end.e08
+  - do.end.e09
+  - do.end.e10
+  - do.end.e12
+  - do.end.e13
+  - do.licence-notice
