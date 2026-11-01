@@ -26,8 +26,8 @@ questions:
     type: yes/no
     used_by: E08
   - id: qs.tl.exposure.revenue
-    text: What was your revenue in the last financial year, in millions of Australian dollars?
-    type: number (AUD millions)
+    text: What was your revenue in the last financial year?
+    type: currency (AUD)
     used_by: R, A
   - id: qs.tl.exposure.records_held
     text: How many records containing personal information do you hold, including former customers and employees?
@@ -77,20 +77,23 @@ questions:
     text: Do you supply technology products or services to government or defence customers?
     type: yes/no
     used_by: E10
-  - id: qs.tl.cover.sections
-    text: Which sections do you want?
-    type: multi-select
-    options: ['techpi', 'cyber', 'liability']
+  - id: qs.tl.cover.include_cyber
+    text: Do you want the Cyber Protection section?
+    type: yes/no
+    used_by: R, A, S
+  - id: qs.tl.cover.include_liability
+    text: Do you want the Public and Products Liability section?
+    type: yes/no
     used_by: R, A, S
   - id: qs.tl.cover.limit
     text: What limit of liability do you need for the Technology Professional Liability and Cyber Protection sections combined?
-    type: select (AUD millions)
-    options: ['1', '2', '5', '10']
+    type: select (AUD)
+    options: ['1000000', '2000000', '5000000', '10000000']
     used_by: R, S
   - id: qs.tl.cover.gl_limit
     text: What limit of liability do you need for the Public and Products Liability section, for any one occurrence?
-    type: select (AUD millions)
-    options: ['5', '10', '20']
+    type: select (AUD)
+    options: ['5000000', '10000000', '20000000']
     used_by: R, S
   - id: qs.tl.cover.excess
     text: What retention do you want for each claim?
