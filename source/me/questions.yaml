@@ -1,0 +1,159 @@
+# Platform questions for the Medical Establishments wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.me namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.me.insured.name
+    text: What is the company's full legal name?
+    type: text
+    used_by: S
+  - id: qs.me.insured.abn
+    text: What is the company's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.me.insured.principal_state
+    text: In which state or territory is the company's principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S, A
+  - id: qs.me.ops.facility_categories
+    text: Which types of facility do you operate?
+    type: multi-select
+    options: [gp_medical_centre, allied_health_clinic, day_surgery, private_hospital, aged_care]
+    used_by: A, S, E13, E14, E15, E16
+  - id: qs.me.ops.revenue
+    text: What was the company's gross revenue from healthcare operations in the last 12 months?
+    type: currency (AUD)
+    used_by: R, S
+  - id: qs.me.ops.revenue_split
+    text: What percentage of that revenue comes from each type of facility?
+    type: repeating (facility type, percentage; total 100)
+    used_by: R
+  - id: qs.me.ops.facilities_count
+    text: How many facilities do you operate?
+    type: number
+    used_by: A, S
+  - id: qs.me.ops.years_trading
+    text: How many years has the company operated healthcare facilities?
+    type: number
+    used_by: R, A
+  - id: qs.me.ops.obstetrics
+    text: Does any facility provide obstetrics services?
+    type: yes/no
+    used_by: A, E01
+  - id: qs.me.ops.cosmetic_procedures
+    text: Are cosmetic procedures performed at any facility?
+    type: select
+    options: [none, incidental, discrete_unit]
+    used_by: R, E03, E13
+  - id: qs.me.ops.clinical_trials
+    text: Does the company conduct clinical trials or research studies?
+    type: yes/no
+    used_by: E04
+  - id: qs.me.ops.overnight_stays
+    text: Does any day surgery or procedure centre keep patients overnight other than in an emergency?
+    type: yes/no
+    used_by: E14
+  - id: qs.me.ops.employed_doctors
+    text: Does the company employ medical practitioners under contracts of employment?
+    type: yes/no
+    used_by: A
+  - id: qs.me.ops.credentialing
+    text: Does the company verify every practitioner's registration and individual indemnity insurance at engagement and annually?
+    type: yes/no
+    used_by: R, A
+  - id: qs.me.ops.accreditation
+    text: Does every facility that must be accredited hold current accreditation (NSQHS, RACGP or the Aged Care Quality Standards), with no conditions?
+    type: yes/no
+    used_by: R, A
+  - id: qs.me.ops.usa_canada
+    text: Does the company provide any services in, or to patients located in, the USA or Canada?
+    type: yes/no
+    used_by: A
+  - id: qs.me.ops.additional_facilities
+    text: Do you want to add named facilities from a later date during the policy period?
+    type: yes/no
+    used_by: E09
+  - id: qs.me.ops.contractual_liability
+    text: Do you need cover for liability you have assumed under named contracts?
+    type: yes/no
+    used_by: E10
+  - id: qs.me.hospital.beds
+    text: How many licensed beds do your private hospitals have in total?
+    type: number
+    used_by: A, E15
+  - id: qs.me.hospital.high_risk_services
+    text: Does any hospital provide cardiac surgery, neurosurgery or transplant services?
+    type: yes/no
+    used_by: A, E15
+  - id: qs.me.aged.operational_beds
+    text: How many operational aged care beds do you have?
+    type: number
+    used_by: S
+  - id: qs.me.aged.memory_care_beds
+    text: How many of those beds are memory care or dementia-specific beds?
+    type: number
+    used_by: R, E16
+  - id: qs.me.aged.sirs_priority1_12m
+    text: How many SIRS Priority 1 incidents did you report in the last 12 months?
+    type: number
+    used_by: A, E16
+  - id: qs.me.aged.acqsc_sanction
+    text: Is the company, a facility or any officer subject to a current ACQSC sanction or banning order?
+    type: yes/no
+    used_by: A, E16
+  - id: qs.me.history.claims_count_5y
+    text: How many claims or inquiries have been made against the company in the last 5 years?
+    type: number
+    used_by: R, A
+  - id: qs.me.history.known_circumstances
+    text: Is the company aware of any circumstance that might give rise to a claim or inquiry?
+    type: yes/no
+    used_by: A
+  - id: qs.me.history.prior_declined
+    text: Has an insurer ever declined, cancelled or refused to renew the company's medical malpractice or liability insurance?
+    type: yes/no
+    used_by: A
+  - id: qs.me.cover.retro_cover
+    text: Has the company held this cover continuously, and does it need prior acts cover?
+    type: select
+    options: [continuous, new_entity, gap_in_cover]
+    used_by: R, A, S
+  - id: qs.me.cover.limit
+    text: What limit of liability do you need?
+    type: select
+    options: ['5000000', '10000000', '20000000']
+    used_by: R, S
+  - id: qs.me.cover.excess
+    text: What excess do you want?
+    type: select
+    options: ['2500', '5000', '10000', '25000', '50000']
+    used_by: R, S
+  - id: qs.me.cover.defence_costs_in_addition
+    text: Do you want defence costs paid in addition to the limit of liability?
+    type: yes/no
+    used_by: R, E02
+  - id: qs.me.cover.additional_erp
+    text: Do you want an extended reporting period longer than 365 days?
+    type: yes/no
+    used_by: E05
+  - id: qs.me.cover.molestation_sublimit_increase
+    text: Do you want a higher molestation defence costs sub-limit?
+    type: yes/no
+    used_by: E06
+  - id: qs.me.cover.sublimit_increase
+    text: Do you want any higher sub-limits?
+    type: yes/no
+    used_by: E07
+  - id: qs.me.cover.reinstatement
+    text: Do you want a reinstatement of the limit of liability?
+    type: yes/no
+    used_by: E08
+  - id: qs.me.cover.excess_layer
+    text: Is this cover to sit above underlying insurance?
+    type: yes/no
+    used_by: E11
+  - id: qs.me.cover.run_off_placement
+    text: Is this a run-off or takeover placement that needs a prior and pending litigation date?
+    type: yes/no
+    used_by: E12

@@ -1,0 +1,1294 @@
+{
+ "wording": "me-base",
+ "version": "1.1.0-DRAFT",
+ "doc_ref": "2026/ME/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "me.about",
+   "heading": "About This Policy",
+   "sha256": "a2ed6b0db4ddf8093dcf9325b067ff2c6f436a5e55d334507e8057a58ee99f5e"
+  },
+  {
+   "id": "me.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "me.schedule",
+   "heading": "Schedule",
+   "sha256": "cf484d4bb3151ea708d1adb5991008437ee140bea1c8b57f79a4a8fe86f714e6"
+  },
+  {
+   "id": "me.section.definitions",
+   "heading": "Definitions",
+   "sha256": "4cad65115791a461fda405133d0c4653827e7e030fd47315f3c6f5204e21b784"
+  },
+  {
+   "id": "me.def.aged-care-act",
+   "heading": "Aged Care Act",
+   "sha256": "831eff93e60f169e5d1d185d65c39be40a68ca06e1ffdfd50c43cb4148b89a1b"
+  },
+  {
+   "id": "me.def.allied-health-practitioner",
+   "heading": "Allied Health Practitioner",
+   "sha256": "474096e84627064d52a3ce124b69dd2813cfa1c536fe2dcdebaed6983b2d0b23"
+  },
+  {
+   "id": "me.def.civil-liability-legislation",
+   "heading": "Civil Liability Legislation",
+   "sha256": "0ecf303772bc767c8febdde6ac4bd6c2207e68a51ae97b3b3dc3c6dc162faed6"
+  },
+  {
+   "id": "me.def.claim",
+   "heading": "Claim",
+   "sha256": "b427b1d95f7c3cf8c38fe93b16cd855b4985742ed28ffeb2b4498ad325ea601c"
+  },
+  {
+   "id": "me.def.company",
+   "heading": "Company",
+   "sha256": "199f99fdf5327cfbe4cf584860587a187417093e2ef776ba6c3f6f80e51d90ad"
+  },
+  {
+   "id": "me.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "d1e09c3592bdf5f3fc6c25074d6c805bd00df8b2340969930513c93e8dd490f8"
+  },
+  {
+   "id": "me.def.documents",
+   "heading": "Documents",
+   "sha256": "4dbc466374e3da68c3429a4820f6e2d7483597e54cf6fdd325ddcaeb77a5b176"
+  },
+  {
+   "id": "me.def.employee",
+   "heading": "Employee",
+   "sha256": "63ed125c7517ebeb11d91287b2721dd84412924941b9731f12588a320d4edfd0"
+  },
+  {
+   "id": "me.def.excess",
+   "heading": "Excess",
+   "sha256": "08a265cefac7acc34d258fd24d412f267e6e33f3836ba4349687e966bf6f50c9"
+  },
+  {
+   "id": "me.def.facility",
+   "heading": "Facility",
+   "sha256": "b68bbabb63a13f9f604b9514f69912a6967cf5573b2af70b2d4adcc4da5a6f38"
+  },
+  {
+   "id": "me.def.geographical-limits",
+   "heading": "Geographical Limits",
+   "sha256": "8d7a0371aa039e4b3d85c4634b41cbabc6f234c74c2622cbc57a38be803dc382"
+  },
+  {
+   "id": "me.def.final-adjudication",
+   "heading": "Final Adjudication",
+   "sha256": "2aabbf358da579a0aa1ba9114f4f1f4fefb3b8268eacb8df13ed06678f9a754d"
+  },
+  {
+   "id": "me.def.healthcare-operations",
+   "heading": "Healthcare Operations",
+   "sha256": "eec0f60af89e14a9831a8e86211af95b4d00fb148215e0925577847d1284d06d"
+  },
+  {
+   "id": "me.def.healthcare-services",
+   "heading": "Healthcare Services",
+   "sha256": "362e914b6f0b423f3c718fee6ceee47c9fbc03f433c0ae498d4500e2add8116a"
+  },
+  {
+   "id": "me.def.inquiring-body",
+   "heading": "Inquiring Body",
+   "sha256": "6c0fa49cd959fd99a6bcf00471bc46b745a52cc19ae9ddcb5f2004c5ba328f82"
+  },
+  {
+   "id": "me.def.inquiry",
+   "heading": "Inquiry",
+   "sha256": "66f08369e91d20b76306e5430ffaf933a606cafd3a6192f8fbfb9c564f219477"
+  },
+  {
+   "id": "me.def.insured-person",
+   "heading": "Insured Person",
+   "sha256": "2d0134916096eceff5a1e1af49d4555ed19a7c59d59c8ca31afa4f6f2922b7c1"
+  },
+  {
+   "id": "me.def.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "ea92269043859689e745e0a416032ae691789477b8c01c39380446dc83a645b3"
+  },
+  {
+   "id": "me.def.locum-tenens",
+   "heading": "Locum Tenens",
+   "sha256": "4de6843e5c0b9fa291482b34fc49787d84a6d1cbf227ed61d430a4e13541f0dd"
+  },
+  {
+   "id": "me.def.loss",
+   "heading": "Loss",
+   "sha256": "2de6d36f9ea39bb82a1cd12a8d3cb7226b9e1e042fb4f01f05b34a995964bbf4"
+  },
+  {
+   "id": "me.def.medical-practitioner",
+   "heading": "Medical Practitioner",
+   "sha256": "2a79972d9304f71725dfafc5898753f555b368156b4f0cc168d919271b1b212f"
+  },
+  {
+   "id": "me.def.medication",
+   "heading": "Medication",
+   "sha256": "66c350af8ade02b44477e0be2652caa7a6672311a1a5820f5e6da6a804375bab"
+  },
+  {
+   "id": "me.def.molestation",
+   "heading": "Molestation",
+   "sha256": "099a9b32155d8fdae217b1626033e8bbbe7683ecf96b59e0b894a91fae44931b"
+  },
+  {
+   "id": "me.def.obstetrics-services",
+   "heading": "Obstetrics Services",
+   "sha256": "90e1779409e15804ecb8fb0532c90858f873c220b69304bc35c811b169a6f407"
+  },
+  {
+   "id": "me.def.open-disclosure",
+   "heading": "Open Disclosure",
+   "sha256": "1d6de7277b646812adda7d4377637522e44ffcc582aabd37946ed0c9bc8cec01"
+  },
+  {
+   "id": "me.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "4e82f10985cec73689067c6a3340d39a34ae69024079e9dfadba634c7ccd0a15"
+  },
+  {
+   "id": "me.def.pollution",
+   "heading": "Pollution",
+   "sha256": "14bda44821b1b21f9893eefcc9b9e874b548a716849dbe4fff60d308403c87a0"
+  },
+  {
+   "id": "me.def.privacy-legislation",
+   "heading": "Privacy Legislation",
+   "sha256": "d03b29e94ed33af25eb58c8b97241b4229eb8292ef2955179d706766385b849e"
+  },
+  {
+   "id": "me.def.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "af3b730e0950240abc2b7ee86ffc6f4b40cbeb4dd7cbfbbb235429992754dbbb"
+  },
+  {
+   "id": "me.def.schedule",
+   "heading": "Schedule",
+   "sha256": "5ae03fab335253ccdd73cfedbd226693ea6d63556588dc84934658294440c4f2"
+  },
+  {
+   "id": "me.def.senior-counsel",
+   "heading": "Senior Counsel",
+   "sha256": "7e1e90046d3e91b111a9a6eb694692eeec1e1a994a6b5cae1a4b59bb21b8baac"
+  },
+  {
+   "id": "me.def.student",
+   "heading": "Student",
+   "sha256": "8a1ecbc42ed09ce7bf11891a13a26dc840468d6a3ef7f869d8c5aa0ec2aa9caf"
+  },
+  {
+   "id": "me.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "551edddd81e247793c31147eda2a2876862b52f44977c1ddfc70b8294fd9ba49"
+  },
+  {
+   "id": "me.def.telehealth",
+   "heading": "Telehealth",
+   "sha256": "360318537751c8449a5d806d0ec224515468840134a75c3b1ef07f469b7c89ec"
+  },
+  {
+   "id": "me.def.visiting-medical-officer",
+   "heading": "Visiting Medical Officer",
+   "sha256": "0740a89511e7a96af4a5edc5b1f2c8f09779295064d4e37bc62b87505888ab6b"
+  },
+  {
+   "id": "me.def.volunteer",
+   "heading": "Volunteer",
+   "sha256": "d1c52890f8b81d21e5ff93002b0626141fd9c8afe789de2db4988485d3c72ef7"
+  },
+  {
+   "id": "me.def.we-us-our",
+   "heading": "We, Us and Our",
+   "sha256": "41e90e47407b2223397d92aaf7ce408527dcf36afacf112214a647087897d560"
+  },
+  {
+   "id": "me.def.you-your",
+   "heading": "You and Your",
+   "sha256": "2b10fb48331c3c4620bdeff1cc256d8e912aeac8f2ad1493f56fb9e8d0418c9e"
+  },
+  {
+   "id": "me.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "me.cover.healthcare-operations",
+   "heading": "Civil Liability for Healthcare Operations",
+   "sha256": "77a8999e17e5aab451eeccbfb98e1a05ade147820350f9522253d01c29d8a80e"
+  },
+  {
+   "id": "me.cover.vicarious-liability",
+   "heading": "Vicarious Liability for Employees, Practitioners and Contracted Doctors",
+   "sha256": "74f362c2c52992f278f313bccb4a5ce095292355d71007a38b1c305ab3984e84"
+  },
+  {
+   "id": "me.cover.inquiry-costs",
+   "heading": "Inquiry and Regulatory Defence Costs",
+   "sha256": "706255ed5f99ce1db097042908bd92bfefb5e69fb578b9f71a0558a8176b9157"
+  },
+  {
+   "id": "me.cover.notification-of-circumstances",
+   "heading": "Notification of Circumstances",
+   "sha256": "20eaa9fe7f4b3438fbe2bc0c135f631422e85159642d425c52cdc55a134d74b2"
+  },
+  {
+   "id": "me.section.extensions",
+   "heading": "Extensions of Cover",
+   "sha256": "83c623e7cddd0b4ded1025c25e91a3792ced2eccc5ed56b263b0615040917c64"
+  },
+  {
+   "id": "me.ext.consumer-protection",
+   "heading": "Consumer Protection Legislation",
+   "sha256": "7472740a2276ffeda872ca140be94127c3ffc192313108081e69975bfadd8bd0"
+  },
+  {
+   "id": "me.ext.privacy",
+   "heading": "Privacy Complaints and Data Breach Notification Costs",
+   "sha256": "00af68180069f48e58bb1323a8cb2ace6b3ce6ff2395966a31148cac83b00c63"
+  },
+  {
+   "id": "me.ext.serious-invasion-of-privacy",
+   "heading": "Serious Invasion of Privacy",
+   "sha256": "effd0ae2c1251b841c801be699d0c7fea802aa643f76d00b8256609f612fd399"
+  },
+  {
+   "id": "me.ext.good-samaritan",
+   "heading": "Good Samaritan Acts",
+   "sha256": "5210721fe0a42d4a666325a0c38e555e0ddd5ba3768a946a74cdf16df9cc7c19"
+  },
+  {
+   "id": "me.ext.audits-and-employee-fraud",
+   "heading": "Medicare, NDIS and PBS Audits and Employee Fraud",
+   "sha256": "2c4368421f7db10423305e444f743ca7cba0bfdd0be7579b5b308d7287454fc3"
+  },
+  {
+   "id": "me.ext.statutory-liability",
+   "heading": "Statutory Liability",
+   "sha256": "f4c89e76f51a93ebfe91bcfb15e9a5640c0e3c8276edf4a56decfc77f28db5bb"
+  },
+  {
+   "id": "me.ext.molestation-defence-costs",
+   "heading": "Molestation Defence Costs",
+   "sha256": "b9b4a7df461d0728bf6ff85d795ca9f11f79d2fcb492afbdd2e30301a2713581"
+  },
+  {
+   "id": "me.ext.new-subsidiaries-and-facilities",
+   "heading": "Newly Acquired Subsidiaries and Facilities",
+   "sha256": "f28670b4c543fd0ec5ed706c69e7f0aaa5dfcdc83b58c17ec8d6c141852f6b31"
+  },
+  {
+   "id": "me.ext.loss-of-documents",
+   "heading": "Loss of Documents",
+   "sha256": "1777f589428c02551410963a9cd2d73973821cde3b1993981464f0df788c4002"
+  },
+  {
+   "id": "me.ext.public-relations",
+   "heading": "Public Relations and Crisis Costs",
+   "sha256": "07175cdaa1101743523bfa4cdb3ae6bd04738b1502fe1e8bad9196fb3468e725"
+  },
+  {
+   "id": "me.ext.court-attendance",
+   "heading": "Court Attendance",
+   "sha256": "78f08e56e0889bedaeab25e19116117e47cb454ac166dce764cefe1ecdb8e33c"
+  },
+  {
+   "id": "me.ext.advance-claim-protection",
+   "heading": "Advance Claim Protection",
+   "sha256": "9d88fd70d4407676392c64b37257c9205fe59546422dfcfe5ba65a0f23090cb0"
+  },
+  {
+   "id": "me.ext.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "f8ac7048b2ef909fcf53b8dd6d27f0c190a2c6710092f979be63b42ade33cb29"
+  },
+  {
+   "id": "me.ext.run-off",
+   "heading": "Run-off Cover",
+   "sha256": "1fd2222e669548de18b9ad47ded50b2b0f6040263cdd7bae35cc3117b122bd5a"
+  },
+  {
+   "id": "me.ext.extended-reporting-period",
+   "heading": "Extended Reporting Period",
+   "sha256": "a04443a27c3c1c656b7bbbb34464615f60aedb07e8cad76242db138fd1c73773"
+  },
+  {
+   "id": "me.ext.aged-care-compensation",
+   "heading": "Aged Care Act Statutory Compensation",
+   "sha256": "9ff282ff641a5fb3dfb835a572ee8573f856071f28bc56ee8639dc3ee6d34590"
+  },
+  {
+   "id": "me.ext.sirs-proceedings",
+   "heading": "SIRS and Commission Proceedings",
+   "sha256": "d5053b735b947d4d51e4d489862126d1784dda1d0c6b275281259f4e0d566ac0"
+  },
+  {
+   "id": "me.ext.students",
+   "heading": "Students and Placements",
+   "sha256": "23c4f32e72d5ea629f4fe7ea39be6e76d9d465b21ed4b940fc90c14c08cd072f"
+  },
+  {
+   "id": "me.ext.volunteers",
+   "heading": "Volunteers",
+   "sha256": "a6448a468c4f49b737161c459bc874d06c9f730ffe6a1e913f646fb0a44af0b2"
+  },
+  {
+   "id": "me.ext.locum-tenens",
+   "heading": "Locum Tenens",
+   "sha256": "28b268922a93b8611b60ca32ac5e85e258dc1b4ef7d269349db72810a3373d24"
+  },
+  {
+   "id": "me.ext.estates-and-spouses",
+   "heading": "Estates, Heirs and Spouses",
+   "sha256": "e0a3c2feb75d7fb9135cc93431dee4727a7d26f051436a5acb22db7b65dfb5e4"
+  },
+  {
+   "id": "me.ext.telehealth",
+   "heading": "Telehealth and Remote Care",
+   "sha256": "06fb19befcd09cd818f8c6cd09209498a835ba975621c93455ae7aeb853ca62e"
+  },
+  {
+   "id": "me.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "0183ff1c7159e0ba2755fb4bfd1fba614ebc9223b1bf0a03a40b882b427524ba"
+  },
+  {
+   "id": "me.excl.medical-practitioners",
+   "heading": "Medical Practitioners' Own Liability",
+   "sha256": "3c9987068c532e4ce3787341b1e04567fcc449bc0f6fe347fb0f2068aed96004"
+  },
+  {
+   "id": "me.excl.employers-liability",
+   "heading": "Employer's Liability",
+   "sha256": "70bcb62342157e4679f8e0af700cd341cbded6e1e24a0ccab1f9ad60648ab36b"
+  },
+  {
+   "id": "me.excl.directors-and-officers",
+   "heading": "Directors' and Officers' Liability",
+   "sha256": "a9c2db27c066b21aeb793ab95691957ebc25000be7f5d13b99b71b970835dcaa"
+  },
+  {
+   "id": "me.excl.obstetrics",
+   "heading": "Obstetrics",
+   "sha256": "fbeae59621ad6816bf3e01ecc30d70067de4a87ccdd4a1733f56fdd9bde4fce4"
+  },
+  {
+   "id": "me.excl.cosmetic-procedures",
+   "heading": "Cosmetic and Aesthetic Procedures",
+   "sha256": "30a30dbabdf6a35fb3556628325a03d9951cd398e460b0774420d60297b52511"
+  },
+  {
+   "id": "me.excl.unregistered-practice",
+   "heading": "Unregistered or Unlicensed Practice",
+   "sha256": "87d03fb65bb70362d3f1f2a3676f4ee162d6798c6461288a7c6f6787f0d733a4"
+  },
+  {
+   "id": "me.excl.prescription-medicines",
+   "heading": "Prescription-only Medicines",
+   "sha256": "a28e8ec375176c3e456855ee8f126a7a9d3231c920b952c6e89464d54f16a083"
+  },
+  {
+   "id": "me.excl.clinical-trials",
+   "heading": "Clinical Trials and Experimental Procedures",
+   "sha256": "681b3059be15b1fbd0db9142474eaa1cb3bdbf5cbeab5393f2ac8fc8a3c51d0d"
+  },
+  {
+   "id": "me.excl.molestation",
+   "heading": "Molestation",
+   "sha256": "5b2b6a977f6382db49d6be0c2aff737c97f953fe32be151afdfd98d003f9f12f"
+  },
+  {
+   "id": "me.excl.intoxicants",
+   "heading": "Intoxicants and Drugs",
+   "sha256": "2403fa631829260f3cdabd20da336f7e4d256ce9b1024734d8d0f421a312d781"
+  },
+  {
+   "id": "me.excl.prior-circumstances",
+   "heading": "Prior Known Circumstances and Retroactive Date",
+   "sha256": "888377b9b2bf3abe5ff710a3aef96a8a5462bd7b2a0536c1b57d94e3a73fb636"
+  },
+  {
+   "id": "me.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "ce1ea0ed50bfbf0965a9f942573f35a7bf215bafac9f481299b05783ce6a4b3c"
+  },
+  {
+   "id": "me.excl.goods-sold",
+   "heading": "Goods Sold or Supplied",
+   "sha256": "4a8346bf122004a7bb2467827af3b46008ca6c5710dd41148178bd0b3a587871"
+  },
+  {
+   "id": "me.excl.trading-debts",
+   "heading": "Trading Debts and Fee Disputes",
+   "sha256": "aa25ec1ded0c90ab1974153a64aab4909662fa439c1231d3b91e5d3201bda6c7"
+  },
+  {
+   "id": "me.excl.fines-and-penalties",
+   "heading": "Fines, Penalties and Punitive Damages",
+   "sha256": "f272806c77ea36b2b0e5cf0693544411d46b99d313472024435c5af3524e25e8"
+  },
+  {
+   "id": "me.excl.whs-penalties",
+   "heading": "WHS Monetary Penalties",
+   "sha256": "fce7212032c0ed24495d5829534cd4ce1d6d0c921857551cd767dd06304794e4"
+  },
+  {
+   "id": "me.excl.related-parties",
+   "heading": "Related Parties",
+   "sha256": "34fc2c0e5fa3ec6b25629b081f80d67ac9d3b287c65e668e4213065aa93b8017"
+  },
+  {
+   "id": "me.excl.nuclear",
+   "heading": "Radioactivity and Nuclear",
+   "sha256": "d8f2923901c8b386506678574ddd49fe6b516d23d1a15503e803cfd9144b19ff"
+  },
+  {
+   "id": "me.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "ae8df65b8ce30c58ee81b42c72e010eba66227963ceb36eb88396cbfc3387e0e"
+  },
+  {
+   "id": "me.excl.war-and-terrorism",
+   "heading": "War and Terrorism",
+   "sha256": "65d212830ec6ec4a22e806bff9bff97c9282c211916838531d64f453d1f659f8"
+  },
+  {
+   "id": "me.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "8e9476e0a6665eb64278244b8158398a62c637160e89a732a93f565ef6bdd356"
+  },
+  {
+   "id": "me.excl.cyber-events",
+   "heading": "Cyber Events",
+   "sha256": "71fc7a3fefc528cdd4f917f11b22f75b59f45035a2f03e3e463266d3fe0a1bdb"
+  },
+  {
+   "id": "me.excl.usa-canada",
+   "heading": "United States of America and Canada",
+   "sha256": "37ce98433c658a9337e468370660d1c12b6627c57f32aad6f6ce0baed815c3a1"
+  },
+  {
+   "id": "me.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "me.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "aca2518ba2f876bfc87b75df64c0d7a43fce006201f0814906bd5ccec9b46815"
+  },
+  {
+   "id": "me.pay.sub-limits",
+   "heading": "Sub-limits",
+   "sha256": "3a563f576e0b2ebcfed8bcb5c01162ed156c41d734b4ce793636a597cda40d7d"
+  },
+  {
+   "id": "me.pay.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "b7540ba8a20e6a9fa29eb8ee3a2cb48082ea51d30a93ca2b77dbae7eb31f203f"
+  },
+  {
+   "id": "me.pay.excess",
+   "heading": "Excess",
+   "sha256": "93265691c5d546cae0b22ab8d6c938c92bbb30339cd5462639fc3d87de2d613d"
+  },
+  {
+   "id": "me.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "bbc4ff7ddcfdf731bd1d3778f75fb9f7d09d393ed78440eec54343ed5f194913"
+  },
+  {
+   "id": "me.pay.allocation",
+   "heading": "Allocation",
+   "sha256": "76cc63b09fbcbb1dc96ab5b152c47b7883bd15ea8dce57aade8fc61bc1fd390c"
+  },
+  {
+   "id": "me.pay.paying-out-the-limit",
+   "heading": "Paying Out the Limit",
+   "sha256": "1271aadf4f1080710a0681689cbb3473efcd312cfb22c067ece102a4bf95c05b"
+  },
+  {
+   "id": "me.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "13004b5052f3f28203676c1dfc097f63c39d53f3a0629b6def798b3af5cf5e4b"
+  },
+  {
+   "id": "me.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims and Inquiries",
+   "sha256": "a5b5d80af80355d1733cc3309752068b1eed92bda20c6b280dd734f3f20f58cb"
+  },
+  {
+   "id": "me.obl.tell-us-about-circumstances",
+   "heading": "Tell Us About Circumstances",
+   "sha256": "b9d6867291965d03090bc9b1f37e7911b38a1865315647ee666bd729874f1e9d"
+  },
+  {
+   "id": "me.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability, With Important Exceptions",
+   "sha256": "76b7e7928ed97e40fe7aa69d62a66129b7afb85b0154417b2ca01e92fa07b936"
+  },
+  {
+   "id": "me.obl.cooperate",
+   "heading": "Cooperate With Us",
+   "sha256": "10c3e54ced04a15edd9fd2b5299837569d51b033e4d012a2d548808063a76172"
+  },
+  {
+   "id": "me.obl.conduct-of-defence",
+   "heading": "Conduct of the Defence",
+   "sha256": "059233e8207bcf5a1a98272527e63cb7335661990b248a82270a59237552c142"
+  },
+  {
+   "id": "me.obl.senior-counsel",
+   "heading": "Senior Counsel Clause",
+   "sha256": "b9e614ae935c9a35b53b439e2ea9fa6620cac0e1bf2c724c60f1055980f7f118"
+  },
+  {
+   "id": "me.obl.settlement",
+   "heading": "Settlement Opportunities",
+   "sha256": "c50204fd9a95fac873abc875a1208ea4c469b0268777fbb40d869abbdc6c46cc"
+  },
+  {
+   "id": "me.obl.mitigate",
+   "heading": "Mitigate",
+   "sha256": "c793876334d60ce709216e1279e7d0d497f3b988d692a4a867b6c5704b1a6c16"
+  },
+  {
+   "id": "me.obl.tell-us-about-changes",
+   "heading": "Tell Us About Material Changes",
+   "sha256": "d12ea282f1783176f28de6880b859e107c63449c712b4e7cb8b12511d7fab655"
+  },
+  {
+   "id": "me.obl.other-insurance",
+   "heading": "Tell Us About Other Insurance",
+   "sha256": "7568a3132015ff485197e56e4d8e5fd53e4ba5b15e87557dcf47d4fd9760b402"
+  },
+  {
+   "id": "me.obl.recovery-rights",
+   "heading": "Preserve Our Recovery Rights",
+   "sha256": "f62969dbae404220a31da3bc6050dfb8f75ee77cf10af896fa24dae0c8baedfc"
+  },
+  {
+   "id": "me.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "me.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "411baf48d46e206dbff3bbb64f492b3c4376146c6e66b5fa9703a27f5d1f8b06"
+  },
+  {
+   "id": "me.cond.duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "185809342fc4f1caa27f924a65bfaf488739bd911241c91e43175d3f7e5e3772"
+  },
+  {
+   "id": "me.cond.utmost-good-faith",
+   "heading": "Utmost Good Faith",
+   "sha256": "5076040a05bf9b8959b098090a6346279d68b83d71014e574d1f7be69e7cca2f"
+  },
+  {
+   "id": "me.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "d0a42573e41846b7da4430918733ddde5fea9c6037a1c4083058ac3ea2368601"
+  },
+  {
+   "id": "me.cond.severability",
+   "heading": "Severability and Non-imputation",
+   "sha256": "7b178e81105844b5485eb164a071c53cb38665d9083f7187f2232826e443077c"
+  },
+  {
+   "id": "me.cond.third-party-beneficiaries",
+   "heading": "Insured Persons as Third-party Beneficiaries",
+   "sha256": "70aa0ceebab628a1a6899172b8f5b2def030124bd7598d4d399145317ad6ae56"
+  },
+  {
+   "id": "me.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "9ccb7e16c1a9b51c6db9904ea05cee5237eeb333640c3d7b53378abe756c24fe"
+  },
+  {
+   "id": "me.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "22145c8f4d4fc3b0d5cecaccacbf8c6247fd664c5c913a83547032850376d823"
+  },
+  {
+   "id": "me.cond.disputes-and-complaints",
+   "heading": "Complaints and AFCA",
+   "sha256": "2781294476767aae71abc5b8b0523dac4cda956a8329d8eab9db8f545455d5ee"
+  },
+  {
+   "id": "me.cond.code-of-practice",
+   "heading": "General Insurance Code of Practice",
+   "sha256": "7e06b3c48282a82aec47dc6081cc8a30ae216468d0c34d0ad8f5d006c8625df9"
+  },
+  {
+   "id": "me.cond.gst",
+   "heading": "GST and Input Tax Credits",
+   "sha256": "3385a924e9b18df87a20f15cd2d16e0dd848707b5e8e00d79c77004b47bb5804"
+  },
+  {
+   "id": "me.cond.currency",
+   "heading": "Australian Currency",
+   "sha256": "08d0bc45a983560fdb93a9af88d3612a6050fa7a1de612a0db073b6ae9568cd9"
+  },
+  {
+   "id": "me.cond.premium-payment",
+   "heading": "Premium Payment",
+   "sha256": "807301ef6e341586cf9e962ccb8c69d4fcb1a16b4c28e39e24a7204a4eb93ee5"
+  },
+  {
+   "id": "me.cond.aggregation",
+   "heading": "Multiple Claims Aggregation",
+   "sha256": "daf133305395ac310becf940fd1c38e2b388bb1f7e3137ca047baacbc2f48b6e"
+  },
+  {
+   "id": "me.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "d2e55df389109d1017df29f8867c41c13dfd9396e53c98cc57707f8165bb569c"
+  },
+  {
+   "id": "me.cond.entire-agreement",
+   "heading": "Entire Agreement and Variation",
+   "sha256": "0355ea7785ef439548263572c0394aafde86250c926a3f0536d9450cf525b95f"
+  },
+  {
+   "id": "me.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "852d92cc4b6d23f827e431fe7b94b47eaf719a9435e1625ee5ca7b4a74ededfe"
+  },
+  {
+   "id": "me.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "1c13c2a864a6e7418b806cfb777cfa55d06999931c3ca5b6942ee6bd5f42b6ac"
+  },
+  {
+   "id": "me.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "e979b2c6e7afb283aac1ca38a05b47cb398a4216b338c8a5c10e2b94b5517d4e"
+  },
+  {
+   "id": "me.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "4ded85401c045b0136e10324bceb68ac84a91d0fa2e2e3d22b5ad9906ef91196"
+  },
+  {
+   "id": "me.end.e01",
+   "heading": "E01 Obstetrics Buy-back",
+   "sha256": "808e90b10ef25a32433a9d4eba5020f060aea8eae19774342866c2d478cd51df"
+  },
+  {
+   "id": "me.end.e02",
+   "heading": "E02 Defence Costs in Addition",
+   "sha256": "ea9f02e1b186e9c16fc00161b716c2ec096d75b841ef4593edc5db565c4b2593"
+  },
+  {
+   "id": "me.end.e03",
+   "heading": "E03 Cosmetic Procedures Buy-back",
+   "sha256": "2fec28c2a1c4aefd25aaa8a5c74eaf01a1913032b55f589b776636d670559104"
+  },
+  {
+   "id": "me.end.e04",
+   "heading": "E04 Clinical Trials",
+   "sha256": "c2777d11c4134dab25d20810a007efd65528868b306709bce38238e6957524ae"
+  },
+  {
+   "id": "me.end.e05",
+   "heading": "E05 Additional Extended Reporting Period",
+   "sha256": "314cfd476baf189e7a55f4c1eadf390839da2bb3278075c7e245226c6453ef12"
+  },
+  {
+   "id": "me.end.e06",
+   "heading": "E06 Increased Molestation Defence Sub-limit",
+   "sha256": "c0c8f10b02deb7453e7aae9828a94c609a4929147658407d74a9b3a9e2edb0b1"
+  },
+  {
+   "id": "me.end.e07",
+   "heading": "E07 Increased Sub-limits",
+   "sha256": "85cc84cf476c7f532747342807cf2c932ce56eb0f605fe4d601cf3fd06126352"
+  },
+  {
+   "id": "me.end.e08",
+   "heading": "E08 Aggregate Limit Reinstatement",
+   "sha256": "16d5d53307cc8e8b165b3562cddd9cc3cf9ab5f376b96323c47439278506d147"
+  },
+  {
+   "id": "me.end.e09",
+   "heading": "E09 Additional Facilities",
+   "sha256": "aa2c3b97167230b07517163ac529b2c480afdb813bfb4664c94f4b43aebaf7eb"
+  },
+  {
+   "id": "me.end.e10",
+   "heading": "E10 Contractual Liability Buy-back",
+   "sha256": "d41ce8810163f4896a4b68efa50516c74707e2d85c9a5da7604f902d5cb45258"
+  },
+  {
+   "id": "me.end.e11",
+   "heading": "E11 Excess Layer",
+   "sha256": "aba23239c2dfe324cd99fa110a5848b09fd6c9ba5a4fd5c26877cb684d2a7aaa"
+  },
+  {
+   "id": "me.end.e12",
+   "heading": "E12 Prior and Pending Litigation Date",
+   "sha256": "6907d734fb08a1e876912a77506b1d7c7d0c6e34cd2ec052c059c187f2ef7e5c"
+  },
+  {
+   "id": "me.end.e13",
+   "heading": "E13 GP Medical Centre and Primary Care",
+   "sha256": "26b4849cab9e9e163d7ea4382412c690b376e154f5f098cf764104b6835df675"
+  },
+  {
+   "id": "me.end.e14",
+   "heading": "E14 Day Surgery and Procedure Centre",
+   "sha256": "9f8ff8fdc2955660a1fc17a147d178b64ed25637420ca60e6e6e4df56f270ff1"
+  },
+  {
+   "id": "me.end.e15",
+   "heading": "E15 Private Hospital",
+   "sha256": "a079da6d23088f9c5a5da5775d7e1d4339e6f31761c6c74dc653c32e451cbb21"
+  },
+  {
+   "id": "me.end.e16",
+   "heading": "E16 Aged Care and Residential Care",
+   "sha256": "4777941f523db9a461cd136fbd8c196312b179e19e778c99a341668c9b8e5509"
+  },
+  {
+   "id": "me.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "me.end.e01",
+   "heading": "E01 Obstetrics Buy-back",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.obstetrics"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.ops.obstetrics == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because a facility provides obstetrics services.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.obstetrics",
+     "text": "Does any facility provide obstetrics services?",
+     "type": "yes/no",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e02",
+   "heading": "E02 Defence Costs in Addition",
+   "trigger": {
+    "questions": [
+     "qs.me.cover.defence_costs_in_addition"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.cover.defence_costs_in_addition == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for defence costs in addition to the limit."
+   },
+   "questions": [
+    {
+     "id": "qs.me.cover.defence_costs_in_addition",
+     "text": "Do you want defence costs paid in addition to the limit of liability?",
+     "type": "yes/no",
+     "used_by": "R, E02"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e03",
+   "heading": "E03 Cosmetic Procedures Buy-back",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.cosmetic_procedures"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.ops.cosmetic_procedures == discrete_unit",
+      "action": "refer"
+     },
+     {
+      "when": "qs.me.ops.cosmetic_procedures == incidental",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because cosmetic procedures are performed at a facility.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.cosmetic_procedures",
+     "text": "Are cosmetic procedures performed at any facility?",
+     "type": "select",
+     "options": [
+      "none",
+      "incidental",
+      "discrete_unit"
+     ],
+     "used_by": "R, E03, E13"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e04",
+   "heading": "E04 Clinical Trials",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.clinical_trials"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.ops.clinical_trials == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the company conducts clinical trials or studies."
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.clinical_trials",
+     "text": "Does the company conduct clinical trials or research studies?",
+     "type": "yes/no",
+     "used_by": "E04"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e05",
+   "heading": "E05 Additional Extended Reporting Period",
+   "trigger": {
+    "questions": [
+     "qs.me.cover.additional_erp"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.cover.additional_erp == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for a longer extended reporting period."
+   },
+   "questions": [
+    {
+     "id": "qs.me.cover.additional_erp",
+     "text": "Do you want an extended reporting period longer than 365 days?",
+     "type": "yes/no",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e06",
+   "heading": "E06 Increased Molestation Defence Sub-limit",
+   "trigger": {
+    "questions": [
+     "qs.me.cover.molestation_sublimit_increase"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.cover.molestation_sublimit_increase == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for a higher molestation defence costs sub-limit."
+   },
+   "questions": [
+    {
+     "id": "qs.me.cover.molestation_sublimit_increase",
+     "text": "Do you want a higher molestation defence costs sub-limit?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e07",
+   "heading": "E07 Increased Sub-limits",
+   "trigger": {
+    "questions": [
+     "qs.me.cover.sublimit_increase"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.cover.sublimit_increase == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for higher sub-limits."
+   },
+   "questions": [
+    {
+     "id": "qs.me.cover.sublimit_increase",
+     "text": "Do you want any higher sub-limits?",
+     "type": "yes/no",
+     "used_by": "E07"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e08",
+   "heading": "E08 Aggregate Limit Reinstatement",
+   "trigger": {
+    "questions": [
+     "qs.me.cover.reinstatement"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.cover.reinstatement == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for a reinstatement of the limit."
+   },
+   "questions": [
+    {
+     "id": "qs.me.cover.reinstatement",
+     "text": "Do you want a reinstatement of the limit of liability?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e09",
+   "heading": "E09 Additional Facilities",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.additional_facilities"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.ops.additional_facilities == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you named facilities to add from a later date."
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.additional_facilities",
+     "text": "Do you want to add named facilities from a later date during the policy period?",
+     "type": "yes/no",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e10",
+   "heading": "E10 Contractual Liability Buy-back",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.contractual_liability"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.ops.contractual_liability == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked us to cover liability assumed under named contracts."
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.contractual_liability",
+     "text": "Do you need cover for liability you have assumed under named contracts?",
+     "type": "yes/no",
+     "used_by": "E10"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e11",
+   "heading": "E11 Excess Layer",
+   "trigger": {
+    "questions": [
+     "qs.me.cover.excess_layer"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.cover.excess_layer == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because this cover sits above underlying insurance."
+   },
+   "questions": [
+    {
+     "id": "qs.me.cover.excess_layer",
+     "text": "Is this cover to sit above underlying insurance?",
+     "type": "yes/no",
+     "used_by": "E11"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e12",
+   "heading": "E12 Prior and Pending Litigation Date",
+   "trigger": {
+    "questions": [
+     "qs.me.cover.run_off_placement"
+    ],
+    "rules": [
+     {
+      "when": "qs.me.cover.run_off_placement == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because this is a run-off or takeover placement."
+   },
+   "questions": [
+    {
+     "id": "qs.me.cover.run_off_placement",
+     "text": "Is this a run-off or takeover placement that needs a prior and pending litigation date?",
+     "type": "yes/no",
+     "used_by": "E12"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e13",
+   "heading": "E13 GP Medical Centre and Primary Care",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.facility_categories",
+     "qs.me.ops.cosmetic_procedures"
+    ],
+    "rules": [
+     {
+      "when": "'gp_medical_centre' in qs.me.ops.facility_categories and qs.me.ops.cosmetic_procedures == discrete_unit",
+      "action": "refer"
+     },
+     {
+      "when": "'gp_medical_centre' in qs.me.ops.facility_categories",
+      "action": "apply"
+     },
+     {
+      "when": "'allied_health_clinic' in qs.me.ops.facility_categories",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you operate a general practice, medical centre or allied health clinic."
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.facility_categories",
+     "text": "Which types of facility do you operate?",
+     "type": "multi-select",
+     "options": [
+      "gp_medical_centre",
+      "allied_health_clinic",
+      "day_surgery",
+      "private_hospital",
+      "aged_care"
+     ],
+     "used_by": "A, S, E13, E14, E15, E16"
+    },
+    {
+     "id": "qs.me.ops.cosmetic_procedures",
+     "text": "Are cosmetic procedures performed at any facility?",
+     "type": "select",
+     "options": [
+      "none",
+      "incidental",
+      "discrete_unit"
+     ],
+     "used_by": "R, E03, E13"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e14",
+   "heading": "E14 Day Surgery and Procedure Centre",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.facility_categories",
+     "qs.me.ops.overnight_stays"
+    ],
+    "rules": [
+     {
+      "when": "'day_surgery' in qs.me.ops.facility_categories and qs.me.ops.overnight_stays == yes",
+      "action": "refer"
+     },
+     {
+      "when": "'day_surgery' in qs.me.ops.facility_categories",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you operate a day surgery or procedure centre."
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.facility_categories",
+     "text": "Which types of facility do you operate?",
+     "type": "multi-select",
+     "options": [
+      "gp_medical_centre",
+      "allied_health_clinic",
+      "day_surgery",
+      "private_hospital",
+      "aged_care"
+     ],
+     "used_by": "A, S, E13, E14, E15, E16"
+    },
+    {
+     "id": "qs.me.ops.overnight_stays",
+     "text": "Does any day surgery or procedure centre keep patients overnight other than in an emergency?",
+     "type": "yes/no",
+     "used_by": "E14"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e15",
+   "heading": "E15 Private Hospital",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.facility_categories",
+     "qs.me.hospital.beds",
+     "qs.me.hospital.high_risk_services"
+    ],
+    "rules": [
+     {
+      "when": "'private_hospital' in qs.me.ops.facility_categories and qs.me.hospital.beds > 200",
+      "action": "refer"
+     },
+     {
+      "when": "'private_hospital' in qs.me.ops.facility_categories and qs.me.hospital.high_risk_services == yes",
+      "action": "refer"
+     },
+     {
+      "when": "'private_hospital' in qs.me.ops.facility_categories",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you operate a private hospital. Hospitals over 200 beds, or with cardiac surgery, neurosurgery or transplant services, refer."
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.facility_categories",
+     "text": "Which types of facility do you operate?",
+     "type": "multi-select",
+     "options": [
+      "gp_medical_centre",
+      "allied_health_clinic",
+      "day_surgery",
+      "private_hospital",
+      "aged_care"
+     ],
+     "used_by": "A, S, E13, E14, E15, E16"
+    },
+    {
+     "id": "qs.me.hospital.beds",
+     "text": "How many licensed beds do your private hospitals have in total?",
+     "type": "number",
+     "used_by": "A, E15"
+    },
+    {
+     "id": "qs.me.hospital.high_risk_services",
+     "text": "Does any hospital provide cardiac surgery, neurosurgery or transplant services?",
+     "type": "yes/no",
+     "used_by": "A, E15"
+    }
+   ]
+  },
+  {
+   "id": "me.end.e16",
+   "heading": "E16 Aged Care and Residential Care",
+   "trigger": {
+    "questions": [
+     "qs.me.ops.facility_categories",
+     "qs.me.aged.acqsc_sanction",
+     "qs.me.aged.memory_care_beds",
+     "qs.me.aged.sirs_priority1_12m"
+    ],
+    "rules": [
+     {
+      "when": "'aged_care' in qs.me.ops.facility_categories and qs.me.aged.acqsc_sanction == yes",
+      "action": "refer"
+     },
+     {
+      "when": "'aged_care' in qs.me.ops.facility_categories and qs.me.aged.memory_care_beds > 50",
+      "action": "refer"
+     },
+     {
+      "when": "'aged_care' in qs.me.ops.facility_categories and qs.me.aged.sirs_priority1_12m > 3",
+      "action": "refer"
+     },
+     {
+      "when": "'aged_care' in qs.me.ops.facility_categories",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you operate aged care or community care services. A current sanction, more than 50 memory care beds or more than 3 Priority 1 incidents in 12 months refers."
+   },
+   "questions": [
+    {
+     "id": "qs.me.ops.facility_categories",
+     "text": "Which types of facility do you operate?",
+     "type": "multi-select",
+     "options": [
+      "gp_medical_centre",
+      "allied_health_clinic",
+      "day_surgery",
+      "private_hospital",
+      "aged_care"
+     ],
+     "used_by": "A, S, E13, E14, E15, E16"
+    },
+    {
+     "id": "qs.me.aged.acqsc_sanction",
+     "text": "Is the company, a facility or any officer subject to a current ACQSC sanction or banning order?",
+     "type": "yes/no",
+     "used_by": "A, E16"
+    },
+    {
+     "id": "qs.me.aged.memory_care_beds",
+     "text": "How many of those beds are memory care or dementia-specific beds?",
+     "type": "number",
+     "used_by": "R, E16"
+    },
+    {
+     "id": "qs.me.aged.sirs_priority1_12m",
+     "text": "How many SIRS Priority 1 incidents did you report in the last 12 months?",
+     "type": "number",
+     "used_by": "A, E16"
+    }
+   ]
+  }
+ ],
+ "sha256": "860e3d03cafc85e4e72d312e7d63f13e542da466d98b8fc0ef87b326d2568b5e"
+}
