@@ -1,0 +1,24 @@
+Remediation following the Claude pre-review of 2 November 2026.
+
+- Source: the wording is now built from clause source, like the other wordings in the library. Clause numbers are not used; clauses refer to one another by heading.
+- Change history: removed the references to a named capacity provider and a date from the published change history.
+- Duty of Disclosure: replaced the statement that each insured person has an individual statutory duty with the library formulation. The company owes the duty, and the consequences are assessed person by person as a contractual mechanism. Company knowledge is the knowledge of a member of the control group.
+- Cancellation: replaced with the library-wide position. The company may cancel at any time by telling us and receives a pro-rata refund. We may cancel only as the Insurance Contracts Act 1984 (Cth) allows, with at least 30 days' notice. The rule that an insured person cannot cancel, and that the company needs every individual's consent, is removed.
+- Exhaustion of the Underlying D&O Insurance: removed the sentence that reduced the attachment point as the underlying cover was partly used. The attachment point is fixed and this policy attaches only when it has been exhausted.
+- Following the Underlying D&O Insurance, and Followed policy: where the underlying cover has more than one policy, this policy now follows only the followed policy shown in the schedule, or the lowest policy if none is shown. Default set for underwriter confirmation.
+- Order of Payment: removed the undefined priority for non-executive and independent directors. Payments are now made in the order claims are finally agreed, with defence costs as incurred, and a good-faith payment discharges us. The clause was previously headed Order of Payment — Priority.
+- Allocation: new clause for claims that mix covered and uncovered matters or parties, by relative legal and financial exposure.
+- Endorsement E04: the loss it covers is now defined by reference to what Side A Excess Cover would pay if the underlying cover had responded, which removes a circular test. The replacement-cover trigger now has a test (two written requests through a broker, no lower limit, no new exclusions). Payments under E04 reduce the limit of liability.
+- Endorsement Library: only Endorsement E04 has operative text and is listed. Endorsements E01, E02 and E03 are stated to be not yet available in this version, and the references to them in the Discovery Period, Defence Costs Within the Limit and US / Canada Jurisdiction clauses are removed. The discovery period is 90 days on non-renewal and on cancellation, in line with the Directors and Officers wording. Default set for underwriter confirmation.
+- Distribution: new clause, Who This Policy Is For, stating that the wording is written for businesses and that a retail client must receive a Product Disclosure Statement and a Target Market Determination.
+- About This Policy: the ICA section 40(1) notice and cross-references are in clause form.
+- Insurance Contracts Act 1984 (Cth): replaced with the library-wide clause on section 54, which applies to every condition, exclusion, limit and obligation.
+- Sanctions: moved out of the exclusions into a standalone general condition. It now names the UK, US and EU regimes to the extent they apply to us, and carries a legal review tag.
+- Corporations Act 2001 (Cth), sections 199A and 199B: replaces Premium and Corporations Act s 199B with the library-wide text, and adds advance-and-repay for defence costs in civil-penalty and criminal proceedings.
+- Loss: names the work health and safety penalty bans in New South Wales, Victoria and Queensland, and excludes criminal fines.
+- Advancement of Defence Costs: repayment now also applies where a Final adjudication or court finding establishes conduct that cannot be covered, or where an allocation shows the costs were not covered.
+- Other Insurance: replaced Other Side A Insurance with the library-wide clause. The underlying D&O insurance is the specified underlying policy.
+- No Excess for Insured Persons: the only retention that can apply is the DIC retention under Endorsement E04.
+- Severability, Control group and You / your: added the control group definition and a rule that the company's knowledge and conduct are not attributed to insured persons other than the member concerned. Added a definition of You / your.
+- Schedule: now a table of Items 1 to 13, including the insurer and the followed policy.
+- Licence and Trademark Notice: added, with the correct Cuttleflow entity name.

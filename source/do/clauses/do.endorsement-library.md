@@ -3,10 +3,11 @@ id: do.endorsement-library
 type: library
 heading: Endorsement Library
 since: 1.3.0
+changed: 1.4.0
 status: draft
 ---
 
-An endorsement applies only if its code is shown in the schedule. Each endorsement changes this policy only as it states, and is read together with the variables (sub-limits, excesses, periods, named entities and parties) shown for it in the schedule. Where an endorsement and the rest of this policy conflict, the endorsement applies to the extent of the conflict. If a variable an endorsement needs is not shown in the schedule, the endorsement does not apply until we show the variable in the schedule. These endorsements are for use with version 1.3.x of this wording.
+An endorsement applies only if its code is shown in the schedule. Each endorsement changes this policy only as it states, and is read together with the variables (sub-limits, excesses, periods, named entities and parties) shown for it in the schedule. Where an endorsement and the rest of this policy conflict, the endorsement applies to the extent of the conflict. If a variable an endorsement needs is not shown in the schedule, the endorsement does not apply until we show the variable in the schedule. These endorsements are for use with version 1.4.x of this wording.
 
 | Code | Endorsement | Effect |
 |---|---|---|
@@ -23,4 +24,4 @@ An endorsement applies only if its code is shown in the schedule. Each endorseme
 | E12 | Outside Directorship Liability (ODL) | Covers insured persons serving on an outside entity's board at the company's request |
 | E13 | Employment Practices Liability (EPL) | Adds employment practices liability for the company and insured persons |
 
-Endorsements E11 and E14 to E20 are reserved codes. No operative wording exists for them, and a schedule must not show any of them as operative.
+Endorsements E11 and E14 to E20 are not yet available in this version. A schedule must not show any of them.

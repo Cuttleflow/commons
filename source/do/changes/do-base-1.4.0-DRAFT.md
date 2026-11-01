@@ -1,0 +1,31 @@
+Remediation following the Claude pre-review of 2 November 2026.
+
+- Schedule: the schedule now lists Items 1 to 12, with Items 3(a) to 3(g) for the Side A, Side B and Side C limits and the Overall Aggregate. Every reference to an Item in the wording now matches the schedule. Items 9 to 12 are new (insurer, premium, endorsements and the address for notices).
+- About This Policy: added the notice required by section 40(1) of the Insurance Contracts Act 1984 (Cth) about the effect of section 40(3).
+- Who This Policy Is For: new clause stating that the wording is written for businesses and that a retail client must receive a Product Disclosure Statement and a Target Market Determination.
+- Corporations Act 2001 (Cth), sections 199A and 199B: new clause. It states what sections 199A and 199B do, removes cover for a liability the company may not pay the premium to insure, and sets out advance-and-repay for defence costs in civil-penalty and criminal proceedings. It carries a legal review tag.
+- Loss: names the work health and safety penalty bans in New South Wales, Victoria and Queensland, and excludes criminal fines. Fines and penalties are covered only to the extent the law allows them to be insured.
+- Non-indemnifiable loss, and When Non-Indemnifiable Loss Arises: section 199A is now described by reference to the new clause rather than in a separate summary.
+- Control group: new definition. The company's knowledge is now the knowledge of a member of the control group.
+- Severability and Non-Imputation: now covers Side B and Side C as well as Side A, applies to every test of knowledge or conduct, and replaces "persons responsible for the company's insurance arrangements" with the control group.
+- Prior Known Matters: for Side C the knowledge that counts is the control group's.
+- Insured Versus Insured: "whistleblower" is now defined.
+- Duty of Disclosure: company knowledge is keyed to the control group.
+- Retroactive date: where the schedule says "Full Prior Acts", the Prior Known Matters, Prior and Pending Litigation and Major Transaction exclusions now run from the continuity date or, if none, the start of the policy period. A blank retroactive date now defaults to the continuity date or the start of the policy period. Added a rule that fixes the date for related wrongful acts that span it. Default set for underwriter confirmation.
+- Prior Known Matters, Prior and Pending Litigation, and Major Transaction — IPO: each points to the Retroactive date definition for the date that applies.
+- Priority of Payment: removed the undefined priority for non-executive and independent directors. Payments are now made in the order claims are finally agreed, with defence costs as incurred. Added discharge for good-faith payments, and a rule that endorsement sub-limits rank with the Side they sit under and sit inside the Overall Aggregate. Default set for underwriter confirmation.
+- Allocation: added the test of relative legal and financial exposure.
+- Advancement of Defence Costs: repayment now also applies where the company later indemnifies the insured person, and the text uses Final adjudication throughout in place of "final determination".
+- Discovery Period: the automatic 90 days now applies on cancellation as well as non-renewal, other than cancellation by us for non-payment. The extended periods now match Endorsement E06 (12, 24, 36, 72 or 84 months, or lifetime).
+- Other Insurance: replaced with the library-wide clause. The policy is no longer excess of other directors' and officers' insurance unless the schedule or an endorsement names the underlying policy. The circular contribution rule is removed.
+- Sanctions: replaced with the library-wide standalone clause. The open-ended reference to "any other applicable" sanctions law is removed.
+- Insurance Contracts Act 1984 (Cth): replaced with the library-wide clause on section 54, which applies to every condition, exclusion, limit and obligation.
+- Cancellation: replaced with the library-wide position. The company may cancel at any time and receives a pro-rata refund. We may cancel only as the Act allows, with at least 30 days' notice.
+- No Excess on Side A: now says the only retention that can apply to Side A is the DIC retention under Endorsement E08.
+- Endorsement E05: added a limit rule (part of the limit for the policy period of the capital raising), an additional premium, and an other-insurance rule.
+- Endorsement E06: the periods now read 12, 24, 36, 72 or 84 months, or lifetime.
+- Endorsement E07: where the schedule shows no sub-limit, the additional defence costs sub-limit is now 25% of the Overall Aggregate instead of unlimited. Default set for underwriter confirmation.
+- Endorsement E08: the Side A limit is now part of the Overall Aggregate, not separate from it. The retention applies only to drop-down loss. Added presumptive indemnification, maintenance of the primary policy, and a statement that the policy is excess of the named primary policy.
+- Endorsement E09: the mechanics (attachment, exhaustion, follow form and no drop-down) are now in the endorsement itself. It no longer refers the reader to another wording.
+- Endorsement Library: updated for version 1.4.x. Endorsements E11 and E14 to E20 are stated to be not yet available in this version.
+- Version and Document History: now points to the Changes From note for each version.
