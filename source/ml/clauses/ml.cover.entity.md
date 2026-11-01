@@ -3,10 +3,11 @@ id: ml.cover.entity
 type: cover
 heading: Entity Cover
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-If a claim is first made against the company during the policy period for a wrongful act of the company itself (not arising from professional services provided to third-party clients), we will pay:
+If a claim is first made against the company during the policy period for a wrongful act of the company itself (not arising from professional services provided to third-party clients), committed on or after any retroactive date shown in the schedule for this section (see [[ref:ml.cond.retroactive-date]]), we will pay:
 
 (a) any loss the company becomes legally liable to pay; and
 

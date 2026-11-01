@@ -1,17 +1,24 @@
 ---
 id: ml.cond.corporations-act-199a-199b
 type: condition
-heading: Corporations Act 2001 — Sections 199A and 199B
+heading: Corporations Act 2001 (Cth), sections 199A and 199B
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-Section 199A of the Corporations Act 2001 restricts the circumstances in which the company may indemnify an insured person. Section 199B separately prohibits the company from paying, and prohibits us from providing, insurance in respect of a liability of an insured person for a pecuniary penalty order or compensation order made under the Act's civil penalty provisions, and in respect of certain legal costs where the person is ultimately found to have contravened those provisions.
+Section 199A of the Corporations Act 2001 (Cth) limits the liabilities and legal costs for which a company may indemnify its officers. Section 199B prevents a company from paying a premium for insurance that covers an officer against a liability, other than one for legal costs, arising out of conduct involving a wilful breach of duty in relation to the company, or a contravention of section 182 or 183 of that Act.
 
-This clause applies wherever a claim under any section of this policy involves a civil penalty proceeding, criminal proceeding, or compensation order proceeding under the Corporations Act 2001 — including a claim allocated to the Directors' and Officers' Liability section under the "most favourable cover" rule in [[ref:ml.about]].
+To the extent the company pays the premium, this policy does not cover an insured person for a liability, other than legal costs, that section 199B prevents the company from insuring. This does not reduce cover for any other liability, or for legal costs.
 
-(a) we will pay insurable fines, penalties and defence costs only to the extent permitted by section 199B and any other applicable law;
+[WP REVIEW: confirm this statement of ss 199A and 199B, and whether cover for a liability within s 199B can be provided where the insured person pays the relevant part of the premium.]
 
-(b) we will advance defence costs as they are incurred, on the same basis as [[ref:ml.pay.defence-costs]] in How Much We Will Pay; and
+This clause applies wherever a claim under any section of this policy involves a civil penalty proceeding, criminal proceeding, or compensation order proceeding under the Corporations Act 2001 (Cth) — including a claim allocated to the Directors' and Officers' Liability section under the "most favourable cover" rule in [[ref:ml.about]]. In those proceedings:
 
-(c) if the insured person is convicted of an offence, or a court makes a declaration of contravention against them and does not grant relief under section 1317S or section 1318 of the Corporations Act 2001, you and the insured person must repay any defence costs we have advanced in connection with that finding, to the extent section 199B prohibits us from paying them.
+(a) we will advance defence costs as they are incurred, on the same basis as [[ref:ml.pay.defence-costs]];
+
+(b) if a final adjudication, or a court's finding, establishes conduct that this policy or the Corporations Act 2001 (Cth) does not allow to be covered, the insured person must repay the defence costs we advanced in connection with that finding (or, where we reimbursed the company for them, the company must repay them), to the extent we are not permitted to pay them; and
+
+(c) a conviction of an offence, or a declaration of contravention against the insured person where the court does not grant relief under section 1317S or section 1318 of the Corporations Act 2001 (Cth), is a finding for the purposes of (b).
+
+[WP REVIEW: confirm that repayment on a conviction, or on a declaration of contravention without relief under s 1317S or s 1318, matches the statute.]

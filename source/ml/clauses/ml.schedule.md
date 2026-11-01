@@ -3,6 +3,7 @@ id: ml.schedule
 type: preamble
 heading: Schedule
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
@@ -13,7 +14,7 @@ The schedule shows:
 - Who is insured (the named insured and any subsidiary)
 - The policy period (start and end dates)
 - Which sections are operative (marked "Included")
-- The retroactive date (if any) for each section (see [[ref:ml.def.retroactive-date]])
+- The retroactive date (if any) for each liability section (see [[ref:ml.def.retroactive-date]] and [[ref:ml.cond.retroactive-date]])
 - The prior and pending date, if different from the start of the policy period
 - The limit of liability for each section, and the overall aggregate
 - Any sub-limits

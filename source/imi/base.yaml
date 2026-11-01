@@ -5,16 +5,17 @@ kicker: Meridian Commons · Investment Management
 slug: investment-management-insurance
 file_stem: Meridian_Investment_Management_Insurance
 doc_ref: 2026/IMI/0001
-version: 1.3.0-DRAFT
+version: 1.4.0-DRAFT
 date: November 2026
 draft: true
 summary: Professional indemnity, directors and officers, and crime cover for investment managers, responsible entities and trustees, with one aggregate.
-supersedes: Meridian Investment Managers Indemnity Insurance v1.2.0-DRAFT (July 2026), published as a page without clause source
+supersedes: Meridian Investment Managers Indemnity Insurance v1.3.0-DRAFT (November 2026)
 structure:
 - section: preamble
   clauses:
   - imi.about
   - imi.version-history
+  - imi.distribution-note
   - imi.schedule
 - section: imi.section.definitions
   clauses:
@@ -22,6 +23,7 @@ structure:
   - imi.def.claim
   - imi.def.company
   - imi.def.compliance-costs
+  - imi.def.control-group
   - imi.def.defence-costs
   - imi.def.derivative-action
   - imi.def.discovery
@@ -29,6 +31,7 @@ structure:
   - imi.def.employee
   - imi.def.endorsement
   - imi.def.excess
+  - imi.def.final-adjudication
   - imi.def.financial-services-activities
   - imi.def.fund
   - imi.def.fund-assets
@@ -103,10 +106,12 @@ structure:
 - section: imi.section.exclusions
   clauses:
   - imi.excl.dishonesty-and-fraud
+  - imi.excl.fines-and-penalties
   - imi.excl.personal-profit
   - imi.excl.insured-versus-insured
   - imi.excl.prior-known-matters
   - imi.excl.prior-and-pending-litigation
+  - imi.excl.prior-discovery-crime
   - imi.excl.bodily-injury-and-property-damage
   - imi.excl.fund-performance
   - imi.excl.trading-losses-crime
@@ -126,6 +131,7 @@ structure:
   - imi.pay.cross-section-application
   - imi.pay.other-insurance
   - imi.pay.multiple-funds-limit-sharing
+  - imi.pay.valuation-and-recoveries-crime
 - section: imi.section.obligations
   clauses:
   - imi.obl.notify-claims
@@ -138,13 +144,18 @@ structure:
   clauses:
   - imi.cond.severability-and-non-imputation
   - imi.cond.non-rescindable-side-a
+  - imi.cond.retroactive-date
   - imi.cond.continuous-cover
   - imi.cond.extended-reporting-period
+  - imi.cond.extended-discovery-period-crime
+  - imi.cond.superseded-policies-crime
   - imi.cond.cancellation
   - imi.cond.change-of-control
   - imi.cond.newly-acquired-subsidiaries
   - imi.cond.governing-law-jurisdiction-gst-privacy-disputes
   - imi.cond.insurance-contracts-act-savings
+  - imi.cond.corporations-act-199a-199b
+  - imi.cond.sanctions
   - imi.cond.fund-wind-up-run-off
 - section: imi.section.appendix-guide
   clauses:

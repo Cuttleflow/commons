@@ -3,7 +3,8 @@ id: ml.def.you-your
 type: definition
 heading: You / your
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-means the company and, where the context requires, any insured person or employee.
+means the company and, where the context requires, any insured person or employee. In the Crime section, you and your mean the company only.

@@ -3,9 +3,12 @@ id: ml.cond.insurance-contracts-act
 type: condition
 heading: Insurance Contracts Act 1984 (Cth)
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-Nothing in this policy excludes, restricts, or modifies the operation of the Insurance Contracts Act 1984 (Cth) (the ICA). Where this policy is inconsistent with the ICA, the ICA prevails.
+Nothing in this policy excludes, restricts or modifies the operation of the Insurance Contracts Act 1984 (Cth). Where this policy is inconsistent with the Act, the Act prevails.
 
-Without limiting the above, s.54 of the ICA applies to any act or omission by you after this policy is entered into, including under [[ref:ml.obl.notify-claims]], [[ref:ml.obl.notify-circumstances]], [[ref:ml.obl.do-not-admit-liability]], [[ref:ml.obl.cooperate]], [[ref:ml.obl.mitigate]] and [[ref:ml.obl.preserve-recovery-rights]], and to the time limits for discovery and notice in the Crime section. We may not refuse to pay a claim or a Crime Loss, or reduce our liability under it, by reason only of such an act or omission, except to the extent (if any) that we are prejudiced by it, or as the ICA otherwise permits in the case of fraud. [[ref:ml.obl.section-54]] explains how this works in practice.
+If this policy would otherwise let us refuse to pay a claim, in whole or in part, because of something you did or did not do after this policy was entered into, section 54 of the Act applies. We may not refuse to pay the claim only because of that act or omission. Our liability is reduced by the amount that fairly represents the extent to which our interests were prejudiced. Where the act or omission could reasonably be regarded as capable of causing or contributing to the loss, we may refuse to pay only the part of the claim that the act or omission caused or contributed to. We may not refuse any part that you prove the act or omission did not cause. This applies to every condition, exclusion, limit and obligation in this policy, not only to the claims conditions. It includes the time limits for discovery and notice in the Crime section.
+
+For example, if you notify a claim late and the late notice did not prejudice us, we will still pay the claim.

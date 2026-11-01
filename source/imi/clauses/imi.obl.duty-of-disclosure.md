@@ -4,7 +4,8 @@ type: obligation
 heading: Duty of Disclosure
 legacy_number: '7.6'
 since: 1.3.0
+changed: 1.4.0
 status: draft
 ---
 
-The duty of disclosure under the Insurance Contracts Act 1984 (Cth) applies to the named insured as the party proposing this contract; this is a non-consumer contract. As between us and each insured person, disclosure and knowledge are assessed individually as a matter of contract, under [[ref:imi.cond.severability-and-non-imputation]] (Severability and Non-Imputation).
+The duty of disclosure under the Insurance Contracts Act 1984 (Cth) applies to the named insured as the party proposing this contract; this is a non-consumer contract. The named insured knows what a member of the control group knows. As between us and each insured person, disclosure and knowledge are assessed individually as a matter of contract, under [[ref:imi.cond.severability-and-non-imputation]] (Severability and Non-Imputation). This is a contractual mechanism. It does not mean that each insured person separately owes the statutory duty of disclosure.

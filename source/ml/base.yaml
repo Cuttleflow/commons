@@ -5,11 +5,11 @@ kicker: Meridian Commons · Management Liability
 slug: management-liability
 file_stem: Meridian_Management_Liability
 doc_ref: 2026/ML/0001
-version: 1.4.0-DRAFT
+version: 1.5.0-DRAFT
 date: November 2026
 draft: true
 summary: Combined cover for private companies, not-for-profits and associations — directors' and officers' liability, company liability, employment practices, statutory liability and crime.
-supersedes: Meridian Management Liability v1.3.0-DRAFT (October 2026), published as a page without clause source
+supersedes: Meridian Management Liability v1.4.0-DRAFT (November 2026)
 structure:
 - section: preamble
   clauses:
@@ -21,6 +21,7 @@ structure:
   clauses:
   - ml.def.claim
   - ml.def.company
+  - ml.def.control-group
   - ml.def.cyber-event
   - ml.def.defence-costs
   - ml.def.employee
@@ -68,7 +69,6 @@ structure:
   - ml.excl.major-transactions
   - ml.excl.professional-services
   - ml.excl.bodily-injury-property-damage
-  - ml.excl.war-terrorism-sanctions-nuclear
 - section: ml.section.company
   clauses: []
 - section: ml.section.company-cover
@@ -119,17 +119,20 @@ structure:
   - ml.excl.uninsurable-penalties
   - ml.excl.tax-and-revenue
   - ml.excl.workers-compensation-premiums
-  - ml.cond.corporations-act-199a-199b
 - section: ml.section.crime
   clauses: []
 - section: ml.section.crime-definitions
   clauses:
   - ml.def.dishonest-act
   - ml.def.crime-loss
+  - ml.def.discovery
+  - ml.def.responsible-person
 - section: ml.section.crime-cover
   clauses:
   - ml.cover.employee-dishonesty
   - ml.pay.crime-loss-calculation
+  - ml.pay.crime-single-loss
+  - ml.pay.crime-valuation
 - section: ml.section.crime-extensions
   clauses:
   - ml.ext.forensic-accounting
@@ -142,11 +145,11 @@ structure:
   - ml.excl.trading-losses
 - section: ml.section.crime-other
   clauses:
+  - ml.cond.crime-superseded-policies
   - ml.cond.extended-discovery-period
 - section: ml.section.general-exclusions
   clauses:
   - ml.excl.war-and-terrorism
-  - ml.excl.sanctions
   - ml.excl.nuclear
   - ml.excl.asbestos
   - ml.excl.pollution
@@ -172,12 +175,15 @@ structure:
   - ml.obl.cooperate
   - ml.obl.mitigate
   - ml.obl.preserve-recovery-rights
-  - ml.obl.section-54
 - section: ml.section.conditions
   clauses:
   - ml.cond.insurance-contracts-act
+  - ml.cond.corporations-act-199a-199b
+  - ml.cond.sanctions
   - ml.cond.duty-of-disclosure
   - ml.cond.severability
+  - ml.cond.non-avoidance-insured-persons
+  - ml.cond.retroactive-date
   - ml.cond.cancellation
   - ml.cond.newly-acquired-subsidiaries
   - ml.cond.continuous-cover

@@ -3,6 +3,7 @@ id: ml.end.e07
 type: endorsement
 heading: E07 Social Engineering Fraud
 since: 1.4.0
+changed: 1.5.0
 status: draft
 trigger:
   questions:
@@ -21,15 +22,17 @@ trigger:
   - Do not attach
 ---
 
-The Crime section is extended to cover the company's direct financial loss of money or securities transferred, paid or delivered by an employee in good faith, during the policy period, in reliance on an instruction that:
+The Crime section is extended to cover the company's direct financial loss of money or securities, first discovered during the policy period, that was transferred, paid or delivered by an employee in good faith in reliance on an instruction that:
 
 - purports to come from a director, officer, employee, customer, supplier or other person with whom the company has an established business relationship; and
 - was in fact sent by a person who impersonated that person, without the knowledge or consent of the company or of the person impersonated.
 
-Cover under this endorsement is not conditional on the company having followed any verification procedure. Where the company has not followed the verification procedure shown in the schedule for this endorsement, and that failure caused or contributed to the loss, we may reduce our payment to the extent the failure caused or contributed to it, as s.54 of the Insurance Contracts Act 1984 (Cth) allows.
+[[ref:ml.excl.discovered-before]], [[ref:ml.cond.crime-superseded-policies]], [[ref:ml.pay.crime-single-loss]] and [[ref:ml.pay.crime-valuation]] apply to this endorsement.
+
+Cover under this endorsement is not conditional on the company having followed any verification procedure. Where the company has not followed the verification procedure shown in the schedule for this endorsement, and that failure caused or contributed to the loss, we may reduce our payment to the extent the failure caused or contributed to it, as section 54 of the Insurance Contracts Act 1984 (Cth) allows.
 
 The most we will pay under this endorsement during the policy period is the social engineering sub-limit shown in the schedule, which is part of the Crime section limit of liability. The social engineering excess shown in the schedule applies to each loss. All losses arising from one impersonation, or from a series of related impersonations by the same person or group, are one loss.
 
-This endorsement does not cover loss of cryptocurrency or other digital assets, or loss covered by any cyber insurance policy. For this endorsement, [[ref:ml.def.dishonest-act]] and [[ref:ml.cover.employee-dishonesty]] do not require a dishonest act by an employee.
+This endorsement does not cover loss of cryptocurrency or other digital assets. [[ref:ml.pay.other-insurance]] states how this endorsement applies where a cyber insurance policy also covers the loss. For this endorsement, [[ref:ml.def.dishonest-act]] and [[ref:ml.cover.employee-dishonesty]] do not require a dishonest act by an employee.
 
 Schedule variables: social engineering sub-limit; social engineering excess; verification procedure.
