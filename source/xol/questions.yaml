@@ -78,17 +78,19 @@ questions:
     text: What share of the layer is this insurer asked to write?
     type: percentage
     used_by: R, A, S
-  - id: qs.xol.rating.primary_premium_broker
-    text: What is the annual premium of the primary policy? (Optional. Given by the broker.)
-    type: currency (AUD)
+  - id: qs.xol.rating.anchor_source
+    text: Who gives the primary premium the layer is rated from?
+    type: select
+    options: ['broker', 'underwriter', 'none']
     used_by: R, A
-  - id: qs.xol.rating.primary_premium_underwriter
-    text: What primary premium has the excess underwriter calculated for this risk? (Underwriter only.)
+  - id: qs.xol.rating.primary_premium
+    text: What is the annual premium of the primary policy? (Given by the broker, or calculated independently by the excess underwriter.)
     type: currency (AUD)
-    used_by: R, A
+    used_by: R
   - id: qs.xol.rating.severity
-    text: What severity setting applies to this risk, from -1 (low) to +1 (high)? (Underwriter only.)
-    type: number
+    text: What severity setting applies to this risk? (Underwriter only. Base unless the underwriter changes it.)
+    type: select
+    options: ['-1', '-0.5', '0', '0.5', '1']
     used_by: R, A
   - id: qs.xol.claims.count_5y
     text: How many claims or notified circumstances have there been under the followed policy in the last five years?
