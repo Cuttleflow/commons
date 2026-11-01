@@ -3,6 +3,7 @@ id: pa.schedule
 type: preamble
 heading: Schedule
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -20,6 +21,7 @@ The schedule shows:
 - The accumulation limit, if different from the default in [[ref:pa.pay.accumulation]]
 - Any pre-existing condition we have accepted, and any condition excluded by endorsement
 - Any hazardous pursuit we have agreed to cover
+- Any corporate travel policy that this policy is excess of, for weekly and additional benefits (see [[ref:pa.pay.other-insurance]])
 - The premium, including stamp duty and GST
 - The insurer and its licence, and the state or territory whose law governs this policy (see [[ref:pa.cond.governing-law]])
 - The endorsements that apply, by code, with their variables

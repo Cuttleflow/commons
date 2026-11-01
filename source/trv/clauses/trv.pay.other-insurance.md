@@ -1,11 +1,12 @@
 ---
 id: trv.pay.other-insurance
 type: payment
-heading: Other Insurance and Recovery
+heading: Other Insurance
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
-If a loss under the cancellation, luggage, money, liability or rental vehicle sections is also covered by another policy, or by a credit card or other scheme, you must tell us, and we will contribute to the loss as s.45 and s.76 of the Insurance Contracts Act 1984 (Cth) allow. This does not apply to the accidental death and permanent disablement benefits.
+If a loss covered by this policy is also covered by another insurance policy, we will not refuse or reduce our payment because of that other insurance. We may seek contribution from the other insurer as the law allows. This does not apply where the schedule or an endorsement states that this policy is excess of a specified underlying policy, in which case this policy pays only after the limit of that specified policy is exhausted.
 
-After we pay a claim, we may recover the amount from anyone responsible for it, in your name. You must give us reasonable help to do this.
+You must tell us about any other insurance that may cover the loss when you make a claim.

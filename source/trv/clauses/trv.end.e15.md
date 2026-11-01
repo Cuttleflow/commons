@@ -3,6 +3,7 @@ id: trv.end.e15
 type: endorsement
 heading: E15 Senior Traveller
 since: 1.0.0
+changed: 1.1.0
 status: draft
 trigger:
   questions:
@@ -20,4 +21,4 @@ trigger:
 
 In [[ref:trv.cover.who-is-covered]], the maximum age is 85. The overseas medical limit for an insured person aged 81 to 85 is the amount shown for this endorsement.
 
-Schedule variables: overseas medical limit for travellers aged 81 to 85 (default $1,000,000).
+Schedule variables: overseas medical limit for travellers aged 81 to 85 (default $500,000).

@@ -3,6 +3,7 @@ id: gpa.about
 type: preamble
 heading: About This Policy
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -14,6 +15,6 @@ It is a benefit policy, not an indemnity policy. The capital benefits are fixed 
 
 It is not workers compensation, life insurance or private health insurance, and it does not replace any of them. It cannot pay any medical expense for which a Medicare benefit is payable (see [[ref:gpa.pay.medicare]]).
 
-This policy, together with the schedule, the policyholder's proposal and any endorsements shown in the schedule, forms the contract of insurance between the policyholder and us. Where the schedule and this wording differ, the schedule applies. Words with special meanings are listed in [[ref:gpa.section.definitions]]. In this wording "you" means a covered person, as the [[ref:gpa.def.you-your]] definition says.
+This policy, together with the schedule, the policyholder's proposal and any endorsements shown in the schedule, forms the contract of insurance between the policyholder and us. Where the schedule and this wording differ, the schedule applies. Words with special meanings are listed in [[ref:gpa.section.definitions]]. In this wording "you" means a covered person, as [[ref:gpa.def.you-your]] says.
 
-This wording uses the same definitions, Table of Events, exclusions and conditions as the Meridian Personal Accident and Sickness wording for one person (2026/PA/0001), with group clauses added where a group policy differs.
+This wording is a complete wording in its own right. It has group clauses where a group policy differs from the individual Meridian Personal Accident and Sickness wording, but it does not incorporate that wording or depend on it.

@@ -3,6 +3,7 @@ id: gpa.end.e15
 type: endorsement
 heading: E15 Students
 since: 1.0.0
+changed: 1.1.0
 status: draft
 trigger:
   questions:
@@ -19,9 +20,8 @@ trigger:
 The category named in the schedule for this endorsement covers enrolled students of the policyholder. For them:
 
 - the scope of cover is the scope shown for this endorsement: 24 hours a day, or school activities only (while at the school, at activities it organises, and while travelling directly to and from them);
-- weekly sickness benefits do not apply, and weekly injury benefits do not apply unless the schedule shows them;
-- the capital sum for a student under 18 is the reduced amount shown for this endorsement; and
-- the non-Medicare medical expenses benefit applies, as [[ref:gpa.ext.non-medicare-medical]] and [[ref:gpa.pay.medicare]] allow.
+- weekly sickness benefits do not apply, and weekly injury benefits do not apply unless the schedule shows them; and
+- the capital sum for a student under 18 is the reduced amount shown for this endorsement.
 
 The premium for this category is a rate per enrolled student.
 

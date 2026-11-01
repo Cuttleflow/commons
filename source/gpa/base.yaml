@@ -5,8 +5,8 @@ kicker: Meridian Commons · Group Personal Accident and Sickness
 slug: group-personal-accident-and-sickness
 file_stem: Meridian_Group_Personal_Accident_and_Sickness
 doc_ref: 2026/GPA/0001
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Capital and weekly benefits for categories of employees, executives, contractors, voluntary workers, players and students, bought by an organisation for its people.
 supersedes: Meridian Group Personal Accident and Sickness Policy Wording v1.0.0 (July 2026), published outside the Commons
@@ -57,7 +57,6 @@ structure:
   - gpa.ext.spouse-retraining
   - gpa.ext.coma
   - gpa.ext.broken-bones
-  - gpa.ext.non-medicare-medical
   - gpa.ext.rehabilitation
   - gpa.ext.home-and-vehicle-modification
   - gpa.ext.transport-to-work
@@ -69,8 +68,10 @@ structure:
   - gpa.pay.one-capital-event
   - gpa.pay.weekly-and-capital
   - gpa.pay.offsets
+  - gpa.pay.other-insurance
   - gpa.pay.mental-illness
   - gpa.pay.age-limits
+  - gpa.obl.residence-and-travel
   - gpa.pay.accumulation
   - gpa.pay.aggregate-limits
   - gpa.pay.medicare
@@ -96,7 +97,6 @@ structure:
   - gpa.obl.medical-care-and-examination
   - gpa.obl.tell-us-about-changes
   - gpa.obl.policyholder-records
-  - gpa.obl.residence-and-travel
 - section: gpa.section.conditions
   clauses:
   - gpa.cond.covered-persons-rights

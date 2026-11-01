@@ -3,6 +3,7 @@ id: gpa.end.e08
 type: endorsement
 heading: E08 Corporate Travel Interface
 since: 1.0.0
+changed: 1.1.0
 status: draft
 trigger:
   questions:
@@ -16,6 +17,6 @@ trigger:
   - Do not attach
 ---
 
-Where an injury to a covered person while travelling on the policyholder's business is also covered by a corporate travel policy issued to the policyholder, this policy pays its capital benefits in full, and pays its weekly benefits and additional benefits only to the extent the travel policy does not pay the same benefit. Nothing in this endorsement reduces a benefit below what this policy would pay alone.
+Where an injury to a covered person while travelling on the policyholder's business is also covered by the corporate travel policy named in the schedule for this endorsement, that policy is a specified underlying policy for the purposes of [[ref:gpa.pay.other-insurance]]. This policy pays its capital benefits in full, and pays its weekly benefits and additional benefits only for the amount that the corporate travel policy does not pay for the same benefit.
 
 Schedule variables: the corporate travel policy number and insurer.
