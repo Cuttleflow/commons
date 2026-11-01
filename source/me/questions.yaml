@@ -16,12 +16,8 @@ questions:
     type: select
     options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
     used_by: S, A
-  - id: qs.me.ops.has_gp_medical_centre
-    text: Do you operate a general practice, medical centre or other primary care clinic?
-    type: yes/no
-    used_by: A, S, E13
-  - id: qs.me.ops.has_allied_health_clinic
-    text: Do you operate an allied health clinic?
+  - id: qs.me.ops.has_primary_care
+    text: Do you operate a general practice, medical centre, other primary care clinic or allied health clinic?
     type: yes/no
     used_by: A, S, E13
   - id: qs.me.ops.has_day_surgery
