@@ -1,0 +1,98 @@
+# Platform questions for the Comprehensive Crime wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.cr namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.cr.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.cr.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.cr.insured.principal_state
+    text: In which state or territory is your principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: S
+  - id: qs.cr.insured.entity_type
+    text: What kind of entity is the named insured?
+    type: select
+    options: ['private_company', 'not_for_profit', 'association', 'listed', 'financial_services']
+    used_by: A
+  - id: qs.cr.insured.anzsic_primary
+    text: What is your main business activity?
+    type: select (ANZSIC 2006 class)
+    used_by: A
+  - id: qs.cr.exposure.turnover
+    text: What was your turnover (or total income, for a not-for-profit) in the last financial year?
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.cr.exposure.employees
+    text: How many employees do you have, including casual and part-time employees, at all locations?
+    type: number
+    used_by: R, A
+  - id: qs.cr.exposure.payment_staff
+    text: How many staff can approve or release payments, or change payee details?
+    type: number
+    used_by: R
+  - id: qs.cr.controls.independent_audit
+    text: Are the company's accounts audited independently?
+    type: select
+    options: ['external', 'internal', 'none']
+    used_by: A
+  - id: qs.cr.controls.dual_authorisation
+    text: Do two people authorise every payment above $10,000?
+    type: yes/no
+    used_by: A
+  - id: qs.cr.controls.payment_verification
+    text: Before paying to new or changed bank details, does the company confirm them by calling a number it already holds?
+    type: yes/no
+    used_by: A
+  - id: qs.cr.claims.losses_5y
+    text: Has the company had a crime or fraud loss in the last five years?
+    type: select
+    options: ['nil', 'one', 'large']
+    used_by: A
+  - id: qs.cr.claims.known_loss
+    text: Is any director or officer aware of a loss, or of a circumstance that may be a loss, that has not been notified to an insurer?
+    type: yes/no
+    used_by: A
+  - id: qs.cr.cover.computer_crime
+    text: Do you want cover for loss caused by a third party's fraud on your computer systems?
+    type: yes/no
+    used_by: R, S
+  - id: qs.cr.cover.funds_transfer
+    text: Do you want cover for fraudulent instructions to your bank to move your funds?
+    type: yes/no
+    used_by: R, S
+  - id: qs.cr.cover.social_engineering
+    text: Do you want cover for payments made after a fraudulent instruction (social engineering fraud)?
+    type: yes/no
+    used_by: R, A, S
+  - id: qs.cr.cover.se_sublimit
+    text: What social engineering sub-limit do you need?
+    type: select (AUD)
+    options: ['100000', '250000', '500000']
+    used_by: R, S
+  - id: qs.cr.cover.limit
+    text: What limit of liability do you need, per loss and in the aggregate?
+    type: select (AUD)
+    options: ['500000', '1000000', '2000000', '5000000']
+    used_by: R, S
+  - id: qs.cr.cover.excess
+    text: What excess do you want for each loss?
+    type: select (AUD)
+    options: ['10000', '25000', '50000']
+    used_by: R, S
+  - id: qs.cr.cover.layer
+    text: Is this policy primary, or in excess of other crime insurance?
+    type: select
+    options: ['primary', 'excess']
+    used_by: A, E08
+  - id: qs.cr.cover.options_requested
+    text: Which optional endorsements would you like a price for?
+    type: multi-select
+    options: ['E01', 'E02', 'E03', 'E04', 'E05', 'E06', 'E07', 'E09', 'E10']
+    used_by: E01, E02, E03, E04, E05, E06, E07, E09, E10
