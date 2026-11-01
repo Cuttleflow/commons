@@ -3,6 +3,7 @@ id: ppl.endorsement-library
 type: library
 heading: Endorsement Library
 since: 2.0.0
+changed: 2.1.0
 status: draft
 ---
 
@@ -14,12 +15,12 @@ An endorsement applies only if its code is shown in the schedule. Each endorseme
 | E02 | Increased Property in Your Care | Increases the Property in Your Care, Custody or Control sub-limit, with an optional special excess |
 | E03 | Defence Costs Within the Limit | Makes defence costs part of the limit of liability for all claims |
 | E04 | Overseas Work | Covers physical work in the countries named |
-| E05 | Gradual Pollution | Writes back gradual pollution, on a claims-made and reported basis, to a sub-limit |
+| E05 | Gradual Pollution | Writes back gradual pollution, on a discovery and reported basis, to a sub-limit |
 | E06 | Therapeutic Goods and Medical Devices | Writes back the therapeutic goods part of the High-Hazard Products exclusion for the products named |
 | E07 | Licensed Venues | Writes back the Licensed Venues exclusion, with responsible service conditions |
 | E08 | Incidental Professional Services | Covers personal injury and property damage from incidental advice, to a sub-limit |
 | E09 | Drones | Covers the drones named, operated under CASA rules |
-| E10 | USA and Canada | Writes back the USA and Canada exclusion for the exposures named |
+| E10 | USA and Canada | Writes back the USA and Canada exclusion for the exposures named, including business visits |
 | E11 | Excess Layer | Writes this policy in excess of the underlying insurance named |
 | E12 | Named Principals | Names principals as insureds and gives the cover their contracts require |
 | E13 | Vibration and Removal of Support | Writes back the Vibration and Removal of Support exclusion, to a sub-limit |

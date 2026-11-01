@@ -3,6 +3,7 @@ id: ppl.end.e16
 type: endorsement
 heading: E16 Product Recall Expenses
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -30,6 +31,6 @@ We will pay the recall expenses you incur in recalling your products from the ma
 
 Recall expenses means the reasonable costs of communicating the recall, transporting, storing and destroying recalled products, and extra staff costs, incurred within 12 months of the recall decision. [[ref:ppl.excl.your-products-and-work]] does not apply to recall expenses covered by this endorsement.
 
-We do not pay: the cost of repairing, replacing or refunding the products; loss of profit, market share or goodwill; recalls caused by the products reaching the end of their shelf life, by deterioration in normal use, or by a defect you knew of before the policy period; or recalls of products that are prohibited from sale. The most we will pay for all recalls in the policy period is the aggregate sub-limit shown for this endorsement, which is $500,000 if none is shown. The special excess shown for this endorsement applies to each recall.
+We do not pay: the cost of repairing, replacing or refunding the products; loss of profit, market share or goodwill; recalls caused by the products reaching the end of their shelf life, by deterioration in normal use, or by a defect that a member of your control group knew of before the policy period; or recalls of products that are prohibited from sale. The most we will pay for all recalls in the policy period is the aggregate sub-limit shown for this endorsement, which is $500,000 if none is shown. The special excess shown for this endorsement applies to each recall.
 
 Schedule variables: aggregate sub-limit (default $500,000); special excess.

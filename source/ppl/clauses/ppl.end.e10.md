@@ -3,6 +3,7 @@ id: ppl.end.e10
 type: endorsement
 heading: E10 USA and Canada
 since: 2.0.0
+changed: 2.1.0
 status: draft
 trigger:
   questions:
@@ -20,7 +21,7 @@ trigger:
   - Decline risk
 ---
 
-[[ref:ppl.excl.usa-canada]] does not apply to the exposures shown in the schedule for this endorsement (for example, products exported to the USA and Canada directly or indirectly, or work performed there). The geographical limits include the USA and Canada for those exposures. For claims brought in a court in the USA and Canada, or to enforce a judgment or award of such a court:
+[[ref:ppl.excl.usa-canada]] does not apply to the exposures shown in the schedule for this endorsement (for example, products exported to the USA and Canada directly or indirectly, business visits there, or work performed there). The geographical limits include the USA and Canada for those exposures. For claims brought in a court in the USA and Canada, or to enforce a judgment or award of such a court:
 
 - defence costs are part of, and not in addition to, the limit of liability;
 - the sub-limit and excess shown for this endorsement apply; and

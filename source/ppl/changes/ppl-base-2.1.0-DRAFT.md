@@ -1,0 +1,29 @@
+Remediation following the Claude pre-review of 2 November 2026.
+
+- Business Visits Overseas: visits to the USA and Canada are no longer included. They are covered only under Endorsement E10, which now names business visits. The USA and Canada exclusion now lists visits and work there, the exclusion table is corrected, and the sentence about claims brought there is removed.
+- Occurrence: the definition no longer repeats the counting rule, and the "did not expect or intend" test is now applied to the insured claiming cover.
+- One Occurrence, One Limit: the trigger and cross-period rule are stated once. A continuing occurrence is treated as happening in the policy period of the first injury or damage, and only that period's limit and excess apply. The "more cover" tie-break is deleted. An occurrence falls under Products Liability if caused by your products, and otherwise under Public Liability.
+- New condition, Claims-Made Endorsements: applies to Endorsements E17 and E19. It sets out reporting of claims, notice of circumstances under section 40(3) of the Insurance Contracts Act 1984 (Cth), related claims, retroactive dates, known matters, and the absence of an extended reporting period. Default set for underwriter confirmation.
+- Retroactive Date: now covers discovery-based Endorsement E05 as well, and no longer carries an operative restriction.
+- E05 Gradual Pollution: now states that it responds on a discovery basis and applies despite the policy-period timing in the covers. It adds a related-discharge rule and excludes discharges known before the policy period.
+- E17 Product Errors and Omissions: now names each exclusion it displaces (Product Performance, Financial Loss Without Injury or Damage, Contractual Liability for warranty claims, and the loss-of-use limb of Your Products and Work Themselves) and applies despite the policy-period timing in the covers.
+- E19 Abuse Write-back: now applies despite the policy-period timing in the covers. Its risk management requirements reduce cover only to the extent a failure caused or contributed to the loss. The knowledge limb applies to other insureds individually.
+- Contractual Liability: the lease, licence and tenancy carve-back now applies only to premises you occupy. Default set for underwriter confirmation.
+- Cyber Event: the carve-back is limited to bodily injury, property damage to tangible property and mental injury resulting from that bodily injury. Other distress claims and privacy claims, including under the statutory privacy tort, are excluded.
+- Personal Injury: false arrest, wrongful detention, false imprisonment, malicious prosecution and advertising injury are removed from the definition. They are covered only by the Wrongful Arrest and Advertising Injury extensions, which now carry their own insuring words and limits.
+- Statutory Liability Defence Costs: now applies to prosecutions of an insured and overrides the Directors' and Officers' Liability exclusion, for defence costs only. It states the fines position, advances costs, and requires repayment after a final decision where the law or section 199B does not allow the costs to be insured.
+- New condition, Corporations Act 2001 (Cth), sections 199A and 199B.
+- Employers' Liability: the explanatory sentence about labour hire workers is deleted and the State position is flagged for legal review.
+- Employee: deemed workers under workers compensation law no longer overlap with the labour hire carve-out.
+- Loading and Unloading Vehicles: now excludes liability covered by a compulsory third party or statutory motor accident scheme, and states how it relates to motor vehicle insurance.
+- E13 Vibration and Removal of Support: now also displaces the Pollution exclusion for vibration. Default set for underwriter confirmation.
+- Individual Treatment of Insureds: now reaches every provision that turns on what an insured knew, expected, intended or did, including the Occurrence definition and Endorsements E16, E17, E18 and E19. Imputation to an entity now turns on the new control group.
+- New definition, Control Group. It is now used in Your Duty of Disclosure, Known Injury or Damage, and Endorsements E05, E16, E17 and E18.
+- E07 Licensed Venues, E09 Drones, E20 Silica Write-back and E23 Communicable Disease Write-back: the compliance requirements now reduce cover only to the extent a failure caused or contributed to the loss, as section 54 allows, in the same form as E15.
+- Insurance Contracts Act 1984 (Cth): replaced with the library-wide text applying section 54 to every condition, exclusion, limit and obligation.
+- Sanctions: replaced with the library-wide text. It now names the Australian regimes and the United Kingdom, United States and European Union regimes only.
+- Other Insurance: replaced with the library-wide text. Other insurance does not reduce a payment unless a specified underlying policy is stated to apply first.
+- Cancellation: replaced with the library-wide text. The minimum premium no longer reduces the refund when you cancel.
+- New preamble, Who This Policy Is For. The retail-client paragraph moves out of About This Policy.
+- About This Policy: now mentions the claims-made and discovery endorsements.
+- Endorsement Library: descriptions of E05 and E10 updated.
