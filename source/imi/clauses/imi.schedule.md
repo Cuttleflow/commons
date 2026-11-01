@@ -3,13 +3,14 @@ id: imi.schedule
 type: preamble
 heading: Schedule
 since: 1.3.0
+changed: 1.4.0
 status: draft
 ---
 
 | **Item 1** | Named insured, AFSL number, ACN |
 |---|---|
 | **Item 2** | Policy period |
-| **Item 3** | Retroactive date — applies to [[ref:imi.section.pl]] (Professional Liability) and 3 (Directors' and Officers' Liability). [[ref:imi.section.crime]] (Crime) is discovery-triggered and is not subject to a retroactive date (see [[ref:imi.cover.financial-services-liability]], [[ref:imi.cover.personal-liability-non-indemnifiable-loss-side-a]], [[ref:imi.excl.prior-known-matters]], [[ref:imi.excl.prior-and-pending-litigation]]). |
+| **Item 3** | Retroactive date — applies to [[ref:imi.section.pl]] (Professional Liability) and [[ref:imi.section.do]] (Directors' and Officers' Liability) (see [[ref:imi.cond.retroactive-date]]). [[ref:imi.section.crime]] (Crime) is discovery-triggered and is not subject to a retroactive date (see [[ref:imi.cover.financial-services-liability]], [[ref:imi.cover.personal-liability-non-indemnifiable-loss-side-a]], [[ref:imi.excl.prior-known-matters]], [[ref:imi.excl.prior-and-pending-litigation]]). |
 | **Item 4** | Limit of liability — per claim and aggregate, by section and overall |
 | **Item 5** | Excess — per claim/loss, by section |
 | **Item 6** | Funds under management / advice |

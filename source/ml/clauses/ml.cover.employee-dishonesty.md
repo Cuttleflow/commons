@@ -3,10 +3,11 @@ id: ml.cover.employee-dishonesty
 type: cover
 heading: Employee Dishonesty
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-If during the policy period you discover that an employee has caused you a Crime Loss through a dishonest act, we will pay the Crime Loss.
+If the company first discovers, during the policy period, that an employee has caused it a Crime Loss through a dishonest act, we will pay the Crime Loss. This applies whenever the dishonest act occurred, subject to [[ref:ml.excl.discovered-before]] and [[ref:ml.cond.crime-superseded-policies]].
 
 This covers:
 
@@ -18,4 +19,4 @@ This covers:
 
 (d) deliberate destruction of property or data by an employee with the intent to conceal a dishonest act.
 
-You must discover the loss during the policy period and notify us within 60 days of discovery.
+The company must notify us within 60 days of discovery. [[ref:ml.cond.insurance-contracts-act]] applies to this time limit.

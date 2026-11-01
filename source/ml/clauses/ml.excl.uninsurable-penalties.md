@@ -3,13 +3,16 @@ id: ml.excl.uninsurable-penalties
 type: exclusion
 heading: Uninsurable Penalties
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
-We do not cover any fine, penalty, or amount that is not insurable at law in the relevant jurisdiction. This includes (without limitation):
+We do not cover any fine, penalty, or amount that the law does not allow to be insured in the relevant jurisdiction. This includes:
 
-(a) fines and penalties for offences under the Work Health and Safety Act 2011 (and state and territory equivalents), which statute prohibits insuring in New South Wales, Victoria and Queensland (and which position is converging toward a national prohibition); and
+(a) any criminal fine;
 
-(b) any pecuniary penalty order, compensation order, or related defence costs that section 199B of the Corporations Act 2001 prohibits us from insuring — see [[ref:ml.cond.corporations-act-199a-199b]].
+(b) any penalty for an offence under work health and safety law (including the Work Health and Safety Act 2011 and State and Territory equivalents) in a State or Territory whose law prohibits insuring it, including New South Wales, Victoria and Queensland; and
 
-Australian law generally permits the insurance of civil penalties but not criminal penalties. Where insurability is uncertain, we will pay defence costs and resolve the question in consultation with you and your legal advisors.
+(c) any liability that section 199B of the Corporations Act 2001 (Cth) prevents the company from insuring, as [[ref:ml.cond.corporations-act-199a-199b]] states.
+
+Where it is uncertain whether the law allows a fine or penalty to be insured, we will advance defence costs. We will not pay the fine or penalty unless it is established that the law allows it to be insured.

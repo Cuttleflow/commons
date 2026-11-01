@@ -3,17 +3,31 @@ id: ml.version-history
 type: preamble
 heading: Version and Document History
 since: 1.4.0
+changed: 1.5.0
 status: draft
 ---
 
 This document is version-controlled. The version and date shown on the cover page and in the footer of each page govern this text. The version stated in your schedule as current at inception applies for the life of your policy period, unless your schedule or an endorsement states otherwise.
 
-This is the first release of the Meridian Management Liability wording built from clause source in the Commons. It replaces version 1.3.0 (October 2026). Changes from version 1.3.0:
+Remediation following the Claude pre-review of 2 November 2026. This release replaces version 1.4.0 (November 2026). Changes from version 1.4.0:
 
-- Clause numbers are removed. Each clause is identified by its heading, and every cross-reference is a link to the clause it names.
-- Two clauses with the same heading in different sections now name their section: Public Relations Costs — Directors and Officers, Public Relations Costs — Company Liability, and Professional Services — Company Liability. The deliberate-acts exclusion in the Employment Practices Liability section is now headed Deliberate Unlawful Employment Practices. The obligation explaining s.54 of the Insurance Contracts Act is now headed Your Statutory Protection (s.54).
-- New general condition, Insurance Contracts Act 1984 (Cth): nothing in the policy excludes, restricts or modifies the Act, and s.54 applies to every obligation and to the Crime section's discovery and notice time limits.
-- New definition of Cyber event, which the Cyber Event exclusion used without defining. It includes a person who exceeds their authority to access a computer system.
-- The Tax Audit Costs, ASIC Investigation Costs and WHS Defence Costs — Priority Cover clauses now state that the sub-limit shown in the schedule applies, so that the increased sub-limit endorsements amend a limit the base wording contains.
-- The endorsement library now has 11 endorsements, each with operative text, schedule variables and a platform trigger. Version 1.3.0 listed titles only.
-- Occupation-specific variations is no longer listed as an endorsement. It described no single change to the policy; occupation wordings will be published as separate wordings.
+- Insurance Contracts Act 1984 (Cth): replaced with a single statement of the Act's prevailing effect and of how section 54 applies to every condition, exclusion, limit and obligation. The separate Your Statutory Protection (s.54) obligation is removed.
+- Corporations Act 2001 (Cth), sections 199A and 199B: restated, moved to the general conditions, and marked for legal review. Defence costs are advanced and repayable after a final adjudication or a court's finding.
+- Statutory Liability: the fines and penalties wording and the table of covered proceedings now state what is paid. Criminal fines are not paid, the New South Wales, Victoria and Queensland bans on insuring work health and safety penalties are named, and civil penalties are paid only to the extent the law allows. Commentary about a national prohibition is removed.
+- Sanctions: now a standalone general condition. The sanctions wording is removed from the war, terrorism and nuclear exclusions, and the duplicate combined exclusion is removed.
+- Other Insurance: the policy no longer reduces its payment because of other insurance, except where the schedule or an endorsement names an underlying policy. A priority rule for crime and cyber and a contribution rule are added. Default set for underwriter confirmation.
+- Cancellation: you may cancel at any time and receive a pro-rata refund. The deduction for amounts paid or reserved is removed. Our cancellation requires statutory notice and not less than 30 days (the 30-day period is the library's settled position).
+- New definitions of Control group, Discovery and Responsible person. Company knowledge is the knowledge of the control group in the duty of disclosure, severability, continuous cover, prior and pending, prior known matters and environmental clean-up provisions. The Severability and Non-Imputation condition now covers knowledge as well as conduct, and covers the company.
+- Duty of Disclosure: states that the duty is the company's, and that individual treatment of insured persons is contractual.
+- New Non-Avoidance for Insured Persons condition. We will not avoid cover for an insured person except for that person's own fraud, and we waive the section 28(3) reduction in favour of innocent insured persons.
+- Retroactive Date: new operative condition, and each insuring clause now states it. Related wrongful acts that began before the retroactive date are treated as committed before it. The Claim definition now aggregates the same, similar or related wrongful acts and wrongful acts with a common cause. Default set for underwriter confirmation.
+- Continuous Cover: now capped at the lower of the current and previous limits, on the less favourable terms.
+- Company Liability exclusions: the Directors' and Officers' exclusions now apply to the company by reference to the knowledge of the control group.
+- Priority of Payment: now applies when the overall aggregate is short, and gives discharge for good-faith payments.
+- Defence Costs: repayment now also applies where the company or another insurer pays the same costs.
+- Crime section: cover now runs on discovery by a responsible person, and the Crime section's use of "you" means the company only. New clauses for Prior Insurance and Superseded Policies, Single Loss, and Valuation. Recoveries are applied to the company's uninsured loss first. Prior discovery now includes matters notified under a prior policy. Default set for underwriter confirmation.
+- Social Engineering Fraud endorsement: now operates on discovery. Its exclusion of loss covered by a cyber policy is replaced by the crime and cyber priority rule.
+- Third-Party Crime endorsement: now applies the Crime section's discovery, superseded policy, single loss and valuation provisions.
+- Side A Difference in Conditions endorsement: the trigger is restated, financial impairment is replaced by insolvency, the exclusions are fixed and not left to the schedule, and Insured versus Insured and Prior Known Matters now apply. Default set for underwriter confirmation.
+- WHS Defence Costs — Priority Cover: marked for legal review on advancing defence costs.
+- Distribution note: now headed Who This Policy Is For and states the retail client position.
