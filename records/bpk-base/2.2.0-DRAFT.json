@@ -1,0 +1,1389 @@
+{
+ "wording": "bpk-base",
+ "version": "2.2.0-DRAFT",
+ "doc_ref": "2026/PK/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "bpk.about",
+   "heading": "About This Policy",
+   "sha256": "601ef6eb8f40f4d5225702b64c69d220579ef7d7e8dcf44a6cf881c4d522d0ae"
+  },
+  {
+   "id": "bpk.who-this-is-for",
+   "heading": "Who This Policy Is For",
+   "sha256": "98ce715367525e635f89a89501dd708f26fd18c976618c0d253d195d02dca70f"
+  },
+  {
+   "id": "bpk.claims-made-notice",
+   "heading": "Notice Under s 40 of the Insurance Contracts Act",
+   "sha256": "ceb86d371b61d0195264f1e927fccc661c329edc0737b59c0324652f2d8eab16"
+  },
+  {
+   "id": "bpk.version-history",
+   "heading": "Version and Document History",
+   "sha256": "6e541ed541f9e91b26db01fc44936a427193be085db0fb65060cb9f7b4c4c31a"
+  },
+  {
+   "id": "bpk.schedule",
+   "heading": "Schedule",
+   "sha256": "d27a65067787196d46a442b3203aa97cfbac23420629e815c00624aa53516305"
+  },
+  {
+   "id": "bpk.section.definitions",
+   "heading": "Definitions",
+   "sha256": "ab9f1b29ffd383ea279585c5d85d4e8577d45dfef3d787a71097c3a36a716dc9"
+  },
+  {
+   "id": "bpk.def.audit-notice",
+   "heading": "Audit notice",
+   "sha256": "4d312cf3d89e66ef25a177db1f320a50e74339c2872001f41191aa0941871b51"
+  },
+  {
+   "id": "bpk.def.breakdown",
+   "heading": "Breakdown",
+   "sha256": "9655b4307793d785950e14f6648c80a8bd705a57f93e3c9d89e726fd3998a3b5"
+  },
+  {
+   "id": "bpk.def.building",
+   "heading": "Building",
+   "sha256": "3ade643e6210644a702a56e6066f2f011f875dff2868ecdd4e22e3ea39e8b716"
+  },
+  {
+   "id": "bpk.def.business",
+   "heading": "Business",
+   "sha256": "c4d0251b0018ec56f8a2598dc03a1caceecd12b77ba137411055f43f3052d885"
+  },
+  {
+   "id": "bpk.def.claim",
+   "heading": "Claim",
+   "sha256": "faf3e8a14b767e2ab12a89ac65f59d811f5f1868fc0175de4862827e9ebabe21"
+  },
+  {
+   "id": "bpk.def.computer-system",
+   "heading": "Computer system",
+   "sha256": "deae76d6439d0671ca27a9f408680d9a14198e5203f4661a8bf44cfcd5305dde"
+  },
+  {
+   "id": "bpk.def.contents",
+   "heading": "Contents",
+   "sha256": "f1e2297932c021ce62b960c16a099d66caff5bb2695518eb50435b6764f33a1f"
+  },
+  {
+   "id": "bpk.def.control-group",
+   "heading": "Control group",
+   "sha256": "cc423527256cfa61f26e07fbcec106671393d9152075e017cca45e34e632e27b"
+  },
+  {
+   "id": "bpk.def.cyber-event",
+   "heading": "Cyber event",
+   "sha256": "d0b2057ab2b141e90a73643897a397181b155b7fe2c786e06c75e7e4ce93f175"
+  },
+  {
+   "id": "bpk.def.damage",
+   "heading": "Damage",
+   "sha256": "61e263321c088210cdc11d1e9cc5bee5aa043f7e090d4fa7975b94150f04dba5"
+  },
+  {
+   "id": "bpk.def.data",
+   "heading": "Data",
+   "sha256": "ac7efec4eedb5e615c7488cc3611c15872058708a274f409f3a835639f4f3b1e"
+  },
+  {
+   "id": "bpk.def.defect",
+   "heading": "Defect",
+   "sha256": "08f9955812b74d0b840e85377ffaf6fce92b251771426b60bf7f2683a4f2febe"
+  },
+  {
+   "id": "bpk.def.discovery",
+   "heading": "Discovery",
+   "sha256": "79004f71c22c65b57f3f5f9b46c64d9ef9e9d153ba79405fdef04a5c0c3237f0"
+  },
+  {
+   "id": "bpk.def.dishonest-act",
+   "heading": "Dishonest act",
+   "sha256": "4364edff6505d99c904350a04d0f968851229eb9c1dabfcbeb3301b97b0bd8db"
+  },
+  {
+   "id": "bpk.def.employee",
+   "heading": "Employee",
+   "sha256": "6e2896f3d684839a8ffa0197da463da327046ddf1db232c92f67204809c8b9a0"
+  },
+  {
+   "id": "bpk.def.employment-claim",
+   "heading": "Employment claim",
+   "sha256": "c77efe567e49ec16a34a8226a725abe4f0ba0c372202bfd49329affbde136d01"
+  },
+  {
+   "id": "bpk.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "f35fddb149bbc4312be2bd371fd448e9bc24070e9edb0f17ab49bcb744fef6b4"
+  },
+  {
+   "id": "bpk.def.excess",
+   "heading": "Excess",
+   "sha256": "1b32ea6f506d9aa52bde670417d3e256f144e1160c3a44e4f1f490d09f91a134"
+  },
+  {
+   "id": "bpk.def.extended-reporting-period",
+   "heading": "Extended reporting period",
+   "sha256": "3aff07ed43b14dc85a25bf0c92f4011ab08a26a14d1a6f850b23a4b9e8815fdd"
+  },
+  {
+   "id": "bpk.def.extortion-threat",
+   "heading": "Extortion threat",
+   "sha256": "3b1d1fd549b1852be0ef9e7b8eea8921e7cefb120530be20ef3bb0b6e96da8a9"
+  },
+  {
+   "id": "bpk.def.final-adjudication",
+   "heading": "Final adjudication",
+   "sha256": "a96db13a167535a7d75949fb85a1b70d107ca3547c952869f2b2c0618d92d3c0"
+  },
+  {
+   "id": "bpk.def.insured-event",
+   "heading": "Insured event",
+   "sha256": "04df2eb9a72a1c1eec28b02acd51f5c74c8b47ba4ce23ada9bc7cf4e1da0ef03"
+  },
+  {
+   "id": "bpk.def.insured-person",
+   "heading": "Insured person",
+   "sha256": "89531b07f1e086b27a042291ae10004c28175f2204c2df46fb24be5454eee123"
+  },
+  {
+   "id": "bpk.def.interested-party",
+   "heading": "Interested party",
+   "sha256": "6899cebaf586eb35b6b716b38df0493913b3d72ce3953d1e08a9b1de18093752"
+  },
+  {
+   "id": "bpk.def.loss",
+   "heading": "Loss",
+   "sha256": "aef3491d14b7091dc2a1a3b7d903e190e9de8a0bbf3325ce70fb22711691ae53"
+  },
+  {
+   "id": "bpk.def.money",
+   "heading": "Money",
+   "sha256": "a047489cb1542b266a6021ab452782222d771f0466dad87b778b375a70d05310"
+  },
+  {
+   "id": "bpk.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "8f46ec807aa233fa1bc0b5b666e9ca51fee1522cb84c6dd745d39bcc2df5959c"
+  },
+  {
+   "id": "bpk.def.period-of-insurance",
+   "heading": "Period of Insurance",
+   "sha256": "56de4164bb4f081ce72b8957357a8fd5ded3251339215b25e61365ce17dcee43"
+  },
+  {
+   "id": "bpk.def.personal-injury",
+   "heading": "Personal injury",
+   "sha256": "6c30fd76c9947242bef76d025b3c16fed600ca6d115719ce599cb85827efd967"
+  },
+  {
+   "id": "bpk.def.premises",
+   "heading": "Premises",
+   "sha256": "c71ece532fd23b4cb1ab280bbcd470359f2a307fab6779b94bd7632945c32950"
+  },
+  {
+   "id": "bpk.def.property-damage",
+   "heading": "Property damage",
+   "sha256": "b1271c9890de0dd2299ed5fc6c89f435ce9f34d3e558b658e2de31bb0ab8bd89"
+  },
+  {
+   "id": "bpk.def.responsible-person",
+   "heading": "Responsible person",
+   "sha256": "4a16b97e6b85091fc0229e686253840a32333f9fb224d2c4dcc18105ebca284e"
+  },
+  {
+   "id": "bpk.def.retroactive-date",
+   "heading": "Retroactive date",
+   "sha256": "cbc1c9553a9710c0d3b131e74e2f5f941a3fa620cd8851a7804bb3a24b8dbf99"
+  },
+  {
+   "id": "bpk.def.schedule",
+   "heading": "Schedule",
+   "sha256": "455501737c794f78331a2fbe4e17256a0ce51614ce6a86ef1df242d930e6ba27"
+  },
+  {
+   "id": "bpk.def.single-loss",
+   "heading": "Single loss",
+   "sha256": "978678c835fd5ab805ddb27938a82b73429342bf7a48fd5edf1d16cb6c61d6ba"
+  },
+  {
+   "id": "bpk.def.situation",
+   "heading": "Situation",
+   "sha256": "0c57dd8b4af5781165519450ecd9930a5b65f280975a96f7e14eaa341cb0dda9"
+  },
+  {
+   "id": "bpk.def.stock",
+   "heading": "Stock",
+   "sha256": "822171e085b62001f1eef95541be6442e51d5ee99772eefc664b5af049384f55"
+  },
+  {
+   "id": "bpk.def.sum-insured",
+   "heading": "Sum insured",
+   "sha256": "b5b87b5c769c5c9eb726a028e3b746597272dee5556092d682120c0d0323f2a5"
+  },
+  {
+   "id": "bpk.def.theft",
+   "heading": "Theft",
+   "sha256": "170ffb53f97144fa7fc1fbe999e065cc9af1bbb1450ac7c450b273586de1d2cc"
+  },
+  {
+   "id": "bpk.def.third-party",
+   "heading": "Third party",
+   "sha256": "c20eb47296d6e3dfe3d426e32386020248bf1af183dc2da867c432bf38df95fa"
+  },
+  {
+   "id": "bpk.def.unauthorised-access",
+   "heading": "Unauthorised access",
+   "sha256": "6405f71409fdd2fef31c0e557c6526d3575b64b747ce12990952adaeac73db98"
+  },
+  {
+   "id": "bpk.def.unoccupied",
+   "heading": "Unoccupied",
+   "sha256": "764cb81d143ed8d87875b7c7e9666d793313c08ea56590512dbac17c1a3f5caf"
+  },
+  {
+   "id": "bpk.def.we-us-our",
+   "heading": "We, us, our",
+   "sha256": "fb801aa24695d41b1444c46e7e384fe48aedc33a854278e8701b34ada15b0798"
+  },
+  {
+   "id": "bpk.def.wrongful-act",
+   "heading": "Wrongful act",
+   "sha256": "cb9ce842b969a0577906b6f1ede8c3b33fa0be694f5a560237747e659d709cfd"
+  },
+  {
+   "id": "bpk.def.you-your",
+   "heading": "You, your",
+   "sha256": "7def20f8a90358a0824510b08e8cf29335e77bb0a3496078038accea0cc4768b"
+  },
+  {
+   "id": "bpk.def.your-products",
+   "heading": "Your products",
+   "sha256": "e59a66ee32ef4814bd5d29575c412a81528145ec72564d8d524792e4433d047f"
+  },
+  {
+   "id": "bpk.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "a0f5ec42cd2ed68c241c1ecb3f9e295d8ad4a70ab02e34222ae14bad9f8c79b8"
+  },
+  {
+   "id": "bpk.excl.war",
+   "heading": "War",
+   "sha256": "b53dc494f837cfad4ad4bbfd403361ae4353f95aebbc84aaaf708555e64e1d34"
+  },
+  {
+   "id": "bpk.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "f7b1d6925a732cd7ba6d3e5040b82d198aa43a787532f2818556f03bb29caea2"
+  },
+  {
+   "id": "bpk.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "a3442e351f81bce20646a085c6ae88e74930d43a97103f814c6ba0cc6a5a6ea8"
+  },
+  {
+   "id": "bpk.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "e2518a25d690e420cb4ca8c96b51ca31a2fc90fd3627acaf6ce64be43dce783b"
+  },
+  {
+   "id": "bpk.excl.mould",
+   "heading": "Mould",
+   "sha256": "8c977bfdb24ef64d20b36378c1e87e7d37a9329adebadfba244aab085f7813e4"
+  },
+  {
+   "id": "bpk.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "e8506e4f2aa2666ab8f3632a01a9044a7305d842a62f71a1551a7b6510d7f380"
+  },
+  {
+   "id": "bpk.excl.electronic-data",
+   "heading": "Electronic Data",
+   "sha256": "f6614504dc51c83aa1ca83e4a4844a8347b90739ca8058b0ebac8b94871780f3"
+  },
+  {
+   "id": "bpk.excl.cyber",
+   "heading": "Cyber",
+   "sha256": "7d5ae08071ef01d14dca954acc20a181f77886ea9f8b0cbc72ebfd6ceff19f82"
+  },
+  {
+   "id": "bpk.excl.gradual-causes",
+   "heading": "Gradual Causes",
+   "sha256": "9013f10e838d8c0ce5601a2cdc8ca19f2ccb34b9ce9a1585b93689e72ee6c057"
+  },
+  {
+   "id": "bpk.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "3fddbbd4af064b1c5e2a3b73410182732878a02d696be0e59f7e553072e8a443"
+  },
+  {
+   "id": "bpk.excl.unoccupied-premises",
+   "heading": "Unoccupied Premises",
+   "sha256": "000cf54a4e43f1e914853c2ea125d884f8b85034488d406a4db276e862b3e32f"
+  },
+  {
+   "id": "bpk.excl.known-defects",
+   "heading": "Known Defects",
+   "sha256": "ec2bfd57bf6db0e866641da55f381352655bf34fcb47310300f28906f769eafe"
+  },
+  {
+   "id": "bpk.excl.confiscation",
+   "heading": "Confiscation",
+   "sha256": "e602f553f0884b4fb2fbb2f31f9b8dcbbdce213d0a84baf3f89d0c2380ffb688"
+  },
+  {
+   "id": "bpk.excl.consequential-loss",
+   "heading": "Consequential Loss",
+   "sha256": "e7a3232a9456bb9a719f3eb15088406ece36342226149de1b9842f660d6e58d6"
+  },
+  {
+   "id": "bpk.section.general-conditions",
+   "heading": "General Conditions",
+   "sha256": "48e8a54a814af1ae65a9a7bc049c48f01d03dbd89dbff8f45228e7ad10d73ce7"
+  },
+  {
+   "id": "bpk.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "2d28552fd331c6e69f412ea5e10c6dc32cc275cc845641d2e51b73ced907e371"
+  },
+  {
+   "id": "bpk.cond.duty-of-disclosure",
+   "heading": "Duty of Disclosure",
+   "sha256": "193e8dd2b78e4fba354bcd22b0d4ef12d915c8f437cbe832764dec297c10358a"
+  },
+  {
+   "id": "bpk.cond.premium",
+   "heading": "Premium",
+   "sha256": "8e79aaa3a5575635bc79e3c959d4d6e2d0c19ba6bb1393d78017f8df19d4c62b"
+  },
+  {
+   "id": "bpk.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "edce01d91bf53377211bbb36bb7aee04e0839cfe23226b2787605efcd7bd32f3"
+  },
+  {
+   "id": "bpk.cond.making-a-claim",
+   "heading": "Making a Claim",
+   "sha256": "03f7ce73ab1a31a5de86a8b1bdd4e840d8f11e9b4f8828d5f787535c030f2b8b"
+  },
+  {
+   "id": "bpk.cond.excess",
+   "heading": "Excess",
+   "sha256": "843d160d010b7a1b894bb0a2ffe5a7d092e1e1d18e0da277bf014c077d16089b"
+  },
+  {
+   "id": "bpk.cond.limits-and-more-than-one-section",
+   "heading": "Limits and More Than One Section",
+   "sha256": "1b2248012369ce119443ed38c912e99263ada03203912e7fdb31acfc95ee2bf8"
+  },
+  {
+   "id": "bpk.cond.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "77ad7efdde5c8c3a4dccb1826ed54b7dbb26d55c5631e0f35e8651449ce2f7ca"
+  },
+  {
+   "id": "bpk.cond.subrogation-and-interested-parties",
+   "heading": "Subrogation and Interested Parties",
+   "sha256": "0ec3c6855ce13b0ee60e56c5aef475abdd58411d0b498138fdfe80ff3fae6538"
+  },
+  {
+   "id": "bpk.cond.notice-of-circumstances",
+   "heading": "Notice of Circumstances",
+   "sha256": "3df9c1ff58b58c568a03d429bcca99cf051428f6d1829aa40ddfb33225117cf5"
+  },
+  {
+   "id": "bpk.cond.reinstatement",
+   "heading": "Reinstatement of Sums Insured",
+   "sha256": "95ab7584be2aa42b7a31b06df42f03f9bdc11767a6349b5cd540b978c93e5146"
+  },
+  {
+   "id": "bpk.cond.gst",
+   "heading": "GST",
+   "sha256": "d6b0668b1f23a90e38282c5c24dff5ea7a2cce941cfedc7309f3814eca05785e"
+  },
+  {
+   "id": "bpk.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "bb093c45b34c0416e13f6063b43a59e25c2d46ccd50a87396fb8513872a8dd48"
+  },
+  {
+   "id": "bpk.cond.fraudulent-claims",
+   "heading": "Fraudulent Claims",
+   "sha256": "602b5230116702153701f34e344ef924f02828fe3f461dd70c5773fd4377af59"
+  },
+  {
+   "id": "bpk.cond.governing-law-and-jurisdiction",
+   "heading": "Governing Law and Jurisdiction",
+   "sha256": "4b6aefe0b314a638658d4a559d72eb18756e4f0bc83b4c4c0f83dee413b96924"
+  },
+  {
+   "id": "bpk.cond.complaints",
+   "heading": "Complaints",
+   "sha256": "782315cc7540920aea2c9c8a7f2cc12be916d493d6c5ba16c17443d4f7a6fa1c"
+  },
+  {
+   "id": "bpk.cond.version-of-this-wording",
+   "heading": "Version of This Wording",
+   "sha256": "a9954525c4318ed5d82ea82eda9cff3c4c3fd09989dcbe34d652393c75cc52d4"
+  },
+  {
+   "id": "bpk.cond.currency-and-short-periods",
+   "heading": "Currency and Short Periods",
+   "sha256": "3c4f4e2edccebc9fcb0ce9b084428c2563a817a1635e491f0bbce2e8ccc144ce"
+  },
+  {
+   "id": "bpk.section.property-damage",
+   "heading": "Property Damage",
+   "sha256": "16614562a163956c923a6dddca0aa7c4475897671632e9f72f7216ef7970a3cc"
+  },
+  {
+   "id": "bpk.pd.cover",
+   "heading": "Damage to Property Insured",
+   "sha256": "8da97e93493a636b7886ca28303ecc1a70a2a5b2123bf8cdb42b25428eda26e8"
+  },
+  {
+   "id": "bpk.pd.insured-events",
+   "heading": "Insured Events",
+   "sha256": "d132c32a13f537022faf77546e5af3e0dc1d2010b395477529b94d43af56cdc5"
+  },
+  {
+   "id": "bpk.pd.basis-of-settlement",
+   "heading": "Settling Property Damage",
+   "sha256": "cb2a59ea90354f138cf2c6b4efa60fb91979b1d2357bcdf9a3eace69893eb853"
+  },
+  {
+   "id": "bpk.pd.underinsurance",
+   "heading": "Underinsurance (Property)",
+   "sha256": "48169e167f94a46d0b182359d457688ceca88ce65137e550bc7fc4353d8830e7"
+  },
+  {
+   "id": "bpk.pd.additional-benefits",
+   "heading": "Property Damage Additional Benefits",
+   "sha256": "1252310ed2f71bffcd1c07b64332713e2688ab3e4b48ef67478620286e6fc12d"
+  },
+  {
+   "id": "bpk.pd.exclusions",
+   "heading": "Property Damage Exclusions",
+   "sha256": "8ffab2eae2a0e5c21d57bf3b71f528c07b44c5ec101be05c426bbefdd2a47b95"
+  },
+  {
+   "id": "bpk.section.business-interruption",
+   "heading": "Business Interruption",
+   "sha256": "977f4ba0087132d2c96fafb1c20587e1f29cd4a5ec330a344f48dc57467094dc"
+  },
+  {
+   "id": "bpk.bi.cover",
+   "heading": "Interruption of the Business",
+   "sha256": "965fb95ef5ef0905c981fba38eee11b64e9e3f698d8738f89087cb0a4a855017"
+  },
+  {
+   "id": "bpk.bi.waiting-period",
+   "heading": "Business Interruption Waiting Period",
+   "sha256": "ea726f844e9a188fd95cea2b0225b5d0032b8016f5797cfdca018f245d22767e"
+  },
+  {
+   "id": "bpk.bi.underinsurance",
+   "heading": "Underinsurance (Gross Profit)",
+   "sha256": "db05c57c6a55d8030df4afe6507d379e2949c90b4ca72224c38935fd2643212e"
+  },
+  {
+   "id": "bpk.bi.additional-benefits",
+   "heading": "Business Interruption Additional Benefits",
+   "sha256": "766e478787c4afeeb960cf9cf0b53b899f1ca9586cf1bb50d289c3da9dff8df7"
+  },
+  {
+   "id": "bpk.bi.exclusions",
+   "heading": "Business Interruption Exclusions",
+   "sha256": "698e336a792d5068269e2f3a359d7d6a3c74ee388a0d2c297cda5e6c8c434021"
+  },
+  {
+   "id": "bpk.section.crime",
+   "heading": "Comprehensive Crime",
+   "sha256": "a0d548032f1014d7d86834ad4ff76c47a44caca43e616aefee0481275aad49fa"
+  },
+  {
+   "id": "bpk.crime.cover.theft",
+   "heading": "Theft",
+   "sha256": "1e68d7952762568aeb1600eb6c40e6681ad27a7e7e7f84ea693c2b2d8be75fc1"
+  },
+  {
+   "id": "bpk.crime.cover.money",
+   "heading": "Money",
+   "sha256": "26c2742b2897dd0b3ded09eb360af90bf61da2965a63c6ff04fb6bd2da4dcfd4"
+  },
+  {
+   "id": "bpk.crime.cover.employee-dishonesty",
+   "heading": "Employee Dishonesty",
+   "sha256": "ce8ad0f2b2924cdc30082a9dfd4c4acbc51235d559a41b2702bf0449c038b623"
+  },
+  {
+   "id": "bpk.crime.cover.forgery",
+   "heading": "Forgery",
+   "sha256": "13ef136b6630f75921b3050b45fdadbca4329adf7409af80e96b8917b5ce42d1"
+  },
+  {
+   "id": "bpk.crime.cover.computer-fraud",
+   "heading": "Computer Fraud",
+   "sha256": "c0e1c19287f7da7f7f24cdeed5bd87f1c374d9d441f85b00b1e8399f76cb7807"
+  },
+  {
+   "id": "bpk.crime.cover.social-engineering-fraud",
+   "heading": "Social Engineering Fraud",
+   "sha256": "0f84303e0fdf72108deb2c00b26130459351506ebce275d29a998a4cb09f88ff"
+  },
+  {
+   "id": "bpk.crime.limits-and-aggregation",
+   "heading": "Crime Limits and Aggregation",
+   "sha256": "056b0eced5353d4180bdf2b641074c924bbc76df72639fdeaf56d3af0b075a34"
+  },
+  {
+   "id": "bpk.crime.discovery",
+   "heading": "Discovery and Extended Discovery",
+   "sha256": "955709fd6be2b9092977cc6f570a56cf1e8e96cfb0e3603d30d34a820eaa273e"
+  },
+  {
+   "id": "bpk.crime.social-engineering-verification",
+   "heading": "Social Engineering Verification",
+   "sha256": "c9874183acda952678375e4866e89018b97bbb457f4b8133f89e33415eba9f35"
+  },
+  {
+   "id": "bpk.crime.valuation-and-recoveries",
+   "heading": "Crime Valuation and Recoveries",
+   "sha256": "72436d2fe84e7f6cfc5f1dc89e6db23dd8273494afc3f4b27d9290aef117cbca"
+  },
+  {
+   "id": "bpk.crime.exclusions",
+   "heading": "Comprehensive Crime Exclusions",
+   "sha256": "668dfded8addb75c43ffc96c231f443c796d6d6cd92ff2bf14752566c0349daa"
+  },
+  {
+   "id": "bpk.section.glass",
+   "heading": "Glass",
+   "sha256": "d183623d1f3d913332bea41be3250edbc997036c650a7d45981a7f996709c5d3"
+  },
+  {
+   "id": "bpk.glass.cover",
+   "heading": "Glass Breakage",
+   "sha256": "01c525a3953b095539acd2d7feb1d73ba6709aa0f9fb2e3c8314e66c0aa81212"
+  },
+  {
+   "id": "bpk.glass.additional-benefits",
+   "heading": "Glass Additional Benefits",
+   "sha256": "464fe8e74e0ade11ea77136cd3320bde862a26dbf2af893460be960fe976f8d3"
+  },
+  {
+   "id": "bpk.glass.exclusions",
+   "heading": "Glass Exclusions",
+   "sha256": "f725a2a374660ee98f9a42c42f117dbc23c8488220d3ef04e87b2bf1195091df"
+  },
+  {
+   "id": "bpk.section.liability",
+   "heading": "Public and Products Liability",
+   "sha256": "04dd42e3f2dc5d41cfbc27f07da4c47acb4a41e21ae20341fb7234cf0afc222e"
+  },
+  {
+   "id": "bpk.liability.cover",
+   "heading": "Liability for Injury and Damage",
+   "sha256": "43cada25de5380793e91737ada108620c3cf199173331375c882f45565d6c094"
+  },
+  {
+   "id": "bpk.liability.limits",
+   "heading": "Liability Limits",
+   "sha256": "2b3c4a40b329a1522de59060e0d9358ab954dfdcfe30ec9236ceb14c71dc1a29"
+  },
+  {
+   "id": "bpk.liability.additional-benefits",
+   "heading": "Liability Additional Benefits",
+   "sha256": "0f55c1c0645afe0d88bc9ee8a3c07ef8862d7db82b994d951e59c3cfa6f5b2b3"
+  },
+  {
+   "id": "bpk.liability.exclusions",
+   "heading": "How the Liability Exclusions Apply",
+   "sha256": "a642baca3577886d2ddbc3c65dd310bbd562da75ab6abb8764ba53371a0f256d"
+  },
+  {
+   "id": "bpk.liability.excl.injury-to-employees",
+   "heading": "Injury to Employees",
+   "sha256": "ea5a83947e812b88381b2916a9b6c5358d10edebdfcd4c59e26ea790f08e8059"
+  },
+  {
+   "id": "bpk.liability.excl.professional-services",
+   "heading": "Professional Services",
+   "sha256": "c614089e0b347e46089454028d92d23a55f61369c01e9ecd469465ff5d1df39f"
+  },
+  {
+   "id": "bpk.liability.excl.vehicles-aircraft-watercraft",
+   "heading": "Vehicles, Aircraft and Watercraft",
+   "sha256": "a6ed90fa45c270e86bb72be4b71bd4835b9beebe9d8ef99df15f54f114672f36"
+  },
+  {
+   "id": "bpk.liability.excl.your-own-property",
+   "heading": "Your Own Property",
+   "sha256": "7dbda33b3e9c97d5c356008b44bb64ae16126eda25aeeddedecadd969ff7d154"
+  },
+  {
+   "id": "bpk.liability.excl.product-recall",
+   "heading": "Product Recall",
+   "sha256": "879216f5374bc6c9f57270fdaede43ca74a0aca9dd87d849ce819a3628fee04e"
+  },
+  {
+   "id": "bpk.liability.excl.fines-and-punitive-damages",
+   "heading": "Fines, Penalties and Punitive Damages",
+   "sha256": "7c06ccea1770e34b1c1f5a5c527807237b24387dbedeed1adcfec10d34644688"
+  },
+  {
+   "id": "bpk.liability.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "6b9a84b3409f2f739acba03be12bc9a890fd3768a9c05e2d4a9187fe4b53c952"
+  },
+  {
+   "id": "bpk.liability.excl.pollution",
+   "heading": "Pollution (Liability)",
+   "sha256": "a5de53d86b2e4826f60258bcefce0561b7f8de8f460b160ab70ebf3ac54fbbca"
+  },
+  {
+   "id": "bpk.liability.excl.usa-canada",
+   "heading": "USA and Canada",
+   "sha256": "c409f023c84d569fb3f9b6b5664cbca5eaf53a4b5383b28a5709135de4feca90"
+  },
+  {
+   "id": "bpk.liability.excl.hot-works",
+   "heading": "Hot Works Away From Your Premises",
+   "sha256": "dfbe9bcde1bea7167e2ff8605180665c3e068c08f1e52c418218af3e63b161ea"
+  },
+  {
+   "id": "bpk.liability.excl.vibration-and-support",
+   "heading": "Vibration and Removal of Support",
+   "sha256": "6ea55838a1c3b5bbd90b75f4b8d468f2e8284963996adc26fa0745f81f46fa8f"
+  },
+  {
+   "id": "bpk.section.equipment",
+   "heading": "Equipment Damage",
+   "sha256": "1d48ee99fa9424a22d73f3f9b86a9794bd54141c30c41a82b0e40d392f46410c"
+  },
+  {
+   "id": "bpk.equipment.cover",
+   "heading": "Equipment Breakdown and Damage",
+   "sha256": "eb350af4d79609e7faa190d2a6531c7f963abd2ba5b9e6f596725135e0cf2843"
+  },
+  {
+   "id": "bpk.equipment.basis-of-settlement",
+   "heading": "Settling Equipment Damage",
+   "sha256": "a60a86eb1ef67e1fdd4457be216bebed843772f0b51eff3ace21744342d4d4fd"
+  },
+  {
+   "id": "bpk.equipment.underinsurance",
+   "heading": "Underinsurance (Equipment)",
+   "sha256": "a0b41660cc1912ef5bbe0052a18d0cab33da070b24708550b19849fb22375144"
+  },
+  {
+   "id": "bpk.equipment.additional-benefits",
+   "heading": "Equipment Additional Benefits",
+   "sha256": "1cbb93eaeb3b50acea41cd81b0172172e378ec29877029e999f31cae3b9e36a1"
+  },
+  {
+   "id": "bpk.equipment.exclusions",
+   "heading": "Equipment Damage Exclusions",
+   "sha256": "9c1c8ca47b3292215084d9ea6a7a36c51f66c43412b15a52981990d2e5dbaa28"
+  },
+  {
+   "id": "bpk.section.general-property",
+   "heading": "General Property",
+   "sha256": "21662f31210241a90a910b3b6fbfaeef02c793d357174ea75bff870b2be9d070"
+  },
+  {
+   "id": "bpk.gp.cover",
+   "heading": "Portable Business Property",
+   "sha256": "f378238728e9f510a99ea465dc363f4b1fa9427694fbff63d074e18c618aabfa"
+  },
+  {
+   "id": "bpk.gp.basis-of-settlement",
+   "heading": "Settling General Property",
+   "sha256": "2944881a4b1083ec84f99e0b4be833dea7c60228f2c680aca9cdccb7ee847709"
+  },
+  {
+   "id": "bpk.gp.exclusions",
+   "heading": "General Property Exclusions",
+   "sha256": "90ffc3a7d0c555ffc4f93c67f35aec6dc08318da8a563f53a124296ccd2444df"
+  },
+  {
+   "id": "bpk.section.transit",
+   "heading": "Goods in Transit",
+   "sha256": "a7da1a12a17f58d89d53874fb99d0b8a44c30e13a823dfe8b5ab90b5841c1a7c"
+  },
+  {
+   "id": "bpk.transit.cover",
+   "heading": "Damage to Goods in Transit",
+   "sha256": "ef991e278d702abab418397bb793d87d489bd0c2e3e6aa5384eb664a21301eb8"
+  },
+  {
+   "id": "bpk.transit.declarations",
+   "heading": "Declarations of Carryings",
+   "sha256": "c7d2e6647febfbc4de9b2a7c96aeacd262bce4e79a2d74a3ad1dfc81d943bc91"
+  },
+  {
+   "id": "bpk.transit.exclusions",
+   "heading": "Goods in Transit Exclusions",
+   "sha256": "62213fd4d67e50a96519a4f0758d8468ee6c7004c6c146fc8b0ff1b3f8872b61"
+  },
+  {
+   "id": "bpk.section.tax-audit",
+   "heading": "Tax Audit",
+   "sha256": "755594deabc5af4b5cf910d81c2554e08c0ac548808067298fb84def51f59c70"
+  },
+  {
+   "id": "bpk.tax.cover",
+   "heading": "Professional Fees for an Audit",
+   "sha256": "501124dba85dac3203568f0db93b3edea80750eb5ae8d6eb84391296dea1638e"
+  },
+  {
+   "id": "bpk.tax.exclusions",
+   "heading": "Tax Audit Exclusions",
+   "sha256": "5c767740db92ee9d31f614ac3ae54fb8ab0e0c92bf319ff00042a47ad7302e2f"
+  },
+  {
+   "id": "bpk.section.cyber",
+   "heading": "Cyber",
+   "sha256": "4b4e9f3b78c44605af07cfddda376fb46257d27c4e30da0e7403af9c1c553e64"
+  },
+  {
+   "id": "bpk.cyber.cover.incident-response",
+   "heading": "Incident Response",
+   "sha256": "3a57a0f8975cc274fd019b898ce906ea9a0578ac2c9affe406d723ff64a1060c"
+  },
+  {
+   "id": "bpk.cyber.cover.business-interruption",
+   "heading": "Cyber Business Interruption",
+   "sha256": "e64497f53b31a6d1bd8902cd3e3c564e5db08dbab99ac396d1d565a7bc066f2c"
+  },
+  {
+   "id": "bpk.cyber.cover.data-restoration",
+   "heading": "Data Restoration",
+   "sha256": "a69a292fbfb912d0a00ae9622b0053b8220528f84b62542b7b0fc8643db59606"
+  },
+  {
+   "id": "bpk.cyber.cover.extortion",
+   "heading": "Cyber Extortion",
+   "sha256": "b4aa4e169591d1dc399bd7408dfd72d6a05a02da89fcfae418467fd85d25b327"
+  },
+  {
+   "id": "bpk.cyber.cover.privacy-liability",
+   "heading": "Privacy and Network Security Liability",
+   "sha256": "1a94244dcb77aeb22959f1e25e94bff751f55008648d4a76d423046b249fa950"
+  },
+  {
+   "id": "bpk.cyber.cover.regulatory",
+   "heading": "Regulatory Defence and Penalties",
+   "sha256": "1a958e502aba1cb40b87afdc457c175853918cae019bec844f9fe4f42bc57937"
+  },
+  {
+   "id": "bpk.cyber.limits-and-aggregation",
+   "heading": "Cyber Limits and Aggregation",
+   "sha256": "8f5a8ffbfd349bda7cf9e34f56303762c26d31085b4a6877d43040f054a4c0f7"
+  },
+  {
+   "id": "bpk.cyber.relationship-with-crime",
+   "heading": "Relationship With Comprehensive Crime",
+   "sha256": "a3b2c5226ebac0ae3fc14dc74a4f356603b50c4e284582a070a3acc843f17f1f"
+  },
+  {
+   "id": "bpk.cyber.claims-made",
+   "heading": "Cyber Claims-made Conditions",
+   "sha256": "885e44de983e2066e7caa40d3a7f903358736242d6cff6028232cbeb0df55575"
+  },
+  {
+   "id": "bpk.cyber.exclusions",
+   "heading": "How the Cyber Exclusions Apply",
+   "sha256": "618a5def8dfdd159c7314dfc16ccf469f0627a6bb2e9e97bde49b74b8ad57e60"
+  },
+  {
+   "id": "bpk.cyber.excl.war-and-state-cyber-operations",
+   "heading": "War and State Cyber Operations",
+   "sha256": "ced812f0d6bb8201626b2e3d53a22f4168937c6b310c0269ccab2ef69654636d"
+  },
+  {
+   "id": "bpk.cyber.excl.infrastructure-failure",
+   "heading": "Infrastructure Failure",
+   "sha256": "6a0b0c692fbc5b884ac914952898ec9e812349dad8e383920bd0dfb3dcf0a649"
+  },
+  {
+   "id": "bpk.cyber.excl.prior-matters",
+   "heading": "Prior Cyber Matters",
+   "sha256": "7314b76e97835dcb468b8207d60252191fc98cb9476888f856ae3713ddfdb318"
+  },
+  {
+   "id": "bpk.cyber.excl.bodily-injury-and-property-damage",
+   "heading": "Bodily Injury and Property Damage (Cyber)",
+   "sha256": "a4b61ee0cd1cd36c8734ae7b4ef665572ad075649f84cb28741b46e7f94de8b8"
+  },
+  {
+   "id": "bpk.cyber.excl.betterment",
+   "heading": "Betterment",
+   "sha256": "7439ed852e13f5ed221ffb0bc5b985494ce2addb88dd13da56c4302cc8b78ac5"
+  },
+  {
+   "id": "bpk.cyber.excl.cryptocurrency",
+   "heading": "Cryptocurrency",
+   "sha256": "6e863a5fe34e7b77bf6eb554a77affbc4ac615bfbc480bcba203a88c3c2a2beb"
+  },
+  {
+   "id": "bpk.cyber.excl.card-industry",
+   "heading": "Card Industry Fines",
+   "sha256": "c3f2723cdc5a4759998136d812c44c2073eb9665df5062721d04c8ead94821d4"
+  },
+  {
+   "id": "bpk.cyber.excl.spam",
+   "heading": "Spam",
+   "sha256": "5cdc4b8614fe45226febbd5d892a7f203ea4b9875a12b56f91c05aa624b9bcd1"
+  },
+  {
+   "id": "bpk.cyber.excl.intellectual-property",
+   "heading": "Intellectual Property",
+   "sha256": "a34a865ed727246c950263b2404beac13d16a0f3ac276b295dc081a387236f5b"
+  },
+  {
+   "id": "bpk.section.management-liability",
+   "heading": "Management Liability",
+   "sha256": "73822588a2b8869a80a1ddbfded1cf74f7e6a8570601b61e3cbb438acfd76f15"
+  },
+  {
+   "id": "bpk.ml.cover.directors-and-officers",
+   "heading": "Directors and Officers",
+   "sha256": "b6921559ea0af4cd0867bbd1d453481cdc840193f14f9a4caa9d451371179314"
+  },
+  {
+   "id": "bpk.ml.cover.company-reimbursement",
+   "heading": "Company Reimbursement",
+   "sha256": "1cebf58f738e80b86de99feaddffbeb3315c8b283544113b678353a77c9b3d34"
+  },
+  {
+   "id": "bpk.ml.cover.company-liability",
+   "heading": "Company Liability",
+   "sha256": "f1b45ed8237aa139f554536dc79a5eab583c7855028f5576ffceae76a719653a"
+  },
+  {
+   "id": "bpk.ml.cover.employment-practices",
+   "heading": "Employment Practices",
+   "sha256": "d5eb6124e8739a6866c6710707960b5cf1a613b4647eaf3493698482f10ab61c"
+  },
+  {
+   "id": "bpk.ml.cover.statutory-liability",
+   "heading": "Statutory Liability",
+   "sha256": "194b775253ea76dd7cd98ced10c2095312e5a1c9cabb63191e4d05bb352c778f"
+  },
+  {
+   "id": "bpk.ml.limits",
+   "heading": "Limits, Advancement and Allocation",
+   "sha256": "e9eaf07970f2fdd4c1c5bccff3927d6abc3b54e78aa50801d51346f678ed8904"
+  },
+  {
+   "id": "bpk.ml.statutory-insurability",
+   "heading": "Statutory Insurability",
+   "sha256": "e2b50571ffb80b78b9b762e146cabf402d3a8ed1dac7dbac2dec990a63daa174"
+  },
+  {
+   "id": "bpk.ml.corporations-act-199",
+   "heading": "Corporations Act 2001 (Cth), sections 199A and 199B",
+   "sha256": "d605d10836b9a91e7a4fc997b475d85dc0e6bc87c2563e10acad0e55bcb02ac0"
+  },
+  {
+   "id": "bpk.ml.conduct",
+   "heading": "Conduct",
+   "sha256": "57abb16b6e8e62d791ef4ea46debc9acb9d306defc74148e6786a7a7e7bbca1d"
+  },
+  {
+   "id": "bpk.ml.claims-made",
+   "heading": "Management Liability Claims-made Conditions",
+   "sha256": "0da0551551c4acad9fdf421fc68928546c17dff14c383d5922d1a3041995c5ab"
+  },
+  {
+   "id": "bpk.ml.additional-benefits",
+   "heading": "Management Liability Additional Benefits",
+   "sha256": "cbec30909b6e7680ebb0ff36b58c93644bf6c9ee1ce0852a72f4edd6082e506d"
+  },
+  {
+   "id": "bpk.ml.exclusions",
+   "heading": "Management Liability Exclusions",
+   "sha256": "a1ef0cc110d0a28bf5b4eaf5a1163d63f47a11cd4f87f964862c1e7ff1d35107"
+  },
+  {
+   "id": "bpk.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "583cde50f596424c4210a41a010ad26fe2ef63aa597246b9b3c6915b1c74dc11"
+  },
+  {
+   "id": "bpk.end.e01",
+   "heading": "E01 Accidental Damage",
+   "sha256": "ce1624924ec3a21af516e0c47e1c9e1e553e760c2bedcdd2d881eabfc1b6b080"
+  },
+  {
+   "id": "bpk.end.e02",
+   "heading": "E02 Flood",
+   "sha256": "96bc2c0338fd870df12507594386c429e6897fe784ad60d76be258e03f6dc1cc"
+  },
+  {
+   "id": "bpk.end.e03",
+   "heading": "E03 Seasonal Stock Increase",
+   "sha256": "d401c93e8843c3f24f2478400a12e92b6bfdb4d13607492b358e4679d1b19591"
+  },
+  {
+   "id": "bpk.end.e04",
+   "heading": "E04 Equipment Damage Consequential Loss",
+   "sha256": "d2cb138e8df9848732f9a330f304b5181f02ddd740eb676f6a82973801389d48"
+  },
+  {
+   "id": "bpk.end.e05",
+   "heading": "E05 Increased Tenants' Liability",
+   "sha256": "15dfb566a10ad1fda0db5d511b047f7c97151c570e4009f8780977831a5b0c61"
+  },
+  {
+   "id": "bpk.end.e06",
+   "heading": "E06 Increased Property in Physical or Legal Control",
+   "sha256": "2a50d6768da5e6012f84c71d088b1326a83d29c5bfa2f88610c7717900143ffd"
+  },
+  {
+   "id": "bpk.end.e07",
+   "heading": "E07 Product Recall Costs",
+   "sha256": "decaeed583c22fd1d8d4379111f04278085d38fbdcea4d47fafe149dcc0c18b5"
+  },
+  {
+   "id": "bpk.end.e08",
+   "heading": "E08 Minor Contract Works",
+   "sha256": "86a924358dc4705e3c17136883a84447064ae467466faf799d4b49e2d5fbdc14"
+  },
+  {
+   "id": "bpk.end.e09",
+   "heading": "E09 Interests of Lessors and Financiers",
+   "sha256": "8ab841450fcfd9ed4b3354bf0b6c7d27bf257a6fba2dee008f83dfac962f6932"
+  },
+  {
+   "id": "bpk.end.e10",
+   "heading": "E10 Hot Works",
+   "sha256": "3cbeaea8c9d3df944fbfce96f9cd282db9083ba9a08d6fef3d372602970b3a5d"
+  },
+  {
+   "id": "bpk.end.e11",
+   "heading": "E11 Voluntary Workers' Personal Accident",
+   "sha256": "f9e875eb8cca59d33e93f21b270b43727569ca1da1555f89abc4f1a677f1e86e"
+  },
+  {
+   "id": "bpk.end.e12",
+   "heading": "E12 Specified Occupations",
+   "sha256": "7082186dba27851890313f207632adc0857f4b0835e19a019c7a1584e6630254"
+  },
+  {
+   "id": "bpk.appendix.default-schedule-values",
+   "heading": "Default Schedule Values",
+   "sha256": "27b0b4f36b69b1a0400a488738fc47fa374355e4c5868af96a5593470d49546c"
+  },
+  {
+   "id": "bpk.appendix.exclusion-applicability",
+   "heading": "Exclusion Applicability Table",
+   "sha256": "11601fe601170e35d6a14fe5532625882e10a3fb24d7dbabeaaef9a235c7bd2a"
+  },
+  {
+   "id": "bpk.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "ee631bb24366d8cde71319323179ea09ba1523df0adf157d55b7481b82a52d32"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "bpk.end.e01",
+   "heading": "E01 Accidental Damage",
+   "trigger": {
+    "questions": [
+     "qs.bpk.situation.accidental_damage_wanted"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.situation.accidental_damage_wanted == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for accidental damage cover at a Situation.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.situation.accidental_damage_wanted",
+     "text": "Is accidental damage cover wanted at the Situation?",
+     "type": "yes/no",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e02",
+   "heading": "E02 Flood",
+   "trigger": {
+    "questions": [
+     "qs.bpk.situation.flood_history"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.situation.flood_history == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Considered because a Situation has flooded in the last 10 years or is in a flood-prone area.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.situation.flood_history",
+     "text": "Has the Situation flooded in the last 10 years, or is it in an area shown as flood-prone?",
+     "type": "yes/no",
+     "used_by": "R, E02"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e03",
+   "heading": "E03 Seasonal Stock Increase",
+   "trigger": {
+    "questions": [
+     "qs.bpk.situation.seasonal_stock_increase_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.situation.seasonal_stock_increase_pct > 50",
+      "action": "refer"
+     },
+     {
+      "when": "qs.bpk.situation.seasonal_stock_increase_pct > 0",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because your stock rises by {qs.bpk.situation.seasonal_stock_increase_pct}% in peak months.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.situation.seasonal_stock_increase_pct",
+     "text": "By what percentage does stock rise in peak months, if at all?",
+     "type": "percentage, with the months",
+     "used_by": "E03"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e04",
+   "heading": "E04 Equipment Damage Consequential Loss",
+   "trigger": {
+    "questions": [
+     "qs.bpk.equipment.breakdown_bi_wanted"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.equipment.breakdown_bi_wanted == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for loss of profit cover after equipment breakdown.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.equipment.breakdown_bi_wanted",
+     "text": "Is loss of profit cover after equipment breakdown wanted?",
+     "type": "yes/no",
+     "used_by": "E04"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e05",
+   "heading": "E05 Increased Tenants' Liability",
+   "trigger": {
+    "questions": [
+     "qs.bpk.liability.lease_tenants_liability_required"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.liability.lease_tenants_liability_required > 2000000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.bpk.liability.lease_tenants_liability_required > 500000",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because your lease requires tenants' liability cover of ${qs.bpk.liability.lease_tenants_liability_required}.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.liability.lease_tenants_liability_required",
+     "text": "If the business leases premises, what tenants' liability limit does the lease require?",
+     "type": "currency (AUD)",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e06",
+   "heading": "E06 Increased Property in Physical or Legal Control",
+   "trigger": {
+    "questions": [
+     "qs.bpk.liability.property_in_care_value"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.liability.property_in_care_value > 1000000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.bpk.liability.property_in_care_value > 250000",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because you hold others' property worth up to ${qs.bpk.liability.property_in_care_value}.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.liability.property_in_care_value",
+     "text": "What is the most value of other people's property in the business's care, custody or control at any one time?",
+     "type": "currency (AUD)",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e07",
+   "heading": "E07 Product Recall Costs",
+   "trigger": {
+    "questions": [
+     "qs.bpk.liability.products_supplied"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.liability.products_supplied == manufacture_or_import",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you manufacture or import the products you sell.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.liability.products_supplied",
+     "text": "Does the business sell or supply products, and does it manufacture or import any of them?",
+     "type": "select",
+     "options": [
+      "no_products",
+      "resell_only",
+      "manufacture_or_import"
+     ],
+     "used_by": "R, E07"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e08",
+   "heading": "E08 Minor Contract Works",
+   "trigger": {
+    "questions": [
+     "qs.bpk.situation.works_contract_value"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.situation.works_contract_value > 250000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.bpk.situation.works_contract_value > 0",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because building works worth ${qs.bpk.situation.works_contract_value} are under way at a Situation.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.situation.works_contract_value",
+     "text": "What is the contract value of any building works under way at the Situation?",
+     "type": "currency (AUD)",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e09",
+   "heading": "E09 Interests of Lessors and Financiers",
+   "trigger": {
+    "questions": [
+     "qs.bpk.insured.interested_parties_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.insured.interested_parties_count > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you asked us to note a lessor or financier.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.insured.interested_parties_count",
+     "text": "How many lessors or financiers must be noted on the policy?",
+     "type": "number, with names",
+     "used_by": "S, E09"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e10",
+   "heading": "E10 Hot Works",
+   "trigger": {
+    "questions": [
+     "qs.bpk.liability.hot_works_away"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.liability.hot_works_away == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you carry out hot works away from your premises.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.liability.hot_works_away",
+     "text": "Does the business carry out welding, cutting or other hot works away from its own premises?",
+     "type": "yes/no",
+     "used_by": "A, E10"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e11",
+   "heading": "E11 Voluntary Workers' Personal Accident",
+   "trigger": {
+    "questions": [
+     "qs.bpk.insured.voluntary_workers"
+    ],
+    "rules": [
+     {
+      "when": "qs.bpk.insured.voluntary_workers > 0",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because {qs.bpk.insured.voluntary_workers} voluntary workers help the Business.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.insured.voluntary_workers",
+     "text": "How many voluntary workers help the business?",
+     "type": "number",
+     "used_by": "E11"
+    }
+   ]
+  },
+  {
+   "id": "bpk.end.e12",
+   "heading": "E12 Specified Occupations",
+   "trigger": {
+    "questions": [
+     "qs.bpk.situation.hazards"
+    ],
+    "rules": [
+     {
+      "when": "'deep_frying' in qs.bpk.situation.hazards or 'spray_painting' in qs.bpk.situation.hazards or 'woodworking' in qs.bpk.situation.hazards",
+      "action": "refer"
+     },
+     {
+      "when": "'flammable_liquids' in qs.bpk.situation.hazards",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because of the hazards at a Situation: {qs.bpk.situation.hazards}.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.bpk.situation.hazards",
+     "text": "Which of these take place at the Situation?",
+     "type": "multi-select",
+     "options": [
+      "flammable_liquids",
+      "spray_painting",
+      "hot_works",
+      "deep_frying",
+      "woodworking",
+      "none"
+     ],
+     "used_by": "R, A, E12"
+    }
+   ]
+  }
+ ],
+ "sha256": "02f3ff80af86752f06efbf6a11dacefb8eafd6a1477f22a7cab65acf4152c5f7"
+}

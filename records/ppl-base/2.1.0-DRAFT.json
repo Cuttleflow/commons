@@ -1,0 +1,1611 @@
+{
+ "wording": "ppl-base",
+ "version": "2.1.0-DRAFT",
+ "doc_ref": "2026/LI/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "ppl.about",
+   "heading": "About This Policy",
+   "sha256": "73533924ce3fe0764c7e999d20b94dea46f46b33170487707c30d536c3a38fbe"
+  },
+  {
+   "id": "ppl.who-this-policy-is-for",
+   "heading": "Who This Policy Is For",
+   "sha256": "a38f1daf7d9ecf072b233aac223527991c57a1046372c7723f69ab765cb3e763"
+  },
+  {
+   "id": "ppl.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "ppl.schedule",
+   "heading": "Schedule",
+   "sha256": "cb7b63df27e8a8f433c4e674e59dba08660ff2f792053e01ef4b5369a9629517"
+  },
+  {
+   "id": "ppl.section.definitions",
+   "heading": "Definitions",
+   "sha256": "64c75eb2e12fb06c76f52fbbb8832075f051408d068014c94600b15c91b84aaf"
+  },
+  {
+   "id": "ppl.def.abuse",
+   "heading": "Abuse",
+   "sha256": "95a28ce5f7fe3a17af9379d9471b131a4298dfe9a4a79a54e9f773e38c701122"
+  },
+  {
+   "id": "ppl.def.advertising-injury",
+   "heading": "Advertising Injury",
+   "sha256": "b2b66ab6e543df78e2c226facabd5b2773100d0b1931304ee73b40b37bfed2e8"
+  },
+  {
+   "id": "ppl.def.business",
+   "heading": "Business",
+   "sha256": "4d1a9196dd13124331aaa73e36e4839b683ad5df61634f0efcc73c600749e7a7"
+  },
+  {
+   "id": "ppl.def.claim",
+   "heading": "Claim",
+   "sha256": "31c2728f67007045963fce42541800b97655feb632adbc0663a32668899720f4"
+  },
+  {
+   "id": "ppl.def.communicable-disease",
+   "heading": "Communicable Disease",
+   "sha256": "7d8de0f4d843ff7cf39e7f1fe380075d84707fc0a1e854608049c4676166498d"
+  },
+  {
+   "id": "ppl.def.compensation",
+   "heading": "Compensation",
+   "sha256": "1ce9931c7ae6bc09becc207acac9117d2deefb0e9d3949702e2dcd73dac344cc"
+  },
+  {
+   "id": "ppl.def.control-group",
+   "heading": "Control Group",
+   "sha256": "25b63ad563cb8b34bd85cb90270cb49047ab2f6e44ec0051b6ac35e04121a856"
+  },
+  {
+   "id": "ppl.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "5641b6b8a438b6f4b81b218fd83e6e78cf1f92aa77e8acaf989e34f960ae383a"
+  },
+  {
+   "id": "ppl.def.employee",
+   "heading": "Employee",
+   "sha256": "7822452390eea28ed9f0b9ec6e1d1f645db18dcdc2330ddfb566bac6aa0b4b68"
+  },
+  {
+   "id": "ppl.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "ppl.def.excess",
+   "heading": "Excess",
+   "sha256": "177b79b6d5bc59990af48ea7bac840742b1f0bb0504574b23f68880a604d9a4d"
+  },
+  {
+   "id": "ppl.def.geographical-limits",
+   "heading": "Geographical Limits",
+   "sha256": "285629a5a15063d8d2825f6ad4366e24fcc32c985373599424ec82e5452fae2c"
+  },
+  {
+   "id": "ppl.def.labour-hire-worker",
+   "heading": "Labour Hire Worker",
+   "sha256": "6ceb98dddd5d3ff3fb0658e0d4f79971d2692da2d9aef440c94c9cc8ce28aa7c"
+  },
+  {
+   "id": "ppl.def.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "09ba877baa7b4556949aaa1dddf6058cae9219dcde753745ea42d03069e77de5"
+  },
+  {
+   "id": "ppl.def.named-insured",
+   "heading": "Named Insured",
+   "sha256": "74e8c4ee94a0cbabc0be8a015ef7256d67ab6d806fa3ffdaf990b1974f4fd097"
+  },
+  {
+   "id": "ppl.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "35f2447c98ec31dc92c06188d04009fa66ef5e06c3129a166bfd1518065032f8"
+  },
+  {
+   "id": "ppl.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "ae25dbe6057e9f396beb8892bb42da57826ff75c3fd1bc4f548b5462c0983baa"
+  },
+  {
+   "id": "ppl.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "63e7fdd289a56246cd031104e1f190f7864255d2706e9160682d26c69ae4daaf"
+  },
+  {
+   "id": "ppl.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "581f213fa4981e58265efc7d368f8380db5dfb990758e3885cbaefe8072ec6dc"
+  },
+  {
+   "id": "ppl.def.premises",
+   "heading": "Premises",
+   "sha256": "00a554b8a7b5cedc77ffec6de0e473bd35b4b81dcd839ccc7097479f9329409a"
+  },
+  {
+   "id": "ppl.def.products",
+   "heading": "Products",
+   "sha256": "8c4cde6e44ba284d8747407036a3f34622629b1999495f8729f6503ba6543cd5"
+  },
+  {
+   "id": "ppl.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "fb6df39a3c445281665bee2d60cc168d667899356d9f9495b019a2225dbd8721"
+  },
+  {
+   "id": "ppl.def.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "2132dc94585c950546da6fe10a1f0a33a48ea79bf6131393cece7eb35c17668f"
+  },
+  {
+   "id": "ppl.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "fe91006f38761900114521bc41e0808a43fc50cbf946b33e8ff7b3fc1a48e02d"
+  },
+  {
+   "id": "ppl.def.usa-canada",
+   "heading": "USA and Canada",
+   "sha256": "77b8cfad5252f26039a4e7f452e6b31cdb826fecca684fe67be25af3df240fe7"
+  },
+  {
+   "id": "ppl.def.voluntary-worker",
+   "heading": "Voluntary Worker",
+   "sha256": "38ccf3d588b24c1d7547987428a9d0965401625af7067f3243c7af9c37174d38"
+  },
+  {
+   "id": "ppl.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "1b7b781d4f0d82d7ed6e03ecb5dde2dfd334798e739e6f384affb2d596ab5ba5"
+  },
+  {
+   "id": "ppl.def.worker-to-worker-claim",
+   "heading": "Worker-to-worker Claim",
+   "sha256": "50530413e18f8566196d6308a6bef2ca149d4a36b37228457dc7a2c535a7fadc"
+  },
+  {
+   "id": "ppl.def.you-your",
+   "heading": "You, Your",
+   "sha256": "fb498778bdd6624aa9e1812734e8710c3f24f0c6e593f8269c682b9b20d14d45"
+  },
+  {
+   "id": "ppl.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "ppl.cover.public-liability",
+   "heading": "Public Liability",
+   "sha256": "71e7f1871c5b02ed420446c93595a1978b01f089765ba4a30bda7d3576b9383b"
+  },
+  {
+   "id": "ppl.cover.products-liability",
+   "heading": "Products Liability",
+   "sha256": "623010597a6f73efba7c1b96c07b87d421dfeebdf5832b95eaff91cc55691b9c"
+  },
+  {
+   "id": "ppl.cover.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "1f2c61a979afa1afcc95800612de79fa7519af1cba401567fd30f558584ec3bf"
+  },
+  {
+   "id": "ppl.cover.supplementary-payments",
+   "heading": "Supplementary Payments",
+   "sha256": "9d2bd64a42e5e359618315935a481bbfdfbf9faf861d5e6995f679594e807ace"
+  },
+  {
+   "id": "ppl.section.extensions",
+   "heading": "Extensions of Cover",
+   "sha256": "06ed05214cf4c769fe81852075b12584eff407f9ab86b0682a095baa10559015"
+  },
+  {
+   "id": "ppl.ext.tenants-liability",
+   "heading": "Tenants' Liability",
+   "sha256": "29f4f10599f1f06948f324c9ba2b98cc016c08c72aceb3ef589e543016270f32"
+  },
+  {
+   "id": "ppl.ext.property-in-your-care",
+   "heading": "Property in Your Care, Custody or Control",
+   "sha256": "44e55ba1095360a243bc898157af00d58966bcc76e1db424226ee26148e8ca16"
+  },
+  {
+   "id": "ppl.ext.vehicle-loading",
+   "heading": "Loading and Unloading Vehicles",
+   "sha256": "2e67d72c1dffe470fb6c51ea4ee29199ab6bc4b2d2e424f35836469ad094e254"
+  },
+  {
+   "id": "ppl.ext.tool-of-trade",
+   "heading": "Vehicles as Tools of Trade",
+   "sha256": "cbb09f71fefe333a2a900b68fe1c26c7db2fa9d4a8a817d6d62ba41ee1b8be36"
+  },
+  {
+   "id": "ppl.ext.completed-operations",
+   "heading": "Completed Work",
+   "sha256": "528eca48352564bf058d337b2b81aeb0e638065c818a8f2735d58403dfb4d67e"
+  },
+  {
+   "id": "ppl.ext.advertising-injury",
+   "heading": "Advertising Injury",
+   "sha256": "eb0ae96c5e32fd9daef8337107c9069311dd6c57191d8794e2a52dd443087e31"
+  },
+  {
+   "id": "ppl.ext.statutory-defence-costs",
+   "heading": "Statutory Liability Defence Costs",
+   "sha256": "73f4af18708041e7ec9584a8e7ba014a0fb06a47f865ab0ebbb22f9e57a2143c"
+  },
+  {
+   "id": "ppl.ext.cross-liabilities",
+   "heading": "Cross Liabilities",
+   "sha256": "d3bb6f8395792694dd1d2ed1b728c5c1e0167b5c96698640ec718ad74adb0875"
+  },
+  {
+   "id": "ppl.ext.newly-acquired-subsidiaries",
+   "heading": "Newly Acquired Subsidiaries",
+   "sha256": "8990ee2c42dc8a9a457a9b221649e031ecf28aa6e64303d8888bbdaa63b761ca"
+  },
+  {
+   "id": "ppl.ext.voluntary-workers",
+   "heading": "Voluntary Workers",
+   "sha256": "77690d74e2f0c1da474b93ff125c7f9d0a2cc66271898f6a7a65c041881f6978"
+  },
+  {
+   "id": "ppl.ext.first-aid",
+   "heading": "First Aid and Medical Services",
+   "sha256": "291d0406c7825e55f0d4398e362907a764aca01db8a81b4c5dceaf1d5fb23f8e"
+  },
+  {
+   "id": "ppl.ext.underground-services",
+   "heading": "Damage to Underground Services",
+   "sha256": "574c83e06c055aaa65d49caa59981da7e78ae3319040b6589c9a936a6bb84c81"
+  },
+  {
+   "id": "ppl.ext.contractors",
+   "heading": "Liability for Contractors",
+   "sha256": "ddd5f59b88e973c61b9d343734b7ad55298c03108dda15389f2606cc3becdc8f"
+  },
+  {
+   "id": "ppl.ext.business-visits",
+   "heading": "Business Visits Overseas",
+   "sha256": "f87ed88fc352fcea8ba62ad8a1403770ef04ce120906f12522548a22fc0442d5"
+  },
+  {
+   "id": "ppl.ext.wrongful-arrest",
+   "heading": "Wrongful Arrest",
+   "sha256": "dbd352ab1acf78b17a59f5643e6b1fef9e135127a698cba471a54bb0bbebda54"
+  },
+  {
+   "id": "ppl.ext.employees-property",
+   "heading": "Employees' and Visitors' Property",
+   "sha256": "b0ad9e7a9f1ea5b366462c9e57cdbb2f0d4b4c0c4b21fadb20b4faa191e5c442"
+  },
+  {
+   "id": "ppl.ext.incidental-liquor",
+   "heading": "Incidental Supply of Liquor",
+   "sha256": "8d92490b86d96905ed8d441b0ac53c77139ba77d22d6194f701d62454be7f757"
+  },
+  {
+   "id": "ppl.ext.labour-hire",
+   "heading": "Injury to Labour Hire Workers",
+   "sha256": "b88369a58461b7f5aff83da92f8ca6ecaf0f76db5b12e5d73a914681b67411d4"
+  },
+  {
+   "id": "ppl.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "d8870bb390f19bc5bea6899e91c7bc95c07ed44d91312921d698289773985d71"
+  },
+  {
+   "id": "ppl.excl.employers-liability",
+   "heading": "Employers' Liability",
+   "sha256": "3cd2f9ae49f1ba965abdb92d6a97f3a06d94624e1ccbc135583119d95afd669a"
+  },
+  {
+   "id": "ppl.excl.professional-services",
+   "heading": "Professional Services",
+   "sha256": "ad8c57dbdf34149f76c0ea6d084c3a315335e3c89b20a21f2b9473087b6b810f"
+  },
+  {
+   "id": "ppl.excl.cyber-event",
+   "heading": "Cyber Event",
+   "sha256": "2ddee5a0dc87ad53554e4fdd1e09be0ea2dd22e8c2b3dbc69b7e6c59fdb5ebfe"
+  },
+  {
+   "id": "ppl.excl.directors-and-officers",
+   "heading": "Directors' and Officers' Liability",
+   "sha256": "a141d412a063496a595abc305a8472dfff6231042f30b21db7919da6d4cdd699"
+  },
+  {
+   "id": "ppl.excl.property-in-your-control",
+   "heading": "Property You Own or Control",
+   "sha256": "8bc785855c0486e1cdc96ccbc703cb24c40ce59df169a0c5c06ad1a37a4e28a7"
+  },
+  {
+   "id": "ppl.excl.your-products-and-work",
+   "heading": "Your Products and Work Themselves",
+   "sha256": "af7cf677b9f33d3f25abbea3d9947947c37cac8dba4f8c56b5ae4be520ad0651"
+  },
+  {
+   "id": "ppl.excl.product-performance",
+   "heading": "Product Performance",
+   "sha256": "ca8e34be77d5bcc3058b3ac2400d025c209f4f3659a93600595bc2ab7932fe2a"
+  },
+  {
+   "id": "ppl.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "268c2ff0702af3cad23036b3db79ba26ae0d1e24cd8c84169a62559dd2cda502"
+  },
+  {
+   "id": "ppl.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "926efd38c318e8478699fa4c2d4abac5f6054099dd6d3515271e0da9563a5e37"
+  },
+  {
+   "id": "ppl.excl.motor-vehicles",
+   "heading": "Motor Vehicles",
+   "sha256": "97e00eefbbeeac789f3995e901d04b6bfd07a0281dff934e4383ffeff49e38d7"
+  },
+  {
+   "id": "ppl.excl.aircraft-and-watercraft",
+   "heading": "Aircraft and Watercraft",
+   "sha256": "348ed777c95102e162ae24590f11f520499227d9b4f655f7237ce4f17a08648b"
+  },
+  {
+   "id": "ppl.excl.aircraft-products",
+   "heading": "Aircraft Products",
+   "sha256": "f630dd6981c39074ab5d4c51c58e38f17c759d9877dcc39ef0812c18039f820f"
+  },
+  {
+   "id": "ppl.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "05a53825f9da0143b954d19de3946e318c96c887f74dbd950598b0498d746531"
+  },
+  {
+   "id": "ppl.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "59f66c1f447fb45269f41c1120eaac0e1a624b897c020ff5a12738c09dcd70d5"
+  },
+  {
+   "id": "ppl.excl.silica",
+   "heading": "Silica",
+   "sha256": "f799e09ecac8575231663a8ddfcd6e1c29dd868f7b026e0fe6ad8646ea3bdc68"
+  },
+  {
+   "id": "ppl.excl.pfas",
+   "heading": "PFAS",
+   "sha256": "db460b16c122ab7da04e49e8e379aca005f5b60b56afa3ac92d7b4b4a9fd9566"
+  },
+  {
+   "id": "ppl.excl.mould",
+   "heading": "Mould",
+   "sha256": "868aa41fb19fc911d6f844455206624631f3c18c1db29043d752d398858cdc58"
+  },
+  {
+   "id": "ppl.excl.communicable-disease",
+   "heading": "Communicable Disease",
+   "sha256": "20dd13411ff4668b63ace0b30f5ba6a0e77fbec79c5bbf8b12f057b4ee57238f"
+  },
+  {
+   "id": "ppl.excl.abuse",
+   "heading": "Abuse",
+   "sha256": "59306fac9332829169b04e8fce3381feb02f92b9f2d85ce2cb8faf7dca18e9f0"
+  },
+  {
+   "id": "ppl.excl.licensed-venues",
+   "heading": "Licensed Venues",
+   "sha256": "6402237e9ae9cfe98593824903d99b72ed5a3d230784ab4b0afa3a7004b42f09"
+  },
+  {
+   "id": "ppl.excl.vibration-and-support",
+   "heading": "Vibration and Removal of Support",
+   "sha256": "88fe1743db5cdf4c3fe87e92ab40e1f9784905c276fc72f2c95590c3fea2a121"
+  },
+  {
+   "id": "ppl.excl.shoring-and-underpinning",
+   "heading": "Shoring and Underpinning",
+   "sha256": "8905dd383e921761d96f3c6fe91728adb3a9832c0b184e87a6a6014afafaef19"
+  },
+  {
+   "id": "ppl.excl.overseas-work",
+   "heading": "Work Outside Australia and New Zealand",
+   "sha256": "75f61b09fe07e50b21ec51dcdcb1469061812a63c96219c9d3c8b2f0973c0565"
+  },
+  {
+   "id": "ppl.excl.usa-canada",
+   "heading": "USA and Canada",
+   "sha256": "0b729aab81fd47d418188d4a2148fcd0ef6fb99470d921317a37815e366e0e5a"
+  },
+  {
+   "id": "ppl.excl.high-hazard-products",
+   "heading": "High-Hazard Products",
+   "sha256": "9ce0078a0a6900bf124e4c600f80a98ac9701ac056cf32828df8dd01a0022360"
+  },
+  {
+   "id": "ppl.excl.known-injury",
+   "heading": "Known Injury or Damage",
+   "sha256": "644d6362a11c6fba60a87b7430698ca207b9b10bc2211d084d9b8e2ce79b0262"
+  },
+  {
+   "id": "ppl.excl.fines-and-penalties",
+   "heading": "Fines, Penalties and Punitive Damages",
+   "sha256": "e1fe8854c17d06acd17b6dc44b9c0b6318b92eb7da251838c01d74112fa67c35"
+  },
+  {
+   "id": "ppl.excl.economic-loss",
+   "heading": "Financial Loss Without Injury or Damage",
+   "sha256": "c8dfdd80c463519b9ead94187c915e3d932d1eb970ba731a9ca3deba3f947a74"
+  },
+  {
+   "id": "ppl.excl.war-and-terrorism",
+   "heading": "War and Terrorism",
+   "sha256": "106f05f7fe7802d0166e74e89386ba6ca025fe353fd911ee0730a157d333c5ca"
+  },
+  {
+   "id": "ppl.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "f475c3cd1de44e810b0a7dbd71066d885ccd1169f8ec65020f5cfa375493ddb2"
+  },
+  {
+   "id": "ppl.excl.how-the-exclusions-apply",
+   "heading": "How the Exclusions Apply",
+   "sha256": "0ad98f1cc70d73daff0f983f532e6a55b7ebadbcb3e63421e3141a731d9f7357"
+  },
+  {
+   "id": "ppl.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "ppl.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "3d08a908c7e2f49642e809224245eebf88c874c322958e09ba750b54bb980fcd"
+  },
+  {
+   "id": "ppl.pay.sub-limits",
+   "heading": "Sub-limits",
+   "sha256": "212b226ee6e76d3c8270d9dbfe2af3e17aa1acde229aa3cb19ee02104128ac21"
+  },
+  {
+   "id": "ppl.pay.one-occurrence",
+   "heading": "One Occurrence, One Limit",
+   "sha256": "f71c44ae965e9c47bcea9e7d43b4e44ab20e50dddb6fdf538a47ea15244ecca4"
+  },
+  {
+   "id": "ppl.pay.defence-costs-and-the-limit",
+   "heading": "Defence Costs and the Limit",
+   "sha256": "1766dc72dd4fde8e22bd5ebd8bade57db6c56a1f5eb083e54ed4744804a7eef6"
+  },
+  {
+   "id": "ppl.pay.excess",
+   "heading": "Excess",
+   "sha256": "d97050064b0c5bd03690653fe6d6b6041d3de6acbf8a5ed5bc9751673e86b92e"
+  },
+  {
+   "id": "ppl.pay.paying-out-the-limit",
+   "heading": "Paying Out the Limit",
+   "sha256": "3f8d2c204dc91973b4cad1ea5e8f4582a1179f85f51cb9cbfb7e6e2df246687f"
+  },
+  {
+   "id": "ppl.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "5a49d393c11ddcb1d43d81bf43eae5bb238bb04c968185084d6afc8edb214ed2"
+  },
+  {
+   "id": "ppl.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "ca4bd4fb60c583c818532ea4dbdf6c2ea25b031a287830ab57f6dffe3026b15f"
+  },
+  {
+   "id": "ppl.obl.tell-us-about-claims",
+   "heading": "Tell Us About Occurrences and Claims",
+   "sha256": "af28bdb7f731c34568b3f5bd3dcc3940654eb01020af0df28aaff462469a2aed"
+  },
+  {
+   "id": "ppl.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability",
+   "sha256": "35eba817133b2b2136a9d41c6cd2476fd389e353240d88d527c2c4c3a74564ef"
+  },
+  {
+   "id": "ppl.obl.cooperate-with-us",
+   "heading": "Cooperate With Us",
+   "sha256": "c42a9666b5d449451c75cf004a20f351fa0910ca1162c977a0bbfeda8a311450"
+  },
+  {
+   "id": "ppl.obl.reasonable-precautions",
+   "heading": "Reasonable Precautions",
+   "sha256": "25b582f20f0daccd47d76be287481200d8df46f050319539ad5e39634089fa69"
+  },
+  {
+   "id": "ppl.obl.preserve-our-recovery-rights",
+   "heading": "Preserve Our Recovery Rights",
+   "sha256": "25cdf561b7334ba510fb9d4c6b9ebdd3de7fa0534e227a5e35daf695775f17ad"
+  },
+  {
+   "id": "ppl.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "b2c0d061420ef45db9a537708378c22f7a329e4838693ffb65f5a192a7fb976b"
+  },
+  {
+   "id": "ppl.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "ppl.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "ppl.cond.your-duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "0e25f48547ed8c0f054c9cb5d3d659d98d402f317810a4b06e31d8d757e4d0db"
+  },
+  {
+   "id": "ppl.cond.individual-treatment",
+   "heading": "Individual Treatment of Insureds",
+   "sha256": "a082e4a4e8e38a3025f56f0f4928c7221e7e341bf5bac00b19d6b048933377a2"
+  },
+  {
+   "id": "ppl.cond.claims-made-endorsements",
+   "heading": "Claims-Made Endorsements",
+   "sha256": "8ef5c92c5d01447539152c14c76b83109e3ff3a33f2bc58d61f88e4ff1cb41ec"
+  },
+  {
+   "id": "ppl.cond.corporations-act-199",
+   "heading": "Corporations Act 2001 (Cth), sections 199A and 199B",
+   "sha256": "48c66c4b8fa6f0683a7f91648fda8ef528d671a29550322797b6c73779053574"
+  },
+  {
+   "id": "ppl.cond.subrogation-waiver",
+   "heading": "Waiver of Subrogation",
+   "sha256": "819732559d379e33d4d0f3be600b9cbf5ad7328d6612a928a8ad4310e174014e"
+  },
+  {
+   "id": "ppl.cond.premium-adjustment",
+   "heading": "Premium Adjustment",
+   "sha256": "fca5022683cc02952411250789f6ffa551ef7a0779a0be842439c15b75e654da"
+  },
+  {
+   "id": "ppl.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "c03bcec51d8e5b5fcfcec0725c7f5fba4bb5830d9820021a3fefb21af15fb37f"
+  },
+  {
+   "id": "ppl.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "ppl.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "9ccb7e16c1a9b51c6db9904ea05cee5237eeb333640c3d7b53378abe756c24fe"
+  },
+  {
+   "id": "ppl.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "22145c8f4d4fc3b0d5cecaccacbf8c6247fd664c5c913a83547032850376d823"
+  },
+  {
+   "id": "ppl.cond.gst",
+   "heading": "GST",
+   "sha256": "7e0cae894f1fc52df702d420d282dd671654dc850058dd92285fcec7cedaad9d"
+  },
+  {
+   "id": "ppl.cond.several-liability",
+   "heading": "Several Liability",
+   "sha256": "d02c12cd0232c9ef649e13a237eea560de61c9760ba11499f3ce6c412e89fcea"
+  },
+  {
+   "id": "ppl.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "52bae2a47f23fc6dcbd694b1c7be9a0bd44ed177f21af89185dd63b0b12ce152"
+  },
+  {
+   "id": "ppl.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "5c5155f22f958796159ee3ae23134232702a87b393a329f3ce5487a60046939c"
+  },
+  {
+   "id": "ppl.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "1def170c11fccbab63ecd105972a8e306c1a02af7e136946bad76ca793abda6b"
+  },
+  {
+   "id": "ppl.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "f64ede9df80f014020fe29ecf9e07b654c5083827ba569d03a729d15d25e77cd"
+  },
+  {
+   "id": "ppl.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "8344ce0484129b31fc93bcfebaa876d50c318106ca4af9a8d54537e62e5be0c5"
+  },
+  {
+   "id": "ppl.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "62a8b9d1e865890444d583bcf148042a72d432f0005e9bddcb0f10c82dd9eb64"
+  },
+  {
+   "id": "ppl.end.e01",
+   "heading": "E01 Increased Tenants' Liability",
+   "sha256": "28da43dc03a60ef47ce8bf779e7b1e18096f886002305a40a0d2687ffe0c3369"
+  },
+  {
+   "id": "ppl.end.e02",
+   "heading": "E02 Increased Property in Your Care",
+   "sha256": "35c21973f75a45f8ad4454aefca114c3affc42831a9b3f416839e819a2c87059"
+  },
+  {
+   "id": "ppl.end.e03",
+   "heading": "E03 Defence Costs Within the Limit",
+   "sha256": "feadff8f6f63d9c258ee4d3f5488bec16e57cefabe92a35aaef1e0cd09c2619a"
+  },
+  {
+   "id": "ppl.end.e04",
+   "heading": "E04 Overseas Work",
+   "sha256": "959d972621f2588cd89d55a8c7a7f35d3908e909499526a6426d3277c7e0d2cd"
+  },
+  {
+   "id": "ppl.end.e05",
+   "heading": "E05 Gradual Pollution",
+   "sha256": "9e148d15dcabe4e110cc29de0b7cbc37e569f665e6e3592e5b18f5e6d71f748f"
+  },
+  {
+   "id": "ppl.end.e06",
+   "heading": "E06 Therapeutic Goods and Medical Devices",
+   "sha256": "84172a9a338dd1c27fd6778ebe6ff0113d24e933c630f7e4aace4b0604752fb6"
+  },
+  {
+   "id": "ppl.end.e07",
+   "heading": "E07 Licensed Venues",
+   "sha256": "aa3834d6ee39d7fb66c2940185f0c1d639a9590b8c2ccd5c0bbf094c5fc82eaf"
+  },
+  {
+   "id": "ppl.end.e08",
+   "heading": "E08 Incidental Professional Services",
+   "sha256": "38da8c35af544dec97c60b4620291ea3394a662842cfcb9927e5a8f87ad0a072"
+  },
+  {
+   "id": "ppl.end.e09",
+   "heading": "E09 Drones",
+   "sha256": "7b66cf45e3b12ee358f8b3e8a0fb60547a9ab6870c284511efe743b563240670"
+  },
+  {
+   "id": "ppl.end.e10",
+   "heading": "E10 USA and Canada",
+   "sha256": "9f5581219b4fffffc81727c252d55159c83c8623fd2a03fdf34da5e2c4fd8449"
+  },
+  {
+   "id": "ppl.end.e11",
+   "heading": "E11 Excess Layer",
+   "sha256": "fd34e9eaa01397195e3e9cd2296787fdfde45cec5dd5a72b6a902217dc6d7647"
+  },
+  {
+   "id": "ppl.end.e12",
+   "heading": "E12 Named Principals",
+   "sha256": "4a0c3b1529453807b106be42d9454dd3ef60b0b4c101c69272d208111661facf"
+  },
+  {
+   "id": "ppl.end.e13",
+   "heading": "E13 Vibration and Removal of Support",
+   "sha256": "160abd4caab0bc86962fa152050c27102dc298c53d859c8da6a59a9338e64195"
+  },
+  {
+   "id": "ppl.end.e14",
+   "heading": "E14 Shoring and Underpinning",
+   "sha256": "255ad6fd31da2fefb6d91e843e31fc192b9bae7221e13d160839db556e7db424"
+  },
+  {
+   "id": "ppl.end.e15",
+   "heading": "E15 Hot Works Conditions",
+   "sha256": "6b427c0a57ecce094c2c107ee9b1d79fdeb04236e73bd5d13d6636a4d3800f07"
+  },
+  {
+   "id": "ppl.end.e16",
+   "heading": "E16 Product Recall Expenses",
+   "sha256": "48af2f9adf6aad48304e9b4ef8329d1ed5aefbddeb5f8c534cc209a3648084fc"
+  },
+  {
+   "id": "ppl.end.e17",
+   "heading": "E17 Product Errors and Omissions",
+   "sha256": "4ecf232a128c6f27397efe44f335cb38c85f50c73837a6525d6f0e89abe68aa2"
+  },
+  {
+   "id": "ppl.end.e18",
+   "heading": "E18 New Zealand Exemplary Damages",
+   "sha256": "017c17195ad366b05389e0b3dbcd5c2193f6904cf5f020f12612e520e6d5bf84"
+  },
+  {
+   "id": "ppl.end.e19",
+   "heading": "E19 Abuse Write-back",
+   "sha256": "c5f235b2b73cb4941c73a5ca007569ab53e62e0b4af217fc3838003ff9f4bb38"
+  },
+  {
+   "id": "ppl.end.e20",
+   "heading": "E20 Silica Write-back",
+   "sha256": "714c854d80b8077abd690087d0d1f3810a9f7bfbff38644bea97d5573e442465"
+  },
+  {
+   "id": "ppl.end.e21",
+   "heading": "E21 Worker-to-worker Excess",
+   "sha256": "2fe9ef3e94722e2da0c70c32b36d52aab18500b5d11ce1558b11dbff53847de4"
+  },
+  {
+   "id": "ppl.end.e22",
+   "heading": "E22 PFAS Write-back",
+   "sha256": "ec058cef78fd21e6e562163f17716c28461ed7ffdd702218c4217b0869dd48bd"
+  },
+  {
+   "id": "ppl.end.e23",
+   "heading": "E23 Communicable Disease Write-back",
+   "sha256": "7b8756d575600a5d48a03da3dcc5e1585211a879321dd3cd9d764c7782dbcf41"
+  },
+  {
+   "id": "ppl.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "ppl.end.e01",
+   "heading": "E01 Increased Tenants' Liability",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.tenant_liability_required"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.tenant_liability_required > 2000000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.tenant_liability_required > 500000",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because your lease requires {qs.ppl.ops.tenant_liability_required} cover for damage to the premises.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.tenant_liability_required",
+     "text": "What liability limit does your lease require for damage to the leased premises? Enter 0 if none.",
+     "type": "currency (AUD)",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e02",
+   "heading": "E02 Increased Property in Your Care",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.ccc_max_value"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.ccc_max_value > 1000000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.ccc_max_value > 250000",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you hold up to {qs.ppl.ops.ccc_max_value} of other people's property.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.ccc_max_value",
+     "text": "What is the highest value of other people's property in your care at any one time?",
+     "type": "currency (AUD)",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e03",
+   "heading": "E03 Defence Costs Within the Limit",
+   "trigger": {
+    "questions": [
+     "qs.ppl.cover.limit"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.cover.limit > 20000000",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because you asked for a limit of {qs.ppl.cover.limit}; defence costs would reduce the limit.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.cover.limit",
+     "text": "What limit of liability do you want?",
+     "type": "select (AUD)",
+     "options": [
+      5000000,
+      10000000,
+      20000000,
+      30000000,
+      50000000
+     ],
+     "used_by": "R, E03, S"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e04",
+   "heading": "E04 Overseas Work",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.overseas_work"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.overseas_work == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you do physical work outside Australia and New Zealand.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.overseas_work",
+     "text": "Do you do physical work outside Australia and New Zealand? If yes, in which countries and for what percentage of turnover?",
+     "type": "yes/no, with list",
+     "used_by": "E04"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e05",
+   "heading": "E05 Gradual Pollution",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.gradual_pollution_requested",
+     "qs.ppl.ops.hazardous_substances"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.gradual_pollution_requested == yes and qs.ppl.ops.hazardous_substances == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.gradual_pollution_requested == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you asked for gradual pollution cover.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.gradual_pollution_requested",
+     "text": "Do you want cover for gradual pollution?",
+     "type": "yes/no",
+     "used_by": "E05"
+    },
+    {
+     "id": "qs.ppl.ops.hazardous_substances",
+     "text": "Do you store or use hazardous substances in more than household quantities?",
+     "type": "yes/no, with description",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e06",
+   "heading": "E06 Therapeutic Goods and Medical Devices",
+   "trigger": {
+    "questions": [
+     "qs.ppl.products.tga_regulated"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.products.tga_regulated == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you supply therapeutic goods or medical devices.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.products.tga_regulated",
+     "text": "Do you supply medicines, therapeutic goods or medical devices? If yes, list them with their ARTG numbers.",
+     "type": "yes/no, with list",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e07",
+   "heading": "E07 Licensed Venues",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.liquor_supplied",
+     "qs.ppl.ops.trading_after_midnight"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.liquor_supplied == licensed_venue and qs.ppl.ops.trading_after_midnight == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.liquor_supplied == licensed_venue",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you sell or supply alcohol at a licensed venue.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.liquor_supplied",
+     "text": "Do you sell or supply alcohol?",
+     "type": "select",
+     "options": [
+      "no",
+      "incidental",
+      "licensed_venue"
+     ],
+     "used_by": "E07, R"
+    },
+    {
+     "id": "qs.ppl.ops.trading_after_midnight",
+     "text": "Does your licensed venue trade after midnight?",
+     "type": "yes/no",
+     "used_by": "E07"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e08",
+   "heading": "E08 Incidental Professional Services",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.advice_for_fee",
+     "qs.ppl.ops.advice_fee_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.advice_fee_pct > 20",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.advice_for_fee == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because you charge separately for advice, design or inspection.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.advice_for_fee",
+     "text": "Do you give advice, designs or inspections for a separate fee?",
+     "type": "yes/no",
+     "used_by": "E08"
+    },
+    {
+     "id": "qs.ppl.ops.advice_fee_pct",
+     "text": "What percentage of your turnover comes from fees for advice, design or inspection?",
+     "type": "percentage",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e09",
+   "heading": "E09 Drones",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.drones"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.drones == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you operate drones.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.drones",
+     "text": "Do you operate drones? If yes, list each device and its CASA registration.",
+     "type": "yes/no, with list",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e10",
+   "heading": "E10 USA and Canada",
+   "trigger": {
+    "questions": [
+     "qs.ppl.products.usa_canada_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.products.usa_canada_pct > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because {qs.ppl.products.usa_canada_pct}% of your products turnover goes to the USA or Canada.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.products.usa_canada_pct",
+     "text": "What percentage of your products turnover goes to the USA and Canada, directly or indirectly?",
+     "type": "percentage",
+     "used_by": "R, E10"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e11",
+   "heading": "E11 Excess Layer",
+   "trigger": {
+    "questions": [
+     "qs.ppl.cover.layer"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.cover.layer == excess",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for cover in excess of other insurance.",
+    "responses": [
+     "Attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.cover.layer",
+     "text": "Do you want primary or excess cover? If excess, name the underlying insurer and limit.",
+     "type": "select, with details",
+     "options": [
+      "primary",
+      "excess"
+     ],
+     "used_by": "E11"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e12",
+   "heading": "E12 Named Principals",
+   "trigger": {
+    "questions": [
+     "qs.ppl.contracts.named_principals"
+    ],
+    "rules": [
+     {
+      "when": "count(qs.ppl.contracts.named_principals) > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because your contract with {qs.ppl.contracts.named_principals} requires them to be covered.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.contracts.named_principals",
+     "text": "Which principals do your contracts require to be named on this policy? Give the contract references.",
+     "type": "repeating (principal, contract reference)",
+     "used_by": "E12"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e13",
+   "heading": "E13 Vibration and Removal of Support",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.excavation_depth_m",
+     "qs.ppl.ops.demolition"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.excavation_depth_m > 3 or qs.ppl.ops.demolition == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.excavation_depth_m > 0",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you excavate to {qs.ppl.ops.excavation_depth_m} metres.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.excavation_depth_m",
+     "text": "What is the greatest depth you excavate, in metres? Enter 0 if none.",
+     "type": "number (metres)",
+     "used_by": "E13, A"
+    },
+    {
+     "id": "qs.ppl.ops.demolition",
+     "text": "Do you do demolition work?",
+     "type": "yes/no",
+     "used_by": "E13, A"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e14",
+   "heading": "E14 Shoring and Underpinning",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.underpinning",
+     "qs.ppl.ops.engineer_design"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.underpinning == yes and qs.ppl.ops.engineer_design == no",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.underpinning == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you do shoring or underpinning work.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.underpinning",
+     "text": "Do you do shoring or underpinning work?",
+     "type": "yes/no",
+     "used_by": "E14"
+    },
+    {
+     "id": "qs.ppl.ops.engineer_design",
+     "text": "Is your shoring and underpinning work done to an engineer's design?",
+     "type": "yes/no",
+     "used_by": "E14"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e15",
+   "heading": "E15 Hot Works Conditions",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.hot_works_offsite",
+     "qs.ppl.ops.hot_works_permit"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.hot_works_offsite == yes and qs.ppl.ops.hot_works_permit == no",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.hot_works_offsite == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you do hot works away from your premises; permit and fire watch conditions apply.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.hot_works_offsite",
+     "text": "Do you do welding, cutting, grinding or other hot works away from your premises?",
+     "type": "yes/no",
+     "used_by": "E15"
+    },
+    {
+     "id": "qs.ppl.ops.hot_works_permit",
+     "text": "Do you use a hot works permit system with a fire watch?",
+     "type": "yes/no",
+     "used_by": "E15"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e16",
+   "heading": "E16 Product Recall Expenses",
+   "trigger": {
+    "questions": [
+     "qs.ppl.products.recalls_5yrs",
+     "qs.ppl.products.food_beverage",
+     "qs.ppl.products.recall_plan"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.products.recalls_5yrs > 0",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.products.food_beverage == yes and qs.ppl.products.recall_plan == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you supply food or beverages and have a recall plan.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.products.recalls_5yrs",
+     "text": "How many product recalls or withdrawals have you made in the last 5 years?",
+     "type": "number, with details",
+     "used_by": "E16, A"
+    },
+    {
+     "id": "qs.ppl.products.food_beverage",
+     "text": "Do you make or supply food, beverages or other products that are eaten or drunk?",
+     "type": "yes/no",
+     "used_by": "E16, R"
+    },
+    {
+     "id": "qs.ppl.products.recall_plan",
+     "text": "Do you have a written product recall plan?",
+     "type": "yes/no",
+     "used_by": "E16, R"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e17",
+   "heading": "E17 Product Errors and Omissions",
+   "trigger": {
+    "questions": [
+     "qs.ppl.products.components_pct",
+     "qs.ppl.products.role"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.products.components_pct > 50",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.products.role includes manufacturer or qs.ppl.products.role includes own_brand",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you manufacture or brand products.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.products.components_pct",
+     "text": "What percentage of your products turnover is goods supplied as components to other manufacturers?",
+     "type": "percentage",
+     "used_by": "E17"
+    },
+    {
+     "id": "qs.ppl.products.role",
+     "text": "What is your role for each product category?",
+     "type": "multi-select",
+     "options": [
+      "manufacturer",
+      "importer",
+      "distributor",
+      "retailer",
+      "installer",
+      "own_brand"
+     ],
+     "used_by": "R, E17"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e18",
+   "heading": "E18 New Zealand Exemplary Damages",
+   "trigger": {
+    "questions": [
+     "qs.ppl.exposure.nz_turnover_pct",
+     "qs.ppl.products.nz_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.exposure.nz_turnover_pct > 0 or qs.ppl.products.nz_pct > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you work or sell in New Zealand.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.exposure.nz_turnover_pct",
+     "text": "What percentage of your turnover comes from work or sales in New Zealand?",
+     "type": "percentage",
+     "used_by": "E18"
+    },
+    {
+     "id": "qs.ppl.products.nz_pct",
+     "text": "What percentage of your products turnover goes to New Zealand?",
+     "type": "percentage",
+     "used_by": "E18"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e19",
+   "heading": "E19 Abuse Write-back",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.vulnerable_persons",
+     "qs.ppl.ops.child_safe_accreditation"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.vulnerable_persons == yes and qs.ppl.ops.child_safe_accreditation == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you provide services to children or vulnerable people.",
+    "responses": [
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.vulnerable_persons",
+     "text": "Do you provide services to children or other vulnerable people?",
+     "type": "yes/no",
+     "used_by": "E19"
+    },
+    {
+     "id": "qs.ppl.ops.child_safe_accreditation",
+     "text": "Do you hold child-safe accreditation, or follow the National Principles for Child Safe Organisations?",
+     "type": "yes/no",
+     "used_by": "E19"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e20",
+   "heading": "E20 Silica Write-back",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.silica_materials"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.silica_materials == regularly",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.ops.silica_materials == occasionally",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because you work with materials containing silica.",
+    "responses": [
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.silica_materials",
+     "text": "Do you cut, grind or polish stone, concrete, brick or other materials containing silica?",
+     "type": "select",
+     "options": [
+      "no",
+      "occasionally",
+      "regularly"
+     ],
+     "used_by": "E20"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e21",
+   "heading": "E21 Worker-to-worker Excess",
+   "trigger": {
+    "questions": [
+     "qs.ppl.exposure.subcontractor_pct",
+     "qs.ppl.exposure.labour_hire_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.exposure.subcontractor_pct > 50 or qs.ppl.exposure.labour_hire_pct > 50",
+      "action": "refer"
+     },
+     {
+      "when": "qs.ppl.exposure.subcontractor_pct > 25 or qs.ppl.exposure.labour_hire_pct > 25",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Considered because subcontractors or labour hire workers do a large part of your work.",
+    "responses": [
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.exposure.subcontractor_pct",
+     "text": "What percentage of your turnover do you pay to subcontractors?",
+     "type": "percentage",
+     "used_by": "R, E21"
+    },
+    {
+     "id": "qs.ppl.exposure.labour_hire_pct",
+     "text": "What percentage of your total workforce hours are worked by labour hire workers?",
+     "type": "percentage",
+     "used_by": "R, E21"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e22",
+   "heading": "E22 PFAS Write-back",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.pfas_handling"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.pfas_handling == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you store, use, supply or dispose of PFAS.",
+    "responses": [
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.pfas_handling",
+     "text": "Do you store, use, supply or dispose of PFAS or products containing PFAS, such as firefighting foam?",
+     "type": "yes/no, with description",
+     "used_by": "E22"
+    }
+   ]
+  },
+  {
+   "id": "ppl.end.e23",
+   "heading": "E23 Communicable Disease Write-back",
+   "trigger": {
+    "questions": [
+     "qs.ppl.ops.public_contact_premises",
+     "qs.ppl.ops.infection_control_plan"
+    ],
+    "rules": [
+     {
+      "when": "qs.ppl.ops.public_contact_premises == yes and qs.ppl.ops.infection_control_plan == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because members of the public gather in close contact at your premises.",
+    "responses": [
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ppl.ops.public_contact_premises",
+     "text": "Do members of the public gather in close contact at your premises (for example gyms, childcare, aged care, hospitality or events)?",
+     "type": "yes/no",
+     "used_by": "E23"
+    },
+    {
+     "id": "qs.ppl.ops.infection_control_plan",
+     "text": "Do you have a written infection control plan that you follow?",
+     "type": "yes/no, with description",
+     "used_by": "E23"
+    }
+   ]
+  }
+ ],
+ "sha256": "b064917c5269f14926592799a731c7e49d01d84d60724d8951690a1c5d0a969d"
+}

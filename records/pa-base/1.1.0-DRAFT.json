@@ -1,0 +1,1008 @@
+{
+ "wording": "pa-base",
+ "version": "1.1.0-DRAFT",
+ "doc_ref": "2026/PA/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "pa.about",
+   "heading": "About This Policy",
+   "sha256": "8d193179ec3797a9c4d448909949426778622cd8ba3c4895eb0149725e55af79"
+  },
+  {
+   "id": "pa.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "pa.important-information",
+   "heading": "Important Information",
+   "sha256": "8263a04448e748ae6daea9fca15715985e3c012e63c455a4e62dc6f4020f38bc"
+  },
+  {
+   "id": "pa.schedule",
+   "heading": "Schedule",
+   "sha256": "caece642f0443ff65b912647d749890f82cacda21f7da6953d9721e17b8fe05e"
+  },
+  {
+   "id": "pa.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "pa.def.accident",
+   "heading": "Accident",
+   "sha256": "6afa6d6524f3c7c194846530fda67b76fe4b93d3096b5a99380111c7287edeb0"
+  },
+  {
+   "id": "pa.def.benefit-period",
+   "heading": "Benefit Period",
+   "sha256": "a1ecc0a84a5caf18b0b5bd9eca25d7c93ebc50b9f1174f41d7ee0306988de993"
+  },
+  {
+   "id": "pa.def.capital-sum",
+   "heading": "Capital Sum",
+   "sha256": "41a2322d5934ac4b4accca930a2fbd7f3f1c85ec978663b578974b2e1afcefc6"
+  },
+  {
+   "id": "pa.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "pa.def.hazardous-pursuit",
+   "heading": "Hazardous Pursuit",
+   "sha256": "9b1ea2c98f854a0851410b32046cbf61063e41590eb68278b0b2c96666f19eaf"
+  },
+  {
+   "id": "pa.def.income",
+   "heading": "Income",
+   "sha256": "0c33c4136e7fc44893ebcfd0e13ee3267f7dbb03098ae0647ce0d3fb53a5ebc2"
+  },
+  {
+   "id": "pa.def.injury",
+   "heading": "Injury",
+   "sha256": "5a5b915911dfe04874d7c83cf9ea88ea130e3bd20ada1dc700dbd9641d28837a"
+  },
+  {
+   "id": "pa.def.insured-person",
+   "heading": "Insured Person",
+   "sha256": "5602124e58eacbf13d2148b8958cd28a3f2ab7c520c74437c54ffacbaf05869b"
+  },
+  {
+   "id": "pa.def.medical-practitioner",
+   "heading": "Medical Practitioner",
+   "sha256": "012b91cebe353312cdd1c4bc3f5086f9212c914b06c8e38f1588920d8b5057ca"
+  },
+  {
+   "id": "pa.def.mental-illness",
+   "heading": "Mental Illness",
+   "sha256": "1ced82cefe4d5e0bfe1ffd136c1a4b211c8089e478a4fd2079c033278179b906"
+  },
+  {
+   "id": "pa.def.occupation-class",
+   "heading": "Occupation Class",
+   "sha256": "928eade9820919f56cfaccf525b45b115c7d182eedd523fa31fbfc85e3431a2c"
+  },
+  {
+   "id": "pa.def.permanent",
+   "heading": "Permanent",
+   "sha256": "beb2b301b26f81c80ff1f5c9162ed127bd65547222c0d2356989a4211027e25c"
+  },
+  {
+   "id": "pa.def.permanent-total-disablement",
+   "heading": "Permanent Total Disablement",
+   "sha256": "d611754fe13dacaa6b5cd0cba6b18ac7e3a43654dea012a9a16924272df2ed15"
+  },
+  {
+   "id": "pa.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "63e7fdd289a56246cd031104e1f190f7864255d2706e9160682d26c69ae4daaf"
+  },
+  {
+   "id": "pa.def.pre-existing-condition",
+   "heading": "Pre-existing Condition",
+   "sha256": "321f9fe294b220f5fd053a23f976a9c24ed47a444fee2131e1ae04776a2d073e"
+  },
+  {
+   "id": "pa.def.scope-of-cover",
+   "heading": "Scope of Cover",
+   "sha256": "1a32190030e5255d3b97e002212accc57e6b87edaed78f54d2932708c4bca96d"
+  },
+  {
+   "id": "pa.def.sickness",
+   "heading": "Sickness",
+   "sha256": "f8e78c405621898f9a4e4b68237aa42872be22f31bb7913089a78058fde76d90"
+  },
+  {
+   "id": "pa.def.temporary-partial-disablement",
+   "heading": "Temporary Partial Disablement",
+   "sha256": "9ce8881992187921eac4eb51fb6d6813aa868907e8bc19fd0827eea9c7844a9c"
+  },
+  {
+   "id": "pa.def.temporary-total-disablement",
+   "heading": "Temporary Total Disablement",
+   "sha256": "2eb5d582b1f4baa33579b9f13a2248b6482b11fd7c4ec3cc94c59315ee438606"
+  },
+  {
+   "id": "pa.def.waiting-period",
+   "heading": "Waiting Period",
+   "sha256": "b67bf4ad4446972247e973cc067560198a957542b4f5939c2ebc22eb088d6fcf"
+  },
+  {
+   "id": "pa.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "pa.def.weekly-benefit",
+   "heading": "Weekly Benefit",
+   "sha256": "d719ef5b4e7a27ea372fcf43cb13563e89781212e7a15757b8176ea687cd3fb1"
+  },
+  {
+   "id": "pa.def.you-your",
+   "heading": "You, Your",
+   "sha256": "ac1e6172151ae240a459d697a31d16b3bb09bfa6eea4ee921c2ace6b273332ec"
+  },
+  {
+   "id": "pa.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "pa.cover.capital-benefits",
+   "heading": "Capital Benefits",
+   "sha256": "b5454b5d5f16422c75aa66e3c77473ba38b56ff5062dd0d9792580b2861fd7c0"
+  },
+  {
+   "id": "pa.cover.weekly-injury",
+   "heading": "Weekly Benefits for Injury",
+   "sha256": "c12d6b0464fcf1aed9bf9e3377763a489c0d84190f676399c01b637255117f18"
+  },
+  {
+   "id": "pa.cover.weekly-sickness",
+   "heading": "Weekly Benefits for Sickness",
+   "sha256": "9a2825ce7d0f4c5f0ff57693a206d3ada8dda79a4f1c1a5a59f54edc969e6540"
+  },
+  {
+   "id": "pa.section.additional-benefits",
+   "heading": "Additional Benefits",
+   "sha256": "e5fcffb011aa22ceec2aa83de737f6ad8c3d391bdc875d66069f2717f0017b83"
+  },
+  {
+   "id": "pa.ext.exposure-and-disappearance",
+   "heading": "Exposure and Disappearance",
+   "sha256": "8118629a13ac3a308790179ed48cc20461c927cefa7418738dc08d2ea4a9c86d"
+  },
+  {
+   "id": "pa.ext.funeral-expenses",
+   "heading": "Funeral Expenses",
+   "sha256": "72953850d81a34390e0090214dc2f4a5ac34bc850db810c1bd598fc4aa25e5d5"
+  },
+  {
+   "id": "pa.ext.dependent-children",
+   "heading": "Dependent Children",
+   "sha256": "3956458d1d88a7d416e802ff58c9c3bfa6f21fcee091a0d1bd15675a52dd0603"
+  },
+  {
+   "id": "pa.ext.spouse-retraining",
+   "heading": "Spouse or Partner Retraining",
+   "sha256": "22d69960dd68b98dc7adfee206abdc5ebfc9ae7b367e0026610452a46837ed5f"
+  },
+  {
+   "id": "pa.ext.coma",
+   "heading": "Coma",
+   "sha256": "92978b8ca437e24094b87f1071e2db22bbd7ccb27cf7aaec94ac4d97f8c0fad5"
+  },
+  {
+   "id": "pa.ext.broken-bones",
+   "heading": "Broken Bones",
+   "sha256": "4430b442b6c3fab82e9034631bb8ff627af5008d58e79b233af1c23b3b7aba1b"
+  },
+  {
+   "id": "pa.ext.rehabilitation",
+   "heading": "Rehabilitation",
+   "sha256": "636d582eadb1c7781ff0ce41a0ae5b6a191e024b8774fad84a76b65ea0f284e2"
+  },
+  {
+   "id": "pa.ext.home-and-vehicle-modification",
+   "heading": "Home and Vehicle Modification",
+   "sha256": "159024b2b583db6012636354acb328032a8833969aefaf168d02b5b8970f8cc2"
+  },
+  {
+   "id": "pa.ext.transport-to-work",
+   "heading": "Transport to Work",
+   "sha256": "2b10b20b6c6ecca1def4ba7ccd9dbeba3e98cd9d6848fdae525e9d2732631566"
+  },
+  {
+   "id": "pa.ext.escalation",
+   "heading": "Escalation of Weekly Benefits",
+   "sha256": "4f0316bb15bea7f40c62702a647977aae649a9ed38f5cdba913d9d3740d8ef07"
+  },
+  {
+   "id": "pa.section.payment",
+   "heading": "How We Pay Benefits",
+   "sha256": "87377e61cf0d3336a84fb9f3853d2bebc416605f5ba126481d3d1ebcc037bc48"
+  },
+  {
+   "id": "pa.pay.weekly-benefit-amount",
+   "heading": "How Much We Pay Each Week",
+   "sha256": "ffb0a4cdfce0c61a20452497b99a7c64068bd8059c67bc838c44d61b74fdcb8f"
+  },
+  {
+   "id": "pa.pay.recurrence",
+   "heading": "Recurring Disablement",
+   "sha256": "2dad4b4efd6a88db722ed66fca5b0698fbf6944b7648010624cd8aaee8667568"
+  },
+  {
+   "id": "pa.pay.one-capital-event",
+   "heading": "One Capital Benefit for Each Injury",
+   "sha256": "288038d89f730014f1453b7be8c7e1eb422566e0639200ca56b58ffff856611c"
+  },
+  {
+   "id": "pa.pay.weekly-and-capital",
+   "heading": "Weekly Benefits Before a Capital Benefit",
+   "sha256": "6e4caa63ab8230632a5cc42e4cd79de7a0a63060e0156414dd3893c38c6a71df"
+  },
+  {
+   "id": "pa.pay.offsets",
+   "heading": "Other Payments for the Same Disablement",
+   "sha256": "f54d1e58e61dadec09c81f0debecfe5ccf905b9930f35ca54a8ce2a14a2f4f7c"
+  },
+  {
+   "id": "pa.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "0fa610312fbe4f5549dbf8563fb8a973816c38ebfc9bf2bdf243dbc1166eef03"
+  },
+  {
+   "id": "pa.pay.mental-illness",
+   "heading": "Mental Illness",
+   "sha256": "c0dee78ad82eb447fcfa64ff906052eabcd3d19412bfd7e17445ea8210f105d5"
+  },
+  {
+   "id": "pa.pay.age-limits",
+   "heading": "Age Limits",
+   "sha256": "868e1571c84e67d36d325fb2d3487a0c018fb1f2e5bb2f294710270568e324ec"
+  },
+  {
+   "id": "pa.obl.residence-and-travel",
+   "heading": "Living and Travelling Overseas",
+   "sha256": "6db462145ba53ed8f60f1693007b2645410710de9cf287974b8f5e25df57e640"
+  },
+  {
+   "id": "pa.pay.accumulation",
+   "heading": "Accumulation Limit",
+   "sha256": "5c2fc36c8a050917b2ae19a4697877f8bec641d49afcb17203d1ff10c1c6ba21"
+  },
+  {
+   "id": "pa.pay.medicare",
+   "heading": "What the Law Does Not Allow Us to Pay",
+   "sha256": "02d6f567b045c14e94a9a0f0139d359cc2c109d8f6b9876a79a2bcfb89fb1e28"
+  },
+  {
+   "id": "pa.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "19546bf15e41b4a42597d0dd5b3a90f09322902df233f1554dc597cb9f210e11"
+  },
+  {
+   "id": "pa.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "030fcefdab560193990bad4bf7716ec2e7ebde7f975e797128d4cfb68e419899"
+  },
+  {
+   "id": "pa.excl.intentional-self-injury",
+   "heading": "Intentional Self-Injury",
+   "sha256": "38ae104121cc7b43566a255bad97c06a7d7e3dc99073797cdd3876aeb5b33cc6"
+  },
+  {
+   "id": "pa.excl.war",
+   "heading": "War",
+   "sha256": "2abb6dad9c1822536e9c24808dc0876183ae1ec5f44e9bfd4b8476d48c729c83"
+  },
+  {
+   "id": "pa.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "4ce00837ae2c43f57fe8adbc09252db6fd11fa502738c396a58d40b6ba4e91b9"
+  },
+  {
+   "id": "pa.excl.intoxication",
+   "heading": "Alcohol and Drugs",
+   "sha256": "bdc2b5d29eb26eff7615576fd2c672288d83b7c0462cfb09d74205d6e2048121"
+  },
+  {
+   "id": "pa.excl.criminal-acts",
+   "heading": "Criminal and Malicious Acts",
+   "sha256": "c9d2d98ae18d9512e725691dd04df0b100a00ef0d43831ee17996dc5de821f53"
+  },
+  {
+   "id": "pa.excl.professional-sport",
+   "heading": "Professional Sport",
+   "sha256": "e59bb9ed973575ab91e8cc9b8492e10731a4cf9b8efa903ed16a538bee2b6ed6"
+  },
+  {
+   "id": "pa.excl.flying",
+   "heading": "Flying",
+   "sha256": "144a36b137b81d80808d2c696006f53b9cc2e8b435bd8bece70c38d099d1c65b"
+  },
+  {
+   "id": "pa.excl.hazardous-pursuits",
+   "heading": "Hazardous Pursuits",
+   "sha256": "0d2e5dfa09a6c4291736ad62b0462bdacd94e1eb1b961ca23e053fcefe311879"
+  },
+  {
+   "id": "pa.excl.military-service",
+   "heading": "Military Service",
+   "sha256": "95159ce6407d7826b68876d21be476d473ad3ec0f29345069f3d1d40978b0bed"
+  },
+  {
+   "id": "pa.excl.pre-existing-conditions",
+   "heading": "Pre-existing Conditions",
+   "sha256": "4479d3f93824305e7194470dc84f37524f982a6104b88168e62a68fdacc3d818"
+  },
+  {
+   "id": "pa.excl.initial-sickness-period",
+   "heading": "First 30 Days of Sickness Cover",
+   "sha256": "3101b5742eedf66d1034e92802bad0c0f672e2556c86bf2d4ace0f605b9d544b"
+  },
+  {
+   "id": "pa.excl.pregnancy",
+   "heading": "Pregnancy",
+   "sha256": "4677cd69d0d749088f71b91250f162e6ed91765060ceef82dcc350f7537dece7"
+  },
+  {
+   "id": "pa.excl.elective-treatment",
+   "heading": "Elective Treatment",
+   "sha256": "4b125905c5c97037744d894317bde61950cb2c84f9c98838b4775d35779b478f"
+  },
+  {
+   "id": "pa.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "180ca1b60a2fff2b6d483557be995cc0d86ee21d11c260dd1ddff5e08d6c3d50"
+  },
+  {
+   "id": "pa.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "10cf6bc556a56ebb86c1fc4cb77be45ff65ccc38873c6336f5eedd47fa45e4af"
+  },
+  {
+   "id": "pa.obl.medical-care-and-examination",
+   "heading": "Medical Care and Examination",
+   "sha256": "9a9fa7bec770c8bd823331a1fbdf064325eb220a664eb6628e32311670ba81ef"
+  },
+  {
+   "id": "pa.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "5dbffadb16321f342100fd2fa1f328e0da7cbfb0c9ce60950298725453d92aad"
+  },
+  {
+   "id": "pa.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "pa.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "pa.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "796b6889a57980e11727d0f069dbdc07b99dae3dcc04524d856e3e12047d4c87"
+  },
+  {
+   "id": "pa.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "c86ca1a7e228dcda5eea5b6490637d8131c390871051330bc1e8caccca7570ca"
+  },
+  {
+   "id": "pa.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "93420dcd87f8ad9ccc3a5d0f534ad54b5a759720fbf955a5249eb6fd6c3aedf1"
+  },
+  {
+   "id": "pa.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "296db7ded4e0c1968a0a8e01cffb75c6352fca9165fd0e88dadb4e1b2baf63f8"
+  },
+  {
+   "id": "pa.cond.gst",
+   "heading": "GST",
+   "sha256": "370d7874b7334850c994dbb24222357dfc2451df940758aa5008baf5009175e8"
+  },
+  {
+   "id": "pa.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "68841fb20adbc531d540bbf18c48bfa3d24231cc9191a584e359a29eb6cc44b2"
+  },
+  {
+   "id": "pa.cond.disputes-and-complaints",
+   "heading": "Complaints and Disputes",
+   "sha256": "b4a25831e16107a5229a15e8707cb5a0339748a65c3601d4dcfda3c5adcd7cd9"
+  },
+  {
+   "id": "pa.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "9f47660e5b56afe29a5ecc03ed0e1c8655161dd0279caad3cb9d09733e0476f6"
+  },
+  {
+   "id": "pa.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "pa.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "pa.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "843a15d8ef133f5573ddbc8902d356c4e127f9ee3fcff1b6e31fc45d54132c2d"
+  },
+  {
+   "id": "pa.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "a8a55cc813736fed39ba452da1f8645500048eaa7d104c0373cfc5347778feef"
+  },
+  {
+   "id": "pa.end.e01",
+   "heading": "E01 Agreed Value Weekly Benefit",
+   "sha256": "a1bf94fee35efe6d3d19dc07ee7828d5d0bb67204143a7c3811d81844100f24d"
+  },
+  {
+   "id": "pa.end.e02",
+   "heading": "E02 Business Expenses",
+   "sha256": "d7d17a3d223910f86fd9e2b420bec62dabdef14ede0be247599252d2ad496670"
+  },
+  {
+   "id": "pa.end.e03",
+   "heading": "E03 Occupational Cover Only",
+   "sha256": "aecd699a25d9610425334086bc828578ff3f26f84d6d12363ecda48cb5bcd1a7"
+  },
+  {
+   "id": "pa.end.e04",
+   "heading": "E04 Non-Occupational Cover Only",
+   "sha256": "843db52723789906171eeddcaca3e3240aedecfe3016af2534ae235389ea6d76"
+  },
+  {
+   "id": "pa.end.e05",
+   "heading": "E05 Named Hazardous Pursuit",
+   "sha256": "222535001d6dd4d9b1ebb2a998d8f210cb23e00aaf0042fc18de864156017d5e"
+  },
+  {
+   "id": "pa.end.e06",
+   "heading": "E06 Named Pursuit Exclusion",
+   "sha256": "1df6c936d72ac52570b49843e51e624de293b2ed4add130c4dce7068171504e9"
+  },
+  {
+   "id": "pa.end.e07",
+   "heading": "E07 Specific Condition Exclusion",
+   "sha256": "32e9bd4890f0dd088002781ef7765c6c442a413b9d9d0f26b3b3329bc3e7c80c"
+  },
+  {
+   "id": "pa.end.e08",
+   "heading": "E08 Accepted Pre-existing Condition",
+   "sha256": "3ca64422d2b1ff28696c62263e5609368ca58e7b1de5ef92fd02ff78405b6f11"
+  },
+  {
+   "id": "pa.end.e09",
+   "heading": "E09 Weekly Benefits to Age 70",
+   "sha256": "f583ba7dfbac3bb23098cc42ef4d3f0d4e864be85ec94940c13a9ad7e1193271"
+  },
+  {
+   "id": "pa.end.e10",
+   "heading": "E10 Extended Overseas Cover",
+   "sha256": "6f6aa8c8cee6137ec0eb3a9e40afa9683f6093f98c00013a9c73fa2e728af960"
+  },
+  {
+   "id": "pa.end.e11",
+   "heading": "E11 Capital Benefits Only",
+   "sha256": "cb7196d3a18efeae1ed6a0575d6637ee76e9c52f3ddda71d9bdde59690152a8d"
+  },
+  {
+   "id": "pa.end.e12",
+   "heading": "E12 Increased Additional Benefits",
+   "sha256": "4ea7950a376ab1c3f94958a3e1bf7c10468267d00369aceb6d25f9e66ae3cff0"
+  },
+  {
+   "id": "pa.end.e13",
+   "heading": "E13 Lloyd's Underwriters",
+   "sha256": "c6709f954d528fcc45b43f05577ac97e8b3e90f795fd948ef43c74ba40d3c6df"
+  },
+  {
+   "id": "pa.end.e14",
+   "heading": "E14 Confirmation of Cover for a Principal",
+   "sha256": "b6fa16d3991e98791448522a62134a4f84acab44c9389533a71feda56bf47be5"
+  },
+  {
+   "id": "pa.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "pa.end.e01",
+   "heading": "E01 Agreed Value Weekly Benefit",
+   "trigger": {
+    "questions": [
+     "qs.pa.cover.agreed_value"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.cover.agreed_value == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because an agreed weekly benefit was requested; it needs evidence of income before cover starts.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.cover.agreed_value",
+     "text": "Does the insured person want an agreed weekly benefit that is not tested against income at claim time?",
+     "type": "yes/no",
+     "used_by": "R, E01"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e02",
+   "heading": "E02 Business Expenses",
+   "trigger": {
+    "questions": [
+     "qs.pa.cover.business_expenses"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.cover.business_expenses > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because cover was requested for {qs.pa.cover.business_expenses} a week of business expenses.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.cover.business_expenses",
+     "text": "What weekly amount of fixed business expenses does the insured person want covered while disabled? Enter 0 for none.",
+     "type": "currency (AUD per week)",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e03",
+   "heading": "E03 Occupational Cover Only",
+   "trigger": {
+    "questions": [
+     "qs.pa.cover.scope"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.cover.scope == occupational",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because cover while working only was selected.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.cover.scope",
+     "text": "When should the cover apply?",
+     "type": "select",
+     "options": [
+      "24_7",
+      "occupational",
+      "non_occupational"
+     ],
+     "used_by": "R, S, E03, E04"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e04",
+   "heading": "E04 Non-Occupational Cover Only",
+   "trigger": {
+    "questions": [
+     "qs.pa.cover.scope"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.cover.scope == non_occupational",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because cover outside work only was selected.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.cover.scope",
+     "text": "When should the cover apply?",
+     "type": "select",
+     "options": [
+      "24_7",
+      "occupational",
+      "non_occupational"
+     ],
+     "used_by": "R, S, E03, E04"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e05",
+   "heading": "E05 Named Hazardous Pursuit",
+   "trigger": {
+    "questions": [
+     "qs.pa.hazard.scuba_over_30m",
+     "qs.pa.hazard.air_sports",
+     "qs.pa.hazard.motor_racing",
+     "qs.pa.hazard.private_pilot",
+     "qs.pa.hazard.mountaineering"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.hazard.scuba_over_30m == yes or qs.pa.hazard.air_sports == yes or qs.pa.hazard.motor_racing == yes or qs.pa.hazard.private_pilot == yes or qs.pa.hazard.mountaineering == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because the insured person takes part in a pursuit the base wording excludes.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.hazard.scuba_over_30m",
+     "text": "Does the insured person scuba dive below 30 metres?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.pa.hazard.air_sports",
+     "text": "Does the insured person take part in parachuting, skydiving, hang-gliding, paragliding, BASE jumping or ballooning?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.pa.hazard.motor_racing",
+     "text": "Does the insured person take part in races, rallies or speed trials in any motor vehicle or on a motorcycle?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.pa.hazard.private_pilot",
+     "text": "Does the insured person fly an aircraft as a pilot or crew member, other than as their paid occupation?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.pa.hazard.mountaineering",
+     "text": "Does the insured person climb mountains above 4,000 metres, or take part in rodeo, bull riding or horse racing?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e06",
+   "heading": "E06 Named Pursuit Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.pa.hazard.motorcycle_offroad",
+     "qs.pa.hazard.climbing",
+     "qs.pa.hazard.contact_sports",
+     "qs.pa.hazard.equestrian"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.hazard.motorcycle_offroad == yes or qs.pa.hazard.climbing == yes or qs.pa.hazard.contact_sports == yes or qs.pa.hazard.equestrian == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested as an alternative to a premium loading for a pursuit the insured person takes part in.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.hazard.motorcycle_offroad",
+     "text": "Does the insured person ride a motorcycle off-road, other than in races or speed trials?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    },
+    {
+     "id": "qs.pa.hazard.climbing",
+     "text": "Does the insured person go rock climbing, abseiling or canyoning?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    },
+    {
+     "id": "qs.pa.hazard.contact_sports",
+     "text": "Does the insured person play amateur rugby, rugby league, Australian rules football, ice hockey, or compete in boxing or martial arts?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    },
+    {
+     "id": "qs.pa.hazard.equestrian",
+     "text": "Does the insured person ride horses, other than in races, rodeos or polo?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e07",
+   "heading": "E07 Specific Condition Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.pa.medical.conditions_5yr",
+     "qs.pa.medical.condition_details"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.medical.conditions_5yr == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because the insured person disclosed a medical condition in the last 5 years: {qs.pa.medical.condition_details}.",
+    "responses": [
+     "Attach",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.medical.conditions_5yr",
+     "text": "In the last 5 years, has the insured person had any injury, illness or condition that needed treatment, advice or time off work for more than 2 weeks, including any back, neck, joint, heart, mental health, cancer or diabetic condition?",
+     "type": "yes/no",
+     "used_by": "A, E07, E08"
+    },
+    {
+     "id": "qs.pa.medical.condition_details",
+     "text": "Give details of each condition, the treatment and the dates.",
+     "type": "text",
+     "used_by": "S, E07, E08"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e08",
+   "heading": "E08 Accepted Pre-existing Condition",
+   "trigger": {
+    "questions": [
+     "qs.pa.medical.conditions_5yr",
+     "qs.pa.medical.condition_details"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.medical.conditions_5yr == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested where the underwriter accepts the disclosed condition: {qs.pa.medical.condition_details}.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.medical.conditions_5yr",
+     "text": "In the last 5 years, has the insured person had any injury, illness or condition that needed treatment, advice or time off work for more than 2 weeks, including any back, neck, joint, heart, mental health, cancer or diabetic condition?",
+     "type": "yes/no",
+     "used_by": "A, E07, E08"
+    },
+    {
+     "id": "qs.pa.medical.condition_details",
+     "text": "Give details of each condition, the treatment and the dates.",
+     "type": "text",
+     "used_by": "S, E07, E08"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e09",
+   "heading": "E09 Weekly Benefits to Age 70",
+   "trigger": {
+    "questions": [
+     "qs.pa.cover.weekly_to_age_70",
+     "qs.pa.insured.age"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.cover.weekly_to_age_70 == yes or qs.pa.insured.age >= 65",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because weekly benefits are needed after age 65.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.cover.weekly_to_age_70",
+     "text": "Does the insured person want weekly benefits to continue after age 65, up to age 70?",
+     "type": "yes/no",
+     "used_by": "E09"
+    },
+    {
+     "id": "qs.pa.insured.age",
+     "text": "How old will the insured person be on the start date of the policy?",
+     "type": "number (years)",
+     "used_by": "R, A, E09"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e10",
+   "heading": "E10 Extended Overseas Cover",
+   "trigger": {
+    "questions": [
+     "qs.pa.overseas.days_abroad"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.overseas.days_abroad > 90",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because a trip of {qs.pa.overseas.days_abroad} days outside Australia is planned.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.overseas.days_abroad",
+     "text": "How many consecutive days does the insured person expect to spend outside Australia on any one trip during the policy period?",
+     "type": "number (days)",
+     "used_by": "A, E10"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e11",
+   "heading": "E11 Capital Benefits Only",
+   "trigger": {
+    "questions": [
+     "qs.pa.cover.weekly_cover"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.cover.weekly_cover == no",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because only capital benefits were selected.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.cover.weekly_cover",
+     "text": "Does the insured person want weekly benefits as well as capital benefits?",
+     "type": "yes/no",
+     "used_by": "R, E11"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e12",
+   "heading": "E12 Increased Additional Benefits",
+   "trigger": {
+    "questions": [
+     "qs.pa.cover.increased_additional"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.cover.increased_additional == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option because higher funeral and rehabilitation limits were requested.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.cover.increased_additional",
+     "text": "Does the insured person want higher limits for the funeral and rehabilitation benefits?",
+     "type": "yes/no",
+     "used_by": "E12"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e13",
+   "heading": "E13 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.pa.issuer.lloyds"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.issuer.lloyds == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policy is issued under a Lloyd's binding authority.",
+    "responses": [
+     "Attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.issuer.lloyds",
+     "text": "Is the policy issued under a Lloyd's binding authority? (Set by the issuer, not asked of the proposer.)",
+     "type": "yes/no",
+     "used_by": "E13"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e14",
+   "heading": "E14 Confirmation of Cover for a Principal",
+   "trigger": {
+    "questions": [
+     "qs.pa.cover.site_confirmation"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.cover.site_confirmation == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because a contract or site requires confirmation of personal accident cover.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.cover.site_confirmation",
+     "text": "Does a contract or site require the insured person to provide a confirmation of personal accident cover to a principal?",
+     "type": "yes/no",
+     "used_by": "E14"
+    }
+   ]
+  }
+ ],
+ "sha256": "14489e1a402b9630f0028461d2bd3c8601e28f8730c5255d3880e8bb0c51b4cd"
+}

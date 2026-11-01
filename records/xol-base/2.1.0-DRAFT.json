@@ -1,0 +1,655 @@
+{
+ "wording": "xol-base",
+ "version": "2.1.0-DRAFT",
+ "doc_ref": "2026/XOL/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "xol.about",
+   "heading": "About This Policy",
+   "sha256": "318bf23c97d9a7859aed37b25bd0c55ca84885248a3e0b1f0b9a2025b7f27251"
+  },
+  {
+   "id": "xol.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "xol.schedule",
+   "heading": "Schedule",
+   "sha256": "7484dbe7342b699c196baece8b27bb5fe8c9fbb4d3c37f276659aad2605bdd9b"
+  },
+  {
+   "id": "xol.section.definitions",
+   "heading": "Definitions",
+   "sha256": "f6134da0769faf7c4428f145570600fb4cc65c0902c1496c5b2b2a688d154237"
+  },
+  {
+   "id": "xol.def.attachment-point",
+   "heading": "Attachment Point",
+   "sha256": "f93543564a8cfb8bf1b08ed9bd5256e53b58d07c722a95508049b53675c9b302"
+  },
+  {
+   "id": "xol.def.claim",
+   "heading": "Claim",
+   "sha256": "5f97e5479316a51a56e0107b190e3fff72185b6bfad728a006ced024e4655e68"
+  },
+  {
+   "id": "xol.def.control-group",
+   "heading": "Control Group",
+   "sha256": "1598646e34f40d2d7a59ec260cece22d2c1866b3b42f0e4f5c24709dedab8fbb"
+  },
+  {
+   "id": "xol.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "ff6d0c877114478853247cd5a3f921c9d031da795688bb80635108870df16014"
+  },
+  {
+   "id": "xol.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "b5dee318f6d7bd087806d663c4db4f37843058f63f3043df7c550f2b014d0cbb"
+  },
+  {
+   "id": "xol.def.followed-policy",
+   "heading": "Followed Policy",
+   "sha256": "ee5d423a9b506efe45c1b6d867466ec95994ae4f11d8564b28de422c4bccf6a9"
+  },
+  {
+   "id": "xol.def.gap-excess",
+   "heading": "Gap Excess",
+   "sha256": "626370cf983c800e596f7787d51303db1f2f12fdb766abf4ecd398de91f7f03d"
+  },
+  {
+   "id": "xol.def.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "b0fc6d56fcd5778503484979a178e5b5379f734cad3da9ac37743437e1bf709b"
+  },
+  {
+   "id": "xol.def.loss",
+   "heading": "Loss",
+   "sha256": "359a49933e5518f99b4cce657ae1699f1990a1fbfde316932ff9307a42d449d4"
+  },
+  {
+   "id": "xol.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "4b030f38437c9dc3975d7fd59275666dec7a6789f1cfab4f8fd2718a141478b8"
+  },
+  {
+   "id": "xol.def.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "f2dab937f0114247f9bfb8ff20729a7a0ecd303869df460f5bb08e435ffe8e7f"
+  },
+  {
+   "id": "xol.def.underlying-insurance",
+   "heading": "Underlying Insurance",
+   "sha256": "fafedc4b479b0402b7c26cbb26ba10c110e3990204217fd8fe85b14e5d29b6f4"
+  },
+  {
+   "id": "xol.def.underlying-insurer",
+   "heading": "Underlying Insurer",
+   "sha256": "748a54a06415d8b19389af28e71d5c960f0db110bbd111e1c0f4d84515f8c278"
+  },
+  {
+   "id": "xol.def.underlying-limit",
+   "heading": "Underlying Limit",
+   "sha256": "88723d5fb9860efc50d10d907ae940c5331c3dd5c34e7e0adf5eed7c47d1955a"
+  },
+  {
+   "id": "xol.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "b92d0121cdae79f798b94dbdf6f923712b312fa7db1c5c3e205ed303832555e0"
+  },
+  {
+   "id": "xol.def.you-your",
+   "heading": "You, Your",
+   "sha256": "f16d9f566d770103491b3187faf042f7c6841252d52ef8d477bf0999e623bab5"
+  },
+  {
+   "id": "xol.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "xol.cover.follow-form-excess-layer",
+   "heading": "Follow-form Excess Layer",
+   "sha256": "e76977e004daf6158a5cfd076e5aadd954361e93b414ca6a6d8510a3241c049f"
+  },
+  {
+   "id": "xol.cover.attachment-and-exhaustion",
+   "heading": "Attachment and Exhaustion",
+   "sha256": "203ac61f2654bffd694223d3e91e36e22606e21a4a31a437f5646c4318557a4c"
+  },
+  {
+   "id": "xol.cover.no-drop-down",
+   "heading": "No Drop-down",
+   "sha256": "0eb78805c8e56bdc265604c3c2c69c61535e23f9faa341cd79d6f251cc253ce6"
+  },
+  {
+   "id": "xol.cover.difference-in-conditions",
+   "heading": "Narrower Followed Policy",
+   "sha256": "6dd63b1e1be6739957166c2d89f2ae6e9556ac3b8bbc7675db9ae6e3ee674620"
+  },
+  {
+   "id": "xol.cover.changes-to-the-followed-policy",
+   "heading": "Changes to the Followed Policy",
+   "sha256": "17e8f02e9960eae2c937cd656641df7e91d83087dda1e952e4ac5e4938ead0d6"
+  },
+  {
+   "id": "xol.cover.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "25a7654b1931433e5c54bcee85d5ad5f15f4ad98b5790e70c085e9f5fe838720"
+  },
+  {
+   "id": "xol.cover.extended-reporting-period",
+   "heading": "Extended Reporting and Run-off",
+   "sha256": "c097f9286d7e8ad2aa8ff402fff493f7a73fc503008ae8d06406132999ad5138"
+  },
+  {
+   "id": "xol.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "cce8d0f786d0258ad2c8a1127c5baae6d8f324adf727d5d81e2c463c8b80ba2a"
+  },
+  {
+   "id": "xol.excl.below-the-attachment-point",
+   "heading": "Amounts Below the Attachment Point",
+   "sha256": "eeab43b64baea5978832a29eb51bcd578d5c03c1c3f176e89eebbb2898c4148c"
+  },
+  {
+   "id": "xol.excl.fines-and-penalties",
+   "heading": "Fines and Penalties",
+   "sha256": "8580ab1d6de736a7c698d689ac3f52a4cd979df8f9987516f4db674a1c15e3e6"
+  },
+  {
+   "id": "xol.excl.war-terrorism-and-nuclear",
+   "heading": "War, Terrorism and Nuclear",
+   "sha256": "1b85b58bd43057dd90a1e4ebd9d7eee9dc5a7c1dc2a35e491ce22ee3d7482916"
+  },
+  {
+   "id": "xol.excl.how-the-exclusions-apply",
+   "heading": "How the Exclusions Apply",
+   "sha256": "cab7f6acffd53eedf1e0913aacada7b4311462c7a278a4840ee8d56972919006"
+  },
+  {
+   "id": "xol.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "xol.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "f7ed45424a6d4ea89d3262808879caf13f9784be4777c2819316afd1a57de20b"
+  },
+  {
+   "id": "xol.pay.shared-layer",
+   "heading": "Shared Layer",
+   "sha256": "63d404ef1c89971a5917dd12df2def54ffebb6e16cd40d41029b42ee39b94d51"
+  },
+  {
+   "id": "xol.pay.order-of-payment",
+   "heading": "Order of Payment",
+   "sha256": "42308709e9e4fe3d79c85bb2c9afafb16983679cad30eb4e952d501605613524"
+  },
+  {
+   "id": "xol.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "89c877d9e41728fbc3ad2e6d45a02dd412ffbd2a05abcad8dd6b3c19d3f3dc68"
+  },
+  {
+   "id": "xol.pay.recoveries",
+   "heading": "Recoveries",
+   "sha256": "51e6d4063fcf8ca308bc9ae420aa2efca36d56cb9124246385e972eb841e107d"
+  },
+  {
+   "id": "xol.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "25e969a1b9d613b75ac974f5924acb7caae0a3f5c3af41883dd24aa49bef5faa"
+  },
+  {
+   "id": "xol.obl.maintain-the-underlying-insurance",
+   "heading": "Maintain the Underlying Insurance",
+   "sha256": "b0062a6b2507409453ac884eb379e4c733ab17470f1a88b1e143c2e010312715"
+  },
+  {
+   "id": "xol.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "4394a0e96dc63eadfef00a7318a69c90624f92533f0ed2e68058fd4cfc3f4b26"
+  },
+  {
+   "id": "xol.obl.cooperate-with-us",
+   "heading": "Cooperate With Us",
+   "sha256": "4346656a2d052134a021c6f064fd867f7c9e1e85d8c603703b939ae3a555dfe0"
+  },
+  {
+   "id": "xol.obl.settlement-consent",
+   "heading": "Settlement Consent",
+   "sha256": "e9bb4b29fea80c83b9fe7cbb83354e0556815cf1d7043d48efcb7c35c71ff640"
+  },
+  {
+   "id": "xol.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "f1abeb842e82fdc45b24c08bab9bcb12134d8a4f145ef162890f3537cfdb203f"
+  },
+  {
+   "id": "xol.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "xol.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "85f446fd6236812a9b6f8f1e066b15589b95a1ed8b71d084fac134f1a2a34f0a"
+  },
+  {
+   "id": "xol.cond.corporations-act-199",
+   "heading": "Corporations Act 2001 (Cth), sections 199A and 199B",
+   "sha256": "2a166b7e6f9342473df811e78005bad10bab54a63fd1a4f55363ed95f0eb0c5b"
+  },
+  {
+   "id": "xol.cond.your-duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "e7b68074cc2ba30f481527611d6cf625821c3016c0aa632eb3e9f1b3c48c5380"
+  },
+  {
+   "id": "xol.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "440308fed1dfd37c93df5149247f16f3353850e786a7f6db210c27622ccfcc39"
+  },
+  {
+   "id": "xol.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "xol.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "866db5092340400c193ba3fce8ca89aefe7012e005530cd0a5baa47f09bf9e09"
+  },
+  {
+   "id": "xol.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "22145c8f4d4fc3b0d5cecaccacbf8c6247fd664c5c913a83547032850376d823"
+  },
+  {
+   "id": "xol.cond.gst",
+   "heading": "GST",
+   "sha256": "5ece2b65cfe9bc66bfa0cb6d7d18257b16cdcf0995a8e20a51f7206d7f0a41af"
+  },
+  {
+   "id": "xol.cond.several-liability",
+   "heading": "Several Liability",
+   "sha256": "e6149b955593af88b8ed2e242d5b3071227bff15a57c367b6a8cabd39e0feaab"
+  },
+  {
+   "id": "xol.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "494483890271053e2f43c78d2512229b420019e9eb8dcab6c9884a13c6f1aaa2"
+  },
+  {
+   "id": "xol.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "b861f005d33a4a0b795fed23accfdd165688c5a859b40e0a788cdef905476fab"
+  },
+  {
+   "id": "xol.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "d987c17b62d91335948446b675a0a9b17e60aa84e3180ae338200f51618ba5e1"
+  },
+  {
+   "id": "xol.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "78d0f49939bee7cf4cd6efaf0fde4607febad9d9c1fbe5737091daf9370fea46"
+  },
+  {
+   "id": "xol.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "446935c754c520b118e9de56495425a949b0af375011bc63c56c9f898b596933"
+  },
+  {
+   "id": "xol.guide",
+   "heading": "How Excess Layer Cover Works",
+   "sha256": "b063919b002dbfe917b463d3d5e0d30d920cb69d20afc529080a24a0e701d4ef"
+  },
+  {
+   "id": "xol.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "ee1122d13d5c0a9e7c0aa8bf0fc4d72e8ae03bc9d4ef4eb8aa158f0af25b2b64"
+  },
+  {
+   "id": "xol.end.e01",
+   "heading": "E01 Difference in Conditions",
+   "sha256": "b29794328342bd7bc8831c3365040cffca2e8f0f5c5a9cc7c74eae6482f8cf22"
+  },
+  {
+   "id": "xol.end.e02",
+   "heading": "E02 Reinstatement of the Limit of Liability",
+   "sha256": "4313cf590b5f0acad58a972f1f6a64a413e60c5d7e3fc319d4c01bc2b4351465"
+  },
+  {
+   "id": "xol.end.e03",
+   "heading": "E03 Drop-down for Underlying Aggregate Exhaustion",
+   "sha256": "15717ca25df4d16efce5ac169ceceb68e84bc1a9398cb8d6ddedad65d011f056"
+  },
+  {
+   "id": "xol.end.e04",
+   "heading": "E04 Defence Costs in Addition to the Limit",
+   "sha256": "894fa3278f54e60761225784b50225f197a4bd5803e80060c6a554f1fd3e2732"
+  },
+  {
+   "id": "xol.end.e05",
+   "heading": "E05 Self-insured Retention",
+   "sha256": "7386634c58603fcdbc0e58c05d4a1dc7ae7487fc0a538a76490345bc0d61edc5"
+  },
+  {
+   "id": "xol.end.e06",
+   "heading": "E06 Multi-year Underlying",
+   "sha256": "6c7c510c4d98c33b42fade1e2234988ba884826207c6d6ec20a8a73cfcce2327"
+  },
+  {
+   "id": "xol.end.e07",
+   "heading": "E07 USA and Canada",
+   "sha256": "b6d06276bb8e40cf4cc020c847e4b0a1245b5b882a2dfcf70aa74f3032022ee1"
+  },
+  {
+   "id": "xol.end.e08",
+   "heading": "E08 Specified Exclusion Changes",
+   "sha256": "f44ba061581ed53365707a3bc8199b04cbebd83fff7a63815ff129324b76bd8c"
+  },
+  {
+   "id": "xol.end.e09",
+   "heading": "E09 Drop-down for Underlying Insurer Insolvency",
+   "sha256": "6cb33f22b4c8041fca863f9e053fcf1e35019b800a5fdc97c214d4a9ec460037"
+  },
+  {
+   "id": "xol.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "xol.end.e01",
+   "heading": "E01 Difference in Conditions",
+   "trigger": {
+    "questions": [
+     "qs.xol.endorsements.dic_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.endorsements.dic_requested == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for cover for differences between the followed policy and other underlying insurance.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.endorsements.dic_requested",
+     "text": "Do you want this layer to cover differences between the followed policy and other underlying insurance?",
+     "type": "yes/no",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "xol.end.e02",
+   "heading": "E02 Reinstatement of the Limit of Liability",
+   "trigger": {
+    "questions": [
+     "qs.xol.endorsements.reinstatement_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.endorsements.reinstatement_requested == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for the limit of liability to be reinstated.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.endorsements.reinstatement_requested",
+     "text": "Do you want the limit of liability reinstated once after it is exhausted?",
+     "type": "yes/no",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "xol.end.e03",
+   "heading": "E03 Drop-down for Underlying Aggregate Exhaustion",
+   "trigger": {
+    "questions": [
+     "qs.xol.endorsements.dropdown_aggregate_requested",
+     "qs.xol.underlying.aggregate_eroded"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.endorsements.dropdown_aggregate_requested == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for this layer to drop down when an aggregate underlying limit is reduced by paid loss.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.endorsements.dropdown_aggregate_requested",
+     "text": "Do you want this layer to drop down when an aggregate underlying limit is reduced by paid loss?",
+     "type": "yes/no",
+     "used_by": "E03"
+    },
+    {
+     "id": "qs.xol.underlying.aggregate_eroded",
+     "text": "Has any aggregate underlying limit been reduced by paid or reserved loss in the current period? If yes, by how much?",
+     "type": "yes/no, with amount",
+     "used_by": "A, E03"
+    }
+   ]
+  },
+  {
+   "id": "xol.end.e04",
+   "heading": "E04 Defence Costs in Addition to the Limit",
+   "trigger": {
+    "questions": [
+     "qs.xol.underlying.defence_costs_basis"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.underlying.defence_costs_basis == 'within'",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because the followed policy pays defence costs within its limit.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.underlying.defence_costs_basis",
+     "text": "Does the followed policy pay defence costs within its limit or in addition to it?",
+     "type": "select",
+     "options": [
+      "within",
+      "in_addition"
+     ],
+     "used_by": "S, E04"
+    }
+   ]
+  },
+  {
+   "id": "xol.end.e05",
+   "heading": "E05 Self-insured Retention",
+   "trigger": {
+    "questions": [
+     "qs.xol.endorsements.sir_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.endorsements.sir_requested == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked to retain part of the tower yourself in place of underlying insurance.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.endorsements.sir_requested",
+     "text": "Will the insured retain any layer of the tower itself in place of underlying insurance?",
+     "type": "yes/no",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "xol.end.e06",
+   "heading": "E06 Multi-year Underlying",
+   "trigger": {
+    "questions": [
+     "qs.xol.underlying.multi_year"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.underlying.multi_year == true",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because the followed policy has a period longer than twelve months.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.underlying.multi_year",
+     "text": "Is the followed policy written for a period longer than twelve months?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "xol.end.e07",
+   "heading": "E07 USA and Canada",
+   "trigger": {
+    "questions": [
+     "qs.xol.exposure.usa_canada"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.exposure.usa_canada == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you have exposure to claims brought in the USA or Canada.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.exposure.usa_canada",
+     "text": "Does the insured have assets, operations, revenue or clients in the USA or Canada?",
+     "type": "yes/no",
+     "used_by": "A, E07"
+    }
+   ]
+  },
+  {
+   "id": "xol.end.e08",
+   "heading": "E08 Specified Exclusion Changes",
+   "trigger": {
+    "questions": [
+     "qs.xol.endorsements.exclusion_changes_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.endorsements.exclusion_changes_requested == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for changes to the exclusions of the followed policy for this layer.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.endorsements.exclusion_changes_requested",
+     "text": "Do you want any exclusion of the followed policy changed for this layer?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "xol.end.e09",
+   "heading": "E09 Drop-down for Underlying Insurer Insolvency",
+   "trigger": {
+    "questions": [
+     "qs.xol.endorsements.dropdown_insolvency_requested",
+     "qs.xol.underlying.insurers_apra_authorised"
+    ],
+    "rules": [
+     {
+      "when": "qs.xol.endorsements.dropdown_insolvency_requested == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for this layer to replace an underlying insurer that becomes insolvent.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.xol.endorsements.dropdown_insolvency_requested",
+     "text": "Do you want this layer to replace an underlying insurer that becomes insolvent?",
+     "type": "yes/no",
+     "used_by": "E09"
+    },
+    {
+     "id": "qs.xol.underlying.insurers_apra_authorised",
+     "text": "Is every underlying insurer authorised by APRA or a Lloyd's syndicate?",
+     "type": "yes/no",
+     "used_by": "A, E09"
+    }
+   ]
+  }
+ ],
+ "sha256": "718f59a65628a7a259ea2ec4cc5b98a4b8e77ae9c9ffb04f1b87e48e12b0edfe"
+}
