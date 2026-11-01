@@ -3,6 +3,7 @@ id: mot.end.e02
 type: endorsement
 heading: E02 Refrigerated Vehicles
 since: 3.0.0
+changed: 3.1.0
 status: draft
 trigger:
   questions:
@@ -17,6 +18,6 @@ trigger:
   - Do not attach
 ---
 
-For each Insured vehicle shown in the Schedule as refrigerated, we pay for the spoilage of goods carried in it caused by the failure of its refrigeration unit following loss or damage covered by [[ref:mot.section.vehicle-cover]], or following a mechanical or electrical breakdown of the refrigeration unit, up to the amount shown in the Schedule for each Occurrence. We do not pay for spoilage caused by the unit being switched off, a failure to maintain it, or a delay in delivery alone.
+For each Insured vehicle shown in the Schedule as refrigerated, we pay for the spoilage of goods carried in it caused by the failure of its refrigeration unit following loss or damage covered by [[ref:mot.section.vehicle-cover]], or following a mechanical or electrical breakdown of the refrigeration unit, up to the amount shown in the Schedule for each Occurrence. For this Endorsement, the exclusions in [[ref:mot.excl.vehicle-cover]] for mechanical, electrical or electronic breakdown and for loss of use and other consequential loss do not apply to spoilage covered by it. We do not pay for spoilage caused by the unit being switched off, a failure to maintain it, or a delay in delivery alone.
 
 Schedule variables: vehicles covered; spoilage limit each Occurrence; spoilage excess.

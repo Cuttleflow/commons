@@ -3,6 +3,7 @@ id: lld.licence-notice
 type: notice
 heading: Licence and Trademark Notice
 since: 1.1.0
+changed: 1.2.0
 status: draft
 ---
 
@@ -10,6 +11,6 @@ This wording's text is licensed under Creative Commons Attribution 4.0 Internati
 
 An adopting insurer's own schedule, proposal, endorsements and other materials prepared for use with this wording are not required to be released under CC BY 4.0 merely because they are used together with this wording; CC BY 4.0 requires only that you attribute the wording text you use.
 
-This wording is provided for general use and adaptation. Adopting insurers and their advisers are responsible for obtaining their own legal, regulatory, and reinsurance advice before use, including on whether a Product Disclosure Statement, Key Facts Sheet and Target Market Determination are required. Use of this wording requires the approval of the relevant capacity provider. Any Wording Partner review and sign-off letter issued in respect of this wording runs to Cuttleflow Pty Ltd t/a Cuttleflow Systems only and does not constitute legal advice to any adopting insurer or insured.
+This wording is provided for general use and adaptation. Adopting insurers and their advisers are responsible for obtaining their own legal, regulatory, and reinsurance advice before use, including on the Product Disclosure Statement, any Key Facts Sheet and the Target Market Determination. Use of this wording requires the approval of the relevant capacity provider. Any Wording Partner review and sign-off letter issued in respect of this wording runs to Cuttleflow Pty Ltd t/a Cuttleflow Systems only and does not constitute legal advice to any adopting insurer or insured.
 
 Designed for the Australian market. Assumes application of the Insurance Contracts Act 1984 (Cth). Users are responsible for their own legal review, regulatory compliance, and reinsurance alignment.

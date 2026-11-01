@@ -5,15 +5,15 @@ kicker: Meridian Commons · Private Motor
 slug: private-motor
 file_stem: Meridian_Private_Motor
 doc_ref: 2026/PMV/0001
-version: 1.0.0-DRAFT
-date: October 2026
+version: 1.1.0-DRAFT
+date: November 2026
 draft: true
 summary: Private car insurance for individuals, built on the Meridian Commercial Motor base wording so that cover
   levels, settlement and liability read the same way across commercial, fleet and private motor.
-base: mot-base@3.0.0-DRAFT
+base: mot-base@3.1.0-DRAFT
 endorsement_form: false
 variant_subtitle: Integrated private wording
-supersedes: None (first release)
+supersedes: Meridian Private Motor v1.0.0 (October 2026)
 overrides:
 - op: replace
   target: mot.about

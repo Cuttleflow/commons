@@ -6,10 +6,10 @@ kicker: Meridian Commons · Private Motor · Product Disclosure Statement templa
 slug: private-motor-pds
 file_stem: Meridian_Private_Motor_PDS_Template
 doc_ref: 2026/PMV/0001-PDS
-version: 0.1.0-DRAFT
+version: 0.2.0-DRAFT
 date: November 2026
 draft: true
-describes: mot-personal@1.0.0-DRAFT
+describes: mot-personal@1.1.0-DRAFT
 variant_subtitle: Product Disclosure Statement template, Part A
 summary: Part A of a Product Disclosure Statement for the Meridian Private Motor wording, for an issuer to complete. It explains the cover, its limits, how it differs from motor standard cover under the Insurance Contracts Act, its costs and the consumer's rights. Part B is the wording itself.
 ---
@@ -29,7 +29,7 @@ Everything below this section, to the end of the notes, is the template text.
 | Issuer | [Insurer legal name], ABN [ ], AFSL [ ] |
 | PDS reference | [PDS reference] |
 | Date prepared | [date] |
-| Policy wording | Meridian Private Motor, 2026/PMV/0001, version [1.0.0] (Part B) |
+| Policy wording | Meridian Private Motor, 2026/PMV/0001, version [1.1.0] (Part B) |
 
 This document has two parts. **Part A** explains the product: who it is for, what it covers and does not cover, how it differs from the cover the law sets as standard, what it costs, and your rights. **Part B** is the policy wording. It is the contract between you and us, together with your Schedule and any Endorsement.
 
@@ -45,9 +45,9 @@ Contact us: [phone], [email], [postal address], [website].
 
 ## 2. Is This Product Right for You?
 
-Private Motor Insurance is for individuals who insure a car, light commercial vehicle or motorcycle used mainly for private purposes, including travel to and from work. We have made a Target Market Determination (TMD) for this product, which describes the consumers it is designed for. It is available at [URL] or by calling us.
+Private Motor Insurance is for individuals who insure a car used mainly for private purposes, including travel to and from work. We have made a Target Market Determination (TMD) for this product, which describes the consumers it is designed for. It is available at [URL] or by calling us.
 
-This product is not suitable if your vehicle is used for hire, fare or reward (including rideshare or platform delivery) or mainly for business, if it is a heavy vehicle, or if you need cover outside Australia.
+This product is not suitable if your vehicle is a motorcycle, a light commercial vehicle or a heavy vehicle, if it is used for hire, fare or reward (including rideshare or platform delivery) or mainly for business, or if you need cover outside Australia.
 
 The information in this PDS is general only. It does not take into account your objectives, financial situation or needs. Consider whether the product is right for you before you buy it.
 
@@ -100,8 +100,8 @@ You pay an excess on most claims (section 8).
 
 Exclusions apply. We do not pay for loss, damage or liability:
 
-- while the vehicle is driven by someone without a licence appropriate for it, or whose licence is suspended or cancelled, unless you did not know and could not reasonably have known;
-- while the driver's ability is impaired by alcohol or a drug, the driver is over the legal alcohol limit, or the driver refuses a lawful test, unless the vehicle was driven without your consent;
+- while the vehicle is driven by someone without a licence appropriate for it, or whose licence is suspended or cancelled, unless the person claiming cover did not know and could not reasonably have known, or the vehicle was driven without your consent;
+- while the driver's ability is impaired by alcohol or a drug, the driver is over the legal alcohol limit, or the driver refuses a lawful test, unless the person claiming cover did not know and could not reasonably have known of the driver's state, or the vehicle was driven without your consent;
 - caused by an unsafe or unroadworthy condition you knew about or ought reasonably to have known about;
 - while the vehicle is used for racing, pace-making, speed or reliability testing, rallying or any competition, or on a racetrack;
 - caused by a load or towed weight above the vehicle's rated or registered capacity;
@@ -126,6 +126,8 @@ Part B sets out the exclusions in full, under [[ref:mot.pvt.excl.vehicle-cover|h
 
 The Insurance Contracts Act 1984 (Cth) and the Insurance Contracts Regulations 2017 (Cth) set a standard cover for motor vehicle insurance taken out by an individual. Standard cover pays an amount sufficient to indemnify you for the destruction, theft or accidental damage of your vehicle in Australia, and covers liability for damage to other people's property caused by the use of the vehicle up to at least $5 million, subject only to the exclusions the Regulations allow.
 
+[WP REVIEW: check every row of this table line by line against the Regulations in the current compilation. A bracketed standard cover entry has not been verified. Remove a row if the term is within standard cover. Add a row for any other term of Part B that gives less cover than standard cover.]
+
 This policy gives less cover than standard cover in the ways listed below. We are telling you about each of them now, in writing, before you enter into the contract, so that they apply to your policy.
 
 | Area | Standard cover | This policy |
@@ -134,17 +136,26 @@ This policy gives less cover than standard cover in the ways listed below. We ar
 | Cover level: Third party only | As above | No cover for loss of or damage to your vehicle, except up to $5,000 for damage by an identified uninsured driver who is at fault. |
 | Most we pay for your vehicle | An amount sufficient to indemnify you | Market value up to the sum insured, or the agreed value, less the excess. If the sum insured or agreed value is less than the market value, you bear the difference. Any unpaid premium for the vehicle is deducted from a total loss payment. |
 | Excesses | No excess | The basic excess and any age, inexperienced driver, unlisted driver or voluntary excess shown in your Schedule (section 8). |
-| Drivers affected by alcohol or drugs | Excluded only where you are the driver, or where you knew or should reasonably have known the other driver was affected | Excluded whenever the driver is impaired by alcohol or a drug, is over the legal alcohol limit or refuses a lawful test, unless the vehicle was driven without your consent. |
+| Drivers affected by alcohol or drugs | Excluded only where you are the driver, or where you knew or should reasonably have known the other driver was affected | Excluded whenever the driver is impaired by alcohol or a drug, is over the legal alcohol limit or refuses a lawful test, unless the person claiming cover did not know and could not reasonably have known of the driver's state, or the vehicle was driven without your consent. |
+| Unlicensed or disqualified drivers | [Confirm against the Regulations] | Excluded while the vehicle is driven by a person without a licence appropriate for it, or whose licence is suspended, cancelled or disqualified, unless the person claiming cover did not know and could not reasonably have known, or the vehicle was driven without your consent. |
+| Unsafe or unroadworthy vehicle | [Confirm against the Regulations] | Excluded where the loss is caused by use of the vehicle in an unsafe or unroadworthy condition that you knew about or ought reasonably to have known about. |
+| Deliberate acts | [Confirm against the Regulations] | Excluded where you, or a person acting with your consent or knowledge, cause the loss deliberately. Another person named as an insured who did not know of it, take part in it or consent to it is still covered. |
 | Racing and track use | Excluded for racing, pace-making, reliability trials and speed or hill-climb tests | Also excluded for rallying, any competition and any use on a racetrack, including non-competitive track days. |
 | Overloading | Not an allowed exclusion | Excluded where the loss is caused by a load or towed weight above the vehicle's rated or registered capacity. |
 | Use other than the permitted use | Not an allowed exclusion, except hire or reward, motor trade and unlawful use | Excluded while the vehicle is used other than for its permitted use (for example mainly for business), where you knew of or consented to that use. |
+| Hire, fare or reward | [Confirm against the Regulations] | Excluded while the vehicle is used for hire, fare or reward, including rideshare and platform delivery. Sharing the cost of a trip, where you make no profit, is not hire, fare or reward. |
+| Outside Australia | [Confirm against the Regulations] | No cover for loss, damage or liability that occurs outside Australia. |
+| War and nuclear risks | [Confirm against the Regulations] | Excluded. |
 | Terrorism | Not an allowed exclusion | Excluded. |
 | Sanctions | Not an allowed exclusion | We do not pay where doing so would breach sanctions laws. |
 | Consequential loss | Indemnity for the loss | No cover for loss of use or other consequential loss, except the additional benefits. |
 | Sale of your vehicle | Theft is covered | No cover for losing your vehicle to a buyer who does not pay or pays with a dishonoured payment. |
+| Keeping the vehicle registered and roadworthy | [Confirm against the Regulations] | You must keep the vehicle registered and roadworthy. If you do not, we may reduce or refuse a claim only as section 54 of the Insurance Contracts Act allows (section 16). |
 | Liability: dangerous goods | Not an allowed exclusion | Liability arising from carrying dangerous goods is excluded. |
 | Liability: fines and punitive damages | Compensation or damages for property damage | Fines, penalties and aggravated, punitive or exemplary damages are excluded. |
 | Unpaid instalments | No such limit | If an instalment is unpaid for one month or more, we may refuse a claim arising after it fell due (section 10). |
+| Cancellation after a total loss | [Confirm against the Regulations] | No premium is refunded for a vehicle after we pay a total loss of it (section 13). |
+| Changes during the period | [Confirm against the Regulations] | After you tell us of a change, we may change the premium or terms by written notice, from the date stated in the notice, which is not earlier than 14 days after we send it. If you do not accept them, you may cancel (section 14). |
 
 ## 7. Your Premium
 
@@ -159,7 +170,7 @@ The base premium is calculated from information about you, your drivers and your
 - the age and driving experience of the youngest driver;
 - your claims history and no claim bonus rating;
 - the basic excess you choose (a higher excess lowers the premium);
-- the third party property damage limit you choose; and
+- the third party property damage limit you choose, which cannot be set below the minimum amount that standard cover requires (section 6); and
 - any options you add.
 
 A minimum premium of $[ ] applies. [Describe any discounts.]
@@ -180,13 +191,13 @@ An excess is the amount you pay towards each claim. Your Schedule shows the exce
 | Unlisted driver excess | In addition, where your Schedule names drivers and the driver was not one of them | $800 |
 | Voluntary excess | In addition, where you chose a higher excess for a lower premium | As shown in your Schedule |
 
-No excess applies to a claim for windscreen or window glass only, or where we agree your driver was not at fault and you give us the name and address of the person responsible. If more than one insured vehicle is damaged in the same event, you pay one basic excess (the highest that applies), plus any additional excesses for each driver.
+No excess applies to a claim for windscreen or window glass only, or where your driver was not at fault and you give us the name and address of the person responsible. We decide whether your driver was not at fault reasonably, on the evidence available to us. If you disagree, you may ask us to review the decision or make a complaint (section 19). If more than one insured vehicle is damaged in the same event, you pay one basic excess (the highest that applies), plus any additional excesses for each driver.
 
 Example: your basic excess is $750. Your 20-year-old son, who has held his licence for 18 months, is driving and damages your car in a collision that is his fault. You pay $750 + $1,000 (age) + $500 (inexperienced driver) = $2,250, and we pay the rest of the covered repair cost.
 
 ## 9. No Claim Bonus
 
-Your no claim bonus rating is shown in your Schedule. It improves by one step at each renewal after a period of insurance with no at-fault claim, up to the highest rating. It falls by 2 steps for each at-fault claim. A claim does not count as at fault where we agree your driver was not at fault and you give us the name and address of the person responsible, or where the claim is for glass only, or for theft, storm, hail or flood.
+Your no claim bonus rating is shown in your Schedule. It improves by one step at each renewal after a period of insurance with no at-fault claim, up to the highest rating. It falls by 2 steps for each at-fault claim. A claim does not count as at fault where your driver was not at fault, as we decide reasonably on the evidence available, and you give us the name and address of the person responsible, or where the claim is for glass only, or for theft, storm, hail or flood.
 
 ## 10. Paying by Instalments
 
@@ -206,13 +217,13 @@ You may cancel the policy within 21 days of the day it was issued by telling us 
 
 ## 13. Cancelling Your Policy
 
-You may cancel your policy, or remove a vehicle from it, at any time by telling us in writing. We refund the premium for the unexpired period on a pro-rata basis, less any amount we have paid or reserved for a claim on that vehicle and any government charges we cannot recover. [State any cancellation fee, or that there is none.]
+You may cancel your policy, or remove a vehicle from it, at any time by telling us in writing. We refund the premium for the unexpired period on a pro-rata basis, less any government charges we cannot recover. If we have paid a total loss of your vehicle, no premium is refunded for that vehicle. [State any cancellation fee, or that there is none.]
 
 We may cancel your policy only on a ground the Insurance Contracts Act 1984 (Cth) allows, for example if you do not meet your duty to take reasonable care, if you make a fraudulent claim or if you do not pay the premium. We give you at least 30 days' written notice and refund the premium for the unexpired period on a pro-rata basis.
 
 ## 14. Telling Us About Changes
 
-Tell us during the period of insurance if you change your car, if the address where it is kept overnight changes, if it is modified, if someone not shown in your Schedule starts to drive it regularly, or if you start to use it for business, rideshare or delivery. We may change the premium or terms from the date of the change. We will tell you the new premium or terms in writing, and if you do not accept them you may cancel the policy with a pro-rata refund from the date of the change.
+Tell us during the period of insurance if you change your car, if the address where it is kept overnight changes, if it is modified, if someone not shown in your Schedule starts to drive it regularly, or if you start to use it for business, rideshare or delivery. We may change the premium or terms because of a change you tell us about, but only by giving you written notice of the new premium or terms. They apply only from the date stated in the notice, which is not earlier than 14 days after we send it. If you do not accept them, you may cancel the policy, we refund the premium for the unexpired period on a pro-rata basis from the date of cancellation, and the new premium or terms do not apply to you.
 
 ## 15. Renewal
 
@@ -222,7 +233,7 @@ Before your policy expires we will send you a renewal offer, or tell you that we
 
 Contact us as soon as you can on [claims phone], [online claims URL] or [email]. We will ask what happened, the details of each vehicle and person involved and any witnesses, and for a police report number for theft or malicious damage. Do not admit fault or agree to pay anyone without our consent, except as the law requires. Take reasonable steps to prevent further damage, and let us inspect the vehicle before repairs start, except emergency repairs needed to make it safe.
 
-If you do not meet one of these obligations, we will not refuse your claim for that reason alone. Under s 54 of the Insurance Contracts Act 1984 (Cth) we may reduce it by the amount that fairly represents the extent to which our interests were prejudiced, or refuse it to the extent that what you did or did not do caused the loss, as the Act allows.
+If you do not meet one of these obligations, we will not refuse your claim for that reason alone. Under s 54 of the Insurance Contracts Act 1984 (Cth) our liability is reduced only by the amount that fairly represents the extent to which our interests were prejudiced. Where what you did or did not do could reasonably be regarded as capable of causing or contributing to the loss, we may refuse only the part of the claim that it caused or contributed to, and we may not refuse any part that you prove it did not cause.
 
 Handling your claim is a financial service, and we must handle it efficiently, honestly and fairly. If we need more information, we will tell you what we need and why. We will tell you our decision in writing, with our reasons.
 
@@ -262,16 +273,16 @@ We may update information in this PDS that is not materially adverse to you with
 
 ## Part B — Policy Wording
 
-Part B is the Meridian Private Motor policy wording, 2026/PMV/0001, version [1.0.0], included unchanged, with the issuer's Default Schedule Values where they differ from [[ref:mot.pvt.appendix.default-schedule-values]].
+Part B is the Meridian Private Motor policy wording, 2026/PMV/0001, version [1.1.0], included unchanged, with the issuer's Default Schedule Values where they differ from [[ref:mot.pvt.appendix.default-schedule-values]].
 
 ## Notes for Issuers and the Wording Partner
 
 These notes are not part of the PDS. Delete them before use.
 
 1. Complete every bracketed item: issuer, contacts, URLs, distributor details, limits and excess options offered, minimum premium, instalment terms and costs, commission, cancellation fee, renewal mechanics, the Financial Claims Scheme (only for an APRA-authorised insurer) and overseas disclosure.
-2. The amounts in sections 3, 8, 9 and 12 are the wording's Default Schedule Values. If you set other values, change them here, in your Schedule and in your target market determination.
+2. The amounts in sections 3, 8, 9, 12 and 14 are the wording's Default Schedule Values. If you set other values, change them here, in your Schedule and in your target market determination, and check the change against section 6. The third party property damage limit cannot be set below the minimum that standard cover requires.
 3. Give the consumer the PDS before the contract is entered into, so that section 6 applies. Where that is not reasonably practicable, for example in a phone sale, s 69 of the Insurance Contracts Act allows it within 14 days after; confirm this for your distribution model. Section 35(2) does not apply where the insured's own broker arranges the contract; the table is kept for all channels.
-4. Section 6 is drawn from Insurance Contracts Regulations 2017 regs 15 to 17 as made: prescribed events in reg 16(1), allowed exclusions in reg 16(2), and the $5,000,000 liability minimum in reg 17(2). Confirm it against the current compilation. Points to decide: whether every excess must be listed or only the basic excess; whether the alcohol and drug exclusion should be narrowed to the reg 16(2)(f)(ix) and (h) standard rather than disclosed; whether loss of use and the non-genuine parts rule depart from an indemnity or sit within it.
+4. Section 6 is drawn from Insurance Contracts Regulations 2017 regs 15 to 17 as made: prescribed events in reg 16(1), allowed exclusions in reg 16(2), and the $5,000,000 liability minimum in reg 17(2). Confirm it against the current compilation. Points to decide: whether every excess must be listed or only the basic excess; whether the alcohol and drug exclusion, which now lifts where the person claiming cover did not know and could not reasonably have known of the driver's state, is within the reg 16(2)(f)(ix) and (h) standard so that its row can be removed; whether loss of use and the non-genuine parts rule depart from an indemnity or sit within it.
 5. Update section 17 for the revised General Insurance Code of Practice if ASIC approves it before the PDS is prepared. The revised Code is reported to be intended to form part of the consumer contract.
-6. The wording carries open [WP REVIEW] tags on instalments (s 39 of the Insurance Contracts Act) and on a service-of-suit clause for an insurer that is not APRA-authorised. Section 10 assumes written notice is given before a claim is refused for an unpaid instalment.
+6. The wording carries open [WP REVIEW] tags on instalments (s 39 of the Insurance Contracts Act) and on a service-of-suit clause for an insurer that is not APRA-authorised. Section 10 assumes written notice is given before a claim is refused for an unpaid instalment; the wording now promises it.
 7. The content follows Corporations Act s 1013D (issuer, benefits, risks, costs, commission, dispute resolution, cooling-off) and the clear, concise and effective standard in s 1013C(3). A Key Facts Sheet is not required for motor insurance.

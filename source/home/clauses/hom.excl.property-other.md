@@ -3,6 +3,7 @@ id: hom.excl.property-other
 type: exclusion
 heading: Other Property Exclusions
 since: 1.1.0
+changed: 1.2.0
 status: draft
 ---
 
@@ -17,3 +18,5 @@ Under the Home Building and Contents sections, we do not pay for:
 - damage to property while it is being worked on, cleaned or repaired, if the damage results from the work;
 - mechanical or electrical breakdown, other than as [[ref:hom.ext.motor-burnout]] provides;
 - damage by an animal kept at the home, other than damage to the building by a domestic pet that is sudden and not caused by chewing, scratching or soiling.
+
+[[ref:hom.cond.joint-insureds]] applies to the first exclusion in this list.

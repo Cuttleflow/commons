@@ -3,10 +3,11 @@ id: mot.appendix.default-schedule-values
 type: library
 heading: Default Schedule Values
 since: 3.0.0
+changed: 3.1.0
 status: draft
 ---
 
-These are the defaults that apply where the Schedule does not show another amount. Each figure is a Schedule value: an issuer may vary it in the Schedule without amending this wording.
+These are the defaults that apply where the Schedule does not show another amount. Each figure is a Schedule value: an issuer may vary it in the Schedule without amending this wording. Where this Policy is a prescribed contract for motor vehicle insurance, the issuer must first check the change against the list of departures from standard cover that it gives the insured.
 
 | Clause | Item | Default |
 |---|---|---|
@@ -30,6 +31,7 @@ These are the defaults that apply where the Schedule does not show another amoun
 | [[ref:mot.ext.additional-benefits]] | Recovery after theft | $3,000 each Occurrence |
 | [[ref:mot.ext.additional-benefits]] | Employees' effects | $1,000 each Occurrence |
 | [[ref:mot.ext.additional-benefits]], [[ref:mot.obl.tell-us-about-changes]] | Modifications and accessories to declare | Worth more than $5,000 on a vehicle |
+| [[ref:mot.obl.tell-us-about-changes]] | Notice before a changed premium or changed terms apply | 14 days |
 | [[ref:mot.cond.excess]] | Basic excess | $1,000 each vehicle |
 | [[ref:mot.cond.excess]] | Age excess; age | $750; driver under 25 |
 | [[ref:mot.cond.excess]] | Inexperienced driver excess; period | $500; licence held for less than 2 years |

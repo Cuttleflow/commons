@@ -1,9 +1,12 @@
 ---
 id: mot.cond.insurance-contracts-act
 type: condition
-heading: The Insurance Contracts Act
+heading: Insurance Contracts Act 1984 (Cth)
 since: 3.0.0
+changed: 3.1.0
 status: draft
 ---
 
-Nothing in this Policy excludes, restricts or modifies the operation of the Insurance Contracts Act 1984 (Cth). Where this Policy is inconsistent with that Act, the Act applies. In particular, where a condition or exclusion of this Policy would allow us to refuse a claim because of an act or omission after the Policy was entered into, s 54 of that Act applies: we may not refuse to pay the claim only because of that act or omission, and our liability is reduced only by the amount that fairly represents the extent to which our interests were prejudiced, unless the Act allows otherwise.
+Nothing in this Policy excludes, restricts or modifies the operation of the Insurance Contracts Act 1984 (Cth). Where this Policy is inconsistent with the Act, the Act prevails.
+
+If this Policy would otherwise let us refuse to pay a claim, in whole or in part, because of something you did or did not do after this Policy was entered into, section 54 of the Act applies. We may not refuse to pay the claim only because of that act or omission. Our liability is reduced by the amount that fairly represents the extent to which our interests were prejudiced. Where the act or omission could reasonably be regarded as capable of causing or contributing to the loss, we may refuse to pay only the part of the claim that the act or omission caused or contributed to. We may not refuse any part that you prove the act or omission did not cause. This applies to every condition, exclusion, limit and obligation in this Policy, not only to the claims conditions.
