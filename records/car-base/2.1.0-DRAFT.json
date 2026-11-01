@@ -1,0 +1,1183 @@
+{
+ "wording": "car-base",
+ "version": "2.1.0-DRAFT",
+ "doc_ref": "2026/CARL/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "car.about",
+   "heading": "About This Policy",
+   "sha256": "6363835766751a5060ad0b39ae7fd6e883be88dda39e2913309134e4bbb77724"
+  },
+  {
+   "id": "car.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7b779f2e2f34c0adfccc9f0030b2656d4e201bc4e4fd2f37c9db1a7a6c9a6069"
+  },
+  {
+   "id": "car.important-information",
+   "heading": "Important Information",
+   "sha256": "d6487044cd74b64cf0e49052d559604f5cd358831adc902484c6b0e19e38a962"
+  },
+  {
+   "id": "car.schedule",
+   "heading": "Schedule",
+   "sha256": "bff3ccb3fd9303ed752a61fc21afd634613c68f9db200dcb3ad473e6adb60f8c"
+  },
+  {
+   "id": "car.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "car.def.annual-basis",
+   "heading": "Annual Basis",
+   "sha256": "7e1bd9db1edd4852506e6daf0e025e4664b12801dc42f7261e1a0caa7c7c319e"
+  },
+  {
+   "id": "car.def.claim",
+   "heading": "Claim",
+   "sha256": "c97162c5cc46938b5cc93ca96c7d369847f5174b4f953c9a9bfaa776a2945c1c"
+  },
+  {
+   "id": "car.def.compensation",
+   "heading": "Compensation",
+   "sha256": "84061fc5806e2e7b65c40c1378b4123f4f5515bdc28856a89461485be5742b98"
+  },
+  {
+   "id": "car.def.construction-contract",
+   "heading": "Construction Contract",
+   "sha256": "b11e78837c354aeb849958a9a70f071e288d92ce3237b86a36a7f0cae26bce56"
+  },
+  {
+   "id": "car.def.construction-period",
+   "heading": "Construction Period",
+   "sha256": "66af540b429d98f87860f2013040f46559a3371ee09586d07e7426247d6e731e"
+  },
+  {
+   "id": "car.def.construction-plant",
+   "heading": "Construction Plant",
+   "sha256": "667651459505dfdffc75204cd84adde84257251bd1457d6aea8f8b1db18cb962"
+  },
+  {
+   "id": "car.def.contract-value",
+   "heading": "Contract Value",
+   "sha256": "38ea720b019e6bbc96bcb46169e3c77bdee360ae050f00427a30b53d5ed33bbb"
+  },
+  {
+   "id": "car.def.contract-works",
+   "heading": "Contract Works",
+   "sha256": "76e2e1f1b776ecb358abc770664bd5c4599d7102847c601d80b1624e5264b839"
+  },
+  {
+   "id": "car.def.damage",
+   "heading": "Damage",
+   "sha256": "c2d38ad2590fe3d86554e14cd166e0b00d70657b826fa389269da5bce342bfd7"
+  },
+  {
+   "id": "car.def.defects-liability-period",
+   "heading": "Defects Liability Period",
+   "sha256": "1b8c346ec8a3bedcc137df0014def8d74afc1b2eb46b98845f8a521a88044a2c"
+  },
+  {
+   "id": "car.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "f17f0c500a9b31fceb235d49cbe963a07b46f8137c9570ae1b1c56684b29810b"
+  },
+  {
+   "id": "car.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "51d29f36968acb7e7e703f423386065cadb26a49dd0e3d2b6a9b357bc989c4ae"
+  },
+  {
+   "id": "car.def.event",
+   "heading": "Event",
+   "sha256": "b0a82d39e7733dd59c8b5ae8f80c218761990749c09a8e692b63a799205729a1"
+  },
+  {
+   "id": "car.def.excess",
+   "heading": "Excess",
+   "sha256": "557456f758c449c47e8b2dcd2686762f686e5cd0504f3172082f1a2688e4fceb"
+  },
+  {
+   "id": "car.def.existing-structures",
+   "heading": "Existing Structures",
+   "sha256": "b20cb317328e6c15bcc53fdcfa022833fc3e5c94474eb8d96af424e84ad0ae00"
+  },
+  {
+   "id": "car.def.geographical-scope",
+   "heading": "Geographical Scope",
+   "sha256": "f494fd7d9d5fd2b40a4d9053d38d6eb1442b847a2747a0fd4986960f88a8d44b"
+  },
+  {
+   "id": "car.def.insured",
+   "heading": "Insured",
+   "sha256": "b2f60a39e133a15ac1db4f9cdc0a671b5ca92fc77a833bcfe25f831c40263337"
+  },
+  {
+   "id": "car.def.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "d9ad7879ee2466fe0978be04fb178f1d6128d017db6aaead5c747a871b701e14"
+  },
+  {
+   "id": "car.def.named-insured",
+   "heading": "Named Insured",
+   "sha256": "0489249ba03ec3914ae698edc2794209fb2fe15239d3e779bdd41ba7e2d06089"
+  },
+  {
+   "id": "car.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "b2b21b22db86ce7b49839e0db9f60b4d68c401e5b5287f21cc934faa3d1a338c"
+  },
+  {
+   "id": "car.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "21e3b0276d0f437a3a826c123fd39f1ab638f0882da06dc13b650b464d434f75"
+  },
+  {
+   "id": "car.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "010ca4247c5b65d3ba2eaedb011f22689d6f4d140cec960c5a716cf7b1b441b8"
+  },
+  {
+   "id": "car.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "860f29371e7a5c5ad332e835e029abe8cca23b19cf1ba7389b54a1326e633a41"
+  },
+  {
+   "id": "car.def.practical-completion",
+   "heading": "Practical Completion",
+   "sha256": "b7f621a1c9e168e00ab65e54f189e4b1adaed0907229b64ff7fafb5b25cf02ef"
+  },
+  {
+   "id": "car.def.principal",
+   "heading": "Principal",
+   "sha256": "3d4d871da9e0b86507bc15d50e69f8568cfbbe6f315a9b555f73082a82f3c7bb"
+  },
+  {
+   "id": "car.def.principals-contents",
+   "heading": "Principal's Contents",
+   "sha256": "d0261046916705d86cb691292277b29166949e40686dc4adc7e78ae5b3bd3529"
+  },
+  {
+   "id": "car.def.professional-services-wrongful-act",
+   "heading": "Professional Services Wrongful Act",
+   "sha256": "e1bb1fc400a3039c62a6ef2bf5d560b30ec2bd22b47b07d3b749257ad4be8d15"
+  },
+  {
+   "id": "car.def.project",
+   "heading": "Project",
+   "sha256": "e73564664f761163c11c9a25444b0a56e523ae9dfa3e7fde84fc5ab7ba150a63"
+  },
+  {
+   "id": "car.def.project-site",
+   "heading": "Project Site",
+   "sha256": "d8668186669de7a345873e4301362e2d34adeeec37106b303f38868586444848"
+  },
+  {
+   "id": "car.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "d3bc9f108a7f8fb7b5225213e910053daf4e97715e71b5fe33afa4c315e62322"
+  },
+  {
+   "id": "car.def.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "c233f22ba3b67a95701c0291cbb19f1b44037fe5eb2e6cf0571a6e2ed792d41d"
+  },
+  {
+   "id": "car.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "car.def.you-your",
+   "heading": "You, Your",
+   "sha256": "9af13139a29acb45d75ce6c2a427d7a407bd5d387c0dd8c6efb4470b6350e4b8"
+  },
+  {
+   "id": "car.section.material-damage",
+   "heading": "Material Damage",
+   "sha256": "9b040158bada800b8a18cf81edcd3fd51df53f37fe9fcbf2205c5ea5ae4e374d"
+  },
+  {
+   "id": "car.cover.material-damage",
+   "heading": "Damage to the Contract Works",
+   "sha256": "298ff3428225645812834858675216b17277ca9286df60af999701b7731c130e"
+  },
+  {
+   "id": "car.pay.basis-of-settlement",
+   "heading": "How We Pay for Damage",
+   "sha256": "641bf066bfb4ee6c7d899e909fe8922c164e41bd55ba4472414f935229e63216"
+  },
+  {
+   "id": "car.ext.escalation",
+   "heading": "Escalation",
+   "sha256": "334a54a6c06c5f81a83cff912f80e521c382c3ac1438ff4ecb56b2f162aa5c32"
+  },
+  {
+   "id": "car.ext.debris-removal",
+   "heading": "Removal of Debris",
+   "sha256": "226608a2032a35133fb18e18b1663cf46dac0f714018fd6161873c5284331fd7"
+  },
+  {
+   "id": "car.ext.professional-fees",
+   "heading": "Professional Fees",
+   "sha256": "c04609fa846d808b35f1e930ef04d4c387504000e65f4b57b127fc5c09d42ab7"
+  },
+  {
+   "id": "car.ext.expediting-costs",
+   "heading": "Expediting Costs",
+   "sha256": "ac685874fa982f2189274c8d14ae5b931cc7024f4966880f167c10afc8aeba00"
+  },
+  {
+   "id": "car.ext.building-law",
+   "heading": "Complying with Building Law",
+   "sha256": "2e2515ea21a3bb6d5626575bb51863766ab1615082c5022dbe9437c1d6422b5d"
+  },
+  {
+   "id": "car.ext.plans-and-documents",
+   "heading": "Plans, Documents and Digital Models",
+   "sha256": "a3d205f7e62ae8d55059116cba264d438d398138c57c85bf211be924913be74c"
+  },
+  {
+   "id": "car.ext.offsite-and-transit",
+   "heading": "Offsite Storage and Transit",
+   "sha256": "ea27a3e472563045900cee08faeee7a276615e50d1edf43159d796be848a5532"
+  },
+  {
+   "id": "car.ext.mitigation-costs",
+   "heading": "Mitigation Costs",
+   "sha256": "4198e59b4eb93b290d682a6fb53fa1608eef1f823d92371b032bf1e95d04365a"
+  },
+  {
+   "id": "car.ext.fire-brigade-charges",
+   "heading": "Fire Brigade Charges",
+   "sha256": "1a8770f46362243c1550aef370794480652bfd999a3d202f52687bb632e9c851"
+  },
+  {
+   "id": "car.ext.public-authority-fees",
+   "heading": "Public Authority Fees",
+   "sha256": "082859938fd59f49c7d6b254ddca7b1a46d5d334f5357306dacb92c0a88377ca"
+  },
+  {
+   "id": "car.ext.partial-handover",
+   "heading": "Partial Handover",
+   "sha256": "7c8e3f8913724ad310b87d11ac7e006101164821d9603ab9e4115e021837e8d0"
+  },
+  {
+   "id": "car.cover.defects-liability-period",
+   "heading": "Defects Liability Period",
+   "sha256": "0e25767892125f0038a85a91dc253e839eb34d8934adaa406de221a2559b6216"
+  },
+  {
+   "id": "car.cover.testing-and-commissioning",
+   "heading": "Testing and Commissioning",
+   "sha256": "4f4a8ab0f9982dc61b83f2ffa10c0da9bbcfeb6d210c32c3a59980280aa1da53"
+  },
+  {
+   "id": "car.cover.annual-basis",
+   "heading": "Annual Basis",
+   "sha256": "e50ffdf2b084da0463ff8577db47ed764d61427c99fbb8fcec7e96e18ad86a4d"
+  },
+  {
+   "id": "car.excl.defects",
+   "heading": "Defective Design, Materials or Workmanship",
+   "sha256": "c1bcc06d1ccb436efa1a5ea63e51c811743c14278a366a06b08ccd8e125b961f"
+  },
+  {
+   "id": "car.excl.wear-and-tear",
+   "heading": "Wear and Tear",
+   "sha256": "af430c05fd6a568c565f252f8074301cbcebc2cf04ef8ef67570478d00e17a2b"
+  },
+  {
+   "id": "car.excl.breakdown",
+   "heading": "Breakdown of Construction Plant",
+   "sha256": "a051a685b1cef6a0b49173ac4240b9ce1b301fa8d5798f8bdb16f3f4bdc7e449"
+  },
+  {
+   "id": "car.excl.shortages",
+   "heading": "Unexplained Shortages",
+   "sha256": "2ea5f94729c657b3d365540a5259695209760e54502404219b66fa54ca5f1421"
+  },
+  {
+   "id": "car.excl.delay-and-penalties",
+   "heading": "Delay, Penalties and Consequential Loss",
+   "sha256": "4ae47741eb273e5b3783d4b08713124ec636f32562712d3b7782da6a2d16188b"
+  },
+  {
+   "id": "car.excl.cessation-of-work",
+   "heading": "Cessation of Work",
+   "sha256": "d68826db483a3a85730826e33377c75d0b58ae010493e779ecfe007b89b42fca"
+  },
+  {
+   "id": "car.excl.property-excluded",
+   "heading": "Property Not Covered",
+   "sha256": "802a7108cc1c106c861c79b5ba0c2ccaa832f3241fdd133f9548db924001e8ed"
+  },
+  {
+   "id": "car.excl.material-damage-pollution",
+   "heading": "Pollution of the Contract Works",
+   "sha256": "43019c20f5dab784d7f546c654337d3ca6288f4b1783d74cf4c925c6530b3336"
+  },
+  {
+   "id": "car.section.liability",
+   "heading": "Public and Products Liability",
+   "sha256": "fc4f76a95fb2fbc5b8e2e6330b4ebf31cf51389766efb42a9083bf18c40964fd"
+  },
+  {
+   "id": "car.cover.liability",
+   "heading": "Liability to Third Parties",
+   "sha256": "8ef7c5976fd924252ce7930832f9613fa45354d42beba7ccd9b1663e14076851"
+  },
+  {
+   "id": "car.cover.completed-works",
+   "heading": "Completed Works",
+   "sha256": "cc512bd5f9ff9c924c5faaec442aef79f3229663175d064fc8f5c53670401ea2"
+  },
+  {
+   "id": "car.cover.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "d300b11e825d06b4821772c5f83aeedbdc12286ed31ea2aad7296e57d7d27782"
+  },
+  {
+   "id": "car.ext.care-custody-control",
+   "heading": "Property in Your Care",
+   "sha256": "e8c51ed399c7c00edfba6e2712dec3d18c9003e141ea2502b82ce456880eb9ac"
+  },
+  {
+   "id": "car.ext.vibration-and-support",
+   "heading": "Vibration and Removal of Support",
+   "sha256": "cce3743cafb49126e184cdbdb12174c9739a770c20f07d05364746018314062b"
+  },
+  {
+   "id": "car.ext.underground-services",
+   "heading": "Underground Services",
+   "sha256": "3d9f6ec75981acfbba9892b968b271957e00b2505af0939847a0b70b81566d40"
+  },
+  {
+   "id": "car.ext.sudden-pollution",
+   "heading": "Sudden and Accidental Pollution",
+   "sha256": "86827e8c015273b8e7e4c3d695c8eb4a3ae36a274fa5dae20730a12a15d2fd79"
+  },
+  {
+   "id": "car.ext.vicarious-liability",
+   "heading": "Principal's Vicarious Liability",
+   "sha256": "386436b70227a1ab180e4e71219147f41f9bab90ae528eb0989bfebc4db50b89"
+  },
+  {
+   "id": "car.ext.first-aid",
+   "heading": "First Aid and Emergency Measures",
+   "sha256": "9100d443eb5d1a2c3f8fe627959103f01428feccfee402f22069544d7be4f885"
+  },
+  {
+   "id": "car.cond.vibration-and-services",
+   "heading": "Vibration and Underground Services",
+   "sha256": "c6202fda4da1a13db52e32ae956317fc1a442a4cfd7c2c3fd0db4729c7a705fb"
+  },
+  {
+   "id": "car.excl.liability-workers",
+   "heading": "Injury to Workers",
+   "sha256": "c920be5f7e4fcece6ddf5ca352364da8e5663333bf019ad089beb329e6da4da0"
+  },
+  {
+   "id": "car.excl.liability-contract-works",
+   "heading": "Damage to the Contract Works",
+   "sha256": "3d605fc35c35d1ccebbdac1b0a1db95b6b2348bb6d9276703aab0eb3f4905597"
+  },
+  {
+   "id": "car.excl.liability-professional",
+   "heading": "Professional Advice and Design",
+   "sha256": "a08c119eb386d945c8a2adf917f2a28e84585db629c9d99a8f6dec9e71c76636"
+  },
+  {
+   "id": "car.excl.liability-own-work",
+   "heading": "Your Own Work",
+   "sha256": "e39ac018f4140eea3bca1ad2e2f0bc4b059776eeb8827cc06ac32ae8dfdfc546"
+  },
+  {
+   "id": "car.excl.liability-vehicles",
+   "heading": "Motor Vehicles",
+   "sha256": "59157106cf49cc87153105e039770cab9c8912cc71bf7ceeb998cd6e2fdc4035"
+  },
+  {
+   "id": "car.excl.liability-aircraft-watercraft",
+   "heading": "Aircraft and Watercraft",
+   "sha256": "de912054869df29e7b3652929f1c557b9e008b469a6632c20315d1ec35dd3841"
+  },
+  {
+   "id": "car.excl.liability-pollution",
+   "heading": "Pollution Liability",
+   "sha256": "eb571c15969e51f2191b3f67051e6be0bbfe07f51acaa92bc7d841b28c77ba77"
+  },
+  {
+   "id": "car.excl.liability-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "3ba4c2e5a0d2e39a7d50b2d6107908ccc2ad8f2666739d7160cfb97dbb479fc5"
+  },
+  {
+   "id": "car.excl.liability-contractual",
+   "heading": "Contractual Liability",
+   "sha256": "ff53cf37a8d8feb7098d1215f6c22a08ccc6f5782c38c3b7a8d442584458568b"
+  },
+  {
+   "id": "car.section.delay",
+   "heading": "Delay in Start-Up",
+   "sha256": "77ff65a10a55ae9f1f517fc4adb1b5acbbe8fcc212e5a815a8a36284b642b9cf"
+  },
+  {
+   "id": "car.cover.delay",
+   "heading": "Delay Caused by Insured Damage",
+   "sha256": "e16744b3e99394d3ad60f98c8de977854e85de5c2460dad57e766296bf9c2923"
+  },
+  {
+   "id": "car.pay.delay-loss",
+   "heading": "How We Calculate Delay Loss",
+   "sha256": "7e9277183aa9077f612d996db7b696fb6d97263e3a273893e6f77bce3886ca4d"
+  },
+  {
+   "id": "car.excl.delay",
+   "heading": "Delay Not Covered",
+   "sha256": "0a98ab676261ddb9551082bae6be6f0b2834adf30a462438cdff74e578fb40da"
+  },
+  {
+   "id": "car.section.design-pi",
+   "heading": "Design and Construct Professional Indemnity",
+   "sha256": "467cdea8d46560e43c0a220f66698812a4e9d51d2e0477923f7796eed867dcfc"
+  },
+  {
+   "id": "car.cover.design-pi",
+   "heading": "Claims for Design Errors",
+   "sha256": "3ed1c1eecc4aee17a26ca328dcaf311ce95f7fc1d6282953b4af310675ea0c2a"
+  },
+  {
+   "id": "car.ext.extended-reporting-period",
+   "heading": "Extended Reporting Period",
+   "sha256": "9a848ccb9dd6c2cfb6d8d992b882bdc9d27608c3a3056cb2765f03986505870e"
+  },
+  {
+   "id": "car.excl.design-pi",
+   "heading": "Design Claims Not Covered",
+   "sha256": "35eddc62a5c71cae0bf1b759002fed9a8da356ea743fd4bbcda7d248662b9276"
+  },
+  {
+   "id": "car.section.general-payment",
+   "heading": "How Limits and Excesses Apply",
+   "sha256": "73e5a6e937fd79bdd1b09c46d465a3d719e12cca7380a60d5734f40ae280e98d"
+  },
+  {
+   "id": "car.pay.limits",
+   "heading": "Limits",
+   "sha256": "58e88a249cacf4f75220c7ffcda54e3acf3ed790aea96c654185e8a37ab17d04"
+  },
+  {
+   "id": "car.pay.excess",
+   "heading": "Excess",
+   "sha256": "62f55175fd496b1a95feb4e2010558a9023a80f320d1dd3a3966c99d04d1ab15"
+  },
+  {
+   "id": "car.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "cb4f2f06af2c93d91bc6380b6a77152ae068baaf453f5e06773e55300b402e24"
+  },
+  {
+   "id": "car.pay.gst",
+   "heading": "GST",
+   "sha256": "c8e955310b8b57fafc0fb022e9639b5d9209886a0988bcacef973aa9526b08e4"
+  },
+  {
+   "id": "car.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "b0848057a9b83363bf0b7b20ae478fb5c840e81e019637cc8e3fd19b2720bb5e"
+  },
+  {
+   "id": "car.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "3b2494e49e0a61e20143f898a2a2ac00d8939981941fcb50c6f35529bfa2ebd4"
+  },
+  {
+   "id": "car.excl.war",
+   "heading": "War",
+   "sha256": "a6d18b9894cb3541b2b13a43b15b8889c3cf014aff3425645ea35ed7547e5604"
+  },
+  {
+   "id": "car.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "515a0fcec4a0a619b5d701b1f7eee86fa4488feb962cc0b2170467de8a674df4"
+  },
+  {
+   "id": "car.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "e34c22403d039aeab48bb0c902c55ea34ae032b466449398e6397882ef37213b"
+  },
+  {
+   "id": "car.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "c65fa18d315e787e3643e16a0ebdd83622975fc1089c0c4ee2c0a1f6c6570b85"
+  },
+  {
+   "id": "car.excl.cyber",
+   "heading": "Cyber Events",
+   "sha256": "9e895a1b7691349209c7f6698ab80443a1a0fe550d541cbe3da2531885555ad6"
+  },
+  {
+   "id": "car.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "car.obl.tell-us-about-claims",
+   "heading": "Telling Us About Claims",
+   "sha256": "73341079a846ad1314228c465a4a411324ef06798ecc81865c9b19bcab9816e3"
+  },
+  {
+   "id": "car.obl.claims-made-notice",
+   "heading": "Claims-Made Notice",
+   "sha256": "9a78f0b3cdeeee675d0c0279f51634e56da3ba37f72647460d7f3c13ae2d5d95"
+  },
+  {
+   "id": "car.obl.admissions",
+   "heading": "Admissions",
+   "sha256": "0a7d536db86500b498dbf3decd934b80664723f5024e962acbc65ee2097ca658"
+  },
+  {
+   "id": "car.obl.reasonable-precautions",
+   "heading": "Reasonable Precautions",
+   "sha256": "0096191b66caac5ea7c5a2f5cab94aa201c6e06f1a4020fda69917de9998fcb5"
+  },
+  {
+   "id": "car.obl.declarations",
+   "heading": "Declarations",
+   "sha256": "fe0679caa041567ec2359569699bbd6767699793d9083477f28657cc96427b1d"
+  },
+  {
+   "id": "car.obl.tell-us-about-changes",
+   "heading": "Telling Us About Changes",
+   "sha256": "ab934a88846eea6da6a59e614b17c5b1a6834ca1eedc6b22e48957b085fb951d"
+  },
+  {
+   "id": "car.obl.subrogation",
+   "heading": "Recovery from Others",
+   "sha256": "1ad434036573508e38a0cbe8b524a6b078d556e30c6b123feb8bc80c1d861b29"
+  },
+  {
+   "id": "car.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "car.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "445db012bcbcffb623d14b26a5d0f8b6a9a3f18ad885036284c68e97e8d1df47"
+  },
+  {
+   "id": "car.cond.joint-names",
+   "heading": "Joint Names and Separate Treatment",
+   "sha256": "5a2955d53d94c2e9bbfa98bda74af938730570fc497fa8be437f3adba94e9012"
+  },
+  {
+   "id": "car.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "985e868c2ccf92370a8e85539a9041ea220e9d6de22b02dfedf6f41e704f5905"
+  },
+  {
+   "id": "car.cond.premium-adjustment",
+   "heading": "Premium Adjustment",
+   "sha256": "7cded59351036509023914002979a397ff36eb791d6ccf72adbbc46c97b77009"
+  },
+  {
+   "id": "car.cond.inspection",
+   "heading": "Inspection",
+   "sha256": "48978fad71144659f65cb1358c85842bfa17a03eb66da59e90139bf071637779"
+  },
+  {
+   "id": "car.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "85d57701b41495d47c2ad9aac24fa8e87e4d141751c47298c870c7c7cca30abe"
+  },
+  {
+   "id": "car.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "852d92cc4b6d23f827e431fe7b94b47eaf719a9435e1625ee5ca7b4a74ededfe"
+  },
+  {
+   "id": "car.cond.gst",
+   "heading": "GST and Premium",
+   "sha256": "97ed079e016aaed111460012983a2381efb9de1bcbbfa9f77023c929d3569b2f"
+  },
+  {
+   "id": "car.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "c3077f8fde4cabb2bcf832e072d91093291a4bbfa4dffbf0ec805180f203e9cd"
+  },
+  {
+   "id": "car.cond.disputes-and-complaints",
+   "heading": "Complaints and Disputes",
+   "sha256": "3d341316b0aa52eb1b1bf443207b975a7e281ab28e65457511a6bf51ecc8a027"
+  },
+  {
+   "id": "car.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "5be56e7b9c779ca91709b75fd13cd6f7efe0aa64f3f2cee4ab7affab682a8c58"
+  },
+  {
+   "id": "car.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "b6b35956ef08d6dc3b73cebc697dda319193ab795c7b7ae5cfb1128b81f7ab59"
+  },
+  {
+   "id": "car.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "car.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "2708c0dbd5764c524c9e9417159483860f596ab851ea253682d9695eae57ac95"
+  },
+  {
+   "id": "car.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "776b1c45568ad8b8e096f1285e3f2a818195f6246f11e18f17706c851dd7c92b"
+  },
+  {
+   "id": "car.end.e01",
+   "heading": "E01 Existing Structures and Principal's Contents",
+   "sha256": "beaff50dd8f71716d17ac4df1b2710d38dd480c612d6e8a0bcad626ed2441585"
+  },
+  {
+   "id": "car.end.e02",
+   "heading": "E02 LEG 3/06 Defects Cover",
+   "sha256": "1c328497ba7daeda9d24fa472fcb3592f2efab1850a39129a85f9eaf7803a43d"
+  },
+  {
+   "id": "car.end.e03",
+   "heading": "E03 Delay in Start-Up Extensions",
+   "sha256": "f023cbc6cef56913741b1e64f1f9b3b31ab722ad7f1f09bb532442c0d47f59e4"
+  },
+  {
+   "id": "car.end.e04",
+   "heading": "E04 Demolition and Asbestos Removal",
+   "sha256": "05854a041087ea7bd96f26356b797a716264e0472952b9ac997bd38d45c6fa13"
+  },
+  {
+   "id": "car.end.e05",
+   "heading": "E05 Residential Multi-Storey",
+   "sha256": "208f6df61ffec202ddf396d8c2be0646f6476dc1a115d66337372b4e6a1d1f26"
+  },
+  {
+   "id": "car.end.e06",
+   "heading": "E06 Piling, Deep Excavation and Dewatering",
+   "sha256": "eabf04942270b448c75a2024df3142a0d253b6b1a2339413a5b3eb042f99ca67"
+  },
+  {
+   "id": "car.end.e07",
+   "heading": "E07 Wet Works",
+   "sha256": "0661f214d2d2f735c0d0882b0507bdc1e366535f80fff8c65a181cdff78f2067"
+  },
+  {
+   "id": "car.end.e08",
+   "heading": "E08 Projects Already Under Way",
+   "sha256": "cb9b6cd76c74f519885fcc64e08e453afba28290162d2bec8a940aab4beb9d8d"
+  },
+  {
+   "id": "car.end.e09",
+   "heading": "E09 Principal-Arranged Insurance",
+   "sha256": "0e0a39cadd9bc2165ee6e4c437f056bc5285bd8c98cc3ea0b2e46287a9a353ee"
+  },
+  {
+   "id": "car.end.e10",
+   "heading": "E10 Increased Offsite Storage and Transit",
+   "sha256": "c333a406b21cad9dac38555c2f1942a7c23de369c50fa91c65f386ef259b1304"
+  },
+  {
+   "id": "car.end.e11",
+   "heading": "E11 Construction Plant",
+   "sha256": "61dd201cce584ccf2ac5afd665a470a095376ad59a27ec6e357d5d10aec45e20"
+  },
+  {
+   "id": "car.end.e12",
+   "heading": "E12 Fitness-for-Purpose Design Warranty",
+   "sha256": "700ff5689736c18495f39051eff1834297606b3731a86d85d8ec4ed02018d075"
+  },
+  {
+   "id": "car.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "car.end.e01",
+   "heading": "E01 Existing Structures and Principal's Contents",
+   "trigger": {
+    "questions": [
+     "qs.car.s1.existing_structures_si",
+     "qs.car.s1.principals_contents_si"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.s1.existing_structures_si > 2000000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.car.s1.existing_structures_si > 0 or qs.car.s1.principals_contents_si > 0",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Considered because existing structures worth ${qs.car.s1.existing_structures_si} are part of, or next to, the project.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.s1.existing_structures_si",
+     "text": "What sum insured is needed for existing structures (enter 0 if none)?",
+     "type": "currency",
+     "used_by": "R, S, E01"
+    },
+    {
+     "id": "qs.car.s1.principals_contents_si",
+     "text": "What sum insured is needed for the principal's contents (enter 0 if none)?",
+     "type": "currency",
+     "used_by": "R, S, E01"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e02",
+   "heading": "E02 LEG 3/06 Defects Cover",
+   "trigger": {
+    "questions": [
+     "qs.car.s1.leg_clause"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.s1.leg_clause == leg3",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because LEG 3/06 defects cover was asked for.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.s1.leg_clause",
+     "text": "Which defects clause is required?",
+     "type": "select",
+     "options": [
+      "leg1",
+      "leg2",
+      "leg3"
+     ],
+     "used_by": "R, S, E02"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e03",
+   "heading": "E03 Delay in Start-Up Extensions",
+   "trigger": {
+    "questions": [
+     "qs.car.s3.required"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.s3.required == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because delay in start-up cover was asked for; the extensions are considered with it.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.s3.required",
+     "text": "Is delay in start-up cover required for the principal?",
+     "type": "yes/no",
+     "used_by": "A, S, E03"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e04",
+   "heading": "E04 Demolition and Asbestos Removal",
+   "trigger": {
+    "questions": [
+     "qs.car.risk.demolition",
+     "qs.car.risk.asbestos_known"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.risk.demolition == yes or qs.car.risk.asbestos_known == yes",
+      "action": "refer"
+     }
+    ],
+    "restrictions": [
+     {
+      "when": "qs.car.risk.demolition == yes and this endorsement is not attached",
+      "action": "refer",
+      "note": "Demolition projects are written only with the conditions in this endorsement."
+     }
+    ],
+    "reason": "Referred because the project includes demolition or the removal of known asbestos.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.risk.demolition",
+     "text": "Does the project include demolition, other than minor strip-out?",
+     "type": "yes/no",
+     "used_by": "A, E04"
+    },
+    {
+     "id": "qs.car.risk.asbestos_known",
+     "text": "Is asbestos known to be present and to be removed as part of the project?",
+     "type": "yes/no",
+     "used_by": "E04"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e05",
+   "heading": "E05 Residential Multi-Storey",
+   "trigger": {
+    "questions": [
+     "qs.car.project.type",
+     "qs.car.project.storeys",
+     "qs.car.risk.combustible_cladding"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.project.type == res_multi_unit and (qs.car.project.storeys > 3 or qs.car.risk.combustible_cladding != no)",
+      "action": "refer"
+     },
+     {
+      "when": "qs.car.project.type == res_multi_unit",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the project is residential with more than one dwelling; referred if it is above 3 storeys or combustible cladding is declared.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.project.type",
+     "text": "What type of project is it?",
+     "type": "select",
+     "options": [
+      "res_new",
+      "res_alterations",
+      "res_multi_unit",
+      "com_fitout",
+      "com_new_build",
+      "civil",
+      "other"
+     ],
+     "used_by": "R, A, E05"
+    },
+    {
+     "id": "qs.car.project.storeys",
+     "text": "How many storeys will the tallest building have above ground?",
+     "type": "number",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.car.risk.combustible_cladding",
+     "text": "Will the project install aluminium composite panels, expanded polystyrene or other combustible external cladding?",
+     "type": "select",
+     "options": [
+      "no",
+      "yes",
+      "unknown"
+     ],
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e06",
+   "heading": "E06 Piling, Deep Excavation and Dewatering",
+   "trigger": {
+    "questions": [
+     "qs.car.risk.excavation_depth_m",
+     "qs.car.risk.piling",
+     "qs.car.risk.dewatering"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.risk.excavation_depth_m > 3 or qs.car.risk.piling == yes or qs.car.risk.dewatering == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the project includes piling, excavation deeper than 3 metres or dewatering.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.risk.excavation_depth_m",
+     "text": "What is the deepest excavation, in metres below existing ground level?",
+     "type": "number",
+     "used_by": "R, A, E06"
+    },
+    {
+     "id": "qs.car.risk.piling",
+     "text": "Does the project include piling?",
+     "type": "yes/no",
+     "used_by": "A, E06"
+    },
+    {
+     "id": "qs.car.risk.dewatering",
+     "text": "Does the project include dewatering?",
+     "type": "yes/no",
+     "used_by": "A, E06"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e07",
+   "heading": "E07 Wet Works",
+   "trigger": {
+    "questions": [
+     "qs.car.risk.marine_tidal"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.risk.marine_tidal == yes",
+      "action": "refer"
+     }
+    ],
+    "restrictions": [
+     {
+      "when": "qs.car.risk.marine_tidal == yes and this endorsement is not attached",
+      "action": "refer",
+      "note": "Works in water are excluded without this endorsement, so the underwriter must decide."
+     }
+    ],
+    "reason": "Referred because the project includes work in or next to water.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.risk.marine_tidal",
+     "text": "Does the project include work in or next to water, such as marine, tidal or river works?",
+     "type": "yes/no",
+     "used_by": "A, E07"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e08",
+   "heading": "E08 Projects Already Under Way",
+   "trigger": {
+    "questions": [
+     "qs.car.risk.works_started"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.risk.works_started == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because work on the project has already started.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.risk.works_started",
+     "text": "Has work on the project already started?",
+     "type": "yes/no",
+     "used_by": "A, E08"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e09",
+   "heading": "E09 Principal-Arranged Insurance",
+   "trigger": {
+    "questions": [
+     "qs.car.risk.principal_arranged_insurance"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.risk.principal_arranged_insurance == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because the principal has arranged its own insurance for the project.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.risk.principal_arranged_insurance",
+     "text": "Has the principal arranged its own contract works or liability insurance for the project?",
+     "type": "yes/no",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e10",
+   "heading": "E10 Increased Offsite Storage and Transit",
+   "trigger": {
+    "questions": [
+     "qs.car.s1.offsite_transit_limit"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.s1.offsite_transit_limit > 2000000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.car.s1.offsite_transit_limit > 500000",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Considered because offsite storage or transit above $500,000 was asked for.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.s1.offsite_transit_limit",
+     "text": "What limit is needed for any one offsite storage location or conveyance?",
+     "type": "currency",
+     "used_by": "S, E10"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e11",
+   "heading": "E11 Construction Plant",
+   "trigger": {
+    "questions": [
+     "qs.car.s1.plant_si",
+     "qs.car.s1.hired_plant"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.s1.plant_si > 0 or qs.car.s1.hired_plant == yes",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because construction plant is used at the project site.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.s1.plant_si",
+     "text": "What sum insured is needed for construction plant owned by the insured (enter 0 if none)?",
+     "type": "currency",
+     "used_by": "R, S, E11"
+    },
+    {
+     "id": "qs.car.s1.hired_plant",
+     "text": "Will the insured hire in construction plant it is responsible for?",
+     "type": "yes/no",
+     "used_by": "E11"
+    }
+   ]
+  },
+  {
+   "id": "car.end.e12",
+   "heading": "E12 Fitness-for-Purpose Design Warranty",
+   "trigger": {
+    "questions": [
+     "qs.car.s4.required",
+     "qs.car.s4.ffp_warranty"
+    ],
+    "rules": [
+     {
+      "when": "qs.car.s4.required == yes and qs.car.s4.ffp_warranty == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the construction contract requires a fitness-for-purpose design warranty.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.car.s4.required",
+     "text": "Does the insured have design responsibility, and is design and construct professional indemnity cover required?",
+     "type": "yes/no",
+     "used_by": "A, S, E12"
+    },
+    {
+     "id": "qs.car.s4.ffp_warranty",
+     "text": "Does the construction contract require a fitness-for-purpose design warranty?",
+     "type": "yes/no",
+     "used_by": "E12"
+    }
+   ]
+  }
+ ],
+ "sha256": "cbb2fe82cfca8ac79c36e4aa885222df22963dca8bf6fede157f5a0170e3054c"
+}
