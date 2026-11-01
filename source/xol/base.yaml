@@ -1,0 +1,92 @@
+id: xol-base
+title: Excess of Loss Insurance
+class: EXCESS OF LOSS INSURANCE
+kicker: Meridian Commons · Excess of Loss
+slug: excess-of-loss
+file_stem: Meridian_Excess_of_Loss
+doc_ref: 2026/XOL/0001
+version: 2.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Follow-form excess of loss cover for Australian businesses, above a named primary policy, with no automatic drop-down.
+supersedes: Meridian Excess of Loss Insurance Policy Wording v1.0.0 (July 2026), published outside the Commons
+structure:
+- section: preamble
+  clauses:
+  - xol.about
+  - xol.version-history
+  - xol.schedule
+- section: xol.section.definitions
+  clauses:
+  - xol.def.attachment-point
+  - xol.def.claim
+  - xol.def.defence-costs
+  - xol.def.endorsement
+  - xol.def.followed-policy
+  - xol.def.gap-excess
+  - xol.def.limit-of-liability
+  - xol.def.loss
+  - xol.def.policy-period
+  - xol.def.retroactive-date
+  - xol.def.underlying-insurance
+  - xol.def.underlying-insurer
+  - xol.def.underlying-limit
+  - xol.def.we-us-our
+  - xol.def.you-your
+- section: xol.section.cover
+  clauses:
+  - xol.cover.follow-form-excess-layer
+  - xol.cover.attachment-and-exhaustion
+  - xol.cover.no-drop-down
+  - xol.cover.difference-in-conditions
+  - xol.cover.changes-to-the-followed-policy
+  - xol.cover.defence-costs
+- section: xol.section.exclusions
+  clauses:
+  - xol.excl.below-the-attachment-point
+  - xol.excl.fines-and-penalties
+  - xol.excl.war-terrorism-and-nuclear
+  - xol.excl.how-the-exclusions-apply
+- section: xol.section.payment
+  clauses:
+  - xol.pay.limit-of-liability
+  - xol.pay.shared-layer
+  - xol.pay.order-of-payment
+  - xol.pay.other-insurance
+  - xol.pay.recoveries
+- section: xol.section.obligations
+  clauses:
+  - xol.obl.maintain-the-underlying-insurance
+  - xol.obl.tell-us-about-claims
+  - xol.obl.cooperate-with-us
+  - xol.obl.settlement-consent
+  - xol.obl.tell-us-about-changes
+- section: xol.section.conditions
+  clauses:
+  - xol.cond.insurance-contracts-act
+  - xol.cond.your-duty-of-disclosure
+  - xol.cond.cancellation
+  - xol.cond.sanctions
+  - xol.cond.governing-law
+  - xol.cond.jurisdiction
+  - xol.cond.gst
+  - xol.cond.several-liability
+  - xol.cond.assignment
+  - xol.cond.headings-and-references
+  - xol.cond.disputes-and-complaints
+  - xol.cond.privacy
+- section: end
+  clauses:
+  - xol.claims.how-to-make-a-claim
+  - xol.guide
+  - xol.endorsement-library
+  - xol.end.e01
+  - xol.end.e02
+  - xol.end.e03
+  - xol.end.e04
+  - xol.end.e05
+  - xol.end.e06
+  - xol.end.e07
+  - xol.end.e08
+  - xol.end.e09
+  - xol.licence-notice

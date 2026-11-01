@@ -1,0 +1,128 @@
+# Platform questions for the Excess of Loss wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.xol namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.xol.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.xol.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.xol.insured.principal_state
+    text: In which state or territory is the insured's principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, S
+  - id: qs.xol.underlying.class
+    text: What class of insurance is the followed policy?
+    type: select
+    options: ['PI', 'ML', 'DO', 'CY', 'TL', 'IMI']
+    used_by: R, A, S
+  - id: qs.xol.underlying.followed_insurer
+    text: Who is the insurer of the followed policy?
+    type: text
+    used_by: S, A
+  - id: qs.xol.underlying.followed_wording
+    text: What is the wording and version of the followed policy?
+    type: text
+    used_by: S, A
+  - id: qs.xol.underlying.on_commons_wording
+    text: Is the followed policy written on a Meridian Commons wording?
+    type: yes/no
+    used_by: A
+  - id: qs.xol.underlying.primary_limit
+    text: What is the limit of the primary policy?
+    type: currency (AUD)
+    used_by: R, S
+  - id: qs.xol.underlying.layers
+    text: List each policy in the tower below the layer you are placing, with insurer, policy number, layer limit, attachment and expiry date.
+    type: repeating (insurer, policy number, limit, attachment, expiry date)
+    used_by: S, A
+  - id: qs.xol.underlying.expiry_before_end
+    text: Does any underlying policy expire before the end of the period of the layer you are placing?
+    type: yes/no
+    used_by: A
+  - id: qs.xol.underlying.aggregate_eroded
+    text: Has any aggregate underlying limit been reduced by paid or reserved loss in the current period? If yes, by how much?
+    type: yes/no, with amount
+    used_by: A, E03
+  - id: qs.xol.underlying.defence_costs_basis
+    text: Does the followed policy pay defence costs within its limit or in addition to it?
+    type: select
+    options: ['within', 'in_addition']
+    used_by: S, E04
+  - id: qs.xol.underlying.multi_year
+    text: Is the followed policy written for a period longer than twelve months?
+    type: yes/no
+    used_by: E06
+  - id: qs.xol.underlying.insurers_apra_authorised
+    text: Is every underlying insurer authorised by APRA or a Lloyd's syndicate?
+    type: yes/no
+    used_by: A, E09
+  - id: qs.xol.layer.attachment
+    text: At what amount does the layer you are placing attach?
+    type: currency (AUD)
+    used_by: R, A, S
+  - id: qs.xol.layer.limit
+    text: What limit of liability do you want for the layer?
+    type: currency (AUD)
+    used_by: R, A, S
+  - id: qs.xol.layer.gap_excess
+    text: Is there a gap excess between the top of the underlying insurance and the attachment? If yes, how much?
+    type: currency (AUD)
+    used_by: S, A
+  - id: qs.xol.layer.share
+    text: What share of the layer is this insurer asked to write?
+    type: percentage
+    used_by: R, A, S
+  - id: qs.xol.rating.primary_premium_broker
+    text: What is the annual premium of the primary policy? (Optional. Given by the broker.)
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.xol.rating.primary_premium_underwriter
+    text: What primary premium has the excess underwriter calculated for this risk? (Underwriter only.)
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.xol.rating.severity
+    text: What severity setting applies to this risk, from -1 (low) to +1 (high)? (Underwriter only.)
+    type: number
+    used_by: R, A
+  - id: qs.xol.claims.count_5y
+    text: How many claims or notified circumstances have there been under the followed policy in the last five years?
+    type: number
+    used_by: A
+  - id: qs.xol.claims.reaching_layer
+    text: Has any claim or circumstance been reserved or paid at more than half of the attachment point?
+    type: yes/no
+    used_by: A
+  - id: qs.xol.exposure.usa_canada
+    text: Does the insured have assets, operations, revenue or clients in the USA or Canada?
+    type: yes/no
+    used_by: A, E07
+  - id: qs.xol.endorsements.dic_requested
+    text: Do you want this layer to cover differences between the followed policy and other underlying insurance?
+    type: yes/no
+    used_by: E01
+  - id: qs.xol.endorsements.reinstatement_requested
+    text: Do you want the limit of liability reinstated once after it is exhausted?
+    type: yes/no
+    used_by: E02
+  - id: qs.xol.endorsements.dropdown_aggregate_requested
+    text: Do you want this layer to drop down when an aggregate underlying limit is reduced by paid loss?
+    type: yes/no
+    used_by: E03
+  - id: qs.xol.endorsements.sir_requested
+    text: Will the insured retain any layer of the tower itself in place of underlying insurance?
+    type: yes/no
+    used_by: E05
+  - id: qs.xol.endorsements.exclusion_changes_requested
+    text: Do you want any exclusion of the followed policy changed for this layer?
+    type: yes/no
+    used_by: E08
+  - id: qs.xol.endorsements.dropdown_insolvency_requested
+    text: Do you want this layer to replace an underlying insurer that becomes insolvent?
+    type: yes/no
+    used_by: E09
