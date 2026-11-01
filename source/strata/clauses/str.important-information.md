@@ -3,11 +3,14 @@ id: str.important-information
 type: preamble
 heading: Important Information
 since: 1.0.0
+changed: 1.1.0
 status: draft
 note: Contains 2 WP REVIEW tags for the Wording Partner.
 ---
 
 **Who issues this policy.** The insurer, its Australian Financial Services Licence and its contact details are shown in the schedule. Where the insurer subscribes to the General Insurance Code of Practice, the schedule says so.
+
+**Who this policy is for.** This wording is written for businesses and professionals. Some buyers, such as small businesses, may be retail clients under the Corporations Act 2001 (Cth). Where a buyer is a retail client, the issuer must give a Product Disclosure Statement and make a Target Market Determination available. This wording is not itself a Product Disclosure Statement.
 
 **Who is insured.** You are the body corporate named in the schedule. Lot owners, office bearers, voluntary workers and others are insured only where a section says so.
 

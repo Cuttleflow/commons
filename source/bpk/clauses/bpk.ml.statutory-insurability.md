@@ -3,14 +3,11 @@ id: bpk.ml.statutory-insurability
 type: exclusion
 heading: Statutory Insurability
 since: 2.1.0
+changed: 2.2.0
 status: draft
 note: Contains a WP REVIEW tag for the Wording Partner.
 ---
 
-We do not pay, and Loss does not include:
+We do not pay any fine or penalty that the law does not allow to be insured. In particular, we do not pay a penalty imposed under work health and safety law in a State or Territory whose law prohibits insurance of it (including New South Wales, Victoria and Queensland), and we do not pay a criminal fine. Loss does not include any of these. Defence costs for those proceedings remain covered, subject to [[ref:bpk.ml.corporations-act-199]].
 
-- a fine or penalty under a work health and safety law of a State or Territory that prohibits insurance or indemnity for that fine or penalty, including New South Wales, Victoria, Queensland and Western Australia. Defence costs for those proceedings remain covered;
-- a pecuniary penalty order or compensation order against an Insured person, or defence costs for a proceeding in which the Insured person is found liable, where s 199B of the Corporations Act 2001 (Cth) prohibits the premium being paid for that cover; and
-- any other fine or penalty the law does not allow to be insured.
-
-[WP REVIEW: confirm the current list of jurisdictions banning insurance of WHS penalties, and whether to exclude WHS penalties nationally.]
+[WP REVIEW: confirm the list of jurisdictions that prohibit insurance of WHS penalties; library sources differ on WA and Victoria.]
