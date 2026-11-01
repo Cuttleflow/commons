@@ -33,7 +33,8 @@ KIND = {  # how a reference to each clause type reads
     "condition": "condition", "section": "section", "preamble": "section",
     "claims": "section", "library": "", "notice": "", "endorsement": "endorsement",
 }
-REF = re.compile(r"\[\[ref:([a-z0-9.\-]+)(\|heading)?\]\]")
+REF = re.compile(r"\[\[ref:\s*([a-z0-9.\-]+)\s*(\|\s*heading\s*)?\]\]")
+STRAY = re.compile(r"\[\[|\]\]")  # any [[ or ]] left after references are resolved is a build fault
 LITERAL_NUMBER = re.compile(r"\b(?:Sections?|[Cc]lauses?|[Pp]aragraph|[Ss]ub-?clause)\s+\d+(?:\.\d+)*\b")
 
 
@@ -224,6 +225,10 @@ def check(manifest, structure, cmap, errors):
             target = refc(cmap, m.group(1))
             if target is None or target["id"] not in ids:
                 errors.append(f"{c['path']}: reference to {m.group(1)}, which is not in {manifest['id']}")
+        for m in re.finditer(r"\b[Tt]he (\[\[ref:[a-z0-9.\-]+\]\])", c["body"]):
+            errors.append(f"{c['path']}: 'the {m.group(1)}' prints 'the the' — the reference supplies its own article")
+        if STRAY.search(REF.sub("", c["body"])):
+            errors.append(f"{c['path']}: unresolved [[ or ]] — a reference is malformed and would print literally")
         for m in LITERAL_NUMBER.finditer(c["body"]):
             errors.append(f"{c['path']}: literal clause number '{m.group(0)}' — use [[ref:...]]")
         check_trigger(c, errors)
@@ -254,6 +259,28 @@ def plain(text, cmap):
     return t
 
 
+def split_row(line):
+    """Split a pipe-table row into cells. A pipe inside [[...]] (a heading-only reference) is not a cell boundary."""
+    cells, cur, depth, i, t = [], "", 0, 0, line.strip()
+    if t.startswith("|"):
+        t = t[1:]
+    if t.endswith("|") and not t.endswith("\\|"):
+        t = t[:-1]
+    while i < len(t):
+        if t.startswith("[[", i):
+            depth += 1; cur += "[["; i += 2; continue
+        if t.startswith("]]", i) and depth:
+            depth -= 1; cur += "]]"; i += 2; continue
+        ch = t[i]
+        if ch == "|" and not depth:
+            cells.append(cur.strip()); cur = ""
+        else:
+            cur += ch
+        i += 1
+    cells.append(cur.strip())
+    return cells
+
+
 def blocks(body):
     """Split a clause body into blocks: ('p', text) ('ul', [items]) ('ol', [items]) ('table', rows)."""
     out = []
@@ -266,7 +293,7 @@ def blocks(body):
         elif all(re.match(r"\d+\. ", l) for l in lines):
             out.append(("ol", [re.sub(r"^\d+\. ", "", l) for l in lines]))
         elif lines[0].startswith("|"):
-            rows = [[c.strip() for c in l.strip("|").split("|")] for l in lines]
+            rows = [split_row(l) for l in lines]
             rows = [r for r in rows if not all(set(c) <= set("-: ") for c in r)]
             out.append(("table", rows))
         else:
