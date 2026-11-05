@@ -1,0 +1,151 @@
+id: mot-heavy
+title: Heavy Motor Insurance
+class: HEAVY MOTOR INSURANCE
+kicker: Meridian Commons · Heavy Motor
+slug: heavy-motor
+file_stem: Meridian_Heavy_Motor
+doc_ref: 2026/HMV/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Trucks, prime movers and trailers for owner-drivers and small transport operators, built on the Meridian
+  Commercial Motor base wording, with optional downtime and non-owned trailer cover.
+base: mot-base@3.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated heavy motor wording
+overrides:
+# Preamble
+- op: replace
+  target: mot.about
+  with: mot.hmv.about
+- op: replace
+  target: mot.who-this-is-for
+  with: mot.hmv.who-this-is-for
+- op: replace
+  target: mot.schedule
+  with: mot.hmv.schedule
+# Definitions (kept in alphabetical order)
+- op: add
+  clause: mot.hmv.def.carrying-capacity
+  after: mot.def.agreed-value
+- op: add
+  clause: mot.hmv.def.combination
+  after: mot.hmv.def.carrying-capacity
+- op: delete
+  target: mot.def.declaration-date
+- op: delete
+  target: mot.def.fleet-basis
+- op: add
+  clause: mot.hmv.def.gross-combination-mass
+  after: mot.def.excess
+- op: add
+  clause: mot.hmv.def.gross-vehicle-mass
+  after: mot.hmv.def.gross-combination-mass
+- op: replace
+  target: mot.def.insured-vehicle
+  with: mot.hmv.def.insured-vehicle
+- op: add
+  clause: mot.hmv.def.load
+  after: mot.hmv.def.insured-vehicle
+- op: add
+  clause: mot.hmv.def.non-owned-trailer
+  after: mot.def.named-insured
+- op: replace
+  target: mot.def.permitted-use
+  with: mot.hmv.def.permitted-use
+- op: add
+  clause: mot.hmv.def.powered-vehicle
+  after: mot.hmv.def.permitted-use
+- op: add
+  clause: mot.hmv.def.radius-of-operation
+  after: mot.hmv.def.powered-vehicle
+- op: add
+  clause: mot.hmv.def.vehicle-class
+  after: mot.def.total-loss
+# Cover for your vehicles
+- op: replace
+  target: mot.pay.new-vehicle-replacement
+  with: mot.hmv.pay.new-vehicle-replacement
+- op: replace
+  target: mot.ext.additional-benefits
+  with: mot.hmv.ext.additional-benefits
+- op: add
+  clause: mot.hmv.ext.newly-acquired-vehicles
+  after: mot.hmv.ext.additional-benefits
+- op: replace
+  target: mot.excl.vehicle-cover
+  with: mot.hmv.excl.vehicle-cover
+# Your legal liability
+- op: replace
+  target: mot.ext.non-owned-trailers
+  with: mot.hmv.ext.non-owned-trailers
+- op: replace
+  target: mot.excl.liability
+  with: mot.hmv.excl.liability
+# The fleet provisions give way to the two optional sections
+- op: delete
+  target: mot.section.fleet
+- op: add_section
+  section: mot.hmv.section.downtime
+  after: mot.section.liability
+  clauses:
+  - mot.hmv.cover.downtime
+  - mot.hmv.excl.downtime
+- op: add_section
+  section: mot.hmv.section.non-owned-trailers
+  after: mot.hmv.section.downtime
+  clauses:
+  - mot.hmv.cover.non-owned-trailers
+  - mot.hmv.excl.non-owned-trailers
+# General exclusions
+- op: replace
+  target: mot.excl.overloading
+  with: mot.hmv.excl.overloading
+- op: replace
+  target: mot.excl.hire-fare-or-reward
+  with: mot.hmv.excl.hire-fare-or-reward
+# Obligations and conditions
+- op: replace
+  target: mot.obl.tell-us-about-changes
+  with: mot.hmv.obl.tell-us-about-changes
+- op: replace
+  target: mot.cond.excess
+  with: mot.hmv.cond.excess
+# Endorsements
+- op: replace
+  target: mot.endorsement-library
+  with: mot.hmv.endorsement-library
+- op: delete
+  target: mot.end.e01
+- op: delete
+  target: mot.end.e02
+- op: delete
+  target: mot.end.e03
+- op: delete
+  target: mot.end.e08
+- op: delete
+  target: mot.end.e09
+- op: delete
+  target: mot.end.e11
+- op: delete
+  target: mot.end.e13
+- op: delete
+  target: mot.end.e17
+- op: replace
+  target: mot.end.e18
+  with: mot.hmv.end.e18
+- op: add
+  clause: mot.hmv.end.e19
+  after: mot.hmv.end.e18
+- op: add
+  clause: mot.hmv.end.e20
+  after: mot.hmv.end.e19
+- op: add
+  clause: mot.hmv.end.e21
+  after: mot.hmv.end.e20
+- op: add
+  clause: mot.hmv.end.e22
+  after: mot.hmv.end.e21
+- op: replace
+  target: mot.appendix.default-schedule-values
+  with: mot.hmv.appendix.default-schedule-values

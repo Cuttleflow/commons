@@ -1,6 +1,7 @@
-# Platform questions for the Meridian motor wordings (Commercial Motor base and Private Motor).
-# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.mot namespace. The Go templates
-# CMV-AU-GO, FLT-AU-GO and PMV-AU-GO use the same IDs (Cuttleflow/cuttleflow-app specs/go-motor).
+# Platform questions for the Meridian motor wordings (Commercial Motor base, Private Motor and Heavy Motor).
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.mot and qs.hmv namespaces. The Go templates
+# CMV-AU-GO, FLT-AU-GO and PMV-AU-GO use the same IDs (Cuttleflow/cuttleflow-app specs/go-motor), and
+# HMV-AU-GO uses them for heavy motor (specs/go-hmv).
 # used_by: R rating (sent to the tenant's rater), A appetite or referral rule, S schedule, E## endorsement trigger.
 # Questions under qs.mot.vehicles are asked once for each vehicle. The *_count questions are
 # derived from the vehicle rows by the platform, so a rule can read them as one value.
@@ -31,7 +32,7 @@ questions:
   - id: qs.mot.insured.years_in_business
     text: How many years has the business traded under its current ownership?
     type: number
-    used_by: A
+    used_by: R, A
   - id: qs.mot.insured.adverse_insurance_history
     text: Has any insurer declined, cancelled or imposed special terms on the insured in the last 5 years?
     type: yes/no, with details
@@ -160,3 +161,131 @@ questions:
     text: Do the vehicles have a telematics system that records speed, harsh events and location?
     type: yes/no
     used_by: A, E07
+
+  # ------------------------------------------------------------------ Heavy Motor (2026/HMV/0001)
+  # The heavy motor wording uses the qs.mot questions above that its clauses and the Go template
+  # HMV-AU-GO read, and adds the qs.hmv questions below. The platform does not derive answers from
+  # the vehicle rows, so the counts, the largest values and the two splits are asked directly.
+  # Operations
+  - id: qs.hmv.operations.goods
+    text: What do the vehicles mainly carry?
+    type: select
+    options: [general_freight, refrigerated, bulk_tipper, building_construction, agricultural, waste, livestock, containers, other]
+    used_by: R, A
+  - id: qs.hmv.operations.radius_band
+    text: What is the furthest distance band, measured in a straight line from the garaging address, within which any vehicle regularly operates?
+    type: select
+    options: [up_to_200km, 201_to_450km, 451_to_850km, over_850km]
+    used_by: R, A, S
+  - id: qs.hmv.operations.main_state
+    text: In which state or territory is most of the declared value garaged?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R
+  - id: qs.hmv.operations.multi_trailer
+    text: Does any vehicle tow more than one trailer, such as a B-double, B-triple or road train?
+    type: yes/no
+    used_by: A, E19
+  - id: qs.hmv.operations.two_up
+    text: Are any trips driven two-up, with two drivers sharing the driving?
+    type: yes/no
+    used_by: A
+  - id: qs.hmv.operations.specialist
+    text: Are any vehicles used for specialist work?
+    type: select
+    options: [none, car_carrier, logging, concrete, crane_lifting, oversize_heavy_haulage, waste_collection]
+    used_by: A, E21
+  - id: qs.hmv.operations.restricted_sites
+    text: Does any vehicle operate on a mine site, port or airport airside area?
+    type: yes/no
+    used_by: A, E22
+  - id: qs.hmv.operations.long_hours
+    text: Does any vehicle regularly operate for more than 14 hours in a day?
+    type: yes/no
+    used_by: A
+  - id: qs.hmv.operations.accreditation
+    text: Which heavy vehicle accreditation does the business hold?
+    type: select
+    options: [none, hva_nhvas, wahva, trucksafe]
+    used_by: R
+  # Vehicles
+  - id: qs.hmv.vehicles
+    text: For each vehicle and trailer, give its registration, make and model, year, vehicle class, gross vehicle mass (and gross combination mass for a prime mover), carrying capacity, body type, cover level, value basis and sum insured, garaging postcode and state, and whether it is a tipper.
+    type: repeating (vehicle fields)
+    used_by: S
+  - id: qs.hmv.vehicles.powered_count
+    text: How many powered vehicles (trucks, prime movers and light commercial vehicles) are insured?
+    type: number
+    used_by: A, E18
+  - id: qs.hmv.vehicles.combination_count
+    text: How many of the powered vehicles are prime movers, or trucks that tow a trailer?
+    type: number
+    used_by: R, A
+  - id: qs.hmv.vehicles.light_count
+    text: How many of the vehicles have a carrying capacity of 2 tonnes or less?
+    type: number
+    used_by: A
+  - id: qs.hmv.vehicles.max_value
+    text: What is the highest sum insured of any one vehicle or trailer?
+    type: number
+    used_by: A
+  - id: qs.hmv.vehicles.max_combination_value
+    text: What is the highest combined sum insured of a prime mover or truck and the trailers it tows?
+    type: number
+    used_by: A
+  - id: qs.hmv.vehicles.tipper
+    text: Is any vehicle a tipper, or fitted with a hook-lift or other body that is raised to unload?
+    type: yes/no
+    used_by: E20
+  # Rating
+  - id: qs.hmv.rating.declared_value
+    text: What is the total declared value of all the vehicles and trailers? (For a vehicle insured at third party only, its market value.)
+    type: number
+    used_by: R
+  - id: qs.hmv.rating.class_split
+    text: Of the total declared value, what share is in each vehicle class at each cover level?
+    type: repeating (rating class, percentage; totals 100)
+    used_by: R
+  - id: qs.hmv.rating.state_split
+    text: Of the total declared value, what share is garaged in each state or territory?
+    type: repeating (state, percentage; totals 100)
+    used_by: S
+  # Drivers
+  - id: qs.hmv.drivers.youngest_combination_age
+    text: How old is the youngest person who will drive a prime mover or a truck towing a trailer? (Asked where any is insured.)
+    type: number
+    used_by: R, A
+  - id: qs.hmv.drivers.min_combination_years
+    text: What is the shortest time any driver of a prime mover or of a truck towing a trailer has held a licence for that class, in years? (Asked where any is insured.)
+    type: number
+    used_by: R, A
+  # Claims
+  - id: qs.hmv.claims.large_claim_5y
+    text: In the last 5 years, has any single claim on the insured's vehicles cost more than $50,000?
+    type: yes/no, with details
+    used_by: A
+  # Cover
+  - id: qs.hmv.cover.tppd_limit
+    text: What third party property damage limit is required?
+    type: select
+    options: [5000000, 10000000, 20000000, 30000000, 50000000]
+    used_by: R, S
+  - id: qs.hmv.cover.basic_excess
+    text: What basic excess is required for each vehicle?
+    type: select
+    options: [1000, 2500, 5000, 7500, 10000]
+    used_by: R, S
+  - id: qs.hmv.cover.downtime_weekly_total
+    text: If Downtime cover is wanted, what is the total of the weekly downtime benefits for all the powered vehicles? (Enter 0 if Downtime is not wanted.)
+    type: number
+    used_by: R, S
+  - id: qs.hmv.cover.non_owned_trailer_limit
+    text: If cover for non-owned trailers in your control is wanted, what limit is required for each trailer? (Choose 0 if it is not wanted.)
+    type: select
+    options: [0, 50000, 100000, 150000, 200000]
+    used_by: R, S
+  # Risk management
+  - id: qs.hmv.risk.driver_monitoring
+    text: Are the powered vehicles fitted with a working driver fatigue and distraction monitoring system?
+    type: yes/no
+    used_by: R

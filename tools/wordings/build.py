@@ -4,7 +4,7 @@
 Each clause is a Markdown file with a YAML header in source/<class>/clauses/.
 A wording is described by a manifest: source/<class>/base.yaml for the base wording,
 source/<class>/professions/<slug>.yaml for a profession wording, which pins a base
-version and lists overrides (replace, add, delete).
+version and lists overrides (replace, add, add_section, delete).
 
 Usage:
   python3 tools/wordings/build.py check            # run the checks only
@@ -176,6 +176,22 @@ def resolve(cls, manifest, clauses, errors):
                     s["clauses"].insert(0, op["clause"]); placed = True
             if not placed:
                 errors.append(f"{manifest['id']}: add {op['clause']} after {after}, which is not in the wording")
+        elif kind == "add_section":
+            # A variant may add a whole section (its heading clause and the clauses in it),
+            # for example the optional sections of the heavy motor wording.
+            sec, after, added = op.get("section"), op.get("after"), list(op.get("clauses") or [])
+            if sec not in cmap or cmap[sec]["type"] != "section":
+                errors.append(f"{manifest['id']}: added section {sec} is not a section clause")
+                continue
+            missing = [c for c in added if c not in cmap]
+            if missing:
+                errors.append(f"{manifest['id']}: section {sec} lists clauses that do not exist: {', '.join(missing)}")
+                continue
+            pos = next((i for i, s in enumerate(structure) if s["section"] == after), None)
+            if pos is None:
+                errors.append(f"{manifest['id']}: add section {sec} after {after}, which is not a section of the wording")
+                continue
+            structure.insert(pos + 1, dict(section=sec, clauses=added))
         else:
             errors.append(f"{manifest['id']}: unknown override {kind}")
     return structure, cmap
@@ -574,6 +590,14 @@ def endorsement(manifest, base_manifest, cmap):
             noun = KIND.get(new["type"], "clause") or "clause"
             add(f"end.{i}", f"Added: {new['heading']}", f"The following {noun} is added to the base wording{where}."
                 + f"\n\n**{new['heading']}**\n\n" + new["body"])
+        elif kind == "add_section":
+            sec = cmap[op["section"]]
+            after = cmap.get(op["after"])
+            where = f", after {ref_text(after)}" if after else ""
+            body = f"The following section is added to the base wording{where}.\n\n**{sec['heading']}**\n\n{sec['body']}"
+            for cid in op.get("clauses") or []:
+                body += f"\n\n**{cmap[cid]['heading']}**\n\n{cmap[cid]['body']}"
+            add(f"end.{i}", f"Added: {sec['heading']}", body)
         elif kind == "delete":
             old = cmap[op["target"]]
             add(f"end.{i}", f"Removed: {old['heading']}", f"{ref_text(old, start=True)} in the base wording does not apply.")
