@@ -1,0 +1,1089 @@
+{
+ "wording": "peq-base",
+ "version": "1.1.0-DRAFT",
+ "doc_ref": "2026/PEQ/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "peq.about",
+   "heading": "About This Policy",
+   "sha256": "abae1af6efee9cfae4ecb6bb4506784cf6d589ed90a487a1317bfcd144087688"
+  },
+  {
+   "id": "peq.version-history",
+   "heading": "Version and Document History",
+   "sha256": "db1d4d8b1393fd483f944a245e278cec293f04d28b8204494184e8ca38b7450a"
+  },
+  {
+   "id": "peq.important-information",
+   "heading": "Important Information",
+   "sha256": "13d25a2b9afbcdf0a9d2610358f16cc6cb104626d9af8b9d39e6e66bb23e36da"
+  },
+  {
+   "id": "peq.schedule",
+   "heading": "Schedule",
+   "sha256": "0afc3da8cd34a897a4b24ac76094f89bfc824e94aa6e5c77e314e1723105bb21"
+  },
+  {
+   "id": "peq.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "peq.def.accidental-loss-or-damage",
+   "heading": "Accidental Loss or Damage",
+   "sha256": "47fc6f5f8d1841839ea1b9943f86b2436953e1815ddb2cca82bfc80f60a7b11c"
+  },
+  {
+   "id": "peq.def.agreed-value",
+   "heading": "Agreed Value",
+   "sha256": "c2b12921962e6ce48bec47060447580796484d1812f94510a79117b411dd4c86"
+  },
+  {
+   "id": "peq.def.attachment",
+   "heading": "Attachment",
+   "sha256": "2fb4f170b5f8c1e48d1552dc2547ee3132e3dfb2ca4571173725d7563bf943e4"
+  },
+  {
+   "id": "peq.def.breakdown",
+   "heading": "Breakdown",
+   "sha256": "76c9414de3b5700747ce7e1c7b29055a31919b3019163771711beb682200aa6c"
+  },
+  {
+   "id": "peq.def.continuing-hire-charges",
+   "heading": "Continuing Hire Charges",
+   "sha256": "820737b3dea5fc34c97230276911d7fce20e93a100eb082980aea2c419b6b800"
+  },
+  {
+   "id": "peq.def.cyber-event",
+   "heading": "Cyber Event",
+   "sha256": "dd5bb4486f543521d9d4ff3ac5d81aaa81e143894b8ca9eceb10e9672d7e8c9f"
+  },
+  {
+   "id": "peq.def.damage-waiver",
+   "heading": "Damage Waiver",
+   "sha256": "b7c5580fdc4beb2ed418e6239d6f3e00743c805830fb8a4b2cc22372044929e1"
+  },
+  {
+   "id": "peq.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "08d207582ac3e63913331ba47445d442e2a08add27f0f4d2cff65b4c321efdb6"
+  },
+  {
+   "id": "peq.def.dry-hire",
+   "heading": "Dry Hire",
+   "sha256": "c0fee68c6879850844a2310c656c4a8f225c1355d5895aa17c985f96c5792687"
+  },
+  {
+   "id": "peq.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "7e2ca6dd9efc8145b451f212370fb904463e78e1348fc5090aaa80ace7ba95e1"
+  },
+  {
+   "id": "peq.def.event",
+   "heading": "Event",
+   "sha256": "e13a807e62a9ed3f8d4c81721e47c2d4f02706cb251a484a9af3dd082d2aec53"
+  },
+  {
+   "id": "peq.def.excess",
+   "heading": "Excess",
+   "sha256": "5f6dc39465af68862b0db4ce0083a351b67ebc9ef37b032cd4292feb3ade8ec9"
+  },
+  {
+   "id": "peq.def.financier",
+   "heading": "Financier",
+   "sha256": "030795398413062e18de1b006473aeb8e5a472cdf9109be7e64aa3469103df69"
+  },
+  {
+   "id": "peq.def.geographical-limits",
+   "heading": "Geographical Limits",
+   "sha256": "1a45580a067a7dab6fc47c964c35aa444a8e661d13a202063cef191b027cff4c"
+  },
+  {
+   "id": "peq.def.hire-agreement",
+   "heading": "Hire Agreement",
+   "sha256": "08afabe65919dab0008af56a51e8a84bcffc5275dd3739ac5060c3f6700445dd"
+  },
+  {
+   "id": "peq.def.hired-in-plant",
+   "heading": "Hired-In Plant",
+   "sha256": "be0fa291a9e97525eabc9ff685044fee4fdff5cd3d696f7e5d29a22423f02444"
+  },
+  {
+   "id": "peq.def.insured",
+   "heading": "Insured",
+   "sha256": "55c3aa75f7c1566f1244c40933d544a7a52962610959bea01545fab429007aed"
+  },
+  {
+   "id": "peq.def.insured-plant",
+   "heading": "Insured Plant",
+   "sha256": "06f4d883c1f05e9560b434539e5ae1da23fd220900683b7201d92edd0b7f70b6"
+  },
+  {
+   "id": "peq.def.market-value",
+   "heading": "Market Value",
+   "sha256": "41ecfe464c26cf8763f8e2a6e40b0624b505246b59746c82c7933602d1144e17"
+  },
+  {
+   "id": "peq.def.named-insured",
+   "heading": "Named Insured",
+   "sha256": "1cdc54d4b50e5d45ddc01d83a51d067a44aeead6d0db272115fb36e434a3b14b"
+  },
+  {
+   "id": "peq.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "a38929934cc1eabaae10f43d8916cc8baefedd480d677373a176b8268e240879"
+  },
+  {
+   "id": "peq.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "16fce8270f67666c35e72aed9980c7dad3568b6a8707035c6709e79388479cb0"
+  },
+  {
+   "id": "peq.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "87ac83e2fbcc2a1d36dfc9d13acdc66c2686c0268ec0dd5efcb460e594a270a0"
+  },
+  {
+   "id": "peq.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "d0e511a402ac4c029f4c9b90120e30ab7dc8302d39280b7cd485a2acb933b981"
+  },
+  {
+   "id": "peq.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "87d0c7e149faac1749bb3b40b707ad2b7d3122b32f5f59d5e219ddd8d1ffbd0d"
+  },
+  {
+   "id": "peq.def.schedule",
+   "heading": "Schedule",
+   "sha256": "f30a283baacc96b22030040b8c4f573e50776bf0de1144e27a0b41aa1c9e04e6"
+  },
+  {
+   "id": "peq.def.specified-plant",
+   "heading": "Specified Plant",
+   "sha256": "b67e7cb90b6fb43a72284ac2bf4a086be263a260da95eb8ac3630561d9f5f43d"
+  },
+  {
+   "id": "peq.def.third-party-claim",
+   "heading": "Third-Party Claim",
+   "sha256": "954df355ca2479886dfeebcc2edb1d224904ff5be59020d5326e6a1fe0d230e1"
+  },
+  {
+   "id": "peq.def.tool-of-trade",
+   "heading": "Tool of Trade",
+   "sha256": "b4661526d659687b0c6b005cfd20edfb92caa027768b5a7e934bc647d24f9ed4"
+  },
+  {
+   "id": "peq.def.total-loss",
+   "heading": "Total Loss",
+   "sha256": "e4a44f6f205862a1f3e27a7a478c4e105e0903076d1c323ce57c5546723f374d"
+  },
+  {
+   "id": "peq.def.unspecified-plant",
+   "heading": "Unspecified Plant",
+   "sha256": "a82f08d18e7d240cd9116749f5bca0d56d771cec092aefabe378f03c6889947a"
+  },
+  {
+   "id": "peq.def.wear-parts",
+   "heading": "Wear Parts",
+   "sha256": "e9c565377b55711ab91a478e0d9d107eedfaf926c3c99ac63be594824b51feec"
+  },
+  {
+   "id": "peq.def.wet-hire",
+   "heading": "Wet Hire",
+   "sha256": "aeb2ab88da58f1a64f016508954b96e27357b5e4d51359cd7af81af77ee76661"
+  },
+  {
+   "id": "peq.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "peq.def.you-your",
+   "heading": "You, Your",
+   "sha256": "9af13139a29acb45d75ce6c2a427d7a407bd5d387c0dd8c6efb4470b6350e4b8"
+  },
+  {
+   "id": "peq.section.material-damage",
+   "heading": "Material Damage",
+   "sha256": "b0253a3771d064fe30f790cb3674b3bb3d337fa47752e1feaf7b4641694d1170"
+  },
+  {
+   "id": "peq.cover.material-damage",
+   "heading": "Damage to Insured Plant",
+   "sha256": "86f8737a731a08a77863732b7f31efa1b02b5cd3bfb1f15d9fff590f47a4bc5d"
+  },
+  {
+   "id": "peq.pay.basis-of-settlement",
+   "heading": "Basis of Settlement",
+   "sha256": "a7ac6d83ede394d886b2e44237cbecf263432c6686c082b5c313962babe997ce"
+  },
+  {
+   "id": "peq.ext.recovery-costs",
+   "heading": "Recovery Costs",
+   "sha256": "92ab86539932cb170b3e3152decb80cccc76ca9019a0df5b28aaf8c0817c802b"
+  },
+  {
+   "id": "peq.ext.expediting-costs",
+   "heading": "Expediting Costs",
+   "sha256": "c41454378ad166a03710e66c98df314e836d72eb0fd6c420735b9513aebd6b4a"
+  },
+  {
+   "id": "peq.ext.newly-acquired-plant",
+   "heading": "Newly Acquired Plant",
+   "sha256": "4a12a7b062d5be8f6399778b2d3bdcc7d77cbf05699dda461d07dcf7dd777343"
+  },
+  {
+   "id": "peq.ext.attachments",
+   "heading": "Attachments and Accessories",
+   "sha256": "6e746f10feb3f2523cbbdf7e4142281049950cc9a294c1483bf78e2d8053dcb0"
+  },
+  {
+   "id": "peq.ext.appreciation",
+   "heading": "Appreciation in Value",
+   "sha256": "d48bd7da676ceb0be9c86e3cf8970662fa26afe744ea25b957ef33beb3639e38"
+  },
+  {
+   "id": "peq.ext.hire-costs",
+   "heading": "Hire Costs Following Insured Damage",
+   "sha256": "92ee9262c7984ad4d430658546ec0fc1b7ff84a040a6d1410f1758118bcf2ac8"
+  },
+  {
+   "id": "peq.ext.employees-tools",
+   "heading": "Employees' Tools and Effects",
+   "sha256": "cd6fef24f32f1e36fe5299b1521266d12a8b80d202905a85e9729816e30fae30"
+  },
+  {
+   "id": "peq.ext.re-erection",
+   "heading": "Re-Erection and Repositioning Costs",
+   "sha256": "279efa49f0692747ee98bf294c34de7cb7e08f254935b9eee949c4624842aefa"
+  },
+  {
+   "id": "peq.ext.removal-of-debris",
+   "heading": "Removal of Debris",
+   "sha256": "3ba5bbc99c16a15bd1b16be23c3a76af77b5b332bfb6f8bbaa96ecb418a417dd"
+  },
+  {
+   "id": "peq.ext.lock-and-key",
+   "heading": "Lock and Key Re-Coding",
+   "sha256": "79d74dbb360ede3b3902faad902ead71859090fb2e9f9fe56de6001c508739e1"
+  },
+  {
+   "id": "peq.ext.fire-brigade",
+   "heading": "Fire Brigade and Extinguishment Charges",
+   "sha256": "77b09dd590421aa76b52c20d95febf95a014443d4bf3f11e9f00fd6856a9fab6"
+  },
+  {
+   "id": "peq.ext.unspecified-plant",
+   "heading": "Unspecified Plant",
+   "sha256": "4b00e2e1d86311ce32cbe6ffeb30f8b64c93d2aa08b279ca6c862ff5c2aa0f14"
+  },
+  {
+   "id": "peq.cond.hired-out-plant",
+   "heading": "Hired-Out Plant: Dry Hire and Wet Hire",
+   "sha256": "2047df5b0c6514e5ce92c89a034e542f8bdc15738e0508dfd9383a5e5b04f01d"
+  },
+  {
+   "id": "peq.excl.breakdown",
+   "heading": "Mechanical and Electrical Breakdown",
+   "sha256": "3df8e319b8202ea1d6df574297ee6eb0f0e69d512ccbd4e5293d6b17a065baa0"
+  },
+  {
+   "id": "peq.excl.wear-and-tear",
+   "heading": "Wear and Tear",
+   "sha256": "c709c1ebaac3732625b939360e30f53960d49349772e266dde1dbc0c853c0aac"
+  },
+  {
+   "id": "peq.excl.wear-parts",
+   "heading": "Wear Parts",
+   "sha256": "9e37622ea4108b5cba42f309a78863aa80f5fa67c99be88bc664bed2c2f25fa9"
+  },
+  {
+   "id": "peq.excl.overload",
+   "heading": "Overload and Testing",
+   "sha256": "d0fd0f2a012d12ef6d1d4e7b88dd98ba98d73684d753c7cef693f1a05a15771e"
+  },
+  {
+   "id": "peq.excl.waterborne-airborne",
+   "heading": "Waterborne and Airborne Plant",
+   "sha256": "9caa758c888b71612d35aaca7abc7b11c15565c291146cb80901cce715373614"
+  },
+  {
+   "id": "peq.excl.underground",
+   "heading": "Underground and Tunnelling",
+   "sha256": "31217a513b17170e65905a741051e75f1b5fcc17b269c323ab4e6eabef5e56fd"
+  },
+  {
+   "id": "peq.excl.unexplained-shortage",
+   "heading": "Unexplained Shortage",
+   "sha256": "9fc61f4e4b16c6a4e85c56166b0b3f2ef194f3627377d57a55786a4554477775"
+  },
+  {
+   "id": "peq.excl.unattended-theft",
+   "heading": "Theft from Unattended Sites",
+   "sha256": "783a0b68ff5c173f8a78dd93ca18c8129e2bfecc525a0e2847b1756a3ca62015"
+  },
+  {
+   "id": "peq.excl.consequential-loss",
+   "heading": "Consequential Loss",
+   "sha256": "a4e3972ca8072129e6861062cdd7d93b3062c4d5b9eb1ef2ee0678d83ac51cfe"
+  },
+  {
+   "id": "peq.section.hired-in",
+   "heading": "Hired-In Plant",
+   "sha256": "1a134605228245aad83f1661d23465f46ed2bec0a7b6d9e18c8e7631dcb05d8d"
+  },
+  {
+   "id": "peq.cover.hired-in",
+   "heading": "Loss of or Damage to Hired-In Plant",
+   "sha256": "47439d058e1d1914bfb7c35111e1c0aa0519a5b78fd9210fdea8d512938c346f"
+  },
+  {
+   "id": "peq.pay.hired-in-limits",
+   "heading": "Hired-In Plant Limits",
+   "sha256": "828f214fa0580c32f1a4bb7ce361c3b678042f7179c841d202296804dbaab132"
+  },
+  {
+   "id": "peq.excl.hired-in",
+   "heading": "Hired-In Plant: What Is Not Covered",
+   "sha256": "11e1938f9bf0e9b72f4870901f95faaf6e128c0db0d215cb35a4b5969957eab6"
+  },
+  {
+   "id": "peq.section.breakdown",
+   "heading": "Machinery Breakdown",
+   "sha256": "331fd5dcf93b65e9d8e51c3375977fccf2ad4cf59e86272414c476424dafdff8"
+  },
+  {
+   "id": "peq.cover.breakdown",
+   "heading": "Breakdown of Specified Plant",
+   "sha256": "2767c652228b0194244552cb27f4f9055e70136f2828083b784b61314efe3284"
+  },
+  {
+   "id": "peq.pay.breakdown-settlement",
+   "heading": "Breakdown Settlement",
+   "sha256": "87a6be3ccf0f358f2660beac872d3d6e68ce194ca20cde5daabf37c6637ea2c9"
+  },
+  {
+   "id": "peq.excl.breakdown-section",
+   "heading": "Machinery Breakdown: What Is Not Covered",
+   "sha256": "2b6bb6b60fcdb00d66cc74ac185f07c9761a001a4860a2aab4948b2614e03b2d"
+  },
+  {
+   "id": "peq.section.liability",
+   "heading": "Mobile Plant Liability",
+   "sha256": "53b0900354676e25de9f8ecfa698cb141667213baf7ccf2e0ca869702e30f96a"
+  },
+  {
+   "id": "peq.cover.liability",
+   "heading": "Liability to Third Parties",
+   "sha256": "53d9647fcc58e168f1f152efaddf16c5f4bc21d47e91e25537bfb9385e57e43c"
+  },
+  {
+   "id": "peq.cover.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "3c80393254e688eceead74fc28119f689287770fb586b13c5bebda481164e981"
+  },
+  {
+   "id": "peq.cover.who-is-insured",
+   "heading": "Who Is Insured",
+   "sha256": "1861c809dae2944b440a5a2c72d270061171cbf9d38743a3559d35a7a1930165"
+  },
+  {
+   "id": "peq.ext.underground-services",
+   "heading": "Underground Services",
+   "sha256": "6c9d0016ac38a8be7d66fbc78b178113bdcf25b4a1ad36cd12dc7da6f56e5108"
+  },
+  {
+   "id": "peq.ext.vibration-support",
+   "heading": "Vibration and Removal of Support",
+   "sha256": "1717ded062f061f756e398c50b8b91099201fb90a8b27e8acf1bc37f3fccf3a7"
+  },
+  {
+   "id": "peq.ext.goods-lifted",
+   "heading": "Goods Lifted",
+   "sha256": "10a2790a2a2fb7178abe95ebdf9f491513137d444ed7c589dfa48b27c31886e6"
+  },
+  {
+   "id": "peq.ext.sudden-pollution",
+   "heading": "Sudden Pollution",
+   "sha256": "09902e38e69625e2dbbd8ac8b54f4f4ba533ca467ead537144b094edb9c90033"
+  },
+  {
+   "id": "peq.excl.liability-workers",
+   "heading": "Injury to Workers and Injury Covered by CTP",
+   "sha256": "5dd6ab126acbf981302329e26b48cdc1b0b67b0744883e04aa0043c9d40d9eef"
+  },
+  {
+   "id": "peq.excl.liability-road-use",
+   "heading": "Road Use as Transport",
+   "sha256": "c578f76983f3b249225fd1a95fdde59eaaba1b1a1c30fc9cf387df4ba4a7f18a"
+  },
+  {
+   "id": "peq.excl.liability-own-property",
+   "heading": "Own Property",
+   "sha256": "e6f95712a12b5f4f86a04d9a618c80131ea94103e7431e14acc4658cbbb0a58d"
+  },
+  {
+   "id": "peq.excl.liability-aircraft-watercraft",
+   "heading": "Aircraft and Watercraft",
+   "sha256": "3b123f6dd01f3d423b0ccdf9f202d275808c48a2ee68e5d3d2b3a18a688b3ad2"
+  },
+  {
+   "id": "peq.excl.liability-pollution",
+   "heading": "Pollution",
+   "sha256": "d2a78eefec0ebf4aace7974ac888bc60c720ace472e02d868f9f3126a321d57b"
+  },
+  {
+   "id": "peq.excl.liability-contractual",
+   "heading": "Contractual Liability",
+   "sha256": "99f7d68272e20f45b62f1bd94720035f83ccf1608624cd09f2f5c7029d9e8c4e"
+  },
+  {
+   "id": "peq.excl.liability-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "ace52b2d92a07f2db6cd1ee6653e08ee8820b9a5f6aff1fd06e54181d3e83778"
+  },
+  {
+   "id": "peq.excl.liability-asbestos",
+   "heading": "Asbestos",
+   "sha256": "2d1a153eb174e4720ba875b0fb4298ff6a53b27895da01d756116d2093c1ad9a"
+  },
+  {
+   "id": "peq.section.general-payment",
+   "heading": "Payment Provisions for All Sections",
+   "sha256": "ae70c8082abd6eb6d5b34be25ed5c376476e54b2d365a7c505a0c6a9fca31ccb"
+  },
+  {
+   "id": "peq.pay.limits",
+   "heading": "Limits",
+   "sha256": "e3efa9a1f4ccace084ef675da56ebb23a1e3b967831c034adef8636f97aef2f3"
+  },
+  {
+   "id": "peq.pay.excess",
+   "heading": "Excess",
+   "sha256": "ea6c1a448f3bb7093a175ce0140e8b20a1508e9d2e7f945c4dd57ee31987d395"
+  },
+  {
+   "id": "peq.pay.one-section",
+   "heading": "One Section for Each Loss",
+   "sha256": "ca753e788dd6c79973a1c810e10f0f542054e8bfe749b6e6ddb298e6db5153b7"
+  },
+  {
+   "id": "peq.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "6d8564c1729681c1000d28999f162a708654c8476ac4072a09c0da0aba6e0d0d"
+  },
+  {
+   "id": "peq.pay.gst",
+   "heading": "GST",
+   "sha256": "2e7b2c1d095d3fe3f06b0241fc2579be2332d5c4d30fdd0b701dfdd2d5e77be8"
+  },
+  {
+   "id": "peq.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "2f664b33ae307998c726214ce459fb3c56ba28e85e6e0949ac8b30bb0f423c1b"
+  },
+  {
+   "id": "peq.pay.salvage",
+   "heading": "Salvage",
+   "sha256": "2ff6868bc56782fd05a38a8b06f508c7404fa80b16cef5d9882bb5e95e8b397f"
+  },
+  {
+   "id": "peq.section.general-exclusions",
+   "heading": "Exclusions for All Sections",
+   "sha256": "e8fd353be601f086a7ca05c482a529426a4b6b6f9f75f17fc2e737822abfab84"
+  },
+  {
+   "id": "peq.excl.war",
+   "heading": "War",
+   "sha256": "a6d18b9894cb3541b2b13a43b15b8889c3cf014aff3425645ea35ed7547e5604"
+  },
+  {
+   "id": "peq.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "a984c9b673efbadf51fae2044014467fddd3f9883841094e2652ef8d99320df3"
+  },
+  {
+   "id": "peq.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "34ab62a27cabe34b362842ff6b342f4b8cd0a9384612606a47bee64a5d0ec47a"
+  },
+  {
+   "id": "peq.excl.cyber",
+   "heading": "Cyber Events",
+   "sha256": "a94dc8c4ade6402335fd9541f4005d1feefc07a6978d51476c51aac3eb65e745"
+  },
+  {
+   "id": "peq.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "090a503338a7fa5f9d5a27e1f090b26d1e28fb72fe9bd6e1e43e2ab819eed5e4"
+  },
+  {
+   "id": "peq.obl.tell-us-about-claims",
+   "heading": "Telling Us About Claims",
+   "sha256": "c194b486ff0d82daf1d82ff5020180e592aafe9defd90eda9ed1332970faa863"
+  },
+  {
+   "id": "peq.obl.admissions",
+   "heading": "Admissions",
+   "sha256": "6a802d307fae97477b18c081b4d92f0a82f2a23f0a5deeb1f68659c6a4b5e8be"
+  },
+  {
+   "id": "peq.obl.reasonable-precautions",
+   "heading": "Reasonable Precautions",
+   "sha256": "7af5e5986f8a1c6cec531eda60c7d8a44ec33af4c26f399b8a0f28af012f79e5"
+  },
+  {
+   "id": "peq.obl.tell-us-about-changes",
+   "heading": "Telling Us About Changes",
+   "sha256": "ce4551df114d08a965dbcdc3e6e95035bfe3ad6fc08eb0d503195f1f3f57826d"
+  },
+  {
+   "id": "peq.obl.subrogation",
+   "heading": "Recovery Rights and Subrogation",
+   "sha256": "86cda3a568f1cd4029cffcfe7b089264e90fed6c0ab666cef8d31d371662dfce"
+  },
+  {
+   "id": "peq.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "48e8a54a814af1ae65a9a7bc049c48f01d03dbd89dbff8f45228e7ad10d73ce7"
+  },
+  {
+   "id": "peq.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "d0c45280a6e98cf6323f3ad8b1609fbeab442f197e77c5b52d74280d0733b000"
+  },
+  {
+   "id": "peq.cond.inspection",
+   "heading": "Inspection",
+   "sha256": "31cfd8c8a8154359675c2d20ec1a561754d29766571adbf04bfcae99c5646418"
+  },
+  {
+   "id": "peq.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "dd4bf3b972c789c3ad5562438196e38fb4b4047ebb31846180ad896b66d177fe"
+  },
+  {
+   "id": "peq.cond.financier-interests",
+   "heading": "Financier Interests",
+   "sha256": "84f4453057afc3214b17164482ebb9d46089f63f9b81e7b963c852c7b6baf76e"
+  },
+  {
+   "id": "peq.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "85d57701b41495d47c2ad9aac24fa8e87e4d141751c47298c870c7c7cca30abe"
+  },
+  {
+   "id": "peq.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "peq.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "b53d2b098138a4cc672026a83a519ee805d6707624b3bae18b22f6653e604cee"
+  },
+  {
+   "id": "peq.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "a0d68a92ead961cd5232cb254d671bae8084b1c8f57d3f601cbf63ab5a711875"
+  },
+  {
+   "id": "peq.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "ef1d7282edc0f4082505218f873c43d13b2c89dc0fe90d07769804a0795dfa16"
+  },
+  {
+   "id": "peq.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "b6b35956ef08d6dc3b73cebc697dda319193ab795c7b7ae5cfb1128b81f7ab59"
+  },
+  {
+   "id": "peq.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "peq.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "d41c0aeff7bdace08f39bea08c940cef6a98019c020dded27b631af98c5f4f66"
+  },
+  {
+   "id": "peq.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "9292c309fbc04fc32adcb1fb26ca54b6717a5c55f919db02c7ccfef03c77c069"
+  },
+  {
+   "id": "peq.end.e01",
+   "heading": "E01 Underground, Tunnelling and Deep Excavation Plant",
+   "sha256": "1c581115917187d5b5d1117dc4066aadfd412995e7df7c0ae2d746b4533d997b"
+  },
+  {
+   "id": "peq.end.e02",
+   "heading": "E02 Cranes",
+   "sha256": "13d6be09ef820d4670227e6cc1c5be4a6e03cf68e2320fc9a7bd6099200af00f"
+  },
+  {
+   "id": "peq.end.e03",
+   "heading": "E03 Piling and Foundation Rigs",
+   "sha256": "3846b058b5aef9178c9acb04493bcf3e420f0d42bb0eefc8ba5cc0d50bcd2ff0"
+  },
+  {
+   "id": "peq.end.e04",
+   "heading": "E04 Demolition Plant",
+   "sha256": "ae40f7cffe1e6c2ce447553072db1046daa058c9eb445de3c0cbd315f94a8b9e"
+  },
+  {
+   "id": "peq.end.e05",
+   "heading": "E05 Agreed Value: All Items",
+   "sha256": "d177c9f14bbcaf75525e735a1e0384da17cdb3072b377c745d038e308c953900"
+  },
+  {
+   "id": "peq.end.e06",
+   "heading": "E06 Hired-Out Plant: Plant Hire Businesses",
+   "sha256": "e65ead971eb2ce206a9e26acb5ccb15b290d4eb45b89cd8e1c9fb6eb4f581e83"
+  },
+  {
+   "id": "peq.end.e07",
+   "heading": "E07 Road Risk: Registered Mobile Plant",
+   "sha256": "fa259654f4b21650b99d55904997899dfcdd14705c487735059bc17cf7d43d04"
+  },
+  {
+   "id": "peq.end.e08",
+   "heading": "E08 Electric Plant",
+   "sha256": "4a689b6590587f3b6a96dcc251e085872765f9cbcb68fc8d7ce1d743c1edf8c1"
+  },
+  {
+   "id": "peq.end.e09",
+   "heading": "E09 Extended Hire Costs",
+   "sha256": "16057d5abfc892606ee70df4f2bb043ca561c848b84ad2f13a8b2a0301d562e8"
+  },
+  {
+   "id": "peq.end.e10",
+   "heading": "E10 Unspecified Plant: Increased Item Limit",
+   "sha256": "c44f8a60055c949a3b3c4d741b4fda88097f8cbdc5960fa2e5251fd1b89152cd"
+  },
+  {
+   "id": "peq.end.e11",
+   "heading": "E11 Wet Works",
+   "sha256": "1b71a8d93e8bfd077054a0de233f351c59944b2e5ebdc266c4e8351a866722a5"
+  },
+  {
+   "id": "peq.end.e12",
+   "heading": "E12 Remote and Autonomous Plant",
+   "sha256": "3ca09feb42d7696d93232aae747f3bf65629567fbb1614ec70a50298e3197846"
+  },
+  {
+   "id": "peq.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "peq.end.e01",
+   "heading": "E01 Underground, Tunnelling and Deep Excavation Plant",
+   "trigger": {
+    "questions": [
+     "qs.peq.ops.underground"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.ops.underground == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because plant will work underground, in tunnels or in excavations deeper than 3 metres.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.ops.underground",
+     "text": "Will any plant work underground, in a tunnel, or in an excavation deeper than 3 metres?",
+     "type": "yes/no",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e02",
+   "heading": "E02 Cranes",
+   "trigger": {
+    "questions": [
+     "qs.peq.plant.crane_count",
+     "qs.peq.plant.crane_over_25t",
+     "qs.peq.plant.dual_lifts"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.plant.crane_over_25t == yes or qs.peq.plant.dual_lifts == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.peq.plant.crane_count > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.peq.plant.crane_count} crane(s) are insured; referred where a crane is rated above 25 tonnes or makes dual or tandem lifts.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.plant.crane_count",
+     "text": "How many cranes are insured?",
+     "type": "number",
+     "used_by": "E02"
+    },
+    {
+     "id": "qs.peq.plant.crane_over_25t",
+     "text": "Is any crane rated to lift more than 25 tonnes?",
+     "type": "yes/no",
+     "used_by": "A, E02"
+    },
+    {
+     "id": "qs.peq.plant.dual_lifts",
+     "text": "Do any cranes make dual or tandem lifts?",
+     "type": "yes/no",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e03",
+   "heading": "E03 Piling and Foundation Rigs",
+   "trigger": {
+    "questions": [
+     "qs.peq.plant.piling_rig"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.plant.piling_rig == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because a piling or foundation rig is to be insured.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.plant.piling_rig",
+     "text": "Is any piling, drilling or foundation rig to be insured?",
+     "type": "yes/no",
+     "used_by": "A, E03"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e04",
+   "heading": "E04 Demolition Plant",
+   "trigger": {
+    "questions": [
+     "qs.peq.ops.demolition"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.ops.demolition == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because insured plant is used for demolition.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.ops.demolition",
+     "text": "Will any plant be used for demolition?",
+     "type": "yes/no",
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e05",
+   "heading": "E05 Agreed Value: All Items",
+   "trigger": {
+    "questions": [
+     "qs.peq.plant.agreed_value_all",
+     "qs.peq.plant.valuation_held"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.plant.agreed_value_all == yes and qs.peq.plant.valuation_held == no",
+      "action": "refer"
+     },
+     {
+      "when": "qs.peq.plant.agreed_value_all == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because all items are to be insured for an agreed value; referred where a written valuation is not held for every item.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.plant.agreed_value_all",
+     "text": "Are all items to be insured for an agreed value?",
+     "type": "yes/no",
+     "used_by": "E05"
+    },
+    {
+     "id": "qs.peq.plant.valuation_held",
+     "text": "Is there a written valuation or dealer quotation, no more than 12 months old, for every item insured for an agreed value?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e06",
+   "heading": "E06 Hired-Out Plant: Plant Hire Businesses",
+   "trigger": {
+    "questions": [
+     "qs.peq.ops.dry_hire",
+     "qs.peq.ops.damage_waiver"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.ops.dry_hire == yes or qs.peq.ops.damage_waiver == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because plant is hired out on dry hire, or hirers are offered a damage waiver.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.ops.dry_hire",
+     "text": "Is any plant hired out without an operator (dry hire)?",
+     "type": "yes/no",
+     "used_by": "A, S, E06"
+    },
+    {
+     "id": "qs.peq.ops.damage_waiver",
+     "text": "Does the named insured offer hirers a damage waiver?",
+     "type": "yes/no",
+     "used_by": "A, E06"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e07",
+   "heading": "E07 Road Risk: Registered Mobile Plant",
+   "trigger": {
+    "questions": [
+     "qs.peq.plant.registered_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.plant.registered_count > 0",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because {qs.peq.plant.registered_count} item(s) of insured plant are registered for road use.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.plant.registered_count",
+     "text": "How many items are registered for use on a public road?",
+     "type": "number",
+     "used_by": "E07"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e08",
+   "heading": "E08 Electric Plant",
+   "trigger": {
+    "questions": [
+     "qs.peq.plant.electric_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.plant.electric_count > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.peq.plant.electric_count} item(s) of insured plant are battery electric or hybrid.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.plant.electric_count",
+     "text": "How many items are battery electric or hybrid?",
+     "type": "number",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e09",
+   "heading": "E09 Extended Hire Costs",
+   "trigger": {
+    "questions": [
+     "qs.peq.cover.hire_costs_weekly"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.cover.hire_costs_weekly > 5000",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because a hire costs benefit of {qs.peq.cover.hire_costs_weekly} a week was asked for.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.cover.hire_costs_weekly",
+     "text": "What weekly hire costs benefit is wanted after insured damage (0 if none)?",
+     "type": "number",
+     "used_by": "S, E09"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e10",
+   "heading": "E10 Unspecified Plant: Increased Item Limit",
+   "trigger": {
+    "questions": [
+     "qs.peq.cover.unspecified_item_max"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.cover.unspecified_item_max > 100000",
+      "action": "refer"
+     },
+     {
+      "when": "qs.peq.cover.unspecified_item_max > 25000",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because unspecified plant items of up to {qs.peq.cover.unspecified_item_max} each are to be insured; referred above $100,000.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.cover.unspecified_item_max",
+     "text": "What is the most to be paid for any one item of unspecified plant?",
+     "type": "number",
+     "used_by": "S, E10"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e11",
+   "heading": "E11 Wet Works",
+   "trigger": {
+    "questions": [
+     "qs.peq.ops.wet_works"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.ops.wet_works == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because insured plant will work on pontoons or barges, in tidal zones, or from the bank of a waterway.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.ops.wet_works",
+     "text": "Will any plant work on a pontoon or barge, in a tidal zone, or from the bank of a waterway?",
+     "type": "yes/no",
+     "used_by": "A, E11"
+    }
+   ]
+  },
+  {
+   "id": "peq.end.e12",
+   "heading": "E12 Remote and Autonomous Plant",
+   "trigger": {
+    "questions": [
+     "qs.peq.plant.autonomous"
+    ],
+    "rules": [
+     {
+      "when": "qs.peq.plant.autonomous == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because insured plant is operated remotely or autonomously.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.peq.plant.autonomous",
+     "text": "Is any item operated by remote control, or by a guidance or autonomy system without an operator on board?",
+     "type": "yes/no",
+     "used_by": "A, E12"
+    }
+   ]
+  }
+ ],
+ "sha256": "73b0d7b524065a4001396a026d48ab8397650048c4df6379f1fc9757a19c8af0"
+}

@@ -1,0 +1,161 @@
+id: peq-base
+title: Plant and Equipment Insurance
+class: PLANT AND EQUIPMENT INSURANCE
+kicker: Meridian Commons · Plant and Equipment
+slug: plant-and-equipment
+file_stem: Meridian_Plant_and_Equipment
+doc_ref: 2026/PEQ/0001
+version: 1.1.0-DRAFT
+date: November 2026
+draft: true
+summary: 'Owned, financed, hired-in and hired-out mobile plant and equipment in Australia: all-risks material damage, with optional hired-in plant, machinery breakdown and mobile plant liability.'
+supersedes: Plant and Equipment v1.0.0 (2026/PEQ/0001, July 2026).
+structure:
+- section: preamble
+  clauses:
+  - peq.about
+  - peq.version-history
+  - peq.important-information
+  - peq.schedule
+- section: peq.section.definitions
+  clauses:
+  - peq.def.accidental-loss-or-damage
+  - peq.def.agreed-value
+  - peq.def.attachment
+  - peq.def.breakdown
+  - peq.def.continuing-hire-charges
+  - peq.def.cyber-event
+  - peq.def.damage-waiver
+  - peq.def.defence-costs
+  - peq.def.dry-hire
+  - peq.def.endorsement
+  - peq.def.event
+  - peq.def.excess
+  - peq.def.financier
+  - peq.def.geographical-limits
+  - peq.def.hire-agreement
+  - peq.def.hired-in-plant
+  - peq.def.insured
+  - peq.def.insured-plant
+  - peq.def.market-value
+  - peq.def.named-insured
+  - peq.def.occurrence
+  - peq.def.personal-injury
+  - peq.def.policy-period
+  - peq.def.pollutant
+  - peq.def.property-damage
+  - peq.def.schedule
+  - peq.def.specified-plant
+  - peq.def.third-party-claim
+  - peq.def.tool-of-trade
+  - peq.def.total-loss
+  - peq.def.unspecified-plant
+  - peq.def.wear-parts
+  - peq.def.wet-hire
+  - peq.def.we-us-our
+  - peq.def.you-your
+- section: peq.section.material-damage
+  clauses:
+  - peq.cover.material-damage
+  - peq.pay.basis-of-settlement
+  - peq.ext.recovery-costs
+  - peq.ext.expediting-costs
+  - peq.ext.newly-acquired-plant
+  - peq.ext.attachments
+  - peq.ext.appreciation
+  - peq.ext.hire-costs
+  - peq.ext.employees-tools
+  - peq.ext.re-erection
+  - peq.ext.removal-of-debris
+  - peq.ext.lock-and-key
+  - peq.ext.fire-brigade
+  - peq.ext.unspecified-plant
+  - peq.cond.hired-out-plant
+  - peq.excl.breakdown
+  - peq.excl.wear-and-tear
+  - peq.excl.wear-parts
+  - peq.excl.overload
+  - peq.excl.waterborne-airborne
+  - peq.excl.underground
+  - peq.excl.unexplained-shortage
+  - peq.excl.unattended-theft
+  - peq.excl.consequential-loss
+- section: peq.section.hired-in
+  clauses:
+  - peq.cover.hired-in
+  - peq.pay.hired-in-limits
+  - peq.excl.hired-in
+- section: peq.section.breakdown
+  clauses:
+  - peq.cover.breakdown
+  - peq.pay.breakdown-settlement
+  - peq.excl.breakdown-section
+- section: peq.section.liability
+  clauses:
+  - peq.cover.liability
+  - peq.cover.defence-costs
+  - peq.cover.who-is-insured
+  - peq.ext.underground-services
+  - peq.ext.vibration-support
+  - peq.ext.goods-lifted
+  - peq.ext.sudden-pollution
+  - peq.excl.liability-workers
+  - peq.excl.liability-road-use
+  - peq.excl.liability-own-property
+  - peq.excl.liability-aircraft-watercraft
+  - peq.excl.liability-pollution
+  - peq.excl.liability-contractual
+  - peq.excl.liability-fines
+  - peq.excl.liability-asbestos
+- section: peq.section.general-payment
+  clauses:
+  - peq.pay.limits
+  - peq.pay.excess
+  - peq.pay.one-section
+  - peq.pay.who-we-pay
+  - peq.pay.gst
+  - peq.pay.other-insurance
+  - peq.pay.salvage
+- section: peq.section.general-exclusions
+  clauses:
+  - peq.excl.war
+  - peq.excl.nuclear
+  - peq.excl.terrorism
+  - peq.excl.cyber
+- section: peq.section.obligations
+  clauses:
+  - peq.obl.tell-us-about-claims
+  - peq.obl.admissions
+  - peq.obl.reasonable-precautions
+  - peq.obl.tell-us-about-changes
+  - peq.obl.subrogation
+- section: peq.section.conditions
+  clauses:
+  - peq.cond.insurance-contracts-act
+  - peq.cond.inspection
+  - peq.cond.cancellation
+  - peq.cond.financier-interests
+  - peq.cond.fraud
+  - peq.cond.sanctions
+  - peq.cond.privacy
+  - peq.cond.disputes-and-complaints
+  - peq.cond.governing-law
+  - peq.cond.jurisdiction
+  - peq.cond.headings-and-references
+- section: end
+  clauses:
+  - peq.claims.how-to-make-a-claim
+  - peq.endorsement-library
+  - peq.end.e01
+  - peq.end.e02
+  - peq.end.e03
+  - peq.end.e04
+  - peq.end.e05
+  - peq.end.e06
+  - peq.end.e07
+  - peq.end.e08
+  - peq.end.e09
+  - peq.end.e10
+  - peq.end.e11
+  - peq.end.e12
+  - peq.licence-notice
