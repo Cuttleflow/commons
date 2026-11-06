@@ -124,8 +124,8 @@ questions:
   type: number
   used_by: R, A
 - id: qs.peq.plant.class_split
-  text: What share of the total plant sum insured is in each rating class (plant category, with or without breakdown cover)?
-  type: repeating (rating class, pct)
+  text: What share of the total plant sum insured is in each plant category?
+  type: repeating (plant category, pct)
   used_by: R
 - id: qs.peq.plant.max_item_si
   text: What is the highest sum insured of any one item?
@@ -242,9 +242,9 @@ questions:
   type: yes/no
   used_by: A
 - id: qs.peq.breakdown.sum_insured
-  text: What is the total sum insured of the items that are to have machinery breakdown cover?
+  text: What is the total sum insured of the items that are to have machinery breakdown cover (0 if none)?
   type: number
-  used_by: A, S
+  used_by: R, A, S
 - id: qs.peq.breakdown.maintenance_records
   text: Are maintenance records kept for every item that is to have machinery breakdown cover?
   type: yes/no
