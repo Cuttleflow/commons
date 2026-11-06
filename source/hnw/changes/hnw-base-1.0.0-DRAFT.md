@@ -1,0 +1,10 @@
+This is the first release of the Meridian Private Client Home wording (2026/HNW/0001). It was drafted for the Commons for a Cuttleflow Go template (HNW-AU-GO), on the structure of the Meridian Home and Contents wording, with its Valuables section taken from the Meridian Private Collections wording. No other insurer's or market body's wording was used.
+
+- Home Building, Contents and Valuables sections on an accidental damage basis. Flood is covered as standard under the prescribed definition; action of the sea is excluded unless the schedule covers it.
+- Extended replacement of 25% above the building sum insured as standard, or 50% under E01, where the sum insured was set from a professional valuation or the insurer's rebuilding cost calculator. 10% applies under E09 until a valuation is given.
+- Cash settlement at the insured's option, with the calculation, the documents given to the insured, a 20 business day period to consider the offer and no deduction for builder discounts set out in the wording.
+- Contents covered anywhere in the world while with the household, with higher limits for jewellery, silverware, art and wine kept as contents. Valuables in eight categories, specified items at agreed values and unspecified items to a per-item limit, as in the Private Collections wording.
+- Personal liability anywhere in the world, with $10m, $20m or $30m limits, liability to domestic workers where no workers compensation law applies, and defence costs inside the limit for claims in courts in the USA or Canada.
+- Family Protection and Cyber: home invasion and car-jacking costs, identity fraud restoration and cyber event response, including money taken by unauthorised transfer or deception up to $25,000. Ransom payments are excluded.
+- Unoccupancy restriction after 100 days. Endorsements E01 to E15, each with full operative text, schedule variables and a platform trigger.
+- Five WP REVIEW tags: the list of departures from standard cover, the cash settlement position, a company or trustee as the insured, the insurer's cancellation notice, and the library-wide sanctions scope.
