@@ -1,0 +1,123 @@
+id: umb-base
+title: Umbrella Liability Insurance
+class: UMBRELLA LIABILITY INSURANCE
+kicker: Meridian Commons · Umbrella Liability
+slug: umbrella-liability
+file_stem: Meridian_Umbrella_Liability
+doc_ref: 2026/UMB/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: 'Umbrella liability for Australian businesses: higher limits above public and products, motor and employers'' liability policies, with drop-down when an underlying aggregate is used up and cover
+  above a self-insured retention for liability the underlying policies do not cover.'
+structure:
+- section: preamble
+  clauses:
+  - umb.about
+  - umb.version-history
+  - umb.schedule
+- section: umb.section.definitions
+  clauses:
+  - umb.def.advertising-injury
+  - umb.def.business
+  - umb.def.claim
+  - umb.def.compensation
+  - umb.def.control-group
+  - umb.def.defence-costs
+  - umb.def.employee
+  - umb.def.endorsement
+  - umb.def.geographical-limits
+  - umb.def.limit-of-liability
+  - umb.def.loss
+  - umb.def.named-insured
+  - umb.def.occurrence
+  - umb.def.personal-injury
+  - umb.def.pollutant
+  - umb.def.policy-period
+  - umb.def.products
+  - umb.def.property-damage
+  - umb.def.retained-limit
+  - umb.def.self-insured-retention
+  - umb.def.subsidiary
+  - umb.def.underlying-insurance
+  - umb.def.underlying-insurer
+  - umb.def.underlying-limit
+  - umb.def.usa-canada
+  - umb.def.we-us-our
+  - umb.def.you-your
+- section: umb.section.cover
+  clauses:
+  - umb.cover.coverage-a
+  - umb.cover.coverage-b
+  - umb.cover.retained-limit-and-exhaustion
+  - umb.cover.no-drop-down-for-other-reasons
+  - umb.cover.defence-costs
+- section: umb.section.exclusions
+  clauses:
+  - umb.excl.introduction
+  - umb.excl.aircraft-and-aviation-products
+  - umb.excl.asbestos
+  - umb.excl.employment-practices
+  - umb.excl.fines-and-penalties
+  - umb.excl.pfas
+  - umb.excl.pollution
+  - umb.excl.product-recall-and-guarantee
+  - umb.excl.professional-services
+  - umb.excl.usa-canada
+  - umb.excl.war-terrorism-and-nuclear
+  - umb.excl.workers-compensation-and-employers-liability
+  - umb.excl.how-the-exclusions-apply
+- section: umb.section.exclusions-coverage-b
+  clauses:
+  - umb.excl.coverage-b-introduction
+  - umb.excl.abuse
+  - umb.excl.communicable-disease
+  - umb.excl.contractual-liability
+  - umb.excl.cyber-event
+  - umb.excl.directors-and-officers
+  - umb.excl.known-injury
+  - umb.excl.property-in-your-care
+  - umb.excl.registered-vehicles
+  - umb.excl.watercraft
+- section: umb.section.payment
+  clauses:
+  - umb.pay.limit-of-liability
+  - umb.pay.one-occurrence
+  - umb.pay.which-coverage-applies
+  - umb.pay.self-insured-retention
+  - umb.pay.other-insurance
+  - umb.pay.recoveries
+- section: umb.section.obligations
+  clauses:
+  - umb.obl.maintain-the-underlying-insurance
+  - umb.obl.tell-us-about-occurrences-and-claims
+  - umb.obl.cooperate-with-us
+  - umb.obl.settlement-consent
+  - umb.obl.tell-us-about-changes
+- section: umb.section.conditions
+  clauses:
+  - umb.cond.insurance-contracts-act
+  - umb.cond.your-duty-of-disclosure
+  - umb.cond.individual-treatment
+  - umb.cond.cancellation
+  - umb.cond.sanctions
+  - umb.cond.governing-law
+  - umb.cond.jurisdiction
+  - umb.cond.gst
+  - umb.cond.assignment
+  - umb.cond.headings-and-references
+  - umb.cond.disputes-and-complaints
+  - umb.cond.privacy
+- section: end
+  clauses:
+  - umb.claims.how-to-make-a-claim
+  - umb.guide
+  - umb.endorsement-library
+  - umb.end.e01
+  - umb.end.e02
+  - umb.end.e03
+  - umb.end.e04
+  - umb.end.e05
+  - umb.end.e06
+  - umb.end.e07
+  - umb.licence-notice
