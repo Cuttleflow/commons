@@ -1,0 +1,13 @@
+---
+id: prc.excl.war-terrorism-and-nuclear
+type: exclusion
+heading: War, Terrorism and Nuclear
+since: 1.0.0
+status: draft
+---
+
+Any loss arising directly or indirectly from:
+
+- war, invasion, act of foreign enemy, hostilities or warlike operations (whether war is declared or not), civil war, rebellion, revolution, insurrection, or military or usurped power;
+- an act of terrorism other than malicious tampering, meaning an act, or the threat of an act, that involves the use of force or violence, or harm to life, property or infrastructure, by any person or group, done or threatened for political, religious, ideological or similar purposes; or
+- ionising radiation or contamination by radioactivity from any nuclear fuel or nuclear waste, or the radioactive, toxic, explosive or other hazardous properties of any nuclear assembly or component.

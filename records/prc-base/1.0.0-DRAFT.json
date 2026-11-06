@@ -1,0 +1,609 @@
+{
+ "wording": "prc-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/PRC/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "prc.about",
+   "heading": "About This Policy",
+   "sha256": "d5e695975769634b813f0bbbde2ac04d9f44840f206fcb9078ede6e8655880c8"
+  },
+  {
+   "id": "prc.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "prc.schedule",
+   "heading": "Schedule",
+   "sha256": "9924e1022bf9ac0b8252384ba6b6ae116f23b577f82c009efedaba394b8506b5"
+  },
+  {
+   "id": "prc.section.definitions",
+   "heading": "Definitions",
+   "sha256": "554a26141d6680a3e17d792e381673e3364e21a4f384e1509f45cf0de1b9cfb3"
+  },
+  {
+   "id": "prc.def.accidental-contamination",
+   "heading": "Accidental Contamination",
+   "sha256": "317617edf116fcfb9e06b4b8d7b503d44fa699ccea2df78758f312a60257673c"
+  },
+  {
+   "id": "prc.def.business",
+   "heading": "Business",
+   "sha256": "91169cb00fc40d041aac499769f64f502e4666d538dfb63e098ade69f34c16b0"
+  },
+  {
+   "id": "prc.def.control-group",
+   "heading": "Control Group",
+   "sha256": "002f1bf429560e82239fe88352e94ccb60ced0445f23476570a550bb3eb857f9"
+  },
+  {
+   "id": "prc.def.crisis-consultant-costs",
+   "heading": "Crisis Consultant Costs",
+   "sha256": "d950fd5b1a2bf7e90d597d9c1b9f67a537b418646d3dc8c470846167d945a92d"
+  },
+  {
+   "id": "prc.def.defect",
+   "heading": "Defect",
+   "sha256": "c43baa95f41f78f296e9e0700bbc2c695db90c87f1e61c64bcc01704a8ac7c64"
+  },
+  {
+   "id": "prc.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "3b041e4cdeff0f4cb983d7eff3c52b34027d702ba0098253c3d226b1fc8f12fc"
+  },
+  {
+   "id": "prc.def.geographical-limits",
+   "heading": "Geographical Limits",
+   "sha256": "2fd09d63545e7bfb8d1daf123d5cff0b05189a3814cb5d137c7c3489fb3c16dc"
+  },
+  {
+   "id": "prc.def.government-recall",
+   "heading": "Government Recall",
+   "sha256": "c0d8a412b113edd76f376f0f6a4117cf4b8e60ee70b7bbfb07fdedfcb4f4a9a8"
+  },
+  {
+   "id": "prc.def.government-authority",
+   "heading": "Government Authority",
+   "sha256": "72e0b33e0e1c1635dadf522fe626ead223c4105cf3023238c540ca04d8fd79e6"
+  },
+  {
+   "id": "prc.def.gross-profit",
+   "heading": "Gross Profit",
+   "sha256": "7a0cf2b1640468fe594967184ede4b7d65738eae2949f242ad8b052c4473f993"
+  },
+  {
+   "id": "prc.def.indemnity-period",
+   "heading": "Indemnity Period",
+   "sha256": "37b46d5385da1dc33abba4d2cd0ebdd59f445e67df4c4e813f6aa6203369fa36"
+  },
+  {
+   "id": "prc.def.insured-event",
+   "heading": "Insured Event",
+   "sha256": "6b7d4d534c065de06b98c1544f97d04c3f6c5748ec19e14e7c1cf0abdf25bb43"
+  },
+  {
+   "id": "prc.def.insured-products",
+   "heading": "Insured Products",
+   "sha256": "698b0e55edad1d9adc550cea0c1444ac3fa1c1671e6ca157ee86ffcb70fe3719"
+  },
+  {
+   "id": "prc.def.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "3e6b18ed4c3a3821bf2cba8ed98092b039c9573852ee7448306debb518dd8bce"
+  },
+  {
+   "id": "prc.def.loss",
+   "heading": "Loss",
+   "sha256": "60d2f0d47211ff72b3a29a04eb3bcbdc4d619b4798b6faa0822955c5df1f825f"
+  },
+  {
+   "id": "prc.def.malicious-tampering",
+   "heading": "Malicious Tampering",
+   "sha256": "25cf8b9d005f68233b76a1aa029f8733f205986c5ab52feb47352f40bcfe076a"
+  },
+  {
+   "id": "prc.def.named-insured",
+   "heading": "Named Insured",
+   "sha256": "74e8c4ee94a0cbabc0be8a015ef7256d67ab6d806fa3ffdaf990b1974f4fd097"
+  },
+  {
+   "id": "prc.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "63e7fdd289a56246cd031104e1f190f7864255d2706e9160682d26c69ae4daaf"
+  },
+  {
+   "id": "prc.def.recall",
+   "heading": "Recall",
+   "sha256": "b6a2ce1f8b231b0682d34850457264cc25d42501a4058ee8b2ed0bab2148815d"
+  },
+  {
+   "id": "prc.def.recall-costs",
+   "heading": "Recall Costs",
+   "sha256": "7058657513ccdbb4cef9f2472cc55a5c38043eb6acb73593481ee6a4762e3d95"
+  },
+  {
+   "id": "prc.def.rehabilitation-costs",
+   "heading": "Rehabilitation Costs",
+   "sha256": "74867cec0301c2da043bf154694395a5388a1aff2c5fa995d326121c37e522ba"
+  },
+  {
+   "id": "prc.def.replacement-costs",
+   "heading": "Replacement Costs",
+   "sha256": "416002ce5a7a16a38b0fe180f8011636926511994454da085c8de39a24000d01"
+  },
+  {
+   "id": "prc.def.retention",
+   "heading": "Retention",
+   "sha256": "d2f8147228e8c667d94df9ade1ff1bacdd831cdb68d8d527367a9ffdf528f726"
+  },
+  {
+   "id": "prc.def.usa-canada",
+   "heading": "USA and Canada",
+   "sha256": "77b8cfad5252f26039a4e7f452e6b31cdb826fecca684fe67be25af3df240fe7"
+  },
+  {
+   "id": "prc.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "e3d9c9db9d8c603f641f1dbb86e07c346135286edb0f893e439fa0052720a850"
+  },
+  {
+   "id": "prc.def.you-your",
+   "heading": "You, Your",
+   "sha256": "89aa86cb87e9986203b73c63461b491ec3ee2aacb66064425447157e103b3a9f"
+  },
+  {
+   "id": "prc.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "prc.cover.contaminated-products",
+   "heading": "Contaminated Products",
+   "sha256": "3db48d3692b3c45ac657897ff1a15b939aa13efc209fa5d67f5bcc5b82e34e41"
+  },
+  {
+   "id": "prc.cover.defective-products",
+   "heading": "Defective Products",
+   "sha256": "6615563486727a1612de16a121e37542f3db1f99657a96721681e4920db2bbf8"
+  },
+  {
+   "id": "prc.cover.discovery-and-notification",
+   "heading": "Discovery and Notification",
+   "sha256": "7a40ec7aa078c92ffa4ef7c3f9f2fbce76ac4f03428dc30fe19495f7b8492f3d"
+  },
+  {
+   "id": "prc.cover.mitigation-costs",
+   "heading": "Costs to Prevent a Recall",
+   "sha256": "e61aa32e3338c14ecff2b6413ed40999abb441e440fd15d4e22f7a563d5de246"
+  },
+  {
+   "id": "prc.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "269389efa9d9e31e0c53628a4478ca1da748db1148ca03ffd737073c10fe1432"
+  },
+  {
+   "id": "prc.excl.bodily-injury-and-property-damage-claims",
+   "heading": "Claims Against You",
+   "sha256": "b6b489dc51ede3019071945f72e98150f941f5c0beb772b8708fdcf08a6740aa"
+  },
+  {
+   "id": "prc.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "44cd7c31fa16daec7e60ddd531ddd66a4112e6b1998e596803a49491932f520b"
+  },
+  {
+   "id": "prc.excl.gradual-deterioration",
+   "heading": "Shelf Life and Deterioration",
+   "sha256": "16c32e1d4dbbebad05c730565f23759efaf3be7a881f1f9bea9236f20623e9cd"
+  },
+  {
+   "id": "prc.excl.guarantee-and-performance",
+   "heading": "Product Guarantee and Performance",
+   "sha256": "8120e9eeb079c36599b669c9221485f9f110e9129899a05753d9f71e8bf9b007"
+  },
+  {
+   "id": "prc.excl.known-events",
+   "heading": "Known Events",
+   "sha256": "dc8969bdadee76a3784d740068812503153b03bbf3d56168297969ca44beaf09"
+  },
+  {
+   "id": "prc.excl.market-withdrawal",
+   "heading": "Withdrawal Without a Safety Risk",
+   "sha256": "23eccbeafa44887629ecfe2602b5cef846d80b74d6feef83a6c97b77f5614550"
+  },
+  {
+   "id": "prc.excl.regulatory-change",
+   "heading": "Change in the Law",
+   "sha256": "20352c557a7447450a7ac6084de46e877e765d19274f5bf41e9afa7423e54cb4"
+  },
+  {
+   "id": "prc.excl.fines-and-penalties",
+   "heading": "Fines and Penalties",
+   "sha256": "91f875283b1c23ae012d02b0cee76706ac96a552462386bb10891924eae6bb7e"
+  },
+  {
+   "id": "prc.excl.loss-of-market",
+   "heading": "Loss of Market and Goodwill",
+   "sha256": "62f9c5904b4df1d09c99e95832b6464d6be04508771eac89943986071064f167"
+  },
+  {
+   "id": "prc.excl.excluded-products",
+   "heading": "Excluded Products",
+   "sha256": "ccdfa8fd6beb5f5ad150c3d6cdc3569f575c2cbfa970f01b3bcc2fcde213e89b"
+  },
+  {
+   "id": "prc.excl.communicable-disease",
+   "heading": "Communicable Disease",
+   "sha256": "d9e598aa74ca2621ff911333b978cc261fe819e03bed1434087db8019a355b9f"
+  },
+  {
+   "id": "prc.excl.usa-canada",
+   "heading": "USA and Canada",
+   "sha256": "074c543771119715b542815b2b1fa722d09dffbb5c19cc4ab7203222c83b3edb"
+  },
+  {
+   "id": "prc.excl.war-terrorism-and-nuclear",
+   "heading": "War, Terrorism and Nuclear",
+   "sha256": "7cf063f367b4d8461d457a478c473de4fd55ac698c6df3a9e05f2def90e93420"
+  },
+  {
+   "id": "prc.excl.how-the-exclusions-apply",
+   "heading": "How the Exclusions Apply",
+   "sha256": "cfff17ead22ea449e96f6cb60eb1bd360a399975228d1301a5abb940da089551"
+  },
+  {
+   "id": "prc.section.payment",
+   "heading": "How We Pay",
+   "sha256": "25ea51188284e7f7220078334c4aaa54e060d47c3b3be383c4855726a5833305"
+  },
+  {
+   "id": "prc.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "d333effd228f304c6ede5c4a9edfde3230239d94957d35999f4fe8e97b7be354"
+  },
+  {
+   "id": "prc.pay.related-insured-events",
+   "heading": "Related Insured Events",
+   "sha256": "f41cb2bfe80688a7380f6401fcbfafb66abd3111a89fa18507f2cdeb56486c91"
+  },
+  {
+   "id": "prc.pay.retention",
+   "heading": "Retention",
+   "sha256": "a7917ae3b9e39eb5f9fc6690ade90448739733a59a9855e75f1e63160aefe5b1"
+  },
+  {
+   "id": "prc.pay.gross-profit",
+   "heading": "Gross Profit",
+   "sha256": "5ec0ee8f37f65fe4fd32c9e02cc09b27aaf8f1947d5a2042a6fe4ef060092eab"
+  },
+  {
+   "id": "prc.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "226f78411fc602f2e205cd58ba9a51d6f7b13e49b3a5540df67dcb5f3448154d"
+  },
+  {
+   "id": "prc.pay.recoveries",
+   "heading": "Recoveries",
+   "sha256": "e87cf640f1900f4ec603e2ed672e2e4481ea8cb5137b88177080f5af2a59ed1e"
+  },
+  {
+   "id": "prc.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "prc.obl.tell-us",
+   "heading": "Tell Us Promptly",
+   "sha256": "b27be4c6a493e9455291c32a7e34b7f9d28d944cd147ddc55addc311422c638a"
+  },
+  {
+   "id": "prc.obl.recall-plan",
+   "heading": "Your Recall Plan",
+   "sha256": "0feb768af4d457f974c441fc686d184930c509abd6fecb4a9b4e7c79b4f828af"
+  },
+  {
+   "id": "prc.obl.extortion-and-tampering",
+   "heading": "Threats and Tampering",
+   "sha256": "ee54fe97c1ae4f567c564a6437cdd9ab0507902af9ae19612de39339191cd209"
+  },
+  {
+   "id": "prc.obl.cooperate-with-us",
+   "heading": "Cooperate With Us",
+   "sha256": "f039d889e8fcc20a9f94d15b978ddabcd40e46a6dc9296a7ea7f5ada8e25f296"
+  },
+  {
+   "id": "prc.obl.keep-this-insurance-confidential",
+   "heading": "Keep This Insurance Confidential",
+   "sha256": "f727e8d6d5a96f5f6bb2515921045dc0c4271c10ff56398db879dd6a86337197"
+  },
+  {
+   "id": "prc.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "prc.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "prc.cond.your-duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "57e9f5019cbdf3496d15c0a6ee3c40615ae0baa4d51a5a157d6d6b488c8f881c"
+  },
+  {
+   "id": "prc.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "c03bcec51d8e5b5fcfcec0725c7f5fba4bb5830d9820021a3fefb21af15fb37f"
+  },
+  {
+   "id": "prc.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "prc.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "0174c5e73279017ba1b5036b224558290481fa4b75868dfcfd710f31e03b5acc"
+  },
+  {
+   "id": "prc.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "22145c8f4d4fc3b0d5cecaccacbf8c6247fd664c5c913a83547032850376d823"
+  },
+  {
+   "id": "prc.cond.gst",
+   "heading": "GST",
+   "sha256": "7e0cae894f1fc52df702d420d282dd671654dc850058dd92285fcec7cedaad9d"
+  },
+  {
+   "id": "prc.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "52bae2a47f23fc6dcbd694b1c7be9a0bd44ed177f21af89185dd63b0b12ce152"
+  },
+  {
+   "id": "prc.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "a2efdbd68a4cd5ca307aa529bbc41e3a967084db0f0b7ca37086c367a39d983a"
+  },
+  {
+   "id": "prc.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "1def170c11fccbab63ecd105972a8e306c1a02af7e136946bad76ca793abda6b"
+  },
+  {
+   "id": "prc.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "f64ede9df80f014020fe29ecf9e07b654c5083827ba569d03a729d15d25e77cd"
+  },
+  {
+   "id": "prc.cond.individual-treatment",
+   "heading": "Individual Treatment of Insureds",
+   "sha256": "83ef1ebd1f182d41bb6faaa61befa3b5ee65496bc32d054caa58921115a43334"
+  },
+  {
+   "id": "prc.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "104ed7f8cf8784eaed604725210cd7bc83c794e019e26b6fe3b65e20795a54fb"
+  },
+  {
+   "id": "prc.guide",
+   "heading": "How Product Recall Cover Works",
+   "sha256": "e07cbbe1cc5ab25bfc1390e517f30a010787fcc72d16973c8cf598c5f4f9afab"
+  },
+  {
+   "id": "prc.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "89b50de3d8307a41553a0daca110bb6bbf4e7eb35415f92759140c9e59bbc718"
+  },
+  {
+   "id": "prc.end.e01",
+   "heading": "E01 Third-party Recall Costs",
+   "sha256": "29cc792a0cf74999cc4dcf6f2c1123b3bbe03f62c1a05962b9bbf75d0924a591"
+  },
+  {
+   "id": "prc.end.e02",
+   "heading": "E02 Product Extortion",
+   "sha256": "ab60e5660b59cd2a9b62bde1e6dfb79add72dfe434e4d587dfa353c55422b53b"
+  },
+  {
+   "id": "prc.end.e03",
+   "heading": "E03 Adverse Publicity",
+   "sha256": "463d12d71db1c5fa5cca6cf06ddba12d5f050499a74f875b0ca2781814751ba3"
+  },
+  {
+   "id": "prc.end.e04",
+   "heading": "E04 USA and Canada",
+   "sha256": "8d19c29009945e12cf845aa8a677d3a2b891e103543338d507ee7f03fca731b4"
+  },
+  {
+   "id": "prc.end.e05",
+   "heading": "E05 Allergen Retention",
+   "sha256": "2bbdb1b2950cdb077573976237139df4d1c7a3dd7cd5fe7e95336196a71eb1c5"
+  },
+  {
+   "id": "prc.end.e06",
+   "heading": "E06 Untraceable Products",
+   "sha256": "342f16b845284aaaf23cd36b9e4ba0f3cc68b640fc421920eb2e4ea8175ceef5"
+  },
+  {
+   "id": "prc.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "prc.end.e01",
+   "heading": "E01 Third-party Recall Costs",
+   "trigger": {
+    "questions": [
+     "qs.prc.products.role"
+    ],
+    "rules": [
+     {
+      "when": "qs.prc.products.role in ['contract_manufacturer', 'ingredient_supplier']",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because you make products or ingredients for other brand owners, who may recover their recall costs from you."
+   },
+   "questions": [
+    {
+     "id": "qs.prc.products.role",
+     "text": "What is the insured's role for these products?",
+     "type": "select",
+     "options": [
+      "manufacturer",
+      "contract_manufacturer",
+      "ingredient_supplier",
+      "brand_owner",
+      "importer",
+      "distributor",
+      "retailer"
+     ],
+     "used_by": "R, E01"
+    }
+   ]
+  },
+  {
+   "id": "prc.end.e02",
+   "heading": "E02 Product Extortion",
+   "trigger": {
+    "questions": [
+     "qs.prc.products.major_retail"
+    ],
+    "rules": [
+     {
+      "when": "qs.prc.products.major_retail == true",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because your branded products are sold through major retailers, which makes them a target for extortion."
+   },
+   "questions": [
+    {
+     "id": "qs.prc.products.major_retail",
+     "text": "Are the insured products sold under the insured's brand, or a retailer's own label, through major supermarket or retail chains?",
+     "type": "yes/no",
+     "used_by": "R, E02, E03"
+    }
+   ]
+  },
+  {
+   "id": "prc.end.e03",
+   "heading": "E03 Adverse Publicity",
+   "trigger": {
+    "questions": [
+     "qs.prc.products.major_retail"
+    ],
+    "rules": [
+     {
+      "when": "qs.prc.products.major_retail == true",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because your branded products are sold through major retailers."
+   },
+   "questions": [
+    {
+     "id": "qs.prc.products.major_retail",
+     "text": "Are the insured products sold under the insured's brand, or a retailer's own label, through major supermarket or retail chains?",
+     "type": "yes/no",
+     "used_by": "R, E02, E03"
+    }
+   ]
+  },
+  {
+   "id": "prc.end.e04",
+   "heading": "E04 USA and Canada",
+   "trigger": {
+    "questions": [
+     "qs.prc.products.usa_canada_export"
+    ],
+    "rules": [
+     {
+      "when": "qs.prc.products.usa_canada_export == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you sell insured products in the USA or Canada.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.prc.products.usa_canada_export",
+     "text": "Are any insured products sold in the USA or Canada?",
+     "type": "yes/no",
+     "used_by": "E04"
+    }
+   ]
+  },
+  {
+   "id": "prc.end.e05",
+   "heading": "E05 Allergen Retention",
+   "trigger": {
+    "questions": [
+     "qs.prc.controls.allergen_shared_lines"
+    ],
+    "rules": [
+     {
+      "when": "qs.prc.controls.allergen_shared_lines == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because allergen-containing products are made on shared lines without validated cleaning."
+   },
+   "questions": [
+    {
+     "id": "qs.prc.controls.allergen_shared_lines",
+     "text": "Are allergen-containing products made on shared lines without validated cleaning?",
+     "type": "yes/no",
+     "used_by": "R, E05"
+    }
+   ]
+  },
+  {
+   "id": "prc.end.e06",
+   "heading": "E06 Untraceable Products",
+   "trigger": {
+    "questions": [
+     "qs.prc.controls.batch_coding"
+    ],
+    "rules": [
+     {
+      "when": "qs.prc.controls.batch_coding == false",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the insured products are not coded so that a batch can be identified and traced.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.prc.controls.batch_coding",
+     "text": "Are all insured products coded so that each production batch can be identified and traced?",
+     "type": "yes/no",
+     "used_by": "A, E06"
+    }
+   ]
+  }
+ ],
+ "sha256": "5a5009e88161338208c0c96c11a323b4869457c508064cc4ac05bde1737505ad"
+}

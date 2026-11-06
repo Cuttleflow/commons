@@ -1,0 +1,109 @@
+id: prc-base
+title: Product Recall and Contamination Insurance
+class: PRODUCT RECALL AND CONTAMINATION INSURANCE
+kicker: Meridian Commons · Product Recall and Contamination
+slug: product-recall-and-contamination
+file_stem: Meridian_Product_Recall_and_Contamination
+doc_ref: 2026/PRC/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: 'First-party cover for Australian food, beverage and consumer goods businesses: recall costs, replacement, lost gross profit and rehabilitation after accidental contamination, malicious tampering
+  or a government recall.'
+structure:
+- section: preamble
+  clauses:
+  - prc.about
+  - prc.version-history
+  - prc.schedule
+- section: prc.section.definitions
+  clauses:
+  - prc.def.accidental-contamination
+  - prc.def.business
+  - prc.def.control-group
+  - prc.def.crisis-consultant-costs
+  - prc.def.defect
+  - prc.def.endorsement
+  - prc.def.geographical-limits
+  - prc.def.government-recall
+  - prc.def.government-authority
+  - prc.def.gross-profit
+  - prc.def.indemnity-period
+  - prc.def.insured-event
+  - prc.def.insured-products
+  - prc.def.limit-of-liability
+  - prc.def.loss
+  - prc.def.malicious-tampering
+  - prc.def.named-insured
+  - prc.def.policy-period
+  - prc.def.recall
+  - prc.def.recall-costs
+  - prc.def.rehabilitation-costs
+  - prc.def.replacement-costs
+  - prc.def.retention
+  - prc.def.usa-canada
+  - prc.def.we-us-our
+  - prc.def.you-your
+- section: prc.section.cover
+  clauses:
+  - prc.cover.contaminated-products
+  - prc.cover.defective-products
+  - prc.cover.discovery-and-notification
+  - prc.cover.mitigation-costs
+- section: prc.section.exclusions
+  clauses:
+  - prc.excl.bodily-injury-and-property-damage-claims
+  - prc.excl.deliberate-acts
+  - prc.excl.gradual-deterioration
+  - prc.excl.guarantee-and-performance
+  - prc.excl.known-events
+  - prc.excl.market-withdrawal
+  - prc.excl.regulatory-change
+  - prc.excl.fines-and-penalties
+  - prc.excl.loss-of-market
+  - prc.excl.excluded-products
+  - prc.excl.communicable-disease
+  - prc.excl.usa-canada
+  - prc.excl.war-terrorism-and-nuclear
+  - prc.excl.how-the-exclusions-apply
+- section: prc.section.payment
+  clauses:
+  - prc.pay.limit-of-liability
+  - prc.pay.related-insured-events
+  - prc.pay.retention
+  - prc.pay.gross-profit
+  - prc.pay.other-insurance
+  - prc.pay.recoveries
+- section: prc.section.obligations
+  clauses:
+  - prc.obl.tell-us
+  - prc.obl.recall-plan
+  - prc.obl.extortion-and-tampering
+  - prc.obl.cooperate-with-us
+  - prc.obl.keep-this-insurance-confidential
+- section: prc.section.conditions
+  clauses:
+  - prc.cond.insurance-contracts-act
+  - prc.cond.your-duty-of-disclosure
+  - prc.cond.cancellation
+  - prc.cond.sanctions
+  - prc.cond.governing-law
+  - prc.cond.jurisdiction
+  - prc.cond.gst
+  - prc.cond.assignment
+  - prc.cond.headings-and-references
+  - prc.cond.disputes-and-complaints
+  - prc.cond.privacy
+  - prc.cond.individual-treatment
+- section: end
+  clauses:
+  - prc.claims.how-to-make-a-claim
+  - prc.guide
+  - prc.endorsement-library
+  - prc.end.e01
+  - prc.end.e02
+  - prc.end.e03
+  - prc.end.e04
+  - prc.end.e05
+  - prc.end.e06
+  - prc.licence-notice
