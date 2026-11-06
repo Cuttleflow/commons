@@ -1,0 +1,260 @@
+# Platform questions for the Plant and Equipment wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.peq namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+- id: qs.peq.insured.name
+  text: What is the named insured's legal name?
+  type: text
+  used_by: S
+- id: qs.peq.insured.abn
+  text: What is the named insured's ABN?
+  type: text
+  used_by: S
+- id: qs.peq.insured.entity_type
+  text: What type of entity is the named insured?
+  type: select
+  options:
+  - company
+  - trust
+  - partnership
+  - sole_trader
+  used_by: A, S
+- id: qs.peq.insured.state
+  text: In which state or territory is the named insured's address?
+  type: select
+  options:
+  - NSW
+  - VIC
+  - QLD
+  - WA
+  - SA
+  - TAS
+  - ACT
+  - NT
+  used_by: S
+- id: qs.peq.insured.years_in_business
+  text: How many years has the business traded under its current ownership?
+  type: number
+  used_by: R, A
+- id: qs.peq.insured.adverse_history
+  text: Has any insurer declined, cancelled or imposed special terms on the named insured in the last 5 years?
+  type: yes/no
+  used_by: A
+- id: qs.peq.insured.outside_australia
+  text: Will any insured plant be used outside Australia during the policy period?
+  type: yes/no
+  used_by: A
+- id: qs.peq.ops.main_operation
+  text: What is the main work the plant does?
+  type: select
+  options:
+  - building_construction
+  - civil_earthworks
+  - landscaping
+  - agriculture
+  - own_use
+  - quarrying_mining
+  - forestry
+  - demolition
+  - plant_hire
+  - other
+  used_by: R, A
+- id: qs.peq.ops.main_state
+  text: In which state or territory is most of the plant's sum insured kept and used?
+  type: select
+  options:
+  - NSW
+  - VIC
+  - QLD
+  - WA
+  - SA
+  - TAS
+  - ACT
+  - NT
+  used_by: R
+- id: qs.peq.ops.state_split
+  text: What share of the total plant sum insured is kept and used in each state or territory?
+  type: repeating (state, pct)
+  used_by: R, S
+- id: qs.peq.ops.underground
+  text: Will any plant work underground, in a tunnel, or in an excavation deeper than 3 metres?
+  type: yes/no
+  used_by: A, E01
+- id: qs.peq.ops.demolition
+  text: Will any plant be used for demolition?
+  type: yes/no
+  used_by: A, E04
+- id: qs.peq.ops.wet_works
+  text: Will any plant work on a pontoon or barge, in a tidal zone, or from the bank of a waterway?
+  type: yes/no
+  used_by: A, E11
+- id: qs.peq.ops.mining_sites
+  text: Will any plant work on a mine or quarry site?
+  type: yes/no
+  used_by: A
+- id: qs.peq.ops.wet_hire
+  text: Is any plant hired out with an operator supplied by the named insured (wet hire)?
+  type: yes/no
+  used_by: R, S
+- id: qs.peq.ops.dry_hire
+  text: Is any plant hired out without an operator (dry hire)?
+  type: yes/no
+  used_by: A, S, E06
+- id: qs.peq.ops.damage_waiver
+  text: Does the named insured offer hirers a damage waiver?
+  type: yes/no
+  used_by: A, E06
+- id: qs.peq.ops.security
+  text: How is the plant usually secured when left unattended?
+  type: select
+  options:
+  - none
+  - immobilised
+  - locked_compound
+  - gps_tracking
+  - compound_and_gps
+  used_by: R, A
+- id: qs.peq.plant.items
+  text: 'The plant schedule: for each item, its description, category, make and model, year, serial or registration number, basis of settlement, sum insured, breakdown cover, hire-out status and financier.'
+  type: repeating
+  used_by: S
+- id: qs.peq.plant.total_si
+  text: What is the total sum insured of all specified plant and the unspecified plant sum insured?
+  type: number
+  used_by: R, A
+- id: qs.peq.plant.class_split
+  text: What share of the total plant sum insured is in each rating class (plant category, with or without breakdown cover)?
+  type: repeating (rating class, pct)
+  used_by: R
+- id: qs.peq.plant.max_item_si
+  text: What is the highest sum insured of any one item?
+  type: number
+  used_by: A
+- id: qs.peq.plant.oldest_age
+  text: How old, in years, is the oldest item of specified plant?
+  type: number
+  used_by: A
+- id: qs.peq.plant.old_plant_band
+  text: What share of the total plant sum insured is in items more than 15 years old?
+  type: select
+  options:
+  - none
+  - up_to_25
+  - 26_to_50
+  - over_50
+  used_by: R
+- id: qs.peq.plant.crane_count
+  text: How many cranes are insured?
+  type: number
+  used_by: E02
+- id: qs.peq.plant.crane_over_25t
+  text: Is any crane rated to lift more than 25 tonnes?
+  type: yes/no
+  used_by: A, E02
+- id: qs.peq.plant.dual_lifts
+  text: Do any cranes make dual or tandem lifts?
+  type: yes/no
+  used_by: E02
+- id: qs.peq.plant.piling_rig
+  text: Is any piling, drilling or foundation rig to be insured?
+  type: yes/no
+  used_by: A, E03
+- id: qs.peq.plant.agreed_value_count
+  text: How many items are to be insured for an agreed value?
+  type: number
+  used_by: A, S
+- id: qs.peq.plant.agreed_value_all
+  text: Are all items to be insured for an agreed value?
+  type: yes/no
+  used_by: E05
+- id: qs.peq.plant.valuation_held
+  text: Is there a written valuation or dealer quotation, no more than 12 months old, for every item insured for an agreed value?
+  type: yes/no
+  used_by: A, E05
+- id: qs.peq.plant.registered_count
+  text: How many items are registered for use on a public road?
+  type: number
+  used_by: E07
+- id: qs.peq.plant.light_vehicle_count
+  text: How many registered items have a carrying capacity of 2 tonnes or less?
+  type: number
+  used_by: A
+- id: qs.peq.plant.electric_count
+  text: How many items are battery electric or hybrid?
+  type: number
+  used_by: E08
+- id: qs.peq.plant.autonomous
+  text: Is any item operated by remote control, or by a guidance or autonomy system without an operator on board?
+  type: yes/no
+  used_by: A, E12
+- id: qs.peq.operators.licensed
+  text: Do all operators hold the licences that the law requires for the plant they operate?
+  type: yes/no
+  used_by: A
+- id: qs.peq.operators.youngest_age
+  text: How old is the youngest person who will operate the plant?
+  type: number
+  used_by: R, A
+- id: qs.peq.claims.count_5y
+  text: How many claims has the named insured made on plant insurance in the last 5 years?
+  type: number
+  used_by: R, A
+- id: qs.peq.claims.total_loss_5y
+  text: Has any item of plant been a total loss, or been stolen and not recovered, in the last 5 years?
+  type: yes/no
+  used_by: A
+- id: qs.peq.cover.excess
+  text: What excess is chosen for each item?
+  type: select
+  options:
+  - '1000'
+  - '2500'
+  - '5000'
+  - '10000'
+  used_by: R, S
+- id: qs.peq.cover.unspecified_si
+  text: What unspecified plant sum insured is wanted?
+  type: number
+  used_by: S
+- id: qs.peq.cover.unspecified_item_max
+  text: What is the most to be paid for any one item of unspecified plant?
+  type: number
+  used_by: S, E10
+- id: qs.peq.cover.hire_costs_weekly
+  text: What weekly hire costs benefit is wanted after insured damage (0 if none)?
+  type: number
+  used_by: S, E09
+- id: qs.peq.hired_in.annual_spend
+  text: What does the named insured expect to spend on hiring in plant in the policy period (0 if Hired-In Plant is not wanted)?
+  type: number
+  used_by: R, A
+- id: qs.peq.hired_in.max_item_value
+  text: What is the highest replacement value of any one item of hired-in plant?
+  type: number
+  used_by: A
+- id: qs.peq.hired_in.onerous_terms
+  text: Does any hire agreement make the named insured responsible for loss or damage whatever its cause?
+  type: yes/no
+  used_by: A
+- id: qs.peq.breakdown.selected
+  text: Is machinery breakdown cover wanted for any item?
+  type: yes/no
+  used_by: A
+- id: qs.peq.breakdown.sum_insured
+  text: What is the total sum insured of the items that are to have machinery breakdown cover?
+  type: number
+  used_by: A, S
+- id: qs.peq.breakdown.maintenance_records
+  text: Are maintenance records kept for every item that is to have machinery breakdown cover?
+  type: yes/no
+  used_by: A
+- id: qs.peq.liability.limit
+  text: What limit is wanted for Mobile Plant Liability, each occurrence?
+  type: select
+  options:
+  - '5000000'
+  - '10000000'
+  - '20000000'
+  - '30000000'
+  used_by: R, S
