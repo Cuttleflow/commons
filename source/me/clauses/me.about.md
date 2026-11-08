@@ -3,7 +3,7 @@ id: me.about
 type: preamble
 heading: About This Policy
 since: 1.1.0
-changed: 1.2.0
+changed: 1.3.0
 status: draft
 ---
 
@@ -26,4 +26,4 @@ It covers:
 
 This policy, together with your schedule and any endorsements, forms your contract of insurance with us. Please read all documents together and tell us if anything is incorrect. We enter into this contract, and each of us must act towards the other, with the utmost good faith, as the Insurance Contracts Act 1984 (Cth) requires. Words with special meanings are listed in [[ref:me.section.definitions]].
 
-This wording is written for businesses and professionals. Some buyers, such as small businesses, may be retail clients under the Corporations Act 2001 (Cth). Where a buyer is a retail client, the issuer must give a Product Disclosure Statement and make a Target Market Determination available. This wording is not itself a Product Disclosure Statement. [WP REVIEW: confirm the retail-client posture for medical establishments.]
+**Retail clients.** Under s.761G(5) of the Corporations Act 2001 (Cth), a general insurance product provided to an individual, or for use in connection with a small business, is provided to a retail client only if it is one of the kinds of product listed in s.761G(5)(b). Liability insurance for a healthcare establishment is not among them. Medical indemnity insurance for medical practitioners is one of them: regulation 7.1.17A of the Corporations Regulations 2001 (Cth) prescribes a medical indemnity insurance product for s.761G(5)(b)(viii). Regulation 1.0.02(1) of those Regulations defines a medical indemnity insurance product as an arrangement to which the Medical Indemnity (Prudential Supervision and Product Standards) Act 2003 (Cth) applies, under which medical indemnity cover is provided to a medical practitioner as defined in s.4 of that Act (an individual registered or licensed as a medical practitioner under a State or Territory law), or to a registered health professional prescribed by regulations made under that Act. So medical indemnity insurance for a medical practitioner is a retail product when it is provided to an individual or for use in connection with a small business. This policy never covers the personal civil liability of a medical practitioner (see [[ref:me.def.insured-person]] and [[ref:me.cover.vicarious-liability]]). It insures the company's own liability, and an allied health practitioner only while acting for the company, so a buyer of this policy is not a retail client for it, and this wording is not a Product Disclosure Statement. [WP REVIEW: confirm that the cover for an allied health practitioner while acting for the company is not medical indemnity cover for a registered health professional prescribed under the Medical Indemnity (Prudential Supervision and Product Standards) Regulations 2020.]
