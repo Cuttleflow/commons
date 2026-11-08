@@ -1,0 +1,162 @@
+id: hnw-base
+title: Private Client Home Insurance
+class: PRIVATE CLIENT HOME INSURANCE
+kicker: Meridian Commons · Private Client Home
+slug: private-client-home
+file_stem: Meridian_Private_Client_Home
+doc_ref: 2026/HNW/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Accidental damage cover for high-value homes in Australia, with contents, valuables, worldwide personal liability, and family protection and cyber cover.
+structure:
+- section: preamble
+  clauses:
+  - hnw.about
+  - hnw.version-history
+  - hnw.important-information
+  - hnw.schedule
+- section: hnw.section.definitions
+  clauses:
+  - hnw.def.action-of-the-sea
+  - hnw.def.agreed-value
+  - hnw.def.building
+  - hnw.def.car-jacking
+  - hnw.def.category
+  - hnw.def.contents
+  - hnw.def.cyber-event
+  - hnw.def.damage
+  - hnw.def.domestic-worker
+  - hnw.def.endorsement
+  - hnw.def.event
+  - hnw.def.excess
+  - hnw.def.flood
+  - hnw.def.home
+  - hnw.def.home-invasion
+  - hnw.def.household
+  - hnw.def.personal-injury
+  - hnw.def.policy-period
+  - hnw.def.professional-valuation
+  - hnw.def.property-damage
+  - hnw.def.rebuilding-cost
+  - hnw.def.specified-item
+  - hnw.def.storm
+  - hnw.def.sum-insured
+  - hnw.def.unoccupied
+  - hnw.def.unspecified-item
+  - hnw.def.valuables
+  - hnw.def.vault
+  - hnw.def.we-us-our
+  - hnw.def.you-your
+- section: hnw.section.building
+  clauses:
+  - hnw.cover.building
+  - hnw.pay.building-settlement
+  - hnw.pay.extended-replacement
+  - hnw.pay.cash-settlement
+  - hnw.ext.temporary-accommodation
+  - hnw.ext.emergency-repairs
+  - hnw.ext.keys-and-locks
+  - hnw.ext.landscaping
+  - hnw.ext.fire-services-charges
+  - hnw.ext.mortgage-discharge
+  - hnw.ext.motor-burnout
+- section: hnw.section.contents
+  clauses:
+  - hnw.cover.contents
+  - hnw.pay.contents-settlement
+  - hnw.pay.contents-limits
+  - hnw.ext.contents-in-storage
+  - hnw.ext.spoiled-food
+  - hnw.ext.guests-and-workers-property
+  - hnw.ext.contents-accommodation
+- section: hnw.section.valuables
+  clauses:
+  - hnw.cover.valuables
+  - hnw.cover.valuables-where-covered
+  - hnw.pay.valuables-settlement
+  - hnw.pay.valuables-most-we-pay
+  - hnw.pay.pairs-and-sets
+  - hnw.ext.loss-in-value
+  - hnw.ext.new-acquisitions
+- section: hnw.section.property-exclusions
+  clauses:
+  - hnw.excl.first-72-hours
+  - hnw.excl.defects-and-gradual-causes
+  - hnw.excl.earth-movement
+  - hnw.excl.action-of-the-sea
+  - hnw.excl.unoccupied
+  - hnw.excl.property-other
+  - hnw.excl.valuables
+- section: hnw.section.liability
+  clauses:
+  - hnw.cover.liability
+  - hnw.excl.liability-household
+  - hnw.excl.liability-workers
+  - hnw.excl.liability-contracts
+  - hnw.excl.liability-vehicles
+  - hnw.excl.liability-pollution
+  - hnw.excl.liability-asbestos
+  - hnw.excl.liability-business
+  - hnw.excl.liability-fines
+- section: hnw.section.family-protection
+  clauses:
+  - hnw.cover.home-invasion
+  - hnw.cover.identity-and-cyber
+  - hnw.excl.family-protection
+- section: hnw.section.general-payment
+  clauses:
+  - hnw.pay.excess
+  - hnw.pay.gst
+  - hnw.pay.other-insurance
+  - hnw.pay.who-we-pay
+- section: hnw.section.general-exclusions
+  clauses:
+  - hnw.excl.deliberate-acts
+  - hnw.excl.illegal-use
+  - hnw.excl.war
+  - hnw.excl.nuclear
+  - hnw.excl.terrorism
+  - hnw.excl.cyber
+- section: hnw.section.obligations
+  clauses:
+  - hnw.obl.tell-us-about-claims
+  - hnw.obl.reduce-loss
+  - hnw.obl.admissions
+  - hnw.obl.tell-us-about-changes
+  - hnw.obl.records-and-valuations
+  - hnw.obl.subrogation
+- section: hnw.section.conditions
+  clauses:
+  - hnw.cond.insurance-contracts-act
+  - hnw.cond.joint-insureds
+  - hnw.cond.cancellation
+  - hnw.cond.renewal
+  - hnw.cond.fraud
+  - hnw.cond.sanctions
+  - hnw.cond.gst
+  - hnw.cond.privacy
+  - hnw.cond.disputes-and-complaints
+  - hnw.cond.governing-law
+  - hnw.cond.jurisdiction
+  - hnw.cond.headings-and-references
+- section: end
+  clauses:
+  - hnw.claims.how-to-make-a-claim
+  - hnw.endorsement-library
+  - hnw.end.e01
+  - hnw.end.e02
+  - hnw.end.e03
+  - hnw.end.e04
+  - hnw.end.e05
+  - hnw.end.e06
+  - hnw.end.e07
+  - hnw.end.e08
+  - hnw.end.e09
+  - hnw.end.e10
+  - hnw.end.e11
+  - hnw.end.e12
+  - hnw.end.e13
+  - hnw.end.e14
+  - hnw.end.e15
+  - hnw.licence-notice
