@@ -16,6 +16,78 @@ questions:
     type: select
     options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
     used_by: S
+  - id: qs.sa.insured.entity_type
+    text: What kind of entity is the company?
+    type: select
+    options: ['listed', 'private_company', 'not_for_profit']
+    used_by: R, A
+  - id: qs.sa.insured.asx_code
+    text: What is the company's ASX code?
+    type: text
+    used_by: S
+  - id: qs.sa.insured.anzsic_primary
+    text: What is the company's main business activity?
+    type: select (ANZSIC 2006 class)
+    used_by: R, A
+  - id: qs.sa.insured.years_trading
+    text: How many years has the company traded under its current ownership?
+    type: number
+    used_by: R
+  - id: qs.sa.exposure.size_basis
+    text: For a listed company, what is its market capitalisation? For a private company or not-for-profit, what are its consolidated total assets in the latest financial statements?
+    type: currency (AUD)
+    used_by: R, A
+  - id: qs.sa.exposure.us_subsidiary
+    text: Does the company have a subsidiary, office or employees in the United States or Canada?
+    type: yes/no
+    used_by: A
+  - id: qs.sa.exposure.us_revenue_pct
+    text: What percentage of the company's revenue comes from customers in the United States or Canada?
+    type: number (%)
+    used_by: R, A
+  - id: qs.sa.exposure.us_listed
+    text: Are any of the company's securities traded in the United States or Canada, including American depositary receipts?
+    type: yes/no
+    used_by: A
+  - id: qs.sa.exposure.financial_institution
+    text: Is the company authorised, licensed or required to be licensed by APRA?
+    type: yes/no
+    used_by: A
+  - id: qs.sa.finance.condition
+    text: Did the company make a profit, break even or make a loss in its last financial year?
+    type: select
+    options: ['profit', 'breakeven', 'loss']
+    used_by: R
+  - id: qs.sa.finance.going_concern_note
+    text: Do the company's latest financial statements contain a going-concern note or qualification?
+    type: yes/no
+    used_by: A
+  - id: qs.sa.finance.insolvency_history
+    text: Has the company or any subsidiary been insolvent, or in administration or receivership, in the last five years?
+    type: yes/no
+    used_by: A
+  - id: qs.sa.governance.independent_majority
+    text: Is a majority of the board independent?
+    type: select
+    options: ['yes', 'no']
+    used_by: R
+  - id: qs.sa.governance.regulatory_matter
+    text: Has any regulator investigated, inquired into or taken enforcement action against the company or its directors or officers, currently or in the last five years?
+    type: yes/no
+    used_by: A
+  - id: qs.sa.claims.count_5y
+    text: How many claims, investigations or tribunal complaints have been made against the company or its directors or officers in the last five years?
+    type: number
+    used_by: R, A
+  - id: qs.sa.claims.known_circumstances
+    text: Is any director or officer aware of a circumstance that might give rise to a claim?
+    type: yes/no
+    used_by: A
+  - id: qs.sa.underlying.followed_policy_type
+    text: Is the underlying insurance a directors' and officers' policy or a management liability package?
+    type: select
+    options: ['do_policy', 'management_liability']
+    used_by: S
   - id: qs.sa.underlying.insurer
     text: Who is the insurer of the underlying directors' and officers' insurance?
     type: text
