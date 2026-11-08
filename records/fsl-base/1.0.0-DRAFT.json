@@ -1,0 +1,843 @@
+{
+ "wording": "fsl-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/FSL/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "fsl.about",
+   "heading": "About This Policy",
+   "sha256": "8bb1b4423f745c3bd8066b4c5cbcd8385a8c4a57371a1b53d57d5389f2b0ada6"
+  },
+  {
+   "id": "fsl.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "fsl.important-information",
+   "heading": "Important Information",
+   "sha256": "ba8a483b4f254ad8d8044677349802ac9a462f4e01579bbccfc0497129e81eee"
+  },
+  {
+   "id": "fsl.schedule",
+   "heading": "Schedule",
+   "sha256": "0a5202934279cc8481aefadc470f8516d858db4ddefb63bb02178e972606796c"
+  },
+  {
+   "id": "fsl.section.definitions",
+   "heading": "Definitions",
+   "sha256": "64c75eb2e12fb06c76f52fbbb8832075f051408d068014c94600b15c91b84aaf"
+  },
+  {
+   "id": "fsl.def.authority",
+   "heading": "Authority",
+   "sha256": "e283acb3b196ce7dadd64b6a9c8cb604b85d50cf78e1cb0bc5df7212f7d4c611"
+  },
+  {
+   "id": "fsl.def.claim",
+   "heading": "Claim",
+   "sha256": "a9911c6c79e9ac3cde51817e69eac57bb787882e7afc3788c875ee5bd80dd041"
+  },
+  {
+   "id": "fsl.def.compensation",
+   "heading": "Compensation",
+   "sha256": "1ce9931c7ae6bc09becc207acac9117d2deefb0e9d3949702e2dcd73dac344cc"
+  },
+  {
+   "id": "fsl.def.control-group",
+   "heading": "Control Group",
+   "sha256": "d61e76b6d41ae342681a9611d867fd103111fc7a49e0049d6c62a3f6e614a0df"
+  },
+  {
+   "id": "fsl.def.customer",
+   "heading": "Customer",
+   "sha256": "0457ca64181333992fee19807b4a71aab24f20520fcd8f27d80d1e165c3e157d"
+  },
+  {
+   "id": "fsl.def.customs-entry",
+   "heading": "Customs Entry",
+   "sha256": "5e9c969dc336c1d4bee6a4e88a5cac9fc7257aee271119c518872fa5fed13381"
+  },
+  {
+   "id": "fsl.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "2d3a8b844de5675b568bd33c97c367dd9bca9722ff24a6c5c4b501aa790c0fb9"
+  },
+  {
+   "id": "fsl.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "fsl.def.error",
+   "heading": "Error",
+   "sha256": "8f8cbc9628a498bd4b80adc738b3a86c83e6bcae5fc27a431f5228bd37f9f752"
+  },
+  {
+   "id": "fsl.def.excess",
+   "heading": "Excess",
+   "sha256": "b913d00bcaa7d8b80ecbfb1cae3ba1db9108ab833f8ba304db320bda4886927a"
+  },
+  {
+   "id": "fsl.def.excluded-goods",
+   "heading": "Excluded Goods",
+   "sha256": "aee988025144e845efcfc21e60dcb2960cd880f3036e7aa5e0236ea2bf678017"
+  },
+  {
+   "id": "fsl.def.final-adjudication",
+   "heading": "Final Adjudication",
+   "sha256": "7c33b80d20018ebce82c386694eaf784b6c23107364a63d5ff468b5cebef051e"
+  },
+  {
+   "id": "fsl.def.freight-services",
+   "heading": "Freight Services",
+   "sha256": "830090eb1e5836176e7d46488dfd4a06dbd7c0dc5c3562eb2ecc2484e011b14d"
+  },
+  {
+   "id": "fsl.def.goods",
+   "heading": "Goods",
+   "sha256": "ddb55bc21ff2843c87c2ac2ca9e9eefee6fa853b2fbe01d62839706115e2e58a"
+  },
+  {
+   "id": "fsl.def.gross-receipts",
+   "heading": "Gross Receipts",
+   "sha256": "abc36bd0a4f44b496ec279c4ce9bdcdcfd59a1c9fea7ddfdc3fb995cb0af71cc"
+  },
+  {
+   "id": "fsl.def.named-insured",
+   "heading": "Named Insured",
+   "sha256": "74e8c4ee94a0cbabc0be8a015ef7256d67ab6d806fa3ffdaf990b1974f4fd097"
+  },
+  {
+   "id": "fsl.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "7e291e89c12b4e0b1b6da3a75f7ff5a240e69e3c7d91e14df17294103e04bdf3"
+  },
+  {
+   "id": "fsl.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "627decfd48d292bfdeefebbb31a455caddd1a36917a046cb31347a41d005a0cf"
+  },
+  {
+   "id": "fsl.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "63e7fdd289a56246cd031104e1f190f7864255d2706e9160682d26c69ae4daaf"
+  },
+  {
+   "id": "fsl.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "3caa75c587fb987ba0a01961e1245a11e5bdad62228f52dc2ae2ac4bb4297c5e"
+  },
+  {
+   "id": "fsl.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "7eb0a8387c0e7676671486afb2489c5349c635fc777d591b92a2f5c85e9155d2"
+  },
+  {
+   "id": "fsl.def.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "a0d150e1b7033a83ea98da3f49fbf1820bbd30face07821e3aa169cacd9b66a2"
+  },
+  {
+   "id": "fsl.def.standard-trading-conditions",
+   "heading": "Standard Trading Conditions",
+   "sha256": "4b72d2bc501a8015e2f1d143c440c3d7a0299f96cb0fd53748131c4bd4139aeb"
+  },
+  {
+   "id": "fsl.def.subcontractor",
+   "heading": "Subcontractor",
+   "sha256": "b99f51cafbb2ed65b256b42130b45030d40af25d809b9805ffdb9339b6ff6a42"
+  },
+  {
+   "id": "fsl.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "fe91006f38761900114521bc41e0808a43fc50cbf946b33e8ff7b3fc1a48e02d"
+  },
+  {
+   "id": "fsl.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "fsl.def.you-your",
+   "heading": "You, Your",
+   "sha256": "44b4d0b292df3d0733e4f4f583d0b0a034360d568e874f07b93e2f40f5b27b7e"
+  },
+  {
+   "id": "fsl.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "d6623196127885a1aca9ca4f07d8d0b76b4f7a77cb6cf1954cf360ff0ef65256"
+  },
+  {
+   "id": "fsl.cover.cargo-liability",
+   "heading": "Cargo Liability",
+   "sha256": "52c283257a84a7e33c01789055d903bd73a0ef1ecdf0686bbde2bdcbe63d6771"
+  },
+  {
+   "id": "fsl.cover.errors-and-omissions",
+   "heading": "Errors and Omissions",
+   "sha256": "afca53c2381491b6a394068dfe571dc68cf3feeb0e623337856896cba1a02c51"
+  },
+  {
+   "id": "fsl.cover.fines-and-penalties",
+   "heading": "Fines and Penalties",
+   "sha256": "f490c018202b1d07c70a351442f860c7ccb664b12adba8941150935e0f02e9f2"
+  },
+  {
+   "id": "fsl.cover.customs-duty-liability",
+   "heading": "Customs Duty Liability",
+   "sha256": "ca078f0b9a23d30c863aafd4a7a421d5621efa9598ab56ad3ccfea89a17cda5f"
+  },
+  {
+   "id": "fsl.cover.public-liability",
+   "heading": "Public Liability",
+   "sha256": "13e4dff5fe8a787d01641066e3a2e5411440f63a9e94c65ae7a932069bfea283"
+  },
+  {
+   "id": "fsl.cover.notification-of-circumstances",
+   "heading": "Notification of Circumstances",
+   "sha256": "5e408e8317639089fb083a5feafdeee121ced181f65ed48d7cd2e4b6cd34e305"
+  },
+  {
+   "id": "fsl.cover.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "dd38ba79348e0f45f4bb48161e9b78bc94e5f8aa15d4311e434a17158985894b"
+  },
+  {
+   "id": "fsl.cover.supplementary-payments",
+   "heading": "Supplementary Payments",
+   "sha256": "f0e22895abd55a5a2f35439ab224a7b60432b6847672415078468957452c5f74"
+  },
+  {
+   "id": "fsl.section.extensions",
+   "heading": "Extensions of Cover",
+   "sha256": "3740643670ff33cbcb930a1e71edf77cb4d08aeded0e30f767d1201da454127f"
+  },
+  {
+   "id": "fsl.ext.mitigation-costs",
+   "heading": "Costs of Preventing or Reducing Loss",
+   "sha256": "4653070f39c58d0a9e36d15069f69a02b0a5f511f33f629a95d74d447592ca9b"
+  },
+  {
+   "id": "fsl.ext.removal-and-disposal",
+   "heading": "Removal and Disposal of Damaged Goods",
+   "sha256": "21450eb3811dd36f50dd61a71474d5792e884583b373effef1a11fd8bfba4638"
+  },
+  {
+   "id": "fsl.ext.pollution-clean-up",
+   "heading": "Cargo Pollution Clean-up",
+   "sha256": "bbb2a52ef16dace036b53caffed632bd4fb44caaa8c609efdf5f5e7eb955aabf"
+  },
+  {
+   "id": "fsl.ext.continuous-cover",
+   "heading": "Continuous Cover",
+   "sha256": "6e0d2c86c354ade1afe5bac524d800307f986cc47b6ad5aebd8540e241b66602"
+  },
+  {
+   "id": "fsl.ext.extended-reporting-period",
+   "heading": "Extended Reporting Period",
+   "sha256": "e67ac36f8f9b926e06b58a698bc1042f3c89d7ed2eb5832a5cfa2fc3d4f28bb8"
+  },
+  {
+   "id": "fsl.ext.newly-acquired-subsidiaries",
+   "heading": "Newly Acquired Subsidiaries",
+   "sha256": "db631e1c3f816a9913f7f3c573eb4daff89d70b8ad6634e1e66c05525cfad0da"
+  },
+  {
+   "id": "fsl.section.payment",
+   "heading": "How Much We Will Pay",
+   "sha256": "cea9397032ceb4d7581cd00d221a1434a724491f88343b70486bcb269d93f6e4"
+  },
+  {
+   "id": "fsl.pay.limits",
+   "heading": "Limits",
+   "sha256": "ada228c91f49991f405eb4a269467f1387e76052f179348be7463b74377cbc8c"
+  },
+  {
+   "id": "fsl.pay.sub-limits",
+   "heading": "Sub-limits",
+   "sha256": "24bf10f653948b4012fe56341869bf0cca10b5d6e560f8c305e3c02ee3b953b7"
+  },
+  {
+   "id": "fsl.pay.trading-conditions",
+   "heading": "Measure of Cover",
+   "sha256": "e6bb7644cdd1816e5e6efe8f077932caf2f24a48a6934416a2217adbd89d03f6"
+  },
+  {
+   "id": "fsl.pay.which-section-responds",
+   "heading": "Which Section Responds",
+   "sha256": "476a12a0ef91b86ab9b63f56341b365e7da45935be6c6cdd1e1839e228371ad1"
+  },
+  {
+   "id": "fsl.pay.counting",
+   "heading": "Counting Occurrences and Claims",
+   "sha256": "f4f4ebfcbde487a9c787a041e6fedb49595fab01290e7448a032a0410ff5b019"
+  },
+  {
+   "id": "fsl.pay.excess",
+   "heading": "Excess",
+   "sha256": "875f0b58c24360a1759879a79b46399c1e4dafb1efd3a60693b0d6719fe22657"
+  },
+  {
+   "id": "fsl.pay.allocation",
+   "heading": "Allocation",
+   "sha256": "422e0c108140899d40cc57b0b05f2195bb078f21c90698b7063293550a033a13"
+  },
+  {
+   "id": "fsl.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "5c785357806d92406b7601cafbfc9efa34ef87ba01d12480202a560ea48fc778"
+  },
+  {
+   "id": "fsl.pay.paying-out-the-limit",
+   "heading": "Paying Out the Limit",
+   "sha256": "0e1977d1c10dfe8f672218fc8bbcada0c61ea3242111380a5cb9734d4f0a3669"
+  },
+  {
+   "id": "fsl.pay.recoveries",
+   "heading": "Recoveries",
+   "sha256": "d945aa3ba8b274607147dbc0aa6c360e424623e3775cd847b37198ec3ed7f3d5"
+  },
+  {
+   "id": "fsl.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "c18cfc301f98ac232973bb5215c1c63d7245fac44e8253602cb820df6068146b"
+  },
+  {
+   "id": "fsl.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "f2b44c9ad339c09957b66af81eb759e39bbd6ca24e02d8331a2dc06ae940677c"
+  },
+  {
+   "id": "fsl.excl.excluded-goods",
+   "heading": "Excluded Goods",
+   "sha256": "3de30efbe23c2054df1ba006f63bc888615b74da1491c85e99e0b9fd5645b15c"
+  },
+  {
+   "id": "fsl.excl.property-you-own-or-hire",
+   "heading": "Property You Own, Hire or Lease",
+   "sha256": "c54e93ec3c62cee34db660c7f2b3bdb8b02952af3f40d577a1bd867b42339334"
+  },
+  {
+   "id": "fsl.excl.unexplained-shortages",
+   "heading": "Unexplained Shortages",
+   "sha256": "fbf549d149ce5d09e5e252e80354c2eb8adfbee633c0e7a0ac3cae4c56c90de6"
+  },
+  {
+   "id": "fsl.excl.unattended-vehicles",
+   "heading": "Theft From Unattended Vehicles",
+   "sha256": "0d1dd08ae13556c127b369de35573d0c4c533874baa379bac1beb515d32ebe50"
+  },
+  {
+   "id": "fsl.excl.seizure-and-confiscation",
+   "heading": "Seizure and Confiscation",
+   "sha256": "f42cab8402f692862a951545f1d7c9e4707fc1f48d16e09c5e35c2b183866529"
+  },
+  {
+   "id": "fsl.excl.dishonest-acts",
+   "heading": "Dishonest and Deliberate Acts",
+   "sha256": "eb0d998a8bb8e23eab6f7ba204e0abbfb8792cd593d21f4fdd3b4e1cf0d4dfc1"
+  },
+  {
+   "id": "fsl.excl.insolvency",
+   "heading": "Insolvency and Financial Default",
+   "sha256": "f5f1a645d2e7b2bfd326f8a7a06c1b32608bbadfd2afde40d907ad8fa21d1780"
+  },
+  {
+   "id": "fsl.excl.your-fees-and-charges",
+   "heading": "Your Fees and Charges",
+   "sha256": "78d116db480ab6f5d42a25c9488d6b8943b39a0a43a2f52cad064b8b482702b5"
+  },
+  {
+   "id": "fsl.excl.known-claims-and-circumstances",
+   "heading": "Known Claims and Circumstances",
+   "sha256": "358b92d5686cc90c4d52e62bbd0a40da81d63e91288d898cad8e4da10f96a2a3"
+  },
+  {
+   "id": "fsl.excl.fines-and-punitive-damages",
+   "heading": "Fines, Penalties and Punitive Damages",
+   "sha256": "1ccb0b32894e71e234127471985ba6327805b8ce4ac87e8c52273cc65ce136da"
+  },
+  {
+   "id": "fsl.excl.usa-and-canada",
+   "heading": "USA and Canada",
+   "sha256": "ca1108e1878de804ec1763fff137d7545c104928914370c5dd9502a664d5d100"
+  },
+  {
+   "id": "fsl.excl.cyber-event",
+   "heading": "Cyber Event",
+   "sha256": "6a1df248935b00f7104fa02d1931dd74637e1ee3e02ad05fa8425686f6c00852"
+  },
+  {
+   "id": "fsl.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "5a34973d252d1aa4340b86f0e02b8e9c1182093bc2c7419ce6d04dfdca07ca7e"
+  },
+  {
+   "id": "fsl.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "55f74fb4c44a5aa90bd315532c5ac2abc0e8c8d5bac4eca0fca160665676dbc6"
+  },
+  {
+   "id": "fsl.excl.employers-liability",
+   "heading": "Employers' Liability",
+   "sha256": "ed80e15ca29e2c66378e13754ead101bb2366a88caed63214b583e355fd27b16"
+  },
+  {
+   "id": "fsl.excl.motor-vehicles",
+   "heading": "Motor Vehicles",
+   "sha256": "f7a9b11726cc35ae638c58738869c3a75d70df2d9947332d33e326dabadc1c06"
+  },
+  {
+   "id": "fsl.excl.aircraft-and-watercraft",
+   "heading": "Aircraft and Watercraft",
+   "sha256": "ffdfad47f854df4a7643d243d9e2056d166a7d273365358885c816020ad0f663"
+  },
+  {
+   "id": "fsl.excl.war-and-terrorism",
+   "heading": "War and Terrorism",
+   "sha256": "f8fb551b8ab90669ac62d1e91b6a9b80a7288e18e51e63d224b652f5a4ca945a"
+  },
+  {
+   "id": "fsl.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "f475c3cd1de44e810b0a7dbd71066d885ccd1169f8ec65020f5cfa375493ddb2"
+  },
+  {
+   "id": "fsl.excl.how-the-exclusions-apply",
+   "heading": "How the Exclusions Apply",
+   "sha256": "a968e17112555a68de5868ce9bfd6a84fd31dc95c4fbf426eef123b938fd6dec"
+  },
+  {
+   "id": "fsl.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "ca4bd4fb60c583c818532ea4dbdf6c2ea25b031a287830ab57f6dffe3026b15f"
+  },
+  {
+   "id": "fsl.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims and Losses",
+   "sha256": "6417aadbbd109ca62cf2a4397dcb5f3e13843e765ded05628278785d9f62b548"
+  },
+  {
+   "id": "fsl.obl.do-not-admit-liability",
+   "heading": "Do Not Admit Liability",
+   "sha256": "cfad4a4720241de9096545820b2e23c065af1243705e94842877a7027a0f5b71"
+  },
+  {
+   "id": "fsl.obl.cooperate-with-us",
+   "heading": "Cooperate With Us",
+   "sha256": "116ee78e1584f9acf5d01b1e55b8c98a83be53d3f1e6ef25b4d8230aae86507e"
+  },
+  {
+   "id": "fsl.obl.protect-recovery-rights",
+   "heading": "Protect Rights Against Carriers and Others",
+   "sha256": "9c7466829430648b170317f92a94b0e9133c5bc0e240659a4bb06449103027a0"
+  },
+  {
+   "id": "fsl.obl.use-your-trading-conditions",
+   "heading": "Use Your Standard Trading Conditions",
+   "sha256": "ba87858363a3fa9c149253f504b00a16cef3b1bb19e6b6fe4e43a80cb98a9261"
+  },
+  {
+   "id": "fsl.obl.reasonable-care",
+   "heading": "Reasonable Care",
+   "sha256": "374488bf983f2a3e5dcaccce766be94e4acd236c8ee6e11d9cb576e1434630ed"
+  },
+  {
+   "id": "fsl.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "ff522f333496344e6c7adc9afb758df6c147d24857af4164f05c986e0445a888"
+  },
+  {
+   "id": "fsl.obl.records",
+   "heading": "Keep Records",
+   "sha256": "a3edf17cf44e713a73b01eb3f27fdabb72a17642a6681c0b5bc6d07f6f0c3cc4"
+  },
+  {
+   "id": "fsl.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "fsl.cond.statutory-framework",
+   "heading": "Insurance Contracts Act and Marine Insurance Act",
+   "sha256": "11adb11f31ce2b8ff1619fad30dd95c43b3241792cd6430fae223608e507f408"
+  },
+  {
+   "id": "fsl.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "7fbfbac243765121968ac0e5d684608a812025766615d5cf8c6f6b9958267b3a"
+  },
+  {
+   "id": "fsl.cond.your-duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "46f87b939481658cd8c669aff8a4979bc7d28f102bd0d59b138db3d09efafbec"
+  },
+  {
+   "id": "fsl.cond.individual-treatment",
+   "heading": "Individual Treatment of Insureds",
+   "sha256": "856ccd2513ecf328c371d1b7e2e60b88f0cfbaade7ae453674035951a05b545b"
+  },
+  {
+   "id": "fsl.cond.premium-adjustment",
+   "heading": "Premium Adjustment",
+   "sha256": "9a62085ecffabf365c84412984eac83582ca5ed93c22fbae46c74be7d1395d83"
+  },
+  {
+   "id": "fsl.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "2fdd32c13307a1eab8c0b8f792801a9ac73c5d7e0b247c32825d6af87c30cf8b"
+  },
+  {
+   "id": "fsl.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "fsl.cond.subrogation-waiver",
+   "heading": "Waiver of Subrogation",
+   "sha256": "398961643bdaf35c55d6cf241e86fd2bbd6f49b867a0e06a40c0ca9dd4563377"
+  },
+  {
+   "id": "fsl.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "e1069e97a4c9a945849470bf8c6e6dc8e0f71e1c197236badb032a08eebc5eef"
+  },
+  {
+   "id": "fsl.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "bae7f89b804e159b0de08cd77157062dcff4efa33a985dbb6b65465fc3ec61bc"
+  },
+  {
+   "id": "fsl.cond.gst",
+   "heading": "GST",
+   "sha256": "7e0cae894f1fc52df702d420d282dd671654dc850058dd92285fcec7cedaad9d"
+  },
+  {
+   "id": "fsl.cond.several-liability",
+   "heading": "Several Liability",
+   "sha256": "d02c12cd0232c9ef649e13a237eea560de61c9760ba11499f3ce6c412e89fcea"
+  },
+  {
+   "id": "fsl.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "52bae2a47f23fc6dcbd694b1c7be9a0bd44ed177f21af89185dd63b0b12ce152"
+  },
+  {
+   "id": "fsl.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "bbcacb7346f68222e26743e95eaab15be12169d83940cbc4417c6cbeb647322a"
+  },
+  {
+   "id": "fsl.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "60272f5d92884b0b18bc1e7d849cd5cef86e081de7373fb5b3d7fbd63336df8a"
+  },
+  {
+   "id": "fsl.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "f64ede9df80f014020fe29ecf9e07b654c5083827ba569d03a729d15d25e77cd"
+  },
+  {
+   "id": "fsl.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "05652f01ebb8ec1a71709e746b2f7747ca8cca3cf2b7bd0ca38146d5314a52c5"
+  },
+  {
+   "id": "fsl.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "5006cb101f691097f729e5029d3757f58c5a976a588701d93683c6e5de9e93e8"
+  },
+  {
+   "id": "fsl.end.e01",
+   "heading": "E01 Scheduled Customer Contracts",
+   "sha256": "fd81c8e03d215a28b6db95de19a3c689e6c0afc35d91a7a1aa84bed8f656bc50"
+  },
+  {
+   "id": "fsl.end.e02",
+   "heading": "E02 Special Cargo Conditions",
+   "sha256": "3af145d38f3b0370dc4365aecd2aebf2edf55cb45af50958b48e24b1c6e35dba"
+  },
+  {
+   "id": "fsl.end.e03",
+   "heading": "E03 Warehouse Security Conditions",
+   "sha256": "2b7f3945774d65a290d3cf5433d7ab52caa34aa4bc03919a27e969bbec63559d"
+  },
+  {
+   "id": "fsl.end.e04",
+   "heading": "E04 Customs Broker Licence Investigation Costs",
+   "sha256": "bfcd05ac8c154a82944db269f750d57106e3e324bcf59f69f799534aa896eb14"
+  },
+  {
+   "id": "fsl.end.e05",
+   "heading": "E05 Containers and Equipment",
+   "sha256": "f1daa914f1d856ec8fbf743b2b740597f72f86dd3be6c05f4613039fbac05760"
+  },
+  {
+   "id": "fsl.end.e06",
+   "heading": "E06 Duty on Goods in Your Custody",
+   "sha256": "b6e813b5783c6c085d4621b8e736d1a9238f28f78b155446b61b77f936fff668"
+  },
+  {
+   "id": "fsl.end.e07",
+   "heading": "E07 Release Fraud Sub-limit",
+   "sha256": "3799ea858bdff41a55612cea72eded54d4fc6285c49bdd1dd9813717bd5a3ba6"
+  },
+  {
+   "id": "fsl.end.e08",
+   "heading": "E08 USA and Canada Operations",
+   "sha256": "5f0ac9cc46e913e03253a068a8f190ac5169667d423e142821efb03510163fac"
+  },
+  {
+   "id": "fsl.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "949d1137a24911d1d5908043a8c0fc023d17a68ce4ecf5a938160dfe0a0068e4"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "fsl.end.e01",
+   "heading": "E01 Scheduled Customer Contracts",
+   "trigger": {
+    "questions": [
+     "qs.fsl.operations.onerous_contracts"
+    ],
+    "rules": [
+     {
+      "when": "qs.fsl.operations.onerous_contracts == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you have signed customer contracts that accept more liability than your standard trading conditions.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fsl.operations.onerous_contracts",
+     "text": "Have you signed customer contracts that accept more liability than your standard trading conditions?",
+     "type": "yes/no, with details",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "fsl.end.e02",
+   "heading": "E02 Special Cargo Conditions",
+   "trigger": {
+    "questions": [
+     "qs.fsl.operations.special_cargo_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.fsl.operations.special_cargo_pct > 25",
+      "action": "refer"
+     },
+     {
+      "when": "qs.fsl.operations.special_cargo_pct > 10",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.fsl.operations.special_cargo_pct}% of your gross receipts come from dangerous, temperature-controlled or high-value goods.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fsl.operations.special_cargo_pct",
+     "text": "What percentage of your gross receipts comes from dangerous, temperature-controlled or high-value goods?",
+     "type": "percentage",
+     "used_by": "R, A, E02, E07"
+    }
+   ]
+  },
+  {
+   "id": "fsl.end.e03",
+   "heading": "E03 Warehouse Security Conditions",
+   "trigger": {
+    "questions": [
+     "qs.fsl.operations.warehouse"
+    ],
+    "rules": [
+     {
+      "when": "qs.fsl.operations.warehouse == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you store goods for customers in a warehouse or depot you operate.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fsl.operations.warehouse",
+     "text": "Do you store goods for customers in a warehouse or depot you operate?",
+     "type": "yes/no",
+     "used_by": "A, E03"
+    }
+   ]
+  },
+  {
+   "id": "fsl.end.e04",
+   "heading": "E04 Customs Broker Licence Investigation Costs",
+   "trigger": {
+    "questions": [
+     "qs.fsl.operations.customs_licence"
+    ],
+    "rules": [
+     {
+      "when": "qs.fsl.operations.customs_licence == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you, or your nominee, hold a customs broker licence.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fsl.operations.customs_licence",
+     "text": "Does the business, or a nominee for it, hold a customs broker licence?",
+     "type": "yes/no",
+     "used_by": "A, S, E04"
+    }
+   ]
+  },
+  {
+   "id": "fsl.end.e05",
+   "heading": "E05 Containers and Equipment",
+   "trigger": {
+    "questions": [
+     "qs.fsl.operations.container_interchange"
+    ],
+    "rules": [
+     {
+      "when": "qs.fsl.operations.container_interchange == true",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you take containers or other equipment owned by carriers or lessors into your possession.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fsl.operations.container_interchange",
+     "text": "Do you take containers, trailers or other equipment owned by carriers or lessors into your possession, for example under equipment interchange agreements?",
+     "type": "yes/no",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "fsl.end.e06",
+   "heading": "E06 Duty on Goods in Your Custody",
+   "trigger": {
+    "questions": [
+     "qs.fsl.operations.licensed_warehouse"
+    ],
+    "rules": [
+     {
+      "when": "qs.fsl.operations.licensed_warehouse == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you operate a warehouse or depot licensed under the Customs Act 1901 (Cth), or hold goods under customs control.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fsl.operations.licensed_warehouse",
+     "text": "Is any warehouse or depot you operate licensed under the Customs Act 1901 (Cth), or do you hold goods under customs control?",
+     "type": "yes/no",
+     "used_by": "A, E06"
+    }
+   ]
+  },
+  {
+   "id": "fsl.end.e07",
+   "heading": "E07 Release Fraud Sub-limit",
+   "trigger": {
+    "questions": [
+     "qs.fsl.operations.special_cargo_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.fsl.operations.special_cargo_pct > 10",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because high-value goods are a frequent target of fictitious pick-up and release fraud.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fsl.operations.special_cargo_pct",
+     "text": "What percentage of your gross receipts comes from dangerous, temperature-controlled or high-value goods?",
+     "type": "percentage",
+     "used_by": "R, A, E02, E07"
+    }
+   ]
+  },
+  {
+   "id": "fsl.end.e08",
+   "heading": "E08 USA and Canada Operations",
+   "trigger": {
+    "questions": [
+     "qs.fsl.operations.north_america_ops"
+    ],
+    "rules": [
+     {
+      "when": "qs.fsl.operations.north_america_ops == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you have offices, staff, warehouses or vehicles in the USA or Canada.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.fsl.operations.north_america_ops",
+     "text": "Do you have offices, staff, warehouses or vehicles in the USA or Canada?",
+     "type": "yes/no",
+     "used_by": "A, E08"
+    }
+   ]
+  }
+ ],
+ "sha256": "4f8efd1e83dc7e0b3d811eacb22d0cba645b9e631bbd99db0428308ad69d6f5d"
+}

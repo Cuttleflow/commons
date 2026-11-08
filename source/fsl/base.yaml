@@ -1,0 +1,142 @@
+id: fsl-base
+title: Freight Services Liability Insurance
+class: FREIGHT SERVICES LIABILITY INSURANCE
+kicker: Meridian Commons · Freight Services Liability
+slug: freight-services-liability
+file_stem: Meridian_Freight_Services_Liability
+doc_ref: 2026/FSL/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Liability cover for freight forwarders, customs brokers, carriers and logistics operators, measured by their standard trading conditions, with cargo liability, errors and omissions, fines and penalties, and optional customs duty and public liability sections.
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - fsl.about
+  - fsl.version-history
+  - fsl.important-information
+  - fsl.schedule
+- section: fsl.section.definitions
+  clauses:
+  - fsl.def.authority
+  - fsl.def.claim
+  - fsl.def.compensation
+  - fsl.def.control-group
+  - fsl.def.customer
+  - fsl.def.customs-entry
+  - fsl.def.defence-costs
+  - fsl.def.endorsement
+  - fsl.def.error
+  - fsl.def.excess
+  - fsl.def.excluded-goods
+  - fsl.def.final-adjudication
+  - fsl.def.freight-services
+  - fsl.def.goods
+  - fsl.def.gross-receipts
+  - fsl.def.named-insured
+  - fsl.def.occurrence
+  - fsl.def.personal-injury
+  - fsl.def.policy-period
+  - fsl.def.pollutant
+  - fsl.def.property-damage
+  - fsl.def.retroactive-date
+  - fsl.def.standard-trading-conditions
+  - fsl.def.subcontractor
+  - fsl.def.subsidiary
+  - fsl.def.we-us-our
+  - fsl.def.you-your
+- section: fsl.section.cover
+  clauses:
+  - fsl.cover.cargo-liability
+  - fsl.cover.errors-and-omissions
+  - fsl.cover.fines-and-penalties
+  - fsl.cover.customs-duty-liability
+  - fsl.cover.public-liability
+  - fsl.cover.notification-of-circumstances
+  - fsl.cover.defence-costs
+  - fsl.cover.supplementary-payments
+- section: fsl.section.extensions
+  clauses:
+  - fsl.ext.mitigation-costs
+  - fsl.ext.removal-and-disposal
+  - fsl.ext.pollution-clean-up
+  - fsl.ext.continuous-cover
+  - fsl.ext.extended-reporting-period
+  - fsl.ext.newly-acquired-subsidiaries
+- section: fsl.section.payment
+  clauses:
+  - fsl.pay.limits
+  - fsl.pay.sub-limits
+  - fsl.pay.trading-conditions
+  - fsl.pay.which-section-responds
+  - fsl.pay.counting
+  - fsl.pay.excess
+  - fsl.pay.allocation
+  - fsl.pay.other-insurance
+  - fsl.pay.paying-out-the-limit
+  - fsl.pay.recoveries
+- section: fsl.section.exclusions
+  clauses:
+  - fsl.excl.contractual-liability
+  - fsl.excl.excluded-goods
+  - fsl.excl.property-you-own-or-hire
+  - fsl.excl.unexplained-shortages
+  - fsl.excl.unattended-vehicles
+  - fsl.excl.seizure-and-confiscation
+  - fsl.excl.dishonest-acts
+  - fsl.excl.insolvency
+  - fsl.excl.your-fees-and-charges
+  - fsl.excl.known-claims-and-circumstances
+  - fsl.excl.fines-and-punitive-damages
+  - fsl.excl.usa-and-canada
+  - fsl.excl.cyber-event
+  - fsl.excl.pollution
+  - fsl.excl.asbestos
+  - fsl.excl.employers-liability
+  - fsl.excl.motor-vehicles
+  - fsl.excl.aircraft-and-watercraft
+  - fsl.excl.war-and-terrorism
+  - fsl.excl.nuclear
+  - fsl.excl.how-the-exclusions-apply
+- section: fsl.section.obligations
+  clauses:
+  - fsl.obl.tell-us-about-claims
+  - fsl.obl.do-not-admit-liability
+  - fsl.obl.cooperate-with-us
+  - fsl.obl.protect-recovery-rights
+  - fsl.obl.use-your-trading-conditions
+  - fsl.obl.reasonable-care
+  - fsl.obl.tell-us-about-changes
+  - fsl.obl.records
+- section: fsl.section.conditions
+  clauses:
+  - fsl.cond.statutory-framework
+  - fsl.cond.insurance-contracts-act
+  - fsl.cond.your-duty-of-disclosure
+  - fsl.cond.individual-treatment
+  - fsl.cond.premium-adjustment
+  - fsl.cond.cancellation
+  - fsl.cond.sanctions
+  - fsl.cond.subrogation-waiver
+  - fsl.cond.governing-law
+  - fsl.cond.jurisdiction
+  - fsl.cond.gst
+  - fsl.cond.several-liability
+  - fsl.cond.assignment
+  - fsl.cond.headings-and-references
+  - fsl.cond.disputes-and-complaints
+  - fsl.cond.privacy
+- section: end
+  clauses:
+  - fsl.claims.how-to-make-a-claim
+  - fsl.endorsement-library
+  - fsl.end.e01
+  - fsl.end.e02
+  - fsl.end.e03
+  - fsl.end.e04
+  - fsl.end.e05
+  - fsl.end.e06
+  - fsl.end.e07
+  - fsl.end.e08
+  - fsl.licence-notice

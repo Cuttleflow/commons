@@ -1,0 +1,134 @@
+# Platform questions for the Freight Services Liability wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.fsl namespace. The platform question set uses the same IDs
+# (FSL-AU-GO, Linear PLT-766; this wording PLT-870).
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.fsl.insured.name
+    text: What is the insured's full legal name?
+    type: text
+    used_by: S
+  - id: qs.fsl.insured.abn
+    text: What is the insured's ABN?
+    type: text (11 digits)
+    used_by: S, A
+  - id: qs.fsl.operations.principal_state
+    text: In which state or territory is your principal place of business?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, S
+  - id: qs.fsl.operations.years_trading
+    text: How many years has the business traded under its current ownership?
+    type: number
+    used_by: R, A
+  - id: qs.fsl.operations.receipts
+    text: What are your estimated gross receipts from freight services for the next 12 months?
+    type: currency (AUD)
+    used_by: R, S
+  - id: qs.fsl.operations.service_split
+    text: Which freight services do you provide, and what percentage of your gross receipts comes from each?
+    type: repeating (service, pct; total 100)
+    options: ['FORWARD', 'NVOCC', 'CUSTOMS', 'ROAD', 'WAREHOUSE', 'COURIER', 'CONSULTING']
+    used_by: R, A, S
+  - id: qs.fsl.operations.special_cargo_pct
+    text: What percentage of your gross receipts comes from dangerous, temperature-controlled or high-value goods?
+    type: percentage
+    used_by: R, A, E02, E07
+  - id: qs.fsl.operations.own_trading_conditions
+    text: Do you provide all your freight services on your own standard trading conditions, and give them to every customer?
+    type: yes/no
+    used_by: A
+  - id: qs.fsl.operations.trading_conditions_name
+    text: What are your standard trading conditions called, and which version is in force?
+    type: text
+    used_by: S
+  - id: qs.fsl.operations.onerous_contracts
+    text: Have you signed customer contracts that accept more liability than your standard trading conditions?
+    type: yes/no, with details
+    used_by: A, E01
+  - id: qs.fsl.operations.subcontractors_uninsured
+    text: Do you use carriers, warehouses or agents that do not hold their own liability insurance?
+    type: yes/no
+    used_by: A
+  - id: qs.fsl.operations.warehouse
+    text: Do you store goods for customers in a warehouse or depot you operate?
+    type: yes/no
+    used_by: A, E03
+  - id: qs.fsl.operations.licensed_warehouse
+    text: Is any warehouse or depot you operate licensed under the Customs Act 1901 (Cth), or do you hold goods under customs control?
+    type: yes/no
+    used_by: A, E06
+  - id: qs.fsl.operations.customs_licence
+    text: Does the business, or a nominee for it, hold a customs broker licence?
+    type: yes/no
+    used_by: A, S, E04
+  - id: qs.fsl.operations.container_interchange
+    text: Do you take containers, trailers or other equipment owned by carriers or lessors into your possession, for example under equipment interchange agreements?
+    type: yes/no
+    used_by: E05
+  - id: qs.fsl.operations.north_america_ops
+    text: Do you have offices, staff, warehouses or vehicles in the USA or Canada?
+    type: yes/no
+    used_by: A, E08
+  - id: qs.fsl.cover.cargo_limit
+    text: What Cargo Liability limit do you want, any one occurrence?
+    type: select (AUD)
+    options: [250000, 500000, 1000000, 2000000, 5000000]
+    used_by: R, A, S
+  - id: qs.fsl.cover.eo_limit
+    text: What Errors and Omissions limit do you want, any one claim and in the aggregate?
+    type: select (AUD)
+    options: [250000, 500000, 1000000, 2000000]
+    used_by: R, A, S
+  - id: qs.fsl.cover.fines_sublimit
+    text: What Fines and Penalties limit do you want, in the aggregate?
+    type: select (AUD)
+    options: [100000, 250000]
+    used_by: R, S
+  - id: qs.fsl.cover.excess_selected
+    text: What excess do you want, each occurrence or claim?
+    type: select (AUD)
+    options: [1000, 2500, 5000, 10000, 25000]
+    used_by: R, S
+  - id: qs.fsl.cover.customs_cover
+    text: Do you want the Customs Duty Liability section?
+    type: yes/no
+    used_by: R, S
+  - id: qs.fsl.cover.customs_sublimit
+    text: What Customs Duty Liability limit do you want, in the aggregate?
+    type: select (AUD)
+    options: [100000, 250000, 500000]
+    used_by: R, S
+  - id: qs.fsl.cover.pl_cover
+    text: Do you want the Public Liability section?
+    type: yes/no
+    used_by: R, S
+  - id: qs.fsl.cover.pl_limit
+    text: What Public Liability limit do you want, any one occurrence?
+    type: select (AUD)
+    options: [5000000, 10000000, 20000000]
+    used_by: R, S
+  - id: qs.fsl.cover.retro_date
+    text: Since what date have you held errors and omissions cover without a break?
+    type: date
+    used_by: S
+  - id: qs.fsl.history.claims_count5y
+    text: How many claims, or circumstances that might lead to a claim, have you had in the last 5 years?
+    type: number
+    used_by: R, A
+  - id: qs.fsl.history.known_circumstances
+    text: Are you aware of anything that may lead to a claim against you?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.fsl.history.prior_declined
+    text: Has any insurer declined, cancelled or not renewed your insurance, or imposed special terms?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.fsl.history.customs_licence_action
+    text: Has a customs broker licence held by the business or its nominee been suspended, cancelled or made subject to a condition?
+    type: yes/no, with details
+    used_by: A
+  - id: qs.fsl.history.insolvency5y
+    text: Has the business, or any of its directors, been insolvent or under external administration in the last 5 years?
+    type: yes/no, with details
+    used_by: A
