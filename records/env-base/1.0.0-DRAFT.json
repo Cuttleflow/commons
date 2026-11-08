@@ -1,0 +1,733 @@
+{
+ "wording": "env-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/ENV/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "env.about",
+   "heading": "About This Policy",
+   "sha256": "0a50240c990b5d9ac11470fb57710db3d1beb5e24cd475196b7ff2b1a89554d1"
+  },
+  {
+   "id": "env.version-history",
+   "heading": "Version and Document History",
+   "sha256": "7edbc8a08f415ec0a7cbb16d68389c911eb8bb5bec82acaca45bb0963f671a0c"
+  },
+  {
+   "id": "env.schedule",
+   "heading": "Schedule",
+   "sha256": "4f2177e39ddef987e78e9648cb45f359304368d967560064f6bd50b04033bc6a"
+  },
+  {
+   "id": "env.section.definitions",
+   "heading": "Definitions",
+   "sha256": "554a26141d6680a3e17d792e381673e3364e21a4f384e1509f45cf0de1b9cfb3"
+  },
+  {
+   "id": "env.def.business",
+   "heading": "Business",
+   "sha256": "91169cb00fc40d041aac499769f64f502e4666d538dfb63e098ade69f34c16b0"
+  },
+  {
+   "id": "env.def.claim",
+   "heading": "Claim",
+   "sha256": "347670c1d6f64fd8db0651665559f51d0c03bb29d5ff6c6c15b2d71e7e76c057"
+  },
+  {
+   "id": "env.def.clean-up-costs",
+   "heading": "Clean-up Costs",
+   "sha256": "18cda74af598c122a0ec5f98004c85f6cc6a2a50228dd30949760be4aba3ddc5"
+  },
+  {
+   "id": "env.def.compensation",
+   "heading": "Compensation",
+   "sha256": "1ce9931c7ae6bc09becc207acac9117d2deefb0e9d3949702e2dcd73dac344cc"
+  },
+  {
+   "id": "env.def.control-group",
+   "heading": "Control Group",
+   "sha256": "a39d317cae5af6fcb418fcdcb71e8aaf9d156192e95894e3a56311b778e721fe"
+  },
+  {
+   "id": "env.def.covered-location",
+   "heading": "Covered Location",
+   "sha256": "34176cf0f051dd3e59cef043318841dabb119b332a95aba1b60250aebdb93e42"
+  },
+  {
+   "id": "env.def.covered-operations",
+   "heading": "Covered Operations",
+   "sha256": "578ac159d73aa2b662eeec83afad9f2f6983595453277f38f8c13841d5897b3b"
+  },
+  {
+   "id": "env.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "154b64e215cc49665b43a6a8bbee51de4447d96cfc193b7fa20deacc88f15da7"
+  },
+  {
+   "id": "env.def.emergency-response-costs",
+   "heading": "Emergency Response Costs",
+   "sha256": "d1af54ef1dc3af7c468af201243aad4949b966977fca7655460b69c7cb0e2404"
+  },
+  {
+   "id": "env.def.employee",
+   "heading": "Employee",
+   "sha256": "4962c5e40ade933c13ce2b9285fe9d89a9811425b535c1e2fa29899146653df9"
+  },
+  {
+   "id": "env.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "3b041e4cdeff0f4cb983d7eff3c52b34027d702ba0098253c3d226b1fc8f12fc"
+  },
+  {
+   "id": "env.def.environmental-law",
+   "heading": "Environmental Law",
+   "sha256": "dfc9d10ff9d7f39218fc192a09d5118c6fdaf05b6066d18fa2a8e37245daea9c"
+  },
+  {
+   "id": "env.def.excess",
+   "heading": "Excess",
+   "sha256": "958ace83a4e84753333ba2d343ae68e4f0d54ca8143cb9df4239d23078518d4a"
+  },
+  {
+   "id": "env.def.extended-reporting-period",
+   "heading": "Extended Reporting Period",
+   "sha256": "83e17dcf942e712e9faf3f4db9d3e8ae6a35c2c63719a93b809934884d06c145"
+  },
+  {
+   "id": "env.def.final-adjudication",
+   "heading": "Final Adjudication",
+   "sha256": "a383168f0988f299ca10fcbf2436f55d8c73fbe94abd394409c70dc7c936901e"
+  },
+  {
+   "id": "env.def.government-authority",
+   "heading": "Government Authority",
+   "sha256": "f4e45885b6ab5b89e381fe2d4b60512575d2f245e8bb73e3891d21246f926cf1"
+  },
+  {
+   "id": "env.def.job-site",
+   "heading": "Job Site",
+   "sha256": "5e5653d5a31f4e6292650904752dd7b2061c63ecaebe43b5d137f78c5e298c48"
+  },
+  {
+   "id": "env.def.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "10d8e29aec52ccfdb1e42a6c023f77e1c2509a745bedd7be0173db0c41ea84c2"
+  },
+  {
+   "id": "env.def.loss",
+   "heading": "Loss",
+   "sha256": "472b2e2a704c4519356ebfe56ecf9bf51fad1f55bcfa60b9260bb5de00e09174"
+  },
+  {
+   "id": "env.def.named-insured",
+   "heading": "Named Insured",
+   "sha256": "74e8c4ee94a0cbabc0be8a015ef7256d67ab6d806fa3ffdaf990b1974f4fd097"
+  },
+  {
+   "id": "env.def.natural-resource-damage",
+   "heading": "Natural Resource Damage",
+   "sha256": "3c6de8e566e88b451473ebb65ce7e2fb0c065d091b1a120735a63d088ed60a41"
+  },
+  {
+   "id": "env.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "b29c30928c4e8663145d109c2e16001e485e7abd99be4620129b5f7d8b0493b2"
+  },
+  {
+   "id": "env.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "63e7fdd289a56246cd031104e1f190f7864255d2706e9160682d26c69ae4daaf"
+  },
+  {
+   "id": "env.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "9222ea4690f6d5108d9d8ec6ec55c3ceca49b696bcb7e800320cf00847fca543"
+  },
+  {
+   "id": "env.def.pollution-condition",
+   "heading": "Pollution Condition",
+   "sha256": "67e8a2ee8395df75a4a38c2a9f5f447e8467030023434c7bc773fb05b9c4e00c"
+  },
+  {
+   "id": "env.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "280f85f02a912433f7550f26c81e0979c3dfe453a2fdaf6bf1d5349af59ee74b"
+  },
+  {
+   "id": "env.def.retroactive-date",
+   "heading": "Retroactive Date",
+   "sha256": "7a9dcac8aee075006a581df4fb0cc96788d0bbbf862e1551ab2ae5af4df3f943"
+  },
+  {
+   "id": "env.def.subcontractor",
+   "heading": "Subcontractor",
+   "sha256": "5bf0c7609d5d102cc1caff6d8bb9d3afc5323eb0af4c1433ce766f6586a99144"
+  },
+  {
+   "id": "env.def.subsidiary",
+   "heading": "Subsidiary",
+   "sha256": "d8e0582944ba84eea01965e399c23946a870af31ef4cc330b35fae89cccff668"
+  },
+  {
+   "id": "env.def.usa-canada",
+   "heading": "USA and Canada",
+   "sha256": "77b8cfad5252f26039a4e7f452e6b31cdb826fecca684fe67be25af3df240fe7"
+  },
+  {
+   "id": "env.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "e3d9c9db9d8c603f641f1dbb86e07c346135286edb0f893e439fa0052720a850"
+  },
+  {
+   "id": "env.def.you-your",
+   "heading": "You, Your",
+   "sha256": "2dbda11e968b4483959e5aafaa3464dbbdea8390fa725b85c304aa1047402115"
+  },
+  {
+   "id": "env.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "env.cover.contractors-pollution-liability",
+   "heading": "Contractors Pollution Liability",
+   "sha256": "09fc5b21af7dfc737fbb59cf4031a67be2d7271c6fca9991f09dbc8a42f99925"
+  },
+  {
+   "id": "env.cover.site-pollution-legal-liability",
+   "heading": "Site Pollution Legal Liability",
+   "sha256": "7c74483598088f210275f8397cca5f63fdcc20745d3513568de8ea39b21d6ed0"
+  },
+  {
+   "id": "env.cover.emergency-response-costs",
+   "heading": "Emergency Response Costs",
+   "sha256": "7b7485c72c75f3848fcc8613e89a898a7ce173e027f287e245c52f4f142c82aa"
+  },
+  {
+   "id": "env.cover.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "fd4a137b06c9a9487354ccdc5177bd103aa506214aecca994b3e8ed288a6c267"
+  },
+  {
+   "id": "env.cover.claims-made-and-notified",
+   "heading": "Claims Made and Notified",
+   "sha256": "9a80b845b3db1a72f74afe6b1bb50b3de7108260ba3ac4784b7400e42d4a795c"
+  },
+  {
+   "id": "env.cover.extended-reporting-period",
+   "heading": "Extended Reporting Period",
+   "sha256": "ab867f2919c190d3a0c0ab5d8abc22d0188f4f7c3c1eeaeb44753a78a320527e"
+  },
+  {
+   "id": "env.cover.relationship-with-public-liability-insurance",
+   "heading": "Relationship With Public Liability Insurance",
+   "sha256": "1c52b78613ef70d414c72e2b8e8271ba4257e88f84ea476c7e1b6b46bce85ee1"
+  },
+  {
+   "id": "env.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "269389efa9d9e31e0c53628a4478ca1da748db1148ca03ffd737073c10fe1432"
+  },
+  {
+   "id": "env.excl.asbestos",
+   "heading": "Asbestos",
+   "sha256": "4a57181075aeec28c80b443e8a9077766f7737f91b3036a6b79d906e39d77b43"
+  },
+  {
+   "id": "env.excl.contractual-liability",
+   "heading": "Contractual Liability",
+   "sha256": "ff5c42d712a5cf7428706cfa3b26f434de9df7bc8772129845426b50f11c4577"
+  },
+  {
+   "id": "env.excl.deliberate-non-compliance",
+   "heading": "Deliberate Non-compliance",
+   "sha256": "52f49549d3674b3920cbc6868bee9f20c30cdb9f1474057f96f67b3719b251b6"
+  },
+  {
+   "id": "env.excl.employers-liability",
+   "heading": "Employers' Liability",
+   "sha256": "412c7ed361f86ee97743a49590a5ab44b9d19c6c8be921ad4797337290bf982b"
+  },
+  {
+   "id": "env.excl.fines-and-penalties",
+   "heading": "Fines and Penalties",
+   "sha256": "6dc12317336d8bbc381b755a06ea1c6d280b48277f07624e51d5032643dc329d"
+  },
+  {
+   "id": "env.excl.known-conditions",
+   "heading": "Known Conditions",
+   "sha256": "2c2d4a5820f9c511be1085d88635a6b50836912bde96ebe03b1c083a409fd78b"
+  },
+  {
+   "id": "env.excl.landfill-and-waste-facilities",
+   "heading": "Landfill and Waste Facilities",
+   "sha256": "b9f3309aacc5862a181869c993e8456ed413f8316db480e7abaf3507b441faff"
+  },
+  {
+   "id": "env.excl.mould",
+   "heading": "Mould",
+   "sha256": "fb6176bf4d32265bbc4fb2a454ea42ee1f73d2b11542312de6984fe3734a4e24"
+  },
+  {
+   "id": "env.excl.non-owned-disposal-sites",
+   "heading": "Non-owned Disposal Sites",
+   "sha256": "9c2a2a0c594dcb8f39cddbae1f5dde5645a771f8e98a4806897245b9d0688f0c"
+  },
+  {
+   "id": "env.excl.pfas",
+   "heading": "PFAS",
+   "sha256": "04dc65a6b1ba1920bd696a09c2283e626cca601b023fecca44d49846e810a8c0"
+  },
+  {
+   "id": "env.excl.prior-claims-and-circumstances",
+   "heading": "Prior Claims and Circumstances",
+   "sha256": "e38c2487c4890637a6afc40fdeae5e0bffbeaa0218db77b50200ffe846215f61"
+  },
+  {
+   "id": "env.excl.products",
+   "heading": "Your Products",
+   "sha256": "fa4e52ca9f84b94ced1faafc1271858ecee9b3f4e3b08f562879a1cf3b609ecf"
+  },
+  {
+   "id": "env.excl.professional-services",
+   "heading": "Professional Services",
+   "sha256": "a7368bbf54aaa4867d4c2d9190a31c9d206c24b61efa6ceaab06d1fa69314ecd"
+  },
+  {
+   "id": "env.excl.property-you-own-or-occupy",
+   "heading": "Property You Own or Occupy",
+   "sha256": "661725c601f5a1d97aef279c12633785d10dc1db90002adf5dbef1d5f3a74e83"
+  },
+  {
+   "id": "env.excl.transport",
+   "heading": "Transport",
+   "sha256": "3138190fd5f437fa342fd262b3426bd4a76aa7c2801fcc7356e971cb6ff54bd5"
+  },
+  {
+   "id": "env.excl.underground-storage-tanks",
+   "heading": "Underground Storage Tanks",
+   "sha256": "8ce9d1f381b0ed3a7881bd0f51184e408cdb7d67c8187281c016746dd2dc0b0c"
+  },
+  {
+   "id": "env.excl.usa-canada",
+   "heading": "USA and Canada",
+   "sha256": "4dc3edaf69afc9c6bd20508ea6ffa7afa55b58bda0c5d2fd8a7cb6b091ffcaf6"
+  },
+  {
+   "id": "env.excl.war-terrorism-and-nuclear",
+   "heading": "War, Terrorism and Nuclear",
+   "sha256": "1d42790c8a46d303a7706ca662e4b4aa11cac0c454158f680fec8d0717a385f6"
+  },
+  {
+   "id": "env.excl.how-the-exclusions-apply",
+   "heading": "How the Exclusions Apply",
+   "sha256": "6d98f3d79003752c380b2d684073b4dfbecfb1433a35c19926a96aff1d83c3cd"
+  },
+  {
+   "id": "env.section.payment",
+   "heading": "How We Pay",
+   "sha256": "25ea51188284e7f7220078334c4aaa54e060d47c3b3be383c4855726a5833305"
+  },
+  {
+   "id": "env.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "26e5c1f846a7993065a76d321a2688c64e2c5afa711bc0b3d5866e327a29e1b0"
+  },
+  {
+   "id": "env.pay.related-pollution-conditions",
+   "heading": "Related Pollution Conditions",
+   "sha256": "0eebdba80734055d82e935618890e398b4b481d83dc7c262b916a51196e68ab6"
+  },
+  {
+   "id": "env.pay.excess",
+   "heading": "Excess",
+   "sha256": "ad7f7c0f19627eef63fb9e19138a0deebac60e764f9c9c1fa14ef305ad7d4732"
+  },
+  {
+   "id": "env.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "d1fd08aace4e0ac3254dc6d5c9a6c1981bf5f103bd896072098d1102d59e2cde"
+  },
+  {
+   "id": "env.pay.recoveries",
+   "heading": "Recoveries",
+   "sha256": "ec21ac744a763b4147b7f033b073b64d8b13a162ad8ba5bfed0c192bb567ea95"
+  },
+  {
+   "id": "env.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "env.obl.tell-us-about-claims-and-pollution-conditions",
+   "heading": "Tell Us About Claims and Pollution Conditions",
+   "sha256": "5363eb9c0d960691a86ebb695ba4ed687f146072ca120e6970355ba16f531d38"
+  },
+  {
+   "id": "env.obl.clean-up-consent",
+   "heading": "Clean-up Consent",
+   "sha256": "a32a3502a58ee83a192ee14e8f95b09fc2670719116192c1a38f50c6154dc779"
+  },
+  {
+   "id": "env.obl.cooperate-with-us",
+   "heading": "Cooperate With Us",
+   "sha256": "5247e5de217a05a77c45f2d5354371bab398767a667c45949d6d550ac50b247a"
+  },
+  {
+   "id": "env.obl.settlement-consent",
+   "heading": "Settlement Consent",
+   "sha256": "4fd9e8059318058aa11645a4ff87e69bf49456bea86023e9f0e67a3f624b0f62"
+  },
+  {
+   "id": "env.obl.reasonable-precautions",
+   "heading": "Reasonable Precautions",
+   "sha256": "50fd6facc1b1ffbd19060a6eab80bda97369923ea5880f8347ccc52ee9141e87"
+  },
+  {
+   "id": "env.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "15f69741b6d631d16cf5fe64339523e6663cbd8f8abd8f892ff95420c873b5e3"
+  },
+  {
+   "id": "env.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "env.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "env.cond.your-duty-of-disclosure",
+   "heading": "Your Duty of Disclosure",
+   "sha256": "57e9f5019cbdf3496d15c0a6ee3c40615ae0baa4d51a5a157d6d6b488c8f881c"
+  },
+  {
+   "id": "env.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "c03bcec51d8e5b5fcfcec0725c7f5fba4bb5830d9820021a3fefb21af15fb37f"
+  },
+  {
+   "id": "env.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "env.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "0174c5e73279017ba1b5036b224558290481fa4b75868dfcfd710f31e03b5acc"
+  },
+  {
+   "id": "env.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "22145c8f4d4fc3b0d5cecaccacbf8c6247fd664c5c913a83547032850376d823"
+  },
+  {
+   "id": "env.cond.gst",
+   "heading": "GST",
+   "sha256": "7e0cae894f1fc52df702d420d282dd671654dc850058dd92285fcec7cedaad9d"
+  },
+  {
+   "id": "env.cond.assignment",
+   "heading": "Assignment",
+   "sha256": "52bae2a47f23fc6dcbd694b1c7be9a0bd44ed177f21af89185dd63b0b12ce152"
+  },
+  {
+   "id": "env.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "a2efdbd68a4cd5ca307aa529bbc41e3a967084db0f0b7ca37086c367a39d983a"
+  },
+  {
+   "id": "env.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "1def170c11fccbab63ecd105972a8e306c1a02af7e136946bad76ca793abda6b"
+  },
+  {
+   "id": "env.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "f64ede9df80f014020fe29ecf9e07b654c5083827ba569d03a729d15d25e77cd"
+  },
+  {
+   "id": "env.cond.individual-treatment",
+   "heading": "Individual Treatment of Insureds",
+   "sha256": "b70831d8cee9568ff6a6eebba7e4beb6c93c6dae75f0a0d46903a0385437dd56"
+  },
+  {
+   "id": "env.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "d9102dee8443e1fd46adc24530e86695056f61b0fdd1a83ae4644be8f80ec48b"
+  },
+  {
+   "id": "env.guide",
+   "heading": "How Environmental Liability Cover Works",
+   "sha256": "62cde16814729a8ab6ac25d3437f80d141fb147f3de1b04ca1cacbf22387bbe4"
+  },
+  {
+   "id": "env.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "86dbe5de4f442f68a74cb8a3bb5b6167f570fdb8f5f336d5f09215f85e307f79"
+  },
+  {
+   "id": "env.end.e01",
+   "heading": "E01 Pre-existing Conditions",
+   "sha256": "20de3f6941db318b0e4f48204291b8daf5abaea8930833105a6eb02578e64d87"
+  },
+  {
+   "id": "env.end.e02",
+   "heading": "E02 Transported Cargo",
+   "sha256": "5c6aafdf7e4c47e2c3144a710c5a9dbfcf9318ce7757ede51c1aa3894ddfe62d"
+  },
+  {
+   "id": "env.end.e03",
+   "heading": "E03 Non-owned Disposal Sites",
+   "sha256": "09eebfaf2857ac240c4db73f612698c460c3234f4438f39c459ae325702d7fe1"
+  },
+  {
+   "id": "env.end.e04",
+   "heading": "E04 Project Term",
+   "sha256": "7816546eabc114a5ce5844994986c5720361c7dde819e3f43a637446e34fba35"
+  },
+  {
+   "id": "env.end.e05",
+   "heading": "E05 Asbestos Abatement",
+   "sha256": "41d59c9a8a6f8ef7d32d93ac497228faff25e8812edef623d2311ebb6cdc99cf"
+  },
+  {
+   "id": "env.end.e06",
+   "heading": "E06 Prior Acts",
+   "sha256": "d32a52a4371f7889b1d832852b50049732e6538c4df20d89798ebb222820b56a"
+  },
+  {
+   "id": "env.end.e07",
+   "heading": "E07 Business Interruption",
+   "sha256": "e19a4043d1fa8f613621f7316408e90d8d1017381b39dc3545d22d911cc4add8"
+  },
+  {
+   "id": "env.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "86998f939b18ffa0e2fa46abd34ad075b187f508a13b243baf8bca2cf01a979d"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "env.end.e01",
+   "heading": "E01 Pre-existing Conditions",
+   "trigger": {
+    "questions": [
+     "qs.env.site.pre_existing_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.env.site.pre_existing_requested == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for cover for pollution that began at your site before the retroactive date.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.env.site.pre_existing_requested",
+     "text": "Do you want cover for pollution at those sites that began before the retroactive date?",
+     "type": "yes/no",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "env.end.e02",
+   "heading": "E02 Transported Cargo",
+   "trigger": {
+    "questions": [
+     "qs.env.ops.transports_dangerous_goods",
+     "qs.env.ops.bulk_fuel_or_chemicals"
+    ],
+    "rules": [
+     {
+      "when": "qs.env.ops.bulk_fuel_or_chemicals == true",
+      "action": "refer"
+     },
+     {
+      "when": "qs.env.ops.transports_dangerous_goods == true",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Applies because you transport dangerous goods or pollutants by road for your work.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.env.ops.transports_dangerous_goods",
+     "text": "Does the insured transport dangerous goods or pollutants by road for its work?",
+     "type": "yes/no",
+     "used_by": "R, E02"
+    },
+    {
+     "id": "qs.env.ops.bulk_fuel_or_chemicals",
+     "text": "Does the insured transport fuel or chemicals in bulk?",
+     "type": "yes/no",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "env.end.e03",
+   "heading": "E03 Non-owned Disposal Sites",
+   "trigger": {
+    "questions": [
+     "qs.env.ops.arranges_waste_disposal"
+    ],
+    "rules": [
+     {
+      "when": "qs.env.ops.arranges_waste_disposal == true",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because you choose or arrange the sites where waste from your work is disposed of."
+   },
+   "questions": [
+    {
+     "id": "qs.env.ops.arranges_waste_disposal",
+     "text": "Does the insured choose or arrange the sites where waste from its work is disposed of?",
+     "type": "yes/no",
+     "used_by": "E03"
+    }
+   ]
+  },
+  {
+   "id": "env.end.e04",
+   "heading": "E04 Project Term",
+   "trigger": {
+    "questions": [
+     "qs.env.exposure.largest_contract_pct",
+     "qs.env.contracts.project_cover_required"
+    ],
+    "rules": [
+     {
+      "when": "qs.env.contracts.project_cover_required == true",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.env.exposure.largest_contract_pct > 25",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because a single project is a large share of your turnover, or a contract requires project-specific cover."
+   },
+   "questions": [
+    {
+     "id": "qs.env.exposure.largest_contract_pct",
+     "text": "What percentage of turnover comes from the largest single contract?",
+     "type": "percentage",
+     "used_by": "E04"
+    },
+    {
+     "id": "qs.env.contracts.project_cover_required",
+     "text": "Does a contract require project-specific pollution cover?",
+     "type": "yes/no",
+     "used_by": "E04"
+    }
+   ]
+  },
+  {
+   "id": "env.end.e05",
+   "heading": "E05 Asbestos Abatement",
+   "trigger": {
+    "questions": [
+     "qs.env.ops.asbestos_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.env.ops.asbestos_pct > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because {qs.env.ops.asbestos_pct}% of your turnover comes from asbestos removal or abatement.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.env.ops.asbestos_pct",
+     "text": "What percentage of turnover comes from asbestos removal or abatement?",
+     "type": "percentage",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "env.end.e06",
+   "heading": "E06 Prior Acts",
+   "trigger": {
+    "questions": [
+     "qs.env.history.prior_cpl_continuous"
+    ],
+    "rules": [
+     {
+      "when": "qs.env.history.prior_cpl_continuous == true",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because you have held continuous contractors pollution cover before this policy."
+   },
+   "questions": [
+    {
+     "id": "qs.env.history.prior_cpl_continuous",
+     "text": "Has the insured held contractors pollution liability insurance continuously before this policy?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "env.end.e07",
+   "heading": "E07 Business Interruption",
+   "trigger": {
+    "questions": [
+     "qs.env.site.bi_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.env.site.bi_requested == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for business interruption cover at your sites.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.env.site.bi_requested",
+     "text": "Do you want business interruption cover while a site is closed for clean-up?",
+     "type": "yes/no",
+     "used_by": "E07"
+    }
+   ]
+  }
+ ],
+ "sha256": "cb9d1dd9143f32b81eeb9a846335c2a14814ba0c2698bad7da6c074c738f4e6f"
+}

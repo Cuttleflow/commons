@@ -1,0 +1,123 @@
+id: env-base
+title: Environmental Liability Insurance
+class: ENVIRONMENTAL LIABILITY INSURANCE
+kicker: Meridian Commons · Environmental Liability
+slug: environmental-liability
+file_stem: Meridian_Environmental_Liability
+doc_ref: 2026/ENV/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: 'Contractors pollution liability and site pollution legal liability for Australian businesses: gradual pollution, clean-up costs and natural resource damage, on a claims-made basis.'
+structure:
+- section: preamble
+  clauses:
+  - env.about
+  - env.version-history
+  - env.schedule
+- section: env.section.definitions
+  clauses:
+  - env.def.business
+  - env.def.claim
+  - env.def.clean-up-costs
+  - env.def.compensation
+  - env.def.control-group
+  - env.def.covered-location
+  - env.def.covered-operations
+  - env.def.defence-costs
+  - env.def.emergency-response-costs
+  - env.def.employee
+  - env.def.endorsement
+  - env.def.environmental-law
+  - env.def.excess
+  - env.def.extended-reporting-period
+  - env.def.final-adjudication
+  - env.def.government-authority
+  - env.def.job-site
+  - env.def.limit-of-liability
+  - env.def.loss
+  - env.def.named-insured
+  - env.def.natural-resource-damage
+  - env.def.personal-injury
+  - env.def.policy-period
+  - env.def.pollutant
+  - env.def.pollution-condition
+  - env.def.property-damage
+  - env.def.retroactive-date
+  - env.def.subcontractor
+  - env.def.subsidiary
+  - env.def.usa-canada
+  - env.def.we-us-our
+  - env.def.you-your
+- section: env.section.cover
+  clauses:
+  - env.cover.contractors-pollution-liability
+  - env.cover.site-pollution-legal-liability
+  - env.cover.emergency-response-costs
+  - env.cover.defence-costs
+  - env.cover.claims-made-and-notified
+  - env.cover.extended-reporting-period
+  - env.cover.relationship-with-public-liability-insurance
+- section: env.section.exclusions
+  clauses:
+  - env.excl.asbestos
+  - env.excl.contractual-liability
+  - env.excl.deliberate-non-compliance
+  - env.excl.employers-liability
+  - env.excl.fines-and-penalties
+  - env.excl.known-conditions
+  - env.excl.landfill-and-waste-facilities
+  - env.excl.mould
+  - env.excl.non-owned-disposal-sites
+  - env.excl.pfas
+  - env.excl.prior-claims-and-circumstances
+  - env.excl.products
+  - env.excl.professional-services
+  - env.excl.property-you-own-or-occupy
+  - env.excl.transport
+  - env.excl.underground-storage-tanks
+  - env.excl.usa-canada
+  - env.excl.war-terrorism-and-nuclear
+  - env.excl.how-the-exclusions-apply
+- section: env.section.payment
+  clauses:
+  - env.pay.limit-of-liability
+  - env.pay.related-pollution-conditions
+  - env.pay.excess
+  - env.pay.other-insurance
+  - env.pay.recoveries
+- section: env.section.obligations
+  clauses:
+  - env.obl.tell-us-about-claims-and-pollution-conditions
+  - env.obl.clean-up-consent
+  - env.obl.cooperate-with-us
+  - env.obl.settlement-consent
+  - env.obl.reasonable-precautions
+  - env.obl.tell-us-about-changes
+- section: env.section.conditions
+  clauses:
+  - env.cond.insurance-contracts-act
+  - env.cond.your-duty-of-disclosure
+  - env.cond.cancellation
+  - env.cond.sanctions
+  - env.cond.governing-law
+  - env.cond.jurisdiction
+  - env.cond.gst
+  - env.cond.assignment
+  - env.cond.headings-and-references
+  - env.cond.disputes-and-complaints
+  - env.cond.privacy
+  - env.cond.individual-treatment
+- section: end
+  clauses:
+  - env.claims.how-to-make-a-claim
+  - env.guide
+  - env.endorsement-library
+  - env.end.e01
+  - env.end.e02
+  - env.end.e03
+  - env.end.e04
+  - env.end.e05
+  - env.end.e06
+  - env.end.e07
+  - env.licence-notice
