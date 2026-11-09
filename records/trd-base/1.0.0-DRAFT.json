@@ -1,0 +1,1225 @@
+{
+ "wording": "trd-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/TRD/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "trd.about",
+   "heading": "About This Policy",
+   "sha256": "fd8ae0f8dc7161cd4c042bf3954112f79a24d20d013c73db90313878bfd6910a"
+  },
+  {
+   "id": "trd.version-history",
+   "heading": "Version of This Wording",
+   "sha256": "3fc0ae8e088499c0c11792a5530d48404127eee25830c39463e66dbb0b58b57f"
+  },
+  {
+   "id": "trd.important-information",
+   "heading": "Important Information",
+   "sha256": "495b245bfff540f5e1b5bc42da728d434196880c8a8ba91ef8c6ed83e9e17dab"
+  },
+  {
+   "id": "trd.schedule",
+   "heading": "Your Schedule",
+   "sha256": "65ba180e26baac785f664def9887439630ca5f3a6cc2cf60bb404c6f0d7b03c9"
+  },
+  {
+   "id": "trd.section.definitions",
+   "heading": "Definitions",
+   "sha256": "14e54606060d827ee4b0ee494785d7b246cdf25b02045a67eb6677ea4e9ff383"
+  },
+  {
+   "id": "trd.def.business",
+   "heading": "Business",
+   "sha256": "3f5af8153915721b60e7825273adbc9a6db09663977e92ad7af57b6b9896d172"
+  },
+  {
+   "id": "trd.def.computer-system",
+   "heading": "Computer System",
+   "sha256": "c2678975133e6fafac3bb00a7d22db0575f6e5f24a38b3c91d58de8252c4127f"
+  },
+  {
+   "id": "trd.def.construction-contract",
+   "heading": "Construction Contract",
+   "sha256": "85f975fa8031afff5781659c334911a498cfa06f821658813eb79fdfda0d5045"
+  },
+  {
+   "id": "trd.def.contract-value",
+   "heading": "Contract Value",
+   "sha256": "b77a8b20ff90d5d09ba1ffdc379f7c4c12db66ce3c2967751595130e80085088"
+  },
+  {
+   "id": "trd.def.contract-works",
+   "heading": "Contract Works",
+   "sha256": "574c4da6278fd5d6770040b43a1debe266d7afb57aea8fc7915bf7bfed942476"
+  },
+  {
+   "id": "trd.def.cyber-event",
+   "heading": "Cyber Event",
+   "sha256": "5bed8d0b57a77f6668eade1503a4fc274acf2e099d43de4920067e80927b7bd0"
+  },
+  {
+   "id": "trd.def.damage",
+   "heading": "Damage",
+   "sha256": "df5da8640f5c2a6e4161bffd7fa370787c4ddfc61771c66166574a4bab734910"
+  },
+  {
+   "id": "trd.def.employee",
+   "heading": "Employee",
+   "sha256": "b02660951ca532f1f4ed534ac3df8367c358922f0d03c8e66a080c4b95375def"
+  },
+  {
+   "id": "trd.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "trd.def.event",
+   "heading": "Event",
+   "sha256": "aad9c36ba8cb86424e07bf39824bf3c2da3a06035f6bfe20244fb92271ce1d2d"
+  },
+  {
+   "id": "trd.def.excess",
+   "heading": "Excess",
+   "sha256": "0a87797a76f857dc466584a0a83e2ff0f6e51909f26aceecffca99455a2aa03d"
+  },
+  {
+   "id": "trd.def.forcible-entry",
+   "heading": "Forcible Entry",
+   "sha256": "3326ef70dcec91f2ad6a0321180c0cb69fd2ec9569ffb3ca2665fb93d94e55d5"
+  },
+  {
+   "id": "trd.def.fraudulent-instruction",
+   "heading": "Fraudulent Instruction",
+   "sha256": "7d860521bbb491bc6aeec05f32766e3ce0e4015c8cbbb950c6c93faad33a2f1b"
+  },
+  {
+   "id": "trd.def.hire-agreement",
+   "heading": "Hire Agreement",
+   "sha256": "f5a62d9713f8ad9130fdf3c4a4ba5c62c2d84a469c7fcdc26107361a0dfe91f6"
+  },
+  {
+   "id": "trd.def.hired-in-plant",
+   "heading": "Hired-in Plant",
+   "sha256": "cfd62dde0520b8ad8ed119de90e87ea0ac372111f6dafa57d2aae5b0fc931a0a"
+  },
+  {
+   "id": "trd.def.linked-motor-policy",
+   "heading": "Linked Motor Policy",
+   "sha256": "4ab510fb4370f1d2ae7005db4304c4d6afaec8fbb0b3ddb3c4d0be01b5e82f30"
+  },
+  {
+   "id": "trd.def.mobile-plant",
+   "heading": "Mobile Plant",
+   "sha256": "0a582ceb4d35470d5611550729fc1760085179a02626cc4eed70b38147ffd85e"
+  },
+  {
+   "id": "trd.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "47bc1028b05514af32075c995e04c0477ccb34f6eb00bbad2b133915885685e4"
+  },
+  {
+   "id": "trd.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "9bafbdbb371ee70057a1be933f9831b76b6b3141d0b31fef5193c67a56f711be"
+  },
+  {
+   "id": "trd.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "4b030f38437c9dc3975d7fd59275666dec7a6789f1cfab4f8fd2718a141478b8"
+  },
+  {
+   "id": "trd.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "d0e511a402ac4c029f4c9b90120e30ab7dc8302d39280b7cd485a2acb933b981"
+  },
+  {
+   "id": "trd.def.practical-completion",
+   "heading": "Practical Completion",
+   "sha256": "6952666152c5e45746b834e4e195de7b3ad141324144c0b450191c9a8fa40773"
+  },
+  {
+   "id": "trd.def.principal",
+   "heading": "Principal",
+   "sha256": "5dd146faeed9cd830fd5a86bd17a8559fb2455f5bb882d4c5c86cd6696bb2bc7"
+  },
+  {
+   "id": "trd.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "df5f6255c7e78cf0c20343b135655defa0525f02929dc10cb654ac38dfaa1ce2"
+  },
+  {
+   "id": "trd.def.subcontractor",
+   "heading": "Subcontractor",
+   "sha256": "61387ac7e81d525348409be07214943ff2ccda2116f167031d280e17f2c9c90e"
+  },
+  {
+   "id": "trd.def.sum-insured",
+   "heading": "Sum Insured",
+   "sha256": "3e15a9ec6240871602c15f229af51dd00421925c575dc2d4992c7eda0bd7dd51"
+  },
+  {
+   "id": "trd.def.tools",
+   "heading": "Tools",
+   "sha256": "0bd954da316620252d8d1cda57cdabebcf0be9d0bb4b0b0e140e297916a98b99"
+  },
+  {
+   "id": "trd.def.vehicle",
+   "heading": "Vehicle",
+   "sha256": "a42a71dceaf0fd058a70423bd3ba89c3bdae1d092fb9550c2d5252f9c639a9d9"
+  },
+  {
+   "id": "trd.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "trd.def.work-vehicle",
+   "heading": "Work Vehicle",
+   "sha256": "158980a30acc691452883e91ae23a3f1a31a1303b627adcb3cc14cf105ed185b"
+  },
+  {
+   "id": "trd.def.you-your",
+   "heading": "You, Your",
+   "sha256": "d75e96e95fa8746211cb240cef1e72dc8aa1dff20a597c3ff2530685bec5883a"
+  },
+  {
+   "id": "trd.def.your-products",
+   "heading": "Your Products",
+   "sha256": "67c961524b47a3bcb0beb37aa3b0910cb86d28b3edb3631f10c9667d0a8da5bb"
+  },
+  {
+   "id": "trd.section.liability",
+   "heading": "Public and Products Liability",
+   "sha256": "1ab91f719fa515ef0f469ca0a0bc2e466d4575c2bde3b40789bc0ee0ef96e625"
+  },
+  {
+   "id": "trd.cover.liability",
+   "heading": "Liability for Injury and Damage",
+   "sha256": "82b9ce3e26eb18352f5dafa2f9847e38063827ef9fa10d6a10e18e3848c35692"
+  },
+  {
+   "id": "trd.ext.principals",
+   "heading": "Principals",
+   "sha256": "b5b0d783114f2f263ec878d0769a8d2b260d4d930476e67018e664920c71ff63"
+  },
+  {
+   "id": "trd.ext.care-custody-control",
+   "heading": "Property in Your Care",
+   "sha256": "45500b0a0accce4d4ccb90d5beb9ed9714419cdde57bcf5f889582942e3025d1"
+  },
+  {
+   "id": "trd.ext.underground-services",
+   "heading": "Underground Services",
+   "sha256": "f5f2c44103aaf3f80134b8e399c6670e91477eb036415cc6e35e04d83bd8109d"
+  },
+  {
+   "id": "trd.excl.liability-workers",
+   "heading": "Injury to Your Workers",
+   "sha256": "ba8cdc7a47b6ef00e1635d93ca8ed213ec0369c04f0127df547e97394f254db5"
+  },
+  {
+   "id": "trd.excl.liability-contracts",
+   "heading": "Liability Under Contracts",
+   "sha256": "41d37b390edc437fb8fc44ff179f02a1b84bc4b4bb743f4e70efbd64d2936ad1"
+  },
+  {
+   "id": "trd.excl.liability-own-work",
+   "heading": "Your Own Work",
+   "sha256": "5039fb09696f0a9f65d4e31094157535011169835f1c2b024c399cf8cc882c8e"
+  },
+  {
+   "id": "trd.excl.liability-own-property",
+   "heading": "Your Own Property",
+   "sha256": "060f8155214221fd1b1812c12b82d857892aa95cf3d401e60d126d66fb811e46"
+  },
+  {
+   "id": "trd.excl.liability-vehicles",
+   "heading": "Vehicles, Aircraft and Watercraft",
+   "sha256": "f6574f55db47d640d49194c9a07b2309da61a7f6101114fa7060a133ef1bc57f"
+  },
+  {
+   "id": "trd.excl.liability-professional",
+   "heading": "Advice and Design for a Fee",
+   "sha256": "5c7cc06a58c4d557548aebd7ce584b72d69db0797bd97ae805d6367a9d3f3eb7"
+  },
+  {
+   "id": "trd.excl.liability-pollution",
+   "heading": "Gradual Pollution",
+   "sha256": "15bec555195019ccae160953e8fd9de56b862d61a68399951d0043fadad665d1"
+  },
+  {
+   "id": "trd.excl.liability-asbestos",
+   "heading": "Asbestos",
+   "sha256": "8bc07f46a478c4eed2506a1bd891062577ecd5d5fe887dff6157d6778bc4acbf"
+  },
+  {
+   "id": "trd.excl.liability-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "396dcdc3da302f1de53dbfe57708edf32da37a5fce8f18dcca945244a184b479"
+  },
+  {
+   "id": "trd.section.tools",
+   "heading": "Tools and Portable Equipment",
+   "sha256": "462f488d4aacc8915bbacd4efc6a6ec8fe31b5241f16eb90c81fa5abad3d60df"
+  },
+  {
+   "id": "trd.cover.tools",
+   "heading": "Loss of or Damage to Tools",
+   "sha256": "6636d8b7e068aff948621943d12687679394f78908963437c2d909d2026e1e17"
+  },
+  {
+   "id": "trd.pay.tools",
+   "heading": "How We Settle Tools Claims",
+   "sha256": "efb3e1c30747f80c0b096264c693611f00c7ca7eda9349241aa08e300c9a7420"
+  },
+  {
+   "id": "trd.ext.tools-in-vehicles",
+   "heading": "Tools in Vehicles",
+   "sha256": "1e93f9f8fcf745dbc3a95d2e52162f8aee317542a3fc0c040bc0f31f8b31e670"
+  },
+  {
+   "id": "trd.ext.tool-hire",
+   "heading": "Hire of Replacement Tools",
+   "sha256": "262489a05fc60b1cb1d504b8ec86ff9c07b50dd5878cc5aa0eefbc4aef12c77b"
+  },
+  {
+   "id": "trd.ext.employees-tools",
+   "heading": "Employees' Tools",
+   "sha256": "92a1141cc3a9b845681594cda761b8d87241a4c718f86e4ffabec7ae104392a4"
+  },
+  {
+   "id": "trd.excl.tools",
+   "heading": "Tools Exclusions",
+   "sha256": "a89cede03ad63b46bed2964cfd4afa64ce34b2e2485868dc42dc5a8c58cf4346"
+  },
+  {
+   "id": "trd.section.mobile-plant",
+   "heading": "Mobile Plant",
+   "sha256": "a32b259435c4a915faf08557d569a3a0128d53b0739bc1913b8edb340057258b"
+  },
+  {
+   "id": "trd.cover.owned-plant",
+   "heading": "Plant You Own",
+   "sha256": "398b89a3e40db9e1b91af18b8fb99ee5bf6d82903f94e7430e88b62c2921ecfc"
+  },
+  {
+   "id": "trd.cover.hired-in-plant",
+   "heading": "Plant You Hire In",
+   "sha256": "2bc39adbc5b605bc6420d2ae9c55417df872de20b51370636410c175263df454"
+  },
+  {
+   "id": "trd.pay.plant",
+   "heading": "How We Settle Plant Claims",
+   "sha256": "6973f704e0c1b06096550e5f404177b64d79efe7f430d9dccce8a063ec291c3c"
+  },
+  {
+   "id": "trd.excl.plant",
+   "heading": "Mobile Plant Exclusions",
+   "sha256": "1d37d57ef8ec9650b461129ff5ae70b01b5fdfe8d0a610273c32e8b132a37198"
+  },
+  {
+   "id": "trd.section.contract-works",
+   "heading": "Annual Contract Works",
+   "sha256": "1f1516a84cbc935de74bea11044bf591d4767f1ed96ebad8df4b7c8b5ea1fb11"
+  },
+  {
+   "id": "trd.cover.contract-works",
+   "heading": "Damage to the Works",
+   "sha256": "1abc682c8b9f7e34e53371942a1ee4e0986fb1cc978eef4f959fde51ff546f56"
+  },
+  {
+   "id": "trd.ext.debris-removal",
+   "heading": "Removal of Debris",
+   "sha256": "bcb37c0ff14e363ce82402f27796aadc78f86ded4f633e158345fcd0ba6197c6"
+  },
+  {
+   "id": "trd.pay.contract-works",
+   "heading": "How We Settle Contract Works Claims",
+   "sha256": "2c6eeb8ef87796f83d8102fb9738b7bbdcd94af77bc2917416843da8feeeb16c"
+  },
+  {
+   "id": "trd.excl.contract-works",
+   "heading": "Contract Works Exclusions",
+   "sha256": "9e637ee7f44917069d0d12fad28f8cf04393e0569e8438ab051da082d35d9036"
+  },
+  {
+   "id": "trd.section.tax-audit",
+   "heading": "Tax Audit",
+   "sha256": "fdc6d81ec94f748116cc0ea590108efbf3c93a4ab96f1cf9119953ced023d348"
+  },
+  {
+   "id": "trd.cover.tax-audit",
+   "heading": "Tax Audit Fees",
+   "sha256": "74e89dfce7b3d6dbc55898e08bf764f01e83c74b45f5897a303515e1dc19e956"
+  },
+  {
+   "id": "trd.excl.tax-audit",
+   "heading": "Tax Audit Exclusions",
+   "sha256": "8c28213ddd24349c78322b498e53bc548c5595b1661d57f7047605220d59ceb5"
+  },
+  {
+   "id": "trd.section.payment-fraud",
+   "heading": "Payment Fraud and Cyber",
+   "sha256": "5e6ac6e7b1456ad63aa778a3ec94be0610e2dd5a8388830a0b7feefb678c3725"
+  },
+  {
+   "id": "trd.cover.payment-fraud",
+   "heading": "Fraudulent Payment Instructions",
+   "sha256": "d00a942ebb6413eed4d7acb324d105b25eafb9017a951c9e56eae897eb2adc9c"
+  },
+  {
+   "id": "trd.cover.cyber-response",
+   "heading": "Restoring Your Systems",
+   "sha256": "03437753be119296ee7583285d2d716f3f2ef5ffa8fdd7b498c505e799e5e735"
+  },
+  {
+   "id": "trd.pay.payment-fraud",
+   "heading": "Payment Fraud Limits and Discovery",
+   "sha256": "a105d811208bfa675541baca30e5a08d7037b5cd194ef6eaedc8568bbfe7b360"
+  },
+  {
+   "id": "trd.excl.payment-fraud",
+   "heading": "Payment Fraud and Cyber Exclusions",
+   "sha256": "ac262a0121db98d5b712b8067bade9470dcf1e3d1dff2a3fe164bb0bec9517c2"
+  },
+  {
+   "id": "trd.section.vehicle-downtime",
+   "heading": "Vehicle Downtime",
+   "sha256": "1f39a7dc4886b9c1d614656dc6ba2aa1f3be8ecf4ff4bb3884e9263bf6a4509b"
+  },
+  {
+   "id": "trd.cover.downtime",
+   "heading": "Daily Downtime Benefit",
+   "sha256": "63a637c504faac865c3fec90c775f5ec3813f333a250da96a04ec2e4317be6e8"
+  },
+  {
+   "id": "trd.excl.downtime",
+   "heading": "Vehicle Downtime Exclusions",
+   "sha256": "4d21811bbaf3828195bc2b497cc315c5b78d3ca69bccf3b3827504eb968a7c5b"
+  },
+  {
+   "id": "trd.section.general-payment",
+   "heading": "How Claims Are Paid",
+   "sha256": "bb2638926e131115012f77a272370f651d5e463fd6fec769ea7f0de702fb774b"
+  },
+  {
+   "id": "trd.pay.excess",
+   "heading": "Excess",
+   "sha256": "f261e206780c60ab80718d5bad7aae17829fe9b9cb9245994d0ec4c907adf3b7"
+  },
+  {
+   "id": "trd.pay.one-loss-one-section",
+   "heading": "One Loss, One Section",
+   "sha256": "9de3d84a1f40933ba5c390cd78402b1a1a79c2c36afddc243fe13011acdd2615"
+  },
+  {
+   "id": "trd.pay.gst",
+   "heading": "GST and Sums Insured",
+   "sha256": "6a2659ac8175ff1ea13ecd530744d7c313d46bc0f11cd2ed4af03beb57e3f0c2"
+  },
+  {
+   "id": "trd.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "dae702a04d8a9564afa95e79006d7780410d9dc8719c26e54ad31c30ee1f9ccc"
+  },
+  {
+   "id": "trd.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "e22786d1004b176f202f40138097a627358dab42d949c84353eee1db9bba48f0"
+  },
+  {
+   "id": "trd.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "3b2494e49e0a61e20143f898a2a2ac00d8939981941fcb50c6f35529bfa2ebd4"
+  },
+  {
+   "id": "trd.excl.war",
+   "heading": "War",
+   "sha256": "a6d18b9894cb3541b2b13a43b15b8889c3cf014aff3425645ea35ed7547e5604"
+  },
+  {
+   "id": "trd.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "515a0fcec4a0a619b5d701b1f7eee86fa4488feb962cc0b2170467de8a674df4"
+  },
+  {
+   "id": "trd.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "397dd472da5a320879a3447bb3edf3f1931551bb15f6197772605ddd26ec58da"
+  },
+  {
+   "id": "trd.excl.cyber",
+   "heading": "Cyber Events",
+   "sha256": "1181918e95f80e211b62a30b54bcd82056c8f92739445d5263f902f52be258e0"
+  },
+  {
+   "id": "trd.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "aebe9f2258cbadcc072c094a0ccd4fe456e25520ca8b9c885273798380bcfae6"
+  },
+  {
+   "id": "trd.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "6e82df19ea3f518c1ee8f01de02b0e7506cd2766104412443ed4141960b69807"
+  },
+  {
+   "id": "trd.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "4054002bfab2947bc2d6017059260b13b00bc133a9b4eef82cccb37040d6dbda"
+  },
+  {
+   "id": "trd.obl.reduce-loss",
+   "heading": "Prevent Further Loss",
+   "sha256": "495ac276223eee6d912cc8a0b7ec494ae31223685f3b1301a377fb7eae2a27bc"
+  },
+  {
+   "id": "trd.obl.admissions",
+   "heading": "Admissions and Settlements",
+   "sha256": "4972d44c0e1ed2158ee569124fbd491782376bb3b1598f20214e0fa9f91b0617"
+  },
+  {
+   "id": "trd.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "43409ee73c5586942de287f45dc00c97cd277e37db257893a9891fc690baf15d"
+  },
+  {
+   "id": "trd.obl.subrogation",
+   "heading": "Recovery from Others",
+   "sha256": "96bf5dc05be8e95458eef0457a864f1d80f49c82c99c244cc4132d39b14d2981"
+  },
+  {
+   "id": "trd.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "48e8a54a814af1ae65a9a7bc049c48f01d03dbd89dbff8f45228e7ad10d73ce7"
+  },
+  {
+   "id": "trd.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "97c789edd048611d1449a5f3524d7a51baf2c57ab2f484445c87965fb3cd5d15"
+  },
+  {
+   "id": "trd.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "53cda9ca34cccca8dbb3c5bbf76bf94d13085597a8e43227c23a0d15dbd5df61"
+  },
+  {
+   "id": "trd.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "9283daa1873990b24fafb5a765052a0472ddb8f28b9779d0a0ada0172fbf57a1"
+  },
+  {
+   "id": "trd.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "93420dcd87f8ad9ccc3a5d0f534ad54b5a759720fbf955a5249eb6fd6c3aedf1"
+  },
+  {
+   "id": "trd.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "trd.cond.gst",
+   "heading": "GST",
+   "sha256": "57655742d02b0940407c1fd774c7525306cee1f69ae1d06edd0ed75b6383f530"
+  },
+  {
+   "id": "trd.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "3cd3961eb6ee34a6f3f1d53311005afc54606b08208dfefff04dff75066da71f"
+  },
+  {
+   "id": "trd.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "5d6757aae571e7c275c29e253a2fd7d8c211a511417adc558a14f7214f57282c"
+  },
+  {
+   "id": "trd.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "09c3e76a968bdb89856408cd3ed7f896783d707ebee748f7fad05bc74b73abeb"
+  },
+  {
+   "id": "trd.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "trd.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "trd.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "673531647c26688f859c46a71e1791915debcebe11d457aa2883a247a3a5e5c0"
+  },
+  {
+   "id": "trd.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "de0683137c00639bc02533048c2ee3dfb28572df579eecc3b65e191a575e3412"
+  },
+  {
+   "id": "trd.end.e01",
+   "heading": "E01 Hot Work Conditions",
+   "sha256": "e35d994497b156f2b90545cfcc4ecc1519ea05cfef8771e832963b129f69ba02"
+  },
+  {
+   "id": "trd.end.e02",
+   "heading": "E02 Work at Height",
+   "sha256": "c7a95b1accf48fe994ca951ca20378e3fffa38ed4ed91e80af6a6b76f00ca615"
+  },
+  {
+   "id": "trd.end.e03",
+   "heading": "E03 Excavation Depth",
+   "sha256": "b86a371f1842b92f909e8f9c4f260ab634ceee597ea6c8049413a29059dadb02"
+  },
+  {
+   "id": "trd.end.e04",
+   "heading": "E04 Underground Services Conditions",
+   "sha256": "aa1c622444549b2d2e5790add0566a615ad797012ca269046c21b5240f24d286"
+  },
+  {
+   "id": "trd.end.e05",
+   "heading": "E05 Waterproofing",
+   "sha256": "a517bb0e39a3e016c35d0d8adeaae9cab2ceb88944a3e5afc5bd1fe5ef06aa3d"
+  },
+  {
+   "id": "trd.end.e06",
+   "heading": "E06 Roof Work Conditions",
+   "sha256": "7b93fb4bd15774ee0c7900f2fdde4ef93d82c7d161dcb23442fd6c3603192187"
+  },
+  {
+   "id": "trd.end.e07",
+   "heading": "E07 Plumbing and Gas Work Conditions",
+   "sha256": "7b421299cdb42d326990979b7d7f446a7df020c0ef4362cd6584a8f54c2cb37a"
+  },
+  {
+   "id": "trd.end.e08",
+   "heading": "E08 Tree Work Limit",
+   "sha256": "9f08b96ffbe3c00bef1c13f81fe670a5a067c23e4279e748479744bd5fd9d177"
+  },
+  {
+   "id": "trd.end.e09",
+   "heading": "E09 Alarm and Monitoring Systems",
+   "sha256": "ba306b154a1d1207bb8e3f6cf2f0498565675661ea89da4b81ad2ccadbc21e91"
+  },
+  {
+   "id": "trd.end.e10",
+   "heading": "E10 Pest and Weed Control",
+   "sha256": "99ddbbf9610f5c10442387d13dacc92b43c862922939239ed69c59c22fa05998"
+  },
+  {
+   "id": "trd.end.e11",
+   "heading": "E11 Subcontractors",
+   "sha256": "1aa9a45fd12c365857e0249906af8ea449a8b2893c28dc33f4b77100f1bc56b9"
+  },
+  {
+   "id": "trd.end.e12",
+   "heading": "E12 Named Principals",
+   "sha256": "fcff7248134be7f9109e5c80d9c99d1a0f4e3c69c16d0d79c796b9c7f816927c"
+  },
+  {
+   "id": "trd.end.e13",
+   "heading": "E13 Interested Party",
+   "sha256": "7be9bac74b14bc61caf42c48e7c4e0614eabde53797ffc93595b4e4ce87c7b01"
+  },
+  {
+   "id": "trd.end.e14",
+   "heading": "E14 Lloyd's Underwriters",
+   "sha256": "3939fd776ee14cb55af069015c277eb5431b8f8f87f1d11e89918736ad91b963"
+  },
+  {
+   "id": "trd.end.e15",
+   "heading": "E15 Residential Building Work",
+   "sha256": "ef5563dadfc34bae372e3cb614aed53af19072e465b69e2a1fefe72496be893a"
+  },
+  {
+   "id": "trd.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "trd.end.e01",
+   "heading": "E01 Hot Work Conditions",
+   "trigger": {
+    "questions": [
+     "qs.trd.ops.hot_work"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.ops.hot_work == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you do hot work away from your premises; permit and fire watch conditions apply.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.ops.hot_work",
+     "text": "Do you weld, cut, grind, braze, solder or use an open flame away from your own premises?",
+     "type": "yes/no",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e02",
+   "heading": "E02 Work at Height",
+   "trigger": {
+    "questions": [
+     "qs.trd.ops.max_height_m"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.ops.max_height_m > 15",
+      "action": "refer"
+     },
+     {
+      "when": "qs.trd.ops.max_height_m >= 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies to every trade at the height limit shown. Work above 15 metres is referred to an underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.ops.max_height_m",
+     "text": "What is the greatest height above ground or floor level at which you work (metres)?",
+     "type": "number",
+     "used_by": "A, E02"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e03",
+   "heading": "E03 Excavation Depth",
+   "trigger": {
+    "questions": [
+     "qs.trd.ops.excavation",
+     "qs.trd.ops.max_depth_m"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.ops.max_depth_m > 3",
+      "action": "refer"
+     },
+     {
+      "when": "qs.trd.ops.excavation == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you excavate, trench or bore. Work deeper than 3 metres is referred to an underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.ops.excavation",
+     "text": "Do you excavate, trench, bore or use powered equipment to break ground?",
+     "type": "yes/no",
+     "used_by": "E03, E04"
+    },
+    {
+     "id": "qs.trd.ops.max_depth_m",
+     "text": "What is the greatest depth you excavate, trench or bore (metres)?",
+     "type": "number",
+     "used_by": "A, E03"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e04",
+   "heading": "E04 Underground Services Conditions",
+   "trigger": {
+    "questions": [
+     "qs.trd.ops.excavation"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.ops.excavation == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you excavate, trench or bore; steps to locate underground services apply.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.ops.excavation",
+     "text": "Do you excavate, trench, bore or use powered equipment to break ground?",
+     "type": "yes/no",
+     "used_by": "E03, E04"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e05",
+   "heading": "E05 Waterproofing",
+   "trigger": {
+    "questions": [
+     "qs.trd.ops.waterproofing"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.ops.waterproofing == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you install, apply or repair waterproofing membranes.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.ops.waterproofing",
+     "text": "Do you install, apply or repair waterproofing membranes?",
+     "type": "yes/no",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e06",
+   "heading": "E06 Roof Work Conditions",
+   "trigger": {
+    "questions": [
+     "qs.trd.business.trade",
+     "qs.trd.ops.roof_work"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.business.trade == 3223",
+      "action": "refer"
+     },
+     {
+      "when": "qs.trd.ops.roof_work == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you open roofs or replace roof coverings. A roofing business is referred to an underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.business.trade",
+     "text": "What is the main trade of the business (ANZSIC 2006 class)?",
+     "type": "select",
+     "options": [
+      "3212",
+      "3221",
+      "3222",
+      "3223",
+      "3224",
+      "3231",
+      "3232",
+      "3233",
+      "3234",
+      "3239",
+      "3241",
+      "3242",
+      "3243",
+      "3244",
+      "3245",
+      "3291",
+      "3299",
+      "7311",
+      "7312",
+      "7313"
+     ],
+     "used_by": "R, A, S, E06, E07, E09, E10"
+    },
+    {
+     "id": "qs.trd.ops.roof_work",
+     "text": "Do you open roofs, or remove or replace roof sheeting, tiles or flashing?",
+     "type": "yes/no",
+     "used_by": "E06"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e07",
+   "heading": "E07 Plumbing and Gas Work Conditions",
+   "trigger": {
+    "questions": [
+     "qs.trd.business.trade",
+     "qs.trd.ops.gas_work"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.business.trade == 3231",
+      "action": "refer"
+     },
+     {
+      "when": "qs.trd.ops.gas_work == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you do plumbing or gas fitting work. A plumbing business is referred to an underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.business.trade",
+     "text": "What is the main trade of the business (ANZSIC 2006 class)?",
+     "type": "select",
+     "options": [
+      "3212",
+      "3221",
+      "3222",
+      "3223",
+      "3224",
+      "3231",
+      "3232",
+      "3233",
+      "3234",
+      "3239",
+      "3241",
+      "3242",
+      "3243",
+      "3244",
+      "3245",
+      "3291",
+      "3299",
+      "7311",
+      "7312",
+      "7313"
+     ],
+     "used_by": "R, A, S, E06, E07, E09, E10"
+    },
+    {
+     "id": "qs.trd.ops.gas_work",
+     "text": "Do you do gas fitting work?",
+     "type": "yes/no",
+     "used_by": "E07"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e08",
+   "heading": "E08 Tree Work Limit",
+   "trigger": {
+    "questions": [
+     "qs.trd.ops.tree_work"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.ops.tree_work == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you fell, lop or remove trees.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.ops.tree_work",
+     "text": "Do you fell, lop or remove trees?",
+     "type": "yes/no",
+     "used_by": "E08"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e09",
+   "heading": "E09 Alarm and Monitoring Systems",
+   "trigger": {
+    "questions": [
+     "qs.trd.business.trade"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.business.trade == 3234",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you install or service fire or security alarm systems.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.business.trade",
+     "text": "What is the main trade of the business (ANZSIC 2006 class)?",
+     "type": "select",
+     "options": [
+      "3212",
+      "3221",
+      "3222",
+      "3223",
+      "3224",
+      "3231",
+      "3232",
+      "3233",
+      "3234",
+      "3239",
+      "3241",
+      "3242",
+      "3243",
+      "3244",
+      "3245",
+      "3291",
+      "3299",
+      "7311",
+      "7312",
+      "7313"
+     ],
+     "used_by": "R, A, S, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e10",
+   "heading": "E10 Pest and Weed Control",
+   "trigger": {
+    "questions": [
+     "qs.trd.business.trade"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.business.trade == 7312",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you carry on a pest or weed control business.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.business.trade",
+     "text": "What is the main trade of the business (ANZSIC 2006 class)?",
+     "type": "select",
+     "options": [
+      "3212",
+      "3221",
+      "3222",
+      "3223",
+      "3224",
+      "3231",
+      "3232",
+      "3233",
+      "3234",
+      "3239",
+      "3241",
+      "3242",
+      "3243",
+      "3244",
+      "3245",
+      "3291",
+      "3299",
+      "7311",
+      "7312",
+      "7313"
+     ],
+     "used_by": "R, A, S, E06, E07, E09, E10"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e11",
+   "heading": "E11 Subcontractors",
+   "trigger": {
+    "questions": [
+     "qs.trd.business.subcontractor_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.business.subcontractor_pct > 60",
+      "action": "refer"
+     },
+     {
+      "when": "qs.trd.business.subcontractor_pct > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you pay subcontractors. More than 60% of turnover paid to subcontractors is referred to an underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.business.subcontractor_pct",
+     "text": "What share of turnover do you pay to subcontractors (%)?",
+     "type": "number (percent)",
+     "used_by": "A, E11"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e12",
+   "heading": "E12 Named Principals",
+   "trigger": {
+    "questions": [
+     "qs.trd.cover.named_principals"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.cover.named_principals == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because a construction contract requires a principal to be named on your policy.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.cover.named_principals",
+     "text": "Does a construction contract require a principal to be named on the policy?",
+     "type": "yes/no",
+     "used_by": "E12"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e13",
+   "heading": "E13 Interested Party",
+   "trigger": {
+    "questions": [
+     "qs.trd.cover.plant_financed"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.cover.plant_financed == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because a financier has an interest in insured mobile plant.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.cover.plant_financed",
+     "text": "Does a financier have an interest in any of the mobile plant?",
+     "type": "yes/no",
+     "used_by": "E13"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e14",
+   "heading": "E14 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.trd.insured.lloyds_binder"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.insured.lloyds_binder == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the policy is placed with Lloyd's underwriters.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.insured.lloyds_binder",
+     "text": "Is the policy placed with Lloyd's underwriters?",
+     "type": "yes/no",
+     "used_by": "E14"
+    }
+   ]
+  },
+  {
+   "id": "trd.end.e15",
+   "heading": "E15 Residential Building Work",
+   "trigger": {
+    "questions": [
+     "qs.trd.ops.residential_work",
+     "qs.trd.ops.statutory_cover_held"
+    ],
+    "rules": [
+     {
+      "when": "qs.trd.ops.residential_work == yes and qs.trd.ops.statutory_cover_held == no",
+      "action": "refer"
+     },
+     {
+      "when": "qs.trd.ops.residential_work == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you do residential building work for which the law requires statutory insurance. Work without that insurance is referred to an underwriter.",
+    "responses": [
+     "Attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.trd.ops.residential_work",
+     "text": "Do you do residential building work for which the law requires statutory home warranty insurance?",
+     "type": "yes/no",
+     "used_by": "A, E15"
+    },
+    {
+     "id": "qs.trd.ops.statutory_cover_held",
+     "text": "Do you hold the statutory home warranty insurance (or eligibility) the law requires for that work?",
+     "type": "yes/no",
+     "used_by": "A, E15"
+    }
+   ]
+  }
+ ],
+ "sha256": "d598a8796413a62d3a2cbf8b5597526aa3a6222480005893f379597e570b7b1b"
+}

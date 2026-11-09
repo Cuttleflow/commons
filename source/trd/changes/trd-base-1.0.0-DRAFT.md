@@ -1,0 +1,12 @@
+This is the first release of the Meridian Tradies Package wording. It is a new wording, drafted for the Commons for sole traders and small trade contractors in every Australian state and territory: electricians, carpenters, painters, plasterers, tilers, concreters, landscapers, gardeners, cleaners and similar trades. Its liability section follows the Commons Public and Products Liability wording and its general conditions follow the Commons Commercial Property Owners wording.
+
+- Seven sections: Public and Products Liability, which always applies, and Tools and Portable Equipment, Mobile Plant, Annual Contract Works, Tax Audit, Payment Fraud and Cyber, and Vehicle Downtime, which apply if the schedule shows them.
+- Exclusions are set by trade. The base wording has no blanket height, depth, hot work, waterproofing or roof work exclusion. Endorsements E01 to E10 attach the limits and conditions that fit the trade and the work declared.
+- Tools are insured new for old for items under three years old. Theft from a locked vehicle is covered at any time of day or night, with evidence of forced entry, a stolen vehicle or a broken lock. Replacement tool hire is paid from the day of the loss.
+- Mobile Plant covers owned plant on a schedule and hired-in plant, including the owner's hire charges for up to 30 days.
+- Annual Contract Works covers each construction contract that starts during the policy period up to the maximum contract value (default $250,000), with the principal's interest noted automatically.
+- Payment Fraud and Cyber covers money paid on a fraudulent instruction, money a client paid to a fraudster instead of to you, and the cost of restoring email and devices. A call-back check on changed bank details is not a condition of cover; a payment made without it is paid at 50%.
+- Vehicle Downtime pays a daily amount while a work vehicle insured under a linked motor policy is off the road. One excess applies to one event across sections, and across a linked policy issued by the same insurer.
+- Workers compensation, statutory home warranty insurance, design for a fee and asbestos are outside the wording. E15 records that statutory home warranty insurance is separate.
+- General conditions: an Insurance Contracts Act savings clause applying s.54 to every condition, including endorsement conditions; a standalone sanctions condition; and governing law fixed to the main state or territory of operation at the start of the policy period.
+- The licence is CC BY 4.0, in line with the rest of the Commons.

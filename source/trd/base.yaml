@@ -1,0 +1,156 @@
+id: trd-base
+title: Tradies Package Insurance
+class: TRADIES PACKAGE INSURANCE
+kicker: Meridian Commons · Tradies Package
+slug: tradies-package
+file_stem: Meridian_Tradies_Package
+doc_ref: 2026/TRD/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Liability, tools, mobile plant, small-job contract works, tax audit, payment fraud and vehicle downtime cover for sole traders and small trade contractors, with exclusions set by trade.
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - trd.about
+  - trd.version-history
+  - trd.important-information
+  - trd.schedule
+- section: trd.section.definitions
+  clauses:
+  - trd.def.business
+  - trd.def.computer-system
+  - trd.def.construction-contract
+  - trd.def.contract-value
+  - trd.def.contract-works
+  - trd.def.cyber-event
+  - trd.def.damage
+  - trd.def.employee
+  - trd.def.endorsement
+  - trd.def.event
+  - trd.def.excess
+  - trd.def.forcible-entry
+  - trd.def.fraudulent-instruction
+  - trd.def.hire-agreement
+  - trd.def.hired-in-plant
+  - trd.def.linked-motor-policy
+  - trd.def.mobile-plant
+  - trd.def.occurrence
+  - trd.def.personal-injury
+  - trd.def.policy-period
+  - trd.def.pollutant
+  - trd.def.practical-completion
+  - trd.def.principal
+  - trd.def.property-damage
+  - trd.def.subcontractor
+  - trd.def.sum-insured
+  - trd.def.tools
+  - trd.def.vehicle
+  - trd.def.we-us-our
+  - trd.def.work-vehicle
+  - trd.def.you-your
+  - trd.def.your-products
+- section: trd.section.liability
+  clauses:
+  - trd.cover.liability
+  - trd.ext.principals
+  - trd.ext.care-custody-control
+  - trd.ext.underground-services
+  - trd.excl.liability-workers
+  - trd.excl.liability-contracts
+  - trd.excl.liability-own-work
+  - trd.excl.liability-own-property
+  - trd.excl.liability-vehicles
+  - trd.excl.liability-professional
+  - trd.excl.liability-pollution
+  - trd.excl.liability-asbestos
+  - trd.excl.liability-fines
+- section: trd.section.tools
+  clauses:
+  - trd.cover.tools
+  - trd.pay.tools
+  - trd.ext.tools-in-vehicles
+  - trd.ext.tool-hire
+  - trd.ext.employees-tools
+  - trd.excl.tools
+- section: trd.section.mobile-plant
+  clauses:
+  - trd.cover.owned-plant
+  - trd.cover.hired-in-plant
+  - trd.pay.plant
+  - trd.excl.plant
+- section: trd.section.contract-works
+  clauses:
+  - trd.cover.contract-works
+  - trd.ext.debris-removal
+  - trd.pay.contract-works
+  - trd.excl.contract-works
+- section: trd.section.tax-audit
+  clauses:
+  - trd.cover.tax-audit
+  - trd.excl.tax-audit
+- section: trd.section.payment-fraud
+  clauses:
+  - trd.cover.payment-fraud
+  - trd.cover.cyber-response
+  - trd.pay.payment-fraud
+  - trd.excl.payment-fraud
+- section: trd.section.vehicle-downtime
+  clauses:
+  - trd.cover.downtime
+  - trd.excl.downtime
+- section: trd.section.general-payment
+  clauses:
+  - trd.pay.excess
+  - trd.pay.one-loss-one-section
+  - trd.pay.gst
+  - trd.pay.other-insurance
+  - trd.pay.who-we-pay
+- section: trd.section.general-exclusions
+  clauses:
+  - trd.excl.war
+  - trd.excl.nuclear
+  - trd.excl.terrorism
+  - trd.excl.cyber
+  - trd.excl.deliberate-acts
+- section: trd.section.obligations
+  clauses:
+  - trd.obl.tell-us-about-claims
+  - trd.obl.reduce-loss
+  - trd.obl.admissions
+  - trd.obl.tell-us-about-changes
+  - trd.obl.subrogation
+- section: trd.section.conditions
+  clauses:
+  - trd.cond.insurance-contracts-act
+  - trd.cond.cancellation
+  - trd.cond.renewal
+  - trd.cond.fraud
+  - trd.cond.sanctions
+  - trd.cond.gst
+  - trd.cond.privacy
+  - trd.cond.disputes-and-complaints
+  - trd.cond.governing-law
+  - trd.cond.jurisdiction
+  - trd.cond.headings-and-references
+- section: end
+  clauses:
+  - trd.claims.how-to-make-a-claim
+  - trd.endorsement-library
+  - trd.end.e01
+  - trd.end.e02
+  - trd.end.e03
+  - trd.end.e04
+  - trd.end.e05
+  - trd.end.e06
+  - trd.end.e07
+  - trd.end.e08
+  - trd.end.e09
+  - trd.end.e10
+  - trd.end.e11
+  - trd.end.e12
+  - trd.end.e13
+  - trd.end.e14
+  - trd.end.e15
+  - trd.licence-notice
