@@ -1,0 +1,10 @@
+This is the first release of the Meridian Commercial Property Owners wording. It is a new wording, drafted for the Commons for owners of commercial investment buildings (offices, shops, light industrial and mixed use) let to tenants in every Australian state and territory. Its structure follows the market's commercial landlord packages; its text is new and reuses the Commons Strata wording's general conditions.
+
+- Six sections: Property, Loss of Rent, Theft, Glass, Property Owners' Liability and Tax Audit. Property, Theft, Glass and Tax Audit always apply; Loss of Rent and Property Owners' Liability apply if the schedule shows them.
+- The building and landlord's contents are insured for reinstatement and replacement. An 80% under-insurance clause applies to the building, but not to claims under 10% of the sum insured, and Endorsement E11 removes it where a valuation from the last three years is held.
+- Loss of rent pays the rent and recoverable outgoings lost under the leases in force, and rent from a vacant tenancy under a lease agreed or being negotiated, for the indemnity period shown (default 12 months). Tenant default is not covered.
+- Property owners' liability covers the owner's liability for the building, the common areas, car parks, lifts and escalators, with defence costs in addition to the limit. Tenants' businesses are excluded; liability under an incidental contract, including a lease, is covered.
+- Tenants' property, fit-out and businesses are not insured. A lease that releases a tenant does not affect cover.
+- Endorsements cover flood, known defects, building works, combustible cladding, higher-hazard tenancies, vacant tenancies, heritage buildings, interested parties, Lloyd's, residential tenancies and the under-insurance waiver. Each has operative text, schedule variables and a platform trigger.
+- General conditions: an Insurance Contracts Act savings clause applying s.54, a standalone sanctions condition, and governing law fixed to the state or territory where the building is located.
+- The licence is CC BY 4.0, in line with the rest of the Commons.

@@ -1,0 +1,185 @@
+# Platform questions for the Commercial Property Owners wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.cpo namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.cpo.insured.name
+    text: What is the name of the owner of the building (the company, trust, partnership or person)?
+    type: text
+    used_by: S
+  - id: qs.cpo.insured.entity_type
+    text: What kind of entity owns the building?
+    type: select
+    options: ['company', 'trust', 'smsf', 'partnership', 'individual']
+    used_by: S
+  - id: qs.cpo.insured.interested_parties
+    text: Does a financier or anyone else have an interest in the building that should be noted on the policy?
+    type: yes/no
+    used_by: E08
+  - id: qs.cpo.insured.lloyds_binder
+    text: Is the policy placed with Lloyd's underwriters?
+    type: yes/no
+    used_by: E09
+  - id: qs.cpo.site.address
+    text: What is the address of the building?
+    type: text
+    used_by: S
+  - id: qs.cpo.site.state
+    text: In which state or territory is the building?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, A, S
+  - id: qs.cpo.site.north_of_26th
+    text: Is the building north of the 26th parallel of latitude (roughly north of Gympie in Queensland, and of Carnarvon in Western Australia)?
+    type: yes/no
+    used_by: A
+  - id: qs.cpo.building.year_built
+    text: In what year was the building completed?
+    type: number (year)
+    used_by: R, A
+  - id: qs.cpo.building.storeys
+    text: How many storeys does the building have above ground?
+    type: number
+    used_by: R, A
+  - id: qs.cpo.building.construction
+    text: What are the external walls and roof mainly made of?
+    type: select
+    options: ['non_combustible', 'combustible', 'other']
+    used_by: R, A
+  - id: qs.cpo.building.eps_pct
+    text: What percentage of the floor area is enclosed by expanded polystyrene (EPS) or other combustible sandwich panel?
+    type: percentage
+    used_by: A
+  - id: qs.cpo.building.combustible_cladding
+    text: Does the building have aluminium composite panels, expanded polystyrene or other combustible external cladding?
+    type: select
+    options: ['no', 'yes', 'unknown']
+    used_by: A, E04
+  - id: qs.cpo.building.sprinklers
+    text: Is the building fully sprinklered, with the system maintained to AS 1851?
+    type: yes/no
+    used_by: R
+  - id: qs.cpo.building.heritage
+    text: Is the building heritage-listed?
+    type: yes/no
+    used_by: E07
+  - id: qs.cpo.building.lifts_or_escalators
+    text: Does the building have lifts or escalators used by tenants or the public?
+    type: yes/no
+    used_by: R
+  - id: qs.cpo.building.public_car_park
+    text: Is there a car park on the site open to the public?
+    type: yes/no
+    used_by: R
+  - id: qs.cpo.building.floor_area
+    text: What is the total floor area of the building in square metres?
+    type: number
+    used_by: S
+  - id: qs.cpo.tenancy.schedule
+    text: List each tenancy, vacant area and the common areas, with the occupation and the share of the building's floor area (the shares total 100%).
+    type: repeating (tenant name, occupation, share of floor area %, annual rent)
+    used_by: R, S
+  - id: qs.cpo.tenancy.highest_hazard_band
+    text: What is the hazard band of the highest-hazard tenancy in the building (low, medium or high)?
+    type: select
+    options: ['L', 'M', 'H']
+    used_by: R
+  - id: qs.cpo.occupancy.vacant_pct
+    text: What percentage of the building's floor area is vacant or unoccupied?
+    type: percentage
+    used_by: A, E06
+  - id: qs.cpo.occupancy.residential_pct
+    text: What percentage of the building's floor area is let for residential use?
+    type: percentage
+    used_by: A, E10
+  - id: qs.cpo.tenancy.cooking_deep_frying
+    text: Does any tenant cook commercially with deep fryers or open flame?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.cpo.tenancy.spray_painting
+    text: Does any tenant spray paint, or carry on panel beating or smash repairs?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.cpo.tenancy.hot_work
+    text: Does any tenant regularly do welding, cutting or other hot work?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.cpo.tenancy.flammable_storage
+    text: Does any tenant store flammable liquids or gases beyond small quantities for its own use?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.cpo.tenancy.late_licensed
+    text: Does any tenant trade with a liquor licence after midnight?
+    type: yes/no
+    used_by: A, E05
+  - id: qs.cpo.tenancy.nightclub_or_adult
+    text: Is any tenancy used as a nightclub, adult entertainment venue or brothel?
+    type: yes/no
+    used_by: A
+  - id: qs.cpo.tenancy.tattoo
+    text: Is any tenancy used as a tattoo parlour?
+    type: yes/no
+    used_by: A
+  - id: qs.cpo.tenancy.tenants_hold_liability
+    text: Does every tenant hold public liability insurance of at least $10,000,000, as its lease requires?
+    type: yes/no
+    used_by: A
+  - id: qs.cpo.condition.known_defects
+    text: Do you know of any defect in the building?
+    type: yes/no
+    used_by: A, E02
+  - id: qs.cpo.condition.defect_orders
+    text: Is there any order or notice about the building from a council, building regulator or fire authority that has not been complied with?
+    type: yes/no
+    used_by: A
+  - id: qs.cpo.condition.building_works
+    text: Are building works over $250,000, or needing approval, planned or under way?
+    type: yes/no
+    used_by: A, E03
+  - id: qs.cpo.condition.valuation_current
+    text: Has a qualified valuer valued the building for insurance in the last three years?
+    type: yes/no
+    used_by: A, E11
+  - id: qs.cpo.cover.building_sum_insured
+    text: What is the building sum insured (the full cost of rebuilding, including demolition and professional fees)?
+    type: currency
+    used_by: R, A, S
+  - id: qs.cpo.cover.contents_sum_insured
+    text: What is the sum insured for landlord's contents?
+    type: currency
+    used_by: A, S
+  - id: qs.cpo.cover.loss_of_rent_sum_insured
+    text: What is the loss of rent sum insured (the rent and recoverable outgoings for the indemnity period)?
+    type: currency
+    used_by: R, A, S
+  - id: qs.cpo.cover.indemnity_period
+    text: What indemnity period do you want for loss of rent?
+    type: select
+    options: ['12', '18', '24']
+    used_by: S
+  - id: qs.cpo.cover.liability_limit
+    text: What limit of liability do you want?
+    type: select
+    options: ['10000000', '20000000']
+    used_by: R, S
+  - id: qs.cpo.cover.property_excess
+    text: What property excess do you want?
+    type: select
+    options: ['500', '1000', '2500', '5000']
+    used_by: R, S
+  - id: qs.cpo.cover.flood_requested
+    text: Do you want flood cover?
+    type: yes/no
+    used_by: E01
+  - id: qs.cpo.claims.count_3yr
+    text: How many claims have you made on this building in the last three years?
+    type: number
+    used_by: R, A
+  - id: qs.cpo.claims.largest_3yr
+    text: What was the largest single claim in the last three years?
+    type: currency
+    used_by: A
+  - id: qs.cpo.claims.declined_or_cancelled
+    text: Has an insurer ever declined, cancelled or refused to renew insurance on this building, or imposed special terms?
+    type: yes/no
+    used_by: A

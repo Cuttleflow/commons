@@ -1,0 +1,141 @@
+id: cpo-base
+title: Commercial Property Owners Insurance
+class: COMMERCIAL PROPERTY OWNERS INSURANCE
+kicker: Meridian Commons · Commercial Property Owners
+slug: commercial-property-owners
+file_stem: Meridian_Commercial_Property_Owners
+doc_ref: 2026/CPO/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Property, loss of rent, theft, glass, property owners' liability and tax audit cover for owners of commercial investment buildings let to tenants.
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - cpo.about
+  - cpo.version-history
+  - cpo.important-information
+  - cpo.schedule
+- section: cpo.section.definitions
+  clauses:
+  - cpo.def.action-of-the-sea
+  - cpo.def.building
+  - cpo.def.building-works
+  - cpo.def.common-areas
+  - cpo.def.damage
+  - cpo.def.defect
+  - cpo.def.endorsement
+  - cpo.def.event
+  - cpo.def.excess
+  - cpo.def.flood
+  - cpo.def.forcible-entry
+  - cpo.def.incidental-contract
+  - cpo.def.indemnity-period
+  - cpo.def.landlords-contents
+  - cpo.def.lease
+  - cpo.def.personal-injury
+  - cpo.def.policy-period
+  - cpo.def.property-damage
+  - cpo.def.rent
+  - cpo.def.storm
+  - cpo.def.sum-insured
+  - cpo.def.tenancy
+  - cpo.def.tenant
+  - cpo.def.unoccupied
+  - cpo.def.we-us-our
+  - cpo.def.you-your
+- section: cpo.section.property
+  clauses:
+  - cpo.cover.property
+  - cpo.pay.basis-of-settlement
+  - cpo.pay.average
+  - cpo.ext.capital-additions
+  - cpo.ext.emergency-repairs
+  - cpo.ext.fire-services-charges
+  - cpo.ext.keys-and-locks
+  - cpo.ext.mortgagees
+  - cpo.excl.defects-and-gradual-causes
+  - cpo.excl.flood
+  - cpo.excl.action-of-the-sea
+  - cpo.excl.earth-movement
+  - cpo.excl.unoccupied-building
+  - cpo.excl.building-works
+  - cpo.excl.property-other
+- section: cpo.section.loss-of-rent
+  clauses:
+  - cpo.cover.loss-of-rent
+  - cpo.ext.prevention-of-access
+  - cpo.excl.loss-of-rent
+- section: cpo.section.theft
+  clauses:
+  - cpo.cover.theft
+  - cpo.excl.theft
+- section: cpo.section.glass
+  clauses:
+  - cpo.cover.glass
+  - cpo.excl.glass
+- section: cpo.section.liability
+  clauses:
+  - cpo.cover.liability
+  - cpo.excl.liability-tenant-business
+  - cpo.excl.liability-workers
+  - cpo.excl.liability-contracts
+  - cpo.excl.liability-own-property
+  - cpo.excl.liability-vehicles
+  - cpo.excl.liability-professional
+  - cpo.excl.liability-pollution
+  - cpo.excl.liability-asbestos
+  - cpo.excl.liability-fines
+- section: cpo.section.tax-audit
+  clauses:
+  - cpo.cover.tax-audit
+  - cpo.excl.tax-audit
+- section: cpo.section.general-payment
+  clauses:
+  - cpo.pay.excess
+  - cpo.pay.gst
+  - cpo.pay.other-insurance
+  - cpo.pay.who-we-pay
+- section: cpo.section.general-exclusions
+  clauses:
+  - cpo.excl.war
+  - cpo.excl.nuclear
+  - cpo.excl.terrorism
+  - cpo.excl.cyber
+- section: cpo.section.obligations
+  clauses:
+  - cpo.obl.tell-us-about-claims
+  - cpo.obl.reduce-loss
+  - cpo.obl.admissions
+  - cpo.obl.tell-us-about-changes
+  - cpo.obl.subrogation
+- section: cpo.section.conditions
+  clauses:
+  - cpo.cond.insurance-contracts-act
+  - cpo.cond.cancellation
+  - cpo.cond.renewal
+  - cpo.cond.fraud
+  - cpo.cond.sanctions
+  - cpo.cond.gst
+  - cpo.cond.privacy
+  - cpo.cond.disputes-and-complaints
+  - cpo.cond.governing-law
+  - cpo.cond.jurisdiction
+  - cpo.cond.headings-and-references
+- section: end
+  clauses:
+  - cpo.claims.how-to-make-a-claim
+  - cpo.endorsement-library
+  - cpo.end.e01
+  - cpo.end.e02
+  - cpo.end.e03
+  - cpo.end.e04
+  - cpo.end.e05
+  - cpo.end.e06
+  - cpo.end.e07
+  - cpo.end.e08
+  - cpo.end.e09
+  - cpo.end.e10
+  - cpo.end.e11
+  - cpo.licence-notice
