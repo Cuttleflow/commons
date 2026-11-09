@@ -96,8 +96,17 @@ questions:
   - id: qs.trd.cover.liability_limit
     text: Which public and products liability limit do you want?
     type: select
-    options: ['5000000', '10000000', '20000000', '30000000']
-    used_by: R, A, S
+    options: ['5000000', '10000000', '20000000']
+    used_by: R, S
+  - id: qs.trd.cover.liability_excess
+    text: Which liability excess applies to property damage claims?
+    type: select
+    options: ['500']
+    used_by: S
+  - id: qs.trd.cover.higher_limit_required
+    text: Does a contract require a liability limit above $20,000,000?
+    type: yes/no
+    used_by: A
   - id: qs.trd.cover.named_principals
     text: Does a construction contract require a principal to be named on the policy?
     type: yes/no
