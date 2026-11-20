@@ -3,6 +3,7 @@ id: mot.hmv.appendix.default-schedule-values
 type: library
 heading: Default Schedule Values
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -36,6 +37,7 @@ These are the defaults that apply where the Schedule does not show another amoun
 | [[ref:mot.hmv.def.non-owned-trailer]] | Longest continuous lease or hire of a trailer that leaves it a Non-owned trailer | 90 days |
 | [[ref:mot.hmv.obl.tell-us-about-changes]] | Notice before a changed premium or changed terms apply | 14 days |
 | [[ref:mot.hmv.cover.downtime]] | Waiting period; maximum period | 72 hours; 8 weeks |
+| [[ref:mot.hmv.cover.substitute-hire]] | Substitute hire limit; maximum hire period | $5,000 each Powered vehicle each Occurrence; 4 weeks |
 | [[ref:mot.hmv.cover.non-owned-trailers]] | Non-owned trailer limit | $100,000 each trailer each Occurrence |
 | [[ref:mot.hmv.cond.excess]] | Basic excess | $2,500 each vehicle |
 | [[ref:mot.hmv.cond.excess]] | Age excess; age | $1,000; driver under 25 |

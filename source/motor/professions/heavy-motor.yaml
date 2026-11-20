@@ -5,11 +5,11 @@ kicker: Meridian Commons · Heavy Motor
 slug: heavy-motor
 file_stem: Meridian_Heavy_Motor
 doc_ref: 2026/HMV/0001
-version: 1.0.0-DRAFT
+version: 1.1.0-DRAFT
 date: November 2026
 draft: true
 summary: Trucks, prime movers and trailers for owner-drivers and small transport operators, built on the Meridian
-  Commercial Motor base wording, with optional downtime and non-owned trailer cover.
+  Commercial Motor base wording, with optional downtime, substitute vehicle hire and non-owned trailer cover.
 base: mot-base@3.1.0-DRAFT
 endorsement_form: false
 variant_subtitle: Integrated heavy motor wording
@@ -92,8 +92,14 @@ overrides:
   - mot.hmv.cover.downtime
   - mot.hmv.excl.downtime
 - op: add_section
-  section: mot.hmv.section.non-owned-trailers
+  section: mot.hmv.section.substitute-hire
   after: mot.hmv.section.downtime
+  clauses:
+  - mot.hmv.cover.substitute-hire
+  - mot.hmv.excl.substitute-hire
+- op: add_section
+  section: mot.hmv.section.non-owned-trailers
+  after: mot.hmv.section.substitute-hire
   clauses:
   - mot.hmv.cover.non-owned-trailers
   - mot.hmv.excl.non-owned-trailers

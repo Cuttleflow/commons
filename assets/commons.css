@@ -91,3 +91,5 @@
 .article .wnote .nlabel{font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--green);margin-bottom:4px}
 .article .wnote p,.article .wnote li{font-size:13.5px;margin-bottom:4px}
 .article .wnote code{font-family:var(--mono);font-size:11.5px;color:var(--ink-55)}
+
+@media(max-width:700px){.article table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}}
