@@ -1,0 +1,454 @@
+{
+ "wording": "eqf-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/EQF/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "eqf.about",
+   "heading": "About This Policy",
+   "sha256": "c85df1055afcd294f00b1a98e900ed7c2817420b5642c98d80dac1ba7a5eedb1"
+  },
+  {
+   "id": "eqf.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "eqf.important-information",
+   "heading": "Important Information",
+   "sha256": "5a7b91dca9bb518921e9c8055309fdcd8ebb3468206c63a617c238b6fbfb7be4"
+  },
+  {
+   "id": "eqf.schedule",
+   "heading": "Schedule",
+   "sha256": "62a6321b270b9eb4dfafc174b9cb5a3349f4094a2d0a3ba5cdee762874c7209d"
+  },
+  {
+   "id": "eqf.section.definitions",
+   "heading": "Definitions",
+   "sha256": "40862999aa354221e14fff2b3413378930036eecc042ff1c1e8b012ba060b057"
+  },
+  {
+   "id": "eqf.def.accidental-loss-or-damage",
+   "heading": "Accidental Loss or Damage",
+   "sha256": "c72a0438c287d361e3f96109fd92b2f90cec74665b50891ddea1c2d879d75195"
+  },
+  {
+   "id": "eqf.def.business-use",
+   "heading": "Business Use",
+   "sha256": "e09bef4bb31f096b7281d33f7aaf0c3f7a61f42cf01d3a8269a3fda6b14dd227"
+  },
+  {
+   "id": "eqf.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "9fe9500b726b11c058fba30fe220cfae1059539503e402c07929432ae961f39e"
+  },
+  {
+   "id": "eqf.def.event",
+   "heading": "Event",
+   "sha256": "c7d3530c6816994bef771425a4e882affd175bbcfdf8ece92b5441816f3404d7"
+  },
+  {
+   "id": "eqf.def.excess",
+   "heading": "Excess",
+   "sha256": "074018aa6ee3bbcc7c007802752610608c613ba1a6c15ebe1d51f235499ead8f"
+  },
+  {
+   "id": "eqf.def.hired-in-equipment",
+   "heading": "Hired-In Equipment",
+   "sha256": "b5ec83822b4ac893b359b68c5146d5c3681f54f8ff336d124d24526ff71ae61c"
+  },
+  {
+   "id": "eqf.def.insured-property",
+   "heading": "Insured Property",
+   "sha256": "59bcf7f7b638e68624c5aa297f23a8337f5d289353d669bb08a14a4adb25e4e2"
+  },
+  {
+   "id": "eqf.def.excluded-property",
+   "heading": "Excluded Property",
+   "sha256": "bcfe70099936aa9d5a00784b067eb0df6951d9ba4425b5d8be5da71544d2ca7d"
+  },
+  {
+   "id": "eqf.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "74e576e9c521632d6fc34e20a75ac467de73f5a1f09c81151083db02bbdee4cd"
+  },
+  {
+   "id": "eqf.def.portable-equipment",
+   "heading": "Portable Equipment",
+   "sha256": "2322ea44d33ce1f60461f21ffad626306eb64bd5aface4028f44627acb25d003"
+  },
+  {
+   "id": "eqf.def.specified-item",
+   "heading": "Specified Item",
+   "sha256": "b1d228e62619e66a2d5c64e89121cfc4a025dd7c7fc0b7536868d0c74519ff6e"
+  },
+  {
+   "id": "eqf.def.unspecified-tools",
+   "heading": "Unspecified Tools",
+   "sha256": "f4d4c70ed674cd22dd6daef1efbee977a756473eb6a5c6f7f779cfd6874e99d8"
+  },
+  {
+   "id": "eqf.def.unattended",
+   "heading": "Unattended",
+   "sha256": "d3f46829c1aa0afb102c3a8e77b615dfc633bd9577190c7b2b0898c5408a2d24"
+  },
+  {
+   "id": "eqf.def.we-us-our",
+   "heading": "We, Us and Our",
+   "sha256": "67a127ffda621ddd06e27a68367c9de61455edaa5656098311e50e48070d5253"
+  },
+  {
+   "id": "eqf.def.you-your",
+   "heading": "You and Your",
+   "sha256": "fc987fdf738ade93f9f6b8f9f3282d50b7d2133d6ca8ce03eb4a6bb988a1fde3"
+  },
+  {
+   "id": "eqf.section.portable-equipment",
+   "heading": "Portable Equipment",
+   "sha256": "c618ae68b631ccd894c30427598a5ca105a6ae9f7df500c82d69fec497e49073"
+  },
+  {
+   "id": "eqf.cover.portable-equipment",
+   "heading": "Portable Equipment Cover",
+   "sha256": "cb1884327f86e15c01cc8fe38113098a1d82e04eba74813cbd75fc57ebac8c97"
+  },
+  {
+   "id": "eqf.ext.newly-acquired",
+   "heading": "Newly Acquired Equipment",
+   "sha256": "6b5b306e04e415ab699d7beff409ddb15ec505a767c5743ecfcf414e9750daa0"
+  },
+  {
+   "id": "eqf.ext.removal-of-debris",
+   "heading": "Removal of Debris",
+   "sha256": "7adaa1f309728ec3122717e885b4871f5de4d8200dea30b3a3a0ff0c284bd2c9"
+  },
+  {
+   "id": "eqf.ext.locks-and-keys",
+   "heading": "Locks and Keys",
+   "sha256": "3a9e19e7b3f19caead8674a0baed42a43b4669a3feb0d205d8219f70234ee41f"
+  },
+  {
+   "id": "eqf.cond.theft-from-vehicles",
+   "heading": "Theft From an Unattended Vehicle",
+   "sha256": "bf6ed2ea0928d92c824d301bc3ae9ac88df3929ffde765599653c573d741711c"
+  },
+  {
+   "id": "eqf.excl.portable-equipment",
+   "heading": "Portable Equipment Exclusions",
+   "sha256": "df044bb0c1979cdfe382956036c25eca9b19c59919a5d9aee867bee932da2917"
+  },
+  {
+   "id": "eqf.section.hired-in",
+   "heading": "Hired-In Equipment",
+   "sha256": "ad5caf844b78a23fc7c4bd89dcaf56c770dcebd543ee992ebce6756471c0dd72"
+  },
+  {
+   "id": "eqf.cover.hired-in",
+   "heading": "Hired-In Equipment Cover",
+   "sha256": "43db76bb60076ece10607125bc47e09248e5048510a4b3146032f6e9135d7f4c"
+  },
+  {
+   "id": "eqf.section.hire-costs",
+   "heading": "Replacement Hire Costs",
+   "sha256": "3391bdecbe9ed213ca998d10ae3cf9c38c16e17e386cf4a6be53d1d45ac0cc41"
+  },
+  {
+   "id": "eqf.cover.hire-costs",
+   "heading": "Replacement Hire Costs Cover",
+   "sha256": "e4e90a72388ecf7cd9dcc97092750bd6d1b4e193525e0c46b88799ecbc94650f"
+  },
+  {
+   "id": "eqf.section.worldwide",
+   "heading": "Worldwide Use",
+   "sha256": "631832438bafeed0d53112c552a0fd82b4e9407c110ab330fd65d445f494899a"
+  },
+  {
+   "id": "eqf.cover.worldwide",
+   "heading": "Worldwide Use Cover",
+   "sha256": "2e50af6e9f3d037990e6434c2135d1de0e8ca935bec6c50082d11fda154b2306"
+  },
+  {
+   "id": "eqf.section.payment",
+   "heading": "How We Pay",
+   "sha256": "ada5e41ebf2577fc3d4609a0eaaedea1e00435bdec8ec540fe36a60c75f6175d"
+  },
+  {
+   "id": "eqf.pay.basis-of-settlement",
+   "heading": "Basis of Settlement",
+   "sha256": "53c84799338826843396e8d478a39c6119975aae368f99036660b783001a5719"
+  },
+  {
+   "id": "eqf.pay.excess",
+   "heading": "Excess",
+   "sha256": "cd331e1dc496f8be6c08836be6670006237b4e19939439c9b18bc69a40b044f0"
+  },
+  {
+   "id": "eqf.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "a56ee5647c109435ba57f15fac3e0fca981eb11b54ff82e6a587d7da977f6412"
+  },
+  {
+   "id": "eqf.pay.salvage-and-recoveries",
+   "heading": "Salvage and Recoveries",
+   "sha256": "2f2230eae7e5ea613343c051c59bb44b42f26c7d8b8b3372e44eef6c2177c070"
+  },
+  {
+   "id": "eqf.pay.gst",
+   "heading": "GST",
+   "sha256": "a75f8ab6fe3f3b6e30ebaf9b782a63d30ddae1610568169d399d166e93f0efce"
+  },
+  {
+   "id": "eqf.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "506717e317d411418853610375e2dc2e6560902b83654a4a10cfaa3409a0fe09"
+  },
+  {
+   "id": "eqf.section.exclusions",
+   "heading": "What We Do Not Cover",
+   "sha256": "325298c24c845418b68b88661051a5cff367d9fb3b67e9a5806c859c8fa3773f"
+  },
+  {
+   "id": "eqf.excl.excluded-property",
+   "heading": "Excluded Property",
+   "sha256": "a5bbfa09c93379a4d4b692b12a9d4fa067645ad62dddd2ad643d678af3dfe3fe"
+  },
+  {
+   "id": "eqf.excl.dishonesty",
+   "heading": "Dishonesty",
+   "sha256": "2782ce2bcca5390b557381ee48f2ccadaad7e6aa8d42f8217fe2bcd1ef8f7194"
+  },
+  {
+   "id": "eqf.excl.confiscation",
+   "heading": "Confiscation",
+   "sha256": "6827d7dc76202143cbacbe7652f528c627250f0f764600b4992bb31d282c94e3"
+  },
+  {
+   "id": "eqf.excl.consequential-loss",
+   "heading": "Consequential Loss",
+   "sha256": "de2d3733b83f7393f40a4fbb77d3aa026d36c6dadd23ad79988c29720cd4c8b3"
+  },
+  {
+   "id": "eqf.excl.war",
+   "heading": "War",
+   "sha256": "d7968a32468d4bf8e9d33accadca6b51fcb9a2103da0ac821d7aee9c0e44d6d6"
+  },
+  {
+   "id": "eqf.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "a984c9b673efbadf51fae2044014467fddd3f9883841094e2652ef8d99320df3"
+  },
+  {
+   "id": "eqf.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "34ab62a27cabe34b362842ff6b342f4b8cd0a9384612606a47bee64a5d0ec47a"
+  },
+  {
+   "id": "eqf.excl.cyber",
+   "heading": "Cyber",
+   "sha256": "94af6e2e5587cc5d83d1661fac8fb961be139f9ebfe175f12f6fcec8d6433356"
+  },
+  {
+   "id": "eqf.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "539d370b3a920f6020a336bff6c8b1b5aae5d846650bb5a97356425aa3920372"
+  },
+  {
+   "id": "eqf.obl.tell-us-about-loss",
+   "heading": "Tell Us About Loss",
+   "sha256": "cae53799685924ae7aede01e4cfe7d76a6f3b38e80019d6830c0c1e21d6be7cb"
+  },
+  {
+   "id": "eqf.obl.reasonable-precautions",
+   "heading": "Reasonable Precautions",
+   "sha256": "8f748e36122e20deef556ee01e455e0a5e6f4144a4e2aa760bb9651c21b282b7"
+  },
+  {
+   "id": "eqf.obl.records",
+   "heading": "Records",
+   "sha256": "d8c1f7a178110d4a213ef39147dd1a309914f12fc7c35b1fc6381caba834188b"
+  },
+  {
+   "id": "eqf.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "ddd92834ebeabf9d48002da9880682dd7c8350ee37dc8ba0701efbb606cf4324"
+  },
+  {
+   "id": "eqf.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "48e8a54a814af1ae65a9a7bc049c48f01d03dbd89dbff8f45228e7ad10d73ce7"
+  },
+  {
+   "id": "eqf.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "f6fb50e76457e062e91716c11c7bb7a451ce3e915cb112515fc5f17280d4139e"
+  },
+  {
+   "id": "eqf.cond.order-of-precedence",
+   "heading": "Order of Precedence",
+   "sha256": "5f7dc820a32dfa34d7361f37e028c7e9964e4aaf46a39004917801192de6d9bd"
+  },
+  {
+   "id": "eqf.cond.subrogation",
+   "heading": "Our Rights of Recovery",
+   "sha256": "4f37654dcf1fdcbd0cf940dd56dd936c4b2492c20858b76c1237c47662d57e22"
+  },
+  {
+   "id": "eqf.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "7c148b71920337b2bd4d8839b102ffc214fc96a34b48f0df26af753a84f56a2b"
+  },
+  {
+   "id": "eqf.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "5ba52d19ab90443ea6b2198a22945a8def05fcb16abf4bdcae943f6728c7bdb5"
+  },
+  {
+   "id": "eqf.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "eqf.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "b53d2b098138a4cc672026a83a519ee805d6707624b3bae18b22f6653e604cee"
+  },
+  {
+   "id": "eqf.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "a0d68a92ead961cd5232cb254d671bae8084b1c8f57d3f601cbf63ab5a711875"
+  },
+  {
+   "id": "eqf.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "626ac052c48e3b0d195de65ac398804b4ddaa8a418b6bca0af408d6808bba700"
+  },
+  {
+   "id": "eqf.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "eqf.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "eqf.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "c969490025660f614336f4ba204d777276873dead2067360a0622dd2f2325166"
+  },
+  {
+   "id": "eqf.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "6548d2d12f79e6db614fbe7b8f49b7a5a0d948c23f4a5bcff73c88872079a194"
+  },
+  {
+   "id": "eqf.end.e01",
+   "heading": "E01 Open Site Storage",
+   "sha256": "e3a3cb271acfe61149f3f76a3549ae98eb2cf5f8d56759b47f84933d28b4a702"
+  },
+  {
+   "id": "eqf.end.e02",
+   "heading": "E02 Employees' Tools",
+   "sha256": "9684f97042f0ddb7ad6ac3e02589eedb9efa521d8031331058902309bb8958d5"
+  },
+  {
+   "id": "eqf.end.e03",
+   "heading": "E03 Overnight Vehicle Storage",
+   "sha256": "3b2535e2e092a072154a781a04b8651b7ad7862e5e46905c14d07f329ec72f5f"
+  },
+  {
+   "id": "eqf.licence-notice",
+   "heading": "Licence",
+   "sha256": "82ac8effe7ec91057dbf8bf0134db12a4de18dd48e1adc93df5558aef6f61894"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "eqf.end.e01",
+   "heading": "E01 Open Site Storage",
+   "trigger": {
+    "questions": [
+     "qs.eqf.security.open_site_overnight"
+    ],
+    "rules": [
+     {
+      "when": "qs.eqf.security.open_site_overnight == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you leave equipment on site in the open overnight.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.eqf.security.open_site_overnight",
+     "text": "Do you leave equipment on a site in the open overnight?",
+     "type": "boolean",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "eqf.end.e02",
+   "heading": "E02 Employees' Tools",
+   "trigger": {
+    "questions": [
+     "qs.eqf.equipment.employees_tools"
+    ],
+    "rules": [
+     {
+      "when": "qs.eqf.equipment.employees_tools == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you want your employees' tools insured."
+   },
+   "questions": [
+    {
+     "id": "qs.eqf.equipment.employees_tools",
+     "text": "Do you want your employees' tools insured?",
+     "type": "boolean",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "eqf.end.e03",
+   "heading": "E03 Overnight Vehicle Storage",
+   "trigger": {
+    "questions": [
+     "qs.eqf.security.overnight_storage"
+    ],
+    "rules": [
+     {
+      "when": "qs.eqf.security.overnight_storage == VEHICLE",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because your equipment is kept in a vehicle overnight."
+   },
+   "questions": [
+    {
+     "id": "qs.eqf.security.overnight_storage",
+     "text": "Where is the equipment usually kept overnight?",
+     "type": "select",
+     "options": [
+      "BUILDING",
+      "VEHICLE",
+      "SITE_CONTAINER"
+     ],
+     "used_by": "R, E03"
+    }
+   ]
+  }
+ ],
+ "sha256": "2dc6f9518f443e67d4b676176ecb82bc59b5b257157ad55d90bdc05761804796"
+}

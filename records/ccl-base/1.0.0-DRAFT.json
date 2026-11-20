@@ -1,0 +1,860 @@
+{
+ "wording": "ccl-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/CCL/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "ccl.about",
+   "heading": "About This Policy",
+   "sha256": "8f725c4286fe29b9223c422703e2b37b9687a9c94cb1b07f06f6c768d89aaa92"
+  },
+  {
+   "id": "ccl.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "ccl.important-information",
+   "heading": "Important Information",
+   "sha256": "bc4c064d7a2781644ff5f8d809b1413d67cd442250329b2fdfdc3946e93b10b6"
+  },
+  {
+   "id": "ccl.schedule",
+   "heading": "Schedule",
+   "sha256": "f43fec3fad9819836703faafe9a96e6d3535082397a11f01c6fd7ce0c7ddecd8"
+  },
+  {
+   "id": "ccl.section.definitions",
+   "heading": "Definitions",
+   "sha256": "40862999aa354221e14fff2b3413378930036eecc042ff1c1e8b012ba060b057"
+  },
+  {
+   "id": "ccl.def.accumulation-limit",
+   "heading": "Accumulation Limit",
+   "sha256": "6efdf84207b7f13612607e14a11f41076d9cc9c7cdd987cdcf0bf6069c2cadbd"
+  },
+  {
+   "id": "ccl.def.approved-terms",
+   "heading": "Approved Terms",
+   "sha256": "4031941af9e8a175c399b8b7e55a9fae251bdd1a378c8a7bb29e0f9c78942eea"
+  },
+  {
+   "id": "ccl.def.bulk-dangerous-goods",
+   "heading": "Bulk Dangerous Goods",
+   "sha256": "d7fcd110370da8f84616464e4fa17872ec7c012de7015455918ef872e7ee1512"
+  },
+  {
+   "id": "ccl.def.consignment",
+   "heading": "Consignment",
+   "sha256": "64b532f781cbf8f966b5556ced8cf0fced8c953389bce475edba5642034749e5"
+  },
+  {
+   "id": "ccl.def.conveying-vehicle",
+   "heading": "Conveying Vehicle",
+   "sha256": "4b579d5483e5f0cc615708e7e4d915d2632921b959f3ccc1dca26048bb3d57e4"
+  },
+  {
+   "id": "ccl.def.dangerous-goods",
+   "heading": "Dangerous Goods",
+   "sha256": "e0412da538fc4a85cd4fc3c2189174930a8ed6c3a10caa989b7ab4a370f546eb"
+  },
+  {
+   "id": "ccl.def.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "3e1402cd315b2f752c6cb08e0bd7078ecf370126dbee1b329d584ca6edab4eb8"
+  },
+  {
+   "id": "ccl.def.depot",
+   "heading": "Depot",
+   "sha256": "c2d59edbfb6cdf16c14c9b6508fa8c25e0cf473fc31238a9c11005e1acc6877e"
+  },
+  {
+   "id": "ccl.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "9fe9500b726b11c058fba30fe220cfae1059539503e402c07929432ae961f39e"
+  },
+  {
+   "id": "ccl.def.event",
+   "heading": "Event",
+   "sha256": "c7d3530c6816994bef771425a4e882affd175bbcfdf8ece92b5441816f3404d7"
+  },
+  {
+   "id": "ccl.def.excess",
+   "heading": "Excess",
+   "sha256": "074018aa6ee3bbcc7c007802752610608c613ba1a6c15ebe1d51f235499ead8f"
+  },
+  {
+   "id": "ccl.def.goods",
+   "heading": "Goods",
+   "sha256": "3328268cbe80d5618ba7ff5b35701190a187bad04ea69bbbf7b8d050db6cad57"
+  },
+  {
+   "id": "ccl.def.excluded-goods",
+   "heading": "Excluded Goods",
+   "sha256": "9ee37b672e58110b4f84ba9110536f81b094faa32fedd1af71e8ab8658916fa9"
+  },
+  {
+   "id": "ccl.def.gross-freight-earnings",
+   "heading": "Gross Freight Earnings",
+   "sha256": "34011858e48743569ee66f9e34932c6eaa1e6959fafdaabef4fdd70d28a1e21d"
+  },
+  {
+   "id": "ccl.def.insured-transit",
+   "heading": "Insured Transit",
+   "sha256": "04af35ce7aa806469cc7d84428bd3a47211887c7e194f39183d766e3db5d3cdf"
+  },
+  {
+   "id": "ccl.def.limit-any-one-vehicle",
+   "heading": "Limit Any One Vehicle",
+   "sha256": "33e21353e11388674913aea0aa0a181f8318adc34baabe0f79dc7d01b2892286"
+  },
+  {
+   "id": "ccl.def.livestock",
+   "heading": "Livestock",
+   "sha256": "57ff9f7755c8aae072fcf6c1d625b9b6e033947b0f2600755fddb6a5ea3c86d8"
+  },
+  {
+   "id": "ccl.def.nominated-client",
+   "heading": "Nominated Client",
+   "sha256": "a459bae09917ddaea85a564dc66f7d1723f96743472fbdf085b7d2ba05a7304d"
+  },
+  {
+   "id": "ccl.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "74e576e9c521632d6fc34e20a75ac467de73f5a1f09c81151083db02bbdee4cd"
+  },
+  {
+   "id": "ccl.def.powered-unit",
+   "heading": "Powered Unit",
+   "sha256": "af7700316f4e9cc696a042ccd903e479736fbc4d080b65bef799ca5603fec95d"
+  },
+  {
+   "id": "ccl.def.refrigerated-goods",
+   "heading": "Refrigerated Goods",
+   "sha256": "7ffe0f8215a971c7660809daee22d07ec9ba71c8be54c119ec65abb12672d66a"
+  },
+  {
+   "id": "ccl.def.subcontractor",
+   "heading": "Subcontractor",
+   "sha256": "25b6e7c4df67fcd43fda0c8525f716eb7763f0b3e90d402ec606ae2983d538a6"
+  },
+  {
+   "id": "ccl.def.temporary-storage",
+   "heading": "Temporary Storage",
+   "sha256": "296871c9876c6d0fd7da56bb870874358779145281c004e80b98a06e8fb141ba"
+  },
+  {
+   "id": "ccl.def.we-us-our",
+   "heading": "We, Us and Our",
+   "sha256": "67a127ffda621ddd06e27a68367c9de61455edaa5656098311e50e48070d5253"
+  },
+  {
+   "id": "ccl.def.you-your",
+   "heading": "You and Your",
+   "sha256": "20f8bbd57bea0eaf50b90097c8094f8836cc68a0d7e68c0cdc47aa6b6d046434"
+  },
+  {
+   "id": "ccl.section.transit",
+   "heading": "The Insured Transit",
+   "sha256": "3538659dd272fae179258fdbb8a629b28c15708c7edf6490a98dc54bc2f173dc"
+  },
+  {
+   "id": "ccl.cover.transit",
+   "heading": "When Cover Starts and Ends",
+   "sha256": "549f9bde285fa804e4f1a820d7e6fbe3e9ab639a88bd7c96e04da677e4a0f73c"
+  },
+  {
+   "id": "ccl.cover.temporary-storage",
+   "heading": "Goods Held at a Depot",
+   "sha256": "d335bb5d714d75f6e5f0a54c2123af623bbe57abdf8e31f967c4640c3cf98b09"
+  },
+  {
+   "id": "ccl.cover.subcontractors",
+   "heading": "Goods Carried by Subcontractors",
+   "sha256": "dc2e7c9bc1835a7edb361e5f0c1b44394878c3b3fd1dbe200c18238e3a1853cb"
+  },
+  {
+   "id": "ccl.section.basic-load",
+   "heading": "Basic Load",
+   "sha256": "0de269d2ead98d92db5757d32e9382c21a37618b515bf7973b82fba1922934db"
+  },
+  {
+   "id": "ccl.cover.basic-load",
+   "heading": "Basic Load Cover",
+   "sha256": "e71fef7ce38f1b9366f08dff93a3be2be7e69531d894a93a435309784a19a72c"
+  },
+  {
+   "id": "ccl.section.standard-perils",
+   "heading": "Standard Perils",
+   "sha256": "725ae8225d975567634c60a368c4479ef2f13bd43b5cd12cb238b8b7227e2eb4"
+  },
+  {
+   "id": "ccl.cover.standard-perils",
+   "heading": "Standard Perils Cover",
+   "sha256": "29a0ab9d2eb4944ef114f7dc89fdd5399bbad35c4ad0b2764137429551a31289"
+  },
+  {
+   "id": "ccl.cond.theft-security",
+   "heading": "Theft From an Unattended Vehicle",
+   "sha256": "e9bb59e86e11a1a8407f6390e5e0550cb29aff05f4cec69afa35e21f40b4277c"
+  },
+  {
+   "id": "ccl.section.comprehensive",
+   "heading": "Comprehensive",
+   "sha256": "4f1f4003b9cda8fbf56f56704237dce1f5b76d8ba465ac310f8bc39a3b1f5c0b"
+  },
+  {
+   "id": "ccl.cover.comprehensive",
+   "heading": "Comprehensive Cover",
+   "sha256": "53cf002a11c2a0fd73d441779ebc030bca514f39b81fa92ac9873568e9599f57"
+  },
+  {
+   "id": "ccl.section.nominated-clients",
+   "heading": "Nominated Clients",
+   "sha256": "7a82b34d7644580a9388591ed959fb747bdc396ea456de5f936171e239c8a06d"
+  },
+  {
+   "id": "ccl.cover.nominated-clients",
+   "heading": "Nominated Clients Cover",
+   "sha256": "b83b6503cefedd872c323813c93f5abc258f93f0c7fc4ec1b582e59fa8b5ac83"
+  },
+  {
+   "id": "ccl.section.refrigeration",
+   "heading": "Refrigeration Breakdown",
+   "sha256": "80b46e3c16ee1729fba4929717a36443efef8263680bba77ac4d3d2905456de0"
+  },
+  {
+   "id": "ccl.cover.refrigeration-breakdown",
+   "heading": "Refrigeration Breakdown Cover",
+   "sha256": "607bdd1be1abf1f89c3ce5d4c4ef14c66ef9af2134f6c37a2579cd56adba118a"
+  },
+  {
+   "id": "ccl.excl.refrigeration",
+   "heading": "Refrigeration Section Exclusions",
+   "sha256": "cb1bd127fdb0dfcc0510d7fc0cb2571f6482577cfd2d137ceb361c796228c755"
+  },
+  {
+   "id": "ccl.section.legal-liability",
+   "heading": "Legal Liability",
+   "sha256": "67c78711cb81a5e6608b2004cd7e3900fcf2d8875483894fbed6b29bfe3856c7"
+  },
+  {
+   "id": "ccl.cover.legal-liability",
+   "heading": "Carrier's Legal Liability",
+   "sha256": "efa31307241b1372fffc4e37af8182e64e8a50e55ab8151ad7708e364c63723a"
+  },
+  {
+   "id": "ccl.cover.subcontractor-liability",
+   "heading": "Liability as a Subcontractor",
+   "sha256": "ba5e96c932416387816913afd2ebfa412abf3251085cae76e30b056429c01169"
+  },
+  {
+   "id": "ccl.cover.defence-costs",
+   "heading": "Defence Costs",
+   "sha256": "7bbf1de2f3a51d18c3f10310df4bdddde9f74b6eca99bfce80b4f8cc42915bc3"
+  },
+  {
+   "id": "ccl.pay.measure-of-liability",
+   "heading": "Measure of Liability",
+   "sha256": "068b96e4f9aa6f412f80d6d990c105a34324fe1d67a1713ea30ffd208cb85a0d"
+  },
+  {
+   "id": "ccl.excl.legal-liability",
+   "heading": "Legal Liability Exclusions",
+   "sha256": "31b8c0184742705abd6844c157b97c12946d2585bd18abdac3cf3ec95b375f97"
+  },
+  {
+   "id": "ccl.section.additional-benefits",
+   "heading": "Additional Benefits",
+   "sha256": "0a3e789dcfc17b3e08214def29706b6f6f6c526bd16020b4dcfd6f89c7b957f5"
+  },
+  {
+   "id": "ccl.ext.onforwarding",
+   "heading": "Onforwarding",
+   "sha256": "4abca9ff445718c34795e844d962f0bb8f1cf911ff32085e10489acd3066167f"
+  },
+  {
+   "id": "ccl.ext.debris-removal",
+   "heading": "Debris Removal and Clean-Up",
+   "sha256": "cf4c8ba3b81b976720d0b3ddfabf2fc95a5cf298b61a2603845c4b293a0ec01b"
+  },
+  {
+   "id": "ccl.ext.packaging-and-containers",
+   "heading": "Packaging and Containers",
+   "sha256": "7236d44b22f0cfc3a649aa1bb62f515df083d16331d5c3fa6d79ad78049f85b2"
+  },
+  {
+   "id": "ccl.ext.carriers-equipment",
+   "heading": "Carrier's Equipment",
+   "sha256": "471d7b38dc2dd9e65d6b24e01ca1e8219c040066f4a093ef302cfca97d8f42fd"
+  },
+  {
+   "id": "ccl.ext.resecuring",
+   "heading": "Resecuring a Load",
+   "sha256": "f639fcd528f43b71f1f86e9964c7e55420b40e80e476acb00f7a4e4805b57031"
+  },
+  {
+   "id": "ccl.ext.fumigation-and-quarantine",
+   "heading": "Fumigation and Quarantine",
+   "sha256": "d61b08ab4db31ee36c6c6cf841f2d1a6dce7ec5ce1666356f944be081579eb85"
+  },
+  {
+   "id": "ccl.ext.additional-expenses",
+   "heading": "Additional Expenses",
+   "sha256": "b87f0f03b443b7143dfdf9a4d61685853502adb6f568bc285c122d53b906716c"
+  },
+  {
+   "id": "ccl.ext.general-average",
+   "heading": "General Average and Salvage",
+   "sha256": "0770570de797f7b92e418d7bce19c8d6030aec2675710b1940b8da8c08e6cb51"
+  },
+  {
+   "id": "ccl.ext.personal-effects",
+   "heading": "Driver's Personal Effects",
+   "sha256": "37f32a244b1661060809e188c88615a7ec2fca1f6c369162979670d97cb70460"
+  },
+  {
+   "id": "ccl.ext.accumulation",
+   "heading": "Accumulation at a Depot",
+   "sha256": "433c713384e439b0d2758f780de0fbbe69bac0ead6ef3c3478ec8e07d14e91d0"
+  },
+  {
+   "id": "ccl.section.payment",
+   "heading": "How We Pay",
+   "sha256": "ada5e41ebf2577fc3d4609a0eaaedea1e00435bdec8ec540fe36a60c75f6175d"
+  },
+  {
+   "id": "ccl.pay.basis-of-valuation",
+   "heading": "Basis of Valuation",
+   "sha256": "a4961b02d53a8d25c5cfd4d4a0279db8346d10242d71de545a12856689659724"
+  },
+  {
+   "id": "ccl.pay.limits",
+   "heading": "Limits",
+   "sha256": "8933c0a2596714c9255141bf2a1b282d7019bc7b64227daf0e8d914b1e759eca"
+  },
+  {
+   "id": "ccl.pay.one-section",
+   "heading": "One Section for Each Loss",
+   "sha256": "e5a28bc9995a7a5de27576092c3c9f16bd91e04a0084d74b1a66ce211352cd3e"
+  },
+  {
+   "id": "ccl.pay.excess",
+   "heading": "Excess",
+   "sha256": "c0adf9545fcc32d0e8d922712be9c1cea7d6fee95d95caca2d29116f625b0dba"
+  },
+  {
+   "id": "ccl.pay.premium-adjustment",
+   "heading": "Premium Adjustment",
+   "sha256": "506d4309bbb58b71cbd8d0333ae0006295c4945fbbebe68bb0d7867a4f265f45"
+  },
+  {
+   "id": "ccl.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "d8416916265ab87c6f3b97bd618f6168c07eeeb07d0a237952cf01b8abf49c3f"
+  },
+  {
+   "id": "ccl.pay.salvage-and-recoveries",
+   "heading": "Salvage and Recoveries",
+   "sha256": "9bc3d4bc14c4d232df7904aa0a9f7ecd88c757026327753719416ced45484b2b"
+  },
+  {
+   "id": "ccl.pay.gst",
+   "heading": "GST",
+   "sha256": "a75f8ab6fe3f3b6e30ebaf9b782a63d30ddae1610568169d399d166e93f0efce"
+  },
+  {
+   "id": "ccl.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "3172dcb5843b8db3240251fe82642b3ee3f52c0de2b23f19317b6428a9e9f6db"
+  },
+  {
+   "id": "ccl.section.exclusions",
+   "heading": "What We Do Not Cover",
+   "sha256": "325298c24c845418b68b88661051a5cff367d9fb3b67e9a5806c859c8fa3773f"
+  },
+  {
+   "id": "ccl.excl.excluded-goods",
+   "heading": "Excluded Goods",
+   "sha256": "627ea1128d58772d272c50beeab21d9f0757d415d352d164280192ba3fb84dab"
+  },
+  {
+   "id": "ccl.excl.inherent-vice",
+   "heading": "Inherent Vice and Ordinary Loss",
+   "sha256": "3b117797b2b82a555436992d7bea24adea0b64fb8c1a619d37797723c97a4f88"
+  },
+  {
+   "id": "ccl.excl.packing",
+   "heading": "Insufficient Packing",
+   "sha256": "290aa6c10b5af4a1af7fdb5eba8fd729cb8d2f30ceb054eb2b547d1190dc5bbe"
+  },
+  {
+   "id": "ccl.excl.delay-and-market",
+   "heading": "Delay and Loss of Market",
+   "sha256": "38490fa3e8499421880d2548637c3e5b6008c27f00a7cfc5655a1d8b36e884a6"
+  },
+  {
+   "id": "ccl.excl.dishonesty",
+   "heading": "Dishonesty",
+   "sha256": "92be74cfe34eafa38c266bc65260a06da6b12cd0a064ac43e5dda8b513cc6bc4"
+  },
+  {
+   "id": "ccl.excl.unroadworthy-and-unlicensed",
+   "heading": "Unroadworthy Vehicles and Unlicensed Drivers",
+   "sha256": "1f5cfb0cb463d9a5aabbacdefa6d1c33f050198593775624c5bd36f93ff64ee2"
+  },
+  {
+   "id": "ccl.excl.mechanical-breakdown",
+   "heading": "Breakdown of the Conveying Vehicle",
+   "sha256": "4dccb02cf02574b77e8550ae835a772f74681490a7efd27214be2612d384c2d9"
+  },
+  {
+   "id": "ccl.excl.fines-and-penalties",
+   "heading": "Fines and Penalties",
+   "sha256": "889269265cb0be08851e5ff0894dd93b88587a943b0ccb472263d17f9a1a8268"
+  },
+  {
+   "id": "ccl.excl.war",
+   "heading": "War",
+   "sha256": "76fdd94b299084507a9c1502fa274b7047aa2e7f65cb3c1320d43f629f4966d3"
+  },
+  {
+   "id": "ccl.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "a984c9b673efbadf51fae2044014467fddd3f9883841094e2652ef8d99320df3"
+  },
+  {
+   "id": "ccl.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "34ab62a27cabe34b362842ff6b342f4b8cd0a9384612606a47bee64a5d0ec47a"
+  },
+  {
+   "id": "ccl.excl.cyber",
+   "heading": "Cyber",
+   "sha256": "d3c72d19031423323c23b18a1e586731f5105bff26a01a5e8c9dfe8c462ccf8b"
+  },
+  {
+   "id": "ccl.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "539d370b3a920f6020a336bff6c8b1b5aae5d846650bb5a97356425aa3920372"
+  },
+  {
+   "id": "ccl.obl.tell-us-about-loss",
+   "heading": "Tell Us About Loss",
+   "sha256": "89ae2b8d54c124f25b6d733103dd4dbe23bbb1ff8bc195265549794aed5b3e43"
+  },
+  {
+   "id": "ccl.obl.reduce-loss",
+   "heading": "Reduce the Loss",
+   "sha256": "3f04644758e8b49ffa6a666a5cfe16332efdf6ec6a17af89298b6b1b39b620ca"
+  },
+  {
+   "id": "ccl.obl.terms-of-carriage",
+   "heading": "Use Your Terms of Carriage",
+   "sha256": "271b57293ff55c344b5a41a6d9c43f140d8df4cd7db62f4ddfa73816c4949b3a"
+  },
+  {
+   "id": "ccl.obl.admissions",
+   "heading": "Admissions",
+   "sha256": "ef77e271dc402b73854a81665df7b369e90b26892f8bae4cd7b1b7e7d703deed"
+  },
+  {
+   "id": "ccl.obl.rights-against-others",
+   "heading": "Rights Against Others",
+   "sha256": "cd0466dbc4c601ea104a8830f69db0bb091197533ea17642af29e1bf06595040"
+  },
+  {
+   "id": "ccl.obl.records",
+   "heading": "Records",
+   "sha256": "abe1958dc6574cd56235095e4756828c68e59fc977667734a3621e828b2c27e5"
+  },
+  {
+   "id": "ccl.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "fe4f7d88bc52d1e01ad8037d80afee515f783677187ffdfb25bc74055251d2bb"
+  },
+  {
+   "id": "ccl.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "48e8a54a814af1ae65a9a7bc049c48f01d03dbd89dbff8f45228e7ad10d73ce7"
+  },
+  {
+   "id": "ccl.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "1ee1207458adf04429b063625fc8cfa29537c79010495341fe4ce1ad8f30e19a"
+  },
+  {
+   "id": "ccl.cond.order-of-precedence",
+   "heading": "Order of Precedence",
+   "sha256": "5f7dc820a32dfa34d7361f37e028c7e9964e4aaf46a39004917801192de6d9bd"
+  },
+  {
+   "id": "ccl.cond.subrogation",
+   "heading": "Our Rights of Recovery",
+   "sha256": "625bc2097cb5dea012e9341bed3dee4040ca2f1bc2d414deb79132af86aa0a79"
+  },
+  {
+   "id": "ccl.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "3f9056b257f1b969c104c191fd1dbb4d3d62f157a0ac69b0fa71dc66f4ecd4e6"
+  },
+  {
+   "id": "ccl.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "5ba52d19ab90443ea6b2198a22945a8def05fcb16abf4bdcae943f6728c7bdb5"
+  },
+  {
+   "id": "ccl.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "ccl.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "b53d2b098138a4cc672026a83a519ee805d6707624b3bae18b22f6653e604cee"
+  },
+  {
+   "id": "ccl.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "a0d68a92ead961cd5232cb254d671bae8084b1c8f57d3f601cbf63ab5a711875"
+  },
+  {
+   "id": "ccl.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "626ac052c48e3b0d195de65ac398804b4ddaa8a418b6bca0af408d6808bba700"
+  },
+  {
+   "id": "ccl.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "ccl.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "ccl.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "718e846a3b9f6f0f8ce7a2dfda4ed59a09355ee94d414607ba66dbf4645a326b"
+  },
+  {
+   "id": "ccl.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "69b7b3faf337439057aeeab8c1a37a9dd7e581b69164bec51a02345fa09af3bd"
+  },
+  {
+   "id": "ccl.end.e01",
+   "heading": "E01 Livestock",
+   "sha256": "2ccabd56eec2b82c57c4b689803e68239ae87405b8e6bec90e5eaee4710f08f5"
+  },
+  {
+   "id": "ccl.end.e02",
+   "heading": "E02 Refrigerated Goods",
+   "sha256": "f31497fd1e6f978ac4da68ae2d7882c08c9ce8a143add4e25c7dc16c72d62376"
+  },
+  {
+   "id": "ccl.end.e03",
+   "heading": "E03 Household Removals",
+   "sha256": "e329b163ca9b85776f49f8d6982f106132713d7d8c8d44846831943ca720915a"
+  },
+  {
+   "id": "ccl.end.e04",
+   "heading": "E04 Dangerous Goods",
+   "sha256": "de0f38798b1c658aa6dcb45000754f7ea20ffad19cbf5aa43d68019289c99f08"
+  },
+  {
+   "id": "ccl.end.e05",
+   "heading": "E05 Sea Leg to Tasmania and Islands",
+   "sha256": "6e56adf319c00697372ce7c6e05184171ed24d7e94abd30b92138f5093535b6f"
+  },
+  {
+   "id": "ccl.end.e06",
+   "heading": "E06 Increased Accumulation",
+   "sha256": "5c12742d7b57d55c68e117cbf68e3be98b06c1ef06bec18a456f3cae973e7011"
+  },
+  {
+   "id": "ccl.end.e07",
+   "heading": "E07 Nominated Clients",
+   "sha256": "d73444fa86e1bf507d3b5a158a9d66d240b32a2967a4c27cc2ce779912a54abf"
+  },
+  {
+   "id": "ccl.end.e08",
+   "heading": "E08 Terms of Carriage Not Approved",
+   "sha256": "c3dbdd924a2130225cbe3556ac4e8af964e3b823dec3aea89b6f97b0135a7c85"
+  },
+  {
+   "id": "ccl.end.e09",
+   "heading": "E09 Extended Storage",
+   "sha256": "ea635e8c93a49b9655ca0f62313b6a58ebcbb5d4bcd37878b84b49e870ad4537"
+  },
+  {
+   "id": "ccl.licence-notice",
+   "heading": "Licence",
+   "sha256": "82ac8effe7ec91057dbf8bf0134db12a4de18dd48e1adc93df5558aef6f61894"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "ccl.end.e01",
+   "heading": "E01 Livestock",
+   "trigger": {
+    "questions": [
+     "qs.ccl.operations.livestock"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.operations.livestock == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you carry livestock.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.operations.livestock",
+     "text": "Do you carry livestock?",
+     "type": "boolean",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "ccl.end.e02",
+   "heading": "E02 Refrigerated Goods",
+   "trigger": {
+    "questions": [
+     "qs.ccl.operations.refrigerated_goods"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.operations.refrigerated_goods == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you carry refrigerated goods."
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.operations.refrigerated_goods",
+     "text": "Do you carry refrigerated goods?",
+     "type": "boolean",
+     "used_by": "A, E02"
+    }
+   ]
+  },
+  {
+   "id": "ccl.end.e03",
+   "heading": "E03 Household Removals",
+   "trigger": {
+    "questions": [
+     "qs.ccl.operations.household_removals"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.operations.household_removals == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you carry household removals.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.operations.household_removals",
+     "text": "Do you carry household removals?",
+     "type": "boolean",
+     "used_by": "A, E03"
+    }
+   ]
+  },
+  {
+   "id": "ccl.end.e04",
+   "heading": "E04 Dangerous Goods",
+   "trigger": {
+    "questions": [
+     "qs.ccl.operations.dangerous_goods"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.operations.dangerous_goods == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you carry dangerous goods in packages.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.operations.dangerous_goods",
+     "text": "Do you carry dangerous goods in packages?",
+     "type": "boolean",
+     "used_by": "A, E04"
+    }
+   ]
+  },
+  {
+   "id": "ccl.end.e05",
+   "heading": "E05 Sea Leg to Tasmania and Islands",
+   "trigger": {
+    "questions": [
+     "qs.ccl.operations.sea_leg"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.operations.sea_leg == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because your transits include a sea leg to Tasmania or an island."
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.operations.sea_leg",
+     "text": "Do your transits include a sea leg to Tasmania or another Australian island?",
+     "type": "boolean",
+     "used_by": "E05"
+    }
+   ]
+  },
+  {
+   "id": "ccl.end.e06",
+   "heading": "E06 Increased Accumulation",
+   "trigger": {
+    "questions": [
+     "qs.ccl.operations.depot_max_value"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.operations.depot_max_value > 1000000",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the most you hold at one depot is ${qs.ccl.operations.depot_max_value}.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.operations.depot_max_value",
+     "text": "What is the most value of goods you hold at any one depot at one time?",
+     "type": "number",
+     "used_by": "A, E06"
+    }
+   ]
+  },
+  {
+   "id": "ccl.end.e07",
+   "heading": "E07 Nominated Clients",
+   "trigger": {
+    "questions": [
+     "qs.ccl.cover.nominated_clients"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.cover.nominated_clients == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you chose accidental damage cover for nominated clients."
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.cover.nominated_clients",
+     "text": "Do you want accidental damage cover for nominated clients or commodities?",
+     "type": "boolean",
+     "used_by": "R, A, E07"
+    }
+   ]
+  },
+  {
+   "id": "ccl.end.e08",
+   "heading": "E08 Terms of Carriage Not Approved",
+   "trigger": {
+    "questions": [
+     "qs.ccl.cover.legal_liability",
+     "qs.ccl.operations.trading_conditions_approved"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.cover.legal_liability == true and qs.ccl.operations.trading_conditions_approved == false",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you chose legal liability cover and your terms of carriage are not yet approved.",
+    "responses": [
+     "Attach",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.cover.legal_liability",
+     "text": "Do you want Legal Liability cover?",
+     "type": "boolean",
+     "used_by": "R, A, S, E08"
+    },
+    {
+     "id": "qs.ccl.operations.trading_conditions_approved",
+     "text": "Do you use written terms of carriage that limit your liability, and has the insurer approved them?",
+     "type": "boolean",
+     "used_by": "A, E08"
+    }
+   ]
+  },
+  {
+   "id": "ccl.end.e09",
+   "heading": "E09 Extended Storage",
+   "trigger": {
+    "questions": [
+     "qs.ccl.operations.storage_over_30_days"
+    ],
+    "rules": [
+     {
+      "when": "qs.ccl.operations.storage_over_30_days == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you hold goods at a depot for more than 30 days.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.ccl.operations.storage_over_30_days",
+     "text": "Do you hold goods at a depot for more than 30 days?",
+     "type": "boolean",
+     "used_by": "A, E09"
+    }
+   ]
+  }
+ ],
+ "sha256": "d3fce4d5c83174aec7de60bbf6819649de020d1b2c7125639b511203c975404a"
+}

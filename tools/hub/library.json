@@ -1,0 +1,492 @@
+{
+ "_note": "Single source for the Commons hub list (index.html) and the related-wordings block on each wording page (assets/library.js). Edit here, then run: python3 tools/hub/build_hub.py",
+ "groups": [
+  {
+   "id": "pi",
+   "name": "Professional indemnity",
+   "blurb": "Claims-made cover for advice and professional services. Profession wordings are built on the core forms.",
+   "subgroups": [
+    {
+     "label": null,
+     "slugs": [
+      "professional-indemnity",
+      "financial-services-professional-indemnity",
+      "technology-liability"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ml",
+   "name": "Management liability, D&O, crime and cyber",
+   "blurb": "Cover for companies, their directors and officers, and losses from fraud and cyber events.",
+   "subgroups": [
+    {
+     "label": null,
+     "slugs": [
+      "directors-and-officers",
+      "side-a-do",
+      "management-liability",
+      "investment-management-insurance",
+      "crime",
+      "cyber"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "med",
+   "name": "Medical",
+   "blurb": "Malpractice cover for allied health practitioners and medical establishments.",
+   "subgroups": [
+    {
+     "label": null,
+     "slugs": [
+      "allied-health",
+      "medical-establishments"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "liab",
+   "name": "Liability and construction",
+   "blurb": "Third-party liability, excess layers, and construction and plant risks.",
+   "subgroups": [
+    {
+     "label": null,
+     "slugs": [
+      "public-and-products-liability",
+      "excess-of-loss",
+      "umbrella-liability",
+      "environmental-liability",
+      "product-recall-and-contamination",
+      "construction-all-risks",
+      "plant-and-equipment",
+      "freight-services-liability"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "biz",
+   "name": "Business, property and cargo",
+   "blurb": "Packaged and property covers for businesses, buildings and goods in transit.",
+   "subgroups": [
+    {
+     "label": null,
+     "slugs": [
+      "business-package",
+      "tradies-package",
+      "strata",
+      "commercial-property-owners",
+      "industrial-special-risks",
+      "marine-cargo",
+      "carriers-combined",
+      "equipment-floater"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "motor",
+   "name": "Motor",
+   "blurb": "Commercial, heavy and private vehicles.",
+   "subgroups": [
+    {
+     "label": null,
+     "slugs": [
+      "commercial-motor",
+      "heavy-motor",
+      "private-motor",
+      "private-motor-pds"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "at",
+   "name": "Accident and travel",
+   "blurb": "Personal accident, sickness and travel covers for individuals, groups and employers.",
+   "subgroups": [
+    {
+     "label": "Accident and sickness",
+     "slugs": [
+      "personal-accident-and-sickness",
+      "group-personal-accident-and-sickness",
+      "accident-medical-and-hospital-benefits",
+      "on-demand-worker-personal-accident",
+      "sports-injury",
+      "aircrew-loss-of-licence"
+     ]
+    },
+    {
+     "label": "Travel",
+     "slugs": [
+      "travel",
+      "annual-multi-trip-travel",
+      "corporate-travel",
+      "small-business-travel",
+      "group-leisure-travel",
+      "inbound-visitor-travel",
+      "expatriate-medical",
+      "hostile-environment-travel"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home",
+   "name": "Home, landlords and boats",
+   "blurb": "Personal lines for homes, rental properties and pleasure craft.",
+   "subgroups": [
+    {
+     "label": null,
+     "slugs": [
+      "home-and-contents",
+      "private-client-home",
+      "landlords",
+      "pleasure-craft"
+     ]
+    }
+   ]
+  }
+ ],
+ "professions": {
+  "professional-indemnity": [
+   "accountants",
+   "architects-engineers",
+   "building-energy-sustainability",
+   "building-surveyors-certifiers",
+   "education-training",
+   "geoscience-mineral",
+   "marketing-media",
+   "real-estate-strata",
+   "recruitment-labour-hire",
+   "risk-safety-claims",
+   "veterinary"
+  ],
+  "financial-services-professional-indemnity": [
+   "credit-intermediaries",
+   "financial-advisers",
+   "insurance-intermediaries"
+  ]
+ },
+ "wordings": {
+  "professional-indemnity": {
+   "cls": "Professional Indemnity",
+   "title": "Professional Indemnity Insurance",
+   "desc": "Civil-liability cover for professional services, written on a claims-made basis."
+  },
+  "directors-and-officers": {
+   "cls": "Directors & Officers",
+   "title": "Directors & Officers Liability Insurance",
+   "desc": "Cover for directors and officers against claims for wrongful acts in their roles."
+  },
+  "side-a-do": {
+   "cls": "Side A D&O",
+   "title": "Side A Directors’ & Officers’ Liability",
+   "desc": "Excess cover reserved for individual directors and officers."
+  },
+  "excess-of-loss": {
+   "cls": "Excess of Loss",
+   "title": "Excess of Loss Insurance",
+   "desc": "Follow-form excess layer above a named primary policy, with no automatic drop-down."
+  },
+  "management-liability": {
+   "cls": "Management Liability",
+   "title": "Management Liability Insurance",
+   "desc": "Combined cover for private companies — D&O, employment practices, and more."
+  },
+  "financial-services-professional-indemnity": {
+   "cls": "Financial Services PI",
+   "title": "Financial Services Professional Indemnity Insurance",
+   "desc": "Professional indemnity cover for AFS and credit licensees and their representatives, written to meet ASIC RG 126 and RG 210. Wordings for financial advisers, insurance intermediaries and credit intermediaries are listed on its page."
+  },
+  "investment-management-insurance": {
+   "cls": "Investment Management",
+   "title": "Investment Managers Indemnity Insurance",
+   "desc": "Professional liability, D&O and crime cover for investment managers, responsible entities and trustees."
+  },
+  "cyber": {
+   "cls": "Cyber",
+   "title": "Cyber Insurance",
+   "desc": "First- and third-party cover for cyber events and data breaches."
+  },
+  "crime": {
+   "cls": "Crime",
+   "title": "Comprehensive Crime Insurance",
+   "desc": "Cover for loss from employee and third-party crime — fraud, theft, social engineering."
+  },
+  "technology-liability": {
+   "cls": "Technology Liability",
+   "title": "Comprehensive Technology Liability Insurance",
+   "desc": "Combined technology professional and product liability, with cyber and general-liability layers."
+  },
+  "personal-accident-and-sickness": {
+   "cls": "Personal Accident & Sickness",
+   "title": "Personal Accident and Sickness Insurance",
+   "desc": "Capital and weekly benefits for one named person, for injury and, if chosen, sickness, sold through brokers."
+  },
+  "aircrew-loss-of-licence": {
+   "cls": "Aircrew Loss of Licence",
+   "title": "Aircrew Loss of Licence Insurance",
+   "desc": "Annual, reviewable loss of licence cover for commercial pilots: a lump sum when CASA permanently cancels or refuses a Class 1 medical certificate, and a monthly benefit while it is suspended, built on the Meridian Personal Accident and Sickness base wording."
+  },
+  "group-personal-accident-and-sickness": {
+   "cls": "Group Personal Accident & Sickness",
+   "title": "Group Personal Accident and Sickness Insurance",
+   "desc": "Capital and weekly benefits for categories of employees, volunteers, players and students, bought by an organisation for its people."
+  },
+  "accident-medical-and-hospital-benefits": {
+   "cls": "Accident Medical and Hospital Benefits",
+   "title": "Accident Medical and Hospital Benefits Insurance",
+   "desc": "Non-Medicare medical expenses and hospital cash for injury, for exempt groups only (sport, volunteers, students, Australians working overseas, visitors without Medicare), built on the Meridian Group Personal Accident and Sickness base wording."
+  },
+  "on-demand-worker-personal-accident": {
+   "cls": "On-Demand Worker Personal Accident",
+   "title": "On-Demand Worker Personal Accident Insurance",
+   "desc": "Personal accident cover a delivery or other digital platform buys for the people who work through it, while they are engaged on a job, built on the Meridian Group Personal Accident and Sickness base wording."
+  },
+  "sports-injury": {
+   "cls": "Sports Injury",
+   "title": "Sports Injury Insurance",
+   "desc": "Personal accident and non-Medicare medical expenses cover a sporting organisation buys for its participants, officials and volunteers, built on the Meridian Group Personal Accident and Sickness base wording."
+  },
+  "corporate-travel": {
+   "cls": "Corporate Travel",
+   "title": "Corporate Travel Insurance",
+   "desc": "Annual cover for an organisation's business travellers: medical, accident, disruption, luggage, liability, kidnap and crisis, sold through brokers."
+  },
+  "expatriate-medical": {
+   "cls": "Expatriate Medical",
+   "title": "Expatriate Medical Insurance",
+   "desc": "International medical plan for employees of Australian organisations on assignment overseas, and their dependants, built on the Meridian Corporate Travel base wording."
+  },
+  "hostile-environment-travel": {
+   "cls": "Hostile Environment Travel",
+   "title": "Hostile Environment Travel Insurance",
+   "desc": "Travel, medical, evacuation and personal accident cover, including war and terrorism, for aid, media and project staff in high-risk countries, built on the Meridian Corporate Travel base wording."
+  },
+  "small-business-travel": {
+   "cls": "Small Business Travel",
+   "title": "Small Business Travel Insurance",
+   "desc": "Annual business and leisure travel cover for small businesses with up to 20 named travellers, priced per traveller with no trip declarations, built on the Meridian Corporate Travel base wording."
+  },
+  "travel": {
+   "cls": "Travel",
+   "title": "Travel Insurance",
+   "desc": "Single-trip cover for individuals, couples and families leaving Australia, with three plans, sold direct or through brokers."
+  },
+  "annual-multi-trip-travel": {
+   "cls": "Annual Multi-Trip Travel",
+   "title": "Annual Multi-Trip Travel Insurance",
+   "desc": "Annual travel cover for every trip in the year up to a chosen maximum trip length, with pre-existing conditions accepted through medical screening, built on the Meridian Travel base wording."
+  },
+  "group-leisure-travel": {
+   "cls": "Group Leisure Travel",
+   "title": "Group Leisure Travel Insurance",
+   "desc": "One policy for a school trip, a tour group or a touring team, with the supervisors covered, built on the Meridian Travel base wording."
+  },
+  "inbound-visitor-travel": {
+   "cls": "Inbound Visitor Travel",
+   "title": "Inbound Visitor Travel Insurance",
+   "desc": "Travel cover for visitors to Australia who are not eligible for Medicare: medical and hospital costs in Australia, return home and travel benefits, built on the Meridian Travel base wording. Not overseas visitors health cover."
+  },
+  "public-and-products-liability": {
+   "cls": "Public & Products Liability",
+   "title": "Public and Products Liability Insurance",
+   "desc": "Broadform liability cover for injury and property damage caused by your business or your products, on an occurrence basis."
+  },
+  "umbrella-liability": {
+   "cls": "Umbrella Liability",
+   "title": "Umbrella Liability Insurance",
+   "desc": "Higher limits above public and products, motor and employers’ liability policies, with drop-down when an underlying aggregate is used up and cover above a retention where those policies do not respond."
+  },
+  "environmental-liability": {
+   "cls": "Environmental Liability",
+   "title": "Environmental Liability Insurance",
+   "desc": "Contractors pollution and site pollution cover for gradual pollution, clean-up costs that environmental law requires and natural resource damage, which public liability policies usually exclude."
+  },
+  "product-recall-and-contamination": {
+   "cls": "Product Recall",
+   "title": "Product Recall and Contamination Insurance",
+   "desc": "Your own recall costs, replacement, lost gross profit and rehabilitation after accidental contamination, malicious tampering or a government recall of food, beverage or consumer products."
+  },
+  "business-package": {
+   "cls": "Business Package",
+   "title": "Business Package Insurance",
+   "desc": "A modular package for small and medium businesses — property, business interruption, crime, liability, cyber, management liability and more."
+  },
+  "commercial-motor": {
+   "cls": "Commercial Motor",
+   "title": "Commercial Motor Insurance — Individual Vehicles and Fleets",
+   "desc": "Business vehicles from a single ute to a fleet — comprehensive, third party fire and theft, or third party only for each vehicle, with fleet provisions."
+  },
+  "heavy-motor": {
+   "cls": "Heavy Motor",
+   "title": "Heavy Motor Insurance",
+   "desc": "Trucks, prime movers and trailers for owner-drivers and small transport operators, built on the Commercial Motor base wording, with optional downtime, substitute vehicle hire and non-owned trailer cover."
+  },
+  "private-motor": {
+   "cls": "Private Motor",
+   "title": "Private Motor Insurance",
+   "desc": "Private car insurance for individuals, built on the Commercial Motor base wording."
+  },
+  "private-motor-pds": {
+   "cls": "Private Motor",
+   "title": "Private Motor PDS Template",
+   "desc": "Part A of a Product Disclosure Statement for the Private Motor wording, including its departures from motor standard cover, for an issuer to complete."
+  },
+  "construction-all-risks": {
+   "cls": "Construction",
+   "title": "Construction All Risks and Liability Insurance",
+   "desc": "Contract works and third-party liability for construction projects, single project or annual, under one joint-names policy, with optional delay in start-up and design and construct PI."
+  },
+  "plant-and-equipment": {
+   "cls": "Plant and Equipment",
+   "title": "Plant and Equipment Insurance",
+   "desc": "Owned, financed, hired-in and hired-out mobile plant: all-risks material damage, with optional hired-in plant, machinery breakdown and mobile plant liability."
+  },
+  "tradies-package": {
+   "cls": "Tradies Package",
+   "title": "Tradies Package Insurance",
+   "desc": "Liability, tools, mobile plant, small-job contract works, tax audit, payment fraud and vehicle downtime cover for sole traders and small trade contractors, with exclusions set by trade."
+  },
+  "industrial-special-risks": {
+   "cls": "Industrial Special Risks",
+   "title": "Industrial Special Risks Insurance",
+   "desc": "All-risks material damage and business interruption for medium and large commercial and industrial property, with a 67-endorsement library that also attaches to Mark IV and Mark V forms."
+  },
+  "strata": {
+   "cls": "Strata",
+   "title": "Strata Insurance",
+   "desc": "Building, liability, office bearers, fidelity and machinery cover for residential, commercial and mixed-use strata schemes, bought by the body corporate."
+  },
+  "commercial-property-owners": {
+   "cls": "Commercial Property Owners",
+   "title": "Commercial Property Owners Insurance",
+   "desc": "Property, loss of rent, theft, glass, property owners' liability and tax audit cover for owners of commercial investment buildings let to tenants."
+  },
+  "landlords": {
+   "cls": "Landlords",
+   "title": "Landlords Insurance",
+   "desc": "Building, landlord's contents, loss of rent, tenant damage and liability cover for owners of residential investment property."
+  },
+  "home-and-contents": {
+   "cls": "Home",
+   "title": "Home and Contents Insurance",
+   "desc": "Home building, contents and personal liability cover for owner-occupiers and renters."
+  },
+  "private-client-home": {
+   "cls": "Private Client Home",
+   "title": "Private Client Home Insurance",
+   "desc": "Accidental damage cover for high-value homes, with contents, valuables, worldwide personal liability, and family protection and cyber cover."
+  },
+  "pleasure-craft": {
+   "cls": "Pleasure Craft",
+   "title": "Pleasure Craft Insurance",
+   "desc": "Accidental damage cover for a privately owned boat or personal watercraft, its motors and trailer, with legal liability for the people who use it, for individual owners in Australia."
+  },
+  "marine-cargo": {
+   "cls": "Marine Cargo",
+   "title": "Marine Cargo Insurance",
+   "desc": "An annual open transit policy for importers, exporters and distributors, built on the Institute Cargo Clauses (A), (B) and (C), with inland transit cover within Australia, transit interruption costs, and optional delay extra expense and stock in storage."
+  },
+  "allied-health": {
+   "cls": "Medical",
+   "title": "Allied Health Insurance",
+   "desc": "Combined professional indemnity and public and products liability for individual allied health practitioners."
+  },
+  "medical-establishments": {
+   "cls": "Medical",
+   "title": "Medical Establishments Insurance",
+   "desc": "Entity medical malpractice for practices, clinics, day surgeries, private hospitals and aged care. Never covers a doctor's own liability."
+  },
+  "accountants": {
+   "cls": "Profession wording",
+   "title": "Accountants Professional Indemnity Insurance",
+   "short": "Accountants"
+  },
+  "architects-engineers": {
+   "cls": "Profession wording",
+   "title": "Architects and Engineers Professional Indemnity Insurance",
+   "short": "Architects and Engineers"
+  },
+  "building-energy-sustainability": {
+   "cls": "Profession wording",
+   "title": "Building Energy and Sustainability Professional Indemnity Insurance",
+   "short": "Building Energy and Sustainability"
+  },
+  "building-surveyors-certifiers": {
+   "cls": "Profession wording",
+   "title": "Building Surveyors and Certifiers Professional Indemnity Insurance",
+   "short": "Building Surveyors and Certifiers"
+  },
+  "education-training": {
+   "cls": "Profession wording",
+   "title": "Education and Training Professional Indemnity Insurance",
+   "short": "Education and Training"
+  },
+  "geoscience-mineral": {
+   "cls": "Profession wording",
+   "title": "Geoscience and Mineral Professional Indemnity Insurance",
+   "short": "Geoscience and Mineral"
+  },
+  "marketing-media": {
+   "cls": "Profession wording",
+   "title": "Marketing, Media and Communications Professional Indemnity Insurance",
+   "short": "Marketing, Media and Communications"
+  },
+  "real-estate-strata": {
+   "cls": "Profession wording",
+   "title": "Real Estate and Strata Professional Indemnity Insurance",
+   "short": "Real Estate and Strata"
+  },
+  "recruitment-labour-hire": {
+   "cls": "Profession wording",
+   "title": "Recruitment and Labour Hire Professional Indemnity Insurance",
+   "short": "Recruitment and Labour Hire"
+  },
+  "risk-safety-claims": {
+   "cls": "Profession wording",
+   "title": "Risk, Safety and Claims Consultants Professional Indemnity Insurance",
+   "short": "Risk, Safety and Claims Consultants"
+  },
+  "veterinary": {
+   "cls": "Profession wording",
+   "title": "Veterinary Professional Indemnity Insurance",
+   "short": "Veterinary"
+  },
+  "credit-intermediaries": {
+   "cls": "Profession wording",
+   "title": "Credit Intermediaries Professional Indemnity Insurance",
+   "short": "Credit Intermediaries"
+  },
+  "financial-advisers": {
+   "cls": "Profession wording",
+   "title": "Financial Advisers Professional Indemnity Insurance",
+   "short": "Financial Advisers"
+  },
+  "insurance-intermediaries": {
+   "cls": "Profession wording",
+   "title": "Insurance Intermediaries Professional Indemnity Insurance",
+   "short": "Insurance Intermediaries"
+  },
+  "carriers-combined": {
+   "cls": "Carriers Combined",
+   "title": "Carriers Combined Insurance",
+   "desc": "Goods in transit cover for road transport operators carrying other people's goods in Australia: load cover paid whatever your legal liability, in Essentials, Standard and Comprehensive tiers, with optional legal liability on approved terms of carriage."
+  },
+  "equipment-floater": {
+   "cls": "Equipment Floater",
+   "title": "Equipment Floater Insurance",
+   "desc": "Portable tools and equipment used in a business, insured anywhere in Australia on site, in vehicles and in transit: specified items and a blanket for unspecified tools, with optional hired-in equipment, replacement hire costs and worldwide use."
+  },
+  "freight-services-liability": {
+   "cls": "Freight Services Liability",
+   "title": "Freight Services Liability Insurance",
+   "desc": "Liability cover for freight forwarders, customs brokers, carriers and logistics operators, measured by their standard trading conditions, with cargo liability, errors and omissions, fines and penalties, and optional customs duty, public liability and warehouse liability sections."
+  }
+ }
+}
