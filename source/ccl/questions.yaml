@@ -18,7 +18,7 @@ questions:
   used_by: R, A, S
 - id: qs.ccl.operations.goods_split
   text: What goods do you carry, as a percentage of gross freight earnings?
-  type: repeating
+  type: repeating (product category, percentage; total 100)
   used_by: R, A, S
 - id: qs.ccl.operations.radius
   text: What is your main operating radius?

@@ -1,0 +1,105 @@
+# Platform questions for the Equipment Floater wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.eqf namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+- id: qs.eqf.business.principal_state
+  text: In which state or territory is your business address?
+  type: select
+  options:
+  - NSW
+  - VIC
+  - QLD
+  - WA
+  - SA
+  - TAS
+  - ACT
+  - NT
+  used_by: S
+- id: qs.eqf.business.years_trading
+  text: How many years has the business traded under its current ownership?
+  type: number
+  used_by: R
+- id: qs.eqf.business.main_use
+  text: What is the main use of the equipment?
+  type: select
+  options:
+  - TRADES
+  - PROFESSIONAL
+  - EVENTS_FILM
+  - RESOURCES
+  - AGRICULTURE
+  used_by: R, S
+- id: qs.eqf.business.business_use
+  text: Is the equipment used wholly or predominantly for business purposes?
+  type: boolean
+  used_by: A, S
+- id: qs.eqf.business.has_go_business_package
+  text: Do you hold a Cuttleflow Go Business Package policy?
+  type: boolean
+  used_by: A
+- id: qs.eqf.business.package_sub_limit_exceeded
+  text: Is the value of your portable equipment more than that package's general property sub-limit?
+  type: boolean
+  used_by: A
+- id: qs.eqf.equipment.total_sum_insured
+  text: What is the total sum insured, specified items and unspecified tools together?
+  type: number
+  used_by: R, A, S
+- id: qs.eqf.equipment.split_by_class
+  text: How is the total sum insured split by kind of equipment?
+  type: repeating (equipment class, percentage; total 100)
+  used_by: R, S
+- id: qs.eqf.equipment.max_item_value
+  text: What is the value of your most valuable single item?
+  type: number
+  used_by: A, S
+- id: qs.eqf.equipment.self_propelled
+  text: Is any item self-propelled, or registrable for use on a public road?
+  type: boolean
+  used_by: A
+- id: qs.eqf.equipment.employees_tools
+  text: Do you want your employees' tools insured?
+  type: boolean
+  used_by: E02
+- id: qs.eqf.security.overnight_storage
+  text: Where is the equipment usually kept overnight?
+  type: select
+  options:
+  - BUILDING
+  - VEHICLE
+  - SITE_CONTAINER
+  used_by: R, E03
+- id: qs.eqf.security.open_site_overnight
+  text: Do you leave equipment on a site in the open overnight?
+  type: boolean
+  used_by: A, E01
+- id: qs.eqf.cover.excess
+  text: What excess do you choose?
+  type: select
+  options:
+  - 250
+  - 500
+  - 1000
+  - 2500
+  used_by: R, S
+- id: qs.eqf.cover.hired_in
+  text: Do you want the Hired-In Equipment section?
+  type: boolean
+  used_by: R, S
+- id: qs.eqf.cover.hire_costs
+  text: Do you want the Replacement Hire Costs section?
+  type: boolean
+  used_by: R, S
+- id: qs.eqf.cover.worldwide
+  text: Do you want the Worldwide Use section?
+  type: boolean
+  used_by: R, S
+- id: qs.eqf.history.claims_count3y
+  text: How many claims for equipment loss or damage have you had in the last 3 years?
+  type: number
+  used_by: R, A
+- id: qs.eqf.history.prior_declined
+  text: Has an insurer declined, cancelled or imposed special terms on equipment insurance for you?
+  type: boolean
+  used_by: A

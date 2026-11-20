@@ -1,0 +1,98 @@
+id: eqf-base
+title: Equipment Floater Insurance
+class: EQUIPMENT FLOATER INSURANCE
+kicker: Meridian Commons · Equipment Floater
+slug: equipment-floater
+file_stem: Meridian_Equipment_Floater
+doc_ref: 2026/EQF/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: 'Portable tools and equipment used in a business, insured anywhere in Australia on site, in vehicles and in transit: specified items and a blanket for unspecified tools, with optional hired-in equipment, replacement hire costs and worldwide use.'
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - eqf.about
+  - eqf.version-history
+  - eqf.important-information
+  - eqf.schedule
+- section: eqf.section.definitions
+  clauses:
+  - eqf.def.accidental-loss-or-damage
+  - eqf.def.business-use
+  - eqf.def.endorsement
+  - eqf.def.event
+  - eqf.def.excess
+  - eqf.def.hired-in-equipment
+  - eqf.def.insured-property
+  - eqf.def.excluded-property
+  - eqf.def.policy-period
+  - eqf.def.portable-equipment
+  - eqf.def.specified-item
+  - eqf.def.unspecified-tools
+  - eqf.def.unattended
+  - eqf.def.we-us-our
+  - eqf.def.you-your
+- section: eqf.section.portable-equipment
+  clauses:
+  - eqf.cover.portable-equipment
+  - eqf.ext.newly-acquired
+  - eqf.ext.removal-of-debris
+  - eqf.ext.locks-and-keys
+  - eqf.cond.theft-from-vehicles
+  - eqf.excl.portable-equipment
+- section: eqf.section.hired-in
+  clauses:
+  - eqf.cover.hired-in
+- section: eqf.section.hire-costs
+  clauses:
+  - eqf.cover.hire-costs
+- section: eqf.section.worldwide
+  clauses:
+  - eqf.cover.worldwide
+- section: eqf.section.payment
+  clauses:
+  - eqf.pay.basis-of-settlement
+  - eqf.pay.excess
+  - eqf.pay.who-we-pay
+  - eqf.pay.salvage-and-recoveries
+  - eqf.pay.gst
+  - eqf.pay.other-insurance
+- section: eqf.section.exclusions
+  clauses:
+  - eqf.excl.excluded-property
+  - eqf.excl.dishonesty
+  - eqf.excl.confiscation
+  - eqf.excl.consequential-loss
+  - eqf.excl.war
+  - eqf.excl.nuclear
+  - eqf.excl.terrorism
+  - eqf.excl.cyber
+- section: eqf.section.obligations
+  clauses:
+  - eqf.obl.tell-us-about-loss
+  - eqf.obl.reasonable-precautions
+  - eqf.obl.records
+  - eqf.obl.tell-us-about-changes
+- section: eqf.section.conditions
+  clauses:
+  - eqf.cond.insurance-contracts-act
+  - eqf.cond.order-of-precedence
+  - eqf.cond.subrogation
+  - eqf.cond.cancellation
+  - eqf.cond.fraud
+  - eqf.cond.sanctions
+  - eqf.cond.privacy
+  - eqf.cond.disputes-and-complaints
+  - eqf.cond.governing-law
+  - eqf.cond.jurisdiction
+  - eqf.cond.headings-and-references
+- section: end
+  clauses:
+  - eqf.claims.how-to-make-a-claim
+  - eqf.endorsement-library
+  - eqf.end.e01
+  - eqf.end.e02
+  - eqf.end.e03
+  - eqf.licence-notice

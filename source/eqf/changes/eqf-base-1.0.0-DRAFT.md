@@ -1,0 +1,1 @@
+New wording (PLT-1200). Built clean-room from public sources for Cuttleflow Go EQF-AU-GO. Portable tools and equipment only: self-propelled and registrable plant is for the Plant and Equipment wording.
