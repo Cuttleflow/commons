@@ -3,6 +3,7 @@ id: mot.hmv.ext.additional-benefits
 type: extension
 heading: Additional Benefits
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -26,6 +27,6 @@ These benefits are paid in addition to the Sum insured, for the cover levels sho
 | Recovery after theft | Comprehensive; Third party, fire and theft | Reasonable costs of recovering and returning the vehicle after it is found |
 | Employees' effects | Comprehensive | An employee's personal effects in the vehicle, where the driver is your employee |
 
-We do not pay the hire vehicle benefits for any day for which we pay [[ref:mot.hmv.cover.downtime]] for the same vehicle. Where both could apply, you choose which one we pay.
+We do not pay the hire vehicle benefits for any day for which we pay [[ref:mot.hmv.cover.downtime]] or [[ref:mot.hmv.cover.substitute-hire]] for the same vehicle. Where more than one could apply, you choose which one we pay.
 
 Signwriting, livery, modifications and accessories are part of the Insured vehicle and its Sum insured. You must tell us before inception or renewal where modifications and accessories on a vehicle are worth more than the amount shown in [[ref:mot.hmv.appendix.default-schedule-values]].

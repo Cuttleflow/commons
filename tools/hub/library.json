@@ -323,7 +323,7 @@
   "heavy-motor": {
    "cls": "Heavy Motor",
    "title": "Heavy Motor Insurance",
-   "desc": "Trucks, prime movers and trailers for owner-drivers and small transport operators, built on the Commercial Motor base wording, with optional downtime and non-owned trailer cover."
+   "desc": "Trucks, prime movers and trailers for owner-drivers and small transport operators, built on the Commercial Motor base wording, with optional downtime, substitute vehicle hire and non-owned trailer cover."
   },
   "private-motor": {
    "cls": "Private Motor",
@@ -388,7 +388,7 @@
   "marine-cargo": {
    "cls": "Marine Cargo",
    "title": "Marine Cargo Insurance",
-   "desc": "An annual open transit policy for importers, exporters and distributors, built on the Institute Cargo Clauses (A), (B) and (C), with inland transit cover within Australia."
+   "desc": "An annual open transit policy for importers, exporters and distributors, built on the Institute Cargo Clauses (A), (B) and (C), with inland transit cover within Australia, transit interruption costs, and optional delay extra expense and stock in storage."
   },
   "allied-health": {
    "cls": "Medical",
