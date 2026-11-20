@@ -1,7 +1,7 @@
-# Cuttleflow Commons — Meridian financial-lines wordings
+# Cuttleflow Commons — open Australian policy wordings
 
 An open library of Australian insurance policy wordings, published by Cuttleflow
-Pty Ltd trading as Cuttleflow Systems. Read the wordings, use and adapt them under **CC BY 4.0**, and
+Pty Limited trading as Cuttleflow Systems. Read the wordings, use and adapt them under **CC BY 4.0**, and
 suggest changes.
 
 This repository is also the website: it is served by **GitHub Pages** from the
@@ -41,6 +41,23 @@ alternative (a self-hosted comment engine wired to platform SSO) is not on the c
 path to launch. Anyone who will not create an account can email a point in for a
 maintainer to file on their behalf. `SETUP.md` records what adding a second path would
 involve; it does not require changing the wording pages.
+
+## The wording list
+
+The list of wordings on the hub (`index.html`) and the "more in this group" block on each
+wording page (`assets/library.js`) are generated from one file, `tools/hub/library.json`,
+which holds the product groups, their order, each wording's description and which
+profession wordings sit under which form. Codes and versions are read from the wording
+pages themselves, so they never need typing twice.
+
+To add a wording or change a description: edit `tools/hub/library.json`, then run
+
+    python3 tools/hub/build_hub.py --copy-to ../website/site/commons/index.html
+
+The `--copy-to` path writes the identical copy of the hub served at cuttleflow.com/commons/
+(in the `Cuttleflow/website` repository); commit both. The build stops if a wording page
+exists that the list does not include. A pull request check runs `--check` and fails if
+the hub is out of date — for example after a wording's version changes.
 
 ## Styling
 

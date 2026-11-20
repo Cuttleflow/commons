@@ -13,7 +13,7 @@
   --brass:#A8762C;
   --ink-78:rgba(28,25,21,.78);
   --ink-72:rgba(28,25,21,.72);
-  --ink-55:rgba(28,25,21,.55);
+  --ink-55:rgba(28,25,21,.70);
   --rule:rgba(28,25,21,.16);
   --rule-soft:rgba(28,25,21,.10);
   --serif:'Spectral',Georgia,'Times New Roman',serif;
@@ -91,14 +91,50 @@ a:hover{color:var(--orange)}
 .site-head nav a.cta{background:var(--orange);color:var(--paper);padding:9px 14px;min-height:36px;display:inline-flex;align-items:center}
 .site-head nav a.cta:hover{background:var(--orange-dark);color:var(--paper)}
 .nav-secondary{display:none}
-/* Thin the nav before it can wrap: 8 items at gap:20px need ~1100px. */
-@media(max-width:1100px){
+/* Thin the nav before it can wrap: 9 items at gap:20px need ~1240px. */
+@media(max-width:1360px){
   .site-head nav a.nav-hide{display:none}
   .site-head nav{gap:16px}
+}
+@media(max-width:1000px) and (min-width:901px){
+  .site-head nav{gap:11px}
+  .site-head nav a{letter-spacing:.03em}
 }
 @media(max-width:860px){
   .site-head .bar{padding:12px 20px}
   .wrap{padding:0 20px}
+  .doc{padding:0 20px}
+}
+/* Mobile header: brand row wraps; nav becomes a full-width horizontal scroll strip.
+   All items return (nav-hide included) since the strip can hold them. */
+@media(max-width:900px){
+  .site-head .bar{flex-wrap:wrap;row-gap:0;padding-bottom:0}
+  .site-head nav{
+    margin-left:0;flex-basis:100%;order:10;gap:18px;
+    overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;
+    padding:10px 2px 12px;
+    mask-image:linear-gradient(to right,#000 calc(100% - 28px),transparent);
+    -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 28px),transparent)}
+  .site-head nav::-webkit-scrollbar{display:none}
+  .site-head nav a.nav-hide{display:inline}
+  .site-head nav a{padding:6px 0}
+  .site-head nav a.cta{padding:8px 12px;min-height:32px;margin-right:28px}
+  .site-head nav a[aria-current=page]{padding-bottom:4px}
+}
+/* Inline two/three-column feature grids (class="lead-grid") collapse to one column.
+   !important is required to override the per-page inline template. */
+@media(max-width:760px){
+  .lead-grid{grid-template-columns:1fr!important}
+  .lead-grid>aside{border-left:none!important;padding-left:0!important;
+    border-top:1px solid var(--rule);padding-top:26px!important}
+}
+/* Mobile-only advisory (used on /demos/ — the raters are desktop-first). */
+.mobile-note{display:none}
+@media(max-width:820px){
+  .mobile-note{display:block;border:1px solid var(--brass);background:var(--paper-2);
+    padding:14px 16px;margin:18px 0 0;font-size:14px;line-height:1.55;color:var(--ink-78)}
+  .mobile-note strong{font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--brass);display:block;margin-bottom:5px;font-weight:500}
 }
 
 /* ---- buttons: one solid orange per view ---- */
@@ -110,6 +146,9 @@ a:hover{color:var(--orange)}
 .btn.solid{background:var(--orange);border-color:var(--orange);color:var(--paper)}
 .btn.solid:hover{background:var(--orange-dark);border-color:var(--orange-dark);color:var(--paper)}
 .btn-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn.solid::after{content:'→';margin-left:10px;font-weight:500}
+.btn.ghost-dark{border-color:#FBF7F0;color:#FBF7F0}
+.btn.ghost-dark:hover{background:#FBF7F0;color:#1C1915}
 
 /* ---- grids, cards, document rows ---- */
 .cols-3,.cols-2{display:grid;gap:0;border-top:1px solid var(--ink)}
@@ -131,7 +170,8 @@ a:hover{color:var(--orange)}
 .doc-list a{display:flex;gap:22px;align-items:baseline;flex-wrap:wrap;
   padding:20px 0;border-bottom:1px solid var(--rule-soft);color:var(--ink)}
 .doc-list a:hover{background:rgba(194,78,44,.04);color:var(--ink)}
-.doc-list .ref{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--orange);min-width:150px}
+.doc-list .ref{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--green);min-width:150px}
+@media(max-width:520px){.doc-list a{gap:6px 22px}.doc-list .ref{min-width:0;flex-basis:100%}}
 .doc-list h3{font-size:19px;margin:0 0 4px}
 .doc-list p{font-size:14px;margin:0;max-width:62ch}
 
@@ -183,7 +223,7 @@ a:hover{color:var(--orange)}
 /* ---- footer ---- */
 .site-foot{border-top:1px solid var(--ink);background:var(--ink);color:var(--paper);margin-top:56px}
 .site-foot .inner{max-width:var(--measure);margin:0 auto;padding:40px 28px;
-  display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:30px}
+  display:grid;grid-template-columns:1.6fr 1.1fr 1fr;gap:30px}
 .site-foot .wordmark{font-family:var(--serif);font-weight:600;font-size:20px;color:var(--paper)}
 .site-foot p{font-size:13.5px;color:rgba(251,247,240,.72);margin-top:10px;max-width:36ch}
 .site-foot h4{font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
