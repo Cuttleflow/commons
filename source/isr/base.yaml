@@ -1,0 +1,187 @@
+id: isr-base
+title: Industrial Special Risks Insurance
+class: INDUSTRIAL SPECIAL RISKS
+kicker: Meridian Commons · Industrial Special Risks
+slug: industrial-special-risks
+file_stem: Meridian_Industrial_Special_Risks
+doc_ref: 2026/PR/0001
+version: 1.1.0-DRAFT
+date: November 2026
+draft: true
+summary: All-risks material damage and business interruption cover for medium and large commercial and industrial property in Australia, with a 67-endorsement library that also attaches to Mark IV and Mark V forms.
+supersedes: Meridian Industrial Special Risks Policy Wording v1.0.0 (2026/PR/0001) and Endorsement Library v1.0.0 (2026/PR/0002), which were not published to the Commons.
+structure:
+- section: preamble
+  clauses:
+  - isr.about
+  - isr.version-history
+  - isr.important-information
+  - isr.schedule
+- section: isr.section.definitions
+  clauses:
+  - isr.def.annual-turnover
+  - isr.def.business
+  - isr.def.damage
+  - isr.def.declared-value
+  - isr.def.deductible
+  - isr.def.endorsement
+  - isr.def.event
+  - isr.def.flood
+  - isr.def.gross-profit
+  - isr.def.gross-rentals
+  - isr.def.indemnity-period
+  - isr.def.insured-property
+  - isr.def.limit-of-liability
+  - isr.def.money
+  - isr.def.period-of-insurance
+  - isr.def.pollutant
+  - isr.def.rate-of-gross-profit
+  - isr.def.situation
+  - isr.def.specified-working-expenses
+  - isr.def.standard-turnover
+  - isr.def.turnover
+  - isr.def.value-at-risk
+  - isr.def.we-us-our
+  - isr.def.you-your
+- section: isr.section.material-damage
+  clauses:
+  - isr.cover.material-damage
+  - isr.excl.property-not-insured
+  - isr.pay.basis-of-settlement
+  - isr.pay.co-insurance
+  - isr.pay.limit-of-liability
+  - isr.ext.removal-of-debris
+  - isr.ext.extra-cost-of-reinstatement
+  - isr.ext.professional-fees
+  - isr.ext.capital-additions
+  - isr.ext.temporary-removal
+  - isr.ext.fire-fighting-and-mitigation
+  - isr.ext.temporary-protection
+  - isr.ext.locks-and-keys
+  - isr.ext.undamaged-foundations
+  - isr.ext.data-restoration
+  - isr.ext.claims-preparation
+- section: isr.section.business-interruption
+  clauses:
+  - isr.cover.business-interruption
+  - isr.pay.bi-loss
+  - isr.pay.bi-adjustments
+  - isr.pay.bi-special-cases
+  - isr.pay.waiting-period
+  - isr.ext.prevention-of-access
+  - isr.ext.public-utilities
+  - isr.ext.suppliers-and-customers
+  - isr.ext.computer-installations
+- section: isr.section.exclusions
+  clauses:
+  - isr.excl.war
+  - isr.excl.nuclear
+  - isr.excl.terrorism
+  - isr.excl.cyber
+  - isr.excl.communicable-disease
+  - isr.excl.pollution
+  - isr.excl.gradual-causes
+  - isr.excl.faulty-design
+  - isr.excl.consequential-loss
+  - isr.excl.breakdown
+  - isr.excl.earth-movement
+  - isr.excl.theft
+  - isr.excl.flood
+- section: isr.section.general-payment
+  clauses:
+  - isr.pay.deductible
+  - isr.pay.limits-and-sub-limits
+  - isr.pay.gst
+  - isr.pay.other-insurance
+  - isr.pay.who-we-pay
+- section: isr.section.obligations
+  clauses:
+  - isr.obl.tell-us-about-claims
+  - isr.obl.reduce-loss
+  - isr.obl.tell-us-about-changes
+  - isr.obl.subrogation
+- section: isr.section.conditions
+  clauses:
+  - isr.cond.insurance-contracts-act
+  - isr.cond.separate-interests
+  - isr.cond.interests-of-other-parties
+  - isr.cond.cancellation
+  - isr.cond.fraud
+  - isr.cond.sanctions
+  - isr.cond.privacy
+  - isr.cond.disputes-and-complaints
+  - isr.cond.governing-law
+  - isr.cond.jurisdiction
+  - isr.cond.headings-and-references
+- section: end
+  clauses:
+  - isr.claims.how-to-make-a-claim
+  - isr.endorsement-library
+  - isr.end.namd
+  - isr.end.intp
+  - isr.end.lols
+  - isr.end.lmti
+  - isr.end.situ
+  - isr.end.aggp
+  - isr.end.cois
+  - isr.end.noav
+  - isr.end.dvad
+  - isr.end.escl
+  - isr.end.indv
+  - isr.end.stsp
+  - isr.end.mtch
+  - isr.end.arei
+  - isr.end.grnb
+  - isr.end.rdbr
+  - isr.end.xcor
+  - isr.end.prof
+  - isr.end.capa
+  - isr.end.expd
+  - isr.end.cprc
+  - isr.end.cnwk
+  - isr.end.trns
+  - isr.end.mony
+  - isr.end.glas
+  - isr.end.cust
+  - isr.end.gpau
+  - isr.end.flod
+  - isr.end.fldx
+  - isr.end.eqke
+  - isr.end.natd
+  - isr.end.thft
+  - isr.end.mbrk
+  - isr.end.elec
+  - isr.end.fusn
+  - isr.end.dtst
+  - isr.end.terr
+  - isr.end.cybx
+  - isr.end.data
+  - isr.end.sanc
+  - isr.end.comx
+  - isr.end.asbs
+  - isr.end.panl
+  - isr.end.surv
+  - isr.end.fire
+  - isr.end.hotw
+  - isr.end.lion
+  - isr.end.vacn
+  - isr.end.secu
+  - isr.end.biip
+  - isr.end.txsd
+  - isr.end.aicw
+  - isr.end.accs
+  - isr.end.util
+  - isr.end.supc
+  - isr.end.intd
+  - isr.end.incd
+  - isr.end.comb
+  - isr.end.attr
+  - isr.end.accr
+  - isr.end.coin
+  - isr.end.lead
+  - isr.end.layr
+  - isr.end.ltag
+  - isr.end.stkd
+  - isr.end.lawj
+  - isr.end.ssut
+  - isr.licence-notice
