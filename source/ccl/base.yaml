@@ -1,0 +1,148 @@
+id: ccl-base
+title: Carriers Combined Insurance
+class: CARRIERS COMBINED INSURANCE
+kicker: Meridian Commons · Carriers Combined
+slug: carriers-combined
+file_stem: Meridian_Carriers_Combined
+doc_ref: 2026/CCL/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: 'Goods in transit cover for road transport operators carrying other people''s goods in Australia: load cover paid whatever your legal liability, in Essentials, Standard and Comprehensive tiers, with optional legal liability on approved terms of carriage.'
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - ccl.about
+  - ccl.version-history
+  - ccl.important-information
+  - ccl.schedule
+- section: ccl.section.definitions
+  clauses:
+  - ccl.def.accumulation-limit
+  - ccl.def.approved-terms
+  - ccl.def.bulk-dangerous-goods
+  - ccl.def.consignment
+  - ccl.def.conveying-vehicle
+  - ccl.def.dangerous-goods
+  - ccl.def.defence-costs
+  - ccl.def.depot
+  - ccl.def.endorsement
+  - ccl.def.event
+  - ccl.def.excess
+  - ccl.def.goods
+  - ccl.def.excluded-goods
+  - ccl.def.gross-freight-earnings
+  - ccl.def.insured-transit
+  - ccl.def.limit-any-one-vehicle
+  - ccl.def.livestock
+  - ccl.def.nominated-client
+  - ccl.def.policy-period
+  - ccl.def.powered-unit
+  - ccl.def.refrigerated-goods
+  - ccl.def.subcontractor
+  - ccl.def.temporary-storage
+  - ccl.def.we-us-our
+  - ccl.def.you-your
+- section: ccl.section.transit
+  clauses:
+  - ccl.cover.transit
+  - ccl.cover.temporary-storage
+  - ccl.cover.subcontractors
+- section: ccl.section.basic-load
+  clauses:
+  - ccl.cover.basic-load
+- section: ccl.section.standard-perils
+  clauses:
+  - ccl.cover.standard-perils
+  - ccl.cond.theft-security
+- section: ccl.section.comprehensive
+  clauses:
+  - ccl.cover.comprehensive
+- section: ccl.section.nominated-clients
+  clauses:
+  - ccl.cover.nominated-clients
+- section: ccl.section.refrigeration
+  clauses:
+  - ccl.cover.refrigeration-breakdown
+  - ccl.excl.refrigeration
+- section: ccl.section.legal-liability
+  clauses:
+  - ccl.cover.legal-liability
+  - ccl.cover.subcontractor-liability
+  - ccl.cover.defence-costs
+  - ccl.pay.measure-of-liability
+  - ccl.excl.legal-liability
+- section: ccl.section.additional-benefits
+  clauses:
+  - ccl.ext.onforwarding
+  - ccl.ext.debris-removal
+  - ccl.ext.packaging-and-containers
+  - ccl.ext.carriers-equipment
+  - ccl.ext.resecuring
+  - ccl.ext.fumigation-and-quarantine
+  - ccl.ext.additional-expenses
+  - ccl.ext.general-average
+  - ccl.ext.personal-effects
+  - ccl.ext.accumulation
+- section: ccl.section.payment
+  clauses:
+  - ccl.pay.basis-of-valuation
+  - ccl.pay.limits
+  - ccl.pay.one-section
+  - ccl.pay.excess
+  - ccl.pay.premium-adjustment
+  - ccl.pay.who-we-pay
+  - ccl.pay.salvage-and-recoveries
+  - ccl.pay.gst
+  - ccl.pay.other-insurance
+- section: ccl.section.exclusions
+  clauses:
+  - ccl.excl.excluded-goods
+  - ccl.excl.inherent-vice
+  - ccl.excl.packing
+  - ccl.excl.delay-and-market
+  - ccl.excl.dishonesty
+  - ccl.excl.unroadworthy-and-unlicensed
+  - ccl.excl.mechanical-breakdown
+  - ccl.excl.fines-and-penalties
+  - ccl.excl.war
+  - ccl.excl.nuclear
+  - ccl.excl.terrorism
+  - ccl.excl.cyber
+- section: ccl.section.obligations
+  clauses:
+  - ccl.obl.tell-us-about-loss
+  - ccl.obl.reduce-loss
+  - ccl.obl.terms-of-carriage
+  - ccl.obl.admissions
+  - ccl.obl.rights-against-others
+  - ccl.obl.records
+  - ccl.obl.tell-us-about-changes
+- section: ccl.section.conditions
+  clauses:
+  - ccl.cond.insurance-contracts-act
+  - ccl.cond.order-of-precedence
+  - ccl.cond.subrogation
+  - ccl.cond.cancellation
+  - ccl.cond.fraud
+  - ccl.cond.sanctions
+  - ccl.cond.privacy
+  - ccl.cond.disputes-and-complaints
+  - ccl.cond.governing-law
+  - ccl.cond.jurisdiction
+  - ccl.cond.headings-and-references
+- section: end
+  clauses:
+  - ccl.claims.how-to-make-a-claim
+  - ccl.endorsement-library
+  - ccl.end.e01
+  - ccl.end.e02
+  - ccl.end.e03
+  - ccl.end.e04
+  - ccl.end.e05
+  - ccl.end.e06
+  - ccl.end.e07
+  - ccl.end.e08
+  - ccl.end.e09
+  - ccl.licence-notice
