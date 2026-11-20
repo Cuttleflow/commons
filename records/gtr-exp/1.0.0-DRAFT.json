@@ -1,0 +1,537 @@
+{
+ "wording": "gtr-exp",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/EXP/0001",
+ "base": "gtr-base@1.1.0-DRAFT",
+ "clauses": [
+  {
+   "id": "gtr.exp.about",
+   "heading": "About This Policy",
+   "sha256": "ee344942afa13249912a3a97557ae3f4218b41c4cbcf5c0d46a3ed221632c50e"
+  },
+  {
+   "id": "gtr.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "gtr.exp.important-information",
+   "heading": "Important Information",
+   "sha256": "df59b96f7086af677b902e7adba7e3380ad926e481c513b3e63bedf4cb479a6e"
+  },
+  {
+   "id": "gtr.exp.schedule",
+   "heading": "Schedule",
+   "sha256": "eb8e82a08f78d86d20b90b4023a7fa04f58ab40a01983835d602fce347a85902"
+  },
+  {
+   "id": "gtr.section.definitions",
+   "heading": "Definitions",
+   "sha256": "7da4c64cfde7cf7b25a86e5900c317c43db843c5ee8e7dda1c733e628e173a14"
+  },
+  {
+   "id": "gtr.def.accident",
+   "heading": "Accident",
+   "sha256": "41819a152a7c8ae91af35b88c8febe9b3c57f725b2521a058e410ebf83de0048"
+  },
+  {
+   "id": "gtr.exp.def.area-of-cover",
+   "heading": "Area of Cover",
+   "sha256": "2fb7ea541d6575b37ebddaceddcdea4a85d56afda7595adb89873d05a1efc6ea"
+  },
+  {
+   "id": "gtr.exp.def.assignment",
+   "heading": "Assignment",
+   "sha256": "454c613f33a1ed048a9bbb84cfcd34c7a2efb419a3fe5faa08c97c906090e3ae"
+  },
+  {
+   "id": "gtr.exp.def.dependant",
+   "heading": "Dependant",
+   "sha256": "a3055b020a685460e76d69cca1fa42965d551609ac4ab923fafa8eb5d3aae6d4"
+  },
+  {
+   "id": "gtr.def.dfat-advice",
+   "heading": "DFAT Advice",
+   "sha256": "744a4e2d781aa95340a5b0880c50f04733c60a6ed911291279e8bc237f8a9c61"
+  },
+  {
+   "id": "gtr.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "gtr.def.excess",
+   "heading": "Excess",
+   "sha256": "a38237abb5920b07044faf4a2849aa534711fdf733df86d296d741f665d3a837"
+  },
+  {
+   "id": "gtr.exp.def.home",
+   "heading": "Home",
+   "sha256": "8588a651546fc738568fb7cf6ae2ab00a7cb54cfabb25d00f410388b12eaf006"
+  },
+  {
+   "id": "gtr.exp.def.host-country",
+   "heading": "Host Country",
+   "sha256": "0fa6919abf3cf6893d17b26ec99a0c5474f876ce16863b4841c9bacf6c9faac3"
+  },
+  {
+   "id": "gtr.def.immediate-family",
+   "heading": "Immediate Family",
+   "sha256": "d7b543a6108f698ad75d8a59263c29224744c6c66a4f942164cec1885dd066e1"
+  },
+  {
+   "id": "gtr.def.injury",
+   "heading": "Injury",
+   "sha256": "5a5b915911dfe04874d7c83cf9ea88ea130e3bd20ada1dc700dbd9641d28837a"
+  },
+  {
+   "id": "gtr.exp.def.insured-person",
+   "heading": "Insured Person",
+   "sha256": "6e1931d66d726e445d78370627295c718bb16a9472d9bd26504dadb2264733f5"
+  },
+  {
+   "id": "gtr.def.medical-practitioner",
+   "heading": "Medical Practitioner",
+   "sha256": "958c71e9d0a72d63020e639512050d0788e9ef268b5651845de5a54c3831df90"
+  },
+  {
+   "id": "gtr.def.medicare-eligible",
+   "heading": "Medicare-Eligible",
+   "sha256": "d050f70fa85dad4591f08bed432da44e4f76496bb80a1e28bc7a7d942ea026ac"
+  },
+  {
+   "id": "gtr.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "deb5dcf3421c8334f07667a748a78a789069ca452095d2d3423afa1288b8ed64"
+  },
+  {
+   "id": "gtr.def.pre-existing-condition",
+   "heading": "Pre-existing Condition",
+   "sha256": "67759bcfbd0230b96545105d305651d7c5da3f0405f49050cd96e78f072dd8fd"
+  },
+  {
+   "id": "gtr.def.sickness",
+   "heading": "Sickness",
+   "sha256": "10411b4374f8336385875517c5bae6247c6250bb2fea7f3d001a09314fe25cf4"
+  },
+  {
+   "id": "gtr.exp.def.trip",
+   "heading": "Trip",
+   "sha256": "ec0de3aad070eeb4fb71780dbf902441eb50ed471b151b0dcf28ce34d31d3f17"
+  },
+  {
+   "id": "gtr.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "gtr.def.you-your",
+   "heading": "You, Your",
+   "sha256": "1444102391a56bf0f3d375fe538283eca3bb4206ad6e26b08c4c5ce4ded21f88"
+  },
+  {
+   "id": "gtr.section.cover-basis",
+   "heading": "Who and What Is Covered",
+   "sha256": "a91861832ae8b48250b9ed830036a880df06f8cd41ed5e13b37b627c021a2436"
+  },
+  {
+   "id": "gtr.exp.cover.who-is-covered",
+   "heading": "Who Is Covered",
+   "sha256": "2d38a3af2d318a7a07c7d8580808379b064473cf834a99860d9c7106a423f6c4"
+  },
+  {
+   "id": "gtr.exp.cover.trip",
+   "heading": "When You Are Covered",
+   "sha256": "eeef4526979c444d656bddda69290766f94d6d46ce599d99ab8947519787b4d7"
+  },
+  {
+   "id": "gtr.section.medical",
+   "heading": "Medical and Evacuation",
+   "sha256": "2fd4cfbcf5a8037c53e88db30940b9aa1530ffa560878d0a4d8d209092282dd4"
+  },
+  {
+   "id": "gtr.exp.cover.medical",
+   "heading": "International Medical Plan",
+   "sha256": "ebe16551b4a6ded383569bc09efa4fda4b7fe010940dfe048f285fe054396574"
+  },
+  {
+   "id": "gtr.section.payment",
+   "heading": "How We Pay",
+   "sha256": "25ea51188284e7f7220078334c4aaa54e060d47c3b3be383c4855726a5833305"
+  },
+  {
+   "id": "gtr.exp.pay.limits-and-excess",
+   "heading": "Limits and Excess",
+   "sha256": "c1f825bf6cb1f2bb9c70f43e8bc119495e577687b604d7a22b09b394d4139d52"
+  },
+  {
+   "id": "gtr.exp.pay.medicare",
+   "heading": "What the Law Does Not Allow Us to Pay",
+   "sha256": "338b4914329b468a79fa514908d03b426fdd2e50e354db6dd33bbd9751f2db45"
+  },
+  {
+   "id": "gtr.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "008827f5a3a2d8316f465547d29bb61aca511bfed440a0b039d7f626e13fac77"
+  },
+  {
+   "id": "gtr.pay.recovery",
+   "heading": "Recovery",
+   "sha256": "df703841d7f088f7c04949417af6336afaa7551f9a9d38f5b61bef2b38fc8206"
+  },
+  {
+   "id": "gtr.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "60da90341062b57f7cc1ef5d96d8dd3f67d7d12e2c61893e2aafbe7ba7082d4f"
+  },
+  {
+   "id": "gtr.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "4ccb92daeafce4afef50d0925312b7561e34b4ee35fe78dc7c29c94fdaaee864"
+  },
+  {
+   "id": "gtr.excl.pre-existing-conditions",
+   "heading": "Pre-existing Conditions",
+   "sha256": "2b8c724d1d4d5a1d045638cb783fe4cd38dce861ed15f0df9db20da7f29c22ca"
+  },
+  {
+   "id": "gtr.exp.excl.government-advice",
+   "heading": "Government Travel Advice",
+   "sha256": "1f131b172aa6875e4b1381e7a06029ce8d08dac8f74f5578011e898349692831"
+  },
+  {
+   "id": "gtr.exp.excl.war",
+   "heading": "War",
+   "sha256": "e02d26cb6ade0f4d773c6278d108b007d260a56dd496d64435cc86e64df76b7c"
+  },
+  {
+   "id": "gtr.exp.excl.nuclear-biological-chemical",
+   "heading": "Nuclear, Biological and Chemical Events",
+   "sha256": "e159e9a5988461d78af0b49f5cb30404499884592a827c11efeea065e9b95870"
+  },
+  {
+   "id": "gtr.excl.self-injury-intoxication",
+   "heading": "Self-Injury and Intoxication",
+   "sha256": "17f903c2cd70249a733dbff01b575d1554dc9ef6823f7abb764ffb7c8b665a69"
+  },
+  {
+   "id": "gtr.excl.illegal-acts",
+   "heading": "Illegal Acts",
+   "sha256": "30eec662a26ac0034e1d2bb51c2873ef9b1a2c69ecbfb428a5ec20bb3a09dec2"
+  },
+  {
+   "id": "gtr.excl.hazardous-activities",
+   "heading": "Hazardous Activities",
+   "sha256": "1df00fa19fdb7ad9676df35a7273ea581df24a83d47ea1ed3894044099c2ab10"
+  },
+  {
+   "id": "gtr.exp.excl.pregnancy",
+   "heading": "Pregnancy and Childbirth",
+   "sha256": "504ea8f099e28ea486d7de25816ac9a550df2d8625e75f405a18128a566d2c1c"
+  },
+  {
+   "id": "gtr.exp.excl.elective-treatment",
+   "heading": "Treatment We Do Not Pay For",
+   "sha256": "714874162c7cebd3b7df5e69d9fb29fe286fa99a6e7d7a6bc3b2eea70a8a4aec"
+  },
+  {
+   "id": "gtr.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "534fcbdd56fdf057d9392998ff2ffd50b3467619736108486d5f3d0c1ca274f3"
+  },
+  {
+   "id": "gtr.obl.emergencies",
+   "heading": "Emergencies",
+   "sha256": "cc96b181fb1328d7460953c87fede04b1846cddab75e6368bf90824527b29fb5"
+  },
+  {
+   "id": "gtr.obl.claims",
+   "heading": "Making a Claim",
+   "sha256": "fe55181735b37eee0009c9abf860680a0078cf70a6066fb9c02a866ea20463f4"
+  },
+  {
+   "id": "gtr.exp.obl.declarations",
+   "heading": "Declarations",
+   "sha256": "ee3a060781637d54b273c07dd81394d498fa2d6b1fb34c5ba3575f12717e4eda"
+  },
+  {
+   "id": "gtr.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "gtr.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "dcb7f5bf232654a10ca24c443592eaf8d1c2bc71187a8c4a0c58e2555dec2837"
+  },
+  {
+   "id": "gtr.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "7fa0844124465bed2e29ac15c33829197b2045580db85b69234d637585ffd656"
+  },
+  {
+   "id": "gtr.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "c86ca1a7e228dcda5eea5b6490637d8131c390871051330bc1e8caccca7570ca"
+  },
+  {
+   "id": "gtr.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "5ba52d19ab90443ea6b2198a22945a8def05fcb16abf4bdcae943f6728c7bdb5"
+  },
+  {
+   "id": "gtr.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "296db7ded4e0c1968a0a8e01cffb75c6352fca9165fd0e88dadb4e1b2baf63f8"
+  },
+  {
+   "id": "gtr.cond.gst",
+   "heading": "GST",
+   "sha256": "08f98554bd0e20fd554ed39b83b7992ca3900cd0678c38e96acb4f8ccd0f24e7"
+  },
+  {
+   "id": "gtr.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "7f5bda1363cf320dd395d78be13fe0a444e94aa337cac3fbfddac2d97d67b995"
+  },
+  {
+   "id": "gtr.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "2548959203abad2bb444523707421dac096f6405b509b34f08b092fb7f70a9d8"
+  },
+  {
+   "id": "gtr.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "99806d00541a763110c52e2d2436c54ed98afbde768dbdd47e96dd627a155e3e"
+  },
+  {
+   "id": "gtr.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "gtr.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "09da6dcb88d28d9028a0994fcdf54b8b5806ac3672176b0a131db7595b9385d7"
+  },
+  {
+   "id": "gtr.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "e797added7b06753250c183a67962e4afacfb9298d3e3a6927393833b6032ee4"
+  },
+  {
+   "id": "gtr.exp.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "6929d2bf7ea203c78719be622074f4122ea24ca6231924173afa20dab4f1c87b"
+  },
+  {
+   "id": "gtr.end.e01",
+   "heading": "E01 Pre-existing Medical Conditions",
+   "sha256": "4f06ffca9ca64f6d7dbbf5cb6df6d89ce99c119684913145684739d53fc9f602"
+  },
+  {
+   "id": "gtr.exp.end.e03",
+   "heading": "E03 Hazardous Activities",
+   "sha256": "29c381aca54962d2f72732c3cbce1d73d9c0a74f15a10a0cfb51d63a5f607177"
+  },
+  {
+   "id": "gtr.xl.end.e11",
+   "heading": "E11 Lloyd's Underwriters",
+   "sha256": "a8668e910216523bd1fb540785da1520c9e9c60dd042ab0922df467c9a1ba525"
+  },
+  {
+   "id": "gtr.exp.end.e12",
+   "heading": "E12 Home Leave in Australia",
+   "sha256": "f55e0d0cf77ff9c6f15ccf40941f58bb867a9b5eff6ddc6e6bd83eea17cb8686"
+  },
+  {
+   "id": "gtr.exp.end.e13",
+   "heading": "E13 USA Travel",
+   "sha256": "2b5e3be51d7f69da6bfb2b994ed85051378e7da7119440d39f1f323d6904cfe2"
+  },
+  {
+   "id": "gtr.exp.end.e14",
+   "heading": "E14 Routine Dental and Optical",
+   "sha256": "fe63c2bd3595000ce14ec661a614965a3f910c28a30d460a790e301019cb26cf"
+  },
+  {
+   "id": "gtr.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "gtr.end.e01",
+   "heading": "E01 Pre-existing Medical Conditions",
+   "trigger": {
+    "questions": [
+     "qs.gtr.medical.preexisting_declared"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.medical.preexisting_declared == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because the policyholder declared a traveller's pre-existing condition; acceptance needs medical underwriting.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.medical.preexisting_declared",
+     "text": "Does any insured person want cover for a pre-existing medical condition?",
+     "type": "yes/no",
+     "used_by": "E01"
+    }
+   ]
+  },
+  {
+   "id": "gtr.exp.end.e03",
+   "heading": "E03 Hazardous Activities",
+   "trigger": {
+    "questions": [
+     "qs.gtr.activities.hazardous"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.activities.hazardous == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because insured persons will take part in an activity the base wording excludes.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.activities.hazardous",
+     "text": "Will any insured person take part in an activity listed in the hazardous activities exclusion?",
+     "type": "yes/no",
+     "used_by": "E03"
+    }
+   ]
+  },
+  {
+   "id": "gtr.xl.end.e11",
+   "heading": "E11 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.gtr.issuer.lloyds"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.issuer.lloyds == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policy is issued under a Lloyd's binding authority.",
+    "responses": [
+     "Attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.issuer.lloyds",
+     "text": "Is the policy issued under a Lloyd's binding authority?",
+     "type": "yes/no",
+     "used_by": "E11"
+    }
+   ]
+  },
+  {
+   "id": "gtr.exp.end.e12",
+   "heading": "E12 Home Leave in Australia",
+   "trigger": {
+    "questions": [
+     "qs.gtr.exp.home_leave"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.exp.home_leave == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred for legal sign-off before treatment in Australia during home leave is covered.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.exp.home_leave",
+     "text": "Do you want cover for treatment during home leave in Australia?",
+     "type": "yes/no",
+     "used_by": "R, E12"
+    }
+   ]
+  },
+  {
+   "id": "gtr.exp.end.e13",
+   "heading": "E13 USA Travel",
+   "trigger": {
+    "questions": [
+     "qs.gtr.exp.usa_travel"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.exp.usa_travel == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because assignees travel to the USA from a host country outside the worldwide area.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.exp.usa_travel",
+     "text": "Will assignees travel to the USA from their host country?",
+     "type": "yes/no",
+     "used_by": "R, E13"
+    }
+   ]
+  },
+  {
+   "id": "gtr.exp.end.e14",
+   "heading": "E14 Routine Dental and Optical",
+   "trigger": {
+    "questions": [
+     "qs.gtr.exp.dental"
+    ],
+    "rules": [
+     {
+      "when": "qs.gtr.exp.dental == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because routine dental and optical cover was chosen.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.gtr.exp.dental",
+     "text": "Do you want routine dental and optical cover?",
+     "type": "yes/no",
+     "used_by": "R, E14"
+    }
+   ]
+  }
+ ],
+ "sha256": "4e644af0e128baf044b2ee0334f36974e5e90bb80f13d44176d9faec3296a6bc"
+}

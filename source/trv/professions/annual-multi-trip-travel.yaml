@@ -1,0 +1,66 @@
+id: trv-amt
+title: Annual Multi-Trip Travel Insurance
+class: ANNUAL MULTI-TRIP TRAVEL INSURANCE
+kicker: Meridian Commons · Annual Multi-Trip Travel
+slug: annual-multi-trip-travel
+file_stem: Meridian_Annual_Multi_Trip_Travel
+doc_ref: 2026/AMT/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Annual travel cover for every trip in the year up to a chosen maximum trip length, with pre-existing conditions accepted
+  through medical screening, built on the Meridian Travel base wording.
+base: trv-base@1.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated annual multi-trip wording
+overrides:
+- op: replace
+  target: trv.about
+  with: trv.amt.about
+- op: replace
+  target: trv.important-information
+  with: trv.amt.important-information
+- op: replace
+  target: trv.schedule
+  with: trv.amt.schedule
+- op: replace
+  target: trv.endorsement-library
+  with: trv.amt.endorsement-library
+- op: delete
+  target: trv.end.e01
+- op: delete
+  target: trv.end.e04
+- op: delete
+  target: trv.end.e05
+- op: delete
+  target: trv.end.e15
+- op: replace
+  target: trv.cover.who-is-covered
+  with: trv.amt.cover.who-is-covered
+- op: replace
+  target: trv.cover.trip
+  with: trv.amt.cover.trip
+- op: replace
+  target: trv.def.trip
+  with: trv.amt.def.trip
+- op: add
+  clause: trv.amt.def.maximum-trip-length
+  after: trv.def.luggage-and-personal-effects
+- op: add
+  clause: trv.amt.def.medical-screening
+  after: trv.def.medical-practitioner
+- op: replace
+  target: trv.excl.pre-existing-conditions
+  with: trv.amt.excl.pre-existing-conditions
+- op: replace
+  target: trv.cond.cancellation
+  with: trv.amt.cond.cancellation
+- op: add
+  clause: trv.xl.end.e16
+  after: trv.end.e14
+- op: add
+  clause: trv.amt.end.e17
+  after: trv.xl.end.e16
+- op: add
+  clause: trv.amt.end.e18
+  after: trv.amt.end.e17

@@ -1,0 +1,167 @@
+id: pa-lol
+title: Aircrew Loss of Licence Insurance
+class: AIRCREW LOSS OF LICENCE INSURANCE
+kicker: Meridian Commons · Aircrew Loss of Licence
+slug: aircrew-loss-of-licence
+file_stem: Meridian_Aircrew_Loss_of_Licence
+doc_ref: 2026/LOL/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: 'Annual, reviewable loss of licence cover for commercial pilots: a lump sum when CASA permanently cancels or refuses
+  a Class 1 medical certificate, and a monthly benefit while it is suspended, built on the Meridian Personal Accident and
+  Sickness base wording.'
+base: pa-base@1.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated loss of licence wording
+overrides:
+- op: replace
+  target: pa.about
+  with: pa.lol.about
+- op: replace
+  target: pa.important-information
+  with: pa.lol.important-information
+- op: replace
+  target: pa.schedule
+  with: pa.lol.schedule
+- op: replace
+  target: pa.endorsement-library
+  with: pa.lol.endorsement-library
+- op: delete
+  target: pa.end.e01
+- op: delete
+  target: pa.end.e02
+- op: delete
+  target: pa.end.e03
+- op: delete
+  target: pa.end.e04
+- op: delete
+  target: pa.end.e09
+- op: delete
+  target: pa.end.e10
+- op: delete
+  target: pa.end.e11
+- op: delete
+  target: pa.end.e12
+- op: delete
+  target: pa.end.e14
+- op: delete
+  target: pa.def.income
+- op: delete
+  target: pa.def.occupation-class
+- op: delete
+  target: pa.def.permanent
+- op: delete
+  target: pa.def.permanent-total-disablement
+- op: delete
+  target: pa.def.scope-of-cover
+- op: delete
+  target: pa.def.temporary-partial-disablement
+- op: delete
+  target: pa.def.temporary-total-disablement
+- op: delete
+  target: pa.def.weekly-benefit
+- op: delete
+  target: pa.def.mental-illness
+- op: replace
+  target: pa.def.benefit-period
+  with: pa.lol.def.benefit-period
+- op: replace
+  target: pa.def.capital-sum
+  with: pa.lol.def.capital-sum
+- op: add
+  clause: pa.lol.def.casa
+  after: pa.lol.def.capital-sum
+- op: add
+  clause: pa.lol.def.class-1-medical-certificate
+  after: pa.lol.def.casa
+- op: replace
+  target: pa.def.insured-person
+  with: pa.lol.def.insured-person
+- op: add
+  clause: pa.lol.def.licence
+  after: pa.lol.def.insured-person
+- op: add
+  clause: pa.lol.def.monthly-benefit
+  after: pa.def.medical-practitioner
+- op: add
+  clause: pa.lol.def.permanent-loss-of-licence
+  after: pa.lol.def.monthly-benefit
+- op: add
+  clause: pa.lol.def.temporary-loss-of-licence
+  after: pa.def.sickness
+- op: replace
+  target: pa.def.waiting-period
+  with: pa.lol.def.waiting-period
+- op: replace
+  target: pa.cover.capital-benefits
+  with: pa.lol.cover.permanent
+- op: replace
+  target: pa.cover.weekly-injury
+  with: pa.lol.cover.temporary
+- op: delete
+  target: pa.cover.weekly-sickness
+- op: delete
+  target: pa.section.additional-benefits
+- op: delete
+  target: pa.pay.weekly-benefit-amount
+- op: delete
+  target: pa.pay.one-capital-event
+- op: delete
+  target: pa.pay.offsets
+- op: delete
+  target: pa.pay.mental-illness
+- op: delete
+  target: pa.pay.accumulation
+- op: delete
+  target: pa.pay.medicare
+- op: replace
+  target: pa.pay.recurrence
+  with: pa.lol.pay.recurrence
+- op: replace
+  target: pa.pay.weekly-and-capital
+  with: pa.lol.pay.monthly-and-lump-sum
+- op: replace
+  target: pa.pay.other-insurance
+  with: pa.lol.pay.other-insurance
+- op: replace
+  target: pa.pay.age-limits
+  with: pa.lol.pay.age-limits
+- op: replace
+  target: pa.obl.residence-and-travel
+  with: pa.lol.obl.residence-and-travel
+- op: replace
+  target: pa.excl.intoxication
+  with: pa.lol.excl.intoxication
+- op: delete
+  target: pa.excl.flying
+- op: replace
+  target: pa.excl.initial-sickness-period
+  with: pa.lol.excl.initial-sickness-period
+- op: replace
+  target: pa.excl.pregnancy
+  with: pa.lol.excl.pregnancy
+- op: replace
+  target: pa.excl.pre-existing-conditions
+  with: pa.lol.excl.pre-existing-conditions
+- op: add
+  clause: pa.lol.excl.licence-actions
+  after: pa.lol.excl.pre-existing-conditions
+- op: replace
+  target: pa.cond.renewal
+  with: pa.lol.cond.renewal
+- op: replace
+  target: pa.obl.tell-us-about-claims
+  with: pa.lol.obl.tell-us-about-claims
+- op: replace
+  target: pa.end.e05
+  with: pa.lol.end.e05
+- op: add
+  clause: pa.lol.end.e15
+  after: pa.end.e13
+- op: add
+  clause: pa.lol.end.e16
+  after: pa.lol.end.e15
+- op: add
+  clause: pa.lol.end.e17
+  after: pa.lol.end.e16

@@ -1,0 +1,77 @@
+id: gpa-nmh
+title: Accident Medical and Hospital Benefits Insurance
+class: ACCIDENT MEDICAL AND HOSPITAL BENEFITS INSURANCE
+kicker: Meridian Commons · Accident Medical and Hospital Benefits
+slug: accident-medical-and-hospital-benefits
+file_stem: Meridian_Accident_Medical_and_Hospital_Benefits
+doc_ref: 2026/NMH/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Non-Medicare medical expenses and hospital cash for injury, for exempt groups only (sport, volunteers, students,
+  Australians working overseas, visitors without Medicare), built on the Meridian Group Personal Accident and Sickness base
+  wording.
+base: gpa-base@1.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated medical and hospital benefits wording
+overrides:
+- op: replace
+  target: gpa.about
+  with: gpa.nmh.about
+- op: replace
+  target: gpa.important-information
+  with: gpa.nmh.important-information
+- op: replace
+  target: gpa.schedule
+  with: gpa.nmh.schedule
+- op: replace
+  target: gpa.endorsement-library
+  with: gpa.nmh.endorsement-library
+- op: delete
+  target: gpa.end.e01
+- op: delete
+  target: gpa.end.e02
+- op: delete
+  target: gpa.end.e03
+- op: delete
+  target: gpa.end.e06
+- op: delete
+  target: gpa.end.e07
+- op: delete
+  target: gpa.end.e10
+- op: delete
+  target: gpa.end.e12
+- op: delete
+  target: gpa.end.e14
+- op: delete
+  target: gpa.end.e15
+- op: add
+  clause: gpa.xmed.def.exempt-group
+  after: gpa.def.endorsement
+- op: add
+  clause: gpa.xmed.def.health-fund
+  after: gpa.def.hazardous-pursuit
+- op: add
+  clause: gpa.xmed.def.hospital
+  after: gpa.xmed.def.health-fund
+- op: add
+  clause: gpa.xmed.def.non-medicare-expenses
+  after: gpa.def.mental-illness
+- op: add
+  clause: gpa.xmed.def.health-practitioner
+  after: gpa.def.pre-existing-condition
+- op: add_section
+  section: gpa.xmed.section.medical
+  after: gpa.section.cover
+  clauses:
+  - gpa.xmed.cover.medical-expenses
+  - gpa.xmed.cover.hospital-cash
+- op: replace
+  target: gpa.pay.medicare
+  with: gpa.xmed.pay.medicare
+- op: add
+  clause: gpa.nmh.end.e17
+  after: gpa.end.e16
+- op: add
+  clause: gpa.nmh.end.e18
+  after: gpa.nmh.end.e17

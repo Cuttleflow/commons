@@ -1,0 +1,69 @@
+id: trv-glt
+title: Group Leisure Travel Insurance
+class: GROUP LEISURE TRAVEL INSURANCE
+kicker: Meridian Commons · Group Leisure Travel
+slug: group-leisure-travel
+file_stem: Meridian_Group_Leisure_Travel
+doc_ref: 2026/GLT/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: One policy for a school trip, a tour group or a touring team, with the supervisors covered, built on the Meridian
+  Travel base wording.
+base: trv-base@1.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated group travel wording
+overrides:
+- op: replace
+  target: trv.about
+  with: trv.glt.about
+- op: replace
+  target: trv.important-information
+  with: trv.glt.important-information
+- op: replace
+  target: trv.schedule
+  with: trv.glt.schedule
+- op: replace
+  target: trv.endorsement-library
+  with: trv.glt.endorsement-library
+- op: delete
+  target: trv.end.e04
+- op: delete
+  target: trv.end.e05
+- op: delete
+  target: trv.end.e06
+- op: delete
+  target: trv.end.e14
+- op: add
+  clause: trv.glt.def.group-list
+  after: trv.def.excess
+- op: replace
+  target: trv.def.insured-person
+  with: trv.glt.def.insured-person
+- op: add
+  clause: trv.glt.def.supervisor
+  after: trv.def.sickness
+- op: replace
+  target: trv.def.trip
+  with: trv.glt.def.trip
+- op: replace
+  target: trv.cover.who-is-covered
+  with: trv.glt.cover.who-is-covered
+- op: replace
+  target: trv.cover.trip
+  with: trv.glt.cover.trip
+- op: add
+  clause: trv.glt.cover.replacement-supervisor
+  after: trv.cover.extras
+- op: replace
+  target: trv.excl.business-travel
+  with: trv.glt.excl.business-travel
+- op: add
+  clause: trv.xl.end.e16
+  after: trv.end.e15
+- op: add
+  clause: trv.glt.end.e17
+  after: trv.xl.end.e16
+- op: add
+  clause: trv.glt.end.e18
+  after: trv.glt.end.e17

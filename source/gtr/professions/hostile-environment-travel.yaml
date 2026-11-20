@@ -1,0 +1,52 @@
+id: gtr-hrt
+title: Hostile Environment Travel Insurance
+class: HOSTILE ENVIRONMENT TRAVEL INSURANCE
+kicker: Meridian Commons · Hostile Environment Travel
+slug: hostile-environment-travel
+file_stem: Meridian_Hostile_Environment_Travel
+doc_ref: 2026/HRT/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Travel, medical, evacuation and personal accident cover, including war and terrorism, for aid, media and project
+  staff in high-risk countries, built on the Meridian Corporate Travel base wording.
+base: gtr-base@1.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated hostile environment travel wording
+overrides:
+- op: replace
+  target: gtr.about
+  with: gtr.hrt.about
+- op: replace
+  target: gtr.schedule
+  with: gtr.hrt.schedule
+- op: replace
+  target: gtr.endorsement-library
+  with: gtr.hrt.endorsement-library
+- op: add
+  clause: gtr.hrt.def.active-participation
+  after: gtr.def.accompanying-family-member
+- op: add
+  clause: gtr.hrt.def.approved-destination
+  after: gtr.hrt.def.active-participation
+- op: add
+  clause: gtr.hrt.def.hostile-environment-training
+  after: gtr.def.home
+- op: replace
+  target: gtr.excl.war
+  with: gtr.hrt.excl.war
+- op: replace
+  target: gtr.excl.government-advice
+  with: gtr.hrt.excl.government-advice
+- op: add
+  clause: gtr.hrt.obl.security
+  after: gtr.obl.emergencies
+- op: add
+  clause: gtr.xl.end.e11
+  after: gtr.end.e10
+- op: add
+  clause: gtr.hrt.end.e12
+  after: gtr.xl.end.e11
+- op: add
+  clause: gtr.hrt.end.e13
+  after: gtr.hrt.end.e12

@@ -192,3 +192,180 @@ questions:
     text: Is this policy issued under a Lloyd's binding authority?
     type: yes/no
     used_by: E13
+  - id: qs.gpa.gig.engaged_hours
+    text: "How many engaged hours do you expect covered persons to work through the platform in the policy period?"
+    type: number (hours)
+    used_by: R, A, S
+  - id: qs.gpa.gig.vehicle_split
+    text: "What share of engaged hours is worked on each kind of vehicle?"
+    type: repeating (vehicle, percentage; total 100)
+    options: ["walk", "bicycle", "e_bike", "motorcycle_scooter", "car"]
+    used_by: R, S
+  - id: qs.gpa.gig.motorcycle_over_30
+    text: "Are more than 30% of engaged hours worked on motorcycles or scooters?"
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.gig.benefit_level
+    text: "Which benefit level should covered persons have?"
+    type: select
+    options: ["basic", "standard", "enhanced", "workers_comp_aligned"]
+    used_by: R, S
+  - id: qs.gpa.gig.waiting_period
+    text: "What waiting period should apply before weekly benefits are paid?"
+    type: select (days)
+    options: ["0", "7", "14"]
+    used_by: R, S
+  - id: qs.gpa.gig.sickness
+    text: "Should weekly benefits also cover sickness?"
+    type: yes/no
+    used_by: R, S
+  - id: qs.gpa.gig.rideshare
+    text: "Do covered persons carry passengers through the platform?"
+    type: yes/no
+    used_by: A, E17
+  - id: qs.gpa.gig.parcel
+    text: "Do covered persons deliver parcels or other goods (not food, drinks or groceries) through the platform?"
+    type: yes/no
+    used_by: A, E18
+  - id: qs.gpa.gig.multi_platform
+    text: "Should covered persons also be covered while working through other platforms?"
+    type: yes/no
+    used_by: R, E19
+  - id: qs.gpa.gig.hospital_benefit
+    text: "Do you want a lump sum paid on hospital admission?"
+    type: yes/no
+    used_by: E20
+  - id: qs.gpa.gig.super_benefit
+    text: "Do you want a superannuation contribution paid with weekly benefits?"
+    type: yes/no
+    used_by: R, E21
+  - id: qs.gpa.gig.under_18
+    text: "Does the platform allow people under 18 to work through it?"
+    type: yes/no
+    used_by: A, E22
+  - id: qs.gpa.gig.heavy_vehicles
+    text: "Do covered persons use vehicles over 1 tonne for platform work?"
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.gig.engaged_time_data
+    text: "Can the platform report each covered person's engaged time and earnings from its records?"
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.gig.loss_ratio
+    text: "What was the loss ratio of the platform's personal accident cover over the last 3 years?"
+    type: select
+    options: ["new_scheme", "under_70", "70_or_more"]
+    used_by: A
+  - id: qs.gpa.gig.workers_by_state
+    text: "What share of engaged hours is worked in each state or territory?"
+    type: repeating (state, percentage; total 100)
+    options: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT"]
+    used_by: R, S
+  - id: qs.gpa.spt.registered_persons
+    text: "How many registered participants, officials and volunteers will be covered in the policy period?"
+    type: number
+    used_by: R, A, S
+  - id: qs.gpa.spt.category_split
+    text: "What share of registered persons is in each sport risk category?"
+    type: repeating (category, percentage; total 100)
+    options: ["cat_a", "cat_b", "cat_c", "cat_d", "cat_e", "officials"]
+    used_by: R, S
+  - id: qs.gpa.spt.age_split
+    text: "What share of registered persons is in each age group?"
+    type: repeating (age group, percentage; total 100)
+    options: ["juniors", "open", "masters"]
+    used_by: R
+  - id: qs.gpa.spt.category_e
+    text: "Does the policyholder administer motor sport, equestrian or combat sports?"
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.spt.paid_players
+    text: "Are any players paid more than their reasonable expenses?"
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.spt.international_tours
+    text: "Do any teams tour outside Australia?"
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.spt.income_cap
+    text: "What maximum weekly benefit should loss of income have?"
+    type: select (AUD)
+    options: ["250", "500"]
+    used_by: R, S
+  - id: qs.gpa.spt.capital_level
+    text: "Which death and permanent disablement benefits should apply?"
+    type: select
+    options: ["standard", "higher"]
+    used_by: R, S
+  - id: qs.gpa.spt.carnivals
+    text: "Should school sport carnivals in the sport be covered?"
+    type: yes/no
+    used_by: R, E17
+  - id: qs.gpa.spt.concussion
+    text: "Do you want the concussion assessment benefit?"
+    type: yes/no
+    used_by: R, E18
+  - id: qs.gpa.spt.top_up
+    text: "Will members be able to buy personal top-up cover?"
+    type: yes/no
+    used_by: E19
+  - id: qs.gpa.spt.loss_ratio
+    text: "What was the loss ratio of the policyholder's sports injury cover over the last 3 years?"
+    type: select
+    options: ["under_75", "75_or_more"]
+    used_by: A
+  - id: qs.gpa.spt.members_by_state
+    text: "What share of registered persons is in each state or territory?"
+    type: repeating (state, percentage; total 100)
+    options: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT"]
+    used_by: R, S
+  - id: qs.gpa.nmh.group_type
+    text: "Which group of people does the policy cover?"
+    type: select
+    options: ["sport", "volunteers", "students", "youth", "overseas_workers", "visitors", "other"]
+    used_by: A, S
+  - id: qs.gpa.nmh.insured_persons
+    text: "How many people will be covered in the policy period?"
+    type: number
+    used_by: R, A, S
+  - id: qs.gpa.nmh.risk_split
+    text: "What share of covered persons is in each activity risk band?"
+    type: repeating (band, percentage; total 100)
+    options: ["band_1_2", "band_3", "band_4_5"]
+    used_by: R
+  - id: qs.gpa.nmh.medical_limit
+    text: "What non-Medicare medical expenses limit for each injury do you want?"
+    type: select (AUD)
+    options: ["2500", "5000", "10000"]
+    used_by: R, A, S
+  - id: qs.gpa.nmh.share_paid
+    text: "What percentage of non-Medicare medical expenses should be paid?"
+    type: select
+    options: ["75", "85", "100"]
+    used_by: R, A, S
+  - id: qs.gpa.nmh.hospital_cash
+    text: "Do you want a hospital cash benefit?"
+    type: yes/no
+    used_by: R, S
+  - id: qs.gpa.nmh.hospital_cash_amount
+    text: "What daily hospital cash benefit do you want?"
+    type: select (AUD a day)
+    options: ["100", "150", "250"]
+    used_by: R, S
+  - id: qs.gpa.nmh.sickness_medical
+    text: "Do you want medical expenses for sickness as well as injury?"
+    type: yes/no
+    used_by: A
+  - id: qs.gpa.nmh.ambulance
+    text: "Do you want emergency ambulance costs paid in full?"
+    type: yes/no
+    used_by: R, E17
+  - id: qs.gpa.nmh.dental
+    text: "Do you want the dental injury enhancement?"
+    type: yes/no
+    used_by: R, E18
+  - id: qs.gpa.nmh.persons_by_state
+    text: "What share of covered persons is in each state or territory?"
+    type: repeating (state, percentage; total 100)
+    options: ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT"]
+    used_by: R, S

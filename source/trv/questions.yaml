@@ -100,3 +100,109 @@ questions:
     text: Do you want golf cover?
     type: yes/no
     used_by: E14
+  - id: qs.trv.issuer.lloyds
+    text: "Is the policy issued under a Lloyd's binding authority?"
+    type: yes/no
+    used_by: E16
+  - id: qs.trv.amt.area
+    text: "Which area should the annual policy cover?"
+    type: select
+    options: ["worldwide", "excl_americas", "asia_pacific", "nz_pacific"]
+    used_by: R, S
+  - id: qs.trv.amt.max_trip_days
+    text: "What is the longest trip you will take?"
+    type: select (days)
+    options: ["15", "30", "45", "60"]
+    used_by: R, A, S
+  - id: qs.trv.amt.screening_outcome
+    text: "What was the outcome of medical screening?"
+    type: select
+    options: ["none", "accepted", "low", "mid", "high", "exclude", "decline"]
+    used_by: R, A, S, E17, E18
+  - id: qs.trv.amt.cruise
+    text: "Will any trip be an ocean cruise?"
+    type: yes/no
+    used_by: R
+  - id: qs.trv.amt.terminal_illness
+    text: "Has any traveller been diagnosed with a terminal illness?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.amt.against_medical_advice
+    text: "Will any traveller travel against medical advice?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.amt.awaiting_treatment
+    text: "Is any traveller waiting for surgery, a specialist investigation or a test result?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.glt.group_type
+    text: "What kind of group is travelling?"
+    type: select
+    options: ["school", "tour", "sports_team", "other"]
+    used_by: R, S, E17
+  - id: qs.trv.glt.group_size
+    text: "How many group members and supervisors are travelling?"
+    type: number
+    used_by: R, A, S
+  - id: qs.trv.glt.trip_days
+    text: "How many days is the group trip?"
+    type: number (days)
+    used_by: R, A, S
+  - id: qs.trv.glt.destination
+    text: "What is the main destination of the group trip?"
+    type: select
+    options: ["within_state", "interstate", "nz_pacific", "asia", "europe", "americas"]
+    used_by: R, S
+  - id: qs.trv.glt.itinerary
+    text: "Has the group trip a written itinerary?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.glt.supervision_ratio
+    text: "Are there more than 12 students for each supervisor?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.glt.dfat_high
+    text: "Does the itinerary include a country or region where DFAT advice is reconsider your need to travel or do not travel?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.glt.supervisor_over_75
+    text: "Is any supervisor aged 75 or over?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.glt.host_family
+    text: "Will group members stay with host families?"
+    type: yes/no
+    used_by: E18
+  - id: qs.trv.inb.medicare_eligible
+    text: "Is any traveller an Australian citizen or permanent resident, or eligible for Medicare?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.inb.visa_condition
+    text: "Are you buying this policy to meet a visa condition that requires health insurance?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.inb.in_australia_no_return
+    text: "Is any traveller already in Australia without a booked return or onward ticket?"
+    type: yes/no
+    used_by: A
+  - id: qs.trv.inb.home_country
+    text: "In which country does the policyholder live?"
+    type: text
+    used_by: S
+  - id: qs.trv.inb.stay_days
+    text: "How many days will you be in Australia?"
+    type: number (days)
+    used_by: R, A, S
+  - id: qs.trv.inb.plan
+    text: "Which plan do you want?"
+    type: select
+    options: ["medical_only", "essentials", "comprehensive", "top"]
+    used_by: R, S
+  - id: qs.trv.inb.manual_work
+    text: "Will any traveller do manual work on a working holiday?"
+    type: yes/no
+    used_by: A, E17
+  - id: qs.trv.inb.extension
+    text: "Is this an extension of an existing stay?"
+    type: yes/no
+    used_by: E18

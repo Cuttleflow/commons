@@ -141,3 +141,148 @@ questions:
     text: Has any insurer declined, cancelled or refused to renew travel insurance for the policyholder?
     type: yes/no
     used_by: A
+  - id: qs.gtr.issuer.lloyds
+    text: "Is the policy issued under a Lloyd's binding authority?"
+    type: yes/no
+    used_by: E11
+  - id: qs.gtr.sbt.named_travellers
+    text: "How many named travellers should the policy cover?"
+    type: number
+    used_by: R, A, S
+  - id: qs.gtr.sbt.area
+    text: "Which area should the policy cover?"
+    type: select
+    options: ["worldwide", "excl_americas", "australia_only"]
+    used_by: R, S
+  - id: qs.gtr.sbt.max_trip
+    text: "What is the longest trip any named traveller will take?"
+    type: select (days)
+    options: ["30", "60", "90"]
+    used_by: R, S
+  - id: qs.gtr.sbt.oldest_age
+    text: "How old is the oldest named traveller?"
+    type: number (years)
+    used_by: R, A
+  - id: qs.gtr.sbt.family_cover
+    text: "Should accompanying family members be covered?"
+    type: select
+    options: ["none", "some", "all"]
+    used_by: R, S
+  - id: qs.gtr.sbt.based_in_australia
+    text: "Is the business based in Australia, and do all named travellers live in Australia?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.sbt.usa_mostly
+    text: "Will most of the travel be to the United States?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.sbt.equipment_increase
+    text: "Do you want higher business equipment limits?"
+    type: yes/no
+    used_by: R, E12
+  - id: qs.gtr.exp.temporarily_employed
+    text: "Are all assignees Australian residents whom you have sent to work outside Australia temporarily?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.exp.lives
+    text: "How many assignees and dependants should be covered?"
+    type: number
+    used_by: R, A, S
+  - id: qs.gtr.exp.age_split
+    text: "What share of the lives is in each age band?"
+    type: repeating (age band, percentage; total 100)
+    options: ["0_17", "18_29", "30_34", "35_39", "40_44", "45_49", "50_54", "55_59", "60_64", "65_74"]
+    used_by: R
+  - id: qs.gtr.exp.lives_65_74
+    text: "Are any of the lives aged 65 to 74?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.exp.lives_over_74
+    text: "Are any of the lives aged 75 or over?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.exp.area
+    text: "Which area of cover do you want?"
+    type: select
+    options: ["asia", "worldwide_excl_usa", "worldwide"]
+    used_by: R, S
+  - id: qs.gtr.exp.plan
+    text: "Which plan do you want?"
+    type: select
+    options: ["standard", "premier"]
+    used_by: R, S
+  - id: qs.gtr.exp.excess
+    text: "What annual excess do you want for each insured person?"
+    type: select (AUD)
+    options: ["0", "500", "1500", "5000"]
+    used_by: R, S
+  - id: qs.gtr.exp.sanctioned_host
+    text: "Is any host country subject to Australian autonomous sanctions?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.exp.usa_resident
+    text: "Is any assignee based in the USA?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.exp.pregnant
+    text: "Is any insured person pregnant now?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.exp.long_assignment
+    text: "Will any assignment last more than 5 years?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.exp.home_leave
+    text: "Do you want cover for treatment during home leave in Australia?"
+    type: yes/no
+    used_by: R, E12
+  - id: qs.gtr.exp.usa_travel
+    text: "Will assignees travel to the USA from their host country?"
+    type: yes/no
+    used_by: R, E13
+  - id: qs.gtr.exp.dental
+    text: "Do you want routine dental and optical cover?"
+    type: yes/no
+    used_by: R, E14
+  - id: qs.gtr.hrt.person_days
+    text: "How many person-days will insured persons spend travelling in the policy period?"
+    type: number
+    used_by: R, A, S
+  - id: qs.gtr.hrt.dfat_split
+    text: "What share of person-days is at each DFAT advice level?"
+    type: repeating (level, percentage; total 100)
+    options: ["level_1", "level_2", "level_3", "level_4"]
+    used_by: R, S
+  - id: qs.gtr.hrt.level_3_4
+    text: "Will anyone travel where DFAT advice is reconsider your need to travel or do not travel?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.hrt.role
+    text: "What is the main role of the people travelling?"
+    type: select
+    options: ["office", "field", "fixed_site", "security"]
+    used_by: R, S
+  - id: qs.gtr.hrt.armed
+    text: "Will anyone carry a weapon or take part in hostilities?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.hrt.sanctioned
+    text: "Will anyone travel to a country under Australian autonomous sanctions?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.hrt.over_70_level_3_4
+    text: "Will anyone aged 70 or over travel where DFAT advice is reconsider your need to travel or do not travel?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.hrt.training
+    text: "Have all travellers to high-risk destinations completed hostile environment training?"
+    type: yes/no
+    used_by: A
+  - id: qs.gtr.hrt.embedded
+    text: "Will any journalist be embedded with an armed force?"
+    type: yes/no
+    used_by: E12
+  - id: qs.gtr.hrt.evacuation_increase
+    text: "Do you want a higher security evacuation limit?"
+    type: yes/no
+    used_by: E13

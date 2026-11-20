@@ -1,0 +1,8 @@
+This is the first release of the Meridian On-Demand Worker Personal Accident wording. It is built on the Meridian Group Personal Accident and Sickness base wording version 1.1.0-DRAFT. It differs from the base in these ways:
+
+- The policyholder is a digital platform operator. Covered Person is anyone aged 18 or over with an active account who performs platform work, other than an employee. New definitions: Engaged Time, Platform and Platform Work. Income is average platform earnings over 12 weeks. Scope of Cover is engaged time on platform work in Australia.
+- Important Information mentions the Fair Work Commission's on-demand delivery minimum standards order, with a WP REVIEW tag, and says the policyholder decides whether the cover meets it.
+- Declarations and Premium Adjustment is restated for monthly declarations of engaged hours by vehicle and state, with a 7-year record-keeping obligation and a WP REVIEW tag.
+- Endorsements E01, E02, E03, E06, E07, E10, E12, E14 and E15 are removed. New endorsements: E17 Passenger Transport, E18 Parcel and Last-Mile Delivery, E19 Cover Across Several Platforms, E20 Hospital Admission Benefit (with a WP REVIEW tag on rule 13 of the Private Health Insurance (Health Insurance Business) Rules 2018 (Cth)), E21 Superannuation Contribution Benefit and E22 Workers Aged 16 and 17.
+
+This document is version-controlled. The version and date shown on the cover page and in the footer of each page govern this text. The version stated in the schedule as current at the start of the policy period applies for the whole policy period, unless the schedule or an endorsement states otherwise.
