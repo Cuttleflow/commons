@@ -1,0 +1,903 @@
+{
+ "wording": "mpc-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/MPC/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "mpc.about",
+   "heading": "About This Policy",
+   "sha256": "8c2d4ac2734e1b675ae2578e39e9ad49a9a4ab930fe49d099350126dcaf0880c"
+  },
+  {
+   "id": "mpc.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "mpc.important-information",
+   "heading": "Important Information",
+   "sha256": "e78792836123ffab9249792f1813e4dc9ea5e9b886967b01491a5531df39ad72"
+  },
+  {
+   "id": "mpc.schedule",
+   "heading": "Schedule",
+   "sha256": "8421117e560aec069a5a3970b06b6566d7fa47666b568b0a2e65b9fd41bb6d57"
+  },
+  {
+   "id": "mpc.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "mpc.def.agreed-value",
+   "heading": "Agreed Value",
+   "sha256": "8e8c0e109a6f651aac9096e660f12720368bbbd7c9ea3fd4d25fbdb662610459"
+  },
+  {
+   "id": "mpc.def.boat",
+   "heading": "Boat",
+   "sha256": "453ec4dc0858cdd9879e5ccde5ffdca8be91c52d3cbf009c06f1a2b5fc7e094d"
+  },
+  {
+   "id": "mpc.def.cyclone-season",
+   "heading": "Cyclone Season",
+   "sha256": "3ec05df3f769e35e33861af5b58fcee39d848bfe00b8b2315f9fd7a509055bfe"
+  },
+  {
+   "id": "mpc.def.damage",
+   "heading": "Damage",
+   "sha256": "f1251bdb0fd758a63770e30b3876e7a79e4f0f4a7d327ac66f30efa13c14b30c"
+  },
+  {
+   "id": "mpc.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "63f818b16c4934d0378f8c286660d6d204b04b1e202a453770a1e7c9bb0030a8"
+  },
+  {
+   "id": "mpc.def.equipment",
+   "heading": "Equipment",
+   "sha256": "472e22cfc2122364ba6c44989f769af53d5860de83ded5867e01f00d9f6e6798"
+  },
+  {
+   "id": "mpc.def.excess",
+   "heading": "Excess",
+   "sha256": "acaad3920a06aa2824f0a08b0b6a69c2c444e072785effa7ccc5aab1fa40a87b"
+  },
+  {
+   "id": "mpc.def.household",
+   "heading": "Household",
+   "sha256": "26f374bd73c7b56245594e7c9fb382810df6f5b668ce691b6758f18963e08a0b"
+  },
+  {
+   "id": "mpc.def.marina-berth",
+   "heading": "Marina Berth",
+   "sha256": "7f04250ea68dfc074093458dd6a9280e76e58f0ab2ef12a6b2350a0d4c965ad2"
+  },
+  {
+   "id": "mpc.def.market-value",
+   "heading": "Market Value",
+   "sha256": "6de189c098cbc45061ee8c7bce874e8d3d1e5eec2be8f2a813e4aaaca4033339"
+  },
+  {
+   "id": "mpc.def.named-cyclone",
+   "heading": "Named Cyclone",
+   "sha256": "26aaea3d4f5e1555c673145d9853779d00f9f2edb423402714d54fdeae3a5fe6"
+  },
+  {
+   "id": "mpc.def.navigation-limits",
+   "heading": "Navigation Limits",
+   "sha256": "5ace57dc4f1af595d378ff59018fa13ce76e83bb9ad276af0ebe50e00b8cc990"
+  },
+  {
+   "id": "mpc.def.northern-waters",
+   "heading": "Northern Waters",
+   "sha256": "240893361ae4074828f7edd8dbc2830382999e1390c326d314f1bac8359c60e9"
+  },
+  {
+   "id": "mpc.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "bf05c6ad7cc29b611dd30476d4f9eff59e2e5592491088c1034a7035967601ea"
+  },
+  {
+   "id": "mpc.def.operator",
+   "heading": "Operator",
+   "sha256": "06bff208b44d7e8aa26e1800f875165e5cb2aeeb92adce19d0d11f304c45dc85"
+  },
+  {
+   "id": "mpc.def.personal-effects",
+   "heading": "Personal Effects",
+   "sha256": "6e1ecc8c2b744fa4573afead246181138964a9648b0084f1d038e85e3f954047"
+  },
+  {
+   "id": "mpc.def.personal-injury",
+   "heading": "Personal Injury",
+   "sha256": "9f0139b888bdd610cbf2aff0bc10ddcdbe664d36d446c39ed87a29ff2ba62f03"
+  },
+  {
+   "id": "mpc.def.personal-watercraft",
+   "heading": "Personal Watercraft",
+   "sha256": "1fb62d07e1a6f3f8848b922fa6cf3e7c03338de1136629cf097a6dd327198b8d"
+  },
+  {
+   "id": "mpc.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "63e7fdd289a56246cd031104e1f190f7864255d2706e9160682d26c69ae4daaf"
+  },
+  {
+   "id": "mpc.def.property-damage",
+   "heading": "Property Damage",
+   "sha256": "c52c54e180f8c24b7ce71974f6c6860d73c738f6213112637a77495d0da39c16"
+  },
+  {
+   "id": "mpc.def.racing",
+   "heading": "Racing",
+   "sha256": "10a40d3bade3d6e62d834bf13523d47ff31e06562418a698856b8d7bd806e99b"
+  },
+  {
+   "id": "mpc.def.sum-insured",
+   "heading": "Sum Insured",
+   "sha256": "0269d3ca7f84cc1f01a6bf12ae5ccd46ddaf9caa855c5576da9e6b811ab1735f"
+  },
+  {
+   "id": "mpc.def.swing-mooring",
+   "heading": "Swing Mooring",
+   "sha256": "ba78e22cf9b9e7b3ab1426af7bcad5994d58b6fc8e9213c174d8b0f99a82c5d0"
+  },
+  {
+   "id": "mpc.def.tender",
+   "heading": "Tender",
+   "sha256": "6a93cb40c733ada7f00203c2f73ae2ba776e723b048dbe2f3da0771611a8c82b"
+  },
+  {
+   "id": "mpc.def.trailer",
+   "heading": "Trailer",
+   "sha256": "e3169ad6f650ecc78b636f49df19ca0d6e5d67dfc102874b1b55b07e75ea1390"
+  },
+  {
+   "id": "mpc.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "mpc.def.you-your",
+   "heading": "You, Your",
+   "sha256": "8897cf1c5c1863b7a05e157aa9234782b5275066543b936056e5dd859aef7b24"
+  },
+  {
+   "id": "mpc.section.boat",
+   "heading": "Boat Cover",
+   "sha256": "f148bcdc488c5a98d4e0210f2250f383139ef665edd5a3b2485a0f5af6c5cc1f"
+  },
+  {
+   "id": "mpc.cover.boat",
+   "heading": "Damage to the Boat",
+   "sha256": "2beab2c0bbbc20127e23f0bdc661138f828016a64a4a0d6550fbd417d89d7faa"
+  },
+  {
+   "id": "mpc.pay.boat-settlement",
+   "heading": "How We Settle Boat Claims",
+   "sha256": "4072fa282a0780b738f356939ea2199d0990f98495ec983f69e6ccc0147cf1f9"
+  },
+  {
+   "id": "mpc.ext.personal-effects",
+   "heading": "Personal Effects",
+   "sha256": "00d5030f66e034de5b4c0caa2593d96a80131a8849d01bba4da7b1d4798398a4"
+  },
+  {
+   "id": "mpc.ext.emergency-expenses",
+   "heading": "Emergency Expenses",
+   "sha256": "4e1570eade9cf3f26ae89c2c919a4ee02a49959e7464624bc33702b012312c27"
+  },
+  {
+   "id": "mpc.ext.recovery-and-transport",
+   "heading": "Recovery and Road Transport",
+   "sha256": "5d5b7705263993a679204398d18b8f207094002bb89e5728696d23e20603cf17"
+  },
+  {
+   "id": "mpc.ext.trailer-and-tender",
+   "heading": "Replacement Trailer and Tender",
+   "sha256": "889c47dd708e49c806a2603f5283162f2d904e65304d474a7ce1a286c5a3c272"
+  },
+  {
+   "id": "mpc.ext.personal-accident",
+   "heading": "Personal Accident Benefit",
+   "sha256": "9261b01761cc1a24f62ce6c8ac714c0a9cb57b9d2fd7f6d7bfc5fd6c7f4defb1"
+  },
+  {
+   "id": "mpc.section.boat-exclusions",
+   "heading": "What Boat Cover Does Not Include",
+   "sha256": "91b55043708366380ec5b7b318893fb9e586ba85a28dfeb41aee42fe84736bb1"
+  },
+  {
+   "id": "mpc.excl.wear-and-breakdown",
+   "heading": "Wear, Deterioration and Breakdown",
+   "sha256": "3f914e48f2e35001c6515a9e7cd59f08700673b3634d289b753187dba5b618eb"
+  },
+  {
+   "id": "mpc.excl.motor-damage",
+   "heading": "Damage to Motors",
+   "sha256": "f81d3706a3132735e2d85be78d443cdc9c8d8e6cd0ac9894603957cc74aa39a2"
+  },
+  {
+   "id": "mpc.excl.unseaworthiness",
+   "heading": "Unseaworthiness and Maintenance",
+   "sha256": "d0c9fa6d7b09c79f144ec0e1fea0505df744bb1a3bd9b5065085699fec1e4188"
+  },
+  {
+   "id": "mpc.excl.moorings-and-rigging",
+   "heading": "Moorings and Standing Rigging",
+   "sha256": "3e0831214cc83f1bf997db66d4a7e80cea39bcb33c8a4c34ff1db0370b517693"
+  },
+  {
+   "id": "mpc.excl.boat-other",
+   "heading": "Other Boat Exclusions",
+   "sha256": "f691c4526646026a205b9f413f886f99f630badb7089f351c1597d8b98eba080"
+  },
+  {
+   "id": "mpc.section.liability",
+   "heading": "Legal Liability",
+   "sha256": "c693bc223e47ed97c983073d6c6f4428a3a155a6669104f2d9bd01461d98f3c9"
+  },
+  {
+   "id": "mpc.cover.liability",
+   "heading": "Liability Arising From the Boat",
+   "sha256": "16b49d7e64fff1358b27b520232fdb7553cd9a3841c05e584429d0adba804f75"
+  },
+  {
+   "id": "mpc.ext.wreck-removal",
+   "heading": "Wreck Removal",
+   "sha256": "5fc4f4ed7019e86ebb2e55915a93f15f73cda6a612b63df6d740407298e6f99a"
+  },
+  {
+   "id": "mpc.excl.liability-insured-people",
+   "heading": "Injury to People Insured and Workers",
+   "sha256": "a3b33587e6e74ef0dd2ab8a9c968c6106f9e431759b80e4b24d8c1ae938af851"
+  },
+  {
+   "id": "mpc.excl.liability-property",
+   "heading": "Property in Your Care",
+   "sha256": "2b056b7cc619e5857d83c9c92dc560f080a07820935734796a00d5dc3834a52e"
+  },
+  {
+   "id": "mpc.excl.liability-towing",
+   "heading": "Towing and Road Use",
+   "sha256": "25c021bbda6a2462f0052730830204a92edf7a860dbc44ce42dce03f668cace9"
+  },
+  {
+   "id": "mpc.excl.liability-contracts",
+   "heading": "Contractual Liability",
+   "sha256": "64d9dcba209e75aa67b6588c271dbdc869b14ff14b6de759b6ee85ee6c239ca3"
+  },
+  {
+   "id": "mpc.excl.liability-pollution",
+   "heading": "Gradual Pollution",
+   "sha256": "f96c02280fd2aeccbf554c9f037df1b1d253d606217bdd0084070dea80154b48"
+  },
+  {
+   "id": "mpc.excl.liability-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "835660ece3e34d0c6ae8e5a5a84c083ca6225b33508a0d834b7992d75a1e8046"
+  },
+  {
+   "id": "mpc.section.general-payment",
+   "heading": "How Claims Are Paid",
+   "sha256": "9367c0e6caacb5f519141d2ad804ddd8c0c0b61b8777db77c2488fb166cddc80"
+  },
+  {
+   "id": "mpc.pay.excess",
+   "heading": "Excesses",
+   "sha256": "40801a49a19bdead7bdd8f0e070a04f353eeeda446ae5a09e0fd91bb88270a34"
+  },
+  {
+   "id": "mpc.pay.gst",
+   "heading": "GST and Claims",
+   "sha256": "14e8dd4551de83cd518ebe62dc148d2ac1c25ad35a45a98561467ef2d9450f34"
+  },
+  {
+   "id": "mpc.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "c78acc2783342869abfa20fa866b01a75a1316b3040af2f44057c49375738e85"
+  },
+  {
+   "id": "mpc.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "d55d2e7384aa05c530c25cb4628cb3e114a3b6ef221993c84387dba6d6d40265"
+  },
+  {
+   "id": "mpc.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "3b2494e49e0a61e20143f898a2a2ac00d8939981941fcb50c6f35529bfa2ebd4"
+  },
+  {
+   "id": "mpc.excl.navigation",
+   "heading": "Outside the Navigation Limits",
+   "sha256": "4dde7e02cb198ae32a831f133763546fa028b2b4afee4deeb0b304b19fbe4213"
+  },
+  {
+   "id": "mpc.excl.racing-and-speed",
+   "heading": "Racing and Speed",
+   "sha256": "c1c8a6829f4f6f69f8f4634d82de30a5d5c7fd93379f92a651e1e8a57d26c608"
+  },
+  {
+   "id": "mpc.excl.operation",
+   "heading": "Licensing, Alcohol and Drugs",
+   "sha256": "7af7c3158c8c32c62e0ed5727cdd2e2451fd3ff265d927ff8e1da1a1b2e7d91a"
+  },
+  {
+   "id": "mpc.excl.hire-and-reward",
+   "heading": "Hire, Charter and Business Use",
+   "sha256": "c490fc91a011d243d14d954da66749754a2a2bcdecfa8d24044912c1931c6030"
+  },
+  {
+   "id": "mpc.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "84d7b48774ad05b57e65de8fbb20bf153fb8667320d8549143e140e468809a09"
+  },
+  {
+   "id": "mpc.excl.confiscation",
+   "heading": "Confiscation and Seizure",
+   "sha256": "cde5c3508e7839a34fa57e602e473db1005f6ae7d5a9d0247ea8664428f20377"
+  },
+  {
+   "id": "mpc.excl.war",
+   "heading": "War",
+   "sha256": "d7968a32468d4bf8e9d33accadca6b51fcb9a2103da0ac821d7aee9c0e44d6d6"
+  },
+  {
+   "id": "mpc.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "9ae03ae4ebe60868f951ce8e2c2aeae32ace4a9ae01f96b3478e9b76a06462b1"
+  },
+  {
+   "id": "mpc.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "515a0fcec4a0a619b5d701b1f7eee86fa4488feb962cc0b2170467de8a674df4"
+  },
+  {
+   "id": "mpc.excl.cyber",
+   "heading": "Electronic Data",
+   "sha256": "1b74d6910bd3bba514fee78fa45ef21c71345c8493093d13dabfebda0a928ca5"
+  },
+  {
+   "id": "mpc.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "9433fee0ac56473809a01173588cb51cd81458655154f85a64b1e10b86c46788"
+  },
+  {
+   "id": "mpc.obl.tell-us-about-claims",
+   "heading": "Telling Us About a Claim",
+   "sha256": "231bdee4cc395efea73faf0ca6bdd6ce6bcfb947b9cdc13a2c35ab3ebadd85ec"
+  },
+  {
+   "id": "mpc.obl.care-of-the-boat",
+   "heading": "Care of the Boat",
+   "sha256": "dc91945bec28753f2a6a0bdfca736347d3c53ef5a038ba576045bb39c344128d"
+  },
+  {
+   "id": "mpc.obl.admissions",
+   "heading": "Admissions and Co-operation",
+   "sha256": "26a2fb2536f3e68b548784a7c14e22939fe22e515cac1912c703a27c18c07042"
+  },
+  {
+   "id": "mpc.obl.tell-us-about-changes",
+   "heading": "Telling Us About Changes",
+   "sha256": "d4807dbe2f9e5fbc84c54a6de2d2edb7d6d6113be0098831f5d9d842d248bca6"
+  },
+  {
+   "id": "mpc.obl.subrogation",
+   "heading": "Recovery From Others",
+   "sha256": "cce8c7fdcb4e81f35c3c611cda7a7b3e72498e78711ce4aa246785fdc29b8d77"
+  },
+  {
+   "id": "mpc.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "mpc.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "0ce2445a700c682ab1800d63c3626dedc20d995d5287f9629672087a7c70de69"
+  },
+  {
+   "id": "mpc.cond.joint-insureds",
+   "heading": "Joint Insureds",
+   "sha256": "ffe84e1be97c03a281b453b44ad21c27c4190427541fe7b04c97b0ae058b2557"
+  },
+  {
+   "id": "mpc.cond.change-of-ownership",
+   "heading": "Sale of the Boat",
+   "sha256": "12a061db56cc3e484dc5a14499dd689fc4858b7008bf56d268cbcf565f4a57fd"
+  },
+  {
+   "id": "mpc.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "9a45e9294e7b41d41d2ce322315a7d695b0819c9d080bddca9e47433eee71ab8"
+  },
+  {
+   "id": "mpc.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "c86ca1a7e228dcda5eea5b6490637d8131c390871051330bc1e8caccca7570ca"
+  },
+  {
+   "id": "mpc.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "93420dcd87f8ad9ccc3a5d0f534ad54b5a759720fbf955a5249eb6fd6c3aedf1"
+  },
+  {
+   "id": "mpc.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "mpc.cond.gst",
+   "heading": "GST",
+   "sha256": "63bdcc61627672d8dac44e7f52e17015b5be64ad6348ea1b11ce090bc5a9d35c"
+  },
+  {
+   "id": "mpc.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "46916a1838afa2734e49baa0c33965d997110229c04456e175bd954a4ebee444"
+  },
+  {
+   "id": "mpc.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "2f7238ce116321804d396ddc0bfafeafe676e4b8e60bdda48cde9a0d5777d640"
+  },
+  {
+   "id": "mpc.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "8599a1e2a4a4e4f6140193de17f61b8833c6a3471fee7423706987885ab28d31"
+  },
+  {
+   "id": "mpc.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "mpc.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "mpc.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "703e5e326550f360ec4e8dacb0706d40511dff94fb5082f726d97d74393681a4"
+  },
+  {
+   "id": "mpc.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "e4f7a976b095ff1cf83ad35e77a93d0b54a84ddcb45aa83e0466f74f3fc59ef5"
+  },
+  {
+   "id": "mpc.end.e01",
+   "heading": "E01 Racing",
+   "sha256": "eb7c474253694899e2a8aa6abb9b81625e5f19fed001f4d9ff86dc3e915287a6"
+  },
+  {
+   "id": "mpc.end.e02",
+   "heading": "E02 Lay-Up Period",
+   "sha256": "39ff6547f78ab1efbbd9eb8c71f2f9183aeabac9fb5566fa1eae1cbc92ce2a40"
+  },
+  {
+   "id": "mpc.end.e03",
+   "heading": "E03 Water-Skier and Tow-Sport Liability",
+   "sha256": "f0d1043c7917b165155220974f78e74ffd3308223cf3bfd41fef9956c9b612cc"
+  },
+  {
+   "id": "mpc.end.e04",
+   "heading": "E04 Named Cyclone Excess",
+   "sha256": "e17479830218585f7fa0616e5440a616ad1164f93acf1e1f50727444b70ae0d5"
+  },
+  {
+   "id": "mpc.end.e05",
+   "heading": "E05 Swing Mooring in Northern Waters",
+   "sha256": "13e319476a4cccb129e5b5c4053ad8dbed5de67936cc091e428a20ca5ea44bc2"
+  },
+  {
+   "id": "mpc.end.e06",
+   "heading": "E06 Older Boat",
+   "sha256": "de82e5393bc687a1d07df9d3296f6a144245852f225525c29ce26d03d2eacbd5"
+  },
+  {
+   "id": "mpc.end.e07",
+   "heading": "E07 Standing Rigging",
+   "sha256": "3777e0b2c60a2c83e126227b9deb44ec8b4d020ec38d9d545cf5b9d021f37088"
+  },
+  {
+   "id": "mpc.end.e08",
+   "heading": "E08 Extended Navigation Limits",
+   "sha256": "5bef5f9d3d857aaefd9bb50e7a5f1f2fbcd136e7ea49cac08b453f1b4844542e"
+  },
+  {
+   "id": "mpc.end.e09",
+   "heading": "E09 Liveaboard Use",
+   "sha256": "9836247738e82ee7a830e2ed818c1c34b8cfa78a329bf921b2ff29a268cbe652"
+  },
+  {
+   "id": "mpc.end.e10",
+   "heading": "E10 Interested Party",
+   "sha256": "e24fd68207c29f64237be94b906c644fb13d10ae4d68877ec9f2173b0b3e1ddc"
+  },
+  {
+   "id": "mpc.end.e11",
+   "heading": "E11 Lloyd's Underwriters",
+   "sha256": "a8668e910216523bd1fb540785da1520c9e9c60dd042ab0922df467c9a1ba525"
+  },
+  {
+   "id": "mpc.licence-notice",
+   "heading": "Licence and Use",
+   "sha256": "95a62f7a4775a7ddc7ce765e37b3b9df21adf8eb7b0e2121e93f6eddb6baafe4"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "mpc.end.e01",
+   "heading": "E01 Racing",
+   "trigger": {
+    "questions": [
+     "qs.mpc.cover.racing"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.cover.racing == beyond_150nm",
+      "action": "refer"
+     },
+     {
+      "when": "qs.mpc.cover.racing == to_150nm",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because racing cover was chosen; racing beyond 150 nautical miles is referred to the underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.cover.racing",
+     "text": "Will the boat be raced, and how far from the start?",
+     "type": "select",
+     "options": [
+      "none",
+      "club_50nm",
+      "to_150nm",
+      "beyond_150nm"
+     ],
+     "used_by": "R, A, E01"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e02",
+   "heading": "E02 Lay-Up Period",
+   "trigger": {
+    "questions": [
+     "qs.mpc.cover.lay_up_months"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.cover.lay_up_months > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because a lay-up period of {qs.mpc.cover.lay_up_months} months was chosen.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.cover.lay_up_months",
+     "text": "How many months a year will the boat be laid up out of the water and not used?",
+     "type": "select",
+     "options": [
+      "0",
+      "3",
+      "6"
+     ],
+     "used_by": "R, E02"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e03",
+   "heading": "E03 Water-Skier and Tow-Sport Liability",
+   "trigger": {
+    "questions": [
+     "qs.mpc.cover.water_ski"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.cover.water_ski == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because water-skier and tow-sport liability was chosen.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.cover.water_ski",
+     "text": "Do you want cover for liability to and for water-skiers and others towed by the boat?",
+     "type": "yes/no",
+     "used_by": "R, E03"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e04",
+   "heading": "E04 Named Cyclone Excess",
+   "trigger": {
+    "questions": [
+     "qs.mpc.storage.zone"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.storage.zone == northern",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the boat is kept or used in northern waters during the cyclone season.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.storage.zone",
+     "text": "Between 1 November and 30 April, will the boat be kept or used north of latitude 26 degrees south (roughly north of Gympie, Queensland, or Carnarvon, Western Australia)?",
+     "type": "select",
+     "options": [
+      "southern",
+      "northern"
+     ],
+     "used_by": "R, A, E04, E05"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e05",
+   "heading": "E05 Swing Mooring in Northern Waters",
+   "trigger": {
+    "questions": [
+     "qs.mpc.storage.method",
+     "qs.mpc.storage.zone"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.storage.method == swing_mooring and qs.mpc.storage.zone == northern",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the boat is kept on a swing mooring in northern waters during the cyclone season.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.storage.method",
+     "text": "How is the boat normally kept when it is not in use?",
+     "type": "select",
+     "options": [
+      "locked_garage",
+      "home_driveway",
+      "shared_complex",
+      "dry_stack",
+      "marina_berth",
+      "swing_mooring"
+     ],
+     "used_by": "R, A, S, E05"
+    },
+    {
+     "id": "qs.mpc.storage.zone",
+     "text": "Between 1 November and 30 April, will the boat be kept or used north of latitude 26 degrees south (roughly north of Gympie, Queensland, or Carnarvon, Western Australia)?",
+     "type": "select",
+     "options": [
+      "southern",
+      "northern"
+     ],
+     "used_by": "R, A, E04, E05"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e06",
+   "heading": "E06 Older Boat",
+   "trigger": {
+    "questions": [
+     "qs.mpc.boat.hull_age"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.boat.hull_age > 20",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the hull is {qs.mpc.boat.hull_age} years old.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.boat.hull_age",
+     "text": "How old is the hull, in whole years?",
+     "type": "number",
+     "used_by": "R, A, E06"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e07",
+   "heading": "E07 Standing Rigging",
+   "trigger": {
+    "questions": [
+     "qs.mpc.boat.rigging_age"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.boat.rigging_age > 10",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the standing rigging is {qs.mpc.boat.rigging_age} years old.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.boat.rigging_age",
+     "text": "For a sailing yacht, how old is the standing rigging, in whole years? Enter 0 if the boat is not a sailing yacht.",
+     "type": "number",
+     "used_by": "A, E07"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e08",
+   "heading": "E08 Extended Navigation Limits",
+   "trigger": {
+    "questions": [
+     "qs.mpc.navigation.area"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.navigation.area == offshore_beyond",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the boat will be taken beyond the standard navigation limits.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.navigation.area",
+     "text": "Will the boat be taken beyond 250 nautical miles from the coast of the Australian mainland or Tasmania, or overseas?",
+     "type": "select",
+     "options": [
+      "within_limits",
+      "offshore_beyond"
+     ],
+     "used_by": "A, E08"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e09",
+   "heading": "E09 Liveaboard Use",
+   "trigger": {
+    "questions": [
+     "qs.mpc.use.liveaboard"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.use.liveaboard == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the boat is lived on.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.use.liveaboard",
+     "text": "Does anyone live on the boat, permanently or for more than 30 days in a row?",
+     "type": "yes/no",
+     "used_by": "A, E09"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e10",
+   "heading": "E10 Interested Party",
+   "trigger": {
+    "questions": [
+     "qs.mpc.policy.interested_party"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.policy.interested_party == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because an interested party was named.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.policy.interested_party",
+     "text": "Do you want a financier or other interested party noted on the policy?",
+     "type": "yes/no",
+     "used_by": "E10"
+    }
+   ]
+  },
+  {
+   "id": "mpc.end.e11",
+   "heading": "E11 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.mpc.policy.lloyds_capacity"
+    ],
+    "rules": [
+     {
+      "when": "qs.mpc.policy.lloyds_capacity == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the policy is underwritten at Lloyd's.",
+    "responses": [
+     "Attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.mpc.policy.lloyds_capacity",
+     "text": "Is the policy underwritten at Lloyd's (set from the binder)?",
+     "type": "yes/no",
+     "used_by": "E11"
+    }
+   ]
+  }
+ ],
+ "sha256": "bdf988cb904e428ad4779d9a6fbecf490f8c6dd8e8a99c756bb4835a5a3cbab6"
+}

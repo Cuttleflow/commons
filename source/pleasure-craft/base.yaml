@@ -1,0 +1,129 @@
+id: mpc-base
+title: Pleasure Craft Insurance
+class: PLEASURE CRAFT INSURANCE
+kicker: Meridian Commons · Pleasure Craft
+slug: pleasure-craft
+file_stem: Meridian_Pleasure_Craft
+doc_ref: 2026/MPC/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: 'Cover for a boat or personal watercraft owned by individuals for private recreation in Australia: accidental damage to the boat, its motors and trailer, and legal liability from using it.'
+structure:
+- section: preamble
+  clauses:
+  - mpc.about
+  - mpc.version-history
+  - mpc.important-information
+  - mpc.schedule
+- section: mpc.section.definitions
+  clauses:
+  - mpc.def.agreed-value
+  - mpc.def.boat
+  - mpc.def.cyclone-season
+  - mpc.def.damage
+  - mpc.def.endorsement
+  - mpc.def.equipment
+  - mpc.def.excess
+  - mpc.def.household
+  - mpc.def.marina-berth
+  - mpc.def.market-value
+  - mpc.def.named-cyclone
+  - mpc.def.navigation-limits
+  - mpc.def.northern-waters
+  - mpc.def.occurrence
+  - mpc.def.operator
+  - mpc.def.personal-effects
+  - mpc.def.personal-injury
+  - mpc.def.personal-watercraft
+  - mpc.def.policy-period
+  - mpc.def.property-damage
+  - mpc.def.racing
+  - mpc.def.sum-insured
+  - mpc.def.swing-mooring
+  - mpc.def.tender
+  - mpc.def.trailer
+  - mpc.def.we-us-our
+  - mpc.def.you-your
+- section: mpc.section.boat
+  clauses:
+  - mpc.cover.boat
+  - mpc.pay.boat-settlement
+  - mpc.ext.personal-effects
+  - mpc.ext.emergency-expenses
+  - mpc.ext.recovery-and-transport
+  - mpc.ext.trailer-and-tender
+  - mpc.ext.personal-accident
+- section: mpc.section.boat-exclusions
+  clauses:
+  - mpc.excl.wear-and-breakdown
+  - mpc.excl.motor-damage
+  - mpc.excl.unseaworthiness
+  - mpc.excl.moorings-and-rigging
+  - mpc.excl.boat-other
+- section: mpc.section.liability
+  clauses:
+  - mpc.cover.liability
+  - mpc.ext.wreck-removal
+  - mpc.excl.liability-insured-people
+  - mpc.excl.liability-property
+  - mpc.excl.liability-towing
+  - mpc.excl.liability-contracts
+  - mpc.excl.liability-pollution
+  - mpc.excl.liability-fines
+- section: mpc.section.general-payment
+  clauses:
+  - mpc.pay.excess
+  - mpc.pay.gst
+  - mpc.pay.other-insurance
+  - mpc.pay.who-we-pay
+- section: mpc.section.general-exclusions
+  clauses:
+  - mpc.excl.navigation
+  - mpc.excl.racing-and-speed
+  - mpc.excl.operation
+  - mpc.excl.hire-and-reward
+  - mpc.excl.deliberate-acts
+  - mpc.excl.confiscation
+  - mpc.excl.war
+  - mpc.excl.terrorism
+  - mpc.excl.nuclear
+  - mpc.excl.cyber
+- section: mpc.section.obligations
+  clauses:
+  - mpc.obl.tell-us-about-claims
+  - mpc.obl.care-of-the-boat
+  - mpc.obl.admissions
+  - mpc.obl.tell-us-about-changes
+  - mpc.obl.subrogation
+- section: mpc.section.conditions
+  clauses:
+  - mpc.cond.insurance-contracts-act
+  - mpc.cond.joint-insureds
+  - mpc.cond.change-of-ownership
+  - mpc.cond.cancellation
+  - mpc.cond.renewal
+  - mpc.cond.fraud
+  - mpc.cond.sanctions
+  - mpc.cond.gst
+  - mpc.cond.privacy
+  - mpc.cond.disputes-and-complaints
+  - mpc.cond.governing-law
+  - mpc.cond.jurisdiction
+  - mpc.cond.headings-and-references
+- section: end
+  clauses:
+  - mpc.claims.how-to-make-a-claim
+  - mpc.endorsement-library
+  - mpc.end.e01
+  - mpc.end.e02
+  - mpc.end.e03
+  - mpc.end.e04
+  - mpc.end.e05
+  - mpc.end.e06
+  - mpc.end.e07
+  - mpc.end.e08
+  - mpc.end.e09
+  - mpc.end.e10
+  - mpc.end.e11
+  - mpc.licence-notice
