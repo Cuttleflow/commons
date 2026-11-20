@@ -71,7 +71,7 @@
   {
    "id": "biz",
    "name": "Business, property and cargo",
-   "blurb": "Packaged and property covers for businesses, buildings and goods in transit.",
+   "blurb": "Packaged and property covers for businesses, buildings, goods in transit and commercial vessels.",
    "subgroups": [
     {
      "label": null,
@@ -82,6 +82,7 @@
       "commercial-property-owners",
       "industrial-special-risks",
       "marine-cargo",
+      "commercial-hull",
       "carriers-combined",
       "equipment-floater"
      ]
@@ -392,6 +393,11 @@
    "cls": "Marine Cargo",
    "title": "Marine Cargo Insurance",
    "desc": "An annual open transit policy for importers, exporters and distributors, built on the Institute Cargo Clauses (A), (B) and (C), with inland transit cover within Australia, transit interruption costs, and optional delay extra expense and stock in storage."
+  },
+  "commercial-hull": {
+   "cls": "Commercial Hull",
+   "title": "Commercial Hull Insurance",
+   "desc": "Hull and machinery cover for Australian domestic commercial vessels on the Institute Time Clauses Hulls, with war and strikes, optional protection and indemnity for passengers, pollution and wreck removal, and Insurance Contracts Act protections given by agreement."
   },
   "allied-health": {
    "cls": "Medical",

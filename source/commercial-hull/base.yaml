@@ -1,0 +1,136 @@
+id: chl-base
+title: Commercial Hull Insurance
+class: COMMERCIAL HULL INSURANCE
+kicker: Meridian Commons · Commercial Hull
+slug: commercial-hull
+file_stem: Meridian_Commercial_Hull
+doc_ref: 2026/CHL/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Hull and machinery cover for Australian domestic commercial vessels on the Institute Time Clauses Hulls, with war and strikes, optional protection and indemnity for passengers, pollution and wreck removal, and Insurance Contracts Act protections given by agreement.
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - chl.about
+  - chl.version-history
+  - chl.important-information
+  - chl.schedule
+- section: chl.section.definitions
+  clauses:
+  - chl.def.agreed-value
+  - chl.def.certificate-of-operation
+  - chl.def.certificate-of-survey
+  - chl.def.crew
+  - chl.def.cyclone-season
+  - chl.def.employee
+  - chl.def.endorsement
+  - chl.def.excess
+  - chl.def.institute-clauses
+  - chl.def.lay-up
+  - chl.def.marina-berth
+  - chl.def.master
+  - chl.def.named-cyclone
+  - chl.def.national-law
+  - chl.def.northern-waters
+  - chl.def.occurrence
+  - chl.def.operational-area
+  - chl.def.passenger
+  - chl.def.pi-limit
+  - chl.def.policy-period
+  - chl.def.pollutant
+  - chl.def.safety-management-system
+  - chl.def.service-category
+  - chl.def.swing-mooring
+  - chl.def.tender
+  - chl.def.total-loss
+  - chl.def.vessel
+  - chl.def.we-us-our
+  - chl.def.you-your
+- section: chl.section.hull
+  clauses:
+  - chl.cover.hull
+  - chl.cover.institute-clauses
+  - chl.cover.australian-amendments
+  - chl.cover.war-and-strikes
+- section: chl.section.additional-benefits
+  clauses:
+  - chl.ext.parts-ashore
+  - chl.ext.crew-effects
+  - chl.ext.fire-extinguishing
+  - chl.ext.cyclone-movement
+- section: chl.section.pi
+  clauses:
+  - chl.cover.pi
+  - chl.cover.pi-limits
+  - chl.cover.pi-defence
+  - chl.excl.pi-employees
+  - chl.excl.pi-property
+  - chl.excl.pi-contracts
+  - chl.excl.pi-fines
+  - chl.excl.pi-water-activities
+  - chl.excl.pi-towage
+  - chl.excl.pi-war
+- section: chl.section.exclusions
+  clauses:
+  - chl.excl.operations
+  - chl.excl.deliberate-acts
+  - chl.excl.illegal-use
+- section: chl.section.obligations
+  clauses:
+  - chl.obl.certificates
+  - chl.obl.operational-area
+  - chl.obl.master-and-crew
+  - chl.obl.passengers
+  - chl.obl.safety-management
+  - chl.obl.tell-us-about-loss
+  - chl.obl.reduce-loss
+  - chl.obl.admissions
+  - chl.obl.tell-us-about-changes
+- section: chl.section.payment
+  clauses:
+  - chl.pay.settlement
+  - chl.pay.excess
+  - chl.pay.gst
+  - chl.pay.interest
+  - chl.pay.other-insurance
+- section: chl.section.conditions
+  clauses:
+  - chl.cond.statutory-framework
+  - chl.cond.utmost-good-faith
+  - chl.cond.disclosure
+  - chl.cond.insurance-contracts-act
+  - chl.cond.order-of-precedence
+  - chl.cond.institute-clause-text
+  - chl.cond.law-and-practice
+  - chl.cond.jurisdiction
+  - chl.cond.cancellation
+  - chl.cond.subrogation
+  - chl.cond.fraud
+  - chl.cond.sanctions
+  - chl.cond.privacy
+  - chl.cond.disputes-and-complaints
+  - chl.cond.headings-and-references
+- section: end
+  clauses:
+  - chl.claims.how-to-make-a-claim
+  - chl.endorsement-library
+  - chl.end.e01
+  - chl.end.e02
+  - chl.end.e03
+  - chl.end.e04
+  - chl.end.e05
+  - chl.end.e06
+  - chl.end.e07
+  - chl.end.e08
+  - chl.end.e09
+  - chl.end.e10
+  - chl.end.e11
+  - chl.end.e12
+  - chl.end.e13
+  - chl.end.e14
+  - chl.end.e15
+  - chl.end.e16
+  - chl.end.e17
+  - chl.licence-notice

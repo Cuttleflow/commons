@@ -1,0 +1,234 @@
+# Platform questions for the Commercial Hull wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.chl namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+questions:
+- id: qs.chl.insured.name
+  text: What is the insured's full legal name?
+  type: text
+  used_by: S
+- id: qs.chl.insured.abn
+  text: What is the insured's ABN?
+  type: text (11 digits)
+  used_by: S, A
+- id: qs.chl.insured.financier
+  text: Does a financier have an interest in the vessel? If so, who?
+  type: text
+  used_by: S
+- id: qs.chl.vessel.name
+  text: What is the vessel's name?
+  type: text
+  used_by: S
+- id: qs.chl.vessel.uvi
+  text: What is the vessel's unique vessel identifier?
+  type: text
+  used_by: S
+- id: qs.chl.vessel.use_category
+  text: 'What vessel use category is shown on the certificate of operation: 1 passenger, 2 non-passenger, 3 fishing or 4 hire and drive?'
+  type: select
+  options:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  used_by: R, A, E03, E14, E15
+- id: qs.chl.vessel.operational_area
+  text: What operational area is shown on the certificate of operation?
+  type: select
+  options:
+  - B_EXTENDED
+  - B
+  - C
+  - D
+  - E
+  used_by: R, A, E01
+- id: qs.chl.vessel.length
+  text: What is the vessel's length overall, in metres?
+  type: number
+  used_by: R, A, E02, E12
+- id: qs.chl.vessel.hull_material
+  text: What is the hull made of?
+  type: select
+  options:
+  - ALUMINIUM_STEEL
+  - GRP_COMPOSITE
+  - TIMBER
+  - FERRO_CEMENT
+  used_by: R, A, E16
+- id: qs.chl.vessel.age
+  text: How old is the vessel, in years?
+  type: number
+  used_by: R, A, E16
+- id: qs.chl.vessel.agreed_value
+  text: What agreed value do you want for the vessel, including its tender?
+  type: number
+  used_by: R, A, S
+- id: qs.chl.vessel.max_speed
+  text: What is the vessel's maximum speed, in knots?
+  type: number
+  used_by: R, A, E17
+- id: qs.chl.vessel.propulsion
+  text: What powers the vessel?
+  type: select
+  options:
+  - DIESEL
+  - PETROL
+  - ELECTRIC
+  - SAIL
+  used_by: R
+- id: qs.chl.vessel.passengers
+  text: How many passengers does the certificate of operation allow?
+  type: number
+  used_by: R, A
+- id: qs.chl.vessel.home_port
+  text: What is the vessel's home port?
+  type: text
+  used_by: S
+- id: qs.chl.vessel.state
+  text: In which state or territory is the vessel's home port?
+  type: select
+  options:
+  - NSW
+  - VIC
+  - QLD
+  - WA
+  - SA
+  - TAS
+  - NT
+  - ACT
+  used_by: S, A, E12
+- id: qs.chl.vessel.mooring
+  text: Where is the vessel kept when not in use?
+  type: select
+  options:
+  - MARINA_BERTH
+  - SWING_MOORING
+  - PRIVATE_JETTY
+  - ASHORE
+  used_by: R, A, E08
+- id: qs.chl.vessel.northern_waters
+  text: Is the vessel in northern waters (north of 26 degrees south) during the cyclone season?
+  type: boolean
+  used_by: R, A, E07
+- id: qs.chl.survey.status
+  text: What is the status of the vessel's certificate of survey?
+  type: select
+  options:
+  - CURRENT
+  - EXEMPT
+  - DUE_WITHIN_60_DAYS
+  - OVERDUE
+  used_by: A, S
+- id: qs.chl.survey.sms_compliant
+  text: Does the vessel's safety management system meet the requirements of the national law, including Marine Order 504?
+  type: boolean
+  used_by: A
+- id: qs.chl.survey.sms_audited
+  text: Has the safety management system been audited by an independent auditor in the last 2 years?
+  type: boolean
+  used_by: R
+- id: qs.chl.operations.excluded_operation
+  text: 'Is the vessel used for any of these: salvage or contract towage, offshore oil and gas support, carrying oil, chemicals, gas or dangerous goods as cargo, thrill rides or parasailing, bareboat charter to others, or is it under construction?'
+  type: select
+  options:
+  - NONE
+  - SALVAGE_OR_TOWAGE
+  - OFFSHORE_OIL_GAS
+  - TANKER_OR_DANGEROUS_GOODS
+  - THRILL_RIDE_OR_PARASAIL
+  - BAREBOAT_CHARTER
+  - UNDER_CONSTRUCTION
+  used_by: A
+- id: qs.chl.operations.international
+  text: Does the vessel trade outside Australian waters, or is it a regulated Australian vessel under the Navigation Act 2012 (Cth)?
+  type: boolean
+  used_by: A
+- id: qs.chl.operations.interstate
+  text: Does the vessel trade between states or territories?
+  type: boolean
+  used_by: A
+- id: qs.chl.operations.swimming
+  text: Do passengers swim or snorkel from the vessel?
+  type: select
+  options:
+  - 'NO'
+  - 'YES'
+  used_by: R, E04
+- id: qs.chl.operations.scuba
+  text: Do passengers scuba dive from the vessel?
+  type: boolean
+  used_by: A, E05
+- id: qs.chl.operations.overnight_passengers
+  text: Do passengers sleep on board?
+  type: boolean
+  used_by: A, E06
+- id: qs.chl.operations.tows_own_barges
+  text: Does the vessel tow barges, pontoons or workboats that you own or operate?
+  type: boolean
+  used_by: E13
+- id: qs.chl.operations.lay_up_months
+  text: For how many months a year is the vessel laid up?
+  type: number
+  used_by: A, E09
+- id: qs.chl.master.certificated
+  text: Does the master hold the certificate of competency the national law requires for the vessel?
+  type: boolean
+  used_by: A
+- id: qs.chl.master.command_years
+  text: How many years has the master been in command of commercial vessels?
+  type: number
+  used_by: R, A
+- id: qs.chl.claims.count
+  text: How many hull or liability claims have you made for any vessel in the last 3 years?
+  type: number
+  used_by: R, A
+- id: qs.chl.claims.total_loss
+  text: Has any of those claims been for a total loss?
+  type: boolean
+  used_by: A
+- id: qs.chl.fleet.vessels
+  text: How many vessels do you insure with us, including this one?
+  type: number
+  used_by: R, A
+- id: qs.chl.cover.conditions
+  text: Should the Hull and Machinery section be on full conditions or total loss only?
+  type: select
+  options:
+  - FULL
+  - TLO
+  used_by: R, S
+- id: qs.chl.cover.hull_excess
+  text: What basic excess do you want, as a percentage of the agreed value?
+  type: select
+  options:
+  - '0.5'
+  - '1'
+  - '2'
+  used_by: R, S
+- id: qs.chl.cover.pi
+  text: Do you want the Protection and Indemnity section?
+  type: boolean
+  used_by: R, A, S
+- id: qs.chl.cover.pi_limit
+  text: What protection and indemnity limit do you want?
+  type: select
+  options:
+  - '5000000'
+  - '10000000'
+  - '20000000'
+  used_by: R, A, S
+- id: qs.chl.cover.pi_excess
+  text: What protection and indemnity excess do you want?
+  type: select
+  options:
+  - '2500'
+  - '5000'
+  used_by: R, S
+- id: qs.chl.cover.loss_of_hire
+  text: Do you want loss of hire cover?
+  type: boolean
+  used_by: A, E10
+- id: qs.chl.cover.increased_value
+  text: What amount, if any, do you want to insure above the agreed value for a total loss?
+  type: number
+  used_by: A, E11
