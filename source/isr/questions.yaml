@@ -1,0 +1,198 @@
+# Platform questions for the Industrial Special Risks wording.
+# used_by: R rating, A appetite or referral rule, S schedule, E endorsement trigger. Questions marked derived are set by the platform, not asked.
+# Agency thresholds are set in the platform, not here.
+questions:
+  - id: qs.isr.policy.base_wording
+    text: Which policy wording is the industrial special risks policy written on?
+    type: select
+    options: ['meridian', 'mark4_advisory', 'mark4_modified', 'mark5_advisory', 'mark5_modified', 'broker_form']
+    used_by: A, S, E
+  - id: qs.isr.policy.situation_count
+    text: How many Situations (insured locations) are on the policy?
+    type: number
+    used_by: R, A, S, E
+  - id: qs.isr.insured.entity_count
+    text: How many entities are to be insured, including subsidiaries and trusts?
+    type: number
+    used_by: S, E
+  - id: qs.isr.insured.interested_parties
+    text: Does a financier, landlord or other party need its interest noted on the policy?
+    type: yes/no
+    used_by: S, E
+  - id: qs.isr.binder.aggregate_required
+    text: Does the binder require an annual aggregate for any natural peril? (derived from the binder)
+    type: yes/no
+    used_by: E
+  - id: qs.isr.binder.lloyds
+    text: Is any capacity on the policy provided by Lloyd's? (derived from the placement)
+    type: yes/no
+    used_by: E
+  - id: qs.isr.peril.multi_situation_high_hazard
+    text: Are two or more Situations in a high-hazard zone for the same natural peril? (derived from geocoding)
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.peril.flood_score_max
+    text: What is the highest flood score among the Situations? (derived from geocoding)
+    type: select
+    options: ['low', 'medium', 'high']
+    used_by: R, A, E
+  - id: qs.isr.peril.binder_excluded_postcode
+    text: Is any Situation in a postcode the binder excludes for flood? (derived)
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.peril.cat_zone_high
+    text: Does any Situation score above the agency's threshold for cyclone, bushfire or hail? (derived from geocoding)
+    type: yes/no
+    used_by: R, E
+  - id: qs.isr.values.oldest_valuation_years
+    text: How many years old is the oldest Situation valuation?
+    type: number
+    used_by: A, E
+  - id: qs.isr.values.missing_valuation
+    text: Does any Situation have no valuation date?
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.values.indemnity_items
+    text: Is any property vacant, obsolete or awaiting demolition?
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.cover.options_requested
+    text: Which optional endorsements has the broker asked for?
+    type: multi-select
+    options: ['NOAV', 'ESCL', 'STSP', 'MTCH', 'GRNB', 'RDBR', 'XCOR', 'PROF', 'EXPD', 'TRNS', 'MONY', 'GLAS', 'CUST', 'GPAU', 'THFT', 'MBRK', 'ELEC', 'FUSN', 'DTST', 'DATA', 'ACCS', 'UTIL', 'SUPC', 'INCD', 'COMB', 'ATTR', 'ACCR', 'LTAG', 'STKD']
+    used_by: E
+  - id: qs.isr.cover.theft_sublimit_over_threshold
+    text: Is the requested theft sub-limit above the agency's threshold? (derived)
+    type: yes/no
+    used_by: E
+  - id: qs.isr.risk.anzsic_division
+    text: What is the ANZSIC division of the main business activity? (from the Exposure Engine)
+    type: select
+    options: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S']
+    used_by: R, A, E
+  - id: qs.isr.risk.pre_1990_building
+    text: Was any building at a Situation built before 1990?
+    type: yes/no
+    used_by: R, E
+  - id: qs.isr.risk.building_over_20_years
+    text: Is any building at a Situation more than 20 years old?
+    type: yes/no
+    used_by: R, E
+  - id: qs.isr.risk.combustible_cladding
+    text: Does any building have combustible external cladding?
+    type: yes/no
+    used_by: R, A, E
+  - id: qs.isr.risk.hazardous_goods
+    text: Are hazardous or dangerous goods stored at any Situation?
+    type: yes/no
+    used_by: R, A, E
+  - id: qs.isr.risk.combustible_panel_pct
+    text: What is the highest percentage of combustible core panels in the walls, ceilings or roof of any building? (from the survey or proposal)
+    type: percentage
+    used_by: R, A, E
+  - id: qs.isr.risk.sprinkler_credit
+    text: Is a sprinkler or fire detection credit applied in rating any Situation?
+    type: yes/no
+    used_by: R, E
+  - id: qs.isr.risk.open_survey_requirements
+    text: Are there open risk improvement requirements from a survey?
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.risk.lithium
+    text: Are lithium-ion batteries charged or stored at any Situation?
+    type: select
+    options: ['none', 'charging_or_storage', 'storage_system_over_threshold']
+    used_by: A, E
+  - id: qs.isr.risk.vacant_building
+    text: Is any building at a Situation vacant or partly vacant?
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.risk.works_contract_value
+    text: What is the total contract value of building works planned or under way at the Situations?
+    type: currency
+    used_by: A, E
+  - id: qs.isr.risk.works_over_limit
+    text: Does any project exceed the agency's contract works limit? (derived)
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.risk.temperature_controlled_stock
+    text: Is stock kept in a temperature-controlled environment?
+    type: yes/no
+    used_by: E
+  - id: qs.isr.risk.pressure_vessels
+    text: Does the plant include boilers, pressure vessels or turbines?
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.risk.refrigeration_or_pumping
+    text: Does the business rely on refrigeration or pumping motors?
+    type: yes/no
+    used_by: E
+  - id: qs.isr.risk.in_shopping_centre
+    text: Is any Situation in a shopping centre?
+    type: yes/no
+    used_by: E
+  - id: qs.isr.risk.seasonal_stock
+    text: Do stock levels vary materially by season?
+    type: yes/no
+    used_by: E
+  - id: qs.isr.risk.cash_handling
+    text: Does the business handle cash at the Situations?
+    type: yes/no
+    used_by: E
+  - id: qs.isr.risk.warehousing_others_goods
+    text: Does the business store or handle goods belonging to others as a service?
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.risk.transit_over_threshold
+    text: Is the annual value of goods in transit above the agency's threshold?
+    type: yes/no
+    used_by: A, E
+  - id: qs.isr.bi.insured
+    text: Is business interruption to be insured?
+    type: yes/no
+    used_by: R, S, E
+  - id: qs.isr.bi.indemnity_periods_differ
+    text: Do the indemnity periods differ between Situations or items?
+    type: yes/no
+    used_by: S, E
+  - id: qs.isr.bi.time_excess_basis
+    text: Does the agency use a threshold waiting period or a deducted time excess? (agency setting)
+    type: select
+    options: ['threshold', 'deducted']
+    used_by: E
+  - id: qs.isr.bi.breakdown_bi_requested
+    text: Has the broker asked for business interruption following machinery breakdown?
+    type: yes/no
+    used_by: E
+  - id: qs.isr.bi.evacuation_option_high_hazard
+    text: Is the evacuation order option asked for at a Situation in a high bushfire or flood zone? (derived)
+    type: yes/no
+    used_by: E
+  - id: qs.isr.bi.utilities_any_cause
+    text: Has the broker asked for public utilities cover for failure from any accidental cause?
+    type: yes/no
+    used_by: E
+  - id: qs.isr.bi.named_dependency_overseas
+    text: Is any named supplier or customer outside Australia?
+    type: yes/no
+    used_by: E
+  - id: qs.isr.placement.participant_count
+    text: How many insurers subscribe to the policy? (derived from the placement)
+    type: number
+    used_by: S, E
+  - id: qs.isr.placement.lead_named
+    text: Is a leading insurer named? (derived from the placement)
+    type: yes/no
+    used_by: S, E
+  - id: qs.isr.placement.layered
+    text: Is the policy written as one of several layers? (derived from the placement)
+    type: yes/no
+    used_by: S, E
+  - id: qs.isr.placement.apra_authorised
+    text: Is all capacity provided by APRA-authorised insurers? (derived from the placement)
+    type: yes/no
+    used_by: E
+  - id: qs.isr.placement.binder_jurisdiction_clause
+    text: Does the binder supply its own service of suit or jurisdiction clause? (derived from the binder)
+    type: yes/no
+    used_by: E

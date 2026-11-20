@@ -1,0 +1,3922 @@
+{
+ "wording": "isr-base",
+ "version": "1.1.0-DRAFT",
+ "doc_ref": "2026/PR/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "isr.about",
+   "heading": "About This Policy",
+   "sha256": "0c903e160bcc8a7d340a095e7d87825ba02770fe3857fdc460ee3d0141e9672a"
+  },
+  {
+   "id": "isr.version-history",
+   "heading": "Version and Document History",
+   "sha256": "08d399c1857df5b674506f52a3b881206ecbeb2388c2701ff8f795f2a4c47f07"
+  },
+  {
+   "id": "isr.important-information",
+   "heading": "Important Information",
+   "sha256": "0c197a8784a150cc1bbca05742d209c87e7d3cf9d3553d7b84504726654e0a63"
+  },
+  {
+   "id": "isr.schedule",
+   "heading": "Schedule",
+   "sha256": "778c35e5757f2ab0ec35590bf81d8bffc163c9d16274b1e85e280f10e3629a9f"
+  },
+  {
+   "id": "isr.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "isr.def.annual-turnover",
+   "heading": "Annual Turnover",
+   "sha256": "a04a329b2880c950c6ed62f9c297c8a7a379c71e98d822c5413121737e4ee17e"
+  },
+  {
+   "id": "isr.def.business",
+   "heading": "Business",
+   "sha256": "781f587ca06794e802e3bb8f36ee6e3bb053f21631e1f02c43588cc4322f4642"
+  },
+  {
+   "id": "isr.def.damage",
+   "heading": "Damage",
+   "sha256": "d0a6577dd3212c544be5d4c4b7786c42e5a91a32fbbdbb254b3cb84a26695925"
+  },
+  {
+   "id": "isr.def.declared-value",
+   "heading": "Declared Value",
+   "sha256": "c3c074c5147d3d0e3e3607822174f971f012bd1b1a98e9aa7a238bd5b6cd18e2"
+  },
+  {
+   "id": "isr.def.deductible",
+   "heading": "Deductible",
+   "sha256": "7a07dda878492bdd430308d6c56448d879ae65afa2e60f8f08a631cc4ab017b4"
+  },
+  {
+   "id": "isr.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "isr.def.event",
+   "heading": "Event",
+   "sha256": "e3de714d5e11e60ecfc1f9c979c3e32eda55337061d6913fad239c07a51d23ab"
+  },
+  {
+   "id": "isr.def.flood",
+   "heading": "Flood",
+   "sha256": "6babe419d0226e5bbb878a8fb417727f1d16c11652a7cab48ef8563e63c61634"
+  },
+  {
+   "id": "isr.def.gross-profit",
+   "heading": "Gross Profit",
+   "sha256": "9704244b55197414745a9db3c301c11aa3c78cb92d3c4ea8d71d53e4d8d2057d"
+  },
+  {
+   "id": "isr.def.gross-rentals",
+   "heading": "Gross Rentals",
+   "sha256": "77355560b431ce0354cd8255712dd86aa3ffbc603194abdfdecab31ce264e7e7"
+  },
+  {
+   "id": "isr.def.indemnity-period",
+   "heading": "Indemnity Period",
+   "sha256": "b5213e018d090e4e216accd69df07e417afeec2b8ef9a4cb016a28f64dc01bd3"
+  },
+  {
+   "id": "isr.def.insured-property",
+   "heading": "Insured Property",
+   "sha256": "566ca4f395df59cd5e79c359139cbf8524c318c70df01de9471ec651c40f5b4f"
+  },
+  {
+   "id": "isr.def.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "70fd8d2f474ae525d7de694a8f5efa7bcb39e8461ad01263ef5ad9036782f545"
+  },
+  {
+   "id": "isr.def.money",
+   "heading": "Money",
+   "sha256": "5836a90d16f3b6e05e0e38e5f0ceae74e9720ecdde0a7a41e06cf77f79af85c8"
+  },
+  {
+   "id": "isr.def.period-of-insurance",
+   "heading": "Period of Insurance",
+   "sha256": "35f6459207da81a8185bec89faaad9a0e277c20be03c17dea03207edad311d5a"
+  },
+  {
+   "id": "isr.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "2ff410f5319a7946adf48656381b3ca701e2a2f856ab78fcab1a1b198721c4c0"
+  },
+  {
+   "id": "isr.def.rate-of-gross-profit",
+   "heading": "Rate of Gross Profit",
+   "sha256": "92f52f6619d0996822b2929a4e1dd651ceadd749c5ec0d346d4d238ea649569d"
+  },
+  {
+   "id": "isr.def.situation",
+   "heading": "Situation",
+   "sha256": "67974bba75ccbd4edfc5b644089196d797fcea5dba44ddc7144a7011b61d80ec"
+  },
+  {
+   "id": "isr.def.specified-working-expenses",
+   "heading": "Specified Working Expenses",
+   "sha256": "3894dc5ded1293d2ccbcdd349d62f464d4df8bb6163f0b7623c7a2c02bf501e3"
+  },
+  {
+   "id": "isr.def.standard-turnover",
+   "heading": "Standard Turnover",
+   "sha256": "5672d98be9af82683f4bc4cacfd73ba348d96fa2e72a863e56457cddb87fdca5"
+  },
+  {
+   "id": "isr.def.turnover",
+   "heading": "Turnover",
+   "sha256": "350fd15d963befc8271993eb36404ddf05c0b671f238b16ad34e4599d5c1b9b7"
+  },
+  {
+   "id": "isr.def.value-at-risk",
+   "heading": "Value at Risk",
+   "sha256": "9e5f56d46fad18cb409a9bddef85c7a83409ff62171eab88b9ee9082dc9f150b"
+  },
+  {
+   "id": "isr.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "1c3fecf6f7d8b0bf3270fb8e31ec4bcac14712a0e5977fe2a246bd6a37fa7f39"
+  },
+  {
+   "id": "isr.def.you-your",
+   "heading": "You, Your",
+   "sha256": "ba55ce187ce1179bdd2de3c47bac67dbcb8a58c9247a044939400ff73dbfb5a5"
+  },
+  {
+   "id": "isr.section.material-damage",
+   "heading": "Material Damage",
+   "sha256": "6cbdfb534577d715b72b789178d826efbea379bb3e42c78716bf2e5107549002"
+  },
+  {
+   "id": "isr.cover.material-damage",
+   "heading": "Material Damage Cover",
+   "sha256": "16ce4e8815b0ffb693afc79206eda7c798bd81bf2ff1e4eef7029c7019f78cb6"
+  },
+  {
+   "id": "isr.excl.property-not-insured",
+   "heading": "Property Not Insured",
+   "sha256": "7a2db8cb8b6fd835a3c2d7ff9db8ca1a1905431402db8c5432a5763da8c53d64"
+  },
+  {
+   "id": "isr.pay.basis-of-settlement",
+   "heading": "Basis of Settlement",
+   "sha256": "32c2780e6bbcf85abc7b694c3cdf4b56d97084538c4ed5f22820b70265388696"
+  },
+  {
+   "id": "isr.pay.co-insurance",
+   "heading": "Co-insurance",
+   "sha256": "0608a470fb18c2b57fb5b290491ddf31b97e99a2d66b8127280be980a1349d15"
+  },
+  {
+   "id": "isr.pay.limit-of-liability",
+   "heading": "Limit of Liability",
+   "sha256": "9fd661b7f3f372f0a11ce1f0b5adc058c07260a7703280ea71c9695ce70b0809"
+  },
+  {
+   "id": "isr.ext.removal-of-debris",
+   "heading": "Removal of Debris",
+   "sha256": "62f06fa37736846bd4602d5eddb8ddb6bcbc5a5302ee509f03fc5d8611cdd4f8"
+  },
+  {
+   "id": "isr.ext.extra-cost-of-reinstatement",
+   "heading": "Extra Cost of Reinstatement",
+   "sha256": "cf2fa8d5b1bac7fcc8022569f52447a06bb09656af217c5768c23512ed012481"
+  },
+  {
+   "id": "isr.ext.professional-fees",
+   "heading": "Professional and Government Fees",
+   "sha256": "c9dd0483243c495a3b41ccaa9c6ceb9c79c3d0a627059269cdbe82db1e2e77a2"
+  },
+  {
+   "id": "isr.ext.capital-additions",
+   "heading": "Capital Additions",
+   "sha256": "328aebc8535cf02eb0b03b777fe3d208c32ca9476b124ff104f433955cc7a5fe"
+  },
+  {
+   "id": "isr.ext.temporary-removal",
+   "heading": "Temporary Removal",
+   "sha256": "1bcc620b606c04854bba7ed7340ec54762cf7a3b1bfc603d99b11fb456d8863d"
+  },
+  {
+   "id": "isr.ext.fire-fighting-and-mitigation",
+   "heading": "Fire Fighting and Mitigation Costs",
+   "sha256": "d031cc94d3b6de9e1c49e2d90d1b945dbf14b8eeef2e34bb8030031e5daae7f7"
+  },
+  {
+   "id": "isr.ext.temporary-protection",
+   "heading": "Temporary Protection and Repairs",
+   "sha256": "b73d4757cd5291cb01830c04ab59918666f212de2fc8de53d317d18b413ec712"
+  },
+  {
+   "id": "isr.ext.locks-and-keys",
+   "heading": "Locks and Keys",
+   "sha256": "5622d598ffe15b6e42c2139380d3d5cf843e99d7880cea3c602e5fb7949515b5"
+  },
+  {
+   "id": "isr.ext.undamaged-foundations",
+   "heading": "Undamaged Foundations and Parts",
+   "sha256": "1c52e32264ef979e9ea657006982295eb1327dff8eda18b5ab84ad65f21038e0"
+  },
+  {
+   "id": "isr.ext.data-restoration",
+   "heading": "Data Restoration",
+   "sha256": "b4b482398ae225e5fc78f44baceab25984a6c6965178fc86d413254f9bd77fbc"
+  },
+  {
+   "id": "isr.ext.claims-preparation",
+   "heading": "Claims Preparation Costs",
+   "sha256": "2bcf22f845b64bfd88a2661edfba7d81b64ed8a8d235e8ba2d9bbd7a1ebdd628"
+  },
+  {
+   "id": "isr.section.business-interruption",
+   "heading": "Business Interruption",
+   "sha256": "e46d0f4d30c1730ac7d45cd845bde1f2351aa9559bb0bb923391040863fe3d4e"
+  },
+  {
+   "id": "isr.cover.business-interruption",
+   "heading": "Business Interruption Cover",
+   "sha256": "281dc8c2e25c5438f63628800191267d617d2d4e82dce9ccd54eec001cb39a53"
+  },
+  {
+   "id": "isr.pay.bi-loss",
+   "heading": "Measuring Business Interruption Loss",
+   "sha256": "2e029efbbf58ffc40ee66524db37e127a84ef03fb0026d999d1bae0d83ec5608"
+  },
+  {
+   "id": "isr.pay.bi-adjustments",
+   "heading": "Adjustments for Trend and Circumstances",
+   "sha256": "339afa671a2f99473dcc240259a04e7fb62e7573eb15701b95955fdb5fba2298"
+  },
+  {
+   "id": "isr.pay.bi-special-cases",
+   "heading": "Special Cases in Business Interruption",
+   "sha256": "097a1c77bc9b15cd3ca187e867db44dc60b1e060609452c9427b9d63eac65e07"
+  },
+  {
+   "id": "isr.pay.waiting-period",
+   "heading": "Waiting Period",
+   "sha256": "9c41dd545f3c90d6f32b2f3235989effaa03e60cefaf1aef1e0246895da397ad"
+  },
+  {
+   "id": "isr.ext.prevention-of-access",
+   "heading": "Prevention of Access",
+   "sha256": "744c58451cacd3d3aa067936892c66d63dd5eb73efd5571f1f1e4b218f5da9ee"
+  },
+  {
+   "id": "isr.ext.public-utilities",
+   "heading": "Public Utilities",
+   "sha256": "2ba7949c47abe9f024c96c1e74d77c6504c42b40e7da6b14a4910fdfeafa020d"
+  },
+  {
+   "id": "isr.ext.suppliers-and-customers",
+   "heading": "Suppliers and Customers",
+   "sha256": "a3f333b9c06cedb0cfaf65e1d5a83d96e21e91e28515c9ea189868078ece4ed1"
+  },
+  {
+   "id": "isr.ext.computer-installations",
+   "heading": "Computer Installations",
+   "sha256": "51dfd09d49dc8936a1749ec4ea6478db20fc02b4b2404048603c93b0de96a9c6"
+  },
+  {
+   "id": "isr.section.exclusions",
+   "heading": "What We Do Not Cover",
+   "sha256": "a7695a33622d56f4263768b4ed918ab050cbb7f810edfcde88c13d71849a325b"
+  },
+  {
+   "id": "isr.excl.war",
+   "heading": "War",
+   "sha256": "6b12f20c8a61444ccc670232c99336d0239f773c2b1966dc6f83e8bef4ab3c5e"
+  },
+  {
+   "id": "isr.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "d837c10ad59f6b44c1a7954786dab98f2573add8bb109f5b497560cd07a4ddc9"
+  },
+  {
+   "id": "isr.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "7e9c7cb774b8cb1087c12ad9bccbd1308cd0fd70f324dd8a1df23bca911aa5c0"
+  },
+  {
+   "id": "isr.excl.cyber",
+   "heading": "Cyber Events",
+   "sha256": "02b3a042abeaea7e76206182b4613a0f4856e7e2a5fd4f35498a34aae8580b4b"
+  },
+  {
+   "id": "isr.excl.communicable-disease",
+   "heading": "Communicable Disease",
+   "sha256": "4f5888b2fdf192dd99b68410403db6389a818e5a8b9ca8a263653b4e23b447d7"
+  },
+  {
+   "id": "isr.excl.pollution",
+   "heading": "Pollution",
+   "sha256": "00fad926c82725d8e90dec7bb436e1005b96a558eba7c2f50bd187be1c38dcd2"
+  },
+  {
+   "id": "isr.excl.gradual-causes",
+   "heading": "Gradual Causes",
+   "sha256": "1d9b16435664ab00b7b069329a494c283499ef7f246f24aa30a55d01e4c142de"
+  },
+  {
+   "id": "isr.excl.faulty-design",
+   "heading": "Faulty Design and Workmanship",
+   "sha256": "237ddfa0946179297b01ca115ce50117769c37b610b3a17844e2994c968befb3"
+  },
+  {
+   "id": "isr.excl.consequential-loss",
+   "heading": "Consequential Loss",
+   "sha256": "e89ec3f4185f31c80343be892665e6fa4e6a9d2500be983daeba2a483ed0f414"
+  },
+  {
+   "id": "isr.excl.breakdown",
+   "heading": "Breakdown",
+   "sha256": "c157d91f3705bbde1021633d5a86fa81688be428cb60838c346184e8e10afc94"
+  },
+  {
+   "id": "isr.excl.earth-movement",
+   "heading": "Earth Movement",
+   "sha256": "1a7b2635ba196ca65499c14c35da7fe9a26a3e3ef1bb4671d21158f9c1088eae"
+  },
+  {
+   "id": "isr.excl.theft",
+   "heading": "Theft Without Forcible Entry",
+   "sha256": "920db28fea9db5a5030fcc181560ef612f41c7165e52f71a2d230ee5d422f6dc"
+  },
+  {
+   "id": "isr.excl.flood",
+   "heading": "Flood",
+   "sha256": "06adb320693fcc453aa2c93b5c099db1b78815846ab8a62e3dfc8ec784219fe8"
+  },
+  {
+   "id": "isr.section.general-payment",
+   "heading": "Paying Claims",
+   "sha256": "af4faebb334efcac76537c5a3fef82c8274b2e55f1de5638e86167838f06ef87"
+  },
+  {
+   "id": "isr.pay.deductible",
+   "heading": "Deductible",
+   "sha256": "098f307608848c321992dbfd26fb3a45cc7bf9ee76953eef6640297e56b055cd"
+  },
+  {
+   "id": "isr.pay.limits-and-sub-limits",
+   "heading": "Limits and Sub-limits",
+   "sha256": "bb801e9e9efcdd107f25d59a0c6bb3de38ffb2d336935f7b262aab74ee65ae60"
+  },
+  {
+   "id": "isr.pay.gst",
+   "heading": "GST on Claims",
+   "sha256": "ff55da0af8b6a511fd9671e140a697246794e1f0b8d887181b005a21d783cbb1"
+  },
+  {
+   "id": "isr.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "abe7f054c7d64082533a9c9a93218054ed05183b568dd21d62ef4dff6144564d"
+  },
+  {
+   "id": "isr.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "04b1438266e35020a9b698e731ca6ac5a7185acd44d1d0c800b32dc703a577f9"
+  },
+  {
+   "id": "isr.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "f4448ab994cab6bca7a69c85c94287f0efa061fab5410d1edcd9d1fd09db9334"
+  },
+  {
+   "id": "isr.obl.tell-us-about-claims",
+   "heading": "Tell Us About a Claim",
+   "sha256": "343cc5eec72386f52b5a71d4ad7515aa94acada04fa76304133bf86f2a0175bb"
+  },
+  {
+   "id": "isr.obl.reduce-loss",
+   "heading": "Prevent Further Loss",
+   "sha256": "1dea2d114690e4a1cfc8c2230bd0c56e4e7374b5572af28aff6ef0381e97187c"
+  },
+  {
+   "id": "isr.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "ed8c9a2301908809b5243a23921250d47fa283f14b1bc9c571ca6d28bc2a6bf3"
+  },
+  {
+   "id": "isr.obl.subrogation",
+   "heading": "Our Rights of Recovery",
+   "sha256": "5f48d5c8579fa17b3c94e9d5f14389769e90eaea6abad169cb00b174a1f82d94"
+  },
+  {
+   "id": "isr.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "f738d943e8679cbab0142c0c3dae8952d49e50a45ec2ff661a1b0bb496d9964b"
+  },
+  {
+   "id": "isr.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "66366ecd683aed4c8c8b0c37f4640a5d8c6449f2d409aab06dad581e9b36bebe"
+  },
+  {
+   "id": "isr.cond.separate-interests",
+   "heading": "Separate Interests",
+   "sha256": "b38795d9356b6f5bcd84d18180c2dda02c7e6f4cb203bb88f1247190741a24d7"
+  },
+  {
+   "id": "isr.cond.interests-of-other-parties",
+   "heading": "Interests of Other Parties",
+   "sha256": "1315f541dd2252b1792adfdd7ea650c64a3e0eda80ae76acf56c2e19448e8ced"
+  },
+  {
+   "id": "isr.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "78bbe0dd71673842d88f34f1077075e6e5e07e6a14249ff65cec88b42ac05416"
+  },
+  {
+   "id": "isr.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "efc906957961b66b1f81375a19d89c789764013199807221b8381576bbf179b5"
+  },
+  {
+   "id": "isr.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "isr.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "42fb1380b96dd15d73f75ba08a010a771687efd241a1a50da0f02f27fdf2ecc4"
+  },
+  {
+   "id": "isr.cond.disputes-and-complaints",
+   "heading": "Complaints and Disputes",
+   "sha256": "db7fce4420268582e0dc68cd15f7fff78dd15cc0b997f1b44cd047b688ad7349"
+  },
+  {
+   "id": "isr.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "535a91ae17fccf0be51228cf5b5db5a42c94513a1b853f731f197564e09468ea"
+  },
+  {
+   "id": "isr.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "0be0a96dd50e01f05416b14637ef0d9f4ebeaf800c7152e706dab16325045de6"
+  },
+  {
+   "id": "isr.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "isr.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "ca9e4e0c24b43f5fe004e61948a5846cea16a1c1ee213007bf53a19abd7c9957"
+  },
+  {
+   "id": "isr.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "c3e991e3ca70a532c234f7fe5d9ea661de3dfdf26139df6a20b902ccbac33a89"
+  },
+  {
+   "id": "isr.end.namd",
+   "heading": "NAMD Named Insured and Related Entities",
+   "sha256": "300ae5329d6c8c2aa9133b29c678932faefb5af3980f89883bcb0ee6c670fd73"
+  },
+  {
+   "id": "isr.end.intp",
+   "heading": "INTP Interested Parties and Non-Vitiation",
+   "sha256": "fb864acbd64650b042c7fe11c645e1e15ea322faad3b14b4bab82c061998e5e1"
+  },
+  {
+   "id": "isr.end.lols",
+   "heading": "LOLS Limit of Liability: Any One Loss, Any One Situation",
+   "sha256": "87de05f0ea375de80e3c749e58962dca5e0e072789a72c5d8bd34416ecfcc234"
+  },
+  {
+   "id": "isr.end.lmti",
+   "heading": "LMTI How Limits and Sub-limits Interact",
+   "sha256": "4934d1c180d0227396f7dd2780b639586b2463b15e392d52cd8e7462cda466e6"
+  },
+  {
+   "id": "isr.end.situ",
+   "heading": "SITU New, Unspecified and Undeclared Situations",
+   "sha256": "3be30f2d34019e60e7f14c5e09ffab5b892782e22609b5ca9ea5758d4063153e"
+  },
+  {
+   "id": "isr.end.aggp",
+   "heading": "AGGP Annual Aggregates for Specified Perils",
+   "sha256": "9907bf04c9438a1e4513dbafb681d3a40f468786e4cb4b7a5b6abf8fadc97f1b"
+  },
+  {
+   "id": "isr.end.cois",
+   "heading": "COIS Co-insurance by Situation",
+   "sha256": "23aeed778ab40f7ba2691ad9f105eb5c66585f8386a5a60a6d3644a714dce62a"
+  },
+  {
+   "id": "isr.end.noav",
+   "heading": "NOAV Co-insurance Waived",
+   "sha256": "a52697cd07890f14b16df3bd17c95afdc41aebf32eaa4fa6c079d9418e40be2a"
+  },
+  {
+   "id": "isr.end.dvad",
+   "heading": "DVAD Declared Values Adjustment (Mid-Term)",
+   "sha256": "4078790c6125411b4b5c1b32c8566e16a72ce8214844209a989bf6b3a205d3e7"
+  },
+  {
+   "id": "isr.end.escl",
+   "heading": "ESCL Escalation of Declared Values",
+   "sha256": "a9499df5316e05e05c3cb22029e0953685b7ae857477cd1ece731e75a3d7138d"
+  },
+  {
+   "id": "isr.end.indv",
+   "heading": "INDV Indemnity Value for Specified Property",
+   "sha256": "ceb5e4ff2ffcbd6c104acef24be16ad9a4aec715ebb736e3f413e4eab8bb22ac"
+  },
+  {
+   "id": "isr.end.stsp",
+   "heading": "STSP Stock at Selling Price",
+   "sha256": "66ec8ed9c5d91dc273a67a36319f07314c560ef77b6b55cdb76933453cf6fcf0"
+  },
+  {
+   "id": "isr.end.mtch",
+   "heading": "MTCH Matching and Undamaged Portions",
+   "sha256": "28c07302df4885c7b4ffa2d1966704cda728aa882b3387d8d5e5372c23189547"
+  },
+  {
+   "id": "isr.end.arei",
+   "heading": "AREI Automatic Reinstatement of Limits after Loss",
+   "sha256": "010c2977f6e44102821aaafc89c51ad9db3b877a085c248e249c45841309ef32"
+  },
+  {
+   "id": "isr.end.grnb",
+   "heading": "GRNB Environmental Improvement on Reinstatement",
+   "sha256": "c41ecbe14b2f80dc77de200f1e6e9b5d70f4b352a0d322c2d6fed0237f87ede4"
+  },
+  {
+   "id": "isr.end.rdbr",
+   "heading": "RDBR Removal of Debris: Increased Limit",
+   "sha256": "c50a10f7811eaf1cc837697b4824d78a6fd401f511ab97bffb046bbe08be27bf"
+  },
+  {
+   "id": "isr.end.xcor",
+   "heading": "XCOR Extra Cost of Reinstatement: Increased Limit",
+   "sha256": "58a010d8e8928e434fdc3a430ea7377ce811ed3400902dba6ea1e9fcef352102"
+  },
+  {
+   "id": "isr.end.prof",
+   "heading": "PROF Professional and Government Fees: Increased Limit",
+   "sha256": "af808d9c2e9f4fc86089bc56655182ecd41201c53d058da8cefd984939245eb4"
+  },
+  {
+   "id": "isr.end.capa",
+   "heading": "CAPA Capital Additions: Increased Limit",
+   "sha256": "46fd5f42afa84c2383b088328794545c782300c45ac9889dc71589ebe22de8fa"
+  },
+  {
+   "id": "isr.end.expd",
+   "heading": "EXPD Expediting Expenses and Temporary Repairs",
+   "sha256": "4ada2c30d5f0e7eb97100ec24ce3d2fc51a52c6e7b7d4c66e3571565bb70fac9"
+  },
+  {
+   "id": "isr.end.cprc",
+   "heading": "CPRC Claims Preparation Costs",
+   "sha256": "35ff40a4f97e079c9896d610dd5dc68df3110678947f59f66f93cdbb26754fd5"
+  },
+  {
+   "id": "isr.end.cnwk",
+   "heading": "CNWK Alterations, Additions and Contract Works",
+   "sha256": "12ea245761d526cd315a798a25836c7babede72b02ef5148be0a8bdbd0f695e5"
+  },
+  {
+   "id": "isr.end.trns",
+   "heading": "TRNS Transit within Australia",
+   "sha256": "2c84dc4c7bb3a5b1e4edb5763f106da230bc4cffc4ed027ed08863734f52a5da"
+  },
+  {
+   "id": "isr.end.mony",
+   "heading": "MONY Money",
+   "sha256": "7a68f4fbad5aa02b937f0f3a791a2e3374949f658ccd90d4da0898b586c69e12"
+  },
+  {
+   "id": "isr.end.glas",
+   "heading": "GLAS Glass",
+   "sha256": "de746bf49e44766fec546b42c1de1d9ae97e6f125149141084363cc8b8f7c379"
+  },
+  {
+   "id": "isr.end.cust",
+   "heading": "CUST Customers' and Third-Party Property",
+   "sha256": "3892d3bf7f67ade9016b4bd9150bd27d036873cc42af43da6fe40078ae9e7e0a"
+  },
+  {
+   "id": "isr.end.gpau",
+   "heading": "GPAU General Property Anywhere in Australia",
+   "sha256": "67595db0227f164cda00c8e5266801048cb0dc5d1ea3f595adb96deef0576e6c"
+  },
+  {
+   "id": "isr.end.flod",
+   "heading": "FLOD Flood Cover",
+   "sha256": "72a2bf6290b623f3aee42d74f22632284313540f698dc5ba9c7aa5265e198095"
+  },
+  {
+   "id": "isr.end.fldx",
+   "heading": "FLDX Flood Exclusion for Specified Situations",
+   "sha256": "cf7a793f405de7d3c46ffb84898dd59a9fa39d92b4da6c9025f46b1fe57d6c85"
+  },
+  {
+   "id": "isr.end.eqke",
+   "heading": "EQKE Earthquake: 72-Hour Event and Deductible",
+   "sha256": "7e3a16a41b2526eb6849858e71b8db214564ce37e20400ccfb172f438945a489"
+  },
+  {
+   "id": "isr.end.natd",
+   "heading": "NATD Natural Perils Deductibles",
+   "sha256": "0e90a040054c6f5694cfb56979a1568c17c001d7b3f734e90ca35a5ca22854a2"
+  },
+  {
+   "id": "isr.end.thft",
+   "heading": "THFT Full Theft",
+   "sha256": "23a98c4a450fdc4c031bf47b76b8e672e987df196183975680cc7f5de03ea068"
+  },
+  {
+   "id": "isr.end.mbrk",
+   "heading": "MBRK Machinery Breakdown",
+   "sha256": "5f00326dfd0771e24e727fe8655f622dc996415defdfc3d9daf98c55c84348c2"
+  },
+  {
+   "id": "isr.end.elec",
+   "heading": "ELEC Electronic Equipment Breakdown",
+   "sha256": "e44e033bb38d75ddacf4ef39157d06ff9a86af557c88cdbf10605c367c147c4f"
+  },
+  {
+   "id": "isr.end.fusn",
+   "heading": "FUSN Fusion",
+   "sha256": "af163c51c017df6cc9eb9f447ee0669143e507cbdee8eaaf27531ecf5142d596"
+  },
+  {
+   "id": "isr.end.dtst",
+   "heading": "DTST Deterioration of Stock",
+   "sha256": "4bdc03c2aeaa32e97209d192f4df99ab7d1fc4539a4a03e2417040d3653c2703"
+  },
+  {
+   "id": "isr.end.terr",
+   "heading": "TERR Terrorism",
+   "sha256": "99612149a9fd98dc199af3cf8be910be1bc341ced87daab2820d7485e81b73fd"
+  },
+  {
+   "id": "isr.end.cybx",
+   "heading": "CYBX Cyber Exclusion and Physical Damage Write-back",
+   "sha256": "e9966cec62bea5341c96fc9bc7496ffc738a649d231e02ca56851bd08373c648"
+  },
+  {
+   "id": "isr.end.data",
+   "heading": "DATA Data and Software Reinstatement",
+   "sha256": "6d1ab4a1f4c2cf1488f5d1203f85d125697daa559d9658c36910b0a88764f0c4"
+  },
+  {
+   "id": "isr.end.sanc",
+   "heading": "SANC Sanctions Limitation",
+   "sha256": "587695f693fd3a997cd1879d864d370fe918d39ab8c098320e254cad9a74e2bd"
+  },
+  {
+   "id": "isr.end.comx",
+   "heading": "COMX Communicable Disease Exclusion",
+   "sha256": "e75cc368fb0a1d5d5d8b4fcb0d6c808b2a8b50a1a2a03fba4e84f3107b2bb2f5"
+  },
+  {
+   "id": "isr.end.asbs",
+   "heading": "ASBS Asbestos",
+   "sha256": "9fb094bb26fd894a984b09e8c10dd8e583226022c1527f6bf5fcee42165cdfe4"
+  },
+  {
+   "id": "isr.end.panl",
+   "heading": "PANL Combustible Core Panels",
+   "sha256": "09d52afd4776fb530fe21468f8f506cc7073f979ca370b50a51872b517afa4ad"
+  },
+  {
+   "id": "isr.end.surv",
+   "heading": "SURV Survey Requirements",
+   "sha256": "d75f6eb0d24ea104d67e07c6af4a4f92758819a776d46f07466a505d010dc6f5"
+  },
+  {
+   "id": "isr.end.fire",
+   "heading": "FIRE Fire Protection Impairment",
+   "sha256": "edad17d79c2caa878964243fe09cf49c880094c8a136d0ce3dd640c3026e8d0d"
+  },
+  {
+   "id": "isr.end.hotw",
+   "heading": "HOTW Hot Work",
+   "sha256": "214c6d08b579e23c58c49c5aa81e503450328f97ce32c34b0f8aeae12f72ee52"
+  },
+  {
+   "id": "isr.end.lion",
+   "heading": "LION Lithium-ion Batteries and Energy Storage",
+   "sha256": "09ad995de571cc788a7e4d020aa6fe585bf09cdb2c20a5fe58d3435b4a3fda5a"
+  },
+  {
+   "id": "isr.end.vacn",
+   "heading": "VACN Unoccupied Buildings",
+   "sha256": "6dd44892af53c5fd9d518359fda49d9dd006f2db99a28b02a38b0cdd817f729f"
+  },
+  {
+   "id": "isr.end.secu",
+   "heading": "SECU Security and Intruder Alarm",
+   "sha256": "5f8b433188b88728a58216f481e16795a79b99815be652778b1a99dfa8d086c2"
+  },
+  {
+   "id": "isr.end.biip",
+   "heading": "BIIP Indemnity Periods by Situation and Item",
+   "sha256": "0c899f17f851658891c5c73e2a7597a725b1d6c40c0108785d389b125a1908d3"
+  },
+  {
+   "id": "isr.end.txsd",
+   "heading": "TXSD Time Excess (Deducted)",
+   "sha256": "160f6d07e6c425deaefbeb8d08f3206e2ffcc5869ae692e812df6dc6bb33508f"
+  },
+  {
+   "id": "isr.end.aicw",
+   "heading": "AICW Additional Increased Cost of Working: Separate Limit",
+   "sha256": "92be265b31a620ce86a1a67248c5dc5128e3d8827999ad386a8adecaeaa1f71e"
+  },
+  {
+   "id": "isr.end.accs",
+   "heading": "ACCS Prevention of Access",
+   "sha256": "4a06808f12edad4034b9950da0fa5975bdbe73e9dca42a14667032332762bcb4"
+  },
+  {
+   "id": "isr.end.util",
+   "heading": "UTIL Public Utilities: Extended",
+   "sha256": "45c42d3fd942a448c5ff5401ca1ff8e23bacf72dc1d8188891dc0ca4d560d2f3"
+  },
+  {
+   "id": "isr.end.supc",
+   "heading": "SUPC Suppliers and Customers",
+   "sha256": "65c7986ec216be1265283d4a139188d6401e69e9806d122e469304646692e063"
+  },
+  {
+   "id": "isr.end.intd",
+   "heading": "INTD Interdependency between Situations",
+   "sha256": "858766f5f4af127cdc39216529b3bf5e69446bcebb388f71e5d61e531d785a50"
+  },
+  {
+   "id": "isr.end.incd",
+   "heading": "INCD Incidents at the Premises",
+   "sha256": "a970bfb8607a269a6a8379a85888f1f7ad704ffdbb3f6b7fcc50cb76e3914fb7"
+  },
+  {
+   "id": "isr.end.comb",
+   "heading": "COMB Communicable Disease Buy-back",
+   "sha256": "95704330702068cf3c9f1fc2493190373ec84eed14cd3c18132fd2584501b441"
+  },
+  {
+   "id": "isr.end.attr",
+   "heading": "ATTR Loss of Attraction",
+   "sha256": "eb4ebc9aa55f536b13b3aabc51b41ccf8af1a13843b5c507b94ad0fe1e38f3ed"
+  },
+  {
+   "id": "isr.end.accr",
+   "heading": "ACCR Accounts Receivable",
+   "sha256": "6a1d84824954af2b65e8747c827528d1e769ed5da76660b771337a79d1d65170"
+  },
+  {
+   "id": "isr.end.coin",
+   "heading": "COIN Coinsurance: Several Liability and Participations",
+   "sha256": "c8e1ee9522b881d17e1ef2c44f4d233eccfb04fc7cdbddbde93aabf8af227ea2"
+  },
+  {
+   "id": "isr.end.lead",
+   "heading": "LEAD Leading Insurer",
+   "sha256": "075f3545b580030ae38b7b35824df78fb1a9646967995ce085c96480c32d1b1b"
+  },
+  {
+   "id": "isr.end.layr",
+   "heading": "LAYR Primary and Excess Layers",
+   "sha256": "5f16fd4f8941dfb425e74817981b1447e7015b9705f4f3db05e2edc77a3b6333"
+  },
+  {
+   "id": "isr.end.ltag",
+   "heading": "LTAG Long-Term Agreement",
+   "sha256": "dbaf45e2281def8df4e37450636132945f6e0e830810cd0101a0e61d01a32c98"
+  },
+  {
+   "id": "isr.end.stkd",
+   "heading": "STKD Stock Declaration and Premium Adjustment",
+   "sha256": "bcc22ebf64dfd86279be92b9f0c4dda8fed2946b38d3a67cf0fdfa1915c19e68"
+  },
+  {
+   "id": "isr.end.lawj",
+   "heading": "LAWJ Governing Law and Jurisdiction",
+   "sha256": "90d4b1bf09342e2920f08f67c07bd0f744bbb3d1616b965e4c7f6def34e88fb0"
+  },
+  {
+   "id": "isr.end.ssut",
+   "heading": "SSUT Service of Suit",
+   "sha256": "e9d2ec38286c1fc82961a007d69d61edafbd204f3a12cfe94e216e7ae389eb32"
+  },
+  {
+   "id": "isr.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "isr.end.namd",
+   "heading": "NAMD Named Insured and Related Entities",
+   "trigger": {
+    "questions": [
+     "qs.isr.insured.entity_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.insured.entity_count > 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the policy insures more than one entity."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.insured.entity_count",
+     "text": "How many entities are to be insured, including subsidiaries and trusts?",
+     "type": "number",
+     "used_by": "S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.intp",
+   "heading": "INTP Interested Parties and Non-Vitiation",
+   "trigger": {
+    "questions": [
+     "qs.isr.insured.interested_parties"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.insured.interested_parties == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because a financier, landlord or other party has an interest to note."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.insured.interested_parties",
+     "text": "Does a financier, landlord or other party need its interest noted on the policy?",
+     "type": "yes/no",
+     "used_by": "S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.lols",
+   "heading": "LOLS Limit of Liability: Any One Loss, Any One Situation",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the policy is written on a base wording other than the Meridian wording, which has this provision built in."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.lmti",
+   "heading": "LMTI How Limits and Sub-limits Interact",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the base wording does not have the Meridian rules on how limits interact."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.situ",
+   "heading": "SITU New, Unspecified and Undeclared Situations",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.situation_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.situation_count >= 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies to every policy so that new and temporary locations are covered."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.situation_count",
+     "text": "How many Situations (insured locations) are on the policy?",
+     "type": "number",
+     "used_by": "R, A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.aggp",
+   "heading": "AGGP Annual Aggregates for Specified Perils",
+   "trigger": {
+    "questions": [
+     "qs.isr.binder.aggregate_required",
+     "qs.isr.peril.multi_situation_high_hazard"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.binder.aggregate_required == yes",
+      "action": "apply"
+     },
+     {
+      "when": "qs.isr.peril.multi_situation_high_hazard == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because more than one Situation is in a high-hazard zone for the same peril, or required by the binder."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.binder.aggregate_required",
+     "text": "Does the binder require an annual aggregate for any natural peril? (derived from the binder)",
+     "type": "yes/no",
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.peril.multi_situation_high_hazard",
+     "text": "Are two or more Situations in a high-hazard zone for the same natural peril? (derived from geocoding)",
+     "type": "yes/no",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.cois",
+   "heading": "COIS Co-insurance by Situation",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the base wording's co-insurance clause differs from the per-Situation test."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.noav",
+   "heading": "NOAV Co-insurance Waived",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.values.missing_valuation"
+    ],
+    "rules": [
+     {
+      "when": "'NOAV' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "restrictions": [
+     {
+      "when": "qs.isr.values.missing_valuation == yes",
+      "action": "refer",
+      "note": "A Situation has no valuation date, and the waiver depends on recorded valuations."
+     }
+    ],
+    "reason": "Offered because the broker asked for co-insurance to be waived."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.values.missing_valuation",
+     "text": "Does any Situation have no valuation date?",
+     "type": "yes/no",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.dvad",
+   "heading": "DVAD Declared Values Adjustment (Mid-Term)",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.situation_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.situation_count >= 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies to every policy so that Declared Values can be changed during the year at the agreed rate."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.situation_count",
+     "text": "How many Situations (insured locations) are on the policy?",
+     "type": "number",
+     "used_by": "R, A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.escl",
+   "heading": "ESCL Escalation of Declared Values",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.values.oldest_valuation_years"
+    ],
+    "rules": [
+     {
+      "when": "'ESCL' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.values.oldest_valuation_years > 1",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because a Situation's valuation is more than 12 months old."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.values.oldest_valuation_years",
+     "text": "How many years old is the oldest Situation valuation?",
+     "type": "number",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.indv",
+   "heading": "INDV Indemnity Value for Specified Property",
+   "trigger": {
+    "questions": [
+     "qs.isr.values.indemnity_items"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.values.indemnity_items == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because some property is vacant, obsolete or awaiting demolition."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.values.indemnity_items",
+     "text": "Is any property vacant, obsolete or awaiting demolition?",
+     "type": "yes/no",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.stsp",
+   "heading": "STSP Stock at Selling Price",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.anzsic_division"
+    ],
+    "rules": [
+     {
+      "when": "'STSP' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.anzsic_division == 'C'",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because the business is a manufacturer."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.anzsic_division",
+     "text": "What is the ANZSIC division of the main business activity? (from the Exposure Engine)",
+     "type": "select",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+     ],
+     "used_by": "R, A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.mtch",
+   "heading": "MTCH Matching and Undamaged Portions",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'MTCH' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for matching and undamaged parts."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.arei",
+   "heading": "AREI Automatic Reinstatement of Limits after Loss",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.situation_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.situation_count >= 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies to every policy so that limits are restored after a claim."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.situation_count",
+     "text": "How many Situations (insured locations) are on the policy?",
+     "type": "number",
+     "used_by": "R, A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.grnb",
+   "heading": "GRNB Environmental Improvement on Reinstatement",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'GRNB' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for greener reinstatement."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.rdbr",
+   "heading": "RDBR Removal of Debris: Increased Limit",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.pre_1990_building",
+     "qs.isr.risk.hazardous_goods"
+    ],
+    "rules": [
+     {
+      "when": "'RDBR' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.pre_1990_building == yes",
+      "action": "suggest"
+     },
+     {
+      "when": "qs.isr.risk.hazardous_goods == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because a building pre-dates 1990 or hazardous goods are stored, which raises debris costs."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.pre_1990_building",
+     "text": "Was any building at a Situation built before 1990?",
+     "type": "yes/no",
+     "used_by": "R, E"
+    },
+    {
+     "id": "qs.isr.risk.hazardous_goods",
+     "text": "Are hazardous or dangerous goods stored at any Situation?",
+     "type": "yes/no",
+     "used_by": "R, A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.xcor",
+   "heading": "XCOR Extra Cost of Reinstatement: Increased Limit",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.building_over_20_years",
+     "qs.isr.risk.combustible_cladding"
+    ],
+    "rules": [
+     {
+      "when": "'XCOR' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.combustible_cladding == yes",
+      "action": "suggest"
+     },
+     {
+      "when": "qs.isr.risk.building_over_20_years == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because a building is more than 20 years old or has combustible cladding."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.building_over_20_years",
+     "text": "Is any building at a Situation more than 20 years old?",
+     "type": "yes/no",
+     "used_by": "R, E"
+    },
+    {
+     "id": "qs.isr.risk.combustible_cladding",
+     "text": "Does any building have combustible external cladding?",
+     "type": "yes/no",
+     "used_by": "R, A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.prof",
+   "heading": "PROF Professional and Government Fees: Increased Limit",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'PROF' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option to raise the professional fees limit."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.capa",
+   "heading": "CAPA Capital Additions: Increased Limit",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.situation_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.situation_count >= 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies to every policy at the agency's standard capital additions limit."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.situation_count",
+     "text": "How many Situations (insured locations) are on the policy?",
+     "type": "number",
+     "used_by": "R, A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.expd",
+   "heading": "EXPD Expediting Expenses and Temporary Repairs",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.bi.insured"
+    ],
+    "rules": [
+     {
+      "when": "'EXPD' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.bi.insured == no",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because business interruption is not insured."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.bi.insured",
+     "text": "Is business interruption to be insured?",
+     "type": "yes/no",
+     "used_by": "R, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.cprc",
+   "heading": "CPRC Claims Preparation Costs",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the base wording does not cover claims preparation costs for both sections."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.cnwk",
+   "heading": "CNWK Alterations, Additions and Contract Works",
+   "trigger": {
+    "questions": [
+     "qs.isr.risk.works_over_limit",
+     "qs.isr.risk.works_contract_value"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.works_over_limit == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.isr.risk.works_contract_value > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because building works are planned or under way at a Situation."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.risk.works_over_limit",
+     "text": "Does any project exceed the agency's contract works limit? (derived)",
+     "type": "yes/no",
+     "used_by": "A, E"
+    },
+    {
+     "id": "qs.isr.risk.works_contract_value",
+     "text": "What is the total contract value of building works planned or under way at the Situations?",
+     "type": "currency",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.trns",
+   "heading": "TRNS Transit within Australia",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.transit_over_threshold"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.transit_over_threshold == yes",
+      "action": "refer"
+     },
+     {
+      "when": "'TRNS' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because the business moves goods within Australia."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.transit_over_threshold",
+     "text": "Is the annual value of goods in transit above the agency's threshold?",
+     "type": "yes/no",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.mony",
+   "heading": "MONY Money",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.cash_handling"
+    ],
+    "rules": [
+     {
+      "when": "'MONY' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.cash_handling == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because the business handles cash."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.cash_handling",
+     "text": "Does the business handle cash at the Situations?",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.glas",
+   "heading": "GLAS Glass",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.anzsic_division"
+    ],
+    "rules": [
+     {
+      "when": "'GLAS' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.anzsic_division == 'G'",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because the business is a retailer with shopfront glass."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.anzsic_division",
+     "text": "What is the ANZSIC division of the main business activity? (from the Exposure Engine)",
+     "type": "select",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+     ],
+     "used_by": "R, A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.cust",
+   "heading": "CUST Customers' and Third-Party Property",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.warehousing_others_goods"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.warehousing_others_goods == yes",
+      "action": "refer"
+     },
+     {
+      "when": "'CUST' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because the business holds goods belonging to others."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.warehousing_others_goods",
+     "text": "Does the business store or handle goods belonging to others as a service?",
+     "type": "yes/no",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.gpau",
+   "heading": "GPAU General Property Anywhere in Australia",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'GPAU' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for portable property anywhere in Australia."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.flod",
+   "heading": "FLOD Flood Cover",
+   "trigger": {
+    "questions": [
+     "qs.isr.peril.flood_score_max",
+     "qs.isr.peril.binder_excluded_postcode"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.peril.flood_score_max == 'high'",
+      "action": "refer"
+     },
+     {
+      "when": "qs.isr.peril.flood_score_max == 'medium'",
+      "action": "suggest"
+     },
+     {
+      "when": "qs.isr.peril.flood_score_max == 'low'",
+      "action": "apply"
+     }
+    ],
+    "restrictions": [
+     {
+      "when": "qs.isr.peril.binder_excluded_postcode == yes",
+      "action": "refer",
+      "note": "A Situation is in a postcode the binder excludes for flood."
+     }
+    ],
+    "reason": "Applies from the flood score of each geocoded Situation; the highest score among the Situations decides the action."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.peril.flood_score_max",
+     "text": "What is the highest flood score among the Situations? (derived from geocoding)",
+     "type": "select",
+     "options": [
+      "low",
+      "medium",
+      "high"
+     ],
+     "used_by": "R, A, E"
+    },
+    {
+     "id": "qs.isr.peril.binder_excluded_postcode",
+     "text": "Is any Situation in a postcode the binder excludes for flood? (derived)",
+     "type": "yes/no",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.fldx",
+   "heading": "FLDX Flood Exclusion for Specified Situations",
+   "trigger": {
+    "questions": [
+     "qs.isr.peril.binder_excluded_postcode",
+     "qs.isr.peril.flood_score_max"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.peril.binder_excluded_postcode == yes",
+      "action": "apply"
+     },
+     {
+      "when": "qs.isr.peril.flood_score_max == 'high'",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Applies because a Situation is in a postcode the binder excludes for flood, or suggested because a Situation has a high flood score."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.peril.binder_excluded_postcode",
+     "text": "Is any Situation in a postcode the binder excludes for flood? (derived)",
+     "type": "yes/no",
+     "used_by": "A, E"
+    },
+    {
+     "id": "qs.isr.peril.flood_score_max",
+     "text": "What is the highest flood score among the Situations? (derived from geocoding)",
+     "type": "select",
+     "options": [
+      "low",
+      "medium",
+      "high"
+     ],
+     "used_by": "R, A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.eqke",
+   "heading": "EQKE Earthquake: 72-Hour Event and Deductible",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.situation_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.situation_count >= 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies to every policy to add earthquake cover with the 72-hour rule and an earthquake deductible."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.situation_count",
+     "text": "How many Situations (insured locations) are on the policy?",
+     "type": "number",
+     "used_by": "R, A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.natd",
+   "heading": "NATD Natural Perils Deductibles",
+   "trigger": {
+    "questions": [
+     "qs.isr.peril.cat_zone_high"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.peril.cat_zone_high == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because a Situation scores above the agency's threshold for cyclone, bushfire or hail."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.peril.cat_zone_high",
+     "text": "Does any Situation score above the agency's threshold for cyclone, bushfire or hail? (derived from geocoding)",
+     "type": "yes/no",
+     "used_by": "R, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.thft",
+   "heading": "THFT Full Theft",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'THFT' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for theft without forcible entry."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.mbrk",
+   "heading": "MBRK Machinery Breakdown",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.pressure_vessels",
+     "qs.isr.bi.breakdown_bi_requested"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.pressure_vessels == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.isr.bi.breakdown_bi_requested == yes",
+      "action": "refer"
+     },
+     {
+      "when": "'MBRK' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for machinery breakdown; referred for boilers, pressure vessels or turbines, or business interruption after breakdown."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.pressure_vessels",
+     "text": "Does the plant include boilers, pressure vessels or turbines?",
+     "type": "yes/no",
+     "used_by": "A, E"
+    },
+    {
+     "id": "qs.isr.bi.breakdown_bi_requested",
+     "text": "Has the broker asked for business interruption following machinery breakdown?",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.elec",
+   "heading": "ELEC Electronic Equipment Breakdown",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'ELEC' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for electronic equipment breakdown."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.fusn",
+   "heading": "FUSN Fusion",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.refrigeration_or_pumping"
+    ],
+    "rules": [
+     {
+      "when": "'FUSN' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.refrigeration_or_pumping == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because the business relies on refrigeration or pumping motors."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.refrigeration_or_pumping",
+     "text": "Does the business rely on refrigeration or pumping motors?",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.dtst",
+   "heading": "DTST Deterioration of Stock",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.temperature_controlled_stock"
+    ],
+    "rules": [
+     {
+      "when": "'DTST' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.temperature_controlled_stock == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because the business keeps temperature-controlled stock."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.temperature_controlled_stock",
+     "text": "Is stock kept in a temperature-controlled environment?",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.terr",
+   "heading": "TERR Terrorism",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the base wording does not deal with the Terrorism and Cyclone Insurance Act 2003 in the Meridian way."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.cybx",
+   "heading": "CYBX Cyber Exclusion and Physical Damage Write-back",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording",
+     "qs.isr.binder.lloyds"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.binder.lloyds == yes",
+      "action": "apply"
+     },
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the capacity provider requires cyber to be dealt with expressly."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    },
+    {
+     "id": "qs.isr.binder.lloyds",
+     "text": "Is any capacity on the policy provided by Lloyd's? (derived from the placement)",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.data",
+   "heading": "DATA Data and Software Reinstatement",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'DATA' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option to raise the data restoration limit."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.sanc",
+   "heading": "SANC Sanctions Limitation",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the base wording's sanctions clause differs from the library-wide clause."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.comx",
+   "heading": "COMX Communicable Disease Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the base wording has no communicable disease exclusion that does not depend on a named Act."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.asbs",
+   "heading": "ASBS Asbestos",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.situation_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.situation_count >= 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies to every policy; the asbestos debris sub-limit default rises where a building pre-dates 1990."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.situation_count",
+     "text": "How many Situations (insured locations) are on the policy?",
+     "type": "number",
+     "used_by": "R, A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.panl",
+   "heading": "PANL Combustible Core Panels",
+   "trigger": {
+    "questions": [
+     "qs.isr.risk.combustible_panel_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.combustible_panel_pct > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because a building has combustible core panels."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.risk.combustible_panel_pct",
+     "text": "What is the highest percentage of combustible core panels in the walls, ceilings or roof of any building? (from the survey or proposal)",
+     "type": "percentage",
+     "used_by": "R, A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.surv",
+   "heading": "SURV Survey Requirements",
+   "trigger": {
+    "questions": [
+     "qs.isr.risk.open_survey_requirements"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.open_survey_requirements == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because a survey has set risk improvement requirements."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.risk.open_survey_requirements",
+     "text": "Are there open risk improvement requirements from a survey?",
+     "type": "yes/no",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.fire",
+   "heading": "FIRE Fire Protection Impairment",
+   "trigger": {
+    "questions": [
+     "qs.isr.risk.sprinkler_credit"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.sprinkler_credit == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the premium includes a credit for sprinklers or fire detection."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.risk.sprinkler_credit",
+     "text": "Is a sprinkler or fire detection credit applied in rating any Situation?",
+     "type": "yes/no",
+     "used_by": "R, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.hotw",
+   "heading": "HOTW Hot Work",
+   "trigger": {
+    "questions": [
+     "qs.isr.risk.combustible_panel_pct",
+     "qs.isr.risk.works_contract_value",
+     "qs.isr.risk.anzsic_division"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.combustible_panel_pct > 0",
+      "action": "apply"
+     },
+     {
+      "when": "qs.isr.risk.works_contract_value > 0",
+      "action": "apply"
+     },
+     {
+      "when": "qs.isr.risk.anzsic_division in ['C', 'I']",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Applies because building works are planned or a building has combustible core panels; suggested for manufacturing and warehousing."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.risk.combustible_panel_pct",
+     "text": "What is the highest percentage of combustible core panels in the walls, ceilings or roof of any building? (from the survey or proposal)",
+     "type": "percentage",
+     "used_by": "R, A, E"
+    },
+    {
+     "id": "qs.isr.risk.works_contract_value",
+     "text": "What is the total contract value of building works planned or under way at the Situations?",
+     "type": "currency",
+     "used_by": "A, E"
+    },
+    {
+     "id": "qs.isr.risk.anzsic_division",
+     "text": "What is the ANZSIC division of the main business activity? (from the Exposure Engine)",
+     "type": "select",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+     ],
+     "used_by": "R, A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.lion",
+   "heading": "LION Lithium-ion Batteries and Energy Storage",
+   "trigger": {
+    "questions": [
+     "qs.isr.risk.lithium"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.lithium == 'storage_system_over_threshold'",
+      "action": "refer"
+     },
+     {
+      "when": "qs.isr.risk.lithium == 'charging_or_storage'",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because lithium-ion batteries are charged or stored at a Situation."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.risk.lithium",
+     "text": "Are lithium-ion batteries charged or stored at any Situation?",
+     "type": "select",
+     "options": [
+      "none",
+      "charging_or_storage",
+      "storage_system_over_threshold"
+     ],
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.vacn",
+   "heading": "VACN Unoccupied Buildings",
+   "trigger": {
+    "questions": [
+     "qs.isr.risk.vacant_building"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.risk.vacant_building == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because a building is vacant or partly vacant."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.risk.vacant_building",
+     "text": "Is any building at a Situation vacant or partly vacant?",
+     "type": "yes/no",
+     "used_by": "A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.secu",
+   "heading": "SECU Security and Intruder Alarm",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.cover.theft_sublimit_over_threshold"
+    ],
+    "rules": [
+     {
+      "when": "'THFT' in qs.isr.cover.options_requested and qs.isr.cover.theft_sublimit_over_threshold == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because full theft cover is taken with a theft sub-limit above the agency's threshold."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.cover.theft_sublimit_over_threshold",
+     "text": "Is the requested theft sub-limit above the agency's threshold? (derived)",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.biip",
+   "heading": "BIIP Indemnity Periods by Situation and Item",
+   "trigger": {
+    "questions": [
+     "qs.isr.bi.indemnity_periods_differ"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.bi.indemnity_periods_differ == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because indemnity periods differ between Situations or items."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.bi.indemnity_periods_differ",
+     "text": "Do the indemnity periods differ between Situations or items?",
+     "type": "yes/no",
+     "used_by": "S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.txsd",
+   "heading": "TXSD Time Excess (Deducted)",
+   "trigger": {
+    "questions": [
+     "qs.isr.bi.time_excess_basis"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.bi.time_excess_basis == 'deducted'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the agency deducts the time excess rather than using a threshold."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.bi.time_excess_basis",
+     "text": "Does the agency use a threshold waiting period or a deducted time excess? (agency setting)",
+     "type": "select",
+     "options": [
+      "threshold",
+      "deducted"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.aicw",
+   "heading": "AICW Additional Increased Cost of Working: Separate Limit",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording",
+     "qs.isr.bi.insured"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian' and qs.isr.bi.insured == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the base wording does not give additional increased cost of working its own limit."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    },
+    {
+     "id": "qs.isr.bi.insured",
+     "text": "Is business interruption to be insured?",
+     "type": "yes/no",
+     "used_by": "R, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.accs",
+   "heading": "ACCS Prevention of Access",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.bi.evacuation_option_high_hazard"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.bi.evacuation_option_high_hazard == yes",
+      "action": "refer"
+     },
+     {
+      "when": "'ACCS' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for prevention of access, including non-damage cover."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.bi.evacuation_option_high_hazard",
+     "text": "Is the evacuation order option asked for at a Situation in a high bushfire or flood zone? (derived)",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.util",
+   "heading": "UTIL Public Utilities: Extended",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.bi.utilities_any_cause"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.bi.utilities_any_cause == yes",
+      "action": "refer"
+     },
+     {
+      "when": "'UTIL' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option to extend public utilities cover."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.bi.utilities_any_cause",
+     "text": "Has the broker asked for public utilities cover for failure from any accidental cause?",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.supc",
+   "heading": "SUPC Suppliers and Customers",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.bi.named_dependency_overseas"
+    ],
+    "rules": [
+     {
+      "when": "'SUPC' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "restrictions": [
+     {
+      "when": "qs.isr.bi.named_dependency_overseas == yes",
+      "action": "refer",
+      "note": "A named supplier or customer is outside Australia and cannot be assessed from the Situation data."
+     }
+    ],
+    "reason": "Offered as an option for named suppliers and customers."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.bi.named_dependency_overseas",
+     "text": "Is any named supplier or customer outside Australia?",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.intd",
+   "heading": "INTD Interdependency between Situations",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.situation_count",
+     "qs.isr.bi.insured"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.situation_count > 1 and qs.isr.bi.insured == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because business interruption is insured at more than one Situation."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.situation_count",
+     "text": "How many Situations (insured locations) are on the policy?",
+     "type": "number",
+     "used_by": "R, A, S, E"
+    },
+    {
+     "id": "qs.isr.bi.insured",
+     "text": "Is business interruption to be insured?",
+     "type": "yes/no",
+     "used_by": "R, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.incd",
+   "heading": "INCD Incidents at the Premises",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.anzsic_division"
+    ],
+    "rules": [
+     {
+      "when": "'INCD' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.anzsic_division in ['H', 'P', 'Q']",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested for hospitality, education and health care businesses."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.anzsic_division",
+     "text": "What is the ANZSIC division of the main business activity? (from the Exposure Engine)",
+     "type": "select",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+     ],
+     "used_by": "R, A, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.comb",
+   "heading": "COMB Communicable Disease Buy-back",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'COMB' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for a limited communicable disease buy-back."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.attr",
+   "heading": "ATTR Loss of Attraction",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.in_shopping_centre"
+    ],
+    "rules": [
+     {
+      "when": "'ATTR' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.in_shopping_centre == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because a Situation is in a shopping centre."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.in_shopping_centre",
+     "text": "Is any Situation in a shopping centre?",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.accr",
+   "heading": "ACCR Accounts Receivable",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'ACCR' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as an option for accounts receivable."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.coin",
+   "heading": "COIN Coinsurance: Several Liability and Participations",
+   "trigger": {
+    "questions": [
+     "qs.isr.placement.participant_count"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.placement.participant_count > 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because more than one insurer subscribes to the policy."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.placement.participant_count",
+     "text": "How many insurers subscribe to the policy? (derived from the placement)",
+     "type": "number",
+     "used_by": "S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.lead",
+   "heading": "LEAD Leading Insurer",
+   "trigger": {
+    "questions": [
+     "qs.isr.placement.participant_count",
+     "qs.isr.placement.lead_named"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.placement.participant_count > 1 and qs.isr.placement.lead_named == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because more than one insurer subscribes and a leading insurer is named."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.placement.participant_count",
+     "text": "How many insurers subscribe to the policy? (derived from the placement)",
+     "type": "number",
+     "used_by": "S, E"
+    },
+    {
+     "id": "qs.isr.placement.lead_named",
+     "text": "Is a leading insurer named? (derived from the placement)",
+     "type": "yes/no",
+     "used_by": "S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.layr",
+   "heading": "LAYR Primary and Excess Layers",
+   "trigger": {
+    "questions": [
+     "qs.isr.placement.layered"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.placement.layered == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the policy is written as a layer in a programme."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.placement.layered",
+     "text": "Is the policy written as one of several layers? (derived from the placement)",
+     "type": "yes/no",
+     "used_by": "S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.ltag",
+   "heading": "LTAG Long-Term Agreement",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested"
+    ],
+    "rules": [
+     {
+      "when": "'LTAG' in qs.isr.cover.options_requested",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the broker asked for a long-term agreement."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.stkd",
+   "heading": "STKD Stock Declaration and Premium Adjustment",
+   "trigger": {
+    "questions": [
+     "qs.isr.cover.options_requested",
+     "qs.isr.risk.seasonal_stock"
+    ],
+    "rules": [
+     {
+      "when": "'STKD' in qs.isr.cover.options_requested",
+      "action": "broker_option"
+     },
+     {
+      "when": "qs.isr.risk.seasonal_stock == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested because stock levels are seasonal."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.cover.options_requested",
+     "text": "Which optional endorsements has the broker asked for?",
+     "type": "multi-select",
+     "options": [
+      "NOAV",
+      "ESCL",
+      "STSP",
+      "MTCH",
+      "GRNB",
+      "RDBR",
+      "XCOR",
+      "PROF",
+      "EXPD",
+      "TRNS",
+      "MONY",
+      "GLAS",
+      "CUST",
+      "GPAU",
+      "THFT",
+      "MBRK",
+      "ELEC",
+      "FUSN",
+      "DTST",
+      "DATA",
+      "ACCS",
+      "UTIL",
+      "SUPC",
+      "INCD",
+      "COMB",
+      "ATTR",
+      "ACCR",
+      "LTAG",
+      "STKD"
+     ],
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.risk.seasonal_stock",
+     "text": "Do stock levels vary materially by season?",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.lawj",
+   "heading": "LAWJ Governing Law and Jurisdiction",
+   "trigger": {
+    "questions": [
+     "qs.isr.policy.base_wording"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.policy.base_wording != 'meridian'",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the base wording ties governing law to something that can change."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.policy.base_wording",
+     "text": "Which policy wording is the industrial special risks policy written on?",
+     "type": "select",
+     "options": [
+      "meridian",
+      "mark4_advisory",
+      "mark4_modified",
+      "mark5_advisory",
+      "mark5_modified",
+      "broker_form"
+     ],
+     "used_by": "A, S, E"
+    }
+   ]
+  },
+  {
+   "id": "isr.end.ssut",
+   "heading": "SSUT Service of Suit",
+   "trigger": {
+    "questions": [
+     "qs.isr.placement.apra_authorised",
+     "qs.isr.placement.binder_jurisdiction_clause"
+    ],
+    "rules": [
+     {
+      "when": "qs.isr.placement.apra_authorised == no and qs.isr.placement.binder_jurisdiction_clause == no",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the capacity is not APRA-authorised and the binder supplies no jurisdiction clause."
+   },
+   "questions": [
+    {
+     "id": "qs.isr.placement.apra_authorised",
+     "text": "Is all capacity provided by APRA-authorised insurers? (derived from the placement)",
+     "type": "yes/no",
+     "used_by": "E"
+    },
+    {
+     "id": "qs.isr.placement.binder_jurisdiction_clause",
+     "text": "Does the binder supply its own service of suit or jurisdiction clause? (derived from the binder)",
+     "type": "yes/no",
+     "used_by": "E"
+    }
+   ]
+  }
+ ],
+ "sha256": "471630aa50b7eb5915e5c14f1801b14806297557ec3389de1e84ea1d5650070e"
+}
