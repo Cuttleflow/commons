@@ -1,0 +1,55 @@
+id: gtr-sbt
+title: Small Business Travel Insurance
+class: SMALL BUSINESS TRAVEL INSURANCE
+kicker: Meridian Commons · Small Business Travel
+slug: small-business-travel
+file_stem: Meridian_Small_Business_Travel
+doc_ref: 2026/SBT/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Annual business and leisure travel cover for small businesses with up to 20 named travellers, priced per traveller
+  with no trip declarations, built on the Meridian Corporate Travel base wording.
+base: gtr-base@1.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated small business travel wording
+overrides:
+- op: replace
+  target: gtr.about
+  with: gtr.sbt.about
+- op: replace
+  target: gtr.schedule
+  with: gtr.sbt.schedule
+- op: replace
+  target: gtr.endorsement-library
+  with: gtr.sbt.endorsement-library
+- op: replace
+  target: gtr.important-information
+  with: gtr.sbt.important-information
+- op: delete
+  target: gtr.end.e02
+- op: delete
+  target: gtr.end.e06
+- op: delete
+  target: gtr.end.e09
+- op: replace
+  target: gtr.cover.who-is-covered
+  with: gtr.sbt.cover.who-is-covered
+- op: replace
+  target: gtr.cover.trip
+  with: gtr.sbt.cover.trip
+- op: replace
+  target: gtr.def.trip
+  with: gtr.sbt.def.trip
+- op: add
+  clause: gtr.sbt.def.named-traveller
+  after: gtr.def.money
+- op: replace
+  target: gtr.obl.declarations
+  with: gtr.sbt.obl.declarations
+- op: add
+  clause: gtr.xl.end.e11
+  after: gtr.end.e10
+- op: add
+  clause: gtr.sbt.end.e12
+  after: gtr.xl.end.e11

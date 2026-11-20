@@ -1,0 +1,683 @@
+{
+ "wording": "pa-lol",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/LOL/0001",
+ "base": "pa-base@1.1.0-DRAFT",
+ "clauses": [
+  {
+   "id": "pa.lol.about",
+   "heading": "About This Policy",
+   "sha256": "6124442326ba1d34dd4cec82611cf5f3bfb1b76f1b9f22ff2b0f838fbb8e3a0e"
+  },
+  {
+   "id": "pa.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "pa.lol.important-information",
+   "heading": "Important Information",
+   "sha256": "37ef82954b760bd24e2e99f805e2ffd5f0310e3119eed4cd9f108bb7bbd42151"
+  },
+  {
+   "id": "pa.lol.schedule",
+   "heading": "Schedule",
+   "sha256": "f573438be0b7de8dd2134455cd7e7d94c6eb39004580dccfd84b66da7fa677db"
+  },
+  {
+   "id": "pa.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "pa.def.accident",
+   "heading": "Accident",
+   "sha256": "6afa6d6524f3c7c194846530fda67b76fe4b93d3096b5a99380111c7287edeb0"
+  },
+  {
+   "id": "pa.lol.def.benefit-period",
+   "heading": "Benefit Period",
+   "sha256": "e414ca012c086191ebd0f0dfc48f895b7f167b5fc5992879c6b9eac6d909533d"
+  },
+  {
+   "id": "pa.lol.def.capital-sum",
+   "heading": "Capital Sum",
+   "sha256": "8f3df242c472c3bede2f6d5f60a93aa8dcf75a9ea14f7509cf267a4ea8ccdd0a"
+  },
+  {
+   "id": "pa.lol.def.casa",
+   "heading": "CASA",
+   "sha256": "dc00439c570d9e723692ae71c4d420cf1412a537612dded5cf194b7d3e0a3eec"
+  },
+  {
+   "id": "pa.lol.def.class-1-medical-certificate",
+   "heading": "Class 1 Medical Certificate",
+   "sha256": "147da7ce3a1c28bd95ef659def6d82d96a75fe362f898f869c328cb106b9e36c"
+  },
+  {
+   "id": "pa.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "6d0349e7331e26591f38fcd00a2a2feaa9db9f8876e930552962bd7ee6e65aac"
+  },
+  {
+   "id": "pa.def.hazardous-pursuit",
+   "heading": "Hazardous Pursuit",
+   "sha256": "9b1ea2c98f854a0851410b32046cbf61063e41590eb68278b0b2c96666f19eaf"
+  },
+  {
+   "id": "pa.def.injury",
+   "heading": "Injury",
+   "sha256": "5a5b915911dfe04874d7c83cf9ea88ea130e3bd20ada1dc700dbd9641d28837a"
+  },
+  {
+   "id": "pa.lol.def.insured-person",
+   "heading": "Insured Person",
+   "sha256": "d7e0fa45271d8b2b95bdf8f31caf4a30311512c6f528c8926304c4be2613b7d4"
+  },
+  {
+   "id": "pa.lol.def.licence",
+   "heading": "Licence",
+   "sha256": "091b0724c3f2131f48fadbe88809e0eabc97201e6ebb0123cc7b07c85d02bca2"
+  },
+  {
+   "id": "pa.def.medical-practitioner",
+   "heading": "Medical Practitioner",
+   "sha256": "012b91cebe353312cdd1c4bc3f5086f9212c914b06c8e38f1588920d8b5057ca"
+  },
+  {
+   "id": "pa.lol.def.monthly-benefit",
+   "heading": "Monthly Benefit",
+   "sha256": "232df15959ba499becbaf316fa84f5de44a5f5af77c755b9a90076e6ec52f6e7"
+  },
+  {
+   "id": "pa.lol.def.permanent-loss-of-licence",
+   "heading": "Permanent Loss of Licence",
+   "sha256": "7a57f5977f0e892944eada6f4091bcb9854848f03679518c52c9dc1eb08cc708"
+  },
+  {
+   "id": "pa.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "63e7fdd289a56246cd031104e1f190f7864255d2706e9160682d26c69ae4daaf"
+  },
+  {
+   "id": "pa.def.pre-existing-condition",
+   "heading": "Pre-existing Condition",
+   "sha256": "321f9fe294b220f5fd053a23f976a9c24ed47a444fee2131e1ae04776a2d073e"
+  },
+  {
+   "id": "pa.def.sickness",
+   "heading": "Sickness",
+   "sha256": "f8e78c405621898f9a4e4b68237aa42872be22f31bb7913089a78058fde76d90"
+  },
+  {
+   "id": "pa.lol.def.temporary-loss-of-licence",
+   "heading": "Temporary Loss of Licence",
+   "sha256": "3f369dee573737b8f1e8c7129794c431875fc197cdf1bf1542bc4a1502a9ece9"
+  },
+  {
+   "id": "pa.lol.def.waiting-period",
+   "heading": "Waiting Period",
+   "sha256": "4f837224dd5aa6351f1b9f9560c32e531f4d09810a77ea1fcec5adff564da821"
+  },
+  {
+   "id": "pa.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "pa.def.you-your",
+   "heading": "You, Your",
+   "sha256": "ac1e6172151ae240a459d697a31d16b3bb09bfa6eea4ee921c2ace6b273332ec"
+  },
+  {
+   "id": "pa.section.cover",
+   "heading": "What Is Covered",
+   "sha256": "2f1ea065da18243b22381bfcff5917c8637ad0cd169cfdeb7042ca981681b35e"
+  },
+  {
+   "id": "pa.lol.cover.permanent",
+   "heading": "Permanent Loss of Licence",
+   "sha256": "08014501ad07df9d7397c7c28a039ca0364041633a9eaacd38846566b7b7f53f"
+  },
+  {
+   "id": "pa.lol.cover.temporary",
+   "heading": "Temporary Loss of Licence",
+   "sha256": "92471a0374eff95df32ef854199d72e331c6a43263e8356bfc86bb82ecf3098c"
+  },
+  {
+   "id": "pa.section.payment",
+   "heading": "How We Pay Benefits",
+   "sha256": "87377e61cf0d3336a84fb9f3853d2bebc416605f5ba126481d3d1ebcc037bc48"
+  },
+  {
+   "id": "pa.lol.pay.recurrence",
+   "heading": "Recurrence",
+   "sha256": "c221b1408de67c4c16898c632f86fb42b7fe1922a334f7c8feb136e614ca6211"
+  },
+  {
+   "id": "pa.lol.pay.monthly-and-lump-sum",
+   "heading": "Monthly Benefit and Capital Sum",
+   "sha256": "8e023df267e822fed576b1cb5f70ce60957de6cf5edbeb265bdcd94272ff1ce7"
+  },
+  {
+   "id": "pa.lol.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "4544ca163748eb3407374d00eeb681fddaf5a77b2402735336d85b9684197bb8"
+  },
+  {
+   "id": "pa.lol.pay.age-limits",
+   "heading": "Age Limits",
+   "sha256": "fe989e76495c991246dc8267550f6d739afa568f53d752c10e8597990333c49b"
+  },
+  {
+   "id": "pa.lol.obl.residence-and-travel",
+   "heading": "Where You Are Covered",
+   "sha256": "ff087ee3505a18caf5a7c5a97602c9d28e508a786dda1da6374b9bd820581461"
+  },
+  {
+   "id": "pa.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "19546bf15e41b4a42597d0dd5b3a90f09322902df233f1554dc597cb9f210e11"
+  },
+  {
+   "id": "pa.section.exclusions",
+   "heading": "What Is Not Covered",
+   "sha256": "030fcefdab560193990bad4bf7716ec2e7ebde7f975e797128d4cfb68e419899"
+  },
+  {
+   "id": "pa.excl.intentional-self-injury",
+   "heading": "Intentional Self-Injury",
+   "sha256": "38ae104121cc7b43566a255bad97c06a7d7e3dc99073797cdd3876aeb5b33cc6"
+  },
+  {
+   "id": "pa.excl.war",
+   "heading": "War",
+   "sha256": "2abb6dad9c1822536e9c24808dc0876183ae1ec5f44e9bfd4b8476d48c729c83"
+  },
+  {
+   "id": "pa.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "4ce00837ae2c43f57fe8adbc09252db6fd11fa502738c396a58d40b6ba4e91b9"
+  },
+  {
+   "id": "pa.lol.excl.intoxication",
+   "heading": "Alcohol and Drugs",
+   "sha256": "0f89ba0dee8fea04e0d47146e4ee71b77f89262b8b526487d99bf72aee0710c1"
+  },
+  {
+   "id": "pa.excl.criminal-acts",
+   "heading": "Criminal and Malicious Acts",
+   "sha256": "c9d2d98ae18d9512e725691dd04df0b100a00ef0d43831ee17996dc5de821f53"
+  },
+  {
+   "id": "pa.excl.professional-sport",
+   "heading": "Professional Sport",
+   "sha256": "e59bb9ed973575ab91e8cc9b8492e10731a4cf9b8efa903ed16a538bee2b6ed6"
+  },
+  {
+   "id": "pa.excl.hazardous-pursuits",
+   "heading": "Hazardous Pursuits",
+   "sha256": "0d2e5dfa09a6c4291736ad62b0462bdacd94e1eb1b961ca23e053fcefe311879"
+  },
+  {
+   "id": "pa.excl.military-service",
+   "heading": "Military Service",
+   "sha256": "95159ce6407d7826b68876d21be476d473ad3ec0f29345069f3d1d40978b0bed"
+  },
+  {
+   "id": "pa.lol.excl.pre-existing-conditions",
+   "heading": "Pre-existing Conditions",
+   "sha256": "96f4894acfb0e63f220e867513d6916b0b3fa77135eb4b303cfe6d8879741471"
+  },
+  {
+   "id": "pa.lol.excl.licence-actions",
+   "heading": "Loss of Licence for Other Reasons",
+   "sha256": "5134d27c9ac32d304e88261b6944accf6576085f13f7e14905886e0c62b5cf28"
+  },
+  {
+   "id": "pa.lol.excl.initial-sickness-period",
+   "heading": "Initial Period",
+   "sha256": "b4b3720a8038184f2567754f3cec33b7e9f00f0a58bb00107d022cd3aee8c4f4"
+  },
+  {
+   "id": "pa.lol.excl.pregnancy",
+   "heading": "Pregnancy",
+   "sha256": "81b8a0d7292ed497812e559b4f1557d49bdc1b214406ae52c7d8ea8ff512741a"
+  },
+  {
+   "id": "pa.excl.elective-treatment",
+   "heading": "Elective Treatment",
+   "sha256": "4b125905c5c97037744d894317bde61950cb2c84f9c98838b4775d35779b478f"
+  },
+  {
+   "id": "pa.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "180ca1b60a2fff2b6d483557be995cc0d86ee21d11c260dd1ddff5e08d6c3d50"
+  },
+  {
+   "id": "pa.lol.obl.tell-us-about-claims",
+   "heading": "Telling Us About a Claim",
+   "sha256": "57076fb33da925ec67cae663506c5297cf54de9ca807f321f4bc24ed3aaafdb1"
+  },
+  {
+   "id": "pa.obl.medical-care-and-examination",
+   "heading": "Medical Care and Examination",
+   "sha256": "9a9fa7bec770c8bd823331a1fbdf064325eb220a664eb6628e32311670ba81ef"
+  },
+  {
+   "id": "pa.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "5dbffadb16321f342100fd2fa1f328e0da7cbfb0c9ce60950298725453d92aad"
+  },
+  {
+   "id": "pa.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "70aba18788e072c492336ac0391bc0756b32843518a0e205bd246471596ddd7d"
+  },
+  {
+   "id": "pa.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "032dedbd83da76117150fc5086e2779ca9a8ad11ef68061af256011fb01568c0"
+  },
+  {
+   "id": "pa.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "796b6889a57980e11727d0f069dbdc07b99dae3dcc04524d856e3e12047d4c87"
+  },
+  {
+   "id": "pa.lol.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "2baabaccee957721dcc94997e848ae4694c950010f99913ca62e6ee0e44342d7"
+  },
+  {
+   "id": "pa.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "93420dcd87f8ad9ccc3a5d0f534ad54b5a759720fbf955a5249eb6fd6c3aedf1"
+  },
+  {
+   "id": "pa.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "296db7ded4e0c1968a0a8e01cffb75c6352fca9165fd0e88dadb4e1b2baf63f8"
+  },
+  {
+   "id": "pa.cond.gst",
+   "heading": "GST",
+   "sha256": "370d7874b7334850c994dbb24222357dfc2451df940758aa5008baf5009175e8"
+  },
+  {
+   "id": "pa.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "68841fb20adbc531d540bbf18c48bfa3d24231cc9191a584e359a29eb6cc44b2"
+  },
+  {
+   "id": "pa.cond.disputes-and-complaints",
+   "heading": "Complaints and Disputes",
+   "sha256": "b4a25831e16107a5229a15e8707cb5a0339748a65c3601d4dcfda3c5adcd7cd9"
+  },
+  {
+   "id": "pa.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "9f47660e5b56afe29a5ecc03ed0e1c8655161dd0279caad3cb9d09733e0476f6"
+  },
+  {
+   "id": "pa.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "pa.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "pa.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "07910c2489bc8527b96d35de0d3fc8ac0c020069d724b57a12b9e9f8b7fc4889"
+  },
+  {
+   "id": "pa.lol.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "bdc198b2cd712a7cbd013c4637c9d1f71f6de8a171f71e7483aef45b14974be2"
+  },
+  {
+   "id": "pa.lol.end.e05",
+   "heading": "E05 Named Hazardous Pursuit",
+   "sha256": "87d63edf9a950c2235115da35dacb8e1929411dad2163d4be0370d9924de2899"
+  },
+  {
+   "id": "pa.end.e06",
+   "heading": "E06 Named Pursuit Exclusion",
+   "sha256": "1df6c936d72ac52570b49843e51e624de293b2ed4add130c4dce7068171504e9"
+  },
+  {
+   "id": "pa.end.e07",
+   "heading": "E07 Specific Condition Exclusion",
+   "sha256": "32e9bd4890f0dd088002781ef7765c6c442a413b9d9d0f26b3b3329bc3e7c80c"
+  },
+  {
+   "id": "pa.end.e08",
+   "heading": "E08 Accepted Pre-existing Condition",
+   "sha256": "3ca64422d2b1ff28696c62263e5609368ca58e7b1de5ef92fd02ff78405b6f11"
+  },
+  {
+   "id": "pa.end.e13",
+   "heading": "E13 Lloyd's Underwriters",
+   "sha256": "c6709f954d528fcc45b43f05577ac97e8b3e90f795fd948ef43c74ba40d3c6df"
+  },
+  {
+   "id": "pa.lol.end.e15",
+   "heading": "E15 Trauma Benefit",
+   "sha256": "1758e150bafcc1eb6d12db6b016301ced0f02ccb1d13cf82f215f3b30b247ec7"
+  },
+  {
+   "id": "pa.lol.end.e16",
+   "heading": "E16 Foreign Licence Trigger",
+   "sha256": "1e1aa73f0d1347b1b9ff352c8dde7302c8a040a73e404f60c23eafaf5ab92db5"
+  },
+  {
+   "id": "pa.lol.end.e17",
+   "heading": "E17 Cabin Crew Fitness to Fly",
+   "sha256": "0bd0b692044ad90eb17cca47e37fc2142fb0438b02a5f5080f67aab0a8ed41e6"
+  },
+  {
+   "id": "pa.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "pa.lol.end.e05",
+   "heading": "E05 Named Hazardous Pursuit",
+   "trigger": {
+    "questions": [
+     "qs.pa.hazard.scuba_over_30m",
+     "qs.pa.hazard.air_sports",
+     "qs.pa.hazard.motor_racing",
+     "qs.pa.hazard.mountaineering"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.hazard.scuba_over_30m == yes or qs.pa.hazard.air_sports == yes or qs.pa.hazard.motor_racing == yes or qs.pa.hazard.mountaineering == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because the insured person takes part in a pursuit the wording excludes.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.hazard.scuba_over_30m",
+     "text": "Does the insured person scuba dive below 30 metres?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.pa.hazard.air_sports",
+     "text": "Does the insured person take part in parachuting, skydiving, hang-gliding, paragliding, BASE jumping or ballooning?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.pa.hazard.motor_racing",
+     "text": "Does the insured person take part in races, rallies or speed trials in any motor vehicle or on a motorcycle?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    },
+    {
+     "id": "qs.pa.hazard.mountaineering",
+     "text": "Does the insured person climb mountains above 4,000 metres, or take part in rodeo, bull riding or horse racing?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e06",
+   "heading": "E06 Named Pursuit Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.pa.hazard.motorcycle_offroad",
+     "qs.pa.hazard.climbing",
+     "qs.pa.hazard.contact_sports",
+     "qs.pa.hazard.equestrian"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.hazard.motorcycle_offroad == yes or qs.pa.hazard.climbing == yes or qs.pa.hazard.contact_sports == yes or qs.pa.hazard.equestrian == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested as an alternative to a premium loading for a pursuit the insured person takes part in.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.hazard.motorcycle_offroad",
+     "text": "Does the insured person ride a motorcycle off-road, other than in races or speed trials?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    },
+    {
+     "id": "qs.pa.hazard.climbing",
+     "text": "Does the insured person go rock climbing, abseiling or canyoning?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    },
+    {
+     "id": "qs.pa.hazard.contact_sports",
+     "text": "Does the insured person play amateur rugby, rugby league, Australian rules football, ice hockey, or compete in boxing or martial arts?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    },
+    {
+     "id": "qs.pa.hazard.equestrian",
+     "text": "Does the insured person ride horses, other than in races, rodeos or polo?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e07",
+   "heading": "E07 Specific Condition Exclusion",
+   "trigger": {
+    "questions": [
+     "qs.pa.medical.conditions_5yr",
+     "qs.pa.medical.condition_details"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.medical.conditions_5yr == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Offered because the insured person disclosed a medical condition in the last 5 years: {qs.pa.medical.condition_details}.",
+    "responses": [
+     "Attach",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.medical.conditions_5yr",
+     "text": "In the last 5 years, has the insured person had any injury, illness or condition that needed treatment, advice or time off work for more than 2 weeks, including any back, neck, joint, heart, mental health, cancer or diabetic condition?",
+     "type": "yes/no",
+     "used_by": "A, E07, E08"
+    },
+    {
+     "id": "qs.pa.medical.condition_details",
+     "text": "Give details of each condition, the treatment and the dates.",
+     "type": "text",
+     "used_by": "S, E07, E08"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e08",
+   "heading": "E08 Accepted Pre-existing Condition",
+   "trigger": {
+    "questions": [
+     "qs.pa.medical.conditions_5yr",
+     "qs.pa.medical.condition_details"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.medical.conditions_5yr == yes",
+      "action": "suggest"
+     }
+    ],
+    "reason": "Suggested where the underwriter accepts the disclosed condition: {qs.pa.medical.condition_details}.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.medical.conditions_5yr",
+     "text": "In the last 5 years, has the insured person had any injury, illness or condition that needed treatment, advice or time off work for more than 2 weeks, including any back, neck, joint, heart, mental health, cancer or diabetic condition?",
+     "type": "yes/no",
+     "used_by": "A, E07, E08"
+    },
+    {
+     "id": "qs.pa.medical.condition_details",
+     "text": "Give details of each condition, the treatment and the dates.",
+     "type": "text",
+     "used_by": "S, E07, E08"
+    }
+   ]
+  },
+  {
+   "id": "pa.end.e13",
+   "heading": "E13 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.pa.issuer.lloyds"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.issuer.lloyds == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the policy is issued under a Lloyd's binding authority.",
+    "responses": [
+     "Attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.issuer.lloyds",
+     "text": "Is the policy issued under a Lloyd's binding authority? (Set by the issuer, not asked of the proposer.)",
+     "type": "yes/no",
+     "used_by": "E13"
+    }
+   ]
+  },
+  {
+   "id": "pa.lol.end.e15",
+   "heading": "E15 Trauma Benefit",
+   "trigger": {
+    "questions": [
+     "qs.pa.lol.trauma"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.lol.trauma == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applied because the trauma benefit was chosen.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.lol.trauma",
+     "text": "Do you want the trauma benefit?",
+     "type": "yes/no",
+     "used_by": "R, E15"
+    }
+   ]
+  },
+  {
+   "id": "pa.lol.end.e16",
+   "heading": "E16 Foreign Licence Trigger",
+   "trigger": {
+    "questions": [
+     "qs.pa.lol.foreign_licence"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.lol.foreign_licence == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the pilot flies on a licence issued outside Australia.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.lol.foreign_licence",
+     "text": "Do you fly on a licence issued outside Australia?",
+     "type": "yes/no",
+     "used_by": "A, E16"
+    }
+   ]
+  },
+  {
+   "id": "pa.lol.end.e17",
+   "heading": "E17 Cabin Crew Fitness to Fly",
+   "trigger": {
+    "questions": [
+     "qs.pa.lol.licence_type"
+    ],
+    "rules": [
+     {
+      "when": "qs.pa.lol.licence_type == cabin_crew",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because cabin crew fitness to fly cover needs an underwriter's terms.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.pa.lol.licence_type",
+     "text": "Which licence do you hold?",
+     "type": "select",
+     "options": [
+      "atpl",
+      "cpl",
+      "rotary",
+      "cabin_crew"
+     ],
+     "used_by": "R, A, S, E17"
+    }
+   ]
+  }
+ ],
+ "sha256": "d7ebf37092449b9362c088bf7bc8007e222e9f1282dae8926243717999be9d73"
+}

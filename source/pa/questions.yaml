@@ -198,3 +198,58 @@ questions:
     text: Is the policy issued under a Lloyd's binding authority? (Set by the issuer, not asked of the proposer.)
     type: yes/no
     used_by: E13
+  - id: qs.pa.lol.licence_type
+    text: "Which licence do you hold?"
+    type: select
+    options: ["atpl", "cpl", "rotary", "cabin_crew"]
+    used_by: R, A, S, E17
+  - id: qs.pa.lol.operator
+    text: "Which airline or operator do you fly for?"
+    type: text
+    used_by: S
+  - id: qs.pa.lol.class1_current
+    text: "Do you hold a current Class 1 medical certificate?"
+    type: yes/no
+    used_by: A
+  - id: qs.pa.lol.sum_insured
+    text: "What lump sum do you want for permanent loss of licence?"
+    type: number (AUD)
+    used_by: R, A, S
+  - id: qs.pa.lol.temporary_benefit
+    text: "Do you want a monthly benefit for temporary loss of licence?"
+    type: yes/no
+    used_by: R, S
+  - id: qs.pa.lol.monthly_benefit
+    text: "What monthly benefit do you want?"
+    type: select (AUD)
+    options: ["5000", "7500", "10000", "12500", "15000"]
+    used_by: R, S
+  - id: qs.pa.lol.benefit_period
+    text: "For how long should the monthly benefit be paid?"
+    type: select (months)
+    options: ["12", "24"]
+    used_by: S
+  - id: qs.pa.lol.casa_conditions
+    text: "Has CASA ever placed a condition on, suspended or refused your medical certificate?"
+    type: yes/no
+    used_by: A
+  - id: qs.pa.lol.mental_health
+    text: "Have you been treated for a mental health condition in the last 5 years?"
+    type: yes/no
+    used_by: A
+  - id: qs.pa.lol.positive_test
+    text: "Have you ever returned a positive result in, or refused, a CASA drug or alcohol test?"
+    type: yes/no
+    used_by: A
+  - id: qs.pa.lol.new_entrant
+    text: "Is this the first loss of licence policy you have held, or has your previous cover lapsed?"
+    type: yes/no
+    used_by: A
+  - id: qs.pa.lol.trauma
+    text: "Do you want the trauma benefit?"
+    type: yes/no
+    used_by: R, E15
+  - id: qs.pa.lol.foreign_licence
+    text: "Do you fly on a licence issued outside Australia?"
+    type: yes/no
+    used_by: A, E16

@@ -1,0 +1,69 @@
+id: trv-inb
+title: Inbound Visitor Travel Insurance
+class: INBOUND VISITOR TRAVEL INSURANCE
+kicker: Meridian Commons · Inbound Visitor Travel
+slug: inbound-visitor-travel
+file_stem: Meridian_Inbound_Visitor_Travel
+doc_ref: 2026/INB/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: 'Travel cover for visitors to Australia who are not eligible for Medicare: medical and hospital costs in Australia,
+  return home and travel benefits, built on the Meridian Travel base wording. Not overseas visitors health cover.'
+base: trv-base@1.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated inbound travel wording
+overrides:
+- op: replace
+  target: trv.about
+  with: trv.inb.about
+- op: replace
+  target: trv.important-information
+  with: trv.inb.important-information
+- op: replace
+  target: trv.schedule
+  with: trv.inb.schedule
+- op: replace
+  target: trv.endorsement-library
+  with: trv.inb.endorsement-library
+- op: delete
+  target: trv.end.e04
+- op: delete
+  target: trv.end.e05
+- op: delete
+  target: trv.end.e06
+- op: delete
+  target: trv.end.e15
+- op: replace
+  target: trv.def.home
+  with: trv.inb.def.home
+- op: add
+  clause: trv.inb.def.home-country
+  after: trv.inb.def.home
+- op: replace
+  target: trv.def.plan
+  with: trv.inb.def.plan
+- op: replace
+  target: trv.cover.who-is-covered
+  with: trv.inb.cover.who-is-covered
+- op: replace
+  target: trv.cover.trip
+  with: trv.inb.cover.trip
+- op: replace
+  target: trv.cover.medical
+  with: trv.inb.cover.medical
+- op: replace
+  target: trv.pay.medicare
+  with: trv.inb.pay.medicare
+- op: replace
+  target: trv.excl.business-travel
+  with: trv.inb.excl.business-travel
+- op: add
+  clause: trv.xl.end.e16
+  after: trv.end.e14
+- op: add
+  clause: trv.inb.end.e17
+  after: trv.xl.end.e16
+- op: add
+  clause: trv.inb.end.e18
+  after: trv.inb.end.e17

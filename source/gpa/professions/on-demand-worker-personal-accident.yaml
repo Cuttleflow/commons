@@ -1,0 +1,85 @@
+id: gpa-gig
+title: On-Demand Worker Personal Accident Insurance
+class: ON-DEMAND WORKER PERSONAL ACCIDENT INSURANCE
+kicker: Meridian Commons · On-Demand Worker Personal Accident
+slug: on-demand-worker-personal-accident
+file_stem: Meridian_On_Demand_Worker_Personal_Accident
+doc_ref: 2026/GIG/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Personal accident cover a delivery or other digital platform buys for the people who work through it, while they
+  are engaged on a job, built on the Meridian Group Personal Accident and Sickness base wording.
+base: gpa-base@1.1.0-DRAFT
+endorsement_form: false
+variant_subtitle: Integrated on-demand worker wording
+overrides:
+- op: replace
+  target: gpa.about
+  with: gpa.gig.about
+- op: replace
+  target: gpa.important-information
+  with: gpa.gig.important-information
+- op: replace
+  target: gpa.schedule
+  with: gpa.gig.schedule
+- op: replace
+  target: gpa.endorsement-library
+  with: gpa.gig.endorsement-library
+- op: delete
+  target: gpa.end.e01
+- op: delete
+  target: gpa.end.e02
+- op: delete
+  target: gpa.end.e03
+- op: delete
+  target: gpa.end.e06
+- op: delete
+  target: gpa.end.e07
+- op: delete
+  target: gpa.end.e10
+- op: delete
+  target: gpa.end.e12
+- op: delete
+  target: gpa.end.e14
+- op: delete
+  target: gpa.end.e15
+- op: replace
+  target: gpa.def.covered-person
+  with: gpa.gig.def.covered-person
+- op: add
+  clause: gpa.gig.def.engaged-time
+  after: gpa.def.endorsement
+- op: replace
+  target: gpa.def.income
+  with: gpa.gig.def.income
+- op: add
+  clause: gpa.gig.def.platform
+  after: gpa.def.permanent-total-disablement
+- op: add
+  clause: gpa.gig.def.platform-work
+  after: gpa.gig.def.platform
+- op: replace
+  target: gpa.def.scope-of-cover
+  with: gpa.gig.def.scope-of-cover
+- op: replace
+  target: gpa.cond.declarations-and-adjustment
+  with: gpa.gig.cond.declarations-and-adjustment
+- op: add
+  clause: gpa.gig.end.e17
+  after: gpa.end.e16
+- op: add
+  clause: gpa.gig.end.e18
+  after: gpa.gig.end.e17
+- op: add
+  clause: gpa.gig.end.e19
+  after: gpa.gig.end.e18
+- op: add
+  clause: gpa.gig.end.e20
+  after: gpa.gig.end.e19
+- op: add
+  clause: gpa.gig.end.e21
+  after: gpa.gig.end.e20
+- op: add
+  clause: gpa.gig.end.e22
+  after: gpa.gig.end.e21
