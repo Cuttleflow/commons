@@ -3,6 +3,7 @@ id: mcg.endorsement-library
 type: library
 heading: Endorsement Library
 since: 1.0.0
+changed: 1.2.0
 status: draft
 ---
 
@@ -20,3 +21,5 @@ An endorsement applies only if its code is shown in the schedule. Each endorseme
 | E08 | Seller's Contingent Interest | Covers your interest in goods sold on terms where the buyer insures |
 | E09 | Storage in Transit | Extends cover to storage beyond 7 days in the course of an inland transit |
 | E10 | High-Risk Areas | Records transits to or from high-risk or sanctioned areas and the terms that apply |
+| E11 | Delay Extra Expense | Pays extra expense caused by delay after insured loss or damage, within limits |
+| E12 | Stock in Storage | Insures your stock at named warehouses and at your premises, within location limits |

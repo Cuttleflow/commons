@@ -84,6 +84,22 @@ questions:
   text: Are goods stored for more than 7 days at any place in the course of an inland transit?
   type: yes/no
   used_by: E09
+- id: qs.mcg.storage.stock_in_storage
+  text: Do you want cover for your stock while it is stored at a third-party warehouse or at your own premises?
+  type: yes/no
+  used_by: R, E12
+- id: qs.mcg.storage.stock_value
+  text: What is the most stock you hold in storage at all locations at any one time?
+  type: currency
+  used_by: R, S
+- id: qs.mcg.storage.locations
+  text: At how many locations do you store stock?
+  type: number
+  used_by: E12, S
+- id: qs.mcg.storage.max_location_value
+  text: What is the most stock you hold at any one location?
+  type: currency
+  used_by: E12, S
 - id: qs.mcg.ops.high_risk_destinations
   text: Do you send or receive goods to or from a country under sanctions or an area listed by the Joint War Committee?
   type: yes/no
@@ -131,6 +147,10 @@ questions:
   - '2500'
   - '5000'
   used_by: R, S
+- id: qs.mcg.cover.delay_extra_expense
+  text: Do you want cover for extra expense caused by delay after insured loss or damage to the goods?
+  type: yes/no
+  used_by: R, E11
 - id: qs.mcg.cover.duty_requested
   text: Do you want to insure import duty and taxes as part of the value of imported goods?
   type: yes/no
