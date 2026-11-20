@@ -3,6 +3,7 @@ id: mcg.schedule
 type: preamble
 heading: Schedule
 since: 1.0.0
+changed: 1.2.0
 status: draft
 ---
 
@@ -17,6 +18,7 @@ The schedule shows:
 - The cover level for the Transit section: (A), (B) or (C)
 - The goods insured, described by kind
 - The limit any one conveyance, and the accumulation limit if it differs from [[ref:mcg.ext.accumulation]]
+- The transit interruption costs limit, if it differs from [[ref:mcg.ext.transit-interruption-costs]]
 - The basis of valuation, where it differs from [[ref:mcg.pay.basis-of-valuation]]
 - The excess, and any special excess shown for an endorsement
 - Whether the premium is adjustable, the adjustment rates and the minimum premium (see [[ref:mcg.pay.premium-adjustment]])

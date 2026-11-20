@@ -3,6 +3,7 @@ id: mcg.cover.inland-transit
 type: cover
 heading: Inland Transit Cover
 since: 1.0.0
+changed: 1.2.0
 status: draft
 ---
 
@@ -34,4 +35,4 @@ For inland transits, we insure the goods at the cover level shown in the schedul
 - the exclusions for unseaworthiness and for war do not apply to inland transits, and loss or damage caused by war is excluded under [[ref:mcg.excl.war-on-land]]; and
 - the exclusion for strikes, riots, civil commotions and terrorism applies, except to the extent that the War and Strikes section covers them.
 
-We also pay the cost of extinguishing a fire, removing debris of the goods, and reloading and forwarding the goods to their destination after an insured event, where the cost is reasonably incurred, up to 10% of the limit any one conveyance in addition to it.
+We also pay the cost of extinguishing a fire and removing debris of the goods after an insured event, where the cost is reasonably incurred, up to 10% of the limit any one conveyance in addition to it. The costs of reloading the goods and forwarding them to their destination are paid under [[ref:mcg.ext.transit-interruption-costs]].
