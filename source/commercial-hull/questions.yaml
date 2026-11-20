@@ -223,8 +223,11 @@ questions:
   text: What protection and indemnity excess do you want?
   type: select
   options:
+  - '1000'
   - '2500'
   - '5000'
+  - '10000'
+  - '25000'
   used_by: R, S
 - id: qs.chl.cover.loss_of_hire
   text: Do you want loss of hire cover?
