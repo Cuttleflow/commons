@@ -5,10 +5,10 @@ kicker: Meridian Commons · Marine Cargo
 slug: marine-cargo
 file_stem: Meridian_Marine_Cargo
 doc_ref: 2026/MC/0001
-version: 1.1.0-DRAFT
+version: 1.2.0-DRAFT
 date: November 2026
 draft: true
-summary: An annual open transit policy for Australian importers, exporters and distributors, built on the Institute Cargo Clauses (A), (B) and (C), with inland transit cover within Australia.
+summary: An annual open transit policy for Australian importers, exporters and distributors, built on the Institute Cargo Clauses (A), (B) and (C), with inland transit cover within Australia, transit interruption costs, and optional delay extra expense and stock in storage.
 supersedes: New wording.
 structure:
 - section: preamble
@@ -50,6 +50,7 @@ structure:
 - section: mcg.section.extensions
   clauses:
   - mcg.ext.accumulation
+  - mcg.ext.transit-interruption-costs
   - mcg.ext.errors-and-omissions
   - mcg.ext.certificates
   - mcg.ext.packing-and-labels
@@ -103,4 +104,6 @@ structure:
   - mcg.end.e08
   - mcg.end.e09
   - mcg.end.e10
+  - mcg.end.e11
+  - mcg.end.e12
   - mcg.licence-notice

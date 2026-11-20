@@ -3,6 +3,7 @@ id: mot.hmv.schedule
 type: preamble
 heading: Schedule
 since: 1.0.0
+changed: 1.1.0
 status: draft
 ---
 
@@ -17,6 +18,7 @@ The Schedule shows:
 - The driver basis: any authorised driver, or the named drivers
 - The third party property damage limit and the sub-limits for supplementary bodily injury and Dangerous goods
 - Whether [[ref:mot.hmv.section.downtime|heading]] applies and, if it does, the weekly downtime benefit for each Powered vehicle it applies to, the waiting period and the maximum period
+- Whether [[ref:mot.hmv.section.substitute-hire|heading]] applies and, if it does, the substitute hire limit and the maximum hire period
 - Whether [[ref:mot.hmv.section.non-owned-trailers|heading]] applies and, if it does, the Non-owned trailer limit
 - The Excesses
 - Sub-limits and other values that differ from the defaults in [[ref:mot.hmv.appendix.default-schedule-values]]
