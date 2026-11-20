@@ -1,0 +1,9 @@
+This is the first release of the Meridian Commercial Hull wording (2026/CHL/0001). It was drafted for the Commons for a Cuttleflow Go template (CHL-AU-GO, PLT-1208), from public sources only. No other insurer's or market body's wording was used. The Institute clauses are named by number and date and are not reproduced.
+
+- Written for Australian domestic commercial vessels operated under the Marine Safety (Domestic Commercial Vessel) National Law, in use categories 1 to 4. A boat owned by individuals for private recreation belongs on the Pleasure Craft wording.
+- Hull and Machinery on the Institute Time Clauses Hulls CL280 1/10/83 with the Institute Additional Perils Clauses and the Machinery Damage Additional Deductible Clause, or on Total Loss Only (CL289), with the Institute War and Strikes Clauses Hulls-Time (CL281), CL370 and CL380.
+- Nine amendments to the Institute clauses: four-fourths collision liability, Australian law and practice, excesses from the schedule, no classification requirement, no percentage reduction for late notice, returns, negligence of repairers and charterers, and warranties read as conditions.
+- Additional benefits for equipment ashore, crew personal effects, fire extinguishing costs and cyclone movement costs.
+- An optional Protection and Indemnity section drafted for the Commons: death and injury including passengers, property damage, excess collision liability, wreck removal, sudden and accidental pollution, and diversion costs, with costs inside the limit and limitation of liability preserved.
+- The Marine Insurance Act 1909 (Cth) governs. Insurance Contracts Act 1984 (Cth) protections given by agreement: utmost good faith binding the insurer, proportionate remedies for non-disclosure, s.54 treatment of acts and omissions, interest on claims, and cancellation only for s.60 reasons.
+- Endorsement library E01 to E17 with Addendum B triggers, and 41 platform questions in the qs.chl namespace.

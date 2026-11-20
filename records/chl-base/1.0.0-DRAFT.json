@@ -1,0 +1,1101 @@
+{
+ "wording": "chl-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/CHL/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "chl.about",
+   "heading": "About This Policy",
+   "sha256": "08bb2ba80f01f1cf5d1d534f3bcd7671d77aa8b648cdf85a7d55c90a56bc8ebb"
+  },
+  {
+   "id": "chl.version-history",
+   "heading": "Version and Document History",
+   "sha256": "0bc07a94ede021da2ae1c55aec5696f0e5a87b6247d963794f88ed09b24d9f22"
+  },
+  {
+   "id": "chl.important-information",
+   "heading": "Important Information",
+   "sha256": "534f75f42b706d502430f2ec3ff007f475affdf54a2c573cd64484cb87f22a43"
+  },
+  {
+   "id": "chl.schedule",
+   "heading": "Schedule",
+   "sha256": "da8dd869c2d60b7004b52af86bb96eb1505c2570c52381061ba97c98942f8f8f"
+  },
+  {
+   "id": "chl.section.definitions",
+   "heading": "Definitions",
+   "sha256": "866011d5681372b6f58c2c747fadcbf876dd63279b863a35831dd52ff3e23596"
+  },
+  {
+   "id": "chl.def.agreed-value",
+   "heading": "Agreed Value",
+   "sha256": "9c925a90069fde8ac87c33eaedfec111761760823615a4dd3d412ab296df9c3c"
+  },
+  {
+   "id": "chl.def.certificate-of-operation",
+   "heading": "Certificate of Operation",
+   "sha256": "d80ff88de6e8462b43513560429c3ab1640fcd6967ad32e63ddf34200bdc0184"
+  },
+  {
+   "id": "chl.def.certificate-of-survey",
+   "heading": "Certificate of Survey",
+   "sha256": "42e64acf340dee96a2b5a1da1d8fd174ff0b550ccf653894b490e1f49074a369"
+  },
+  {
+   "id": "chl.def.crew",
+   "heading": "Crew",
+   "sha256": "b22c7e40c0ce6509cb619d21fd3742abefb708938f0cd38f94710bb0346b6367"
+  },
+  {
+   "id": "chl.def.cyclone-season",
+   "heading": "Cyclone Season",
+   "sha256": "3ec05df3f769e35e33861af5b58fcee39d848bfe00b8b2315f9fd7a509055bfe"
+  },
+  {
+   "id": "chl.def.employee",
+   "heading": "Employee",
+   "sha256": "ce1b0140ac35a2fd60c6454091e523879adbe981b60ae41829d4261f04d2b905"
+  },
+  {
+   "id": "chl.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "9fe9500b726b11c058fba30fe220cfae1059539503e402c07929432ae961f39e"
+  },
+  {
+   "id": "chl.def.excess",
+   "heading": "Excess",
+   "sha256": "44ca53e75e9042c0f6cb78a0a28e4f269928522ba574a3c9e9a8305ad2b70044"
+  },
+  {
+   "id": "chl.def.institute-clauses",
+   "heading": "Institute Clauses",
+   "sha256": "c7511b26a3857c89cea464c9d0854e6dbf1977e1e55395d79afe1207b2073a83"
+  },
+  {
+   "id": "chl.def.lay-up",
+   "heading": "Lay-up",
+   "sha256": "edb52ac44472448fd00074fedef36ab4379c5d5a0e10d4111ea5501123575bb5"
+  },
+  {
+   "id": "chl.def.marina-berth",
+   "heading": "Marina Berth",
+   "sha256": "d5f313c90fdf9d45cf4ccd345057c420744ef716494d8dc4021f30cc0a46276c"
+  },
+  {
+   "id": "chl.def.master",
+   "heading": "Master",
+   "sha256": "11e9536711be32904d2763fd912d19033ae3c2b849c6f9e22c3d846ecff46fb7"
+  },
+  {
+   "id": "chl.def.named-cyclone",
+   "heading": "Named Cyclone",
+   "sha256": "26aaea3d4f5e1555c673145d9853779d00f9f2edb423402714d54fdeae3a5fe6"
+  },
+  {
+   "id": "chl.def.national-law",
+   "heading": "National Law",
+   "sha256": "8fbccc70147e0b787590fc33010775ac7e14d10085b0ad8da1d4bcfd0583d2c8"
+  },
+  {
+   "id": "chl.def.northern-waters",
+   "heading": "Northern Waters",
+   "sha256": "240893361ae4074828f7edd8dbc2830382999e1390c326d314f1bac8359c60e9"
+  },
+  {
+   "id": "chl.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "8897f5914bd42cba3679c9ebb9fc948af729d797fb9b75a5717faa00c7cb7c1e"
+  },
+  {
+   "id": "chl.def.operational-area",
+   "heading": "Operational Area",
+   "sha256": "36d8255c2dd1ef7087545d65af85a684bf7617629a15b8ed99dcd0c30862eed4"
+  },
+  {
+   "id": "chl.def.passenger",
+   "heading": "Passenger",
+   "sha256": "774a2645875880c495647da0c3a2759a525e748cc28b99a2f2207062844e0b00"
+  },
+  {
+   "id": "chl.def.pi-limit",
+   "heading": "Protection and Indemnity Limit",
+   "sha256": "7440139586b162543609c5e13fcfb986cf1c005ae378567211138ab6341f89df"
+  },
+  {
+   "id": "chl.def.policy-period",
+   "heading": "Policy Period",
+   "sha256": "74e576e9c521632d6fc34e20a75ac467de73f5a1f09c81151083db02bbdee4cd"
+  },
+  {
+   "id": "chl.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "ef63bab8ada5d96ab412d8d352ecd963132418fa2c4b84c6651eeb94cd3e3216"
+  },
+  {
+   "id": "chl.def.safety-management-system",
+   "heading": "Safety Management System",
+   "sha256": "7ad81285633fd5c63c80132540802baf16d644fd914089c1d3d3994b094a7908"
+  },
+  {
+   "id": "chl.def.service-category",
+   "heading": "Service Category",
+   "sha256": "5c63bdd33eade1c01d8786fdcf3de0164ff548efc272884f76689aa81570f437"
+  },
+  {
+   "id": "chl.def.swing-mooring",
+   "heading": "Swing Mooring",
+   "sha256": "ba78e22cf9b9e7b3ab1426af7bcad5994d58b6fc8e9213c174d8b0f99a82c5d0"
+  },
+  {
+   "id": "chl.def.tender",
+   "heading": "Tender",
+   "sha256": "bc1ed0670003261c7f2b090afb61c150c222482d3e891b3f69308e7402d9307b"
+  },
+  {
+   "id": "chl.def.total-loss",
+   "heading": "Total Loss",
+   "sha256": "729505adce1b9e5174007f80df19732339a3df53819a36e5d54e302632151f55"
+  },
+  {
+   "id": "chl.def.vessel",
+   "heading": "Vessel",
+   "sha256": "debdaf511f7dab1baa7e501be2a2a24f1020b3074a9e0dd0fd259844c5953752"
+  },
+  {
+   "id": "chl.def.we-us-our",
+   "heading": "We, Us and Our",
+   "sha256": "67a127ffda621ddd06e27a68367c9de61455edaa5656098311e50e48070d5253"
+  },
+  {
+   "id": "chl.def.you-your",
+   "heading": "You and Your",
+   "sha256": "20f8bbd57bea0eaf50b90097c8094f8836cc68a0d7e68c0cdc47aa6b6d046434"
+  },
+  {
+   "id": "chl.section.hull",
+   "heading": "Hull and Machinery",
+   "sha256": "7784d0ec8cd60bff127121c1afe9db26442f56edf0ebd7c91f9ed94b92e61c40"
+  },
+  {
+   "id": "chl.cover.hull",
+   "heading": "What We Insure",
+   "sha256": "f70247ec6f17f9ca2a97b662469f367e5c03452da40932573209fc677f421568"
+  },
+  {
+   "id": "chl.cover.institute-clauses",
+   "heading": "Institute Clauses That Apply",
+   "sha256": "d4e29e429557e46d7d23e9e1e55976f325b5206a74de97c45a4f65e5398d7620"
+  },
+  {
+   "id": "chl.cover.australian-amendments",
+   "heading": "Amendments to the Institute Clauses",
+   "sha256": "62f2ac4cb6530dce087a90f1787657fe793f98e9b8bf6fc489956571d1a34b14"
+  },
+  {
+   "id": "chl.cover.war-and-strikes",
+   "heading": "War and Strikes",
+   "sha256": "43c4e9b7d2669fbe13b7802bece2652bb8bb16e61e634b94e2ea3d670e81a50b"
+  },
+  {
+   "id": "chl.section.additional-benefits",
+   "heading": "Additional Benefits",
+   "sha256": "cff97eca92424f46fb3da9b1812eff0c91eb493a145a04c5e6a8bfa9a63b63e1"
+  },
+  {
+   "id": "chl.ext.parts-ashore",
+   "heading": "Equipment and Parts Ashore",
+   "sha256": "2165cc96e2670c344aa8b2a49b69b56ec972506dc8975dfd70f82c22841c8aef"
+  },
+  {
+   "id": "chl.ext.crew-effects",
+   "heading": "Crew Personal Effects",
+   "sha256": "bf5ed3eab6fe21fdd97bd7b7f3e9b0e28e34af738be98454dec52d2cc5895a86"
+  },
+  {
+   "id": "chl.ext.fire-extinguishing",
+   "heading": "Fire Extinguishing Costs",
+   "sha256": "7f29b2774bd76659ccd41eb55ab3dce2f0107d3d1fccaf2a84f843c3cbfd1705"
+  },
+  {
+   "id": "chl.ext.cyclone-movement",
+   "heading": "Cyclone Movement Costs",
+   "sha256": "ad9ace1155fb9d098a16b9d35e156b372a18ae8d763d44ff3e02c3b8c53744ba"
+  },
+  {
+   "id": "chl.section.pi",
+   "heading": "Protection and Indemnity",
+   "sha256": "1a4ea0d4aac4cc0af088838e473799c94d8ae52784c3794d64281a0e55efe54f"
+  },
+  {
+   "id": "chl.cover.pi",
+   "heading": "What We Pay",
+   "sha256": "411bf9caf2972761d1e466e618853c2a4e22672f8fadde20d2ac57d73f051fab"
+  },
+  {
+   "id": "chl.cover.pi-limits",
+   "heading": "Limits",
+   "sha256": "aceb104347c189374017917a4d2aa4fd14c853b387fb129430e8b1fca3a74601"
+  },
+  {
+   "id": "chl.cover.pi-defence",
+   "heading": "Defence and Settlement",
+   "sha256": "18c9eaa8b3f0ba6a46d93d507ff1aabbdee501085a79b25cbdfc5abb0b39c35a"
+  },
+  {
+   "id": "chl.excl.pi-employees",
+   "heading": "Employees",
+   "sha256": "ac3a5298eebb01bdae251cb1f4b698d2928dd82d6580ef1d9a56af2ed98eb079"
+  },
+  {
+   "id": "chl.excl.pi-property",
+   "heading": "Property You Own or Carry",
+   "sha256": "a4ff0a5ea642433d92a40865c9a58497f1961394112171c78c293db21086e0c7"
+  },
+  {
+   "id": "chl.excl.pi-contracts",
+   "heading": "Liability Under Contract",
+   "sha256": "cd4dc1236ea77f1450501e952f09c82bb8867904c541e5c2ed5f3047b9972169"
+  },
+  {
+   "id": "chl.excl.pi-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "cf5bbbbd38730b3a15c4167cb20ef1d5abfca7917062bf55881e923c79332e0e"
+  },
+  {
+   "id": "chl.excl.pi-water-activities",
+   "heading": "Swimming, Snorkelling and Diving",
+   "sha256": "4f3b580ddecce5c04941c1927ea1075d482a4cbccb588fb7c5f3b14cdf091811"
+  },
+  {
+   "id": "chl.excl.pi-towage",
+   "heading": "Towage and Charter",
+   "sha256": "babdf88e4e3672f604de9ce5f52ed07df4e651ca5ca970385ec8b0cdf6054ba1"
+  },
+  {
+   "id": "chl.excl.pi-war",
+   "heading": "War",
+   "sha256": "8ae47c3ea1cc239fb96d5d77e60e7ef4ecde1825f8610f2fc5a3cb0699580446"
+  },
+  {
+   "id": "chl.section.exclusions",
+   "heading": "General Exclusions",
+   "sha256": "754ca81df5033b163c04d873017a642381f9f00f6c530a9b57bce9385e847679"
+  },
+  {
+   "id": "chl.excl.operations",
+   "heading": "Operations Not Insured",
+   "sha256": "fe043a709c28cfa49899233cd81a0e5df027acc3244f6d36ee26800bef213775"
+  },
+  {
+   "id": "chl.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "ba1a949c15f1db259bc08e65a858bd6ca6d90ad120bccf772c4a984d19f01dbc"
+  },
+  {
+   "id": "chl.excl.illegal-use",
+   "heading": "Illegal Use",
+   "sha256": "1d7ac609881c15294559db5b39f122f0887d2d2c7e9e2db4f061590e52ac128e"
+  },
+  {
+   "id": "chl.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "071f844cab5e16e432a2b46a0cf19852f83a68570829d62214f95bbf647f64de"
+  },
+  {
+   "id": "chl.obl.certificates",
+   "heading": "Certificates and Survey",
+   "sha256": "0da35a8432bb851682b91b8482a72c57769214e85b9aa5c3dec81b0b253eef07"
+  },
+  {
+   "id": "chl.obl.operational-area",
+   "heading": "Operational Area",
+   "sha256": "78ebdda2bb3e9fb1c4234b2df66d0b6faf3f6ea6957dbb9463d6a8081d4befaf"
+  },
+  {
+   "id": "chl.obl.master-and-crew",
+   "heading": "Master and Crew",
+   "sha256": "2d92d5c5f1ffea44ed68c58724167a30080ed911ce164f0e6f6fefd9e63bec33"
+  },
+  {
+   "id": "chl.obl.passengers",
+   "heading": "Passengers",
+   "sha256": "e9222c63477e04227fa0b7cdac4b59f5015367d1c989dd19df788724023518ea"
+  },
+  {
+   "id": "chl.obl.safety-management",
+   "heading": "Safety Management System",
+   "sha256": "8424173b5acd5e847d6b9e52d405e11137ec6147cd62fe58ab8b807d596269a2"
+  },
+  {
+   "id": "chl.obl.tell-us-about-loss",
+   "heading": "Tell Us About Loss",
+   "sha256": "43479666fb85b8a7e16d953a2a5f1b1d2dfc8c403e9e46986983e64790397f99"
+  },
+  {
+   "id": "chl.obl.reduce-loss",
+   "heading": "Reduce the Loss",
+   "sha256": "13bbb2ab86796928e20aec4854034941b41698ad47bd6274ccfde1851dc79780"
+  },
+  {
+   "id": "chl.obl.admissions",
+   "heading": "Admissions",
+   "sha256": "8134f9508355c67bd3b16e1e8e141598204c826b730c53758b84bb43f74ae64b"
+  },
+  {
+   "id": "chl.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "cf976e05f1e398ff88ae5588eeda8d0a9026fe490fc76b0e248db9ee4ee8c792"
+  },
+  {
+   "id": "chl.section.payment",
+   "heading": "How We Pay Claims",
+   "sha256": "bd70294bfc0938edb1005220cd553a7436c37a0888ee32fda8799a74648e31ca"
+  },
+  {
+   "id": "chl.pay.settlement",
+   "heading": "Settling a Claim for the Vessel",
+   "sha256": "4b45781b9d8769b8434a0a1c5fd000ccb2327df0763a6d6d92f4a0114ffc2416"
+  },
+  {
+   "id": "chl.pay.excess",
+   "heading": "Excess",
+   "sha256": "c2cb1edb81c32d3a65ccee3a1fd7a8c919e59d2475794c6d189d3385f14c0495"
+  },
+  {
+   "id": "chl.pay.gst",
+   "heading": "GST",
+   "sha256": "27802dcbe7ae08a3f28d0a06e1ceafd62f8908aeb187fdd0b8fb03669849f1f1"
+  },
+  {
+   "id": "chl.pay.interest",
+   "heading": "Interest on Claims",
+   "sha256": "4eeb8475868c7c8405f885795321ed3a40cf973f018e1b22169fb2fb77103ec1"
+  },
+  {
+   "id": "chl.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "8bb5f94ddf3f897884d03ec1202ccaccf2b61ffd7a4f5ba37e1b967e47761ef0"
+  },
+  {
+   "id": "chl.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "48e8a54a814af1ae65a9a7bc049c48f01d03dbd89dbff8f45228e7ad10d73ce7"
+  },
+  {
+   "id": "chl.cond.statutory-framework",
+   "heading": "Marine Insurance Act and Insurance Contracts Act",
+   "sha256": "7a4fd4822d986865e183fb29f573ba5b2e3a8c391cebf8c7a255164771bdba70"
+  },
+  {
+   "id": "chl.cond.utmost-good-faith",
+   "heading": "Utmost Good Faith",
+   "sha256": "b63ddb5b188a4ab1dc2ce4f4e6e44bb2c41205a3cf6670c5403265e55a71deaf"
+  },
+  {
+   "id": "chl.cond.disclosure",
+   "heading": "Non-Disclosure and Misrepresentation",
+   "sha256": "6728a97fe8292ce4bb03f6d139aa0a64cb0b45ddf27e8dba7a500c9e59eac75e"
+  },
+  {
+   "id": "chl.cond.insurance-contracts-act",
+   "heading": "Acts and Omissions After the Policy Starts",
+   "sha256": "6a98694662f41975f635073e02fd92632b9275fab49a0de95862bc3d6f4b63e0"
+  },
+  {
+   "id": "chl.cond.order-of-precedence",
+   "heading": "Order of Precedence",
+   "sha256": "13fd75c77d897103539470f9cba60ff65a10c8451e86533df50b7ab2f2e08dc4"
+  },
+  {
+   "id": "chl.cond.institute-clause-text",
+   "heading": "Text of the Institute Clauses",
+   "sha256": "22331b6821eac6d183f3a5f2186d52bded3eed6d10a6d99622c52f5e9f8364ff"
+  },
+  {
+   "id": "chl.cond.law-and-practice",
+   "heading": "Australian Law and Practice",
+   "sha256": "929d4f8f18c145874f43d20db58f040e7dd6163ebd46fecdddbb6ae446d548b4"
+  },
+  {
+   "id": "chl.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "bae7f89b804e159b0de08cd77157062dcff4efa33a985dbb6b65465fc3ec61bc"
+  },
+  {
+   "id": "chl.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "e485a3f406938c0ed02604f10dc9da83f862cf7e0b99f14ac48b9890ca305861"
+  },
+  {
+   "id": "chl.cond.subrogation",
+   "heading": "Our Rights of Recovery",
+   "sha256": "ed5fb9f5487bcfe129c6fcb838b2a4982f43e62b6f11d5ca553ea92a92001428"
+  },
+  {
+   "id": "chl.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "d94675eb9013add0323a5000b16518e41762655f1db3d89aeb143167a4a4a2ee"
+  },
+  {
+   "id": "chl.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "chl.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "b53d2b098138a4cc672026a83a519ee805d6707624b3bae18b22f6653e604cee"
+  },
+  {
+   "id": "chl.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "c7b583f71807f949a0188937eb55599f76a7a7084fcf6db40a00ed520293f665"
+  },
+  {
+   "id": "chl.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "chl.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "84e7b6fdcf460dff12c9da56402b2f62fa67f6cc1a1104c4bfb592675c4863c8"
+  },
+  {
+   "id": "chl.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "2beb589ad81f47cd184c2f6fc890e78e6581f263433ec624fd17835150feefc1"
+  },
+  {
+   "id": "chl.end.e01",
+   "heading": "E01 Operational Area B",
+   "sha256": "f3043b3505ea70724d9631f996346570fac07118d8b7120e30514cc070c63463"
+  },
+  {
+   "id": "chl.end.e02",
+   "heading": "E02 Vessels Over 24 Metres",
+   "sha256": "be5d4cd5187cb603fb89ad815f231162be44a9eeb947643b197042600468b8eb"
+  },
+  {
+   "id": "chl.end.e03",
+   "heading": "E03 Passenger Vessels",
+   "sha256": "5a88823a829bd5a392112c9cfcf0dbbf81e0cf7669804e67e2119c6fe9187232"
+  },
+  {
+   "id": "chl.end.e04",
+   "heading": "E04 Swimming and Snorkelling",
+   "sha256": "7317062fd96d4b7e58c705dd650695991bcc7e57a2033d169ee3f5addd5bf195"
+  },
+  {
+   "id": "chl.end.e05",
+   "heading": "E05 Scuba Diving",
+   "sha256": "52a04e526a18f04dcd6715b3ee3b2783ada7c9e9541f103ff6c39c1f53a78590"
+  },
+  {
+   "id": "chl.end.e06",
+   "heading": "E06 Overnight Passengers",
+   "sha256": "1b7450edb635010b1a9a83690e6da4205710e66eaf7c395d7ed6be5a8d1036e0"
+  },
+  {
+   "id": "chl.end.e07",
+   "heading": "E07 Northern Waters in the Cyclone Season",
+   "sha256": "fa7258728d89a36eb4fb357fd0020e3496c4577ef043d93b2676c38990e41753"
+  },
+  {
+   "id": "chl.end.e08",
+   "heading": "E08 Swing Mooring",
+   "sha256": "6c24f12f3f1d1c6cd7acaf5c165291dc17555f08a7582caf53d37c159cfc151b"
+  },
+  {
+   "id": "chl.end.e09",
+   "heading": "E09 Lay-up and Port Risks",
+   "sha256": "d9c9338a70641b8566e980b2da1ac1eeae2bcf099236007520d5acf6ab26d088"
+  },
+  {
+   "id": "chl.end.e10",
+   "heading": "E10 Loss of Hire",
+   "sha256": "565ab575d7e7ad86b9df01c0dc4ec58807a9c2048f2488cf4bed96ac8202c969"
+  },
+  {
+   "id": "chl.end.e11",
+   "heading": "E11 Disbursements and Increased Value",
+   "sha256": "f31d57b4ab9bd9311d533e85a23e125faa8da4f85e5e1476ba1e433697b747cf"
+  },
+  {
+   "id": "chl.end.e12",
+   "heading": "E12 Queensland Marine Pollution and Wreck Removal",
+   "sha256": "c25fbee345473eba45430bc87c20b481cd2463e8493cd65d557ebec84b2360ba"
+  },
+  {
+   "id": "chl.end.e13",
+   "heading": "E13 Towage of Own Barges",
+   "sha256": "67899bd97d11ea7a3e4455f839b22ccdc15d1dd8d6a5585103eb2bad44b47ad9"
+  },
+  {
+   "id": "chl.end.e14",
+   "heading": "E14 Fishing Vessels",
+   "sha256": "04a93aa2dd4b5de5630541ac9e052df1772cd05c63884590958ea9624f0d071d"
+  },
+  {
+   "id": "chl.end.e15",
+   "heading": "E15 Hire and Drive Vessels",
+   "sha256": "d778904d265cba9fd0cd036d349a55c24f892ddb96987792407f833321903496"
+  },
+  {
+   "id": "chl.end.e16",
+   "heading": "E16 Condition Survey",
+   "sha256": "2140165a74ccf8350de2c3b7f99181bb3a48cb026f6fdccc872a3bbbe3018678"
+  },
+  {
+   "id": "chl.end.e17",
+   "heading": "E17 High-Speed Vessels",
+   "sha256": "a4ec69c1448d16c3e0595e1f12b4909e0ffb5014f522f476ecb14c650dc3c211"
+  },
+  {
+   "id": "chl.licence-notice",
+   "heading": "Licence",
+   "sha256": "6736e527003307dc50e733fd954542f3f49ad80cb10ff5acb7e312369b34d0b8"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "chl.end.e01",
+   "heading": "E01 Operational Area B",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.operational_area"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.operational_area == B",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the vessel operates in operational area B.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.operational_area",
+     "text": "What operational area is shown on the certificate of operation?",
+     "type": "select",
+     "options": [
+      "B_EXTENDED",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "used_by": "R, A, E01"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e02",
+   "heading": "E02 Vessels Over 24 Metres",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.length"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.length > 24",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the vessel is more than 24 metres long.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.length",
+     "text": "What is the vessel's length overall, in metres?",
+     "type": "number",
+     "used_by": "R, A, E02, E12"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e03",
+   "heading": "E03 Passenger Vessels",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.use_category"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.use_category == 1",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the vessel is a Class 1 passenger vessel."
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.use_category",
+     "text": "What vessel use category is shown on the certificate of operation: 1 passenger, 2 non-passenger, 3 fishing or 4 hire and drive?",
+     "type": "select",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "used_by": "R, A, E03, E14, E15"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e04",
+   "heading": "E04 Swimming and Snorkelling",
+   "trigger": {
+    "questions": [
+     "qs.chl.operations.swimming"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.operations.swimming == YES",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because passengers swim or snorkel from the vessel."
+   },
+   "questions": [
+    {
+     "id": "qs.chl.operations.swimming",
+     "text": "Do passengers swim or snorkel from the vessel?",
+     "type": "select",
+     "options": [
+      "NO",
+      "YES"
+     ],
+     "used_by": "R, E04"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e05",
+   "heading": "E05 Scuba Diving",
+   "trigger": {
+    "questions": [
+     "qs.chl.operations.scuba"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.operations.scuba == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because passengers scuba dive from the vessel.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.operations.scuba",
+     "text": "Do passengers scuba dive from the vessel?",
+     "type": "boolean",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e06",
+   "heading": "E06 Overnight Passengers",
+   "trigger": {
+    "questions": [
+     "qs.chl.operations.overnight_passengers"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.operations.overnight_passengers == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because passengers sleep on board.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.operations.overnight_passengers",
+     "text": "Do passengers sleep on board?",
+     "type": "boolean",
+     "used_by": "A, E06"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e07",
+   "heading": "E07 Northern Waters in the Cyclone Season",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.northern_waters"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.northern_waters == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the vessel is kept in northern waters during the cyclone season."
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.northern_waters",
+     "text": "Is the vessel in northern waters (north of 26 degrees south) during the cyclone season?",
+     "type": "boolean",
+     "used_by": "R, A, E07"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e08",
+   "heading": "E08 Swing Mooring",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.mooring"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.mooring == SWING_MOORING",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the vessel is kept on a swing mooring."
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.mooring",
+     "text": "Where is the vessel kept when not in use?",
+     "type": "select",
+     "options": [
+      "MARINA_BERTH",
+      "SWING_MOORING",
+      "PRIVATE_JETTY",
+      "ASHORE"
+     ],
+     "used_by": "R, A, E08"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e09",
+   "heading": "E09 Lay-up and Port Risks",
+   "trigger": {
+    "questions": [
+     "qs.chl.operations.lay_up_months"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.operations.lay_up_months > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the vessel is laid up for part of the year.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.operations.lay_up_months",
+     "text": "For how many months a year is the vessel laid up?",
+     "type": "number",
+     "used_by": "A, E09"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e10",
+   "heading": "E10 Loss of Hire",
+   "trigger": {
+    "questions": [
+     "qs.chl.cover.loss_of_hire"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.cover.loss_of_hire == true",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you asked for loss of hire cover.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.cover.loss_of_hire",
+     "text": "Do you want loss of hire cover?",
+     "type": "boolean",
+     "used_by": "A, E10"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e11",
+   "heading": "E11 Disbursements and Increased Value",
+   "trigger": {
+    "questions": [
+     "qs.chl.cover.increased_value"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.cover.increased_value > 0",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because you asked to insure an amount above the agreed value.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.cover.increased_value",
+     "text": "What amount, if any, do you want to insure above the agreed value for a total loss?",
+     "type": "number",
+     "used_by": "A, E11"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e12",
+   "heading": "E12 Queensland Marine Pollution and Wreck Removal",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.state",
+     "qs.chl.vessel.length"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.state == QLD and qs.chl.vessel.length > 15",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the vessel is more than 15 metres long and based in Queensland."
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.state",
+     "text": "In which state or territory is the vessel's home port?",
+     "type": "select",
+     "options": [
+      "NSW",
+      "VIC",
+      "QLD",
+      "WA",
+      "SA",
+      "TAS",
+      "NT",
+      "ACT"
+     ],
+     "used_by": "S, A, E12"
+    },
+    {
+     "id": "qs.chl.vessel.length",
+     "text": "What is the vessel's length overall, in metres?",
+     "type": "number",
+     "used_by": "R, A, E02, E12"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e13",
+   "heading": "E13 Towage of Own Barges",
+   "trigger": {
+    "questions": [
+     "qs.chl.operations.tows_own_barges"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.operations.tows_own_barges == true",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the vessel tows your own barges or workboats."
+   },
+   "questions": [
+    {
+     "id": "qs.chl.operations.tows_own_barges",
+     "text": "Does the vessel tow barges, pontoons or workboats that you own or operate?",
+     "type": "boolean",
+     "used_by": "E13"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e14",
+   "heading": "E14 Fishing Vessels",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.use_category"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.use_category == 3",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the vessel is a Class 3 fishing vessel."
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.use_category",
+     "text": "What vessel use category is shown on the certificate of operation: 1 passenger, 2 non-passenger, 3 fishing or 4 hire and drive?",
+     "type": "select",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "used_by": "R, A, E03, E14, E15"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e15",
+   "heading": "E15 Hire and Drive Vessels",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.use_category"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.use_category == 4",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the vessel is a Class 4 hire and drive vessel.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.use_category",
+     "text": "What vessel use category is shown on the certificate of operation: 1 passenger, 2 non-passenger, 3 fishing or 4 hire and drive?",
+     "type": "select",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "used_by": "R, A, E03, E14, E15"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e16",
+   "heading": "E16 Condition Survey",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.hull_material",
+     "qs.chl.vessel.age"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.hull_material == TIMBER",
+      "action": "refer"
+     },
+     {
+      "when": "qs.chl.vessel.age > 25",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the vessel has a timber hull or is more than 25 years old.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.hull_material",
+     "text": "What is the hull made of?",
+     "type": "select",
+     "options": [
+      "ALUMINIUM_STEEL",
+      "GRP_COMPOSITE",
+      "TIMBER",
+      "FERRO_CEMENT"
+     ],
+     "used_by": "R, A, E16"
+    },
+    {
+     "id": "qs.chl.vessel.age",
+     "text": "How old is the vessel, in years?",
+     "type": "number",
+     "used_by": "R, A, E16"
+    }
+   ]
+  },
+  {
+   "id": "chl.end.e17",
+   "heading": "E17 High-Speed Vessels",
+   "trigger": {
+    "questions": [
+     "qs.chl.vessel.max_speed"
+    ],
+    "rules": [
+     {
+      "when": "qs.chl.vessel.max_speed > 35",
+      "action": "refer"
+     }
+    ],
+    "reason": "Applies because the vessel can travel at more than 35 knots.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.chl.vessel.max_speed",
+     "text": "What is the vessel's maximum speed, in knots?",
+     "type": "number",
+     "used_by": "R, A, E17"
+    }
+   ]
+  }
+ ],
+ "sha256": "d8a355dce063216c5df4e0b41a1311a4c47687752972cd0852d51b4ba05d83cb"
+}
