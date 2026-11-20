@@ -198,12 +198,14 @@ questions:
   - TLO
   used_by: R, S
 - id: qs.chl.cover.hull_excess
-  text: What basic excess do you want, as a percentage of the agreed value?
+  text: What basic excess do you want for the Hull and Machinery section?
   type: select
   options:
-  - '0.5'
-  - '1'
-  - '2'
+  - '1000'
+  - '2500'
+  - '5000'
+  - '10000'
+  - '25000'
   used_by: R, S
 - id: qs.chl.cover.pi
   text: Do you want the Protection and Indemnity section?
