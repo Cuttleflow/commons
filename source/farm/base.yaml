@@ -1,0 +1,175 @@
+id: frm-base
+title: Farm Pack Insurance
+class: FARM PACK INSURANCE
+kicker: Meridian Commons · Farm Pack
+slug: farm-pack
+file_stem: Meridian_Farm_Pack
+doc_ref: 2026/FRM/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Farm property, livestock, farm interruption, theft and farm liability for grazing, mixed farming, cropping, dairy, horticulture and viticulture businesses and hobby farms, with the farmhouse, vehicles and personal accident insured under linked policies.
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - frm.about
+  - frm.version-history
+  - frm.important-information
+  - frm.schedule
+- section: frm.section.definitions
+  clauses:
+  - frm.def.agistment
+  - frm.def.bushfire
+  - frm.def.damage
+  - frm.def.employee
+  - frm.def.endorsement
+  - frm.def.event
+  - frm.def.excess
+  - frm.def.fabric-structure
+  - frm.def.farm-buildings
+  - frm.def.farm-business
+  - frm.def.farm-contents
+  - frm.def.farm-improvements
+  - frm.def.farm-income
+  - frm.def.farm-location
+  - frm.def.farm-machinery
+  - frm.def.farm-produce
+  - frm.def.flood
+  - frm.def.incidental-contracting
+  - frm.def.indemnity-period
+  - frm.def.insured-event
+  - frm.def.linked-policy
+  - frm.def.livestock
+  - frm.def.occurrence
+  - frm.def.personal-injury
+  - frm.def.policy-period
+  - frm.def.pollutant
+  - frm.def.property-damage
+  - frm.def.sum-insured
+  - frm.def.theft
+  - frm.def.vehicle
+  - frm.def.we-us-our
+  - frm.def.working-dog
+  - frm.def.you-your
+  - frm.def.your-products
+- section: frm.section.farm-property
+  clauses:
+  - frm.fp.cover
+  - frm.fp.insured-events
+  - frm.fp.fencing
+  - frm.fp.produce
+  - frm.fp.additional-benefits
+  - frm.fp.basis-of-settlement
+  - frm.fp.underinsurance
+  - frm.fp.exclusions
+- section: frm.section.livestock
+  clauses:
+  - frm.ls.cover
+  - frm.ls.valuation
+  - frm.ls.exclusions
+- section: frm.section.livestock-extended
+  clauses:
+  - frm.lx.cover
+  - frm.lx.theft-limit
+  - frm.lx.working-dogs
+  - frm.lx.exclusions
+- section: frm.section.farm-interruption
+  clauses:
+  - frm.fi.cover
+  - frm.fi.calculation
+  - frm.fi.exclusions
+- section: frm.section.theft
+  clauses:
+  - frm.th.cover
+  - frm.th.conditions
+  - frm.th.exclusions
+- section: frm.section.liability
+  clauses:
+  - frm.cover.liability
+  - frm.li.straying-livestock
+  - frm.li.fire-spread
+  - frm.li.care-custody-control
+  - frm.li.farm-activities
+  - frm.li.excl-workers
+  - frm.li.excl-contracts
+  - frm.li.excl-own-property
+  - frm.li.excl-vehicles
+  - frm.li.excl-pollution
+  - frm.li.excl-fines
+  - frm.li.excl-advice
+  - frm.li.excl-genetic
+  - frm.li.excl-disease
+  - frm.li.excl-guests
+  - frm.li.excl-contracting
+  - frm.li.excl-usa
+- section: frm.section.machinery
+  clauses:
+  - frm.mb.cover
+  - frm.mb.exclusions
+- section: frm.section.transit
+  clauses:
+  - frm.tr.cover
+  - frm.tr.exclusions
+- section: frm.section.tax-audit
+  clauses:
+  - frm.cover.tax-audit
+  - frm.excl.tax-audit
+- section: frm.section.general-payment
+  clauses:
+  - frm.pay.excess
+  - frm.pay.one-loss-one-section
+  - frm.pay.reinstatement
+  - frm.pay.gst
+  - frm.pay.other-insurance
+  - frm.pay.who-we-pay
+- section: frm.section.general-exclusions
+  clauses:
+  - frm.excl.war
+  - frm.excl.nuclear
+  - frm.excl.terrorism
+  - frm.excl.cyber
+  - frm.excl.deliberate-acts
+  - frm.excl.government-orders
+- section: frm.section.obligations
+  clauses:
+  - frm.obl.tell-us-about-claims
+  - frm.obl.reduce-loss
+  - frm.obl.admissions
+  - frm.obl.tell-us-about-changes
+  - frm.obl.subrogation
+- section: frm.section.conditions
+  clauses:
+  - frm.cond.insurance-contracts-act
+  - frm.cond.emergency-warnings
+  - frm.cond.cancellation
+  - frm.cond.renewal
+  - frm.cond.fraud
+  - frm.cond.sanctions
+  - frm.cond.interested-parties
+  - frm.cond.gst
+  - frm.cond.privacy
+  - frm.cond.disputes-and-complaints
+  - frm.cond.governing-law
+  - frm.cond.jurisdiction
+  - frm.cond.headings-and-references
+- section: end
+  clauses:
+  - frm.claims.how-to-make-a-claim
+  - frm.endorsement-library
+  - frm.end.e01
+  - frm.end.e02
+  - frm.end.e03
+  - frm.end.e04
+  - frm.end.e05
+  - frm.end.e06
+  - frm.end.e07
+  - frm.end.e08
+  - frm.end.e09
+  - frm.end.e10
+  - frm.end.e11
+  - frm.end.e12
+  - frm.end.e13
+  - frm.end.e14
+  - frm.end.e15
+  - frm.licence-notice

@@ -1,0 +1,205 @@
+# Platform questions for the Farm Pack wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.frm namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here.
+# Enterprise codes: GRZ sheep and beef grazing; MIX mixed grain and livestock; CRP broadacre cropping; DRY dairy; HRT fruit and vegetable growing;
+# VIT grape growing; HOB hobby farm or lifestyle block; NRS nursery, floriculture and turf; PLT poultry; OLS horses, deer, bees and other livestock.
+# Farm property classes: BLD farm buildings; CNT farm contents and farm machinery; FNC fencing and farm improvements; PRD farm produce.
+questions:
+  - id: qs.frm.insured.name
+    text: What is the name of the farm business (person, partnership, company or trust)?
+    type: text
+    used_by: S
+  - id: qs.frm.insured.entity_type
+    text: What kind of entity carries on the farm business?
+    type: select
+    options: ['individual', 'partnership', 'company', 'trust']
+    used_by: S
+  - id: qs.frm.insured.years_farming
+    text: How many years has the farm business farmed the farm location?
+    type: number
+    used_by: R
+  - id: qs.frm.insured.has_financier
+    text: Does a financier or lender have an interest in insured property?
+    type: yes/no
+    used_by: E09
+  - id: qs.frm.insured.financier
+    text: Name of the financier or lender, if any.
+    type: text
+    used_by: S
+  - id: qs.frm.insured.lloyds_binder
+    text: Is the policy placed with Lloyd's underwriters?
+    type: yes/no
+    used_by: E10
+  - id: qs.frm.location.address
+    text: What is the address of the farm location?
+    type: text
+    used_by: S
+  - id: qs.frm.location.state
+    text: In which state or territory is the farm location?
+    type: select
+    options: ['NSW', 'VIC', 'QLD', 'WA', 'SA', 'TAS', 'ACT', 'NT']
+    used_by: R, A, S
+  - id: qs.frm.location.hectares
+    text: What is the total area of the farm location, in hectares?
+    type: number
+    used_by: A, S
+  - id: qs.frm.location.bushfire_band
+    text: What is the bushfire exposure of the main farm buildings?
+    type: select
+    options: ['LOW', 'MEDIUM', 'HIGH', 'EXTREME']
+    used_by: R, A, E11
+  - id: qs.frm.location.north_of_26
+    text: Is any part of the farm location north of the 26th parallel of south latitude?
+    type: yes/no
+    used_by: A, E14
+  - id: qs.frm.location.emergency_warning
+    text: Is a bushfire or flood emergency warning, watch and act warning or evacuation order in force for the farm location now?
+    type: yes/no
+    used_by: A
+  - id: qs.frm.location.road_frontage
+    text: Do livestock graze paddocks with a public road frontage?
+    type: yes/no
+    used_by: R
+  - id: qs.frm.enterprise.mix
+    text: Which enterprises does the farm business carry on, and what share of farm income does each bring in (%)?
+    type: repeating (enterprise, share)
+    options: ['GRZ', 'MIX', 'CRP', 'DRY', 'HRT', 'VIT', 'HOB', 'NRS', 'PLT', 'OLS']
+    used_by: R, S
+  - id: qs.frm.enterprise.gross_turnover
+    text: What is the gross farm turnover for the next 12 months?
+    type: number (currency)
+    used_by: A, S
+  - id: qs.frm.enterprise.excluded
+    text: Does the farm business include an intensive piggery, a cattle feedlot, aquaculture, forestry or commercial fishing?
+    type: yes/no
+    used_by: A
+  - id: qs.frm.enterprise.dairy_herd
+    text: How many cows are in the milking herd (0 if none)?
+    type: number
+    used_by: A
+  - id: qs.frm.property.sum_insured
+    text: 'What is the farm property sum insured: farm buildings, farm contents, fencing and farm improvements, farm produce and farm machinery?'
+    type: number (currency)
+    used_by: R, A, S
+  - id: qs.frm.property.asset_mix
+    text: What share of the farm property sum insured is each class of farm property (%)?
+    type: repeating (class, share)
+    options: ['BLD', 'CNT', 'FNC', 'PRD']
+    used_by: R, S
+  - id: qs.frm.property.excess
+    text: Which farm property excess do you choose?
+    type: select
+    options: ['1000', '2500']
+    used_by: R, S
+  - id: qs.frm.property.fabric_shelters
+    text: Does farm property include fabric structures, such as hay covers, poly tunnels or fabric sheds?
+    type: yes/no
+    used_by: E02
+  - id: qs.frm.property.poor_repair
+    text: Are any farm buildings in poor repair, or unused for more than 90 days?
+    type: yes/no
+    used_by: A
+  - id: qs.frm.produce.hay_stored
+    text: Does the farm business store hay, silage, straw or fodder?
+    type: yes/no
+    used_by: E07
+  - id: qs.frm.produce.hay_in_open
+    text: Is any hay or fodder stored in the open, or within 20 metres of a farm building or another stack?
+    type: yes/no
+    used_by: R
+  - id: qs.frm.fire.firefighting_unit
+    text: During the fire danger season, do you keep a firefighting unit with a pump and at least 400 litres of water ready to use?
+    type: yes/no
+    used_by: R, E15
+  - id: qs.frm.fire.brigade_distance_km
+    text: How far are the main farm buildings from the nearest fire brigade, in kilometres?
+    type: number
+    used_by: R
+  - id: qs.frm.cover.livestock
+    text: Do you want to insure livestock?
+    type: yes/no
+    used_by: S
+  - id: qs.frm.livestock.sum_insured
+    text: What is the livestock sum insured?
+    type: select
+    options: ['0', '50000', '100000', '250000', '500000', '1000000', '2000000']
+    used_by: R, A, S
+  - id: qs.frm.cover.livestock_extended
+    text: 'Do you want Livestock Extended Cover: theft, attack by dogs or wild animals, accidental death and working dogs?'
+    type: yes/no
+    used_by: S
+  - id: qs.frm.livestock.max_animal_value
+    text: What is the value of the most valuable single animal?
+    type: number (currency)
+    used_by: A, E08
+  - id: qs.frm.livestock.agistment_in
+    text: Does the farm business take in other owners' livestock on agistment?
+    type: yes/no
+    used_by: S, E13
+  - id: qs.frm.cover.interruption
+    text: Do you want Farm Interruption cover?
+    type: yes/no
+    used_by: S
+  - id: qs.frm.interruption.sum_insured
+    text: What is the farm income sum insured?
+    type: select
+    options: ['0', '250000', '500000', '1000000']
+    used_by: R, S
+  - id: qs.frm.cover.theft
+    text: Do you want Theft cover?
+    type: yes/no
+    used_by: S
+  - id: qs.frm.cover.machinery
+    text: Do you want Machinery Breakdown and Electronic Equipment cover?
+    type: yes/no
+    used_by: S
+  - id: qs.frm.cover.transit
+    text: Do you want Transit cover?
+    type: yes/no
+    used_by: S
+  - id: qs.frm.cover.tax_audit
+    text: Do you want Tax Audit cover?
+    type: yes/no
+    used_by: S
+  - id: qs.frm.cover.flood_buyback
+    text: Do you want flood cover?
+    type: yes/no
+    used_by: A, E01
+  - id: qs.frm.liability.limit
+    text: Which liability limit do you choose?
+    type: select
+    options: ['10000000', '20000000']
+    used_by: R, S
+  - id: qs.frm.ops.contracting_pct
+    text: What share of gross farm turnover comes from contracting for others (%)?
+    type: number (percent)
+    used_by: R, A, E05
+  - id: qs.frm.ops.ground_spraying
+    text: Do you or your employees spray chemicals by ground equipment?
+    type: yes/no
+    used_by: R, E06
+  - id: qs.frm.ops.aerial_spraying
+    text: Do you or your employees carry out aerial spraying?
+    type: yes/no
+    used_by: A
+  - id: qs.frm.ops.farm_stay
+    text: Does the farm business provide accommodation, meals or tours to paying guests?
+    type: yes/no
+    used_by: R, A, E03
+  - id: qs.frm.ops.horse_riding_visitors
+    text: Do visitors ride horses at the farm, or do you organise equestrian events?
+    type: yes/no
+    used_by: R, A, E04
+  - id: qs.frm.ops.direct_sales
+    text: Do you sell farm produce direct to the public, at the farm gate, at markets or at shows?
+    type: yes/no
+    used_by: E12
+  - id: qs.frm.history.claims_5yr
+    text: How many claims has the farm business made in the last 5 years?
+    type: number
+    used_by: R, A
+  - id: qs.frm.history.declined
+    text: Has an insurer declined, cancelled or refused to renew farm insurance for the farm business?
+    type: yes/no
+    used_by: A
