@@ -77,6 +77,7 @@
      "slugs": [
       "business-package",
       "tradies-package",
+      "farm-pack",
       "strata",
       "commercial-property-owners",
       "industrial-special-risks",
@@ -510,6 +511,11 @@
    "cls": "Freight Services Liability",
    "title": "Freight Services Liability Insurance",
    "desc": "Liability cover for freight forwarders, customs brokers, carriers and logistics operators, measured by their standard trading conditions, with cargo liability, errors and omissions, fines and penalties, and optional customs duty, public liability and warehouse liability sections."
+  },
+  "farm-pack": {
+   "cls": "Farm Pack",
+   "title": "Farm Pack Insurance",
+   "desc": "Farm property, livestock, farm interruption, theft, machinery breakdown, transit and farm liability cover for grazing, mixed farming, cropping, dairy, horticulture and viticulture businesses and hobby farms, with the farmhouse and vehicles on linked policies."
   }
  }
 }

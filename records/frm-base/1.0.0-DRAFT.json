@@ -1,0 +1,1213 @@
+{
+ "wording": "frm-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/FRM/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "frm.about",
+   "heading": "About This Policy",
+   "sha256": "52de6f8b4170fdf2477d2c541db7d0e6aa83f9ba2b6f916dea1e0ab8c6c86e84"
+  },
+  {
+   "id": "frm.version-history",
+   "heading": "Version of This Wording",
+   "sha256": "3fc0ae8e088499c0c11792a5530d48404127eee25830c39463e66dbb0b58b57f"
+  },
+  {
+   "id": "frm.important-information",
+   "heading": "Important Information",
+   "sha256": "ad7c02e586db8b05820941c94037a7ed85de90f56782c743c1ba1a64f882c9c1"
+  },
+  {
+   "id": "frm.schedule",
+   "heading": "Your Schedule",
+   "sha256": "e6d0767ca072e0298a233676c0c2943cc4990e1b8e8abd24f8fda71391238ce4"
+  },
+  {
+   "id": "frm.section.definitions",
+   "heading": "Definitions",
+   "sha256": "14e54606060d827ee4b0ee494785d7b246cdf25b02045a67eb6677ea4e9ff383"
+  },
+  {
+   "id": "frm.def.agistment",
+   "heading": "Agistment",
+   "sha256": "3724b3702dfea6bbec856f97ca452d06770fe3207b0d0693425139045bd65c1b"
+  },
+  {
+   "id": "frm.def.bushfire",
+   "heading": "Bushfire",
+   "sha256": "46533315a2b2f469455f37c2fb4c5a4890dd7e0e4a9a7e5e277bbe0bf0bdc2c5"
+  },
+  {
+   "id": "frm.def.damage",
+   "heading": "Damage",
+   "sha256": "a0a2becb3045abc6a1cee3234ad580a666944df09129ff1edf6288f7be4fefa6"
+  },
+  {
+   "id": "frm.def.employee",
+   "heading": "Employee",
+   "sha256": "062e8958f53968f26211dc6c03d9a56bec8ec40217f35caea74bd1bac7d204dc"
+  },
+  {
+   "id": "frm.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "c01a4b151fb23d8029a91aa4045a803e58e03746522a8cd3865055455688f093"
+  },
+  {
+   "id": "frm.def.event",
+   "heading": "Event",
+   "sha256": "47e4049cb57e621794251bfd381a96e577b44b1f475f944b87d598b95e55c253"
+  },
+  {
+   "id": "frm.def.excess",
+   "heading": "Excess",
+   "sha256": "55de856ca59b6a43b29ccdf0e209e26dc12f92b440a8ce41ce73983a1439673b"
+  },
+  {
+   "id": "frm.def.fabric-structure",
+   "heading": "Fabric structure",
+   "sha256": "92cecff7015e83a14748117aadaedf4bd56db627395544ce4f76218cf5155c31"
+  },
+  {
+   "id": "frm.def.farm-buildings",
+   "heading": "Farm buildings",
+   "sha256": "84cc56dfa4419ed535454d4d66595c0aabd25d3c82e052ba97a9b427e918941c"
+  },
+  {
+   "id": "frm.def.farm-business",
+   "heading": "Farm business",
+   "sha256": "dd3fdb03e10d1073029f47d57125b331414d27d8704e32a55d3945ffa4fd37c1"
+  },
+  {
+   "id": "frm.def.farm-contents",
+   "heading": "Farm contents",
+   "sha256": "20101c6b3e2a898ed450e137fff40e3dcf25ab40912a53eec0ed14530db09873"
+  },
+  {
+   "id": "frm.def.farm-improvements",
+   "heading": "Farm improvements",
+   "sha256": "b2e3600a47c352016a1cc4a6d557b5730cd775b2b88c004e756e4603d7cd69ae"
+  },
+  {
+   "id": "frm.def.farm-income",
+   "heading": "Farm income",
+   "sha256": "1658f2fb90174117d727c30ecd940c2a5b997f1f18c4e68b838aca286f1b66e9"
+  },
+  {
+   "id": "frm.def.farm-location",
+   "heading": "Farm location",
+   "sha256": "77df43d897a17a75298b106bb1aa899a7748290dc2c6230c9185dc03d4cb4667"
+  },
+  {
+   "id": "frm.def.farm-machinery",
+   "heading": "Farm machinery",
+   "sha256": "738b6780ed35cbca649738bc08349d380ee1a9cb406f18e116e2810eaf48e279"
+  },
+  {
+   "id": "frm.def.farm-produce",
+   "heading": "Farm produce",
+   "sha256": "84c662efec3d3db9c0a361e97d908d1709996d4d2e062d479a3e46b1881e56b3"
+  },
+  {
+   "id": "frm.def.flood",
+   "heading": "Flood",
+   "sha256": "f27fbf0f4323f565cb3944c59f8e9ea6b9682c08ff191ae2843cef910802f616"
+  },
+  {
+   "id": "frm.def.incidental-contracting",
+   "heading": "Incidental contracting",
+   "sha256": "365f15098ab2b533dc3d03ddea362e2bfc8da11f5db0909ee0ec379382f69ae2"
+  },
+  {
+   "id": "frm.def.indemnity-period",
+   "heading": "Indemnity period",
+   "sha256": "cd61585293afa1f0c83086e640c80e27fefd514d52aaab5a7f2f09fd6f4a5163"
+  },
+  {
+   "id": "frm.def.insured-event",
+   "heading": "Insured event",
+   "sha256": "6d9ab699031c1892ed88b50864ea547ca51c3e65bac679b4bdd046629d2367ff"
+  },
+  {
+   "id": "frm.def.linked-policy",
+   "heading": "Linked policy",
+   "sha256": "450fec219e0f62eb6937f7fbd1bafa4650ebade28018e778bcee9ca3bac0cabb"
+  },
+  {
+   "id": "frm.def.livestock",
+   "heading": "Livestock",
+   "sha256": "fa70d4c5e026eaf6342de95a97b5ad775336ddb80e7ba06b76e3395e4d5197b8"
+  },
+  {
+   "id": "frm.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "47bc1028b05514af32075c995e04c0477ccb34f6eb00bbad2b133915885685e4"
+  },
+  {
+   "id": "frm.def.personal-injury",
+   "heading": "Personal injury",
+   "sha256": "503538cd096dd0b114a1676d4d1663a073a154a4e76043285c9a65f6e8b992ce"
+  },
+  {
+   "id": "frm.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "f4247084a92116a7469e3918820d26a889772daeba0588d268215be41c4a92ee"
+  },
+  {
+   "id": "frm.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "13aaa2964504a113b95374670d4799f7c05cedcc0a773d147cbc55c892f0cc2d"
+  },
+  {
+   "id": "frm.def.property-damage",
+   "heading": "Property damage",
+   "sha256": "fc6aa8123275f8742b6e2086cc1a3442abca141e632fa4ba3206969d7782f795"
+  },
+  {
+   "id": "frm.def.sum-insured",
+   "heading": "Sum insured",
+   "sha256": "40e9b5ed98bb9f3604ea467f16aa461cb31b0a13c9b8f522d82fecfba365fc3f"
+  },
+  {
+   "id": "frm.def.theft",
+   "heading": "Theft",
+   "sha256": "37a5de06fa6e1cdfedc4bda9b6282960c7990888c911e61648cc99a3579d3ebc"
+  },
+  {
+   "id": "frm.def.vehicle",
+   "heading": "Vehicle",
+   "sha256": "e235cadf594e1e469651e1623b12b339bc17987c1240a1ec7f8718eb39677c24"
+  },
+  {
+   "id": "frm.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "frm.def.working-dog",
+   "heading": "Working dog",
+   "sha256": "864e0b756afd03ce77ea6e17ed59cd1dfdc481033d485dee2b2e560897f46df7"
+  },
+  {
+   "id": "frm.def.you-your",
+   "heading": "You, Your",
+   "sha256": "6e2f07f63a67c6ba046b93025b0bdbf5410634045a1687facf96a51e909e7ec9"
+  },
+  {
+   "id": "frm.def.your-products",
+   "heading": "Your products",
+   "sha256": "6e99cf23cd2b3455168b6835ce210f7cd4694e8818383e9a3787506a845ff1e5"
+  },
+  {
+   "id": "frm.section.farm-property",
+   "heading": "Farm Property",
+   "sha256": "bca61264127056bdf59c8a6fc48e61711dd784a4734cff819bd1cc7a952fa277"
+  },
+  {
+   "id": "frm.fp.cover",
+   "heading": "Farm Property Cover",
+   "sha256": "e3683b0e25e9f5464ec101fe9efcb83a0f2a06c8602f1a5b89ccbb10afd0f285"
+  },
+  {
+   "id": "frm.fp.insured-events",
+   "heading": "Insured Events",
+   "sha256": "f9c236a9e574bee49c0411208a865728175d2bee35ba4b1760fbcbc7e73b0ff5"
+  },
+  {
+   "id": "frm.fp.fencing",
+   "heading": "Fencing and Farm Improvements",
+   "sha256": "a98b59f5ad92cfe8fadec2a60a9808ea8abc3fdff8c9a3c67bf2ad1f8fe8e14e"
+  },
+  {
+   "id": "frm.fp.produce",
+   "heading": "Farm Produce and Seasonal Increase",
+   "sha256": "c045889b06bbd7b42600b82334ed25f64b13fc5ffb077be93406f162c9f9f7cc"
+  },
+  {
+   "id": "frm.fp.additional-benefits",
+   "heading": "Farm Property Additional Benefits",
+   "sha256": "4322c1b84ca25f4a4e19708b5cfbf6b26169a753cea293b0a5d3cd0382dd9483"
+  },
+  {
+   "id": "frm.fp.basis-of-settlement",
+   "heading": "Farm Property Basis of Settlement",
+   "sha256": "35da9bbf3b98dd7ecefa4f0b2a7a408e98a05d0eb0c1f517ccc4586d4baba586"
+  },
+  {
+   "id": "frm.fp.underinsurance",
+   "heading": "Farm Buildings Underinsurance",
+   "sha256": "cf96ebd448afdc09a01d7650ea52a0261b5edca26ea4b6ce2f0db8ec2556866c"
+  },
+  {
+   "id": "frm.fp.exclusions",
+   "heading": "Farm Property Exclusions",
+   "sha256": "2e20267140a5850d5908feefbe74604a4703f51b5982fefdd3f8b9249b4e6b68"
+  },
+  {
+   "id": "frm.section.livestock",
+   "heading": "Livestock",
+   "sha256": "8c0c8ab2ffaa9cf90440df974e45b940fb30b7c23299efed9354af9fc26b5b5c"
+  },
+  {
+   "id": "frm.ls.cover",
+   "heading": "Death of Livestock",
+   "sha256": "34394fe009f97c5954ba6c5bdf705ae4d783e6b34a22bb0862767934e8c3a704"
+  },
+  {
+   "id": "frm.ls.valuation",
+   "heading": "Livestock Valuation",
+   "sha256": "e1bfd1ac4e7ca8ee3d7a0cf31e62fb6ea0dfdc774b8047cdaccaf02887851745"
+  },
+  {
+   "id": "frm.ls.exclusions",
+   "heading": "Livestock Exclusions",
+   "sha256": "d69bd988ce15a5cc595631bd8105c48037aaa301fe9eec864c29fc1d35a90c71"
+  },
+  {
+   "id": "frm.section.livestock-extended",
+   "heading": "Livestock Extended Cover",
+   "sha256": "bd675e185effea04851ac33e4a4f926ab72e88743e923a7990838c7abc2d8334"
+  },
+  {
+   "id": "frm.lx.cover",
+   "heading": "Theft, Attack and Accidental Death",
+   "sha256": "c45e4c4b0accf326376b7c5352979f91b0650f321d21881053302231f7f69125"
+  },
+  {
+   "id": "frm.lx.theft-limit",
+   "heading": "Livestock Theft Limit",
+   "sha256": "b2b20622ac50b49a5fc9d6fe1b4be0d7679492a72e92f5f2840100055c1ccc2e"
+  },
+  {
+   "id": "frm.lx.working-dogs",
+   "heading": "Working Dogs",
+   "sha256": "3a05d7c6b3991f81b339089c77b41a80d98501f5c6b84959ab93744866f0ba72"
+  },
+  {
+   "id": "frm.lx.exclusions",
+   "heading": "Livestock Extended Cover Exclusions",
+   "sha256": "2b71d05c3f2f9791c5f73b45ecf6d4ef00088870dc05ed3118fd72155a1e5dd6"
+  },
+  {
+   "id": "frm.section.farm-interruption",
+   "heading": "Farm Interruption",
+   "sha256": "84fa6cffd6c8e74675a4d62e1b679621a64a9b823b522c1af13d66a8683d48c0"
+  },
+  {
+   "id": "frm.fi.cover",
+   "heading": "Loss of Farm Income",
+   "sha256": "b6d4ff055806b11f1d8aa829b299e7057b3f64ce53e364fdac82ebad07844b96"
+  },
+  {
+   "id": "frm.fi.calculation",
+   "heading": "How We Calculate Loss of Farm Income",
+   "sha256": "aca3106fdc592536854a5bee04bf7efd576ac8aafc81ce77bdd42d4176215ab3"
+  },
+  {
+   "id": "frm.fi.exclusions",
+   "heading": "Farm Interruption Exclusions",
+   "sha256": "bea2973b747f1513d1d6df2d13d58a9c8cacd98c1d27afdcb259f39e82278af0"
+  },
+  {
+   "id": "frm.section.theft",
+   "heading": "Theft",
+   "sha256": "28d7265c5e3f4b9a9281651c7a387fc051277174a8906e3497a0cfee8311c4ba"
+  },
+  {
+   "id": "frm.th.cover",
+   "heading": "Theft of Farm Property",
+   "sha256": "6314c90c667ad25029f4bf715219bd26eb2689defd4245c9daaf16d1ad47cbda"
+  },
+  {
+   "id": "frm.th.conditions",
+   "heading": "Theft Reporting",
+   "sha256": "cf70648601906aff4c51a2b236067ea5b81e82cdec327d6f7043cac4a1bf46a0"
+  },
+  {
+   "id": "frm.th.exclusions",
+   "heading": "Theft Exclusions",
+   "sha256": "232ab39d23223c32352bff66c71d4875b2fc6cdee70be1c4f8ae86113225e306"
+  },
+  {
+   "id": "frm.section.liability",
+   "heading": "Farm Liability",
+   "sha256": "532134bdd1e87e52b7fab1be603b7dc09b845fcff460a951d80a05c66057505c"
+  },
+  {
+   "id": "frm.cover.liability",
+   "heading": "Liability for Injury and Damage",
+   "sha256": "5661341862c88debc4defe5a8c66aee07411380fef396938f03e9edf013858ec"
+  },
+  {
+   "id": "frm.li.straying-livestock",
+   "heading": "Straying Livestock",
+   "sha256": "52ef0cc68e14779cfaf47d1e6aed2a5784cdc1c4bbdad35c0dc8016c367473c5"
+  },
+  {
+   "id": "frm.li.fire-spread",
+   "heading": "Fire Spreading from the Farm",
+   "sha256": "93a57cf5f3d4a4bd3fc4fde47cb3cc6be929d0d8887afe7981d985241bb7c42f"
+  },
+  {
+   "id": "frm.li.care-custody-control",
+   "heading": "Property in Your Care",
+   "sha256": "1bf2af815a1182006cdae65e5fa731b13998ee11d789eef1fed9b2b0d1bcd59f"
+  },
+  {
+   "id": "frm.li.farm-activities",
+   "heading": "Farm Activities Covered",
+   "sha256": "972c9524192ed5d037010e00fed5b5ee1d3956a0bac6576e6f50ab86da20c0a0"
+  },
+  {
+   "id": "frm.li.excl-workers",
+   "heading": "Injury to Your Workers",
+   "sha256": "ba8cdc7a47b6ef00e1635d93ca8ed213ec0369c04f0127df547e97394f254db5"
+  },
+  {
+   "id": "frm.li.excl-contracts",
+   "heading": "Contractual Liability",
+   "sha256": "493a299243516409492c52eb9933eef94205a0839df6f6a4243b7bd28b9aac0c"
+  },
+  {
+   "id": "frm.li.excl-own-property",
+   "heading": "Property You Own",
+   "sha256": "844117c707c99e3dbd496c4d2a7d9b82b960bdfeceebd5bb33220ce0b1909afe"
+  },
+  {
+   "id": "frm.li.excl-vehicles",
+   "heading": "Vehicles, Aircraft and Watercraft",
+   "sha256": "3950ed5d649f6b962f3b8ee16d74594b947d3fc77dfb0927e9f8903af2a48dd1"
+  },
+  {
+   "id": "frm.li.excl-pollution",
+   "heading": "Gradual Pollution",
+   "sha256": "48f1fddc2ff0797d8456fab27d1e6bd5915c9fcc4cec81aa892f7bfa63f8a404"
+  },
+  {
+   "id": "frm.li.excl-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "6ac2c0ee17111eee82053aa473b055676940f9734edf289ccc5fc8aac8663960"
+  },
+  {
+   "id": "frm.li.excl-advice",
+   "heading": "Advice for a Fee",
+   "sha256": "157f2a437ed184e22b02bb2a705fd13c32b483a1727e5bdf6ebd90492b0199dd"
+  },
+  {
+   "id": "frm.li.excl-genetic",
+   "heading": "Genetic Modification and Hormones",
+   "sha256": "c2df8b775111d7f9fc3a626bf22895a34c82e7c2601f0fdc2426161679010a0f"
+  },
+  {
+   "id": "frm.li.excl-disease",
+   "heading": "Spread of Notifiable Disease",
+   "sha256": "76418e39ce6b43f115536eaadcc26936228798390d2e922c24b53104d6fd664b"
+  },
+  {
+   "id": "frm.li.excl-guests",
+   "heading": "Paying Guests and Riding",
+   "sha256": "b87e949609d61ba47b2d8eeeaedb74e058fc3767d374056a9c4087ac094d6d34"
+  },
+  {
+   "id": "frm.li.excl-contracting",
+   "heading": "Contracting Beyond Incidental Contracting",
+   "sha256": "fcc0735c57b35c7e0ae9cdaab95d855d61bcd6c0ab911cf37a5fcfe0b15521bc"
+  },
+  {
+   "id": "frm.li.excl-usa",
+   "heading": "Products Exported to North America",
+   "sha256": "663a6146f119cad9b923f0e726c78252acad8ed10f9dfa457432da1caec3bb45"
+  },
+  {
+   "id": "frm.section.machinery",
+   "heading": "Machinery Breakdown and Electronic Equipment",
+   "sha256": "43b2ffae742670a46b5c1383705e30c8ce593e5f8583b1bfb1c91de283ffce8f"
+  },
+  {
+   "id": "frm.mb.cover",
+   "heading": "Breakdown of Farm Machinery and Equipment",
+   "sha256": "a4b1e2ff1c1591c81b88ea757e648d9ea8d95003fa91d244899da668ed14656b"
+  },
+  {
+   "id": "frm.mb.exclusions",
+   "heading": "Machinery Breakdown Exclusions",
+   "sha256": "49a129f62d7b5877e7410ec6d51f35f698b7e6447edfd11ba3347c92556741e5"
+  },
+  {
+   "id": "frm.section.transit",
+   "heading": "Transit",
+   "sha256": "4f1fec28e3a0017a9093d87d3127a09c71fd291bcd12f8ed2ba9b0f8e0ce9fa1"
+  },
+  {
+   "id": "frm.tr.cover",
+   "heading": "Farm Property and Livestock in Transit",
+   "sha256": "935af19e116b3512beb819ae6cb436126d04502ef73601d610c64e894c1357ca"
+  },
+  {
+   "id": "frm.tr.exclusions",
+   "heading": "Transit Exclusions",
+   "sha256": "9ec6ac9a19e932274a840b8f9bf5ed705ba20b5c23373ccaee236ba3886590f1"
+  },
+  {
+   "id": "frm.section.tax-audit",
+   "heading": "Tax Audit",
+   "sha256": "453855a5ce33786e2dc1b4835b68c8d7fb50c6f8b0570da994d4c865760411a4"
+  },
+  {
+   "id": "frm.cover.tax-audit",
+   "heading": "Tax Audit Fees",
+   "sha256": "f1336d161ff311230296d39a9725a1235b11924aa3709128aefc4f13d9810999"
+  },
+  {
+   "id": "frm.excl.tax-audit",
+   "heading": "Tax Audit Exclusions",
+   "sha256": "8c28213ddd24349c78322b498e53bc548c5595b1661d57f7047605220d59ceb5"
+  },
+  {
+   "id": "frm.section.general-payment",
+   "heading": "How Claims Are Paid",
+   "sha256": "bb2638926e131115012f77a272370f651d5e463fd6fec769ea7f0de702fb774b"
+  },
+  {
+   "id": "frm.pay.excess",
+   "heading": "Excess",
+   "sha256": "61b7150a9d94ab955a4b3fd58fe5947ad111994ab483843a07f0c0920fcdac87"
+  },
+  {
+   "id": "frm.pay.one-loss-one-section",
+   "heading": "One Loss, One Section",
+   "sha256": "ce365af706623a8c472c10e329dc08d11a2d0c8887134a58e7c8c8ef5a533d74"
+  },
+  {
+   "id": "frm.pay.reinstatement",
+   "heading": "Reinstatement of Sums Insured",
+   "sha256": "72ae1ed6f8d6e0bf1a25d495ae1cc26e848415289af679c37d31748ce675ffea"
+  },
+  {
+   "id": "frm.pay.gst",
+   "heading": "GST and Sums Insured",
+   "sha256": "6a2659ac8175ff1ea13ecd530744d7c313d46bc0f11cd2ed4af03beb57e3f0c2"
+  },
+  {
+   "id": "frm.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "5dcd801b9a97f3db415f409b80e3b0d3c07a314040b614daf431769eb4f0bcf5"
+  },
+  {
+   "id": "frm.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "7049d5327eabeaaf3973bd17deb92f20801beea3af03569f9a2841735f13ef26"
+  },
+  {
+   "id": "frm.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "3b2494e49e0a61e20143f898a2a2ac00d8939981941fcb50c6f35529bfa2ebd4"
+  },
+  {
+   "id": "frm.excl.war",
+   "heading": "War",
+   "sha256": "a6d18b9894cb3541b2b13a43b15b8889c3cf014aff3425645ea35ed7547e5604"
+  },
+  {
+   "id": "frm.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "515a0fcec4a0a619b5d701b1f7eee86fa4488feb962cc0b2170467de8a674df4"
+  },
+  {
+   "id": "frm.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "397dd472da5a320879a3447bb3edf3f1931551bb15f6197772605ddd26ec58da"
+  },
+  {
+   "id": "frm.excl.cyber",
+   "heading": "Cyber Events",
+   "sha256": "e24394dce69d69ceef5372ece051408f973ae08696d1c3fc4c4417731057bb3c"
+  },
+  {
+   "id": "frm.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "34a6cc81663c981d55714d7ba95a09d9b338e816bb36c997b845f9da617eb4c1"
+  },
+  {
+   "id": "frm.excl.government-orders",
+   "heading": "Government and Biosecurity Orders",
+   "sha256": "4638ec80af2246d91512bd4d71256a714c1ef2cd9074cc69da13ef2bce8a3d1b"
+  },
+  {
+   "id": "frm.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "539d370b3a920f6020a336bff6c8b1b5aae5d846650bb5a97356425aa3920372"
+  },
+  {
+   "id": "frm.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "102d65efc9c0d2565a07353cfc9f5fc5ebf614541fd7633a91f44555a22b1eaf"
+  },
+  {
+   "id": "frm.obl.reduce-loss",
+   "heading": "Prevent Further Loss",
+   "sha256": "6e9c7f4a4520b3beb8ee3a2b6b3243fa05fdf26a540cf0fe43f6c3441d832519"
+  },
+  {
+   "id": "frm.obl.admissions",
+   "heading": "Admissions and Settlements",
+   "sha256": "d7a48aeabb1cd09ab4f3393c3e8260566b0ee78525a4243bc3540729942f20dc"
+  },
+  {
+   "id": "frm.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "b0c1cdf4b68fadc49a19be6ed3ce65a1807b8b13c3a359f50b0b3213e10ecc95"
+  },
+  {
+   "id": "frm.obl.subrogation",
+   "heading": "Recovery from Others",
+   "sha256": "22bac438d112a18a2a8be6ba4d348db60ccf0ea343bb981e98c05912b51d5fe4"
+  },
+  {
+   "id": "frm.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "48e8a54a814af1ae65a9a7bc049c48f01d03dbd89dbff8f45228e7ad10d73ce7"
+  },
+  {
+   "id": "frm.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "bbcc977cbfd566fc4be58ab3f25bac758dede1e439dc57ba5ca84b9816d7b4c3"
+  },
+  {
+   "id": "frm.cond.emergency-warnings",
+   "heading": "Emergency Warnings at the Start of Cover",
+   "sha256": "9a14ab06ab91e98f56e43736bea144cbc0ccfea9ea8e54d6a5276c2022df0a92"
+  },
+  {
+   "id": "frm.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "87e1f86b98d67553cfa9d50281ea234cc79854b92d68bb45d9ea0255f95c49bd"
+  },
+  {
+   "id": "frm.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "f5077a3ee35d791703cf641ee0c4b56f0cdd425868bc5331701a49d787096d17"
+  },
+  {
+   "id": "frm.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "93420dcd87f8ad9ccc3a5d0f534ad54b5a759720fbf955a5249eb6fd6c3aedf1"
+  },
+  {
+   "id": "frm.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "frm.cond.interested-parties",
+   "heading": "Interested Parties",
+   "sha256": "c5debc3fc1e158aca64aea13436b62f44a1b13397972c567451d985fefa0c21c"
+  },
+  {
+   "id": "frm.cond.gst",
+   "heading": "GST",
+   "sha256": "57655742d02b0940407c1fd774c7525306cee1f69ae1d06edd0ed75b6383f530"
+  },
+  {
+   "id": "frm.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "a29bc135947f063f883aee0d5109a1cf8e4958b2626290f315d756d9971d13bc"
+  },
+  {
+   "id": "frm.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "26b402486bfdca5d4c479ef989f929861cb6420cfa3103cf2298098e0b731662"
+  },
+  {
+   "id": "frm.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "09c3e76a968bdb89856408cd3ed7f896783d707ebee748f7fad05bc74b73abeb"
+  },
+  {
+   "id": "frm.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "frm.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "frm.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "841cd7b405d6165f9615fe128f9d46b4c6240e71dc3fa421b63281c3acdd518b"
+  },
+  {
+   "id": "frm.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "c286c772362768ee1bc53ab37384115939c42bb2eb9286efb5ff871a12de7e1b"
+  },
+  {
+   "id": "frm.end.e01",
+   "heading": "E01 Flood Cover",
+   "sha256": "093fc173b4517bbbcc4c7b05749978f4cf036066e5ec5852d01f86d16d49f675"
+  },
+  {
+   "id": "frm.end.e02",
+   "heading": "E02 Fabric Structures",
+   "sha256": "f3e8ec19cff625caacbbc04daac2b0936fdded2016f9b553d3cd3cc1ce17ba9b"
+  },
+  {
+   "id": "frm.end.e03",
+   "heading": "E03 Farm Stays and Paying Guests",
+   "sha256": "3f68f591eecae4cc62eb189f78d2ec1ea7d7b7f32a387dca4aa131f0d5c7f189"
+  },
+  {
+   "id": "frm.end.e04",
+   "heading": "E04 Horse Riding and Equestrian Activities",
+   "sha256": "e6e3568fd89b1e654a3dc9802ecdbf79e1fcbb18cdfb1e9daa3945c9aeb7a0e2"
+  },
+  {
+   "id": "frm.end.e05",
+   "heading": "E05 Incidental Contracting",
+   "sha256": "9e16986e76239c1dab49738fed943882d0248fa0f75899ac3e7194df134b4b6d"
+  },
+  {
+   "id": "frm.end.e06",
+   "heading": "E06 Ground Spraying Conditions",
+   "sha256": "69cd1fe443491607c0c9ce471132618668af154c0817d38eea892aa44319c9c9"
+  },
+  {
+   "id": "frm.end.e07",
+   "heading": "E07 Hay and Fodder Storage",
+   "sha256": "81cf895e006cbadd6cb32b64dec7f594853f468f73df655bea6b816a7d9ec8cc"
+  },
+  {
+   "id": "frm.end.e08",
+   "heading": "E08 Stud and High-Value Animals",
+   "sha256": "23e585a75a95c2bc122216db22a54158b057dd5f1fdd059b78c2ada90aadf59b"
+  },
+  {
+   "id": "frm.end.e09",
+   "heading": "E09 Interested Party",
+   "sha256": "76f5c2f4bf9f15dc8aed0bf25a4fff2c9369ff18322abb3c18750384d2f100e9"
+  },
+  {
+   "id": "frm.end.e10",
+   "heading": "E10 Lloyd's Underwriters",
+   "sha256": "0b8f86dd4b8bc789164bf8a85f28d34d7fadbe3bb43a33727140c071cbe95e7e"
+  },
+  {
+   "id": "frm.end.e11",
+   "heading": "E11 Bushfire Special Excess",
+   "sha256": "7b0b7bb242458d732952b63394f66c4b9353499fb8b46e12a788681b5707d966"
+  },
+  {
+   "id": "frm.end.e12",
+   "heading": "E12 Farm Gate Sales and Markets",
+   "sha256": "5ee49fbf3737124cc2db632624c88347cd6b9b0dae730e4ddb05c82a08cfa73b"
+  },
+  {
+   "id": "frm.end.e13",
+   "heading": "E13 Agistment of Other Owners' Livestock",
+   "sha256": "0d1b535f844099e35df3ae485de0fc0f5a8f74029f8e859e57f6e22a640bdb98"
+  },
+  {
+   "id": "frm.end.e14",
+   "heading": "E14 Northern Australia Cyclone",
+   "sha256": "2074cca2ec3528c8de3700651246df714ac570e3348562fb254b15ff6ad6ff3a"
+  },
+  {
+   "id": "frm.end.e15",
+   "heading": "E15 Firefighting Equipment",
+   "sha256": "d622414278e276aac4e863e6641bcafe9e8f14f405ad75ccb96019fc282efa92"
+  },
+  {
+   "id": "frm.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "frm.end.e01",
+   "heading": "E01 Flood Cover",
+   "trigger": {
+    "questions": [
+     "qs.frm.cover.flood_buyback"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.cover.flood_buyback == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for flood cover, which the underwriter prices for the farm location's flood exposure.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.cover.flood_buyback",
+     "text": "Do you want flood cover?",
+     "type": "yes/no",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e02",
+   "heading": "E02 Fabric Structures",
+   "trigger": {
+    "questions": [
+     "qs.frm.property.fabric_shelters"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.property.fabric_shelters == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because farm property includes fabric structures, such as hay covers, poly tunnels or fabric sheds.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.property.fabric_shelters",
+     "text": "Does farm property include fabric structures, such as hay covers, poly tunnels or fabric sheds?",
+     "type": "yes/no",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e03",
+   "heading": "E03 Farm Stays and Paying Guests",
+   "trigger": {
+    "questions": [
+     "qs.frm.ops.farm_stay"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.ops.farm_stay == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the farm business has paying guests, which the underwriter assesses before cover is given.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.ops.farm_stay",
+     "text": "Does the farm business provide accommodation, meals or tours to paying guests?",
+     "type": "yes/no",
+     "used_by": "R, A, E03"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e04",
+   "heading": "E04 Horse Riding and Equestrian Activities",
+   "trigger": {
+    "questions": [
+     "qs.frm.ops.horse_riding_visitors"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.ops.horse_riding_visitors == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because visitors ride horses at the farm, which the underwriter assesses before cover is given.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.ops.horse_riding_visitors",
+     "text": "Do visitors ride horses at the farm, or do you organise equestrian events?",
+     "type": "yes/no",
+     "used_by": "R, A, E04"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e05",
+   "heading": "E05 Incidental Contracting",
+   "trigger": {
+    "questions": [
+     "qs.frm.ops.contracting_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.ops.contracting_pct > 20",
+      "action": "refer"
+     },
+     {
+      "when": "qs.frm.ops.contracting_pct > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the farm business does contracting for others. More than 20% of gross farm turnover from contracting is referred to an underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.ops.contracting_pct",
+     "text": "What share of gross farm turnover comes from contracting for others (%)?",
+     "type": "number (percent)",
+     "used_by": "R, A, E05"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e06",
+   "heading": "E06 Ground Spraying Conditions",
+   "trigger": {
+    "questions": [
+     "qs.frm.ops.ground_spraying"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.ops.ground_spraying == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the farm business sprays chemicals by ground equipment.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.ops.ground_spraying",
+     "text": "Do you or your employees spray chemicals by ground equipment?",
+     "type": "yes/no",
+     "used_by": "R, E06"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e07",
+   "heading": "E07 Hay and Fodder Storage",
+   "trigger": {
+    "questions": [
+     "qs.frm.produce.hay_stored"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.produce.hay_stored == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the farm business stores hay or fodder.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.produce.hay_stored",
+     "text": "Does the farm business store hay, silage, straw or fodder?",
+     "type": "yes/no",
+     "used_by": "E07"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e08",
+   "heading": "E08 Stud and High-Value Animals",
+   "trigger": {
+    "questions": [
+     "qs.frm.livestock.max_animal_value"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.livestock.max_animal_value > 20000",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because an animal is worth more than $20,000. The underwriter lists high-value animals at agreed values.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.livestock.max_animal_value",
+     "text": "What is the value of the most valuable single animal?",
+     "type": "number (currency)",
+     "used_by": "A, E08"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e09",
+   "heading": "E09 Interested Party",
+   "trigger": {
+    "questions": [
+     "qs.frm.insured.has_financier"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.insured.has_financier == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because a financier has an interest in insured property.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.insured.has_financier",
+     "text": "Does a financier or lender have an interest in insured property?",
+     "type": "yes/no",
+     "used_by": "E09"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e10",
+   "heading": "E10 Lloyd's Underwriters",
+   "trigger": {
+    "questions": [
+     "qs.frm.insured.lloyds_binder"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.insured.lloyds_binder == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the policy is placed with Lloyd's underwriters.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.insured.lloyds_binder",
+     "text": "Is the policy placed with Lloyd's underwriters?",
+     "type": "yes/no",
+     "used_by": "E10"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e11",
+   "heading": "E11 Bushfire Special Excess",
+   "trigger": {
+    "questions": [
+     "qs.frm.location.bushfire_band"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.location.bushfire_band == EXTREME",
+      "action": "refer"
+     },
+     {
+      "when": "qs.frm.location.bushfire_band == HIGH",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the farm location has a high bushfire exposure. An extreme exposure is referred to an underwriter.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.location.bushfire_band",
+     "text": "What is the bushfire exposure of the main farm buildings?",
+     "type": "select",
+     "options": [
+      "LOW",
+      "MEDIUM",
+      "HIGH",
+      "EXTREME"
+     ],
+     "used_by": "R, A, E11"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e12",
+   "heading": "E12 Farm Gate Sales and Markets",
+   "trigger": {
+    "questions": [
+     "qs.frm.ops.direct_sales"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.ops.direct_sales == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the farm business sells produce direct to the public.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.ops.direct_sales",
+     "text": "Do you sell farm produce direct to the public, at the farm gate, at markets or at shows?",
+     "type": "yes/no",
+     "used_by": "E12"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e13",
+   "heading": "E13 Agistment of Other Owners' Livestock",
+   "trigger": {
+    "questions": [
+     "qs.frm.livestock.agistment_in"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.livestock.agistment_in == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the farm business takes in other owners' livestock on agistment.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.livestock.agistment_in",
+     "text": "Does the farm business take in other owners' livestock on agistment?",
+     "type": "yes/no",
+     "used_by": "S, E13"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e14",
+   "heading": "E14 Northern Australia Cyclone",
+   "trigger": {
+    "questions": [
+     "qs.frm.location.north_of_26"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.location.north_of_26 == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the farm location is north of the 26th parallel, where the underwriter sets cyclone terms.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.location.north_of_26",
+     "text": "Is any part of the farm location north of the 26th parallel of south latitude?",
+     "type": "yes/no",
+     "used_by": "A, E14"
+    }
+   ]
+  },
+  {
+   "id": "frm.end.e15",
+   "heading": "E15 Firefighting Equipment",
+   "trigger": {
+    "questions": [
+     "qs.frm.fire.firefighting_unit"
+    ],
+    "rules": [
+     {
+      "when": "qs.frm.fire.firefighting_unit == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you keep a firefighting unit at the farm location, which earns a premium credit.",
+    "responses": [
+     "Attach",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.frm.fire.firefighting_unit",
+     "text": "During the fire danger season, do you keep a firefighting unit with a pump and at least 400 litres of water ready to use?",
+     "type": "yes/no",
+     "used_by": "R, E15"
+    }
+   ]
+  }
+ ],
+ "sha256": "fa2a1c5ae7f5d7c3082834dfaa714c495b123ac960d51591f4d56e530239cb61"
+}
