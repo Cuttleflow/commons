@@ -74,6 +74,10 @@ questions:
     text: Does the farm business include an intensive piggery, a cattle feedlot, aquaculture, forestry or commercial fishing?
     type: yes/no
     used_by: A
+  - id: qs.frm.enterprise.specialist
+    text: Does any farm income come from poultry, a nursery, glasshouses or turf, or from horses, deer, bees or other livestock?
+    type: yes/no
+    used_by: A
   - id: qs.frm.enterprise.dairy_herd
     text: How many cows are in the milking herd (0 if none)?
     type: number

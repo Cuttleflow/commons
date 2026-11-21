@@ -8,6 +8,6 @@ This is the first release of the Meridian Farm Pack wording. It is a new wording
 - Farm Interruption pays loss of farm income and increased cost of working, including fodder and agistment when a bushfire destroys pasture, and lost agistment income.
 - Farm Liability covers straying livestock, fire spreading from the farm, ground spraying, incidental contracting, farm gate sales and property in your care, including livestock. Pollution is covered only when sudden; spray drift at a specific time and place is sudden.
 - Flood is excluded unless E01 is attached. An emergency warning in force at the start of cover suspends bushfire and flood cover for 72 hours.
-- Endorsements E01 to E15 each carry an Addendum B trigger read from 47 qs.frm platform questions.
+- Endorsements E01 to E15 each carry an Addendum B trigger read from 48 qs.frm platform questions.
 - General conditions: an Insurance Contracts Act savings clause applying s.54 to every condition, including endorsement conditions; a standalone sanctions condition; and governing law fixed to the main state or territory at the start of the policy period.
 - The licence is CC BY 4.0, in line with the rest of the Commons.
