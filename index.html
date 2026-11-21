@@ -90,6 +90,16 @@
  .wprow{flex-direction:column;gap:2px}
 }
 /* hub:css:end */
+/* Market coverage figure (GO-COVERAGE, Nov 2026). Kept inline so the block renders on cuttleflow.com and commons.cuttleflow.com alike. */
+.cov{display:grid;grid-template-columns:auto 1fr;gap:10px 32px;align-items:center;margin-top:14px;padding:26px 0;border-top:1px solid var(--rule,rgba(28,25,21,.16));border-bottom:1px solid var(--rule,rgba(28,25,21,.16))}
+.cov-fig{margin:0;font-family:var(--mono,'IBM Plex Mono',ui-monospace,monospace);font-size:clamp(64px,11vw,112px);line-height:1;font-weight:500;letter-spacing:-.02em;color:var(--orange,#C24E2C)}
+.cov-text{margin:0;max-width:36ch;font-family:var(--serif,'Spectral',Georgia,serif);font-size:clamp(19px,2.3vw,24px);line-height:1.35;color:var(--ink,#1C1915)}
+.cov-text sup,.cov-notes sup{font-size:.55em;line-height:0}
+.cov-text sup a{color:inherit;text-decoration:none;border-bottom:1px solid currentColor}
+.cov-notes{margin:18px 0 0;padding-left:1.4em;max-width:92ch;font-size:12.5px;line-height:1.55;color:rgba(28,25,21,.72)}
+.cov-notes li{margin-top:6px}
+.cov-notes li:target{background:rgba(226,217,200,.5)}
+@media (max-width:640px){.cov{grid-template-columns:1fr;gap:6px}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Cuttleflow Commons","description":"The library holds 64 open Australian policy wordings, published under CC BY 4.0 as working drafts subject to legal review.","url":"https://commons.cuttleflow.com/","inLanguage":"en-AU","license":"https://creativecommons.org/licenses/by/4.0/","publisher":{"@type":"Organization","name":"Cuttleflow Systems","url":"https://cuttleflow.com/"}}</script>
 </head>
@@ -122,6 +132,21 @@
 </div>
 <p class="mono" style="margin-top:16px;color:var(--ink-55);text-transform:none;letter-spacing:0;font-size:12.5px">A free GitHub account lets you comment on any wording, or edit the text yourself and send us the change &mdash; see <a href="https://github.com/cuttleflow/commons/blob/main/CONTRIBUTING.md">how contributions work</a>. No account? Send your point through our <a href="https://cuttleflow.com/access">contact page</a> and we will file it for you.</p>
 </section>
+<!-- GO-COVERAGE -->
+<section class="section" id="market-coverage" aria-label="Market coverage of Cuttleflow Go products">
+<p class="mono" style="color:var(--green,#2E5C4E)">Market coverage</p>
+<div class="cov">
+<p class="cov-fig">90%</p>
+<p class="cov-text">of Australian general insurance premium, outside the statutory classes, is for cover written on a Commons wording and available as a product on <a href="https://cuttleflow.com/go">Cuttleflow Go</a>.<sup><a href="#cov-n1">1</a>,<a href="#cov-n2">2</a>,<a href="#cov-n3">3</a>,<a href="#cov-n4">4</a></sup></p>
+</div>
+<ol class="cov-notes">
+<li id="cov-n1"><strong>Market:</strong> direct gross written premium of APRA-authorised general insurers in the year to 30 June 2026, $72.6&nbsp;billion (APRA, <a href="https://www.apra.gov.au/news-and-publications/quarterly-general-insurance-performance-statistics">Quarterly General Insurance Performance Statistics</a>, June 2026). Inwards reinsurance, Lloyd&rsquo;s and unauthorised foreign insurers are not included.</li>
+<li id="cov-n2"><strong>Statutory classes:</strong> compulsory third party motor and employers&rsquo; liability (workers&rsquo; compensation), which are written under state schemes, and lenders mortgage and consumer credit insurance, which are sold with loans. Together they write about $7.3&nbsp;billion. Including them, the figure is 81%.</li>
+<li id="cov-n3"><strong>Method:</strong> premium for each APRA class is estimated from APRA&rsquo;s published quarterly figures and its National Claims and Policies Database. A class counts in full where Cuttleflow Go products cover all of it, and in part where a segment has no product yet: for example motorcycles and caravans in domestic motor, aviation in marine and aviation, and doctors&rsquo; medical indemnity in professional indemnity. The figure measures market premium for that cover. It is not premium written on Cuttleflow.</li>
+<li id="cov-n4"><strong>As at</strong> 21 November 2026, with 40 classes on Cuttleflow Go, including farm. Recalculated when a product is added and when APRA publishes new figures.</li>
+</ol>
+</section>
+<!-- /GO-COVERAGE -->
 <!-- hub:list:start -->
 <section class="section" id="wordings">
 <div class="eyebrow-rule"><span class="mono" style="color:var(--green)">The wordings</span><span class="mono" style="color:var(--ink-55)"><span data-n="wordings">64</span> wordings &middot; <span data-n="groups">9</span> groups &middot; all draft</span></div>
