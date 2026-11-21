@@ -62,16 +62,15 @@
       "environmental-liability",
       "product-recall-and-contamination",
       "construction-all-risks",
-      "plant-and-equipment",
-      "freight-services-liability"
+      "plant-and-equipment"
      ]
     }
    ]
   },
   {
    "id": "biz",
-   "name": "Business, property and cargo",
-   "blurb": "Packaged and property covers for businesses, buildings, goods in transit and commercial vessels.",
+   "name": "Business and property",
+   "blurb": "Packaged and property covers for businesses, buildings, industrial sites and portable equipment.",
    "subgroups": [
     {
      "label": null,
@@ -81,10 +80,29 @@
       "strata",
       "commercial-property-owners",
       "industrial-special-risks",
-      "marine-cargo",
-      "commercial-hull",
-      "carriers-combined",
       "equipment-floater"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "marine",
+   "name": "Marine and transit",
+   "blurb": "Cover for goods in transit, the liability of carriers and freight forwarders, and commercial and pleasure vessels.",
+   "subgroups": [
+    {
+     "label": "Cargo and transit",
+     "slugs": [
+      "marine-cargo",
+      "carriers-combined",
+      "freight-services-liability"
+     ]
+    },
+    {
+     "label": "Vessels",
+     "slugs": [
+      "commercial-hull",
+      "pleasure-craft"
      ]
     }
    ]
@@ -138,16 +156,15 @@
   },
   {
    "id": "home",
-   "name": "Home, landlords and boats",
-   "blurb": "Personal lines for homes, rental properties and pleasure craft.",
+   "name": "Home and landlords",
+   "blurb": "Personal lines for homes and rental properties.",
    "subgroups": [
     {
      "label": null,
      "slugs": [
       "home-and-contents",
       "private-client-home",
-      "landlords",
-      "pleasure-craft"
+      "landlords"
      ]
     }
    ]
