@@ -1,0 +1,120 @@
+id: dli-base
+title: Decennial Liability Insurance (New South Wales)
+class: DECENNIAL LIABILITY INSURANCE
+kicker: Meridian Commons · Construction
+slug: decennial-liability
+file_stem: Meridian_Decennial_Liability_Insurance_NSW
+doc_ref: 2026/DLI/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Ten-year, first-resort cover for relevant defects in the building elements of the common property of a new NSW residential apartment building, taken out by the developer for the owners corporation
+  under s.211AA of the Strata Schemes Management Act 2015 (NSW). Not yet accepted by the Secretary as a form of decennial liability insurance.
+structure:
+- section: preamble
+  clauses:
+  - dli.about
+  - dli.version-history
+  - dli.important-information
+  - dli.schedule
+- section: dli.section.definitions
+  clauses:
+  - dli.def.building
+  - dli.def.building-element
+  - dli.def.building-work
+  - dli.def.builder
+  - dli.def.certificate-of-currency
+  - dli.def.claim
+  - dli.def.common-property
+  - dli.def.construction-contract
+  - dli.def.contract-value
+  - dli.def.developer
+  - dli.def.excess
+  - dli.def.final-technical-inspection-report
+  - dli.def.lot
+  - dli.def.lot-owner
+  - dli.def.occupation-certificate
+  - dli.def.owners-corporation
+  - dli.def.period-of-insurance
+  - dli.def.rectification-costs
+  - dli.def.related-defects
+  - dli.def.relevant-defect
+  - dli.def.strata-scheme
+  - dli.def.sum-insured
+  - dli.def.technical-inspection-plan
+  - dli.def.technical-inspector
+  - dli.def.we-us-our
+  - dli.def.you-your
+- section: dli.section.cover
+  clauses:
+  - dli.cover.relevant-defects
+  - dli.cover.first-resort
+  - dli.cover.late-notification
+  - dli.cover.after-the-period
+  - dli.ext.make-safe
+  - dli.ext.investigation-costs
+  - dli.ext.access-and-reinstatement
+  - dli.ext.professional-fees
+  - dli.ext.building-law
+- section: dli.section.payment
+  clauses:
+  - dli.pay.rectification-costs
+  - dli.pay.how-we-settle
+  - dli.pay.claims-timeframes
+  - dli.pay.sum-insured
+  - dli.pay.excess
+  - dli.pay.gst
+- section: dli.section.exclusions
+  clauses:
+  - dli.excl.wear-and-tear
+  - dli.excl.maintenance
+  - dli.excl.alterations
+  - dli.excl.lot-property
+  - dli.excl.external-events
+  - dli.excl.financial-loss
+  - dli.excl.deliberate-damage
+  - dli.excl.fines
+  - dli.excl.war
+  - dli.excl.nuclear
+  - dli.excl.terrorism
+- section: dli.section.obligations
+  clauses:
+  - dli.obl.tell-us-about-defects
+  - dli.obl.access
+  - dli.obl.preventing-further-damage
+  - dli.obl.recovery-help
+  - dli.obl.agreements-with-others
+  - dli.obl.developer
+- section: dli.section.conditions
+  clauses:
+  - dli.cond.statutory-basis
+  - dli.cond.insurance-contracts-act
+  - dli.cond.protection-of-the-owners-corporation
+  - dli.cond.commencement
+  - dli.cond.no-cancellation
+  - dli.cond.premium
+  - dli.cond.owners-corporation-insured
+  - dli.cond.recovery-from-others
+  - dli.cond.no-double-recovery
+  - dli.cond.other-insurance
+  - dli.cond.information-for-the-regulator
+  - dli.cond.records
+  - dli.cond.technical-disputes
+  - dli.cond.fraud
+  - dli.cond.sanctions
+  - dli.cond.gst
+  - dli.cond.privacy
+  - dli.cond.disputes-and-complaints
+  - dli.cond.governing-law
+  - dli.cond.jurisdiction
+  - dli.cond.headings-and-references
+- section: end
+  clauses:
+  - dli.claims.how-to-make-a-claim
+  - dli.endorsement-library
+  - dli.end.e01
+  - dli.end.e02
+  - dli.end.e03
+  - dli.end.e04
+  - dli.end.e05
+  - dli.licence-notice
