@@ -1,0 +1,667 @@
+{
+ "wording": "dli-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/DLI/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "dli.about",
+   "heading": "About This Policy",
+   "sha256": "37b3737002ebdcf0442e9610915e4911716758f7f26598c2ab22477a46882b3c"
+  },
+  {
+   "id": "dli.version-history",
+   "heading": "Version and Document History",
+   "sha256": "809821493b2262b16fc18913bf9f13848536f1cb8345fd3756a8b55ae9f9398c"
+  },
+  {
+   "id": "dli.important-information",
+   "heading": "Important Information",
+   "sha256": "fa47e2b01b3c8e7ce07891dd065945bcb00a77c2fdfd7663a951d838e96bbdf1"
+  },
+  {
+   "id": "dli.schedule",
+   "heading": "Schedule",
+   "sha256": "300a4de5972935beacd320a6d0d840b5fe2fb4b5a98d26520250cd16616be736"
+  },
+  {
+   "id": "dli.section.definitions",
+   "heading": "Definitions",
+   "sha256": "2107a783970a758e10b6fcc51f465e5e09fb8d25398e2396e4662fa77082da1e"
+  },
+  {
+   "id": "dli.def.building",
+   "heading": "Building",
+   "sha256": "ec441887dba04035ed7b70e83b003664a29a2c558767e9a4da3f9b42b65258d3"
+  },
+  {
+   "id": "dli.def.building-element",
+   "heading": "Building Element",
+   "sha256": "be9dc347776bedd7a517dd0ad88c9813b506f98d28d65444e89966bb75cdea97"
+  },
+  {
+   "id": "dli.def.building-work",
+   "heading": "Building Work",
+   "sha256": "04075312b6c38ea52ad57959fb2440705a9e1a23849dcb5d74052b5042182dc9"
+  },
+  {
+   "id": "dli.def.builder",
+   "heading": "Builder",
+   "sha256": "fda7cf440dea53e6e27fc3dc93f70e756d4b3a0ad408be8526f926bfe4366829"
+  },
+  {
+   "id": "dli.def.certificate-of-currency",
+   "heading": "Certificate of Currency",
+   "sha256": "cbc9c11ced279fe06149dd90205968e6e7d28dc408cc7dc1cc654516607cb1ce"
+  },
+  {
+   "id": "dli.def.claim",
+   "heading": "Claim",
+   "sha256": "751f217aeb361c5a85c1bb2c09d3a13e04b5de6a83e3cbce387ae19fb86ad172"
+  },
+  {
+   "id": "dli.def.common-property",
+   "heading": "Common Property",
+   "sha256": "d22ee1e032a90d3eee399a20b75ab4bd8c268234062ad815d434bc4283233de2"
+  },
+  {
+   "id": "dli.def.construction-contract",
+   "heading": "Construction Contract",
+   "sha256": "6e818fda2a4bb59185b678d43e281873211d3acc8489d0f93bbcc115df0ca6e6"
+  },
+  {
+   "id": "dli.def.contract-value",
+   "heading": "Contract Value",
+   "sha256": "1363b7dd2ae76fd8f7da914e616031ea153546d39b7abb9c831823e1285f5cfc"
+  },
+  {
+   "id": "dli.def.developer",
+   "heading": "Developer",
+   "sha256": "a952a353a447867771c80f785b875a4079409bd3bcabc3d065be04a0b0f82720"
+  },
+  {
+   "id": "dli.def.excess",
+   "heading": "Excess",
+   "sha256": "8681b324a7a37e61a337c66f6e4e7cb72d8f7f0c23c9d46139496c8da2b33f4b"
+  },
+  {
+   "id": "dli.def.final-technical-inspection-report",
+   "heading": "Final Technical Inspection Report",
+   "sha256": "89bd0c8243158415d734fedef6f950ddce2d2a2937542b0e542c72c940789fde"
+  },
+  {
+   "id": "dli.def.lot",
+   "heading": "Lot",
+   "sha256": "b44698823bf857a5dc65d35656bda9e627c7b2986ca8086c749506fa2b896003"
+  },
+  {
+   "id": "dli.def.lot-owner",
+   "heading": "Lot Owner",
+   "sha256": "0543ed3554688f22b689f67f46ffdd4cef756aa892d537007f400aa116344c65"
+  },
+  {
+   "id": "dli.def.occupation-certificate",
+   "heading": "Occupation Certificate",
+   "sha256": "f9b09a54e449511be1d4cc93768c721a55004e1c4b6242938da1725b0e6a7205"
+  },
+  {
+   "id": "dli.def.owners-corporation",
+   "heading": "Owners Corporation",
+   "sha256": "ad751db7fe0f85cb96c29e81c33c42d3c892317eef73154ab938a64141873f99"
+  },
+  {
+   "id": "dli.def.period-of-insurance",
+   "heading": "Period of Insurance",
+   "sha256": "979f85f2b1536d2a6b7f4e59af1915870a0fb26efaf2acfa0ea093f6a81f9587"
+  },
+  {
+   "id": "dli.def.rectification-costs",
+   "heading": "Rectification Costs",
+   "sha256": "6557237eecd3406755cad0f66b8c651ab31ef2923502433a8b13e73d71edb18c"
+  },
+  {
+   "id": "dli.def.related-defects",
+   "heading": "Related Defects",
+   "sha256": "22abc00effab2491378f43dca8dd61880f508aa9a167ca295f9f93f9291a08e7"
+  },
+  {
+   "id": "dli.def.relevant-defect",
+   "heading": "Relevant Defect",
+   "sha256": "d27eb9e34e39411a5ab9691620c5f8c47013336f902319d7d9d4b67d6068fa22"
+  },
+  {
+   "id": "dli.def.strata-scheme",
+   "heading": "Strata Scheme",
+   "sha256": "aa23e962ee17e112a00c9f4362509996acccd77b9956c74d172a856d62b4b258"
+  },
+  {
+   "id": "dli.def.sum-insured",
+   "heading": "Sum Insured",
+   "sha256": "c669c0c6f4ad5a0d4a9097f595217e30010f6a3eba26b163d2fc6f31eb02b4bd"
+  },
+  {
+   "id": "dli.def.technical-inspection-plan",
+   "heading": "Technical Inspection Plan",
+   "sha256": "e1c1709ef8c2dce47bdc77c5a33e425696fcb7e78c5e2d4a453c003757c3222d"
+  },
+  {
+   "id": "dli.def.technical-inspector",
+   "heading": "Technical Inspector",
+   "sha256": "afa3a9366c57fc6745190dd046c7027cef0dbbead80fee38fef17bc3fc36e7e1"
+  },
+  {
+   "id": "dli.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "dli.def.you-your",
+   "heading": "You, Your",
+   "sha256": "4b8d02a8c96dc11a77036456c1bf6a41495d5523d655f2b0c20f1fbb1bcf1fce"
+  },
+  {
+   "id": "dli.section.cover",
+   "heading": "What We Cover",
+   "sha256": "e834d41269a22da2f2cbf4e91233f798cd86c7850593c73d232844cacf986fe2"
+  },
+  {
+   "id": "dli.cover.relevant-defects",
+   "heading": "Relevant Defects in the Common Property",
+   "sha256": "8f1c8e839c93435298672d7f895d321e70a2d8a7e5095026fd0f7a78037c0972"
+  },
+  {
+   "id": "dli.cover.first-resort",
+   "heading": "First Resort",
+   "sha256": "043a23c95daaa5000d2bc4ef90bdb50e8ced113df288e95f647b501a43935ef9"
+  },
+  {
+   "id": "dli.cover.late-notification",
+   "heading": "Defects Discovered Near the End of the Period",
+   "sha256": "a25fb605324698d45b2eb4f108c8ba39606ddb9b0344ecd0176a605a89657e23"
+  },
+  {
+   "id": "dli.cover.after-the-period",
+   "heading": "Rectification After the Period Ends",
+   "sha256": "20093cb1226982f9afdc4d0cd96d3bbe312292e4e2c9bde64eb1ab441a57309e"
+  },
+  {
+   "id": "dli.ext.make-safe",
+   "heading": "Making the Building Safe",
+   "sha256": "6069944c0233ed26ba50dde08b6193e5748ec0c695d7459c055cbd89c1cd0d57"
+  },
+  {
+   "id": "dli.ext.investigation-costs",
+   "heading": "Investigation Costs",
+   "sha256": "66a86edbf8ffed1ad393b1fd68696f00dd33a34ef37b88ad4dc23fbabb1507ea"
+  },
+  {
+   "id": "dli.ext.access-and-reinstatement",
+   "heading": "Access and Reinstatement",
+   "sha256": "87e7695b05a71c64f45cf63bd7403900ac431c8b89960532a64f09634502e7b2"
+  },
+  {
+   "id": "dli.ext.professional-fees",
+   "heading": "Professional and Statutory Fees",
+   "sha256": "0be43b9b9a8b7660e380b8eecc7a8f47a276ffa16dfc4ef711ca9fc45cfd180b"
+  },
+  {
+   "id": "dli.ext.building-law",
+   "heading": "Compliance With Current Building Law",
+   "sha256": "86f451b104dfb7cecf1fa639c86652e951585a712cd10c64e8a9b84e882dbbce"
+  },
+  {
+   "id": "dli.section.payment",
+   "heading": "How We Pay",
+   "sha256": "305bab8bfc5c89a75cbff3aa7ee8f95d51a5549a7f11db1c457b064992efe2a8"
+  },
+  {
+   "id": "dli.pay.rectification-costs",
+   "heading": "Rectification Costs",
+   "sha256": "7d9d1227c90d171e6312c9cc1bef35cf9a56090081c0d930fe9941e8ed7a0e17"
+  },
+  {
+   "id": "dli.pay.how-we-settle",
+   "heading": "How We Settle a Claim",
+   "sha256": "c9e12c25cac89e92d667070abdaaa5228e9254e4df5857f31e82fef263ebaca4"
+  },
+  {
+   "id": "dli.pay.claims-timeframes",
+   "heading": "When We Decide and Pay",
+   "sha256": "94fab1d2ff0657db45c55c6c527230fddc9754470b01523543d49ec823fdcb12"
+  },
+  {
+   "id": "dli.pay.sum-insured",
+   "heading": "Sum Insured",
+   "sha256": "105018718937948d8bc2da69db6da99d16c6de66c53a21087c3bb9b4755d2f8e"
+  },
+  {
+   "id": "dli.pay.excess",
+   "heading": "Excess",
+   "sha256": "58360dbb362216c1a44fa9fa3c91f33adb5ba129ea4b134d9547c68352b0e18a"
+  },
+  {
+   "id": "dli.pay.gst",
+   "heading": "GST",
+   "sha256": "dca0f78dd208aa5fee87609d5477df7516a12ae379f5a3beaf86c24022af3809"
+  },
+  {
+   "id": "dli.section.exclusions",
+   "heading": "What We Do Not Cover",
+   "sha256": "68c410828a4add6778e5ac0d5f75269240fcd9b1eaab9dca055cd3c4c0b5a33d"
+  },
+  {
+   "id": "dli.excl.wear-and-tear",
+   "heading": "Wear and Tear",
+   "sha256": "60b053d05abb7d03f246976d2b5a2ebb75f80e1ff332529caed1fc3ab3cdc6c3"
+  },
+  {
+   "id": "dli.excl.maintenance",
+   "heading": "Lack of Maintenance",
+   "sha256": "a2534f23189285ff8c308895fcdf35c4633c7bd1181c4d1f0a84fb51d1c1e6da"
+  },
+  {
+   "id": "dli.excl.alterations",
+   "heading": "Alterations After Completion",
+   "sha256": "b64418898872732b263be09c284efa69a7dc810ec8358c38b89136ed0dbb53ea"
+  },
+  {
+   "id": "dli.excl.lot-property",
+   "heading": "Defects in Lot Property",
+   "sha256": "f2c90f8b226d6ccb17c127a4f672e9576e038d288974d2c2808572d386b396fc"
+  },
+  {
+   "id": "dli.excl.external-events",
+   "heading": "Damage From External Events",
+   "sha256": "5e0873289c657cc7e93cebaae1430da34a45e22ac96e7d15ad946c469f7ff23a"
+  },
+  {
+   "id": "dli.excl.financial-loss",
+   "heading": "Loss of Use and Other Financial Loss",
+   "sha256": "bcc429dcab71679c3da090179a68b3abac5bb6a66ecce99e5852e933f46d4455"
+  },
+  {
+   "id": "dli.excl.deliberate-damage",
+   "heading": "Deliberate Damage",
+   "sha256": "81360107107acc813a750a5b9d69fe673d2f0bb2e41b8a61c9d3af851f5dc9a5"
+  },
+  {
+   "id": "dli.excl.fines",
+   "heading": "Fines and Penalties",
+   "sha256": "23cf92c1bd5bf0dc3c37be65241e5bfc9bd3c328ce77cb99d2c70b1086bb5da9"
+  },
+  {
+   "id": "dli.excl.war",
+   "heading": "War",
+   "sha256": "f5ba68af02f577bfb8ccefbb0a90e5476a2abf35aa4a285420b6dccc096637c4"
+  },
+  {
+   "id": "dli.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "c9b8cbaa80f5d6f932358c84e818d7c070efd08ccd9233909695021502983c69"
+  },
+  {
+   "id": "dli.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "3749e7a9d8eeb1305c886e21599fdac3e41fcf60c42b8e6ef953d07d6b50544d"
+  },
+  {
+   "id": "dli.section.obligations",
+   "heading": "What You and the Developer Must Do",
+   "sha256": "8f8e729c4ccba57be0fbb08d599c2026faee7c9e192d71f275cfa76a5b4eede8"
+  },
+  {
+   "id": "dli.obl.tell-us-about-defects",
+   "heading": "Telling Us About Defects",
+   "sha256": "7e2d36144a6615ca0f87529240ebb173547b81a67b1d2c94a8b6cfe8f296fc8e"
+  },
+  {
+   "id": "dli.obl.access",
+   "heading": "Access to the Building",
+   "sha256": "0d23106951ea040f7552ff3557538e1f61262d10d3a850797ff76e3f8f1ed23f"
+  },
+  {
+   "id": "dli.obl.preventing-further-damage",
+   "heading": "Preventing Further Damage",
+   "sha256": "69639f0ebcb0099e7629ca0d903ca1403fd5ff9e48a9d95ee5b9be864369ab20"
+  },
+  {
+   "id": "dli.obl.recovery-help",
+   "heading": "Helping Us Recover From Others",
+   "sha256": "3cf842c3e9b53666e4c586e101fb264d3e42d645955685ade2cfbf48c983a773"
+  },
+  {
+   "id": "dli.obl.agreements-with-others",
+   "heading": "Agreements With the Builder and Others",
+   "sha256": "4a2e692a74c2b593c4c4e78326b2c8f35ea3360ca3851b6d497c1ea026ab261b"
+  },
+  {
+   "id": "dli.obl.developer",
+   "heading": "The Developer's Obligations Before Cover Starts",
+   "sha256": "0ca68f48218a05b2e82e2347ab514d006f8792dcdf5f78845d17b06f4a05e843"
+  },
+  {
+   "id": "dli.section.conditions",
+   "heading": "Conditions",
+   "sha256": "1ea061009241c69c153d310feb0fad88eba4dbf599cc376c7fa613b3d40faa04"
+  },
+  {
+   "id": "dli.cond.statutory-basis",
+   "heading": "Decennial Liability Insurance Under the Strata Schemes Management Act",
+   "sha256": "71e4e7ffc42887b08dc8216c5f4ed7771a386634a206cc8472358cdc654e4b25"
+  },
+  {
+   "id": "dli.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act 1984 (Cth)",
+   "sha256": "f5b744a55807afc6fbf44654ce7e8ab5ea61bf347caed52d7ffac6c9d32538c2"
+  },
+  {
+   "id": "dli.cond.protection-of-the-owners-corporation",
+   "heading": "Protection of the Owners Corporation",
+   "sha256": "eb104da644678da02bc86190856ae9a0151e820dad0ee9008bd2fc21b3327643"
+  },
+  {
+   "id": "dli.cond.commencement",
+   "heading": "When Cover Starts",
+   "sha256": "a25d31f655ff73d6caf7dd12f2549b2286bc85054a93971458f2c2dcda479414"
+  },
+  {
+   "id": "dli.cond.no-cancellation",
+   "heading": "No Cancellation",
+   "sha256": "4f4b9c6013347dc87dcb7de5209cbc5168679f21c9c44801b420bc6828608a5c"
+  },
+  {
+   "id": "dli.cond.premium",
+   "heading": "Premium and Its Adjustment",
+   "sha256": "b2b7807665d3f7792e29a64b975430c3e246bd248eb394db95dffc3b6d0c6c90"
+  },
+  {
+   "id": "dli.cond.owners-corporation-insured",
+   "heading": "The Owners Corporation as the Insured",
+   "sha256": "ff6586ad473794d2d09c2d858a3277f0f76ea9d991a899c9894a2385b6e806e4"
+  },
+  {
+   "id": "dli.cond.recovery-from-others",
+   "heading": "Our Right to Recover From Others",
+   "sha256": "6cabf6c664d3aec9a02cadda8f910c39bff4bd1c265963635671c52fff842431"
+  },
+  {
+   "id": "dli.cond.no-double-recovery",
+   "heading": "Amounts You Recover From Others",
+   "sha256": "8ae445d81f7996c40ec15bb85d0685c33cb446fe6d4fc3b9f6422a549263ca18"
+  },
+  {
+   "id": "dli.cond.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "e7fa23e9059826a3a8b5a6f10aacd6dd5a8be1fa3a911c7e91d4d82672f00e2c"
+  },
+  {
+   "id": "dli.cond.information-for-the-regulator",
+   "heading": "Information for the Regulator",
+   "sha256": "d23cb686ba668b31ecb8e9d433d319a373b4e0cdc8a0a1c68b4db7d243a80a52"
+  },
+  {
+   "id": "dli.cond.records",
+   "heading": "Records We Keep",
+   "sha256": "1f7a5c6605fb4b0bf476553d7e7ffdb4d1c09f7edce8fa4ab04eea56d812bc61"
+  },
+  {
+   "id": "dli.cond.technical-disputes",
+   "heading": "Technical Disputes",
+   "sha256": "795151cebe8d563887f4806ce56edb09b48b1992a0eeeb700116137200a96099"
+  },
+  {
+   "id": "dli.cond.fraud",
+   "heading": "Fraud",
+   "sha256": "ceedad04e9933c50b6febf711efd2a2fd4fd628d412eb249d3c8a2199e087e2e"
+  },
+  {
+   "id": "dli.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "dli.cond.gst",
+   "heading": "Goods and Services Tax",
+   "sha256": "3912a834a94e00a3ffad4d8dfef49ad83cb2ef2e5bbb5a7ebf21125bf17a8c87"
+  },
+  {
+   "id": "dli.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "f27285eeefc488e9bbfc698b471f770f1c8eb4cc592005c3bd7cf794a6bf4931"
+  },
+  {
+   "id": "dli.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "1ad3555b5748fd77dd12965d7c881a34ee497801833c2a63485292f6aae7a966"
+  },
+  {
+   "id": "dli.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "655083814b7b616cd01ff2a816a16bdc6b0b0a6f6c37e15127f4a1e96e676e09"
+  },
+  {
+   "id": "dli.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "257e6c8eaa4095e141acbf7d33be243b4ab42cd30e6ccd2738aabc5ab3fd91b8"
+  },
+  {
+   "id": "dli.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "6fcaf790eb8891e2f5847dc0da1f8f8b3360016fd27e37f23426965aecc38ece"
+  },
+  {
+   "id": "dli.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "8f0512faf99231fdc42c4e88ce8403a23c5955a2bad7a2eaa256f6277c70d864"
+  },
+  {
+   "id": "dli.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "20eac66eaf0afa9fe4ab2c93e695bccedaede9c313e8b512a77670c529d93918"
+  },
+  {
+   "id": "dli.end.e01",
+   "heading": "E01 Alternative Accommodation",
+   "sha256": "90f5e32e9fb874e4b325e229cb708d2c0b3543f15992bf4b82a6da0af82d2efe"
+  },
+  {
+   "id": "dli.end.e02",
+   "heading": "E02 Waterproofing in Lots",
+   "sha256": "63ee80aa1b3106ce3e732a5a77bc4512d1b06ef3e66b63101a4dde75b9bce7c2"
+  },
+  {
+   "id": "dli.end.e03",
+   "heading": "E03 Outstanding Defects at Completion",
+   "sha256": "704f3be2008180592c3897449c723e18dcbd7b66902ae24209b9c86d7ffea34f"
+  },
+  {
+   "id": "dli.end.e04",
+   "heading": "E04 Mixed-Use Buildings",
+   "sha256": "ffa81585163268392bde2bd45e779f9afd7daadeac281950ff5ba941f4f3d6cc"
+  },
+  {
+   "id": "dli.end.e05",
+   "heading": "E05 Modular and Prefabricated Construction",
+   "sha256": "56374094e15a6f27a64e7ad1e1c36ff1a35485fef56ed3a6e421d32b4f13a219"
+  },
+  {
+   "id": "dli.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "28f146acb3e18636492edcf09f5179c8e0d576e58d87ce9bddb6dcdbb1e71615"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "dli.end.e01",
+   "heading": "E01 Alternative Accommodation",
+   "trigger": {
+    "questions": [
+     "qs.dli.cover.alt_accommodation"
+    ],
+    "rules": [
+     {
+      "when": "qs.dli.cover.alt_accommodation == yes",
+      "action": "apply"
+     },
+     {
+      "when": "qs.dli.cover.alt_accommodation == no",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because a relevant defect can make lots uninhabitable while it is rectified; applies when the developer chooses it.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.dli.cover.alt_accommodation",
+     "text": "Is alternative accommodation cover (E01) required?",
+     "type": "yes/no",
+     "used_by": "R, E01, S"
+    }
+   ]
+  },
+  {
+   "id": "dli.end.e02",
+   "heading": "E02 Waterproofing in Lots",
+   "trigger": {
+    "questions": [
+     "qs.dli.cover.lot_waterproofing"
+    ],
+    "rules": [
+     {
+      "when": "qs.dli.cover.lot_waterproofing == yes",
+      "action": "apply"
+     },
+     {
+      "when": "qs.dli.cover.lot_waterproofing == no",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered because waterproofing in lots is the most common defect in NSW apartments and may not be common property; applies when the developer chooses it.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.dli.cover.lot_waterproofing",
+     "text": "Is cover for waterproofing in lots (E02) required?",
+     "type": "yes/no",
+     "used_by": "R, E02, S"
+    }
+   ]
+  },
+  {
+   "id": "dli.end.e03",
+   "heading": "E03 Outstanding Defects at Completion",
+   "trigger": {
+    "questions": [
+     "qs.dli.tis.final_report_defects"
+    ],
+    "rules": [
+     {
+      "when": "qs.dli.tis.final_report_defects == outstanding_listed",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the final technical inspection report lists defects that were outstanding at completion.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.dli.tis.final_report_defects",
+     "text": "What does the final technical inspection report show?",
+     "type": "select",
+     "options": [
+      "not_issued",
+      "none_outstanding",
+      "outstanding_listed"
+     ],
+     "used_by": "E03, S"
+    }
+   ]
+  },
+  {
+   "id": "dli.end.e04",
+   "heading": "E04 Mixed-Use Buildings",
+   "trigger": {
+    "questions": [
+     "qs.dli.building.commercial_lots"
+    ],
+    "rules": [
+     {
+      "when": "qs.dli.building.commercial_lots > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because the building has {qs.dli.building.commercial_lots} non-residential lots.",
+    "responses": [
+     "Attach",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.dli.building.commercial_lots",
+     "text": "How many non-residential lots will the building have (enter 0 if none)?",
+     "type": "number",
+     "used_by": "R, E04, S"
+    }
+   ]
+  },
+  {
+   "id": "dli.end.e05",
+   "heading": "E05 Modular and Prefabricated Construction",
+   "trigger": {
+    "questions": [
+     "qs.dli.building.construction_type"
+    ],
+    "rules": [
+     {
+      "when": "qs.dli.building.construction_type == modular",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because the building is built from volumetric modules or prefabricated panels, which need factory inspections and a review of the connections.",
+    "responses": [
+     "Attach",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.dli.building.construction_type",
+     "text": "What is the main structural system?",
+     "type": "select",
+     "options": [
+      "concrete_frame",
+      "steel_frame",
+      "loadbearing_masonry",
+      "lightweight_timber",
+      "modular"
+     ],
+     "used_by": "R, E05"
+    }
+   ]
+  }
+ ],
+ "sha256": "f0d3173563018e4ed086ab1245f6a729e726c126ec469c73c9ac14da69a929e6"
+}

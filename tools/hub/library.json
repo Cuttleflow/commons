@@ -62,6 +62,7 @@
       "environmental-liability",
       "product-recall-and-contamination",
       "construction-all-risks",
+      "decennial-liability",
       "plant-and-equipment"
      ]
     }
@@ -361,6 +362,11 @@
    "cls": "Construction",
    "title": "Construction All Risks and Liability Insurance",
    "desc": "Contract works and third-party liability for construction projects, single project or annual, under one joint-names policy, with optional delay in start-up and design and construct PI."
+  },
+  "decennial-liability": {
+   "cls": "Construction",
+   "title": "Decennial Liability Insurance (New South Wales)",
+   "desc": "Ten-year, first-resort cover for relevant defects in the common property of a new NSW apartment building, taken out by the developer for the owners corporation. Not yet accepted by the Secretary as a form of decennial liability insurance."
   },
   "plant-and-equipment": {
    "cls": "Plant and Equipment",
