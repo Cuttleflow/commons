@@ -159,13 +159,14 @@
   {
    "id": "home",
    "name": "Home and landlords",
-   "blurb": "Personal lines for homes and rental properties.",
+   "blurb": "Personal lines for homes, rental properties and private collections.",
    "subgroups": [
     {
      "label": null,
      "slugs": [
       "home-and-contents",
       "private-client-home",
+      "private-collections",
       "landlords"
      ]
     }
@@ -522,6 +523,11 @@
    "cls": "Farm Pack",
    "title": "Farm Pack Insurance",
    "desc": "Farm property, livestock, farm interruption, theft, machinery breakdown, transit and farm liability cover for grazing, mixed farming, cropping, dairy, horticulture and viticulture businesses and hobby farms, with the farmhouse and vehicles on linked policies."
+  },
+  "private-collections": {
+   "cls": "Private Collections",
+   "title": "Private Collections Insurance",
+   "desc": "All-risks cover for personal collections of jewellery, watches, art, antiques, collectables, wine and musical instruments, at agreed values for specified items."
   }
  }
 }

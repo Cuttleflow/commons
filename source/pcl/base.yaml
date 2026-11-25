@@ -1,0 +1,114 @@
+id: pcl-base
+title: Private Collections Insurance
+class: PRIVATE COLLECTIONS INSURANCE
+kicker: Meridian Commons · Private Collections
+slug: private-collections
+file_stem: Meridian_Private_Collections
+doc_ref: 2026/PCL/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: All-risks cover for personal collections of jewellery, watches, fine art, antiques, collectables, wine, musical instruments and other valuables in Australia, at agreed values for specified items.
+structure:
+- section: preamble
+  clauses:
+  - pcl.about
+  - pcl.version-history
+  - pcl.important-information
+  - pcl.schedule
+- section: pcl.section.definitions
+  clauses:
+  - pcl.def.agreed-value
+  - pcl.def.category
+  - pcl.def.category-sum-insured
+  - pcl.def.collection
+  - pcl.def.damage
+  - pcl.def.endorsement
+  - pcl.def.event
+  - pcl.def.excess
+  - pcl.def.household
+  - pcl.def.jewellery-and-watches
+  - pcl.def.pair-or-set
+  - pcl.def.policy-period
+  - pcl.def.premises
+  - pcl.def.professional-valuation
+  - pcl.def.safe
+  - pcl.def.specified-item
+  - pcl.def.total-sum-insured
+  - pcl.def.unoccupied
+  - pcl.def.unspecified-item
+  - pcl.def.vault
+  - pcl.def.we-us-our
+  - pcl.def.you-your
+- section: pcl.section.cover
+  clauses:
+  - pcl.cover.collection
+  - pcl.cover.where-covered
+  - pcl.ext.new-acquisitions
+  - pcl.ext.loss-in-value
+  - pcl.ext.protecting-your-collection
+- section: pcl.section.payment
+  clauses:
+  - pcl.pay.how-we-settle
+  - pcl.pay.pairs-and-sets
+  - pcl.pay.most-we-pay
+  - pcl.pay.recovered-property
+  - pcl.pay.excess
+  - pcl.pay.gst
+  - pcl.pay.other-insurance
+  - pcl.pay.who-we-pay
+- section: pcl.section.exclusions
+  clauses:
+  - pcl.excl.gradual-causes
+  - pcl.excl.work-on-items
+  - pcl.excl.breakdown
+  - pcl.excl.instrument-wear
+  - pcl.excl.breakage-in-transit
+  - pcl.excl.unattended-vehicles
+  - pcl.excl.temperature
+  - pcl.excl.unoccupied
+  - pcl.excl.business-use
+  - pcl.excl.title-and-confiscation
+  - pcl.excl.deliberate-acts
+  - pcl.excl.cyber
+  - pcl.excl.war
+  - pcl.excl.nuclear
+  - pcl.excl.terrorism
+- section: pcl.section.obligations
+  clauses:
+  - pcl.obl.taking-care
+  - pcl.obl.records-and-valuations
+  - pcl.obl.tell-us-about-changes
+  - pcl.obl.tell-us-about-claims
+  - pcl.obl.subrogation
+- section: pcl.section.conditions
+  clauses:
+  - pcl.cond.insurance-contracts-act
+  - pcl.cond.agreed-values
+  - pcl.cond.joint-insureds
+  - pcl.cond.cancellation
+  - pcl.cond.renewal
+  - pcl.cond.fraud
+  - pcl.cond.sanctions
+  - pcl.cond.gst
+  - pcl.cond.privacy
+  - pcl.cond.disputes-and-complaints
+  - pcl.cond.governing-law
+  - pcl.cond.jurisdiction
+  - pcl.cond.headings-and-references
+- section: end
+  clauses:
+  - pcl.claims.how-to-make-a-claim
+  - pcl.endorsement-library
+  - pcl.end.e01
+  - pcl.end.e02
+  - pcl.end.e03
+  - pcl.end.e04
+  - pcl.end.e05
+  - pcl.end.e06
+  - pcl.end.e07
+  - pcl.end.e08
+  - pcl.end.e09
+  - pcl.end.e10
+  - pcl.end.e11
+  - pcl.licence-notice
