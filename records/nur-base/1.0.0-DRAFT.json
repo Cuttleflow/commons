@@ -1,0 +1,1003 @@
+{
+ "wording": "nur-base",
+ "version": "1.0.0-DRAFT",
+ "doc_ref": "2026/NUR/0001",
+ "base": null,
+ "clauses": [
+  {
+   "id": "nur.about",
+   "heading": "About This Policy",
+   "sha256": "1fac1f0aabe4314656cb3dcde9c3bc0ce2d2d4ef2be56246b08f2cc3605e5214"
+  },
+  {
+   "id": "nur.version-history",
+   "heading": "Version of This Wording",
+   "sha256": "3fc0ae8e088499c0c11792a5530d48404127eee25830c39463e66dbb0b58b57f"
+  },
+  {
+   "id": "nur.important-information",
+   "heading": "Important Information",
+   "sha256": "989134d1c889eb1015abab76eb0d3f42ac1d72040d14dd795a27b011bca64e55"
+  },
+  {
+   "id": "nur.schedule",
+   "heading": "Your Schedule",
+   "sha256": "a7609f490931dac4fbc4eed04918f203cd1908a05fb8e8d321ab9bc43344bc82"
+  },
+  {
+   "id": "nur.section.definitions",
+   "heading": "Definitions",
+   "sha256": "14e54606060d827ee4b0ee494785d7b246cdf25b02045a67eb6677ea4e9ff383"
+  },
+  {
+   "id": "nur.def.biosecurity-law",
+   "heading": "Biosecurity law",
+   "sha256": "995463f915203fe6a9ceb97485d61b63ad934ac36d0fcea00436df266c7a6610"
+  },
+  {
+   "id": "nur.def.breakdown",
+   "heading": "Breakdown",
+   "sha256": "79990b64dcacc2ca52488aac0e72355450e71db213ba4e94acb51d65e8e072b1"
+  },
+  {
+   "id": "nur.def.buildings",
+   "heading": "Buildings",
+   "sha256": "f9739fab8e0a01bc59bdd123f4c0bd7ad9526141dca56d90b58300f9c80bbe70"
+  },
+  {
+   "id": "nur.def.bushfire",
+   "heading": "Bushfire",
+   "sha256": "fe337fa77757f241ed8899bf41c2f4f62daeb701359cbc3ed244cc354735fadf"
+  },
+  {
+   "id": "nur.def.climate-control-system",
+   "heading": "Climate control system",
+   "sha256": "5663c988192a0e85abed66a4ff1315f970dad846c9de2ccdb78990b9bd02bc59"
+  },
+  {
+   "id": "nur.def.contents-and-equipment",
+   "heading": "Contents and equipment",
+   "sha256": "6caa541612c58b438562ba44a479a8982defcf9a2bb94dc0b792057a3b087035"
+  },
+  {
+   "id": "nur.def.damage",
+   "heading": "Damage",
+   "sha256": "a0a2becb3045abc6a1cee3234ad580a666944df09129ff1edf6288f7be4fefa6"
+  },
+  {
+   "id": "nur.def.employee",
+   "heading": "Employee",
+   "sha256": "56f8a7b6a695afeeb8d9a84987ca2f1baa38e1596be02b9e1b68ff03bf72316f"
+  },
+  {
+   "id": "nur.def.endorsement",
+   "heading": "Endorsement",
+   "sha256": "c01a4b151fb23d8029a91aa4045a803e58e03746522a8cd3865055455688f093"
+  },
+  {
+   "id": "nur.def.event",
+   "heading": "Event",
+   "sha256": "47e4049cb57e621794251bfd381a96e577b44b1f475f944b87d598b95e55c253"
+  },
+  {
+   "id": "nur.def.excess",
+   "heading": "Excess",
+   "sha256": "55de856ca59b6a43b29ccdf0e209e26dc12f92b440a8ce41ce73983a1439673b"
+  },
+  {
+   "id": "nur.def.flood",
+   "heading": "Flood",
+   "sha256": "f27fbf0f4323f565cb3944c59f8e9ea6b9682c08ff191ae2843cef910802f616"
+  },
+  {
+   "id": "nur.def.glasshouse",
+   "heading": "Glasshouse",
+   "sha256": "c162b780c9aca3d94573c94a36fb03dc1c1a5df1dac5a00606efa8f770aab61b"
+  },
+  {
+   "id": "nur.def.gross-profit",
+   "heading": "Gross profit",
+   "sha256": "97851c594fc62539e12d35ed3cc5b15de89ff4af6b2e33fc1689190b1f3ff33f"
+  },
+  {
+   "id": "nur.def.indemnity-period",
+   "heading": "Indemnity period",
+   "sha256": "fa801d9670900a45b9c8abd4e598abc5294036cdedef4e76da1c057876831ac3"
+  },
+  {
+   "id": "nur.def.insured-event",
+   "heading": "Insured event",
+   "sha256": "6d9ab699031c1892ed88b50864ea547ca51c3e65bac679b4bdd046629d2367ff"
+  },
+  {
+   "id": "nur.def.nursery-business",
+   "heading": "Nursery business",
+   "sha256": "5363b01cb022699d0ae009f1601cd734506a5c39d2fae0851f927a3381c2c7bf"
+  },
+  {
+   "id": "nur.def.occurrence",
+   "heading": "Occurrence",
+   "sha256": "47bc1028b05514af32075c995e04c0477ccb34f6eb00bbad2b133915885685e4"
+  },
+  {
+   "id": "nur.def.personal-injury",
+   "heading": "Personal injury",
+   "sha256": "503538cd096dd0b114a1676d4d1663a073a154a4e76043285c9a65f6e8b992ce"
+  },
+  {
+   "id": "nur.def.plant-stock",
+   "heading": "Plant stock",
+   "sha256": "d111d0637ae04b335089f32783d06e65e6444d628057eb1d12832dec1a9e022c"
+  },
+  {
+   "id": "nur.def.plants-in-the-open",
+   "heading": "Plants in the open",
+   "sha256": "1fd30ddd9bd3c008572b102c835b966877507c71443bdcc736e8bb61099f70e9"
+  },
+  {
+   "id": "nur.def.plants-under-cover",
+   "heading": "Plants under cover",
+   "sha256": "8c3d12d693b6fc049951d1a3a0eba8d73d6cb08313c9990f419494ae4113babd"
+  },
+  {
+   "id": "nur.def.policy-period",
+   "heading": "Policy period",
+   "sha256": "f4247084a92116a7469e3918820d26a889772daeba0588d268215be41c4a92ee"
+  },
+  {
+   "id": "nur.def.pollutant",
+   "heading": "Pollutant",
+   "sha256": "31e0a30c5ba0ec769c5a98b0bad5395052e08a6aaa8b5ca40172ad6b6ac7a699"
+  },
+  {
+   "id": "nur.def.property-damage",
+   "heading": "Property damage",
+   "sha256": "fc6aa8123275f8742b6e2086cc1a3442abca141e632fa4ba3206969d7782f795"
+  },
+  {
+   "id": "nur.def.shade-structure",
+   "heading": "Shade structure",
+   "sha256": "8edfb571aa306d517bfb1b31a50ea9ee016a70d8fdbea7905130a0544c06154a"
+  },
+  {
+   "id": "nur.def.situation",
+   "heading": "Situation",
+   "sha256": "7272d31971ccc179743ccb79159c4d67a6004a8a88971fa34525fe4b67f3ecb3"
+  },
+  {
+   "id": "nur.def.sum-insured",
+   "heading": "Sum insured",
+   "sha256": "40e9b5ed98bb9f3604ea467f16aa461cb31b0a13c9b8f522d82fecfba365fc3f"
+  },
+  {
+   "id": "nur.def.theft",
+   "heading": "Theft",
+   "sha256": "37a5de06fa6e1cdfedc4bda9b6282960c7990888c911e61648cc99a3579d3ebc"
+  },
+  {
+   "id": "nur.def.turnover",
+   "heading": "Turnover",
+   "sha256": "1c5131cf9ccfd773719803f78ea157db059de2ad0b525fbb3a456ad02f3ea19a"
+  },
+  {
+   "id": "nur.def.vehicle",
+   "heading": "Vehicle",
+   "sha256": "2388b07402dfce447d9c54f2223d601bb8c9d8445399cdda2961115d68b714d2"
+  },
+  {
+   "id": "nur.def.we-us-our",
+   "heading": "We, Us, Our",
+   "sha256": "9a4b7f551b56a348bdc4c6d3810d42d2b4601c57d6844bffc70ad39c3697e7b2"
+  },
+  {
+   "id": "nur.def.you-your",
+   "heading": "You, Your",
+   "sha256": "6e2f07f63a67c6ba046b93025b0bdbf5410634045a1687facf96a51e909e7ec9"
+  },
+  {
+   "id": "nur.def.your-products",
+   "heading": "Your products",
+   "sha256": "7e82a9f5f088a8a53171da5f76e5563fcded216e0c7daab0a0b597b39049c1d7"
+  },
+  {
+   "id": "nur.section.property",
+   "heading": "Property",
+   "sha256": "f937744d9be54eb2ca6f8328ab2c1140c3a68861d66e570b8cf2a25b78140ae2"
+  },
+  {
+   "id": "nur.prp.cover",
+   "heading": "Property Cover",
+   "sha256": "af52895223f1191b31033d1f72cf66632554a89a2c53192b989b0a0e1b1c28d6"
+  },
+  {
+   "id": "nur.prp.insured-events",
+   "heading": "Insured Events",
+   "sha256": "2a0f397a4602440b540154102853491bbd60f4715402426a8d83a777a33a8f54"
+  },
+  {
+   "id": "nur.prp.plant-stock",
+   "heading": "Plant Stock Valuation",
+   "sha256": "8f958979b2390105a751e9ab3b1dc718d93e9d0abdab0f8dfd944c387a5e8345"
+  },
+  {
+   "id": "nur.prp.additional-benefits",
+   "heading": "Property Additional Benefits",
+   "sha256": "7edf0c12402b4e513724003d3c7d206e65c5df44e3dfccd4f044f9122c437006"
+  },
+  {
+   "id": "nur.prp.basis-of-settlement",
+   "heading": "Property Basis of Settlement",
+   "sha256": "60264259b9ec4939ffcb36a69bb5b37541dc49bbef105b87cb1743b6f5809b2d"
+  },
+  {
+   "id": "nur.prp.underinsurance",
+   "heading": "Buildings Underinsurance",
+   "sha256": "438ee8f687a0f9e1d34f68691d5e2118d179ef02ef7e2498693d11d60dbb46a7"
+  },
+  {
+   "id": "nur.prp.exclusions",
+   "heading": "Property Exclusions",
+   "sha256": "a2479397d5a2004debe0c9ee1dca58af3e749434a50dfc18881612b2a9213749"
+  },
+  {
+   "id": "nur.section.deterioration",
+   "heading": "Deterioration of Stock",
+   "sha256": "796ddbd08835d711050dc2befc39e40b652fa63349442a31a38128a72849a367"
+  },
+  {
+   "id": "nur.det.cover",
+   "heading": "Death and Deterioration of Plant Stock",
+   "sha256": "ee321eec292d3e7ade0ee1bb7d615f43155e5e2320b85fbc43d489ee1ec2ed6a"
+  },
+  {
+   "id": "nur.det.exclusions",
+   "heading": "Deterioration of Stock Exclusions",
+   "sha256": "46bd503468959455a35a18f562cc660c2c80aa0dfe7144607f26931b4e50ac1d"
+  },
+  {
+   "id": "nur.section.interruption",
+   "heading": "Business Interruption",
+   "sha256": "95664c0231eb2923b65540b643a398875c484b6e5bd7d219a9c2dda39c2cf643"
+  },
+  {
+   "id": "nur.bin.cover",
+   "heading": "Loss of Gross Profit",
+   "sha256": "034435cdc34000836086c95e1f2f8ab7aa8e4007e3ac340d35836ab39432c639"
+  },
+  {
+   "id": "nur.bin.calculation",
+   "heading": "How We Calculate Loss of Gross Profit",
+   "sha256": "120e3f6f1ff2884463551f17430779bf856d94506965374fcca4f8f3ca01f514"
+  },
+  {
+   "id": "nur.bin.exclusions",
+   "heading": "Business Interruption Exclusions",
+   "sha256": "548f43fcd6875cd4bf26aa12b800e7c5ddde4db6fdcb80468fb88d81d4142aad"
+  },
+  {
+   "id": "nur.section.theft",
+   "heading": "Theft",
+   "sha256": "28d7265c5e3f4b9a9281651c7a387fc051277174a8906e3497a0cfee8311c4ba"
+  },
+  {
+   "id": "nur.th.cover",
+   "heading": "Theft of Property",
+   "sha256": "f23918f98dc645884dcec2d15b12610800dd0b9ba64fa0e0bf809efd09014eb1"
+  },
+  {
+   "id": "nur.th.conditions",
+   "heading": "Theft Reporting",
+   "sha256": "4037d4c65d62f4d8ec7bc7e8b19633927752029995d7a7b4051b8a3013692542"
+  },
+  {
+   "id": "nur.th.exclusions",
+   "heading": "Theft Exclusions",
+   "sha256": "1d81f376f05a397e89f7db4dcba2941d0be84a988e3fccf9828eb3e16b783273"
+  },
+  {
+   "id": "nur.section.liability",
+   "heading": "Public and Products Liability",
+   "sha256": "1ab91f719fa515ef0f469ca0a0bc2e466d4575c2bde3b40789bc0ee0ef96e625"
+  },
+  {
+   "id": "nur.cover.liability",
+   "heading": "Liability for Injury and Damage",
+   "sha256": "257a45da1b835dc0e0217b5bd48bb7a16752b1df73cf581477edf0d28a5d840b"
+  },
+  {
+   "id": "nur.li.nursery-activities",
+   "heading": "Nursery Activities Covered",
+   "sha256": "67546f7c81f491f55132174d81ff7187fdf9ccba264ea37af0140df04e847331"
+  },
+  {
+   "id": "nur.li.fire-spread",
+   "heading": "Fire Spreading from the Situation",
+   "sha256": "e3fb298f6eaec2f782b2fa1978dd4e7df62c7f4d34fd908ba2b8a1f0577616b7"
+  },
+  {
+   "id": "nur.li.care-custody-control",
+   "heading": "Property in Your Care",
+   "sha256": "7b07873103444c933de091c891969984cc48472b7036cef548702dbaf2d380a4"
+  },
+  {
+   "id": "nur.li.excl-workers",
+   "heading": "Injury to Your Workers",
+   "sha256": "ba8cdc7a47b6ef00e1635d93ca8ed213ec0369c04f0127df547e97394f254db5"
+  },
+  {
+   "id": "nur.li.excl-contracts",
+   "heading": "Contractual Liability",
+   "sha256": "29e870ebdffe3aa07a52a5342e6ccd143c00f8f7ff5b8fe49dfe874c0c5c8133"
+  },
+  {
+   "id": "nur.li.excl-own-property",
+   "heading": "Property You Own",
+   "sha256": "844117c707c99e3dbd496c4d2a7d9b82b960bdfeceebd5bb33220ce0b1909afe"
+  },
+  {
+   "id": "nur.li.excl-vehicles",
+   "heading": "Vehicles, Aircraft and Watercraft",
+   "sha256": "3950ed5d649f6b962f3b8ee16d74594b947d3fc77dfb0927e9f8903af2a48dd1"
+  },
+  {
+   "id": "nur.li.excl-pollution",
+   "heading": "Gradual Pollution",
+   "sha256": "de9f8f3ef091e24a2a74c8bac4fde639c07bac61fecf47b7d6f2f63f6d1e6b7b"
+  },
+  {
+   "id": "nur.li.excl-fines",
+   "heading": "Fines and Penalties",
+   "sha256": "6ac2c0ee17111eee82053aa473b055676940f9734edf289ccc5fc8aac8663960"
+  },
+  {
+   "id": "nur.li.excl-advice",
+   "heading": "Advice for a Fee",
+   "sha256": "139ebcded2425d68107d62b6176152f07105d5c458e4c8314f1cdfb39cd9f389"
+  },
+  {
+   "id": "nur.li.excl-genetic",
+   "heading": "Genetically Modified Organisms",
+   "sha256": "148b58f741810b2f57c8278f47e2a0be55907f9e7c69c7cfe3bbf00a5e6e27b2"
+  },
+  {
+   "id": "nur.li.excl-disease",
+   "heading": "Spread of Plant Pests and Diseases",
+   "sha256": "152b7c8098b90450336f9282d4833c2f5d3c59c380b9e4f97144cb7a530c589a"
+  },
+  {
+   "id": "nur.li.excl-prohibited-plants",
+   "heading": "Prohibited Plants",
+   "sha256": "cf2ff063c3d77cab681b965bc7fe1b7c6981d245b53e080bd53d2ffe9954f4cb"
+  },
+  {
+   "id": "nur.li.excl-contracting",
+   "heading": "Landscaping and Work for Others",
+   "sha256": "2a714e6c39f3a5fbe467909962ccd1937c644b9c318063fb89825783175d22b3"
+  },
+  {
+   "id": "nur.li.excl-own-brand-media",
+   "heading": "Own-Brand Growing Media",
+   "sha256": "8645397adf947ff9d04414f826a4f520db4d53ec3389cd19b31e299a26de5d0b"
+  },
+  {
+   "id": "nur.li.excl-events",
+   "heading": "Open Days, Workshops and Events",
+   "sha256": "ecaed4c185200bb38eccd2e41cfeec35541c7b22ec67936f693e637904d04c80"
+  },
+  {
+   "id": "nur.li.excl-usa",
+   "heading": "Products Exported to North America",
+   "sha256": "663a6146f119cad9b923f0e726c78252acad8ed10f9dfa457432da1caec3bb45"
+  },
+  {
+   "id": "nur.section.machinery",
+   "heading": "Machinery Breakdown and Electronic Equipment",
+   "sha256": "43b2ffae742670a46b5c1383705e30c8ce593e5f8583b1bfb1c91de283ffce8f"
+  },
+  {
+   "id": "nur.mb.cover",
+   "heading": "Breakdown of Machinery and Equipment",
+   "sha256": "7614280df369f14f15dce553584ab7ae3d8f5dce5af25df6860c155f385c5b39"
+  },
+  {
+   "id": "nur.mb.exclusions",
+   "heading": "Machinery Breakdown Exclusions",
+   "sha256": "f018929f87d2f2ca41b0b5b81a539141952a4d344e5ed36050a270330e9ec3c3"
+  },
+  {
+   "id": "nur.section.transit",
+   "heading": "Transit",
+   "sha256": "4f1fec28e3a0017a9093d87d3127a09c71fd291bcd12f8ed2ba9b0f8e0ce9fa1"
+  },
+  {
+   "id": "nur.tr.cover",
+   "heading": "Plant Stock and Property in Transit",
+   "sha256": "9720de24c68ce5563829eb26e97b7720ecb95596a417f55e89512d934e6117b1"
+  },
+  {
+   "id": "nur.tr.exclusions",
+   "heading": "Transit Exclusions",
+   "sha256": "1e9e329d58d1bc9de0ec322bdba1e1805193d6f60bd3c34049d45f92660ed69a"
+  },
+  {
+   "id": "nur.section.general-payment",
+   "heading": "How Claims Are Paid",
+   "sha256": "bb2638926e131115012f77a272370f651d5e463fd6fec769ea7f0de702fb774b"
+  },
+  {
+   "id": "nur.pay.excess",
+   "heading": "Excess",
+   "sha256": "3aeb78e796fbb05648c9c1291f50562bbe786430ec6b562116e49715c91c552d"
+  },
+  {
+   "id": "nur.pay.one-loss-one-section",
+   "heading": "One Loss, One Section",
+   "sha256": "e47fdbfd56ec54ca7f31b2dfde18efd709aa02b36ee48147de8863e46b4c6958"
+  },
+  {
+   "id": "nur.pay.reinstatement",
+   "heading": "Reinstatement of Sums Insured",
+   "sha256": "1d59424bfd4ecb3f07fc5f42b559099fe60bd53f5ed6f90bf0b8895e81f46eae"
+  },
+  {
+   "id": "nur.pay.gst",
+   "heading": "GST and Sums Insured",
+   "sha256": "6a2659ac8175ff1ea13ecd530744d7c313d46bc0f11cd2ed4af03beb57e3f0c2"
+  },
+  {
+   "id": "nur.pay.other-insurance",
+   "heading": "Other Insurance",
+   "sha256": "abe7f054c7d64082533a9c9a93218054ed05183b568dd21d62ef4dff6144564d"
+  },
+  {
+   "id": "nur.pay.who-we-pay",
+   "heading": "Who We Pay",
+   "sha256": "0d50cddb55c14a8269899152fe75338ff51702fc87174519ace114f426ce8b53"
+  },
+  {
+   "id": "nur.section.general-exclusions",
+   "heading": "General Exclusions",
+   "sha256": "3b2494e49e0a61e20143f898a2a2ac00d8939981941fcb50c6f35529bfa2ebd4"
+  },
+  {
+   "id": "nur.excl.war",
+   "heading": "War",
+   "sha256": "a6d18b9894cb3541b2b13a43b15b8889c3cf014aff3425645ea35ed7547e5604"
+  },
+  {
+   "id": "nur.excl.nuclear",
+   "heading": "Nuclear",
+   "sha256": "515a0fcec4a0a619b5d701b1f7eee86fa4488feb962cc0b2170467de8a674df4"
+  },
+  {
+   "id": "nur.excl.terrorism",
+   "heading": "Terrorism",
+   "sha256": "397dd472da5a320879a3447bb3edf3f1931551bb15f6197772605ddd26ec58da"
+  },
+  {
+   "id": "nur.excl.cyber",
+   "heading": "Cyber Events",
+   "sha256": "e24394dce69d69ceef5372ece051408f973ae08696d1c3fc4c4417731057bb3c"
+  },
+  {
+   "id": "nur.excl.deliberate-acts",
+   "heading": "Deliberate Acts",
+   "sha256": "34a6cc81663c981d55714d7ba95a09d9b338e816bb36c997b845f9da617eb4c1"
+  },
+  {
+   "id": "nur.excl.government-orders",
+   "heading": "Government and Biosecurity Orders",
+   "sha256": "8579ea151abddd754b2903134559fce13d7ab6046e40c8f4e56f3361def9abc1"
+  },
+  {
+   "id": "nur.section.obligations",
+   "heading": "Your Obligations",
+   "sha256": "539d370b3a920f6020a336bff6c8b1b5aae5d846650bb5a97356425aa3920372"
+  },
+  {
+   "id": "nur.obl.tell-us-about-claims",
+   "heading": "Tell Us About Claims",
+   "sha256": "15905ddb59d7dc7c58c89ce90371453acb572a81c64e9f2a3fe52e49111941bf"
+  },
+  {
+   "id": "nur.obl.reduce-loss",
+   "heading": "Prevent Further Loss",
+   "sha256": "7fcddf5e51a6c5d8f26db7fae1766998c41d25f2fbd8ccad61f2be3868d42df8"
+  },
+  {
+   "id": "nur.obl.admissions",
+   "heading": "Admissions and Settlements",
+   "sha256": "4972d44c0e1ed2158ee569124fbd491782376bb3b1598f20214e0fa9f91b0617"
+  },
+  {
+   "id": "nur.obl.tell-us-about-changes",
+   "heading": "Tell Us About Changes",
+   "sha256": "33d3c7a84e2cc3c6a5cd8e70ab706d6026af5bc9bd6d57801e91a9f79bf2e8fb"
+  },
+  {
+   "id": "nur.obl.subrogation",
+   "heading": "Recovery from Others",
+   "sha256": "c943ca0de9950ca25f3a09ac386d1a0182f394c470cb353cd40424684003565e"
+  },
+  {
+   "id": "nur.section.conditions",
+   "heading": "General Conditions",
+   "sha256": "48e8a54a814af1ae65a9a7bc049c48f01d03dbd89dbff8f45228e7ad10d73ce7"
+  },
+  {
+   "id": "nur.cond.insurance-contracts-act",
+   "heading": "Insurance Contracts Act",
+   "sha256": "bbcc977cbfd566fc4be58ab3f25bac758dede1e439dc57ba5ca84b9816d7b4c3"
+  },
+  {
+   "id": "nur.cond.emergency-warnings",
+   "heading": "Emergency Warnings at the Start of Cover",
+   "sha256": "e2cd2de39076f4d9d538b16d6122440664edb05543ae6125603e58e1f6ea3cf9"
+  },
+  {
+   "id": "nur.cond.cancellation",
+   "heading": "Cancellation",
+   "sha256": "87e1f86b98d67553cfa9d50281ea234cc79854b92d68bb45d9ea0255f95c49bd"
+  },
+  {
+   "id": "nur.cond.renewal",
+   "heading": "Renewal",
+   "sha256": "ea96d89de2585d402aa3ef91e222c2c31e7c29f5ca2c7d8b034f1223fab91740"
+  },
+  {
+   "id": "nur.cond.fraud",
+   "heading": "Fraudulent Claims",
+   "sha256": "93420dcd87f8ad9ccc3a5d0f534ad54b5a759720fbf955a5249eb6fd6c3aedf1"
+  },
+  {
+   "id": "nur.cond.sanctions",
+   "heading": "Sanctions",
+   "sha256": "1cca073a776874b33b3d9c2b2a64bf2f2da2cc2753bfaf4fc83a33f9e12300c8"
+  },
+  {
+   "id": "nur.cond.interested-parties",
+   "heading": "Interested Parties",
+   "sha256": "5daea15fb01804bcda26f50672f2f9f21207bfdad2e1146ed58e81c442dcfd67"
+  },
+  {
+   "id": "nur.cond.gst",
+   "heading": "GST",
+   "sha256": "57655742d02b0940407c1fd774c7525306cee1f69ae1d06edd0ed75b6383f530"
+  },
+  {
+   "id": "nur.cond.privacy",
+   "heading": "Privacy",
+   "sha256": "a29bc135947f063f883aee0d5109a1cf8e4958b2626290f315d756d9971d13bc"
+  },
+  {
+   "id": "nur.cond.disputes-and-complaints",
+   "heading": "Disputes and Complaints",
+   "sha256": "26b402486bfdca5d4c479ef989f929861cb6420cfa3103cf2298098e0b731662"
+  },
+  {
+   "id": "nur.cond.governing-law",
+   "heading": "Governing Law",
+   "sha256": "09c3e76a968bdb89856408cd3ed7f896783d707ebee748f7fad05bc74b73abeb"
+  },
+  {
+   "id": "nur.cond.jurisdiction",
+   "heading": "Jurisdiction",
+   "sha256": "f3c185e4be66000e09a89c685126b38ed8a00ca5ba425ecbb23b02021495232b"
+  },
+  {
+   "id": "nur.cond.headings-and-references",
+   "heading": "Headings and References",
+   "sha256": "d56f5a93e2a3f599ff870eda1ea93539a1d2783321341a6385d835fa049b290d"
+  },
+  {
+   "id": "nur.claims.how-to-make-a-claim",
+   "heading": "How to Make a Claim",
+   "sha256": "43370c115ae3b0a0a56cac03629040dace88516a0d9f09e0cc745e6e95ea6b5a"
+  },
+  {
+   "id": "nur.endorsement-library",
+   "heading": "Endorsement Library",
+   "sha256": "8d90195df098c0a5320e6ea17d1e691662a24a2f9936b89b86b1e6cb64a95686"
+  },
+  {
+   "id": "nur.end.e01",
+   "heading": "E01 Flood Cover",
+   "sha256": "37c7720a89f1a74ce7038dfae2893cd462598b8db1d28def27e712d7d639c8f1"
+  },
+  {
+   "id": "nur.end.e02",
+   "heading": "E02 Glasshouse Glazing",
+   "sha256": "307179de2acdf0d247fa9c45a2c4f7e3b51f52f7637e73df0e3efee1e5aa119d"
+  },
+  {
+   "id": "nur.end.e03",
+   "heading": "E03 Plants in the Open",
+   "sha256": "c3660222737300d83a34af9fb6f51431571ac0e66791fc3bb5313eee4210a1a3"
+  },
+  {
+   "id": "nur.end.e04",
+   "heading": "E04 Deterioration of Stock Conditions",
+   "sha256": "5d15d2f53f4b272978d0189458fe43de9cc7f06f6ceb3ff1d9dd4d1e793930db"
+  },
+  {
+   "id": "nur.end.e05",
+   "heading": "E05 Biosecurity Destruction",
+   "sha256": "34d6439731424a76951a1e2ce7ef42abf4d9adede1bfba3ceef6e076f461e904"
+  },
+  {
+   "id": "nur.end.e06",
+   "heading": "E06 Potting Mix and Soil Products",
+   "sha256": "bc01034c109010b10fe2e6cfc06e3e406ea84c55505a6e174a108eb81113395c"
+  },
+  {
+   "id": "nur.end.e07",
+   "heading": "E07 Retail Visitors",
+   "sha256": "15e090b9b5772ba83fe5ba3e3c503182b8b98601a5b1fa9e45b1d87a124118de"
+  },
+  {
+   "id": "nur.end.e08",
+   "heading": "E08 Chemical Application for Others",
+   "sha256": "a5fbbff8759baa2a3a1dae0ff71c5987e894c54381a2205dc237cd096457854e"
+  },
+  {
+   "id": "nur.end.e09",
+   "heading": "E09 Incidental Landscaping and Installation",
+   "sha256": "601c991486f0f30b946845b35ef458ab4bfbbdb72d25ea502c31ef84e601caae"
+  },
+  {
+   "id": "nur.end.e10",
+   "heading": "E10 Open Days and Workshops",
+   "sha256": "ae6da098069104b5344b59e9913c0ceb4a9eb251e645f16f9c42f71ce408eb98"
+  },
+  {
+   "id": "nur.licence-notice",
+   "heading": "Licence and Trademark Notice",
+   "sha256": "9f8ec6aad824277922dc1915cfbdf47eadb7d7c94c2c2fae71f768ce86a5f939"
+  }
+ ],
+ "endorsements": [
+  {
+   "id": "nur.end.e01",
+   "heading": "E01 Flood Cover",
+   "trigger": {
+    "questions": [
+     "qs.nur.cover.flood_buyback"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.cover.flood_buyback == yes",
+      "action": "refer"
+     }
+    ],
+    "reason": "Referred because you asked for flood cover, which the underwriter prices for the situation's flood exposure.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.cover.flood_buyback",
+     "text": "Do you want flood cover?",
+     "type": "yes/no",
+     "used_by": "A, E01"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e02",
+   "heading": "E02 Glasshouse Glazing",
+   "trigger": {
+    "questions": [
+     "qs.nur.property.glasshouses"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.property.glasshouses == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because your property includes glasshouses or polytunnels.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.property.glasshouses",
+     "text": "Does the property include glasshouses or polytunnels? (The platform derives this from the asset mix: GLS above 0.)",
+     "type": "yes/no",
+     "used_by": "E02"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e03",
+   "heading": "E03 Plants in the Open",
+   "trigger": {
+    "questions": [
+     "qs.nur.property.plants_in_open"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.property.plants_in_open == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because plant stock is grown or held in the open at the situation.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.property.plants_in_open",
+     "text": "Is plant stock grown or held in the open? (The platform derives this from the asset mix: STO above 0.)",
+     "type": "yes/no",
+     "used_by": "E03"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e04",
+   "heading": "E04 Deterioration of Stock Conditions",
+   "trigger": {
+    "questions": [
+     "qs.nur.cover.deterioration"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.cover.deterioration == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you chose Deterioration of Stock cover.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.cover.deterioration",
+     "text": "Do you want Deterioration of Stock cover?",
+     "type": "yes/no",
+     "used_by": "S, E04"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e05",
+   "heading": "E05 Biosecurity Destruction",
+   "trigger": {
+    "questions": [
+     "qs.nur.business.biosecurity_order"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.business.biosecurity_order == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.nur.business.biosecurity_order == no",
+      "action": "broker_option"
+     }
+    ],
+    "reason": "Offered as a priced option because this policy otherwise excludes plant stock destroyed by order under a biosecurity law. Referred if an order or direction is in force for the situation now.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.business.biosecurity_order",
+     "text": "Is an order or direction under a biosecurity law in force for the situation or your plant stock now?",
+     "type": "yes/no",
+     "used_by": "A, E05"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e06",
+   "heading": "E06 Potting Mix and Soil Products",
+   "trigger": {
+    "questions": [
+     "qs.nur.business.sells_potting_mix",
+     "qs.nur.business.own_brand_mix"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.business.own_brand_mix == yes",
+      "action": "refer"
+     },
+     {
+      "when": "qs.nur.business.sells_potting_mix == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you sell potting mix or soil products. Referred if you make, blend or bag them under your own brand.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.business.sells_potting_mix",
+     "text": "Do you sell potting mix, soil, compost or mulch?",
+     "type": "yes/no",
+     "used_by": "E06"
+    },
+    {
+     "id": "qs.nur.business.own_brand_mix",
+     "text": "Do you make, blend or bag potting mix, soil or other growing media for sale under your own name or brand?",
+     "type": "yes/no",
+     "used_by": "A, E06"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e07",
+   "heading": "E07 Retail Visitors",
+   "trigger": {
+    "questions": [
+     "qs.nur.business.retail_visitors"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.business.retail_visitors == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because retail customers visit the situation.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.business.retail_visitors",
+     "text": "Do retail customers or other members of the public visit the situation?",
+     "type": "yes/no",
+     "used_by": "R, E07"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e08",
+   "heading": "E08 Chemical Application for Others",
+   "trigger": {
+    "questions": [
+     "qs.nur.business.contract_spray_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.business.contract_spray_pct > 20",
+      "action": "refer"
+     },
+     {
+      "when": "qs.nur.business.contract_spray_pct > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.nur.business.contract_spray_pct}% of your turnover comes from applying chemicals for others.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.business.contract_spray_pct",
+     "text": "What share of turnover comes from applying chemicals for others (%)?",
+     "type": "number (percent)",
+     "used_by": "R, A, E08"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e09",
+   "heading": "E09 Incidental Landscaping and Installation",
+   "trigger": {
+    "questions": [
+     "qs.nur.business.landscaping_pct"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.business.landscaping_pct > 20",
+      "action": "refer"
+     },
+     {
+      "when": "qs.nur.business.landscaping_pct > 0",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because {qs.nur.business.landscaping_pct}% of your turnover comes from landscaping or installation work.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.business.landscaping_pct",
+     "text": "What share of turnover comes from landscaping, planting or installation work at customers' premises (%)?",
+     "type": "number (percent)",
+     "used_by": "R, A, E09"
+    }
+   ]
+  },
+  {
+   "id": "nur.end.e10",
+   "heading": "E10 Open Days and Workshops",
+   "trigger": {
+    "questions": [
+     "qs.nur.business.open_days"
+    ],
+    "rules": [
+     {
+      "when": "qs.nur.business.open_days == yes",
+      "action": "apply"
+     }
+    ],
+    "reason": "Applies because you run open days, workshops or events for the public at the situation.",
+    "responses": [
+     "Attach",
+     "Attach with amended sub-limit",
+     "Attach with special excess",
+     "Attach with premium loading",
+     "Do not attach",
+     "Decline risk"
+    ]
+   },
+   "questions": [
+    {
+     "id": "qs.nur.business.open_days",
+     "text": "Do you run open days, workshops, classes or other events for the public at the situation?",
+     "type": "yes/no",
+     "used_by": "R, E10"
+    }
+   ]
+  }
+ ],
+ "sha256": "5f133c49da2c1f970c457885d2f98e75c9d5dbbaf1fd2245147c0df54e194189"
+}

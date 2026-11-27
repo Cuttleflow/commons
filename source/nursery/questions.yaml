@@ -1,0 +1,213 @@
+# Platform questions for the Nursery and Garden Package wording.
+# IDs are Field Catalogue field_refs (SPEC-URE-001 §4) in the qs.nur namespace. The platform question set uses the same IDs.
+# used_by: R rating, A appetite or referral rule, S schedule, E## endorsement trigger. Every question is used by something.
+# Agency thresholds are set in the platform, not here. The rating keys are in cuttleflow-app specs/go-nur (NUR.parameters.json).
+# Main activities are ANZSIC classes: 0111 nursery production under cover; 0112 nursery production outdoors; 0113 turf growing;
+# 0114 floriculture production under cover; 0115 floriculture production outdoors; 4232 garden supplies retailing.
+# Property classes: BLD buildings; CNT contents and equipment; SHD shade structures; GLS glasshouses; STU plants under cover; STO plants in the open.
+questions:
+- id: qs.nur.insured.name
+  text: What is the name of the nursery business (person, partnership, company or trust)?
+  type: text
+  used_by: S
+- id: qs.nur.insured.entity_type
+  text: What kind of entity carries on the nursery business?
+  type: select
+  options:
+  - individual
+  - partnership
+  - company
+  - trust
+  used_by: S
+- id: qs.nur.insured.years_at_site
+  text: How many years has the nursery business operated at the situation?
+  type: number
+  used_by: R
+- id: qs.nur.insured.financier
+  text: Name of any financier or lender with an interest in insured property.
+  type: text
+  used_by: S
+- id: qs.nur.location.address
+  text: What is the address of the situation?
+  type: text
+  used_by: S
+- id: qs.nur.location.state
+  text: In which state or territory is the situation?
+  type: select
+  options:
+  - NSW
+  - VIC
+  - QLD
+  - WA
+  - SA
+  - TAS
+  - ACT
+  - NT
+  used_by: R, S
+- id: qs.nur.location.bushfire_band
+  text: What is the bushfire exposure of the situation?
+  type: select
+  options:
+  - LOW
+  - MEDIUM
+  - HIGH
+  - EXTREME
+  used_by: R, A
+- id: qs.nur.location.hail_band
+  text: What is the hail exposure of the situation?
+  type: select
+  options:
+  - LOW
+  - MEDIUM
+  - HIGH
+  used_by: R, A
+- id: qs.nur.business.main_activity
+  text: What is the main activity of the nursery business?
+  type: select
+  options:
+  - '0111'
+  - '0112'
+  - '0113'
+  - '0114'
+  - '0115'
+  - '4232'
+  used_by: R, A, S
+- id: qs.nur.business.gross_turnover
+  text: What is the gross turnover of the nursery business for the next 12 months?
+  type: number (currency)
+  used_by: A, S
+- id: qs.nur.business.accredited
+  text: Is the nursery business accredited under an industry best-practice or biosecurity scheme?
+  type: yes/no
+  used_by: R
+- id: qs.nur.business.backup_power
+  text: Do the climate control systems have backup power and alarms that alert someone who can respond?
+  type: yes/no
+  used_by: R, S
+- id: qs.nur.business.retail_visitors
+  text: Do retail customers or other members of the public visit the situation?
+  type: yes/no
+  used_by: R, E07
+- id: qs.nur.business.open_days
+  text: Do you run open days, workshops, classes or other events for the public at the situation?
+  type: yes/no
+  used_by: R, E10
+- id: qs.nur.business.sells_potting_mix
+  text: Do you sell potting mix, soil, compost or mulch?
+  type: yes/no
+  used_by: E06
+- id: qs.nur.business.own_brand_mix
+  text: Do you make, blend or bag potting mix, soil or other growing media for sale under your own name or brand?
+  type: yes/no
+  used_by: A, E06
+- id: qs.nur.business.contract_spray_pct
+  text: What share of turnover comes from applying chemicals for others (%)?
+  type: number (percent)
+  used_by: R, A, E08
+- id: qs.nur.business.aerial_spraying
+  text: Do you or your employees carry out aerial spraying, including by drone?
+  type: yes/no
+  used_by: A
+- id: qs.nur.business.landscaping_pct
+  text: What share of turnover comes from landscaping, planting or installation work at customers' premises (%)?
+  type: number (percent)
+  used_by: R, A, E09
+- id: qs.nur.business.exports_plants
+  text: Do you export live plants from Australia?
+  type: yes/no
+  used_by: A
+- id: qs.nur.business.biosecurity_order
+  text: Is an order or direction under a biosecurity law in force for the situation or your plant stock now?
+  type: yes/no
+  used_by: A, E05
+- id: qs.nur.property.sum_insured
+  text: 'What is the property sum insured: buildings, contents and equipment, shade structures, glasshouses and plant stock?'
+  type: number (currency)
+  used_by: R, A, S
+- id: qs.nur.property.asset_mix
+  text: What share of the property sum insured is each class of property (%)?
+  type: repeating (class, share)
+  options:
+  - BLD
+  - CNT
+  - SHD
+  - GLS
+  - STU
+  - STO
+  used_by: R, A, S
+- id: qs.nur.property.glasshouses
+  text: 'Does the property include glasshouses or polytunnels? (The platform derives this from the asset mix: GLS above 0.)'
+  type: yes/no
+  used_by: E02
+- id: qs.nur.property.plants_in_open
+  text: 'Is plant stock grown or held in the open? (The platform derives this from the asset mix: STO above 0.)'
+  type: yes/no
+  used_by: E03
+- id: qs.nur.property.hail_netting
+  text: Does hail netting cover the plants in the open?
+  type: yes/no
+  used_by: R, S
+- id: qs.nur.property.excess
+  text: Which property excess do you choose?
+  type: select
+  options:
+  - '500'
+  - '1000'
+  - '2500'
+  used_by: R, S
+- id: qs.nur.cover.deterioration
+  text: Do you want Deterioration of Stock cover?
+  type: yes/no
+  used_by: S, E04
+- id: qs.nur.deterioration.limit
+  text: Which deterioration limit do you choose?
+  type: select
+  options:
+  - '25000'
+  - '50000'
+  - '100000'
+  used_by: R, S
+- id: qs.nur.cover.interruption
+  text: Do you want Business Interruption cover?
+  type: yes/no
+  used_by: S
+- id: qs.nur.interruption.gross_profit
+  text: What is the gross profit sum insured?
+  type: select
+  options:
+  - '250000'
+  - '500000'
+  - '1000000'
+  - '2000000'
+  used_by: R, S
+- id: qs.nur.cover.theft
+  text: Do you want Theft cover?
+  type: yes/no
+  used_by: S
+- id: qs.nur.cover.machinery
+  text: Do you want Machinery Breakdown and Electronic Equipment cover?
+  type: yes/no
+  used_by: S
+- id: qs.nur.cover.transit
+  text: Do you want Transit cover?
+  type: yes/no
+  used_by: S
+- id: qs.nur.cover.flood_buyback
+  text: Do you want flood cover?
+  type: yes/no
+  used_by: A, E01
+- id: qs.nur.liability.limit
+  text: Which liability limit do you choose?
+  type: select
+  options:
+  - '10000000'
+  - '20000000'
+  used_by: R, S
+- id: qs.nur.history.claims_5yr
+  text: How many claims has the nursery business made in the last 5 years?
+  type: number
+  used_by: R, A
+- id: qs.nur.history.declined
+  text: Has an insurer declined, cancelled or refused to renew insurance for the nursery business, or renewed it on special terms?
+  type: yes/no
+  used_by: A
