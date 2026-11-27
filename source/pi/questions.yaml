@@ -874,20 +874,84 @@ questions:
     - '3245'
     - '3291'
     - '3299'
-  - id: qs.pi.dc.revenue_last_year
-    text: Revenue in the last completed financial year from construction contracts under which you were responsible for all or part of the design
+  # Revenue (Linear PLT-1412, 28 Nov 2026). Total revenue for three years, then revenue for the
+  # last completed and current financial years by the proposer's extent of professional
+  # responsibility, in the shape of the market-leading design and construct proposal form.
+  # The annual basis rates the last completed year's rows marked R, each at its own weight.
+  - id: qs.pi.dc.total_revenue_last_year
+    text: Total revenue from all activities in the last completed financial year (actual)
     type: currency
-    used_by: R (annual basis exposure)
-  - id: qs.pi.dc.revenue_next_year
-    text: Estimated revenue in the coming financial year from construction contracts under which you will be responsible for all or part of the design
+    used_by: A (refers above the Go ceiling), S
+  - id: qs.pi.dc.total_revenue_current_year
+    text: Total revenue from all activities in the current financial year (forecast)
     type: currency
     used_by: S
-  - id: qs.pi.dc.total_revenue_last_year
-    text: Total revenue from all construction work in the last completed financial year, including contracts without design responsibility
+  - id: qs.pi.dc.total_revenue_next_year
+    text: Total revenue from all activities in the next financial year (estimate)
     type: currency
+    used_by: S
+  - id: qs.pi.dc.rev_own_design_last_year
+    text: Last completed financial year (actual) - revenue from design and construct contracts where you performed the design yourself
+    type: currency
+    used_by: R (annual basis exposure), A (refers above the Go ceiling)
+  - id: qs.pi.dc.rev_own_design_current_year
+    text: Current financial year (forecast) - revenue from design and construct contracts where you performed the design yourself
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.rev_subcontracted_design_last_year
+    text: Last completed financial year (actual) - revenue from design and construct contracts where you were responsible for the design and subcontracted it to others
+    type: currency
+    used_by: R (annual basis exposure), A (refers above the Go ceiling)
+  - id: qs.pi.dc.rev_subcontracted_design_current_year
+    text: Current financial year (forecast) - revenue from design and construct contracts where you were responsible for the design and subcontracted it to others
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.fees_professional_services_last_year
+    text: Last completed financial year (actual) - fees for professional services only, such as design, drafting or technical advice, where you did not construct
+    type: currency
+    used_by: R (annual basis exposure), A (refers above the Go ceiling)
+  - id: qs.pi.dc.fees_professional_services_current_year
+    text: Current financial year (forecast) - fees for professional services only, such as design, drafting or technical advice, where you did not construct
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.fees_project_management_last_year
+    text: Last completed financial year (actual) - fees for acting as project manager or construction manager
+    type: currency
+    used_by: R (annual basis exposure), A (refers above the Go ceiling)
+  - id: qs.pi.dc.fees_project_management_current_year
+    text: Current financial year (forecast) - fees for acting as project manager or construction manager
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.rev_pi_required_no_services_last_year
+    text: Last completed financial year (actual) - revenue from contracts that require you to hold professional indemnity insurance, where you performed no professional services
+    type: currency
+    used_by: R (annual basis exposure), A (refers above the Go ceiling)
+  - id: qs.pi.dc.rev_pi_required_no_services_current_year
+    text: Current financial year (forecast) - revenue from contracts that require you to hold professional indemnity insurance, where you perform no professional services
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.rev_construct_only_last_year
+    text: Last completed financial year (actual) - revenue from construct-only contracts, with no design responsibility and no requirement to hold professional indemnity insurance
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.rev_construct_only_current_year
+    text: Current financial year (forecast) - revenue from construct-only contracts, with no design responsibility and no requirement to hold professional indemnity insurance
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.rev_other_last_year
+    text: Last completed financial year (actual) - other revenue, such as product sales or asset management
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.rev_other_current_year
+    text: Current financial year (forecast) - other revenue, such as product sales or asset management
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.rev_other_description
+    text: Describe the activities that produce your other revenue
+    type: text
     used_by: S
   - id: qs.pi.dc.activity_split
-    text: Share of revenue from construction contracts by contract type
+    text: Share of your design and construct work and professional services by contract type
     type: repeating (activity, pct)
     used_by: R
     options:
@@ -901,17 +965,25 @@ questions:
     type: currency
     used_by: A (refers above the Go ceiling)
   - id: qs.pi.dc.design_by_consultants_pct
-    text: What share of the design under your construction contracts is performed by design consultants rather than your own employees?
+    text: What share of the professional services under your contracts do design consultants or other subcontractors perform, rather than your own employees?
     type: percentage
     used_by: S
+  - id: qs.pi.dc.subcontracted_services
+    text: Which professional services do you subcontract?
+    type: text
+    used_by: S
   - id: qs.pi.dc.consultants_hold_pi
-    text: Do your design consultants hold their own professional indemnity insurance?
+    text: Do your design consultants and other subcontractors of professional services hold their own professional indemnity insurance?
     type: select
     used_by: R
     options:
     - all_insured
     - some_uninsured
     - none_engaged
+  - id: qs.pi.dc.consultants_min_pi_limit
+    text: What minimum professional indemnity limit do you require those consultants and subcontractors to hold?
+    type: currency
+    used_by: S
   - id: qs.pi.dc.fitness_for_purpose
     text: Does any construction contract require you to warrant that the design or the completed work will be fit for its purpose?
     type: yes/no, with details
