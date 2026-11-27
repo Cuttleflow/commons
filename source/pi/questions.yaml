@@ -853,3 +853,125 @@ questions:
     - vet.telehealth
     - vet.prepurchase
     - vet.laboratory
+  # Design and Construct (2026/PI/0013, Linear PLT-1405). Annual and single-project bases.
+  - id: qs.pi.dc.business_class
+    text: Main business activity (ANZSIC 2006 class)
+    type: select
+    used_by: A (heavy and civil engineering refers), S (reporting)
+    options:
+    - '3011'
+    - '3019'
+    - '3020'
+    - '3101'
+    - '3109'
+    - '3224'
+    - '3231'
+    - '3232'
+    - '3233'
+    - '3234'
+    - '3239'
+    - '3242'
+    - '3245'
+    - '3291'
+    - '3299'
+  - id: qs.pi.dc.revenue_last_year
+    text: Revenue in the last completed financial year from construction contracts under which you were responsible for all or part of the design
+    type: currency
+    used_by: R (annual basis exposure)
+  - id: qs.pi.dc.revenue_next_year
+    text: Estimated revenue in the coming financial year from construction contracts under which you will be responsible for all or part of the design
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.total_revenue_last_year
+    text: Total revenue from all construction work in the last completed financial year, including contracts without design responsibility
+    type: currency
+    used_by: S
+  - id: qs.pi.dc.activity_split
+    text: Share of revenue from construction contracts by contract type
+    type: repeating (activity, pct)
+    used_by: R
+    options:
+    - dc.residential_detached
+    - dc.residential_multi
+    - dc.commercial
+    - dc.fitout
+    - dc.building_services
+  - id: qs.pi.dc.largest_contract_value
+    text: Value of the largest construction contract in the last three years, or expected in the coming year
+    type: currency
+    used_by: A (refers above the Go ceiling)
+  - id: qs.pi.dc.design_by_consultants_pct
+    text: What share of the design under your construction contracts is performed by design consultants rather than your own employees?
+    type: percentage
+    used_by: S
+  - id: qs.pi.dc.consultants_hold_pi
+    text: Do your design consultants hold their own professional indemnity insurance?
+    type: select
+    used_by: R
+    options:
+    - all_insured
+    - some_uninsured
+    - none_engaged
+  - id: qs.pi.dc.fitness_for_purpose
+    text: Does any construction contract require you to warrant that the design or the completed work will be fit for its purpose?
+    type: yes/no, with details
+    used_by: A (refers; the base Contractual Liability exclusion applies to liability beyond reasonable skill and care)
+  - id: qs.pi.dc.excluded_projects
+    text: Do you carry out, or intend to carry out, work on a large dam, a tunnel, a bridge, a marine or offshore structure, an oil, gas or chemical facility, or a mine?
+    type: yes/no, with details
+    used_by: A (refers; Excluded Projects exclusion)
+  - id: qs.pi.dc.overseas_projects
+    text: Is any construction contract for a project outside Australia?
+    type: yes/no
+    used_by: A (refers)
+  - id: qs.pi.dc.class2_pct
+    text: What percentage of your revenue from construction contracts in the last 12 months came from Class 2 (apartment) buildings? For single-project cover, enter 100 if the project is a Class 2 building and 0 if it is not.
+    type: percentage
+    used_by: R, E (Apartment Buildings Sub-limit)
+  - id: qs.pi.dc.max_storeys
+    text: What is the greatest number of storeys of any building designed under your construction contracts in the last three years? For single-project cover, enter the number of storeys of the project.
+    type: number
+    used_by: R, E (Apartment Buildings Sub-limit)
+  - id: qs.pi.dc.cladding_exclusion_removal
+    text: Are you asking for the combustible cladding exclusion to be removed?
+    type: yes/no, with details
+    used_by: E (Combustible Cladding Exclusion)
+  - id: qs.pi.dc.nsw_registration
+    text: Is any principal registered under the Design and Building Practitioners Act 2020 (NSW)? If so, in which class and from what date?
+    type: text
+    used_by: S (NSW Registered Practitioners extension)
+  - id: qs.pi.dc.project_name
+    text: Project name and description of the work
+    type: text
+    used_by: S (single-project basis)
+  - id: qs.pi.dc.project_address
+    text: Project site address
+    type: text
+    used_by: S (single-project basis)
+  - id: qs.pi.dc.project_type
+    text: Type of project
+    type: select
+    used_by: R (single-project basis)
+    options:
+    - dc.residential_detached
+    - dc.residential_multi
+    - dc.commercial
+    - dc.fitout
+    - dc.building_services
+  - id: qs.pi.dc.contract_value
+    text: Total value of the construction contract for the project
+    type: currency
+    used_by: R (single-project basis exposure)
+  - id: qs.pi.dc.construction_months
+    text: Construction period, in months, from the start date to the expected date of practical completion
+    type: number
+    used_by: R (single-project basis)
+  - id: qs.pi.dc.reporting_years
+    text: Reporting period after the construction period, in years
+    type: select
+    used_by: R (single-project basis)
+    options: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+  - id: qs.pi.dc.project_started
+    text: Has design or construction work on the project already started?
+    type: yes/no, with details
+    used_by: A (refers; cover for work already performed)

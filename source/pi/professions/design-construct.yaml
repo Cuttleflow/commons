@@ -1,0 +1,103 @@
+id: pi-design-construct
+title: Design and Construct Professional Indemnity Insurance
+class: PROFESSIONAL INDEMNITY INSURANCE · DESIGN AND CONSTRUCT
+kicker: Meridian Commons · Professional Indemnity · Design and Construct
+slug: design-construct
+file_stem: Meridian_PI_Design_Construct
+doc_ref: 2026/PI/0013
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Integrated professional indemnity wording for builders and trade contractors who take design responsibility
+  under their construction contracts, on an annual basis or for a single project, built on the Meridian PI base wording.
+base: pi-base@1.5.0-DRAFT
+supersedes: None. New wording (Linear PLT-1405). The design and construct section of the Construction All Risks and
+  Liability wording (2026/CARL/0001) is unchanged.
+overrides:
+- op: replace
+  target: pi.def.professional-services
+  with: pi.dc.def.professional-services
+- op: add
+  clause: pi.dc.def.construction-contract
+  after: pi.def.confidential-information
+- op: add
+  clause: pi.dc.def.construction-work
+  after: pi.dc.def.construction-contract
+- op: add
+  clause: pi.dc.def.design-consultant
+  after: pi.def.defence-costs
+- op: add
+  clause: pi.dc.ext.design-rectification
+  after: pi.ext.mitigation-costs
+- op: replace
+  target: pi.ext.subcontractors-and-outsourcers
+  with: pi.dc.ext.design-consultants
+- op: add
+  clause: pi.dc.ext.nsw-registered-practitioners
+  after: pi.dc.ext.design-consultants
+- op: add
+  clause: pi.dc.excl.construction-workmanship
+  after: pi.excl.products
+- op: add
+  clause: pi.dc.excl.own-rectification-costs
+  after: pi.dc.excl.construction-workmanship
+- op: add
+  clause: pi.dc.excl.delay-and-cost-overruns
+  after: pi.dc.excl.own-rectification-costs
+- op: add
+  clause: pi.dc.excl.liquidated-damages
+  after: pi.excl.contractual-liability
+- op: add
+  clause: pi.dc.excl.excluded-projects
+  after: pi.excl.non-compensatory-payments
+- op: add_section
+  section: pi.dc.section.single-project
+  after: pi.section.conditions
+  clauses:
+  - pi.dc.sp.project-covered
+  - pi.dc.sp.policy-period
+  - pi.dc.sp.limit-of-liability
+  - pi.dc.sp.provisions-not-applying
+  - pi.dc.sp.premium-and-cancellation
+- op: add
+  clause: pi.dc.library.optional-endorsements
+  after: pi.endorsement-library
+- op: add
+  clause: pi.dc.end.combustible-cladding
+  after: pi.dc.library.optional-endorsements
+- op: add
+  clause: pi.dc.end.apartment-buildings
+  after: pi.dc.end.combustible-cladding
+regulatory_basis:
+- topic: NSW — Design and Building Practitioners Act 2020 and Regulation 2021
+  status: Registered design practitioners and professional engineers must hold PI. The requirement for registered building
+    practitioners is deferred to 1 July 2027. Met by the NSW Registered Practitioners extension (retroactive date = first
+    registration for regulated work); the terms prescribed for building practitioners are to be confirmed (WP REVIEW).
+  review_by: 2027-06-30
+- topic: NSW — s 37 duty of care, non-delegable under s 39 (Pafburn Pty Ltd v The Owners - Strata Plan No 84674 [2024] HCA 49)
+  status: Developers and head contractors cannot rely on proportionate liability for the s 37 duty. Addressed by the Design
+    Consultants and Subcontractors extension, and by the Apartment Buildings Sub-limit referral for Class 2 work.
+  review_by: 2027-06-30
+- topic: Queensland — QBCC licensing and the Queensland Building and Construction Commission Act 1991
+  status: No statutory PI requirement found for licensed builders' design work; base Licences, Registrations and
+    Accreditations condition applies
+  review_by: 2027-06-30
+proposal_questions:
+- Revenue from construction contracts with design responsibility, by contract type, for the last and coming financial years,
+  and total construction revenue.
+- 'Design consultants: share of design they perform; whether each holds its own professional indemnity insurance; whether
+  your subcontracts require them to indemnify you.'
+- Class 2 buildings, number of storeys, external cladding, fitness-for-purpose warranties and excluded project types.
+- 'Single-project cover: the project, its site, contract value, construction period, reporting period, and whether design
+  or construction has started.'
+decisions:
+- '2026-11-27: New profession wording on the PI base (decision D1, Linear PLT-1405). Annual and single-project bases in one
+  wording; the single-project basis is a section that applies only when the schedule shows it.'
+- '2026-11-27: Design procured from design consultants is covered as the insured''s own (Design Consultants and Subcontractors
+  extension), whether or not the consultant is insured; recovery rights preserved.'
+- '2026-11-27: Workmanship and the insured''s own rectification costs excluded; a third party''s cost of rectifying work built
+  to a defective design is covered; Design Rectification Costs extension sub-limited by default to one quarter of the limit.'
+- '2026-11-27: Combustible cladding exclusion applies by default; removal refers (decision D9).'
+- '2026-11-27: Class 2 buildings and buildings over three storeys refer through the Apartment Buildings Sub-limit (decision D9).'
+- '2026-11-27: Single project: one aggregate limit for the whole period, no automatic reinstatement, premium fully earned from
+  the start date (decision D7); an extension of the construction period needs our written agreement.'
