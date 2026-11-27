@@ -1,0 +1,159 @@
+id: nur-base
+title: Nursery and Greenlife Package Insurance
+class: NURSERY AND GREENLIFE PACKAGE INSURANCE
+kicker: Meridian Commons · Nursery and Greenlife
+slug: nursery-greenlife
+file_stem: Meridian_Nursery_Greenlife
+doc_ref: 2026/NUR/0001
+version: 1.0.0-DRAFT
+date: November 2026
+draft: true
+summary: Property including plant stock, deterioration of stock, business interruption, theft, machinery breakdown, transit and public and products liability for production nurseries, turf and flower growers and garden centres.
+supersedes: New wording.
+structure:
+- section: preamble
+  clauses:
+  - nur.about
+  - nur.version-history
+  - nur.important-information
+  - nur.schedule
+- section: nur.section.definitions
+  clauses:
+  - nur.def.biosecurity-law
+  - nur.def.breakdown
+  - nur.def.buildings
+  - nur.def.bushfire
+  - nur.def.climate-control-system
+  - nur.def.contents-and-equipment
+  - nur.def.damage
+  - nur.def.employee
+  - nur.def.endorsement
+  - nur.def.event
+  - nur.def.excess
+  - nur.def.flood
+  - nur.def.glasshouse
+  - nur.def.gross-profit
+  - nur.def.indemnity-period
+  - nur.def.insured-event
+  - nur.def.nursery-business
+  - nur.def.occurrence
+  - nur.def.personal-injury
+  - nur.def.plant-stock
+  - nur.def.plants-in-the-open
+  - nur.def.plants-under-cover
+  - nur.def.policy-period
+  - nur.def.pollutant
+  - nur.def.property-damage
+  - nur.def.shade-structure
+  - nur.def.situation
+  - nur.def.sum-insured
+  - nur.def.theft
+  - nur.def.turnover
+  - nur.def.vehicle
+  - nur.def.we-us-our
+  - nur.def.you-your
+  - nur.def.your-products
+- section: nur.section.property
+  clauses:
+  - nur.prp.cover
+  - nur.prp.insured-events
+  - nur.prp.plant-stock
+  - nur.prp.additional-benefits
+  - nur.prp.basis-of-settlement
+  - nur.prp.underinsurance
+  - nur.prp.exclusions
+- section: nur.section.deterioration
+  clauses:
+  - nur.det.cover
+  - nur.det.exclusions
+- section: nur.section.interruption
+  clauses:
+  - nur.bin.cover
+  - nur.bin.calculation
+  - nur.bin.exclusions
+- section: nur.section.theft
+  clauses:
+  - nur.th.cover
+  - nur.th.conditions
+  - nur.th.exclusions
+- section: nur.section.liability
+  clauses:
+  - nur.cover.liability
+  - nur.li.nursery-activities
+  - nur.li.fire-spread
+  - nur.li.care-custody-control
+  - nur.li.excl-workers
+  - nur.li.excl-contracts
+  - nur.li.excl-own-property
+  - nur.li.excl-vehicles
+  - nur.li.excl-pollution
+  - nur.li.excl-fines
+  - nur.li.excl-advice
+  - nur.li.excl-genetic
+  - nur.li.excl-disease
+  - nur.li.excl-prohibited-plants
+  - nur.li.excl-contracting
+  - nur.li.excl-own-brand-media
+  - nur.li.excl-events
+  - nur.li.excl-usa
+- section: nur.section.machinery
+  clauses:
+  - nur.mb.cover
+  - nur.mb.exclusions
+- section: nur.section.transit
+  clauses:
+  - nur.tr.cover
+  - nur.tr.exclusions
+- section: nur.section.general-payment
+  clauses:
+  - nur.pay.excess
+  - nur.pay.one-loss-one-section
+  - nur.pay.reinstatement
+  - nur.pay.gst
+  - nur.pay.other-insurance
+  - nur.pay.who-we-pay
+- section: nur.section.general-exclusions
+  clauses:
+  - nur.excl.war
+  - nur.excl.nuclear
+  - nur.excl.terrorism
+  - nur.excl.cyber
+  - nur.excl.deliberate-acts
+  - nur.excl.government-orders
+- section: nur.section.obligations
+  clauses:
+  - nur.obl.tell-us-about-claims
+  - nur.obl.reduce-loss
+  - nur.obl.admissions
+  - nur.obl.tell-us-about-changes
+  - nur.obl.subrogation
+- section: nur.section.conditions
+  clauses:
+  - nur.cond.insurance-contracts-act
+  - nur.cond.emergency-warnings
+  - nur.cond.cancellation
+  - nur.cond.renewal
+  - nur.cond.fraud
+  - nur.cond.sanctions
+  - nur.cond.interested-parties
+  - nur.cond.gst
+  - nur.cond.privacy
+  - nur.cond.disputes-and-complaints
+  - nur.cond.governing-law
+  - nur.cond.jurisdiction
+  - nur.cond.headings-and-references
+- section: end
+  clauses:
+  - nur.claims.how-to-make-a-claim
+  - nur.endorsement-library
+  - nur.end.e01
+  - nur.end.e02
+  - nur.end.e03
+  - nur.end.e04
+  - nur.end.e05
+  - nur.end.e06
+  - nur.end.e07
+  - nur.end.e08
+  - nur.end.e09
+  - nur.end.e10
+  - nur.licence-notice
