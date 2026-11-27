@@ -79,6 +79,7 @@
       "business-package",
       "tradies-package",
       "farm-pack",
+      "nursery-garden",
       "strata",
       "commercial-property-owners",
       "industrial-special-risks",
@@ -179,6 +180,7 @@
    "architects-engineers",
    "building-energy-sustainability",
    "building-surveyors-certifiers",
+   "design-construct",
    "education-training",
    "geoscience-mineral",
    "marketing-media",
@@ -454,6 +456,11 @@
    "title": "Building Surveyors and Certifiers Professional Indemnity Insurance",
    "short": "Building Surveyors and Certifiers"
   },
+  "design-construct": {
+   "cls": "Profession wording",
+   "title": "Design and Construct Professional Indemnity Insurance",
+   "short": "Design and Construct"
+  },
   "education-training": {
    "cls": "Profession wording",
    "title": "Education and Training Professional Indemnity Insurance",
@@ -523,6 +530,11 @@
    "cls": "Farm Pack",
    "title": "Farm Pack Insurance",
    "desc": "Farm property, livestock, farm interruption, theft, machinery breakdown, transit and farm liability cover for grazing, mixed farming, cropping, dairy, horticulture and viticulture businesses and hobby farms, with the farmhouse and vehicles on linked policies."
+  },
+  "nursery-garden": {
+   "cls": "Nursery and Garden",
+   "title": "Nursery and Garden Package Insurance",
+   "desc": "Property including plant stock, deterioration of stock, business interruption, theft, machinery breakdown, transit and public and products liability for production nurseries, turf and flower growers and garden centres."
   },
   "private-collections": {
    "cls": "Private Collections",
